@@ -7,6 +7,22 @@
       "build_source_folder": "financials",
       "build_output_subfolder": "financialssmb",
       "locale": "cs-cz",
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "financialssmbfull",
+      "build_source_folder": "FullExperience",
+      "build_output_subfolder": "financialssmbfull",
+      "locale": "cs-cz",
+      "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -19,7 +35,8 @@
   ],
   "notification_subscribers": [
     "edupont@microsoft.com",
-    "solsen@microsoft.com"
+    "solsen@microsoft.com",
+    "sgroespe@microsoft.com"
   ],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
