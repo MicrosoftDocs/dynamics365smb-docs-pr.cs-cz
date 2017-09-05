@@ -30,8 +30,11 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-	"searchScope": ["Financials"]
-	},
+      "searchScope": [
+        "Financials"
+      ],
+      "bilingual_type": "hover over"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "financialssmb"
