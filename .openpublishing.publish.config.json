@@ -1,9 +1,46 @@
 {
-  "docsets_to_publish": [],
+  "need_generate_pdf": true,
+  "docsets_to_publish": [
+    {
+      "docset_name": "d365accountant",
+      "build_source_folder": "accountant",
+      "build_output_subfolder": "d365accountant",
+      "locale": "cs-cz",
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "moniker_groups": [],
+      "version": 0
+    },
+    {
+      "docset_name": "d365businesscentral",
+      "build_source_folder": "business-central",
+      "build_output_subfolder": "d365businesscentral",
+      "locale": "cs-cz",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "financialssmb",
+      "build_source_folder": "financials",
+      "build_output_subfolder": "financialssmb",
+      "locale": "cs-cz",
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "moniker_groups": [],
+      "version": 0
+    }
+  ],
   "notification_subscribers": [
     "edupont@microsoft.com",
     "solsen@microsoft.com",
-    "sgroespe@microsoft.com"
+    "sgroespe@microsoft"
   ],
   "branches_to_filter": [],
   "continue_with_document_error": true,
@@ -17,6 +54,12 @@
       "branch_mapping": {}
     },
     {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/MicrosoftDocs/dynamics365smb-docs-pr",
       "branch": "live",
@@ -26,7 +69,22 @@
       }
     }
   ],
-  "need_generate_pdf_url_template": false,
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ],
+    "master": [
+      "Publish",
+      "Pdf"
+    ]
+  },
+  "need_generate_pdf_url_template": true,
+  "targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
+  "need_generate_intellisense": false,
+  "need_generate_pdf": false
 }
