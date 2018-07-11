@@ -1,10 +1,10 @@
 ---
 redirect_url: /dynamics365/business-central/product-news
 ms.translationtype: HT
-ms.sourcegitcommit: 2cce334e74ebcf37d53224d1b3246b2d0f9bd0fb
-ms.openlocfilehash: c984bb99998dff628c0d2d0dd931cceade02f121
+ms.sourcegitcommit: 228aa04f8899190a5b8fd0c3abf221955f3c0fc5
+ms.openlocfilehash: 6332e81116c9bc9b9ce8cc884c69fe946e05d55f
 ms.contentlocale: cs-cz
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 07/11/2018
 
 ---
 
