@@ -1,10 +1,10 @@
 ---
 redirect_url: /dynamics365/business-central/admin-cancel
 ms.translationtype: HT
-ms.sourcegitcommit: 2cce334e74ebcf37d53224d1b3246b2d0f9bd0fb
-ms.openlocfilehash: 66dcf562335f2849dcf868ffbeafea750610bd3e
+ms.sourcegitcommit: 228aa04f8899190a5b8fd0c3abf221955f3c0fc5
+ms.openlocfilehash: 645ac8a68510c4340148535c5c71791bb5300dff
 ms.contentlocale: cs-cz
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 07/11/2018
 
 ---
 

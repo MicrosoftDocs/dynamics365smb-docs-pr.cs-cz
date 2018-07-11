@@ -1,10 +1,10 @@
 ---
 redirect_url: /dynamics365/business-central/admin-no-outlook
 ms.translationtype: HT
-ms.sourcegitcommit: 2cce334e74ebcf37d53224d1b3246b2d0f9bd0fb
-ms.openlocfilehash: bbd22732f5458f85bec95d935da5956441950070
+ms.sourcegitcommit: 228aa04f8899190a5b8fd0c3abf221955f3c0fc5
+ms.openlocfilehash: b9d095b04b4de68f5fa36092c4c6eec71d36316f
 ms.contentlocale: cs-cz
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 07/11/2018
 
 ---
 
