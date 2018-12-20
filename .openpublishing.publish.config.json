@@ -1,5 +1,4 @@
 {
-  "need_generate_pdf": true,
   "docsets_to_publish": [
     {
       "docset_name": "d365accountant",
@@ -8,6 +7,11 @@
       "locale": "cs-cz",
       "monikers": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "moniker_groups": [],
@@ -21,6 +25,27 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "d365smbinvoicing",
+      "build_source_folder": "invoicing",
+      "build_output_subfolder": "d365smbinvoicing",
+      "locale": "cs-cz",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     },
@@ -31,6 +56,11 @@
       "locale": "cs-cz",
       "monikers": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "moniker_groups": [],
@@ -39,9 +69,9 @@
   ],
   "notification_subscribers": [
     "edupont@microsoft.com",
-    "solsen@microsoft.com",
-    "sgroespe@microsoft"
+    "solsen@microsoft.com"
   ],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [
     "live-sxs"
   ],
@@ -82,11 +112,7 @@
     ]
   },
   "need_generate_pdf_url_template": true,
-  "targets": {
-    "Pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  },
+  "targets": {},
   "need_generate_intellisense": false,
   "need_generate_pdf": false
 }
