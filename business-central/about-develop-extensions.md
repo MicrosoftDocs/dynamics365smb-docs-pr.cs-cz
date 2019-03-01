@@ -14,7 +14,7 @@ ms.date: 10/01/2018
 ms.author: edupont
 
 ---
-# Extending [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] CZ
+# Extending [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is a business management solution that helps companies connect their financials, sales, service, and operations to streamline business processes, improve customer interactions, and make better decisions. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is available in the cloud and to users across various multiple types of devices, which is always up-to-date. With this modern business platform you can easily and quickly tailor, extend, and build applications so they fit your specific needs — with little to no code development.  
 
 There are plenty of benefits of using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a platform for App builders, which includes:
