@@ -78,7 +78,7 @@ Pokud migrujete účty, migrují se také následující data:
 * Nastavení účtování zásob
 * Nastavení obecného účtování
 * List deníku zboží
-* Otevřené transakce (položky Položky)
+* Otevřené transakce (položky zboží)
 
 > [!Note]
 > Pokud existují otevřené transakce, které používají cizí měny, migrují se také směnné kurzy pro tyto měny. Ostatní směnné kurzy migrovány nejsou.
@@ -91,10 +91,10 @@ Pokud migrujete účty, migrují se také následující data:
 > S historickými finančními transakcemi se zachází trochu jinak. Při migraci dat nastavíte parametr **Aktuální období**. Tento parametr určuje, jak zpracovat finanční transakce. Transakce po tomto datu se migrují jednotlivě. Transakce před tímto datem jsou agregovány na jeden účet a migrovány jako jedna částka. Řekněme například, že existují transakce v letech 2015, 2016, 2017, 2018 a do pole Aktuální období zadáte 01.01.2017. Pro každý finanční účet budou částky za transakce k 31. prosinci 2106 nebo dříve sloučeny do jediného řádku finančního deníku. Všechny transakce po tomto datu budou migrovány jednotlivě.
 
 ## <a name="file-size-requirements"></a>Požadavky na velikost souboru
-Největší velikost souboru, který můžete nahrát do [!INCLUDE[d365fin](includes/d365fin_md.md)], je 150 MB. Pokud je soubor exportovaný z C5 větší, zvažte migraci dat pomocí více souborů. Například exportujte jeden nebo dva typy entit z C5, jako jsou například zákazníci a dodavatelé, do jednoho souboru, a poté exportujte položky do jiného souboru atd. Soubory můžete v [!INCLUDE[d365fin](includes/d365fin_md.md)] importovat jednotlivě.
+Největší velikost souboru, který můžete nahrát do [!INCLUDE[d365fin](includes/d365fin_md.md)], je 150 MB. Pokud je soubor exportovaný z C5 větší, zvažte migraci dat pomocí více souborů. Například exportujte jeden nebo dva typy entit z C5, jako jsou například zákazníci a dodavatelé, do jednoho souboru, a poté exportujte zboží do jiného souboru atd. Soubory můžete v [!INCLUDE[d365fin](includes/d365fin_md.md)] importovat jednotlivě.
 
 ## <a name="to-migrate-data"></a>Migrace dat
-Je třeba učinit jen několik kroků k exportu dat z C5 a jejich importu do [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Je třeba učinit jen pár kroků k exportu dat z C5 a jejich importu do [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. V C5 exportujte data pomocí funkce **Export databáze**. Poté odešlete exportovanou složku do komprimované (zip) složky.  
 2. V [!INCLUDE[d365fin](includes/d365fin_md.md)] vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Migrace Dat** a poté zvolte **Migrace Dat**.  
@@ -116,7 +116,7 @@ Abychom se vyhnuli dvojímu účtování do hlavní knihy, pro otevřené transa
 ## <a name="correcting-errors"></a>Opravy chyb
 Pokud se něco pokazí a dojde k chybě, v poli **Stav** se zobrazí **Dokončeno s chybami** a v poli **Počet chyb** se zobrazí jejich počet. Chcete-li zobrazit seznam chyb, můžete otevřít stránku **Chyby dat migrace** výběrem:  
 
-* Číslo v poli **Počet chyb** pro entitu.  
+* Čísla v poli **Počet chyb** pro entitu.  
 * Zvolením entity a potom akce **Zobrazit chyby**.  
 
 Na stránce **Chyby dat migrace** můžete opravit chybu tak, že si vyberete chybovou zprávu a poté zvolíte **Upravit záznam**, čímž se zobrazí migrovaná data pro entitu. Pokud máte několik chyb k opravě, můžete použít možnost **Hromadné opravy chyb** a upravit entity v seznamu. Stále však musíte otevírat jednotlivé záznamy, pokud byla chyba způsobena související položkou. Například dodavatel nebude migrován, pokud má e-mailová adresa jednoho z jeho kontaktů neplatný formát.
@@ -143,5 +143,5 @@ Jedním ze způsobů, jak ověřit, zda vaše data byla správně migrována, je
 Migraci dat můžete zastavit výběrem **Zastavit všechny migrace**. Pokud tak učiníte, zastaví se také všechny čekající migrace.
 
 ## <a name="see-also"></a>Viz také
-[Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)] Pomocí rozšíření](ui-extensions.md)  
+[Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí rozšíření](ui-extensions.md)  
 [Začínáme](product-get-started.md)

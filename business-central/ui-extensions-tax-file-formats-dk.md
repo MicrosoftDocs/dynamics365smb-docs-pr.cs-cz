@@ -15,9 +15,9 @@ ms.author: bholtorf
 ---
 
 # <a name="the-tax-file-formats-dk-extension"></a>Rozšíření Tax File Formats (DK) 
-Pokud obchodujete se společnostmi nebo interními pobočkami nebo dceřinými společnostmi v jiných zemích EU, musíte o činnosti informovat SKAT a Dánsko. Pokud používáte funkce pro hlášení DPH a Intrastat v [!INCLUDE[d365fin](includes/d365fin_md.md)], může toto rozšíření zajistit, že exportovaný soubor bude kompatibilní s požadavky těchto organizací. Rozšíření přidá do vaší konfigurace sestavy DPH MS-ECSL Report Export File a Intrastat Export Lines submission codeunits, takže můžete okamžitě exportovat data v novém formátu.
+Pokud obchodujete se společnostmi nebo interními pobočkami nebo dceřinými společnostmi v jiných zemích EU, musíte o činnosti informovat SKAT a dánsky statistický úřad. Pokud používáte funkce pro hlášení DPH a Intrastat v [!INCLUDE[d365fin](includes/d365fin_md.md)], může toto rozšíření zajistit, že exportovaný soubor bude kompatibilní s požadavky těchto organizací. Rozšíření přidá do vaší konfigurace sestavy DPH MS-ECSL Report Export File a Intrastat Export Lines submission codeunits, takže můžete okamžitě exportovat data v novém formátu.
 
 Rozšíření je zdarma, stačí jej nainstalovat.
 
 ## <a name="see-also"></a>Viz také
-[Přizpůsobení Business Central Použitím Rozšíření](ui-extensions.md)
+[Přizpůsobení Business Central použitím rozšíření](ui-extensions.md)

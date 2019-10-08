@@ -20,7 +20,7 @@ Jako měřítko výkonu program shromažďuje informace o dostupnosti na stránc
 
 Zboží se sériovým číslem nebo číslem šarže lze v dodavatelském řetězci sledovat zpět i vpřed. To je užitečné pro obecné zajištění kvality a stahování produktů z trhu. Pro více informací navštivte [Sledování zboží - Sledované zboží](inventory-how-to-trace-item-tracked-items.md).
 
-## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>O vyzvednutí sériových čísel nebo čísel šarží ve skladu
+## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Vybírání sériových čísel nebo čísel šarží ve skladu
 Odchozí zpracování sériových čísel nebo čísel šarží je častým úkolem v různých skladových procesech.  
 
 V některých procesech skladové položky nenesou sériová čísla nebo čísla šarže a pracovník skladu musí při odchozí manipulaci přiřadit nové číslo, obvykle z předdefinované číselné řady.
@@ -46,7 +46,7 @@ Na stránce **Č. Šarže / Sériové č.-Seznam**,  **Č. Šarže / Sériové �
 
 Pokud na stránce **Řádky sledování zboží** pracujete dlouhou dobu nebo pokud existuje velká aktivita se zbožím, s kterým pracujete, můžete zvolit akci **Aktualizovat dostupnost**. Kromě toho, když zavřete stránku, je dostupnost zboží automaticky znovu zkontrolována abyste se ujistili, že neexistují žádné problémy s dostupností.
 
-## <a name="to-set-up-item-tracking-codes"></a>Nastavení kódů sledovaného zboží
+## <a name="to-set-up-item-tracking-codes"></a>Nastavení kódů sledování zboží
 Kód sledování zboží odráží různé aspekty, které má společnost ohledně používání sériových čísel a čísel šarží pro zboží pohybujíce se v zásobách.  
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Kódy sledování zboží** a poté vyberte související odkaz.  
@@ -67,8 +67,8 @@ U některých zboží můžete chtít v kódu sledování zboží nastavit konkr
 
     |Pole|Popis|  
     |---------------------------------|---------------------------------------|  
-    |**Přísné účtování expirace**|Určuje, že datum expirace přidělený k číslu sledování zboží, když vstoupilo do zásob, musí být respektován, když zásoby opouští.|  
-    |**Pož. ruč. zadání data platnosti**|Určuje, že na řádku sledování položky musíte ručně zadat datum záruky.|  
+    |**Přísné účtování expirace**|Určuje, že datum expirace přidělené k číslu sledování zboží, když vstoupilo do zásob, musí být respektováno, když zásoby opouští.|  
+    |**Pož. ruč. zadání data platnosti**|Určuje, že musíte ručně zadat datum vypršení platnosti na řádku sledování zboží.|  
     |**Ignorovat data vypršení platnosti**|Určuje, že nechcete počítat data vypršení platnosti. |  
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Nastavení záruk na sériová čísla nebo čísla šarže  
@@ -153,7 +153,7 @@ Různá pravidla pro čísla sledovaného zboží jsou nastavena na stránce **K
 
     Čísla pro sledování zboží můžete přiřadit následujícími způsoby:  
     -   Automaticky z předdefinovaných číselných řad: Vyberte akci **Přiřadit sér.číslo** nebo **Přiřadit č.šarže**.  
-    -   Automaticky na základě parametrů, které definujete konkrétně pro odchozí zboží: Zvolte akci **Vytvořit vlastní s.č.**.  
+    -   Automaticky na základě parametrů, které definujete konkrétně pro odchozí zboží: Vyberte tlačítko **vytvořit ID zákazníka **.  
     -   Ručně zadáním sériových čísel nebo čísel šarží, bez použití číselné řady.  
 
 2.  Při tomto postupu přiřaďte sériové číslo automaticky výběrem **Přiřadit sér.číslo**.  
@@ -175,7 +175,7 @@ Když pracujete se zbožím, které vyžaduje sledování zboží a vytváříte
 >  Chcete-li zpracovat čísla sledování zboží v činnostech skladu, musí být zboží nastaveno pomocí Sledování šarže ve skladu/Sledování s.čísel ve skladu, protože to určuje zvláštní zásady upravující sériová čísla a čísla šarže ve skladu.
 
 1.  Z libovolného odchozího dokladu vyberte řádek, pro který chcete vybrat sériové číslo nebo číslo šarže.  
-2.  Na záložce **Řádky** vyberte akci **Akce**, vyberte akci **Řádek** nebo **Položka** a poté vyberte akci **Řádky sledování zboží**.  
+2.  Na záložce **Řádky** vyberte akci **Akce**, vyberte akci **Řádek** nebo **Zboží** a poté vyberte akci **Řádky sledování zboží**.  
 3.  Na stránce **Řádky sledování zboží** máte tři možnosti pro zadání čísla šarže nebo sériového čísla:  
 
     -   Vyberte pole **Číslo šarže** nebo **Sériové číslo** a potom vyberte číslo na stránce **Souhrn sledování zboží**.  
@@ -185,7 +185,7 @@ Když pracujete se zbožím, které vyžaduje sledování zboží a vytváříte
 5. Klikněte na tlačítko **OK** a vybrané informace o sledovaném zboží se přenesou na stránku **Řádky sledování zboží**.  
 6. Zadejte nebo naskenujte číslo sledování zboží.
 
-Pole matice množství v záhlaví dynamicky zobrazuje množství a součty čísel sledovaných zboží, které na stránce definujete. Množství musí odpovídat množství v řádku dokladu, které je v polích **Nedefinováno** označeno **0**.  
+Pole matice množství v záhlaví dynamicky zobrazuje množství a součty čísel sledovaného zboží, které na stránce definujete. Množství musí odpovídat množství v řádku dokladu, které je v polích **Nedefinováno** označeno **0**.  
 
  Když zaúčtujete řádek dokladu, informace o sledování zboží se přenesou do přidružených položek zboží.
 
@@ -195,7 +195,7 @@ Postupy pro zpracování sériových čísel a čísel šarží, které se přen
 Objednávka transferu je však jedinečná v tom, že zásilka i příjem jsou prováděny ze stejného řádku transferu, a proto používají stejnou instanci na stránce **Řádky sledování zboží**. To znamená, že sledovací čísla zboží dodávaná z jedné lokace musí být přijata beze změny na druhé lokaci.  
 
  Přesná pravidla pro zpracování čísel sledování zboží ve vaší společnosti se řídí nastavením tabulky **Kód sledování zboží**.    
-1.  Vyberte ![Žárovku, která otevře funkci Řekněte Mi], ikonu (media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Objednávky transferu** a poté vyberte související odkaz.  
+1.  Vyberte ![Žárovku, která otevře funkci Řekněte Mi], ikonu (media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** transferu objednávky** a poté vyberte související odkaz.  
 2.  Otevřete objednávku transferu, kterou chcete zpracovat. Na záložce **Řádky** vyberte akci **Řádek**, vyberte akci **Řádky sledování zboží** a pak vyberte akci **Dodávka**.  
 3.  Na stránce **Řádky sledování zboží** přiřaďte nebo vyberte sériová čísla nebo čísla šarže jako u jakékoli jiné odchozí transakce zboží.  
 
@@ -205,8 +205,8 @@ Objednávka transferu je však jedinečná v tom, že zásilka i příjem jsou p
 
 Během přenosu zůstane stránka **Řádky sledování zboží** zamčena pro zápis.  
 
-## <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Zpracování sériových čísel a čísel šarží při získávání účtenek z nákupní faktury  
-Pokud pomocí funkce získáte řádky zaúčtované účtenky nebo dodávky ze souvisejících faktur nebo dobropisů, pak se všechny řádky pro sledování zboží v dokladech skladu přenášejí automaticky, jsou však zpracovávány zvláštním způsobem.
+## <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Zpracování sériových čísel a čísel šarží z řádků nákupní faktury  
+Pokud pomocí funkce získáte řádky zaúčtovaného dokladu nebo dodávky ze souvisejících faktur nebo dobropisů, pak se všechny řádky pro sledování zboží v dokladech skladu přenášejí automaticky, jsou však zpracovávány zvláštním způsobem.
 
 Funkce podporuje následující příchozí procesy:  
 -   **Kopie řádků příjemky** - z kupní faktury.  
@@ -233,14 +233,14 @@ Obsah polí **Sériové číslo** a **Číslo šarže** nelze upravovat. Můžet
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Přeřazení sériových čísel nebo čísel šarží  
 Přeřazení sledování zboží u zboží znamená změnu šarže nebo sériového čísla na novou šarži nebo sériové číslo nebo změnu data vypršení platnosti na nové datum vypršení platnosti. Pokud pracujete se šaržemi, můžete také sloučit více šarží do jedné. Tyto úkoly provádíte pomocí deníku přeřazení zboží.
 
-1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Deník přeřazení  zboží** a poté vyberte související odkaz.  
-2.  Vyplňte řádek s příslušnými informacemi. Pro více informací navštivte [Počítat, upravovat a přeřazovat zásoby](inventory-how-count-adjust-reclassify.md).
+1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Deníky zboží** a poté vyberte související odkaz.  
+2.  Vyplňte řádek s příslušnými informacemi. Pro více informací navštivte [Vypočítat, upravovat a přeřazovat zásoby](inventory-how-count-adjust-reclassify.md).
 3.  Vyberte akci **Řádky sledování zboží**.  
 4.  V poli **Sériové číslo** nebo **Číslo šarže** vyberte aktuální sériové číslo nebo číslo šarže.  
 5.  Pokud chcete zadat nové číslo sledování zboží, zadejte jej do pole **Nové sériové číslo** nebo **Nové číslo šarže**. Pokud chcete, můžete sloučit jednu nebo více šarží do jedné nové nebo existující šarže.  
 
     > [!NOTE]  
-    >  Uvědomte si, že když přeřadíte data expirace, budou nejprve navrženo zboží s nejčasnějšími daty expirace pro odchozí transakce. Pro více informací navštivte [Sbíraní FEFO](warehouse-picking-by-fefo.md).  
+    >  Uvědomte si, že když přeřadíte data expirace, budou nejprve navrženo zboží s nejčasnějšími daty expirace pro odchozí transakce. Pro více informací navštivte [Vyskladnění pomocí FEFO](warehouse-picking-by-fefo.md).  
 
 5.  Pokud chcete zadat nové datum expirace sériového čísla nebo čísla šarže, zadejte je do pole **Nové datum expirace**.  
 
@@ -259,7 +259,7 @@ Přeřazení sledování zboží u zboží znamená změnu šarže nebo sériov�
 ## <a name="see-also"></a>Viz také
 [Sledování zboží](inventory-how-to-trace-item-tracked-items.md)   
 [Zásoby](inventory-manage-inventory.md)  
-[Podrobnosti o designu: Sledování zboží](design-details-item-tracking.md)
-[Podrobnosti o designu - sledování a rezervace zboží](design-details-item-tracking-and-reservations.md)  
-[Reservace zboží](inventory-how-to-reserve-items.md)  
+[Podrobnosti návrhu: Sledování zboží](design-details-item-tracking.md)
+[Podrobnosti o návrhu- sledování a rezervace zboží](design-details-item-tracking-and-reservations.md)  
+[Rezervace zboží](inventory-how-to-reserve-items.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

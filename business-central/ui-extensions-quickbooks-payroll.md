@@ -19,9 +19,9 @@ Použijte rozšíření QuickBooks Payroll File Import pro import transakcí mez
 ## <a name="steps-to-import-payroll-data"></a>Kroky pro import mzdových dat
 Prvním krokem je, pro vás nebo vašeho účetního, použití funkcí exportu v QuickBooks k exportu mzdových dat do souboru .IIF. Druhým krokem je otevření stránky **Hlavní deníky** v [!INCLUDE[d365fin](includes/d365fin_md.md)] a výber akce **Import mzdových transakcí** pro import souboru.  Během procesu importu namapujte účty hlavní knihy z QuickBooks na odpovídající účty v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Posledním krokem je zaúčtování mzdových transakcí v [!INCLUDE[d365fin](includes/d365fin_md.md)] podle mapování účtů. 
 
-Pro více informací běžte na [Import mzdových transakcí](finance-how-import-payroll-transactions.md).
+Pro více informací navštivte [Import mzdových transakcí](finance-how-import-payroll-transactions.md).
 
 ## <a name="see-also"></a>Viz také
-[Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)] Pomocí rozšíření ](ui-extensions.md)    
+[Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí rozšíření ](ui-extensions.md)    
 [Finance](finance.md)    
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

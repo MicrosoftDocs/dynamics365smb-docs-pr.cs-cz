@@ -1,6 +1,6 @@
 ---
 title: Vyhledávání a filtrování v Business Central
-description: Odpovědi na často kladené otázky týkající se Hledání a Filtrování.
+description: Odpovědi na často kladené otázky týkající se hledání a filtrování.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,29 +12,29 @@ ms.date: 10/01/2018
 ms.author: mikebc
 ---
 
-# <a name="searching-and-filtering-faq"></a>Vyhledávání a Filtrování FAQ
+# <a name="searching-and-filtering-faq"></a>Vyhledávání a filtrování FAQ
 Tento článek odpovídá na běžné otázky, které můžete mít ohledně vyhledávání a filtrování.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Existuje rozdíl mezi vyhledáváním a filtrováním?
 Ano.
 - Vyhledávání je jednoduché a široké: odpovídá záznamům, které obsahují hledaný text ve všech viditelných polích na stránce a nerozlišuje velká a malá písmena.
-- Filtrování je vysoce flexibilní a lze jej použít na určitá pole, včetně těch, která nejsou na stránce viditelná: zobrazuje záznamy s přesnými shodami rozlišujícími velká a malá písmena, ale lze jej upravit pomocí výkonných vyhledávacích symbolů, tokenů a vzorců. Další informace o použití těchto funkcí naleznete v části [Řazení, Vyhledávání a Filtrování v Seznamech](ui-enter-criteria-filters.md).
+- Filtrování je vysoce flexibilní a lze jej použít na určitá pole, včetně těch, která nejsou na stránce viditelná: zobrazuje záznamy s přesnými shodami rozlišujícími velká a malá písmena, ale lze jej upravit pomocí výkonných vyhledávacích symbolů, tokenů a vzorců. Další informace o použití těchto funkcí naleznete v části [Řazení, vyhledávání a filtrování seznamů](ui-enter-criteria-filters.md).
 
-## <a name="is-there-a-keyboard-experience-for-search-and-filter"></a>Existuje možnost použití pouze klávesnice pro vyhledávání a filtrování?
+## <a name="is-there-a-keyboard-experience-for-search-and-filter"></a>Je vyhledávání a filtrování podporováno pro striktní použití klávesnice?
 Vyhledávání a filtrování byla vysoce optimalizována pro uživatele, kteří dávají přednost interakci bez myši, aby s daty pracovali efektivně. Existuje celá řada klávesových zkratek, které lze použít postupně pro rychlou práci. Další informace naleznete v [Klávesové zkratky](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Je podokno filtrů dostupné ve všech seznamech?
-Podokno filtrů je k dispozici na stránkách, kde je seznam primárním obsahem na stránce, jako jsou sešity a stránky seznamu, včetně seznamů dostupných na navigačním panelu. Podokno filtrů zatím není k dispozici pro vložené seznamy, například prodejní řádky v prodejních objednávkách, ani pro seznamy s dynamickými sloupci (často označované jako maticové stránky)
+Podokno filtrů je k dispozici na stránkách, kde je seznam primárním obsahem na stránce, jako jsou sešity a stránky seznamu, včetně seznamů dostupných na navigačním panelu. Podokno filtrů zatím není k dispozici pro vložené seznamy, například prodejní řádky v prodejních objednávkách, ani pro seznamy s dynamickými sloupci (často označované jako maticové stránky).
 
 ## <a name="how-can-i-save-my-filters"></a>Jak mohu uložit mé filtry?
 
 Vaše filtry a úpravy předdefinovaných filtrů jsou zapamatovány po celou dobu relace (po dobu, co jste přihlášeni), i když opustíte stránku. V současné době není možné trvale ukládat filtry. Na rozdíl od filtrů hledaný text není zapamatován, když opustíte stránku.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Je to stejné jako Pokročilé filtry a Omezení součtů v Microsoft Dynamics NAV?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] staví na těchto oblíbených funkcích a poskytuje moderní a vysoce použitelné zkušenosti pro vyhledávání a analýzu vašich dat. Pomocí více klávesových zkratek a zavedení vyhledávání [!INCLUDE[d365fin](includes/d365fin_md.md)] překonává funkce poskytované v Dynamics NAV.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] staví na těchto oblíbených funkcích a poskytuje moderní a vysoce použitelné zkušenosti pro vyhledávání a analýzu vašich dat. S pomocí více klávesových zkratek a zavedení vyhledávání [!INCLUDE[d365fin](includes/d365fin_md.md)] překonává funkce poskytované v Dynamics NAV.
 
 ## <a name="can-i-search-and-filter-using-the-companion-apps-and-outlook-addin"></a>Mohu vyhledávat a filtrovat pomocí aplikací pro doprovodná zařízení a aplikace Outlook AddIn?
-Na různých zobrazení, jako jsou mobilní zařízení nebo v aplikaci Outlook, můžete vyhledávat v seznamech, ale ve většině případů nelze filtrovat v jednotlivých polích.
+Na jiných cílech zobrazení, jako jsou mobilní zařízení nebo v aplikaci Outlook, můžete vyhledávat v seznamech, ale ve většině případů nelze filtrovat v jednotlivých polích.
 
 ## <a name="is-the-filter-pane-available-for-filtering-reports"></a>Je podokno filtrů dostupné pro filtrování sestav?
 Ne. V současné době dialogové okno filtru sestav, běžně označované jako stránka požadavku, používá jinou možnost, která poskytuje některé, ale ne všechny, možnosti podokna filtrů.

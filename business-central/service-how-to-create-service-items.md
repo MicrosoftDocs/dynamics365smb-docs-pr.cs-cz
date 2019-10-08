@@ -1,6 +1,6 @@
 ---
 title: Vytváření Předmětů servisu | Microsoft Docs
-description: 'Když obdržíte neregistrované zboží pro servis, můžete jej zaregistrovat jako předmět servisu.'
+description: 'Když obdržíte neevidované zboží pro servis, můžete jej evidovat jako předmět servisu.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -14,7 +14,7 @@ ms.author: sgroespe
 # <a name="create-service-items"></a>Vytváření předmětů servisu
 V [!INCLUDE[d365fin](includes/d365fin_md.md)] se termín „předmět servisu“ vztahuje na vybavení nebo zboží, které vyžaduje servis. Při vytváření servisní zakázky určíte zboží, které vyžaduje servis. V zakázce můžete propojit předmět servisu se zbožím v zásobách nebo se skupinou předmětů servisu.    
 
-Když obdržíte zboží, které vyžaduje servis, můžete jej zaregistrovat jako předmět servisu. Toho lze dosáhnout několika způsoby. Například můžete vytvořit předmět servisu na stránce **Předměty servisu**, nebo v rámci jiného procesu, například při práci se servisní zakázkou.   
+Když obdržíte zboží, které vyžaduje servis, můžete jej zaevidovat jako předmět servisu. Toho lze dosáhnout několika způsoby. Například můžete vytvořit předmět servisu na stránce **Předměty servisu**, nebo v rámci jiného procesu, například při práci se servisní zakázkou.   
 
 ## <a name="to-create-a-service-item"></a>Vytvoření předmětu servisu  
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Předměty servisu** a poté vyberte související odkaz.
@@ -37,7 +37,7 @@ Následující postup ukazuje, jak vytvořit předměty servisu při odeslání 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Servisní zakázky** a poté vyberte související odkaz.  
 2. Otevřete příslušnou servisní zakázku.  
 3. Zvolte akci **Účtovat** nebo **Účtovat a Vytisknout**.  
-4. Zvolte akci **Dodávka** nebo **Dodávka a Faktura**.  
+4. Zvolte akci **Odeslat** nebo **Odeslat a fakturovat**.  
 5. Předměty servisu jsou automaticky vytvořeny pro zboží v zakázce za předpokladu, že patří do skupiny předmětů servisu, kterou jste nastavili pro vytváření předmětů servisu. Pokud jste zaregistrovali konkrétní sériová čísla na stránce **Řádky sledování zboží**, budou přiřazena k těmto předmětům servisu.  
 
 > [!NOTE]  
@@ -45,9 +45,9 @@ Následující postup ukazuje, jak vytvořit předměty servisu při odeslání 
 >   
 >  Pokud je zboží kusovník a nemáte rozbalený kusovník, vytvoří se pro něj předmět servisu na základě podmínky skupiny předmětů servisu, případně podmínky sériových čísel.  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Chcete-li vložit počáteční poplatek za předmět servisu
+## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Vložení počátečního poplatku k předmětu servisu
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Servisní úlohy** a poté vyberte související odkaz.
-2. Zvolte akci **Výkaz předmětu servisu**.
+2. Zvolte akci **Sešit předmětu servisu**.
 3. Zvolte řádek servisu, poté zvolte **Akce**, vyberte **Funkce**, a následně akci **Vložit poč.poplatek**.  
 
     S počátečním poplatkem je vložen servisní řádek typu **Náklady**. Počáteční poplatek se vztahuje na vybraný předmět servisu.

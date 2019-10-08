@@ -14,7 +14,7 @@ ms.author: sgroespe
 # <a name="record-special-purchase-prices-and-discounts"></a>Zaznamenávání speciálních nákupních cen a slev
 Různé smlouvy o cenách a slevách, které platí při nákupu od různých dodavatelů, musí být definovány tak, aby se dohodnutá pravidla a hodnoty vztahovaly na nákupní doklady, které pro dodavatele vytvoříte.
 
-Pokud jste zaznamenali speciální ceny a řádkové slevy za prodej a nákupy, [!INCLUDE[d365fin](includes/d365fin_md.md)] zajistí, že váš zisk z obchodu se zbožím je vždy optimální automatickým výpočtem nejlepší ceny na prodejních a nákupních dokladech a na řádcích deníků zboží a projektů. Pro více informací navštivte [Výpočet nejlepší ceny](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
+Pokud jste zaznamenali speciální ceny a řádkové slevy za prodej a nákupy, [!INCLUDE[d365fin](includes/d365fin_md.md)] zajistí, že váš zisk z obchodu se zbožím je vždy optimální automatickým výpočtem nejlepší ceny na prodejních a nákupních dokladech, a na řádcích deníků zboží a projektů. Pro více informací navštivte sekci [Výpočet nejlepší ceny](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 Pokud jde o ceny, můžete do nákupních řádků vložit speciální nákupní cenu, pokud existuje určitá kombinace dodavatele, zboží, minimálního množství, měrné jednotky nebo počátečního/koncového data.
 
@@ -60,12 +60,12 @@ Jakmile vás vaši dodavatelé informují o tom, které slevy z faktury poskytuj
 7. Do pole **Sleva %** zadejte slevu z faktury jako procento z částky faktury.
 8. Opakujte kroky 5 až 7 pro každou měnu, pro kterou dodavatel obdrží jinou slevu z faktury.
 
-Sleva z faktury je nyní nastavena a přiřazena dotyčnému dodavateli. Při výběru kódu dodavatele v části **Kód fakturační slevy**, na kartách dalších dodavatelů, je těmto prodejcům přidělena stejná sleva z faktury.
+Sleva z faktury je nyní nastavena a přiřazena dotyčnému dodavateli. Při výběru kódu dodavatele v části **Kód fakturační slevy** na kartách dalších dodavatelů je těmto prodejcům přidělena stejná sleva z faktury.
 
 ## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Pro výběr principu účtování nákupních slev  
-Když zaúčtujete nákupní fakturu, která obsahuje jednu nebo více slev, můžete si vybrat mezi dvěma principy pro účtování částek slev. Slevy můžete účtovat samostatně nebo můžete odečíst slevy z fakturačních slev.  
+Když zaúčtujete nákupní fakturu, která obsahuje jednu nebo více slev, můžete si vybrat mezi dvěma principy pro účtování částek slev. Slevy můžete účtovat samostatně nebo je můžete odečíst z fakturačních slev.  
 
-Než to budete moci udělat, budete muset mít již zřízené účty potřebné pro účtování částek slev do účetní osnovy. Musíte také zkontrolovat, zda jste zadali správná čísla účtů v nastavení obecného účtování v **Účet Nákupní řádkové slevy** a **Účet Nákupní . Fakturační slevy.**
+Než to budete moci udělat, budete muset mít již zřízené účty potřebné pro účtování částek slev do účetní osnovy. Musíte také zkontrolovat, zda jste zadali správná čísla účtů v nastavení obecného účtování v polích **Účet  nákupní řádkové slevy** a **Účet nákupní  fakturační slevy**.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení nákupu a závazků** a poté vyberte související odkaz.
 2. V poli **Účtování slevy** vyberte jeden z následujících principů účtování slev.
@@ -86,7 +86,7 @@ Pokud máte u jakýchkoli dodavatelů pevně stanovené podmínky pro slevy z fa
 
  Kromě procenta slevy můžete také spojit částku poplatku za služby s konkrétní částkou faktury.  
 
- Podmínky slevy z faktury můžete definovat v LM pro domácí dodavatele a v cizí měně pro zahraniční dodavatele.  
+ Podmínky slevy z faktury můžete definovat v lokální měně pro domácí dodavatele a v cizí měně pro zahraniční dodavatele.  
 
  Můžete si vybrat, zda chcete aby [!INCLUDE[d365fin](includes/d365fin_md.md)] automaticky vypočítal slevy na fakturách pro nabídky, hromadné objednávky, objednávky, faktury nebo dobropisy.  
 
@@ -96,14 +96,14 @@ Pokud máte u jakýchkoli dodavatelů pevně stanovené podmínky pro slevy z fa
 ## <a name="best-price-calculation"></a>Výpočet nejlepší ceny
 Pokud jste zaznamenali speciální ceny a řádkové slevy za prodej a nákupy, [!INCLUDE[d365fin](includes/d365fin_md.md)] zajistí, že váš zisk z obchodu se zbožím je vždy optimální automatickým výpočtem nejlepší ceny na prodejních a nákupních dokladech a na řádcích deníků zboží a projektů.
 
-Nejlepší cena je nejnižší přípustná cena s nejvyšší přípustnou řádkovou slevou k danému datu. [!INCLUDE[d365fin](includes/d365fin_md.md)] Automaticky je vypočteno, když vloží jednotkovou cenu a procento řádkové slevy pro zboží na nových řádcích dokladu a deníku.
+Nejlepší cena je nejnižší přípustná cena s nejvyšší přípustnou řádkovou slevou k danému datu. [!INCLUDE[d365fin](includes/d365fin_md.md)] ji automaticky vypočte při vložení jednotkové ceny a procenta řádkové slevy pro zboží na nových řádcích dokladu a deníku.
 
 > [!NOTE]  
 >   Následující text popisuje, jak je pro prodej vypočítána nejlepší cena. Výpočet je stejný pro nákupy.
 
 1. [!INCLUDE[d365fin](includes/d365fin_md.md)] zkontroluje kombinaci plátce a zboží a poté vypočítá použitelnou jednotkovou cenu a procentuální řádkovou slevu pomocí následujících kritérií:
 
-    - Má zákazník dohodu o cenách/slevách, nebo patří do skupiny, která slevy má?
+    - Má zákazník dohodu o cenách/slevách, nebo patří do skupiny, která dohodu má?
     - Je zboží nebo skupina slev zboží na řádku zahrnuta v některé z těchto dohod o cenách/slevách?
     - Je datum objednávky (nebo datum zaúčtování faktury a dobropisu) v rozmezí počátečního a koncového data dohody o ceně/slevě?
     - Je zadán kód měrné jednotky? Pokud ano, [!INCLUDE[d365fin](includes/d365fin_md.md)] zkontrolujte ceny/slevy se stejným kódem měrné jednotky a ceny/slevy bez kódu měrné jednotky.
@@ -111,11 +111,11 @@ Nejlepší cena je nejnižší přípustná cena s nejvyšší přípustnou řá
 2. [!INCLUDE[d365fin](includes/d365fin_md.md)] zkontroluje, zda se nějaké dohody o ceně/slevě nevztahují na informace v dokladu nebo v řádku deníku a poté vloží příslušné jednotkové ceny a procentuální řádkovou slevu, a to pomocí následujících kritérií:
 
     - Existuje v dohodě o ceně/slevě požadavek na minimální množství, který je splněn?
-    - Existuje v dohodě o ceně/slevě požadavek na měnu, který je splněn? Pokud ano, vloží se nejnižší cena a nejvyšší řádková sleva pro tuto měnu, i když by LM poskytla lepší cenu. Pokud pro zadaný kód měny neexistuje dohoda o ceně/slevě, [!INCLUDE[d365fin](includes/d365fin_md.md)] vloží nejnižší cenu a nejvyšší řádkovou slevu v LM.
+    - Existuje v dohodě o ceně/slevě požadavek na měnu, který je splněn? Pokud ano, vloží se nejnižší cena a nejvyšší řádková sleva pro tuto měnu, i když by lokální měna poskytla lepší cenu. Pokud pro zadaný kód měny neexistuje dohoda o ceně/slevě, [!INCLUDE[d365fin](includes/d365fin_md.md)] vloží nejnižší cenu a nejvyšší řádkovou slevu v lokální měně.
 
 Pokud pro zboží na řádku nelze vypočítat žádnou speciální cenu, je vložen buď poslední přímý náklad, nebo jednotková cena z karty zboží.
 
 ## <a name="see-also"></a>Viz také
-[Nastavení Nákupu](purchasing-setup-purchasing.md)  
-[Nakupování](purchasing-manage-purchasing.md)  
+[Nastavení nákupu](purchasing-setup-purchasing.md)  
+[Nákup](purchasing-manage-purchasing.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

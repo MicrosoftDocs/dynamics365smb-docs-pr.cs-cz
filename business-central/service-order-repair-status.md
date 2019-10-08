@@ -13,15 +13,15 @@ ms.search.keywords: null
 ms.date: 10/01/2018
 ms.author: sgroespe
 ---
-# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Nastavení stavů pro Servisní zakázky a opravy
-Musíte nastavit devět možností stavu opravy, které určují průběh opravy a údržby předmětů servisu v servisních zakázkách. Musíte nastavit nejméně devět možností stavu opravy, které identifikují situace nebo kroky provedené při servisu předmětů servisu.  
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Nastavení stavů pro Servisní zakázky a Opravy
+Musíte nastavit možností stavu opravy, které určují průběh opravy a údržby předmětů servisu v servisních zakázkách. Musíte nastavit nejméně devět možností stavu opravy, které identifikují situace nebo kroky provedené při servisu předmětů servisu.  
 
 Můžete nastavit úroveň priority pro možnosti stavu servisní zakázky. Tyto čtyři úrovně jsou Vysoká, Středně vysoká, Středně nízká a Nízká.  
 
 Když změníte stav opravy předmětu servisu v servisní zakázce, stav servisní zakázky se aktualizuje. Stav opravy každého předmětu servisu je spojen se stavem servisní zakázky. Pokud jsou předměty servisu spojeny se dvěma nebo více možnostmi stavu servisní zakázky, je vybrán stav servisní zakázky s nejvyšší prioritou.  
 
 ## <a name="to-set-up-a-repair-status"></a>Nastavení stavu opravy  
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Stav opravy** a poté vyberte související odkaz.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení stavů opravy** a poté vyberte související odkaz.
 2. Vytvoření nového stavu opravy  
 3. Vyplňte pole **Kód** a **Popis**.  
 4. V poli **Stav servisní zakázky** zvolte stav zakázky, ke kterému chcete stav opravy připojit. Pole **Priorita** zobrazuje prioritu vybraného stavu servisní zakázky.  
@@ -31,7 +31,7 @@ Když změníte stav opravy předmětu servisu v servisní zakázce, stav servis
 8. Stejným způsobem zaškrtněte políčka **Povolen stav Zpracovává se**, **Povolen stav Dokončeno**, a **Povolen stav Vyčkávat**.
   
 ## <a name="to-set-up-service-status-priorities"></a>Nastavení priority stavu servisu  
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Stav Servisních zakázek** a poté vyberte související odkaz.  
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení stavu servisní zakázky** a poté vyberte související odkaz.  
 2. Vyberte stav servisní zakázky, pro kterou chcete nastavit prioritu.  
 3. V poli **Priorita** vyberte prioritu, kterou chcete nastavit pro tento stav servisní zakázky. Tento krok opakujte pro každý stav.  
 

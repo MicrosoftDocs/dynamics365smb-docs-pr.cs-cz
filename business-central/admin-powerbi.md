@@ -12,7 +12,7 @@ ms.date: 10/01/2018
 ms.author: edupont
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Povolení obchodních dat pro Power BI
-Získávání přehledů o vašich [!INCLUDE[d365fin](includes/d365fin_md.md)] datech je snadné díky Power BI a balíčkům obsahu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI načítá vaše data a poté sestaví řídící panel a přehledy vycházející z těchto dat.  
+Získávání přehledů o vašich [!INCLUDE[d365fin](includes/d365fin_md.md)] datech je snadné díky Power BI a balíčkům obsahu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI načte vaše data a poté sestaví řídící panel a přehledy vycházející z těchto dat.  
 
 Musíte mít platný účet v Dynamics 365 a ve službě Power BI. Pokud si chcete vytvořit vlastní sestavy Power BI, musíte si také stáhnout [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Balíčky obsahu Power BI vyžadují oprávnění k tabulkám, ze kterých se získávají data. Další podrobnosti o požadavcích jsou popsány níže.  
 
@@ -29,10 +29,10 @@ Každá sada obsahu obsahuje sestavy, které můžete procházet:
 
 * Vyberte jakýkoli vizuální prvek na řídícím panelu a nadneste jednu ze základních sestav  
 * Filtrování sestavy nebo přidání polí, které chcete sledovat.  
-* Připojte toto přizpůsobené zobrazení k řídicímu panelu a pokračujte ve sledování.  
+* Připojte toto přizpůsobené zobrazení k řídícímu panelu a pokračujte ve sledování.  
   Data můžete aktualizovat ručně, a můžete nastavit plán aktualizace. Pro více informací navštivte [Konfigurace naplánované aktualizace](https://powerbi.microsoft.com/en-us/documentation/powerbi-refresh-scheduled-refresh/).  
 
-Balíčky obsahu jsou překonfigurovány pro práci s daty z demonstrační společnosti, které získáte, když se zaregistrujete do [!INCLUDE[d365fin](includes/d365fin_md.md)]. Při instalaci aplikací v Power BI a připojení k vlastním datům nemusí některé sestavy fungovat, protože se spoléhají na data, která vaše společnost nemá. V těchto případech můžete tuto sestavu jednoduše odstranit z řídicího panelu.  
+Balíčky obsahu jsou překonfigurovány pro práci s daty z demonstrační společnosti, které získáte když se zaregistrujete do [!INCLUDE[d365fin](includes/d365fin_md.md)]. Při instalaci aplikací v Power BI a připojení k vlastním datům nemusí některé sestavy fungovat, protože se spoléhají na data, která vaše společnost nemá. V těchto případech můžete tuto sestavu jednoduše odstranit z řídicího panelu.  
 
 > [!NOTE]  
 >   Na základě vašich [!INCLUDE[d365fin](includes/d365fin_md.md)] dat si také můžete v Power BI vytvořit vlastní sestavy a řídící panely. Pro více informací navštivte [Připojení obchodních dat k Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -43,7 +43,7 @@ Balíčky obsahu jsou překonfigurovány pro práci s daty z demonstrační spol
 
 Můžete také začít přímo z Dynamics 365 Business Edition. Z centra rolí přejděte do části **Výběr sestavy** v části Centrum rolí Power BI. Z pásu karet vyberte buď **Služba** nebo **Moje organizace**. Pokud je vybrána některá z těchto akcí, budete přesměrováni do Galerie organizace v Power BI nebo do knihovny služeb v Power BI, která bude také filtrována, aby zobrazovala pouze balíčky obsahu související s [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. V poli **Služby** vyberte **Získat**. Otevře se stránka s **AppSource** a **Aplikace pro Power BI**.  
+2. V poli **Služby** vyberte **Získat**. Otevře se stránka s **AppSource** a **Aplikacemi pro Power BI**.  
 ![Vyberte si balíčky obsahu z online služeb](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Vyberte kartu **Aplikace** na kartě **Aplikace pro Power BI**, vyberte balíček obsahu **Microsoft Dynamics 365 Business Central**, který chcete použít, a poté vyberte **Získat nyní**.  
 ![Zvolte Dynamics 365 Business Central a vyberte Získat nyní.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

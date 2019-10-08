@@ -18,11 +18,11 @@ Existují různé způsoby, jak přizpůsobit aplikaci tak, aby vám a vašim ko
 > [!NOTE]
 > Kromě toho, co mohou přizpůsobit administrátoři, mohou uživatelé přizpůsobit své stránky přidáním, přesunem nebo odebráním polí, ukotvením podoken, dílů a dalších. Pro více informací navštivte [Přizpůsobení pracovního prostoru](ui-personalization-user.md).
 
-| Co můžete udělat    |  Popis  |  Kdo vidí změny  |  Více informací  |
+| Proveditelné změny    |  Popis  |  Kdo vidí změny  |  Více informací  |
 |-----|---------------|---------|-------|
-|Instalace rozšíření|Rozšíření jsou jako malé aplikace, které přidávají funkce, mění chování, poskytují přístup k novým online službám a další. Společnost Microsoft například poskytuje rozšíření, které zajišťuje integraci s PayPal Payments Standard.|Všichni uživatelé ve všech společnostech.|[Přizpůsobení  Pomocí rozšíření](ui-extensions.md)|
+|Instalace rozšíření|Rozšíření jsou jako malé aplikace, které přidávají funkce, mění chování, poskytují přístup k novým online službám a další. Společnost Microsoft například poskytuje rozšíření, které zajišťuje integraci s PayPal Payments Standard.|Všichni uživatelé ve všech společnostech.|[Přizpůsobení pomocí rozšíření](ui-extensions.md)|
 |Změňte, které prvky uživatelského rozhraní jsou viditelné.|Nastavení **Experience** určuje, kolik funkcí se zobrazí v uživatelském rozhraní. Vyberte si mezi Essential a Premium.|Všichni uživatelé v konkrétní společnosti.|[Změna zobrazovaných funkcí](ui-experiences.md)|
-|Správa uživatelského přizpůsobení.|Ovládejte a spravujte uživatelská přizpůsobení tím, že deaktivujete možnost přizpůsobení stránek a vymažete všechna přizpůsobení stránek.|Všichni uživatelé v konkrétní společnosti.|[Správa Přizpůsobení jako Správce](ui-personalization-manage.md)|
+|Správa uživatelského přizpůsobení.|Ovládejte a spravujte uživatelská přizpůsobení tím, že deaktivujete možnost přizpůsobení stránek a vymažete všechna přizpůsobení stránek.|Všichni uživatelé v konkrétní společnosti.|[Správa přizpůsobení jako Správce](ui-personalization-manage.md)|
 |Pro signalizace důležitosti povolte barvy v centru rolí.|Nastavte hromádky, které se objevují v uživatelských Centrech rolí tak, aby obsahovaly indikátor, který mění barvu na základě hodnot v hromádkách.|Všichni uživatelé v konkrétní společnosti.|[Nastavení barevného indikátoru v hromádkách](admin-how-set-up-colored-indicator-on-cues.md)|
 
 > [!NOTE]

@@ -29,7 +29,7 @@ Rozšíření Dynamics GP Data Migration automaticky mapuje exportovaná data ta
 
 ## <a name="whats-new-in-the-october-2018-release"></a>Co je nového ve vydání Říjen 2018
 
-V této verzi jsme rozšířili množství dat, které přenášíme do [!INCLUDE[prodshort](includes/prodshort.md)]z Dynamics GP.
+V této verzi jsme rozšířili množství dat, které přenášíme do [!INCLUDE[prodshort](includes/prodshort.md)] z Dynamics GP.
 
 V průvodci migrací si nyní můžete vybrat, jak chcete migrovat účetní osnovu Dynamics GP. Můžete migrovat existující účetní osnovu nebo můžete vytvořit novou účetní osnovu na základě existující účetní osnovy.  
 
@@ -53,4 +53,4 @@ Poslední možností, kterou vidíte v Průvodci migrací dat pro aplikaci Dynam
 
 ## <a name="see-also"></a>Viz také
 [Import obchodních dat z jiných finančních systémů.](across-import-data-configuration-packages.md)  
-[Přizpůsobení [!INCLUDE[prodshort](includes/prodshort.md)] Pomocí rozšíření ](ui-extensions.md)  
+[Přizpůsobení [!INCLUDE[prodshort](includes/prodshort.md)] pomocí rozšíření ](ui-extensions.md)  

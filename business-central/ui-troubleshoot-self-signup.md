@@ -16,12 +16,12 @@ Registrace do [!INCLUDE[d365fin](includes/d365fin_md.md)] je jednoduchá a lze j
 ## <a name="what-email-address-can-i-use-with-business-central"></a>Jakou e-mailovou adresu mohu použít v Business Central?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vyžaduje, abyste k registraci použili e-mailovou adresu práce nebo školy. [!INCLUDE[d365fin](includes/d365fin_md.md)] nepodporuje e-mailové adresy poskytované spotřebitelskými e-mailovými službami nebo poskytovateli telekomunikačních služeb. To zahrnuje outlook.com, hotmail.com, gmail.com a další.
 
-Pokud se pokusíte zaregistrovat pomocí své osobní e-mailové adresy, zobrazí se zpráva, že bude třeba použít pracovní nebo školní e-mailovou adresu.
+Pokud se pokusíte zaregistrovat pomocí své osobní e-mailové adresy, zobrazí se zpráva, že je třeba použít pracovní nebo školní e-mailovou adresu.
 
 ## <a name="troubleshooting"></a>Odstraňování problémů
-V mnoha případech lze registraci do [!INCLUDE[d365fin](includes/d365fin_md.md)] provést řízením se dle následujícího procesu registrace. Existuje však několik důvodů, proč nemusí být možné samostatnou registraci dokončit. Níže uvedená tabulka shrnuje některé nejčastější důvody, proč není možné registraci dokončit, a způsoby, jakými tyto problémy vyřešit.
+V mnoha případech lze registraci do [!INCLUDE[d365fin](includes/d365fin_md.md)] provést řízením se dle následujícího procesu registrace. Existuje však několik důvodů, proč nemusí být možné samostatnou registraci dokončit. Níže uvedená tabulka shrnuje některé nejčastější důvody proč není možné registraci dokončit, a způsoby, jakými tyto problémy vyřešit.
 
-| Příznak / Chybová zpráva | Příčina a Řešení |
+| Příznak / chybová zpráva | Příčina a řešení |
 | --- | --- |
 | U e-mailových adres Office 365, které nejsou registrovány v podporované zemi, se během registrace zobrazí následující zpráva:<br /><br />**To nefungovalo, zatím nepodporujeme vaši zemi nebo region.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] v současné době podporuje pouze e-mailové účty Office 365, které jsou registrovány na omezeném počtu trhů. Pro více informací navštivte [Oblastní dostupnost](#regional-availability) |
 | Osobní e-mailové adresy, jako například nancy@gmail.com, nejsou podporovány. Během registrace se zobrazí následující zpráva:<br /><br />**Zadali jste osobní e-mailovou adresu: Zadejte prosím svou pracovní e-mailovou adresu, abychom mohli bezpečně ukládat data vaší společnosti.**<br> nebo <br> **To vypadá jako osobní e-mailová adresa. Zadejte svou pracovní adresu, abychom vás mohli spojit s ostatními ve vaší společnosti. A nebojte se. S nikým vaši adresu sdílet nebudeme.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] nepodporuje e-mailové adresy poskytované spotřebitelskými e-mailovými službami nebo poskytovateli telekomunikačních služeb. Pro dokončení registrace zkuste použít e-mailovou adresu přiřazenou vaší prací nebo školou. Pokud se stále nemůžete zaregistrovat a jste ochotni dokončit pokročilejší proces nastavení, můžete si zaregistrovat nové zkušební předplatné sady Office 365 a pomocí této e-mailové adresy se zaregistrovat. |
@@ -56,4 +56,4 @@ Pro seznam aktuálně podporovaných trhů navštivte [Mezinárodní dostupnost 
 ## <a name="see-also"></a>Viz také
 [Vítejte v [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Místní funkcionality](about-localization.md)  
+[Místní funkcionalita](about-localization.md)  

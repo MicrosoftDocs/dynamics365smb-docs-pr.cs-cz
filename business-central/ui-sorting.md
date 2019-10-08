@@ -12,7 +12,7 @@ ms.author: solsen
 redirect_url: ui-enter-criteria-filters
 ---
 # <a name="sorting"></a>Řazení
-Třídící funkce vám umožňuje rychle a snadno získat přehled o vašich datech. Máte-li například mnoho zákazníků, můžete je řadit dle **Čísla zákazníka**, **Účto skupiny zákazníka**, **Kódu měny**, **Kódu země/oblasti** nebo **Daňového registračního čísla** tak, aby jste získali vámi požadovaný přehled.
+Řadící funkce vám umožňuje rychle a snadno získat přehled o vašich datech. Máte-li například mnoho zákazníků, můžete je řadit dle **Čísla zákazníka**, **Účto skupiny zákazníka**, **Kódu měny**, **Kódu země/oblasti** nebo **Daňového registračního čísla** tak, aby jste získali vámi požadovaný přehled.
 
 Vyberte záhlaví sloupce a použijte malou šipku k vzestupnému nebo sestupnému řazení.  
 

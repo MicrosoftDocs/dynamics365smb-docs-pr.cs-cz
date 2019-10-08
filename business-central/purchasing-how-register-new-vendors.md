@@ -1,5 +1,5 @@
 ---
-title: Vytvoření karty dodavatele k zaznamenání nového dodavatele | Microsoft Docs
+title: Vytvoření karty dodavatele pro zaznamenání nového dodavatele | Microsoft Docs
 description: 'Naučte se, jak vytvořit kartu dodavatele pro registraci nového dodavatele.'
 services: project-madeira
 documentationcenter: ''
@@ -16,7 +16,7 @@ ms.author: sgroespe
 # <a name="register-new-vendors"></a>Zaevidujte nové dodavatele
 Dodavatelé poskytují produkty, které prodáváte. Každý dodavatel, od kterého nakupujete, musí být evidován jako karta dodavatele.
 
-Než budete moci zaregistrovat nové dodavatele, musíte nastavit různé kódy nákupu, ze kterých si můžete vybrat, když vyplňujete karty dodavatele. Po vytvoření všech požadovaných hlavních dat můžete provést další konfiguraci dodavatele, například upřednostnit dodavatele pro platební účely a položky seznamu, které může dodavatel a jiní dodavatelé dodávat. Další skupinou úkolů nastavení dodavatelů je zaznamenat vaše dohody týkající se slev, cen a způsobů platby. Pro více informací navštivte [Nastavení nákupu](purchasing-setup-purchasing.md).
+Než budete moci zaregistrovat nové dodavatele, musíte nastavit různé kódy nákupu, ze kterých si můžete vybrat při vyplňování karty dodavatele. Po vytvoření všech požadovaných hlavních dat můžete provést další konfiguraci dodavatele, například upřednostnit dodavatele pro platební účely a položky seznamu, které může dodavatel a jiní dodavatelé dodávat. Další skupinou úkolů nastavení dodavatelů je zaznamenání vašich dohod týkajících se slev, cen a způsobů platby. Pro více informací navštivte [Nastavení nákupu](purchasing-setup-purchasing.md).
 
 Karty dodavatelů obsahují informace, které jsou potřebné k nákupu produktů od dodavatele. Pro více informací navštivte [Evidence nákupů](purchasing-how-record-purchases.md) a [Evidence nového zboží](inventory-how-register-new-items.md).
 
@@ -27,7 +27,7 @@ Karty dodavatelů obsahují informace, které jsou potřebné k nákupu produkt�
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Dodavatelé** a poté vyberte související odkaz.  
 2. Na stránce **Dodavatelé** zvolte **Nový**.
 
-    Pokud existuje více než jedna šablona dodavatele, otevře se stránka, ze kterého můžete zvolit šablonu dodavatele. V takovém případě postupujte podle následujících dvou kroků.
+    Pokud existuje více než jedna šablona dodavatele, otevře se stránka, ze které můžete zvolit šablonu dodavatele. V takovém případě postupujte podle následujících dvou kroků.
 3. Na stránce **Vybrat šablonu pro dodavatele** vyberte šablonu, kterou chcete použít pro novou kartu dodavatele.
 4. Zvolte tlačítko **OK**. Otevře se nová karta dodavatele, s některými poli vyplněnými informacemi ze šablony.
 5. Podle potřeby pokračujte ve vyplňování nebo změně polí na kartě dodavatele. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -48,7 +48,7 @@ Pokud chcete tuto kartu dodavatele použít jako šablonu při vytváření nov�
    Šablona dodavatele je přidána do seznamu šablon dodavatelů, takže ji můžete použít k vytváření nových karet dodavatelů.
 
 ## <a name="see-also"></a>Viz také
-[Vytváření Číselné řady](ui-create-number-series.md)  
-[Nakupování](purchasing-manage-purchasing.md)  
+[Vytváření číselné řady](ui-create-number-series.md)  
+[Nákup](purchasing-manage-purchasing.md)  
 [Evidence nákupu](purchasing-how-record-purchases.md)   
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

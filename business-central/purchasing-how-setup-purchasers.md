@@ -19,14 +19,14 @@ Pokud ve vaší společnosti pracuje několik nákupčí, můžete je založit n
 ## <a name="to-set-up-purchasers"></a>Založení nákupčí
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejci/nákupčí** a poté vyberte související odkaz.
 2. Na stránce **Prodejci/nákupčí** zvolte **Nový**.
-3. Na stránce **Karta Prodejce/Nákupčího** vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Na stránce **Karta Prodejce/nákupčího** vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Přiřazení nákupčí k prodejcům
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Dodavatelé** a poté vyberte související odkaz.
-2. Otevřete příslušnou kartu dodavatele pro dodavatele, kterému bude přidělen nákupčí.
+2. Otevřete příslušnou kartu dodavatele, kterému bude přidělen nákupčí.
 3. V poli **Kód nákupčího** vyberte příslušný kód nákupčího a poté stránku zavřete.
 
 ## <a name="see-also"></a>Viz také
-[Nastavení Nákupu](purchasing-setup-purchasing.md)  
+[Nastavení nákupu](purchasing-setup-purchasing.md)  
 [Správa závazků](payables-manage-payables.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

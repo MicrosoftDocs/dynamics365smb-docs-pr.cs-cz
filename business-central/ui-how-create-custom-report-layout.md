@@ -17,12 +17,12 @@ ms.author: jswymer
 Ve výchozím nastavení bude mít sestava vestavěné rozvržení sestavy, které může být rozvržení sestavy RDLC nebo rozvržení sestavy Word, nebo obojí. Vestavěné rozvržení nelze upravovat. Můžete si však vytvořit vlastní rozvržení, která vám umožní změnit vzhled sestavy při prohlížení, tisku nebo uložení. Pro stejnou sestavu můžete vytvořit více vlastních rozvržení přehledů a poté podle potřeby přepnout rozvržení používané sestavou.
 
 > [!NOTE]  
->   V [!INCLUDE[d365fin](includes/d365fin_md.md)], termín „sestava“ také zahrnuje externí dokumenty, jako jsou prodejní faktury a potvrzení objednávky, které posíláte zákazníkům jako soubory PDF.
+>   V [!INCLUDE[d365fin](includes/d365fin_md.md)], termín „sestava“ také zahrnuje externí doklady, jako jsou prodejní faktury a potvrzení objednávky, které posíláte zákazníkům jako soubory PDF.
 
 Chcete-li vytvořit vlastní rozvržení, můžete vytvořit kopii existujícího vlastního rozvržení nebo přidat nové vlastní rozvržení, které je ve většině případů založeno na vestavěném rozvržení. Když přidáte nové vlastní rozvržení, můžete zvolit přidání typu rozvržení sestavy RDLC, typu rozvržení sestavy Word nebo obou. Nové vlastní rozvržení bude automaticky založeno na vestavěném rozvržení pro sestavu, pokud je k dispozici. Pokud pro daný typ neexistuje vestavěné rozvržení, vytvoří se nové prázdné rozvržení, které budete muset upravit a navrhnout od nuly. Pro více informací o rozvržení sestav RDLC a Word, vestavěných a vlastních sestavách viz [Správa Rozvržení Sestav](ui-manage-report-layouts.md).  
 
 ## <a name="to-create-a-custom-layout"></a>Vytvoření vlastního rozvržení
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** Výběr Rozvržení Sestav ** a poté vyberte související odkaz.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Výběr rozvržení sestav** a poté vyberte související odkaz.
 
     Na stránce **Výběr rozvržení sestav** jsou uvedeny všechny přehledy, které jsou k dispozici ve společnosti specifikované v poli **Společnost** v horní části stránky.
 2. Nastavte pole **Společnost** na společnost, ve které chcete vytvořit rozvržení sestavy.
@@ -35,7 +35,7 @@ Chcete-li vytvořit vlastní rozvržení, můžete vytvořit kopii existujícíh
    2. Chcete-li přidat vlastní typ rozvržení sestavy aplikace Word, zaškrtněte políčko **Vložit rozvržení Wordu**.
    3. Chcete-li přidat vlastní typ rozvržení sestavy aplikace RDLC, zaškrtněte políčko **Vložit RDLC rozvržení**.
    4. Zvolte tlačítko **OK**.  
-      Nové vlastní rozvržení se zobrazí na stránce **Vlastní rozvržení sestav**. Pokud je nové rozvržení založeno na vestavěném rozvržení, bude v poli **Popis** uvedeno slova **Kopírovat z Vestavěné rozvržení**. Pokud pro sestavu nebylo žádné vestavěné rozvržení, má nové rozvržení v poli **Popis** slova **Nové rozvržení**, což znamená, že vlastní rozvržení je prázdné.
+      Nové vlastní rozvržení se zobrazí na stránce **Vlastní rozvržení sestav**. Pokud je nové rozvržení založeno na vestavěném rozvržení, bude v poli **Popis** uvedeno **Kopírovat z vestavěného rozvržení**. Pokud pro sestavu nebylo žádné vestavěné rozvržení, má nové rozvržení v poli **Popis** slova **Nové rozvržení**, což znamená, že vlastní rozvržení je prázdné.
 6. Ve výchozím nastavení je pole **Název společnosti** prázdné, což znamená, že vlastní rozvržení bude k dispozici pro sestavu ve všech společnostech. Chcete-li zpřístupnit vlastní rozvržení pouze v určité společnosti, zvolte **Upravit** a poté nastavte pole **Název společnosti** na požadovanou společnost.
 
 Vlastní rozvržení bylo vytvořeno. Nyní můžete upravit vlastní rozvržení podle potřeby.
@@ -44,7 +44,7 @@ Vlastní rozvržení bylo vytvořeno. Nyní můžete upravit vlastní rozvržen�
 Chcete-li upravit rozvržení sestavy, musíte nejprve rozvržení sestavy exportovat jako soubor do umístění v počítači nebo síti a poté otevřít exportovaný dokument a provést změny. Po dokončení změn importujete rozvržení sestavy.
 
 ### <a name="to-modify-a-custom-layout"></a>Úprava vlastního rozvržení
-1.  Vlastní rozvržení exportujete ze stránky **Vlastní rozvržení sestav**. Pokud tato stránka ještě není otevřené, vyhledejte a otevřete stránku **Výběr rozvržení sestav**, vyberte sestavu, která má rozvržení, které chcete upravit, a poté vyberte akci **Vlastní rozvržení**.  
+1.  Vlastní rozvržení exportujete ze stránky **Vlastní rozvržení sestav**. Pokud tato stránka ještě není otevřená, vyhledejte a otevřete stránku **Výběr rozvržení sestav**, vyberte sestavu, která má rozvržení, které chcete upravit, a poté vyberte akci **Vlastní rozvržení**.  
 2.  Na stránce **Vlastní rozvržení sestav** vyberte rozvržení, které chcete upravit, vyberte akci **Exportovat rozvržení** a poté zvolte **Uložit** nebo **Uložit jako**, chcete-li dokument rozvržení sestavy uložit do umístění v počítači nebo síti.  
 
 3.  Otevřete dokument rozvržení sestavy, který jste právě uložili, a proveďte změny.
@@ -93,8 +93,8 @@ Přidání datových polí z datového souboru sestavy je pokročilejší a vyž
 
 
 ## <a name="see-also"></a>Viz také
-[Správa Rozvržení Sestav](ui-manage-report-layouts.md)  
-[Změna Rozvržení, Které se v Sestavě Aktuálně Používá](ui-how-change-layout-currently-used-report.md)  
-[Import a Export vlastní Sestavy nebo Rozvržení Dokumentu](ui-how-import-and-export-report-layout.md)  
-[Práce se Sestavami a Dávkovými úlohami](ui-work-report.md)  
+[Správa rozvržení sestav](ui-manage-report-layouts.md)  
+[Změna rozvržení, které se v sestavě aktuálně používá](ui-how-change-layout-currently-used-report.md)  
+[Import a export vlastní sestavy nebo rozvržení dokumentu](ui-how-import-and-export-report-layout.md)  
+[Práce se sestavami a dávkovými úlohami](ui-work-report.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

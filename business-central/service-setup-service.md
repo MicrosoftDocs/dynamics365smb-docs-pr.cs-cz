@@ -33,9 +33,9 @@ Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je po
 | Nastavte přidělení prostředků, aby bylo snadné přiřadit správný prostředek k servisní zakázce. |[Nastavení přidělení zdrojů](service-how-setup-resource-allocation.md) |
 | Definujte ceny za servis a stanovte dodatečné náklady servisu na vyhodnocení u servisních zakázek. |[Nastavení Ceny a Dodatečných nákladů za servis](service-how-setup-service-costs-pricing.md)|
 | Nastavte věci tak, abyste mohli sledovat hodiny prostředků a stav servisní zakázky, a byli tak schopní předpovídat pracovní zatížení a potřeby servisu.|[Nastavení Pracovní doby a Servisních hodin](service-how-setup-work-service-hours.md)|
-| Nastavení možností stavu opravy umožňuje sledovat průběh oprav. | [Nastavení stavů pro Servisní zakázky a opravy](service-order-repair-status.md)|
+| Nastavení možností stavu opravy umožňuje sledovat průběh oprav. | [Nastavení stavů pro Servisní zakázky a Opravy](service-order-repair-status.md)|
 | Nastavení programu zápůjček umožňuje zapůjčit během práce na předmětu servisu náhradu. |[Nastavení programu zápůjček](service-how-setup-loaner-program.md) |
-| Nastavení předmětů servisu a komponent předmětů servisu. |[Nastavení předmětů servisu](service-how-setup-service-items.md) |
+| Nastavení předmětů servisu a komponent předmětů servisu. |[Nastavení Položky servisu](service-how-setup-service-items.md) |
 | Položení základů pro vytváření servisních smluv a nabídek smluv. |[Založení Servisních smluv](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Viz také

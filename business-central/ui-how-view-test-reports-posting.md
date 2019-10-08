@@ -1,5 +1,5 @@
 ---
-title: Náhled testovací sestavy před zaúčtováním dokladu o prodeji nebo nákupu | Microsoft Docs
+title: Kontrola testovací sestavy před zaúčtováním dokladu o prodeji nebo nákupu | Microsoft Docs
 description: 'Než zaúčtujete doklad, například objednávku nebo dobropis, můžete jej otestovat a zkontrolovat pro nalezení chyb, které by mohly účtování blokovat.'
 services: project-madeira
 documentationcenter: ''
@@ -20,12 +20,12 @@ Když jste připraveni zaúčtovat doklad, jako je objednávka, faktura nebo dob
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Tisk zkušební sestavy před účtováním nákupní faktury
 1. Vyberte ![Žárovku, která otevře funkci Řekněte Mi](media/ui-search/search_small.png " poté ikonu Řekněte mi, co chcete dělat"), zadejte **Nákupní Faktury** a nakonec vyberte související odkaz.
-2. Otevřete nákupní fakturu, kterou chcete testovat.
+2. Otevřete nákupní fakturu, kterou chcete otestovat.
 3. Vyberte ikonu **Testovací sestava**.  
 
-Všechny části nákupní faktury jsou následně otestovány a výsledek je uveden v sestavě. Pokud sestava uvádí nějaké chyby nebo chybějící informace, musíte problémy před odesláním faktury napravit.
+Všechny části nákupní faktury jsou následně otestovány a výsledek je uveden v sestavě. Pokud sestava naznačuje nějaké chyby nebo chybějící informace, musíte problémy před odesláním faktury napravit.
 
 ## <a name="see-also"></a>Viz také
-[Účtování dokumentů a deníků](ui-post-documents-journals.md)  
+[Účtování dokladů a deníků](ui-post-documents-journals.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

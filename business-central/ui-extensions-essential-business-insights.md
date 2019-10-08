@@ -23,7 +23,7 @@ Následující tabulka popisuje přehledy, které toto rozšíření poskytuje p
 |Centrum rolí|Otázky zodpovídané přehledy|
 |----|-----|
 |Výchozí|Zobrazuje pozdrav a odkaz na informace o produktu.|
-|Obchodní ředitel|<li> Jaká byla nejoblíbenější položka minulý týden, měsíc nebo poslední tři měsíce a kolik jsme jí prodali?<br><li> Jaká byla největší prodejní objednávka minulý týden, měsíc nebo poslední tři měsíce?<br><li> Kdo nebo co byl nejrušnějším zdrojem a jaké byly rezervace?<br><li> Vzrostly prodeje za poslední týden, měsíc nebo tři měsíce ve srovnání se stejným obdobím minulého roku?<br><li> Jaká byla největší prodejní faktura, kterou jsme zaúčtovali minulý týden, měsíc nebo poslední tři měsíce a kterému zákazníkovi jsme zaslali účet?</li> |
+|Obchodní ředitel|<li> Jaká byla nejoblíbenější položka minulý týden, měsíc nebo poslední tři měsíce a kolik jsme jí prodali?<br><li> Jaká byla největší prodejní objednávka minulý týden, měsíc nebo poslední tři měsíce?<br><li> Kdo nebo co bylo nejrušnějším zdrojem a jaké byly rezervace?<br><li> Vzrostly prodeje za poslední týden, měsíc nebo tři měsíce ve srovnání se stejným obdobím minulého roku?<br><li> Jaká byla největší prodejní faktura, kterou jsme zaúčtovali minulý týden, měsíc nebo poslední tři měsíce a kterému zákazníkovi jsme zaslali účet?</li> |
 |Účetní|<li> Jaká byla největší prodejní objednávka a zaúčtovaná faktura minulý týden, měsíc nebo poslední tři měsíce?<br><li> Vzrostly prodeje za poslední týden, měsíc nebo tři měsíce ve srovnání se stejným obdobím minulého roku? |
 |Zpracovatel objednávek| Jaká byla největší prodejní objednávka a zaúčtovaná faktura minulý týden, měsíc nebo poslední tři měsíce?|
 |Manažer vztahů| Jaká byla největší fakturovaná částka a kterému zákazníkovi jsme zaslali účet?|
@@ -32,4 +32,4 @@ Následující tabulka popisuje přehledy, které toto rozšíření poskytuje p
 |Správce| Zobrazuje pozdrav a odkaz na informace o produktu.|
 
 ## <a name="see-also"></a>Viz také
-[Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)] Pomocí rozšíření](ui-extensions.md)
+[Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí rozšíření](ui-extensions.md)

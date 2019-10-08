@@ -17,10 +17,10 @@ ms.author: bholtorf
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Rozšíření Payments and Reconciliations (DK)
 Proveďte rychlé a bezchybné platby exportováním souborů, které jsou speciálně formátovány pro výměny s dodavatelem nebo bankou. Tyto soubory urychlují procesy platby a odsouhlasení a eliminují chyby, ke kterým může dojít, když ručně zadáváte informace na webové stránce banky.  
 
-Toto rozšíření podporuje formáty souborů pro několik dánských bank. Při exportu platebních údajů do souboru rozšíření doplní data do formátu, který vaše banka vyžaduje. Formáty například zahrnují Bankdata-V3, BEC, SDC and FIK, které používá mnoho různých bank, a některé, které jsou více specializovány pro určité banky, například Danske Bank a Nordea. Rozšíření také zahrnuje některé formáty pro import a odslouhlasení bankovních výpisů.  
+Toto rozšíření podporuje formáty souborů pro několik dánských bank. Při exportu platebních údajů do souboru toto rozšíření doplní data do formátu, který vaše banka vyžaduje. Formáty například zahrnují Bankdata-V3, BEC, SDC and FIK, které používá mnoho různých bank, a některé, které jsou více specializovány pro určité banky, například Danske Bank a Nordea. Toto rozšíření také zahrnuje některé formáty pro import a odsouhlasení bankovních výpisů.  
 
 > [!Note]
-> Chcete-li toto rozšíření používat, musíte znát formát, který vaše banka nebo prodejce vyžaduje. Některé banky nebo prodejci poskytují tyto informace na svých webových stránkách, ale možná budete muset kontaktovat jejich zákaznický servis, abyste získali tyto informace.  
+> Chcete-li toto rozšíření používat, musíte znát formát, který vaše banka nebo prodejce vyžaduje. Některé banky nebo prodejci poskytují tyto informace na svých webových stránkách, ale možná budete muset kontaktovat jejich zákaznický servis, abyste tyto informace získali.  
 
 ## <a name="supported-bank-formats"></a>Podporované formáty bank
 Toto rozšíření může pro platební soubory použít následující formáty souborů:  
@@ -38,7 +38,7 @@ Toto rozšíření může pro platební soubory použít následující formáty
 * SDC  
 * SDC-CVS  
 
-## <a name="to-set-up-the-extension"></a>Pro nastavení rozšíření
+## <a name="to-set-up-the-extension"></a>Nastavení tohoto rozšíření
 Začněte několika kroky.  
 
 * Povolte export platebních údajů. Toto není snadno dostupné z důvodu ochrany vašich dat.  
@@ -48,12 +48,12 @@ Začněte několika kroky.
 
 Kromě toho musíte přiřadit dodavatele k domácí **Obecné obch.účto** skupině a k **Účto skupině dodatavatele**. Nastavení země/oblasti pro dodavatele musí být Dánsko (DK). Pro další informace navštivte [Nastavení skupin účtování](finance-posting-groups.md).  
 
-### <a name="to-allow-included365finincludesd365fin_mdmd-to-export-payment-data"></a>Pro umožnění [!INCLUDE[d365fin](includes/d365fin_md.md)] exportovat data platby
+### <a name="to-allow-included365finincludesd365fin_mdmd-to-export-payment-data"></a>Umožnění [!INCLUDE[d365fin](includes/d365fin_md.md)] exportovat data platby
 1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Deník plateb** a poté vyberte související odkaz.  
 2. Na stránce **Upravit deník plateb** zvolte dávku **Banka**.  
 3. Zaškrtněte políčko **Povolen export úhrad**.  
 
-### <a name="to-specify-a-payment-method-for-a-vendor"></a>Pro určení způsobu platby pro dodavatele
+### <a name="to-specify-a-payment-method-for-a-vendor"></a>Určení způsobu platby pro dodavatele
 Následující tabulka ukazuje kombinace platebních metod FIK a ŽIRO, které [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje.
 
 ||Typ 01 | Typ 04 | Typ 71 | Typ 73 |
@@ -82,7 +82,7 @@ Následující tabulka ukazuje kombinace platebních metod FIK a ŽIRO, které [
 
 5. Zaúčtujte fakturu.
 
-## <a name="to-use-the-extension-to-export-payment-data"></a>Pro použití rozšíření pro export dat platby
+## <a name="to-use-the-extension-to-export-payment-data"></a>Použití tohoto rozšíření pro export dat platby
 1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Deník plateb** a poté vyberte související odkaz.  
 2. Vyberte akci **Navrhnout platební deníky dodavatele**.  
 

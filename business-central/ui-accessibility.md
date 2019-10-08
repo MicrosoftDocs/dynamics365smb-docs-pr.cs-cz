@@ -12,7 +12,7 @@ ms.date: 10/01/2018
 ms.author: edupont
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365fin_mdmd"></a>Přístupnost a klávesové zkratky v [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Toto téma poskytuje informace o funkcích, které jsou snadno v [!INCLUDE[d365fin](includes/d365fin_md.md)] dostupné lidem se zdravotním postižením. [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje následující funkce usnadnění přístupu:  
+Toto téma poskytuje informace o funkcích, které jsou v [!INCLUDE[d365fin](includes/d365fin_md.md)]  snadno dostupné lidem se zdravotním postižením. [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje následující funkce usnadnění přístupu:  
 
 -   Klávesové zkratky
 

@@ -15,18 +15,18 @@ ms.author: solsen
 # <a name="getting-ready-for-doing-business"></a>Příprava na Podnikání
 Blahopřejeme, právě jste zahájili svou první společnost v [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Chcete-li se připravit na podnikání, můžete navštívit okno **Pomocník pro podnikání**, kde můžete spustit vybrané průvodce nastavením, videa nebo témata nápovědy pro vybrané úkoly nastavení. Do okna se dostanete z grafu v Centru rolí **Obchodní ředitel** výběrem rozbalovací nabídky **Pomocník pro obchod** a výběrem akce **Zobrazit nastavení a zdroje nápovědy**. Po aktualizaci stránky se graf nahradí zdroji pro nastavení a nápovědu.
+Chcete-li se připravit na podnikání, můžete navštívit okno **Pomocník pro podnikání**, kde můžete spustit průvodce nastavením, videa nebo témata nápovědy pro vybrané úkoly nastavení. Do okna se dostanete z grafu v Centru rolí **Obchodní ředitel** výběrem rozbalovací nabídky **Pomocník pro obchod** a výběrem akce **Zobrazit nastavení a zdroje nápovědy**. Po aktualizaci stránky se graf nahradí zdroji pro nastavení a nápovědu.
 
-V centru rolí najdete na navigační liště v horní části nabídku **Instalace a rozšíření**. Zde máte přístup k seznamu asistovaných nastavení, které vám mohou pomoci začít. Jakmile migrujete data, jako jsou dodavatelé, zákazníci a položky z vašeho stávajícího finančního systému, jste připraveni začít. V závislosti na vašich potřebách však zvažte, zda vám může pomoci další asistované nastavení. Pokud není možno nastavit oblast pomocí asistovaných nastavením, vyberte akci **Manuální nastavení** pro přístup na  nastavovací stránky, kde můžete ručně vyplnit daná pole pro nastavení všech oblastí. Pro další informace se podívejte na [Nastavení[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+V centru rolí najdete na navigační liště v horní části nabídku **Instalace a rozšíření**. Zde máte přístup k seznamu asistovaných nastavení, které vám mohou pomoci začít. Jakmile migrujete data, jako jsou dodavatelé, zákazníci a zboží z vašeho stávajícího finančního systému, jste připraveni začít. V závislosti na vašich potřebách však zvažte, zda vám může pomoci další asistované nastavení. Pokud není možno nastavit oblast pomocí asistovaných nastavení, vyberte akci **Manuální nastavení** pro přístup na  nastavovací stránky, kde můžete ručně vyplnit daná pole pro nastavení všech oblastí. Pro další informace navštivte také [Nastavení[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Seznam průvodců nastavení, rozšíření a služeb, které jsou k dispozici se liší v závislosti na uživatelském prostředí, jaké si vyberete pro svou společnost. **Essential** nabízí menší přístup v aplikaci než **Premium**. Při prvním přihlašování používejte Essentials. Pro další informace se podívejte na [Změna zobrazování funkcí](ui-experiences.md).
+>   Seznam průvodců nastavení, rozšíření a služeb, které jsou k dispozici se liší v závislosti na uživatelském prostředí, jaké si vyberete pro svou společnost. **Essential** nabízí menší přístup v aplikaci než **Premium**. Při prvním přihlašování používejte Essentials. Pro další informace navštivte [Změna zobrazování funkcí](ui-experiences.md).
 
 Na stránce **Asistovaná nastavení** s **Essentials** najdete následující položky
 
 | Asistovaná nastavení | Popis |
 | --- | --- |
-| Založení Vaší Společnost |Vytvoří se pro vás novou zkušební společnost pro zadávání dat a vyzkoušení [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pokud jste prošli prohlídkou Začínáme, je to pravděpodobně již **dokončená**. |
+| Založení vaší společnosti |Vytvoří se pro vás nová zkušební společnost pro zadávání dat a vyzkoušení [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pokud jste prošli prohlídkou Začínáme, je to pravděpodobně již **dokončeno**. |
 | Migrace obchodních dat |Umožňuje importovat stávající data společnosti, jako jsou prodejci, zákazníci a zboží z Excelu nebo Quickbooks. |
 | Nastavení DPH |Začínáte s výchozími daňovými skupinami a přiřazováním kódů daňových oblastí, které můžete přiřadit zákazníkům a prodejcům, abyste mohli automaticky vypočítat daň z obratu v prodejních nebo nákupních dokladech. |
 | Nastavení e-mailu |Připraví Vás k odesílání e-mailových zpráv přímo, např.: z prodejních objednávek nebo kontaktů v [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
@@ -38,7 +38,7 @@ Na stránce **Asistovaná nastavení** s **Essentials** najdete následující p
 Když spustíte asistované nastavení, bude označeno jako **Dokončené**. Chcete-li spustit asistované nastavení, vyberte tři tečky, které se také nazývají kontextové menu, a poté vyberte **Počáteční nastavení**.
 
 ## <a name="role-center"></a>Centrum rolí
-V Centru rolí máte přehled o firmě. Na levé straně uvidíte navigační lištu, která vám poskytuje snadný přístup k zákazníkům, dodavatelům, položkám atd. Přibližně v středě obrazovky najdete oblast **Aktivity**. **Aktivity** zobrazují aktuální data a lze na ně klepnout, čímž získáte snadný přístup k vybranému dokumentu. **Klíčové ukazatele výkonnosti** lze nastavit tak, aby zobrazovaly vybraný graf pro vizuální znázornění například peněžních toků nebo příjmů a výdajů. V Centru rolí můžete také vytvořit seznam **oblíbených zákazníků** pro účty, se kterými často obchodujete nebo kterým potřebujete věnovat zvláštní pozornost.
+V Centru rolí máte přehled o firmě. Na levé straně uvidíte navigační lištu, která vám poskytuje snadný přístup k zákazníkům, dodavatelům, zboží atd. Přibližně v středě obrazovky najdete oblast **Aktivity**. **Aktivity** zobrazují aktuální data a lze na ně klepnout, čímž získáte snadný přístup k vybranému dokladu. **Klíčové ukazatele výkonnosti** lze nastavit tak, aby zobrazovaly vybraný graf pro vizuální znázornění například peněžních toků nebo příjmů a výdajů. V Centru rolí můžete také vytvořit seznam **oblíbených zákazníků** pro účty, se kterými často obchodujete nebo kterým potřebujete věnovat zvláštní pozornost.
 Pomocí šipek sbalte část stránky a vytvořte více místa pro zobrazení konkrétních dat. V horní části centra rolí najdete všechny akce, které lze použít na aktuální obsah. I to lze sbalit a pro opětovné zobrazení stačí kliknout nebo klepnout do sbalené oblasti.
 
 > [!TIP]  
@@ -54,7 +54,7 @@ Potřebujete-li přidat více uživatelů, provádí se to z Centra pro správu 
 V [!INCLUDE[d365fin](includes/d365fin_md.md)] najdete popisy, které vám pomohou provést různé obchodní procesy. V každém popisu najdete odkaz nazvaný **Získat nápovědu**, který vás přenese k nápovědě k produktu. Otazník v pravém horním rohu také odkazuje na nápovědu k produktu.
 
 ## <a name="next-steps"></a>Další kroky
-Na základě přenesených dat můžete nyní začít vytvářet nové dokumenty o prodeji nebo nákupu. V části **Moje společnost** na **Domovské stránce** můžete rychle vytvořit novou prodejní nabídku, prodejní fakturu, prodejní objednávku, nákupní fakturu nebo registraci platby.
+Na základě přenesených dat můžete nyní začít vytvářet nové doklady o prodeji nebo nákupu. V části **Moje společnost** na **Domovské stránce** můžete rychle vytvořit novou prodejní nabídku, prodejní fakturu, prodejní objednávku, nákupní fakturu nebo registraci platby.
 
 ## <a name="see-also"></a>Viz také
 [Začínáme](product-get-started.md)  

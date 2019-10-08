@@ -1,6 +1,6 @@
 ---
 title: |-
-  Importování a Exportování vlastního rozvržení Sestavy nebo Dokumentu
+  Importování a exportování vlastního rozvržení sestavy nebo dokladu
    | Microsoft Docs
 description: Existující vlastní rozvržení sestavy můžete importovat a exportovat jako soubor do a z místa v počítači a síti.
 services: project-madeira
@@ -15,7 +15,7 @@ ms.search.keywords: null
 ms.date: 10/01/2018
 ms.author: jswymer
 ---
-# <a name="import-and-export-a-report-or-document-layout"></a>Importování a Exportování vlastního rozvržení Sestavy nebo Dokumentu
+# <a name="import-and-export-a-report-or-document-layout"></a>Importování a exportování vlastního rozvržení sestavy nebo dokladu
 Existující vlastní rozvržení sestavy můžete importovat a exportovat jako soubor do a z místa v počítači a síti. Můžete například exportovat rozvržení sestavy a odeslat soubor jiné osobě k úpravě. Tato osoba pak může provést úpravy rozvržení a vrátit vám soubor, abyste jej mohli importovat zpět.  
 
 > [!IMPORTANT]  
@@ -23,7 +23,7 @@ Existující vlastní rozvržení sestavy můžete importovat a exportovat jako 
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Export rozvržení sestavy do souboru  
 
-1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** Výběr Rozvržení Sestav ** a poté vyberte související odkaz.  
+1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Výběr rozvržení sestav** a poté vyberte související odkaz.  
 
 2.  Vyberte řádek sestavy obsahující vlastní rozvržení sestavy, které chcete exportovat, a poté na kartě **Domovská stránka** ve skupině **Proces** vyberte **Vlastní rozvržení**.  
 
@@ -35,9 +35,9 @@ Existující vlastní rozvržení sestavy můžete importovat a exportovat jako 
 
 1.  Ujistěte se, že příslušný soubor, který definuje rozvržení sestavy, je k dispozici ve vašem počítači nebo síti.  
 
-     Soubor rozložení sestavy aplikace Word musí mít příponu souboru .docx. Soubor rozložení sestavy aplikace Word musí mít příponu souboru .docx.  
+     Soubor rozložení sestavy aplikace Word musí mít příponu souboru .docx. Soubor rozložení sestavy aplikace RDLC musí mít příponu souboru .rdlc nebo .rdl.  
 
-2.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** Výběr Rozvržení Sestav ** a poté vyberte související odkaz.  
+2.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Výběr rozvržení sestav** a poté vyberte související odkaz.  
 
 3.  Vyberte řádek sestavy obsahující vlastní rozvržení sestavy, které chcete exportovat, a poté na kartě **Domovská stránka** ve skupině **Proces** vyberte **Vlastní rozvržení**.  
 
@@ -48,6 +48,6 @@ Existující vlastní rozvržení sestavy můžete importovat a exportovat jako 
  Původní vlastní rozvržení sestavy je nahrazeno importovaným rozvržením sestavy.  
 
 ## <a name="see-also"></a>Viz také  
- [Vytvoření a Úprava Vlastního Rozvržení Sestavy](ui-how-create-custom-report-layout.md)   
- [Správa rozvržení Sestav a Dokumentů](ui-manage-report-layouts.md)  
- [Práce se Sestavami a Dávkovými úlohami](ui-work-report.md)    
+ [Vytvoření a úprava vlastního rozvržení sestavy](ui-how-create-custom-report-layout.md)   
+ [Správa rozvržení sestav a dokladů](ui-manage-report-layouts.md)  
+ [Práce se sestavami a dávkovými úlohami](ui-work-report.md)    

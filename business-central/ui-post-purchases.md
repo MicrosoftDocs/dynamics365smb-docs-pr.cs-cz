@@ -27,7 +27,7 @@ Po zaúčtování nákupní objednávky se aktualizuje účet dodavatele, hlavn�
 
 Pro každou nákupní objednávku se vytvoří nákupní položka v tabulce **Věcná položka**. Položka se také vytvoří na účtu dodavatele v tabulce **Položka dodavatele** a věcná položka se vytvoří na příslušném účtu závazků. Kromě toho může naúčtování objednávky vést k DPH položce a věcné položce pro částku slevy. To jestli je položka slevy naúčtovaná, záleží na obsahu pole **Účtování slevy** na stránce **Nastavení nákupu a závazků**.
 
-Pro každý řádek nákupní objednávky se vytvoří položka zboží v tabulce **Položka zboží** (pokud nákupní řádky obsahují čísla položek) nebo bude vytvořená věcná položka v tabulce **Věcná položka** (pokud nákupní řádky obsahují finanční účet). Kromě toho jsou nákupní objednávky vždy zaznamenány v **Hlavičce Nák. Příjemky** a **Hlavičce Nák. Faktury**.
+Pro každý řádek nákupní objednávky se vytvoří položka zboží v tabulce **Položka zboží** (pokud nákupní řádky obsahují čísla položek) nebo bude vytvořená věcná položka v tabulce **Věcná položka** (pokud nákupní řádky obsahují finanční účet). Kromě toho jsou nákupní objednávky vždy zaznamenány v tabulkách **Hlavička Nák. Příjemky** a **Hlavička Nák. Faktury**.
 
 Než začnete účtovat, můžete si vytisknout testovací sestavu, která obsahuje všechny informace o nákupní objednávce a naznačuje případné chyby. Chcete-li sestavu vytisknout, zvolte **Účtování**, a poté zvolte **Testovací sestava**.
 
@@ -40,6 +40,6 @@ Po dokončení účtování budou zaúčtované nákupní řádky z objednávky 
 
 ## <a name="see-also"></a>Viz také
 [Nakupování](purchasing-manage-purchasing.md)  
-[Účtování dokumentů a deníků](ui-post-documents-journals.md)  
+[Účtování dokladů a deníků](ui-post-documents-journals.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -28,7 +28,7 @@ Přestože pole obsahuje červenou hvězdičku, nemusíte být nuceni vyplnit po
 
  Mnoho polí má tlačítko se šipkou dolů, které si můžete zvolit. Pomocí šipky získáte seznam dat, která jsou k dispozici pro zadávání do pole. Tlačítko má dvě funkce v závislosti na typu pole:  
 
--   Vyhledat - Zobrazí informace z jiné tabulky, kterou můžete zadat do pole. Můžete si vybrat část dat najednou.  
+-   Vyhledat - Zobrazí informace z jiné tabulky, které můžete zadat do pole. Můžete si vybrat část dat najednou.  
 
 -   Rozevírací nabídka - Zobrazí sadu možností, které pro dané pole existují. Můžete vybrat pouze jednu z možností.  
 
@@ -55,7 +55,7 @@ Přestože pole obsahuje červenou hvězdičku, nemusíte být nuceni vyplnit po
 -   To enter the value of the field immediately above the active field, select **Copy Previous** from the shortcut menu.-->
 
 ## <a name="entering-quantities-by-calculation"></a>Zadávání množství výpočtem  
- Při zadávání čísel do polí množství, například do pole **Množství** na řádku deníku položky, můžete místo množství částky zadat vzorec.  
+ Při zadávání čísel do polí množství, například do pole **Množství** na řádku deníku zboží, můžete místo součtu množství zadat vzorec.  
 
 ## <a name="examples"></a>Příklady:  
 
@@ -77,13 +77,13 @@ Záporná čísla můžete zadat dvěma způsoby. Číslo -20,5 lze zadat jako:
 
  V obou případech bude částka zaznamenána jako -20,5.  
 
- Pokud je poslední znak výrazu **+** nebo **-**, bude celý výraz zaznamenán s tímto znaménkem. Příklad: **10-20+** bude mít za následek 10 a ne -10.  
+ Pokud je poslední znak výrazu **+** nebo **-**, bude celý výraz zaznamenán s tímto znaménkem. Příklad: **10-20+** bude mít výsledek 10 a ne -10.  
 
 ## <a name="entering-dates-and-times"></a>Zadávání dat a časů
 Můžete zadat data a časy do všech polí, která jsou specificky přiřazena k datům (datová pole). Můžete zadat data s oddělovači nebo bez nich.
 
 > [!NOTE]  
-> Způsob zadání data a času závisí na nastavení **Oblasti**. Pro další informace se navštivte [Změna základního nastavení](ui-change-basic-settings.md).  
+> Způsob zadání data a času závisí na nastavení **Oblasti**. Pro další informace navštivte [Změna základního nastavení](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Vkládání data  
  Do datového pole můžete zadat dvě, čtyři, šest nebo osm číslic:  
@@ -94,14 +94,14 @@ Můžete zadat data a časy do všech polí, která jsou specificky přiřazena 
 
 -   Pokud je datum, které chcete zadat, v rozsahu 01/01/1930 až 31/31/2029, můžete zadat rok dvěma číslicemi; jinak zadejte rok čtyřmi číslicemi.  
 
- Můžete také zadat datum jako pracovní den následovaný číslem týdne a volitelně rokem (například Mon25 nebo mon25 znamená pondělí v týdnu 25).  
+ Můžete také zadat datum jako pracovní den následovaný číslem týdne a volitelně rokem (například Mon25 znamená pondělí v týdnu 25).  
 
  Místo zadání konkrétního data můžete zadat jeden ze dvou kódů.  
 
 |Kód|Výsledek|  
 |--------------|----------------|  
 |t|Toto je dnešní datum (systémové datum pro počítač).|  
-|w|Toto je pracovní datum nastavené v aplikaci. Chcete-li změnit datum práce, viz [Změna základních nastavení](ui-change-basic-settings.md). Možná budete chtít použít pracovní datum, pokud máte mnoho transakcí s jiným než dnešním datem.|  
+|w|Toto je pracovní datum nastavený v aplikaci. Chcete-li změnit pracovní datum, viz [Změna základních nastavení](ui-change-basic-settings.md). Možná budete chtít použít pracovní datum, pokud máte mnoho transakcí s jiným než dnešním datem.|  
 
 <!--Onprem ## Closing Date  
  When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
@@ -125,7 +125,7 @@ Můžete zadat data a časy do všech polí, která jsou specificky přiřazena 
 
  Pokud nezadáte oddělovač, musíte pro každou jednotku času zadat dvě číslice.  
 
-## <a name="entering-datetimes"></a>Zadávání data a časů  
+## <a name="entering-datetimes"></a>Zadávání dat a časů  
  Při zadávání dat a časů je nutné zadat mezeru mezi datem a časem.  
 
  Následující tabulka uvádí různé způsoby, jak můžete zadat data a časy a jak jsou interpretovány.  
@@ -167,11 +167,11 @@ Můžete zadat data a časy do všech polí, která jsou specificky přiřazena 
 |2d 6h 30m|2 dny 6 hod 30 min|  
 |2d 6h 30m 56s 600ms|2 dny 6 hod 30 min 56 sec 600 msec|  
 
- Můžete také zadat číslo a automaticky se převede na dobu trvání. Zadané číslo se převede podle výchozí měrné jednotky, která byla zadána pro pole trvání.  
+ Můžete také zadat číslo a ono se automaticky převede na dobu trvání. Zadané číslo se převede podle výchozí měrné jednotky, která byla zadána pro pole trvání.  
 
  Chcete-li vidět, jaká měrná jednotka se používá v poli trvání, zadejte číslo a podívejte se, na kterou měrnou jednotku se převede.  
 
- Číslo 5 se převede na 5 hodin, pokud je měrnou jednotkou hodiny.  
+ Číslo 5 se převede na 5 hodin, pokud je měrnou jednotkou hodina.  
 
 <!--OnPrem  ##  <a name="BKMK_SettingDateRanges"></a> Setting Date Ranges  
  You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges.  
@@ -203,7 +203,7 @@ Můžete zadat data a časy do všech polí, která jsou specificky přiřazena 
 
 -   Vzorec data v poli Výpočet splatnosti určuje, jak vypočítat datum splatnosti pro připomenutí.  
 
- Vzorec pro výpočet data může obsahovat maximálně 20 znaků, číslic i písmen. Pro specifikaci času můžete použít následující písmena, která jsou zkratkami.  
+ Vzorec pro výpočet data může obsahovat maximálně 20 znaků, číslic i písmen. Pro specifikaci času můžete použít následující písmena, které jsou zkratkami.  
 
 |||  
 |-|-|  

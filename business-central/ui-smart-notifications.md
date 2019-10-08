@@ -1,5 +1,5 @@
 ---
-title: 'Práce s inteligetními upozorněními a specifikace, kdy je můžete vidět | Microsoft Docs'
+title: 'Práce s inteligentními upozorněními a specifikace, kdy je můžete vidět | Microsoft Docs'
 description: 'Můžete dostávat upozornění, která vás informují o změnách stavu nebo událostech, například zůstatek po datu splatnosti nebo nízké zásoby.'
 services: project-madeira
 documentationcenter: ''
@@ -17,9 +17,9 @@ ms.author: bholtorf
 
 Pokud se rozhodnete zobrazit podrobnosti upozornění, můžete podniknout kroky k vyřešení problému, jako je kontaktování zákazníka, nákup více zásob atd. Je na vás, co uděláte, a [!INCLUDE[d365fin](includes/d365fin_md.md)] vám poskytne rady a doporučení.  
 
-Upozornění mohou nezkušeným uživatelům pomoci dokončit neznámé úkoly a nesnižují produktivitu vyškoleného uživatele.  
+Upozornění mohou nezkušeným uživatelům pomoci dokončit neznámé úkoly a zároveň nesnižují produktivitu vyškoleného uživatele.  
 
-## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Chcete-li zapnout nebo vypnout upozornění a určit, kdy jsou odesílány
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Zapnutí nebo vypnutí upozornění a nastavení, kdy jsou odesílány
 Když poprvé spustíte [!INCLUDE[d365fin](includes/d365fin_md.md)], všechna upozornění jsou zapnuta, ale můžete si je zapnout nebo vypnout, například, když vás nezajímá určitá událost nebo stav.  
 
 Některá upozornění navíc umožňují určit podmínky, za kterých jsou zasílána. Například, pokud chcete být upozorněni, když je nedostatek zásob, ale pouze u položek, které kupujete od určitého dodavatele.  

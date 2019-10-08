@@ -1,5 +1,5 @@
 ---
-title: Přidávání informací do Záznamů pro sebe | Microsoft Docs
+title: Přidávání informací do záznamů pro sebe | Microsoft Docs
 description: 'Připojte oznámení k libovolnému záznamu v aplikaci. Máte-li například další informace o prodejní objednávce, které se nehodí do žádného z polí v prodejní objednávce, můžete napsat oznámení.'
 author: jswymer
 ms.service: dynamics365-business-central

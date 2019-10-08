@@ -1,5 +1,5 @@
 ---
-title: Vytváření Číselných řad | Microsoft Docs
+title: Vytváření číselných řad | Microsoft Docs
 description: 'Naučte se, jak nastavit číselné řady, které přiřazují jedinečné kódy ID k účtům a dokladům v Business Central.'
 documentationcenter: ''
 author: SorenGP
@@ -12,8 +12,8 @@ ms.search.keywords: 'numbers, numbering'
 ms.date: 10/01/2018
 ms.author: sgroespe
 ---
-# <a name="create-number-series"></a>Vytváření Číselné řady
-Pro každou společnost, kterou jste založili, musíte přiřadit jedinečné identifikační kódy k věcem jako jsou účty hlavní knihy, účty zákazníků a dodavatelů, faktury a další doklady. Číslování je důležité nejen pro identifikaci. Dobře navržený systém číslování také umožňuje lepší správu a snadnou analýzu společnosti, a může snížit počet chyb, ke kterým dochází při zadávání dat.
+# <a name="create-number-series"></a>Vytváření číselné řady
+Pro každou společnost, kterou jste založili, musíte přiřadit jedinečné identifikační kódy k věcem jako jsou účty hlavní knihy, účty zákazníků a dodavatelů, faktury, a další doklady. Číslování je důležité nejen pro identifikaci. Dobře navržený systém číslování také umožňuje lepší správu a snadnou analýzu společnosti, a může snížit počet chyb, ke kterým dochází při zadávání dat.
 
 > [!NOTE]  
 >   Doporučujeme používat stejné kódy číselných řad, jaké jsou uvedeny na stránce **Přehled číselných řad** v demonstrační společnosti CRONUS. Kódy, jako je *P-INV +*, vám nemusí nyní dávat smysl, ale [!INCLUDE[d365fin](includes/d365fin_md.md)] má řadu výchozích nastavení, která závisí na těchto kódech číselných řad.
@@ -22,9 +22,9 @@ Systém číslování vytvoříte nastavením jednoho nebo více kódů pro kaž
 
 Obvykle nastavíte svou číselnou řadu tak, aby se nové pořadové číslo automaticky vkládalo na nové karty nebo doklady, které vytvoříte. Můžete ale nastavit řadu čísel tak, abyste mohli nové číslo zadat ručně. Toto lze specifikovat zaškrtnutím políčka **Ruční čísla**.
 
-Pokud chcete použít více než jeden číselný kód řady pro jeden typ hlavních dat - například, pokud chcete použít různé číselné řady pro různé kategorie položek - můžete použít vztahy číselných řad.
+Pokud chcete použít více než jeden číselný kód řady pro jeden typ hlavních dat - například pokud chcete použít různé číselné řady pro různé kategorie položek - můžete použít vztahy číselných řad.
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Chování číslování Pole v dokladech a kartách
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Chování číslování pole v dokladech a kartách
 V prodejních, nákupních a převodních dokladech a na všech kartách lze **Číslo** vyplnit automaticky z číselných řad nebo ručně, a lze jej nastavit tak, aby nebylo viditelné.
 
 Pole **Číslo** lze vyplnit třemi způsoby:
@@ -34,7 +34,7 @@ Pole **Číslo** lze vyplnit třemi způsoby:
     > [!NOTE]  
     > Pokud číselná řada nefunguje, například proto, že jí došly přiřaditelná čísla, pak pole **Číslo** bude viditelné a na stránce **Přehled číselných řad** můžete číslo zadat ručně, nebo vyřešit problémy.
 
-2. Pokud existuje více než jedna číselná řada pro typ dokladu nebo karty, a pro číselnou řadu, která je aktuálně přiřazená není zaškrtnuto políčko **Výchozí čísla**, pak je pole **Číslo** viditelné a můžete navštívit stránku **Přehled číselných řad** a vybrat číslo, které chcete použít. Do pole **Číslo** se vloží další číslo v  řadě.
+2. Pokud existuje více než jedna číselná řada pro typ dokladu nebo karty, a pro číselnou řadu, která je aktuálně přiřazená, není zaškrtnuto políčko **Výchozí čísla**, pak je pole **Číslo** viditelné a můžete navštívit stránku **Přehled číselných řad** a vybrat číslo, které chcete použít. Do pole **Číslo** se vloží další číslo v  řadě.
 
 3. Pokud jste nenastavili číselné řady pro typ dokladu nebo karty, nebo pokud je pro číselné řady vybráno pole **Ruční čísla**, pak je pole **Číslo** viditelné a jakékoli číslo musíte zadat ručně. Můžete zadat maximálně 20 znaků, číslic i písmen.
 

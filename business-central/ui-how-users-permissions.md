@@ -14,7 +14,7 @@ ms.author: sgroespe
 # <a name="managing-users-and-permissions"></a>Správa uživatelů a práv
 Chcete-li přidat uživatele do [!INCLUDE[d365fin](includes/d365fin_md.md)], musí správce vaší společnosti Office 365 nejprve vytvořit uživatele v Admin Center Office 365. Pro více informací navštivte [Přidejte uživatele k Office 365 pro firmy](https://aka.ms/CreateOffice365Users).
 
-Po vytvoření uživatelů v sadě Office 365 je lze importovat na stránku **Uživatelů** v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Uživatelům jsou přiřazeny sady oprávnění v závislosti na plánu přiřazeném uživateli v Office 365. Podrobné informace o licencích naleznete v příručce [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
+Po vytvoření uživatelů v sadě Office 365 je lze importovat na stránku **Uživatelů** v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Uživatelům jsou přiřazeny sady oprávnění v závislosti na plánu přiřazeném uživateli v Office 365. Podrobné informace o licencích naleznete v [Licenčním průvodci Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
 
 Poté můžete přistoupit k přiřazení sad oprávnění uživatelům, k definování, které databázové objekty a ke kterým prvkům uživatelského rozhraní, mají uživatelé přístup a ve kterých společnostech. Můžete přidat uživatele do skupin uživatelů. To usnadňuje přiřazení stejných sad oprávnění více uživatelům.
 
@@ -22,9 +22,9 @@ Sada oprávnění je souhrn oprávnění pro konkrétní objekty v databázi. V�
 
 Na stránce **Karty uživatele** můžete otevřít stránku **Platná oprávnění** a zjistit, jaká oprávnění má uživatel a skrze které sady oprávnění jsou udělována. Zde můžete také změnit podrobnosti oprávnění pro sady oprávnění **uživatelsky definovaného** typu. Pro více informací navštivte [Získání přehledu oprávnění uživatele](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Správci mohou pomocí stránky **Nastavení uživatele** definovat časové intervaly, během nichž jsou určití uživatelé schopni účtovat položky, a také určit systémové protokoly množství času, po který jsou uživatelé přihlášeni.
+Správci mohou pomocí stránky **Nastavení uživatele** definovat časové intervaly, během nichž jsou určití uživatelé schopni účtovat, a také určit systémové protokoly množství času, po který jsou uživatelé přihlášeni.
 
-Další systém, který definuje, k čemu mají uživatelé přístup, je Nastavení skušenosti. Pro další informace se podívejte na [Změna zobrazování funkcí](ui-experiences.md).
+Další systém, který definuje, k čemu mají uživatelé přístup, je Nastavení skušenosti. Pro další informace navštivte [Změnu zobrazování funkcí](ui-experiences.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Přidání uživatele v Business Central
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
@@ -54,7 +54,7 @@ Chcete-li rychle definovat novou skupinu uživatelů, můžete zkopírovat všec
 Nová skupina uživatelů se přidá na stránku **Skupiny uživatelů**. Pokračujte v přidávání uživatelů. Pro více informací navštivte [Seskupení uživatelů do skupin uživatelů](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
 
 ## <a name="to-set-up-user-time-constraints"></a>Nastavení uživatelských časových omezení
-Správci mohou definovat časové období, během kterého jsou určití uživatelé schopni účtovat položky, a také určit systémové protokoly množství času, po který jsou uživatelé přihlášeni. Administrátoři mohou také uživatelům přiřadit centra odpovědnosti. Pro více informací navštivte [Práce s Centry zodpovědnosti](inventory-responsibility-centers.md).
+Správci mohou definovat časové období, během kterého jsou určití uživatelé schopni účtovat a také určit systémové protokoly množství času, po který jsou uživatelé přihlášeni. Administrátoři mohou také uživatelům přiřadit centra odpovědnosti. Pro více informací navštivte [Práce s Centry zodpovědnosti](inventory-responsibility-centers.md).
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Skupiny uživatelů** a poté vyberte související odkaz.
 2. Na stránce **Nastavení uživatelů** vyberte akci **Nový**.
@@ -65,7 +65,7 @@ Správci mohou definovat časové období, během kterého jsou určití uživat
 Sady oprávnění fungují jako kontejnery oprávnění, takže můžete snadno spravovat více oprávnění v jednom záznamu. Po vytvoření sady oprávnění musíte přidat konkrétní oprávnění. Pro více informací navštivte [Ruční vytvoření nebo úprava oprávnění](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 > [!NOTE]  
-> A [!INCLUDE[d365fin](includes/d365fin_md.md)] řešení obvykle obsahuje řadu předdefinovaných sad oprávnění přidaných společností Microsoft nebo poskytovatelem softwaru. Tyto sady oprávnění jsou **Systémového**  typu nebo typu **Rozšíření**. Tyto typy sad oprávnění nebo oprávnění v nich nelze vytvářet ani upravovat. Můžete je však zkopírovat a definovat vlastní sady a oprávnění v nich. <br /><br />
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] Řešení obvykle obsahuje řadu předdefinovaných sad oprávnění přidaných společností Microsoft nebo poskytovatelem softwaru. Tyto sady oprávnění jsou **Systémového** typu nebo typu **Rozšíření**. Tyto typy sad oprávnění nebo oprávnění bez těchto typů nelze vytvářet ani upravovat. Můžete je však zkopírovat a definovat v nich vlastní sady a oprávnění. <br /><br />
 Sady oprávnění, které uživatelé vytvářejí, z nových nebo jako kopie, jsou typu  **Definováno uživatelem** a lze je upravovat.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Sady oprávnění** a poté vyberte související odkaz.
@@ -78,7 +78,7 @@ Při vytváření nových sad oprávnění můžete pomocí funkce kopírování
 > [!NOTE]  
 > Pokud se změní systémová oprávnění, kterou jste zkopírovali, budete upozorněni (v závislosti na vašem výběru), abyste mohli zvážit, zda jsou změny relevantní pro kopírování nebo zápis do vaší uživatelem definované sady oprávnění.
 
-1. Na stránce **Sady oprávnění** vyberte řádek sady oprávnění, kterou chcete zkopírovat, a poté vyberte akci **Kopírovat sadu povolení**.
+1. Na stránce **Sady oprávnění** vyberte řádek sady oprávnění, kterou chcete zkopírovat, a poté vyberte akci **Kopírovat sadu oprávnění**.
 2. Na stránce **Kopírovat sadu oprávnění** zadejte název nové sady oprávnění a poté klepněte na tlačítko **OK**.
 3. Pokud chcete zachovat propojení mezi originálem a zkopírovanou sadou oprávnění, zaškrtněte políčko **Upozornit na změněné oprávnění**. Odkaz se potom použije k upozornění, pokud se název nebo obsah původní sady oprávnění změní v budoucí verzi, na kterou bude řešení upgradováno.
 
@@ -100,7 +100,7 @@ V každém z pěti polí typu přístupu, **Právo čtení**, **Právo vložit**
 
 ### <a name="example---indirect-permission"></a>Příklad - nepřímé povolení
 Můžete použít nepřímé oprávnění k použití objektu pouze prostřednictvím jiného objektu.
-Například uživatel může mít oprávnění ke spuštění procedury 80, Účtovaná dodávka. Procedura Účtové dodávky vykonává mnoho úkolů, včetně úpravy tabulky 37, Prodejní řádek. Když uživatel zaúčtuje prodejní doklad, procedura Účtové dodávky,  [!INCLUDE[d365fin](includes/d365fin_md.md)] zkontroluje, zda má uživatel oprávnění upravovat tabulku Prodejních řádků. Pokud ne, procedura nemůže dokončit své úkoly a uživatel obdrží chybovou zprávu. Pokud ano, procedura se spustí úspěšně.
+Například uživatel může mít oprávnění ke spuštění procedury 80, Účtovaná dodávka. Procedura účtové dodávky vykonává mnoho úkolů, včetně úpravy tabulky 37, Prodejní řádek. Když uživatel zaúčtuje prodejní doklad, procedura účtové dodávky,  [!INCLUDE[d365fin](includes/d365fin_md.md)] zkontroluje, zda má uživatel oprávnění upravovat tabulku Prodejních řádků. Pokud ne, procedura nemůže dokončit své úkoly a uživatel obdrží chybovou zprávu. Pokud ano, procedura se spustí úspěšně.
 
 Uživatel však nemusí mít plný přístup k tabulce Prodejní řádek, aby mohl spustit proceduru. Pokud má uživatel nepřímé povolení pro tabulku Prodejní řádek, pak se  procedura Účtové dodávky úspěšně spustí. Pokud má uživatel nepřímé oprávnění, může tento uživatel upravit pouze tabulku Prodejní řádek spuštěním procedury Účtové dodávky nebo jiného objektu, který má oprávnění k úpravě tabulky Prodejní řádek. Uživatel může upravit tabulku Prodejní řádek pouze v případě, že tak činí z podporovaných oblastí aplikace. Uživatel nemůže tuto funkci spustit neúmyslně nebo škodlivě jinými metodami.
 
@@ -134,7 +134,7 @@ Oprávnění můžete uživatelům přiřadit dvěma způsoby:
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Přiřazení sady oprávnění na kartě uživatele
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
 2. Vyberte uživatele, kterému chcete přiřadit oprávnění.
-Všechny sady oprávnění, které jsou již uživateli přiřazeny, jsou zobrazeny v FactBoxu **Sad oprávnění**.
+Všechny sady oprávnění, které jsou již uživateli přiřazeny, jsou zobrazeny v záložce **Sad oprávnění**.
 3. Zvolte akci **Upravit** a otevřete stránku **Karta uživatele**.
 4. Na záložce s náhledem **Sady oprávnění uživatele**, na novém řádku vyplňte pole podle potřeby. Pro více informací navštivte [Vytvoření nebo úprava sady oprávnění](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
@@ -143,7 +143,7 @@ Následující postup vysvětluje, jak přiřadit sady oprávnění uživateli n
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
 2. Na stránce **Uživatelů** vyberte příslušného uživatele a poté vyberte akci **Sada oprávnění dle uživatele**.
-3. Na stránce **Sada oprávnění dle uživatele** zaškrtněte políčko **[Název uživatele]** na řádku pro příslušnou sadu oprávnění k přiřazení sady uživateli.
+3. Na stránce **Sada oprávnění dle uživatele** zaškrtněte políčko **[Název uživatele]** na řádku pro příslušnou sadu oprávnění.
 4. Zaškrtněte políčko **Všichni uživatelé** a přiřaďte sadu oprávnění všem uživatelům.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Získání přehledu oprávnění uživatele
@@ -159,7 +159,7 @@ Následující postup vysvětluje, jak přiřadit sady oprávnění uživateli n
 
     > [!NOTE]  
     > Lze upravovat pouze sady oprávnění typu **Definováno uživatelem**.<br /><br />
-    > Řádky zdrojového oprávnění pocházejí z plánu předplatného. Hodnoty oprávnění hodnot oprávnění nadřazují hodnoty v jiných sadách oprávnění, pokud mají vyšší hodnocení. Hodnota v sadě oprávnění bez nároku, která má vyšší hodnocení než související hodnota v nároku, bude ohraničena závorkami, což znamená, že není účinná, protože je potlačena nárokem. Pro více informací navštivte [Ruční vytvoření nebo úprava oprávnění](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
+    > Řádky zdrojového oprávnění pocházejí z plánu předplatného. Hodnoty oprávnění hodnot zrušení nároku nadřazují hodnoty v jiných sadách oprávnění, pokud mají vyšší hodnocení. Hodnota v sadě oprávnění bez nároku, která má vyšší hodnocení než související hodnota v nároku, bude ohraničena závorkami, což znamená, že není účinná, protože je potlačena nárokem. Pro více informací navštivte [Ruční vytvoření nebo úprava oprávnění](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. Chcete-li upravit sadu oprávnění, v části **Podle sady oprávnění** na řádku pro příslušnou sadu oprávnění typu **Definováno uživatelem** vyberte jedno z pěti polí typu přístupu a vyberte jinou hodnotu.
 
@@ -171,7 +171,7 @@ Následující postup vysvětluje, jak přiřadit sady oprávnění uživateli n
 ## <a name="see-also"></a>Viz také
 [Zabezpečení a ochrana v Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Porozumění uživatelům, profilům a centrům rolí](admin-users-profiles-roles.md)  
-[Příprava na Podnikání](ui-get-ready-business.md)  
+[Příprava na podnikání](ui-get-ready-business.md)  
 [Změna zobrazovaných funkcí](ui-experiences.md)  
 [Správa](admin-setup-and-administration.md)  
 [Přidávaní uživatele k Office 365 pro podnikání](https://aka.ms/CreateOffice365Users)  

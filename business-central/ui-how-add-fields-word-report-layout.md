@@ -21,7 +21,7 @@ Sada dat sestavy se může skládat z polí zobrazujících popisky, data a obr�
 
 ##  <a name="OpenXMLPart"></a> Otevření vlastní XML části pro sestavu v aplikaci Word  
   
-1.  Pokud již není otevřen, otevřete dokument rozvržení sestavy sestavy v aplikaci Word.  
+1.  Pokud již není otevřena, otevřete dokument rozvržení sestavy v aplikaci Word.  
   
      Pro více informací navštivte [Vytvoření a úprava vlastního rozvržení sestavy](ui-how-create-custom-report-layout.md).  
   
@@ -41,7 +41,7 @@ Sada dat sestavy se může skládat z polí zobrazujících popisky, data a obr�
   
      Po výběru vlastní XML části se v podokně Mapování XML zobrazí popisky a ovládací prvky pole, které jsou k dispozici pro sestavu.  
   
-### <a name="to-add-a-label-or-data-field"></a>Pro přidání popisku nebo datového pole  
+### <a name="to-add-a-label-or-data-field"></a>Přidání popisku nebo datového pole  
   
 1.  Umístěte kurzor do dokumentu, kam chcete přidat ovládací prvek.  
   
@@ -50,7 +50,7 @@ Sada dat sestavy se může skládat z polí zobrazujících popisky, data a obr�
     > [!NOTE]  
     >  Pole nelze přidat ručně zadáním názvu pole sady dat do ovládacího prvku obsahu. K mapování polí musíte použít podokno **Mapování XML**.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Pro přidání opakujících se řádků datových polí k vytvoření seznamu  
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Přidání opakujících se řádků datových polí k vytvoření seznamu  
   
 1.  V tabulce přidejte řádek tabulky, který obsahuje sloupec pro každé pole, které chcete opakovat.  
   

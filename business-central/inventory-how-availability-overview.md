@@ -18,12 +18,12 @@ Z kontextu obchodního úkolu můžete získat pokročilé informace o tom, kdy 
 Můžete zobrazit dostupnost všeho zboží na lokacích a dostupnost každého zboží podle události, podle období nebo podle lokace. Událost je jakákoli transakce naplánovaného zboží, jako je prodejní zásilka nebo potvrzení o příchozím převodu.
 
 > [!NOTE]  
->   Zobrazení dostupnosti podle lokace vyžaduje, abyste udržovali zásoby na více než jedné lokaci. Pro více informací navštivte [Nastavení lokací ](inventory-how-setup-locations.md).
+>   Zobrazení dostupnosti podle lokace vyžaduje, abyste udržovali zásoby na více než jedné lokaci. Pro více informací navštivte [Nastavení lokací](inventory-how-setup-locations.md).
 
 V [!INCLUDE[d365fin](includes/d365fin_md.md)] jsou zobrazeny údaje o dostupnosti ve dvou různých polích, každé s odlišnou definicí:
 
 * Pole **Množství na skladě** zobrazuje skutečné množství dnes podle účtovaných položek zboží.
-* Pole **Předpokládané dost.množ.** je vypočteno a zobrazuje množství na skladě plus plánované příjmy mínus hrubé požadavky. (V [!INCLUDE[d365fin](includes/d365fin_md.md)], naplánované příjmy zahrnují množství na nákupních objednávkách a vstupních objednávkách transferu. Hrubé požadavky zahrnují množství na prodejních objednávkách a odchozích objednávkách transferu.)
+* Pole **Předpokládané dost.množ.** je vypočteno a zobrazuje množství na skladě plus plánované příjmy mínus celkové požadavky. (V [!INCLUDE[d365fin](includes/d365fin_md.md)], naplánované příjmy zahrnují množství na nákupních objednávkách a vstupních objednávkách transferu. Hrubé požadavky zahrnují množství na prodejních objednávkách a odchozích objednávkách transferu.)
 
 > [!TIP]  
 >   Předpokládaný disponibilní zůstatek je zvláště důležitý pro zobrazení na stránkách **Zboží k dispozici dle období** a **Dostupnost zboží dle událostí**, protože obsahují dimenzi data.  
@@ -31,7 +31,7 @@ V [!INCLUDE[d365fin](includes/d365fin_md.md)] jsou zobrazeny údaje o dostupnost
 > [!NOTE]  
 >   Následující postupy popisují, jak zobrazit informace o rozšířené dostupnosti ze seznamu zboží a karty zboží. Můžete také získat přístup k informacím z řádků prodejních dokladů pro zboží na řádku. Pro více informací navštivte [Prodej produktů](sales-how-sell-products.md).
 
-## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Chcete-li zobrazit dostupnost zboží podle toho, kdy bude přijato nebo odesláno
+## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Zobrazení dostupnosti zboží podle toho, kdy bude přijato nebo odesláno
 Dostupnost zboží podle naplánovaných transakcí zboží zobrazíte na stránce **Dostupnost dle události**.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zboží** a poté vyberte související odkaz.

@@ -1,6 +1,6 @@
 ---
 title: Odsouhlasení platby pomoci rozšíření Envestnet Yodlee Bank Feeds | Microsoft Docs
-description: 'Popisuje rozšíření Envestnet Yodlee Bank Feeds, které odkazuje na bankovní účty, takže můžete a rychle odsouhlasit platby.'
+description: 'Popisuje rozšíření Envestnet Yodlee Bank Feeds, které odkazuje na bankovní účty, takže můžete a zároveň rychle odsouhlasit platby.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -28,7 +28,7 @@ Služba Envestnet Yodlee Bank Feeds poskytuje následující výhody:
 * Podporuje ruční i automatické bankovní informační kanály.
 * Umožňuje outsourcing schvalování platby účetnímu poskytnutím přístupu k bankovním výpisům.
 
-Pro více informací běžte na [Nastavení Envestnet  yodlee Bank služby](bank-how-setup-bank-statement-service.md).
+Pro více informací navštivte [Nastavení služby Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>Viz také
 [Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)] Pomocí rozšíření ](ui-extensions.md)    

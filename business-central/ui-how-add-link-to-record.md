@@ -11,8 +11,8 @@ ms.search.keywords: null
 ms.date: 10/01/2018
 ms.author: jswymer
 ---
-# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Přidání odkazů na webové stránky, dokumenty nebo programy v záznamech
-Do konkrétního záznamu, například zákazníka, dokumentu nebo prodejní objednávky, můžete přidat odkaz na externí dokument, web nebo program. Nebo můžete chtít odkaz, který otevře nový prázdný e-mail určitému příjemci, když jej vyberete. Stránka karty pro některé záznamy, například karty zákazníků a prodejců, obsahuje pole **Domovská stránka**, kde můžete zadat internetovou adresu (URL). Chcete-li zahrnout další odkazy, můžete použít metodu popsanou v tomto článku.
+# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Přidání odkazů na webové stránky, doklady nebo programy v záznamech
+Do konkrétního záznamu, například zákazníka, dokladu nebo prodejní objednávky, můžete přidat odkaz na externí dokument, web nebo program. Nebo můžete chtít odkaz, který otevře nový prázdný e-mail určitému příjemci, když jej vyberete. Stránka karty pro některé záznamy, například karty zákazníků a prodejců, obsahuje pole **Domovská stránka**, kde můžete zadat internetovou adresu (URL). Chcete-li zahrnout další odkazy, můžete použít metodu popsanou v tomto článku.
 
 Dalším příkladem může být, když obdržíte tištěné faktury od dodavatelů. Můžete je naskenovat a uložit jako soubory PDF na webu služby SharePoint. Poté můžete vytvořit odkaz z nákupní faktury v [!INCLUDE[d365fin_md](includes/d365fin_md.md)] na odpovídající fakturu na SharePoint. Nebo můžete vytvořit odkaz z karty zboží na odpovídající stránku v online katalogu dodavatele.
 
@@ -29,7 +29,7 @@ Dalším příkladem může být, když obdržíte tištěné faktury od dodavat
     -   Chcete-li vytvořit odkaz na soubor v počítači nebo síti, zadejte úplnou cestu a název souboru, například **C:My Documentsinvoice1.doc**.
     -   Chcete-li odkazovat na web, zadejte internetovou adresu (URL), například **www.microsoft.com**.
     -   Chcete-li odkazovat na web, zadejte internetovou adresu (URL), například **www.microsoft.com**.
-    -   Chcete-li propojit program, zadejte konkrétní řetězec pro otevření programu. Chcete-li například otevřít OneNote s konkrétní stránkou, zadejte **onenote:/// C:MyDocumentstest.one**. Nebo otevřete aplikaci Outlook s novým prázdným e-mailem na konkrétní alias, zadejte **mailto:testalias**.  
+    -   Chcete-li připojit program, zadejte konkrétní řetězec pro otevření programu. Chcete-li například otevřít OneNote s konkrétní stránkou, zadejte **onenote:/// C:MyDocumentstest.one**. Nebo pokud chcete otevřít aplikaci Outlook s novým prázdným e-mailem na konkrétní alias, zadejte **mailto:testalias**.  
 
 5.  Do pole **Popis** zadejte informace o odkazu.  
 
