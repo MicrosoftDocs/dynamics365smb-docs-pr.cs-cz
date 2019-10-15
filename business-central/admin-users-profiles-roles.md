@@ -8,7 +8,8 @@ ms.search.keywords: 'profiles, users'
 ms.date: 10/24/2018
 ms.author: edupont
 ---
-# <a name="understanding-users-profiles-and-role-centers"></a>Porozumění uživatelům, profilům a centrům rolí
+# <a name="understanding-users-profiles-and-role-centers"></a>Principy uživatelů, rolí a profilů
+
 
 V [!INCLUDE[d365fin](includes/d365fin_md.md)] jsou uživatelé přidáváni administrátorem, který také dává uživatelům přístup k oblastem v [!INCLUDE[d365fin](includes/d365fin_md.md)], které potřebují v jejich práci.  
 
@@ -42,7 +43,7 @@ Profily jsou sbírky [!INCLUDE[d365fin](includes/d365fin_md.md)] uživatelů, kt
 
 1.  Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Profily** a pak vyberte související odkaz.  
 
-2.  Na stránce **Seznam profilů** vyberte akci **Nový**, která otevřete stránku **Nová karta profilu.**.  
+2.  Na stránce **Seznam profilů** vyberte akci **Nový**, která otevřete stránku **Nová karta profilu**.  
 
 3.  Do pole **ID profilu** zadejte název, které popisuje zamýšlenou roli uživatelů.  
 
@@ -70,7 +71,7 @@ Kopírování profilu vám může ušetřit čas, pokud chcete v profilu použí
 
 Profily můžete exportovat a importovat jako soubory XML z a do databáze [!INCLUDE[d365fin](includes/d365fin_md.md)]. Export a import profilu vám může ušetřit čas při konfiguraci uživatelského rozhraní, protože znovu použijete existující konfiguraci profilu místo toho, abyste museli profil konfigurovat od nuly. Pokud máte profil nakonfigurovaný v databázi [!INCLUDE[d365fin](includes/d365fin_md.md)] a chcete znovu použít všechny nebo některé stejné konfigurace profilu v jiné databázi, můžete jej exportovat do souboru XML. Poté můžete importovat soubor XML profilu do jiné databáze.
 
--   Chcete-li exportovat profil, můžete buď vybrat akci **Exportovat profilů** na stránce **seznam Profilů** nebo na **kartě profilu** nebo můžete vyhledat a otevřít stránku **Export profilů**. Uložte soubor XML v počítači nebo síti.
+-   Chcete-li exportovat profil, můžete buď vybrat akci **Export profilů** na stránce **seznam Profilů** nebo na **kartě profilu** nebo můžete vyhledat a otevřít stránku **Export profilů**. Uložte soubor XML v počítači nebo síti.
 
 -   Chcete-li importovat profil, můžete buď vybrat tlačítko **Importovat profil** na stránce **seznam Profilů**, nebo můžete vyhledat a otevřít stránku **Importovat profil**. 
 

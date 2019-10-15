@@ -19,7 +19,7 @@ V poli **Typ** na stránce **Karta zboží** můžete vybrat, pro co je zboží 
 |Možnost|Typický účel|
 |------|-----------|
 |Zásoby|Fyzická jednotka, například kolo, pro plnou podporu podnikání.|
-|Neskladované|Fyzická jednotka, například šroub, pro omezenou podporu podnikání, například proto, že se položka používá pouze interně a má nízké náklady.|
+|Neskladované|Fyzická jednotka, například šroub, pro omezenou podporu podnikání, například proto, že se zboží používá pouze interně a má nízké náklady.|
 |Služba|Jednotka pracovní doby, například poradenská hodina, pro omezenou podporu podnikání.|
 
 Typ **Zboží** zahrnuje úplné sledování množství a hodnoty zásob. Proto jsou podporovány všechny typy transakcí zboží a zboží typu Zásoby lze použít se všemi funkcemi zpracování zboží.
@@ -35,13 +35,13 @@ Tři typy zboží podporují následující funkce.
 |Služba|Ano|Ano|Ano|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|
 
 > [!NOTE]
-> Zboží, které nabízíte svým zákazníkům, ale nechcete ve svém systému spravovat, dokud je nezačnete prodávat, lze nastavit jako zboží v katalogu. Zboží v katalogu se nesmí zaměňovat s běžným zbožím typu Neskladované. Pro více informací navštivte [Práce se katalogovým zbožím](inventory-how-work-nonstock-items.md).
+> Zboží, které nabízíte svým zákazníkům, ale nechcete ve svém systému spravovat, dokud je nezačnete prodávat, lze nastavit jako zboží v katalogu. Zboží v katalogu se nesmí zaměňovat s běžným zbožím typu Neskladované. Pro více informací navštivte [Práce se zbožím z katalogu](inventory-how-work-nonstock-items.md).
 
 > [!NOTE]
-> Zboží zákazníků, na kterých provádíte servis, například tiskárna, se nazývá předmět servisu. Předmět servisu nemá nic společné s běžným zbožím nebo zbožím v katalogu. Komponenty služeb však mohou být běžným zbožím. Pro více informací navštivte [Nastavení Předmětů servisu a Komponent předmětu servisu](service-how-setup-service-items.md).
+> Zboží zákazníků, na kterých provádíte servis, například tiskárna, se nazývá předmět servisu. Předmět servisu nemá nic společné s běžným zbožím nebo zbožím v katalogu. Komponenty služeb však mohou být běžným zbožím. Pro více informací navštivte [Nastavení předmětů servisu a komponent předmětu servisu](service-how-setup-service-items.md).
 
 ## <a name="see-also"></a>Viz také
-[Zaevidujte nové zboží](inventory-how-register-new-items.md)  
+[Evidence nového zboží](inventory-how-register-new-items.md)  
 [Nastavení zásob](inventory-setup-inventory.md)  
 [Správa nákladů zásob](finance-manage-inventory-costs.md)  
 [Zásoby](inventory-manage-inventory.md)  
