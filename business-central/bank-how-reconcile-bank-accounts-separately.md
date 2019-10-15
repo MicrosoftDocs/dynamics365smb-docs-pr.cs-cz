@@ -14,7 +14,7 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Odsouhlasení bankovních účtů po jednom
-K odsouhlasení bankovních účtů v [!INCLUDE[d365fin](includes/d365fin_md.md)] s výpisy obdrženými z banky. Začnete s vyplňováním podokna na levé straně na stránce **Odsouhlasení bankovního účtu** s informacemi o bankovních výpisech, které poté porovnáte (odsouhlasíte) s položkami účetní knihy v pravém podokně. Inteligentní způsob vyplnění řádků bankovních výpisů je importem souboru nebo zdroje bankovních výpisů.
+Chcete-li odsouhlasit bankovní účty [!INCLUDE[d365fin](includes/d365fin_md.md)] s výpisy obdrženími z banky, začněte vyplněním podokna na stránce **Odsouhlasení bankovního účtu** s informacemi z bankovním výpisu, které pak porovnáte (odsouhlasíte) s položkami bankovních účtů v pravém podokně.
 
 > [!NOTE]  
 > V severoamerických verzích můžete tuto práci provádět také na **Odsouhlasení bank. účtu. Stránka výkazu**, která je vhodnější pro šeky a vklady, ale nenabízí import souborů výpisu z účtu. Pokud chcete používat tuto stránku **Odsouhlasení bank. Účtu,**, vypněte **Automatické odsouhlasení bank. účtu Pole Shoda** na stránce **Nastavení financí**. Další informace naleznete v části „Odsouhlasit bankovní účty“ v části lokální funkce Spojených států.
