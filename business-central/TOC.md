@@ -23,9 +23,9 @@
 ## [Řazení, vyhledávání a filtrování seznamů](ui-enter-criteria-filters.md)
 ## [Nejčastější dotazy týkající se vyhledávání a filtrování](ui-search-filter-faq.md)
 ## [Zadávání dat](ui-enter-data.md)
-## [Práce s kalendářním datem a časy](ui-enter-date-ranges.md) kalendáře
+## [Práce s kalendářním datem a časy](ui-enter-date-ranges.md)
 ## [Kopírování a vkládání](ui-copy-paste.md)
-## [Detekce povinných polí<x2 />
+## [Detekce povinných polí](ui-mandatory-fields.md)
 ## [Změna jazyka a oblasti](about-locale-language.md)
 ## [Zobrazení a úpravy v aplikaci Excel](across-work-with-excel.md)
 ## [Správa upozornění](ui-smart-notifications.md)
@@ -152,7 +152,7 @@
 ### [Vytvoření TNG postupů](production-how-to-create-routings.md)
 ### [Vytvoření výrobních kusovníků](production-how-to-create-production-boms.md)
 ### [Povolit vyprázdnění komponent podle operace výstupu](production-how-to-flush-components-according-to-operation-output.md)
-### [Práce s měrnými jednotkami výrobní dávky
+### [Práce s měrnými jednotkami výrobní dávky](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 ### [Práce s výrobními skupinami zboží](production-how-work-family.md)
 ### [Nastavení řádků standardního TNG postupu](production-how-set-up-standard-routing-lines.md)
 ### [Subdodavatelská výroba](production-how-to-subcontract-manufacturing.md)
@@ -177,10 +177,10 @@
 ### [Přehled](set-up-complex-application-areas-using-best-practices.md)
 ### Doporučené postupy nastavení: Plánování dodávek
 #### [Přehled](setup-best-practices-supply-planning.md)
-#### [Doporučené postupy nastavení: Parametry](setup-best-practices-planning-parameters.md) plánování
+#### [Doporučené postupy nastavení: Parametry](setup-best-practices-planning-parameters.md)
 #### [Doporučené postupy nastavení: Nastavení globálního plánování](setup-best-practices-global-planning-setup.md)
 #### [Doporučené postupy nastavení: Způsoby přiobjednání](setup-best-practices-reordering-policies.md)
-### [Doporučené postupy nastavení: Metody ocenění
+### [Doporučené postupy nastavení: Metody ocenění](setup-best-practices-costing-method.md)
 
 ## Založení společnosti pomocí služeb RapidStart
 ### [Přehled](admin-set-up-a-company-with-rapidstart.md)
@@ -258,7 +258,7 @@
 #### [Nastavení uživatelů schvalování](across-how-to-set-up-approval-users.md)
 #### [Nastavení upozornění workflow](across-setting-up-workflow-notifications.md)
 #### [Určení, kdy a jak přijímat upozornění](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Vytvoření a úprava vlastní sestavy nebo rozvržení](ui-how-create-custom-report-layout.md) dokumentu
+#### [Vytvoření a úprava vlastní sestavy nebo rozvržení dokladu](ui-how-create-custom-report-layout.md)
 #### [Nastavení e-mailu](admin-how-setup-email.md)
 #### [Vytvoření workflow](across-how-to-create-workflows.md)
 #### [Vytvoření workflow z šablony workflow](across-how-to-create-workflows-from-workflow-templates.md)
@@ -430,7 +430,7 @@
 ### [Transfer a účtování položek nákladů](finance-transfer-and-post-cost-entries.md)
 ### [Definování a rozdělení nákladů](finance-define-and-allocate-costs.md)
 ### [Vytváření nákladových rozpočtů](finance-create-cost-budgets.md) 
-### [Odstranění položek rozpočtu nákladů
+### [Odstranění položek rozpočtu nákladů](finance-how-to-delete-cost-budget-entries.md)
 
 ## Správa nákladů zásob
 ### [Přehled](finance-manage-inventory-costs.md)
@@ -814,7 +814,7 @@
 #### [Nastavení organizačních jednotek pro výkazy obchodních aktivit](LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md)
 #### [Tisk rozvahy](LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md)
 #### [Tisk výsledovky](LocalFunctionality/Australia/how-to-print-income-statements.md)
-#### [Výpočet distribučních částek
+#### [Výpočet distribučních částek](LocalFunctionality/Australia/calculating-distribution-amounts.md)
 ### Obecné
 #### [Adresy](LocalFunctionality/Australia/addresses.md)
 #### [Určění prodejní ceny podle nákladů a procentuální části](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
@@ -934,14 +934,14 @@
 ## Finsko
 ### [Přehled](LocalFunctionality/Finland/finland-local-functionality.md)
 ### DPH
-#### [Tisk finských sestav Intrastatu](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md) Intrastat
+#### [Tisk finských sestav Intrastatu](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
 #### [Tisk informací o DPH na fakturách](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
 #### [Prohlášení k DPH-VIES ve Finsku](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
 ### Bankovnictví a platby
 #### [Elektronické bankovnictví ve Finsku](LocalFunctionality/Finland/electronic-banking-in-finland.md)
 #### [Generovat soubory plateb](LocalFunctionality/Finland/how-to-generate-payment-files.md)
 #### [Nastavit referenční soubory banky](LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md)
-#### [Převod kteditních SEPA plateb
+#### [Převod kreditních SEPA plateb](LocalFunctionality/Finland/sepa-credit-transfer-payments.md)
 #### [Ignorování skonta](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
 ### Základ financí
 #### [Nastavení automatických účto skupiny](LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md)
@@ -1029,9 +1029,9 @@
 ## Island
 ### [Přehled](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### DPH
-#### [Islandské daňové předpisy pro podmíněné slevy<x2 />
+#### [Islandské daňové předpisy pro podmíněné slevy](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Tisk souhrnných informací o DPH na dokumenty](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)
-#### [Zvláštní výstupy a sestavy pro finanční úřad<x2 />
+#### [Zvláštní výstupy a sestavy pro finanční úřad](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Elektronická fakturace
 #### [Elektronická fakturační povinnost: Vystavení jedné kopie faktury](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
 ### Obecné
@@ -1058,7 +1058,7 @@
 #### [Vydání plateb dodavatelům a faktur zákazníkům](LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills.md)
 ### Základ financí
 #### [Uzavření fiskálního roku](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
-#### [Definovat částky MD a DAL
+#### [Definovat částky MD a DAL](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
 #### [Stornování položek v deníku](LocalFunctionality/Italy/reversing-journal-entries.md)
 ### Zásoby
 #### [Nastavení počátečních nákladů na zboží](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
@@ -1156,7 +1156,7 @@
 #### [Tisk sestav o vkladu](LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports.md)
 #### [Tisk sestav odsouhlasení bankovního účtu](LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports.md)
 ### Základ financí
-#### [Výpočet distribučních částek
+#### [Výpočet distribučních částek](LocalFunctionality/NewZealand/calculating-distribution-amounts.md)
 #### [Tisk rozvahy](LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports.md)
 #### [Tisk výsledovky](LocalFunctionality/NewZealand/how-to-print-income-statements.md)
 ### Obecné
@@ -1178,7 +1178,7 @@
 #### [Elektronické bankovnictví v Norsku](LocalFunctionality/Norway/electronic-banking-in-norway.md)
 #### [Elektronické platby dodavatelům v Norsku](LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway.md)
 #### [Elektronická fakturace EHF v Norsku](LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md)
-#### [Nastavení zákazníků pro EHF<x2 />
+#### [Nastavení zákazníků pro EHF](LocalFunctionality/Norway/how-to-set-up-customers-for-ehf.md)
 #### [Nastavení EHF](LocalFunctionality/Norway/how-to-set-up-ehf.md)
 #### [Vytvoření elektronických dokumentů pro EHF](LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf.md)
 #### [Vytvořit ruční úhrady plateb](LocalFunctionality/Norway/how-to-create-manual-remittance-payments.md)
@@ -1196,7 +1196,7 @@
 #### [Zrušení plateb](LocalFunctionality/Norway/how-to-cancel-payments.md)
 #### [Odstranění platebního příkazu úhrad](LocalFunctionality/Norway/how-to-delete-remittance-payment-orders.md)
 #### [Exportovat platby úhrad](LocalFunctionality/Norway/how-to-export-remittance-payments.md)
-#### [Norské písmo Giro a font OCR-B <x2 />
+#### [Norské písmo Giro a font OCR-B ](LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font.md)
 #### [Nastavení OCR plateb](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Import a účtování OCR plateb](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Tisk testovací sestavy OCR deníku](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)
@@ -1206,7 +1206,7 @@
 #### [Periodické objednávky](LocalFunctionality/Norway/recurring-orders.md)
 #### [Vytvořit periodické se objednávky](LocalFunctionality/Norway/how-to-create-recurring-orders.md)
 #### [Nastavit periodické skupiny](LocalFunctionality/Norway/how-to-set-up-recurring-groups.md)
-#### <x1 /> Nastavení opakujících se objednávek <x2 />
+#### [Nastavení opakujících se objednávek](LocalFunctionality/Norway/how-to-set-up-recurring-orders.md)
 #### [Definice dat mezd](LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no.md)
 #### [Import mzdových transakcí](LocalFunctionality/Norway/how-to-import-payroll-transactions.md)
 #### [Nastavení čísel KID v prodejních dokladech](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
@@ -1304,7 +1304,7 @@
 #### [Anulování elektronických plateb](LocalFunctionality/Spain/how-to-void-electronic-payments.md)
 #### [Nastavení Bankovních CCC kódů](LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes.md)
 #### [Vkládání kódů CCC](LocalFunctionality/Spain/how-to-enter-ccc-codes.md)
-#### [Nastavení platebních dnů a období bez plateb<x />
+#### [Nastavení platebních dnů a období bez plateb](LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md)
 #### [Platby v hotovosti](LocalFunctionality/Spain/payments-in-cash.md)
 ### Elektronická fakturace
 #### [Modul Cartera](LocalFunctionality/Spain/cartera-module.md)
