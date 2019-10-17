@@ -32,7 +32,7 @@ Použijte stránku **Výchozí servisní hodiny** pro nastavení obvyklé pracov
 ## <a name="to-set-up-work-hour-templates"></a>Nastavení šablon pracovní doby
 Na stránce **Šablona pracovní doby** můžete nastavit šablony, které obsahují typickou pracovní dobu ve vaší společnosti. Můžete například vytvořit šablony pro techniky na plný úvazek a pro techniky na částečný úvazek. Šablony pracovní doby můžete použít, když přidáte kapacitu ke zdrojům.  
   
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony pracovní doby ** a poté vyberte související odkaz.  
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony pracovní doby** a poté vyberte související odkaz.  
 2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -51,6 +51,6 @@ Pokud pro servisní smlouvu nestanovíte konkrétní servisní hodiny, použijí
 7. Pokud chcete, aby servisní hodiny byly platné o svátcích, zaškrtněte políčko v poli **Platí během volna**.  
 
 ## <a name="see-also"></a>Viz také  
-[Porozumění Stavu přidělení a Stavu opravy](service-allocation-status-and-repair-status.md)  
-[Nastavení Správce servisu](service-setup-service.md)  
-[Porozumění Servisní zakázce a Stavu opravy](service-order-repair-status.md)  
+[Porozumění stavu přidělení a stavu opravy](service-allocation-status-and-repair-status.md)  
+[Nastavení Správy servisu](service-setup-service.md)  
+[Porozumění servisní zakázce a stavu opravy](service-order-repair-status.md)  

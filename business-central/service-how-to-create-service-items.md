@@ -21,7 +21,7 @@ Když obdržíte zboží, které vyžaduje servis, můžete jej zaevidovat jako 
 2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Vytvoření předmětů servisu uvnitř servisní zakázky  
-Když obdržíte zboží, které chcete zaregistrovat jako předměty servisu, na servis, můžete jej vytvořit jako předměty servisu na stránkách **Servisní zakázky** nebo **Nabídka servisu**.  
+Když obdržíte zboží, které chcete zaregistrovat jako předměty servisu, na servis, můžete jej vytvořit jako předmět servisu na stránkách **Servisní zakázky** nebo **Nabídka servisu**.  
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Servisní zakázky** a poté vyberte související odkaz.  
 2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -41,7 +41,7 @@ Následující postup ukazuje, jak vytvořit předměty servisu při odeslání 
 5. Předměty servisu jsou automaticky vytvořeny pro zboží v zakázce za předpokladu, že patří do skupiny předmětů servisu, kterou jste nastavili pro vytváření předmětů servisu. Pokud jste zaregistrovali konkrétní sériová čísla na stránce **Řádky sledování zboží**, budou přiřazena k těmto předmětům servisu.  
 
 > [!NOTE]  
->  Pokud je položka kusovník a rozbalili jste ho, jsou rozbalené položky kusovníku zpracovány stejným způsobem jako běžné zboží. Předměty servisu jsou vytvářeny na základě podmínky skupiny předmětů servisu, případně podmínky sériových čísel. Navíc, pokud je předmět servisu vytvořen pro rozbalenou položku kusovníku, která je tvořena jinými komponenty kusovníku, jsou tyto položky vytvořeny jako komponenty předmětu servisu pro rozbalený předmět servisu kusovníku.  
+>  Pokud je položka kusovník a rozbalili jste ji, jsou rozbalené položky kusovníku zpracovány stejným způsobem jako běžné zboží. Předměty servisu jsou vytvářeny na základě podmínky skupiny předmětů servisu, případně podmínky sériových čísel. Navíc pokud je předmět servisu vytvořen pro rozbalenou položku kusovníku, která je tvořena jinými komponenty kusovníku, jsou tyto položky vytvořeny jako komponenty předmětu servisu pro rozbalený předmět servisu kusovníku.  
 >   
 >  Pokud je zboží kusovník a nemáte rozbalený kusovník, vytvoří se pro něj předmět servisu na základě podmínky skupiny předmětů servisu, případně podmínky sériových čísel.  
 
