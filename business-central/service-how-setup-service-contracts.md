@@ -20,7 +20,7 @@ Než budete moci pracovat se smlouvami, musíte nastavit následující:
 * **Skupiny servisních smluv**, které shromažďují servisní smlouvy, které spolu nějakým způsobem souvisejí.
 * **Skupiny účtů servisní smlouvy**, které se používají k seskupování účtů servisních smluv pro servisní faktury vytvořené pro servisní smlouvy. Tyto skupiny přiřadíte k servisním smlouvám.  
 * **Šablony smluv**, které definují rozvržení smluv obsahujících nejčastěji používané detaily servisní smlouvy. Když vytváříte nabídky servisních smluv, můžete je vytvořit pomocí šablon. Při vytváření nabídky smlouvy pole automaticky obsahují obsah polí šablony.
-* **Šablony zákazníků**, které vám umožňují vytvářet nabídky pro smlouvy nebo pro potenciální zákazníky a zároveň nejsou evidování jako zákazníci v [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+* **Šablony zákazníků**, které vám umožňují vytvářet nabídky pro kontakty nebo potenciální zákazníky, kteří nejsou evidování jako zákazníci v [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Nastavení Skupiny servisních smluv  
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Skupiny servisních smluv** a poté vyberte související odkaz.  
@@ -30,8 +30,8 @@ Než budete moci pracovat se smlouvami, musíte nastavit následující:
 ## <a name="to-set-up-a-service-contract-account-group"></a>Nastavení skupin účtů servisní smlouvy  
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Skupiny účtů servisní smlouvy**, a pak vyberte související odkaz.  
 2. Vytvořte novou skupinu účtů servisní smlouvy.   
-3. Vyplňte pole **Kód** a **Popis**. Tato pole popisují Skupinu servisních účtů.  
-4. Vyplňte pole **Účet smlouvy bez zálohy**, vyberte číslo účtu hlavní knihy pro účet bez zálohy.  
+3. Vyplňte pole **Kód** a **Popis**. Tato pole popisují skupinu servisních účtů.  
+4. Vyplňte pole **Účet smlouvy bez zálohy** a vyberte číslo účtu hlavní knihy pro účet bez zálohy.  
 5. V poli **Účet smlouvy se zálohou** vyberte číslo účtu hlavní knihy pro účet se zálohou.  
 
 ## <a name="to-set-up-a-contract-template"></a>Nastavení šablony smlouvy  
@@ -39,9 +39,9 @@ Než budete moci pracovat se smlouvami, musíte nastavit následující:
 2. Vytvořte novou šablonu servisní smlouvy.  
 3. Do pole **Číslo** zadejte číslo šablony smlouvy.  
   
-     Alternativně, pokud jste nastavili číselné řady pro šablony smlouvy na stránce **Nastavení Správce servisu**, stisknutím klávesy Enter zadejte další dostupné číslo šablony smlouvy. Vyplňte ostatní pole podle potřeby.  
+     Alternativně, pokud jste nastavili číselné řady pro šablony smlouvy na stránce **Nastavení Správy servisu**, stisknutím klávesy Enter zadejte další dostupné číslo šablony smlouvy. Vyplňte ostatní pole podle potřeby.  
   
-4. Na záložce **Faktura** s náhledem , vyplňte pole **Kód Skupiny účtů servisní smlouvy**, **Období fakturace** a tak dále. Vyplňte ostatní pole podle potřeby.  
+4. Na záložce **Faktura** s náhledem vyplňte pole **Kód skupiny účtů servisní smlouvy**, **Období fakturace** a tak dále. Vyplňte ostatní pole podle potřeby.  
 5. Zvolte akci **Servisní slevy** pro přidání smluvních slev.  
 
 ## <a name="to-set-up-a-customer-template"></a>Nastavení šablony zákazníka  
