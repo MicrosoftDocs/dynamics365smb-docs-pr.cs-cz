@@ -1,6 +1,6 @@
 ---
 title: Lokální funkcionality v Business Central | Microsoft Docs
-description: Seznamte se s místními dostupnými funkcemi a dodržováním předpisů Dynamics 365 Business Central.
+description: Seznamte se s legislativními a místními funkcemi Dynamics 365 Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -24,8 +24,9 @@ Chcete-li se dozvědět více o funkcionalitách pro každou zemi, vyberte souvi
 | Evropa |  | |
 |        | Rakousko | [Lokální funkcionality Rakouska](localfunctionality/austria/austria-local-functionality.md) |
 |        | Belgie |  [Lokální funkcionality Belgie](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Česko |  [Lokální funkcionality Česka](localfunctionality/czech/czech-local-functionality.md) |
 |        | Dánsko | [Lokální funkcionality Dánska](localfunctionality/denmark/denmark-local-functionality.md) |
-|        | Německo | [Lokální funkcionalityNěmecka](localfunctionality/germany/germany-local-functionality.md) |
+|        | Německo | [Lokální funkcionality Německa](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finsko | [Lokální funkcionality Finska](localfunctionality/finland/finland-local-functionality.md) |
 |        | Francie | [Lokální funkcionality Francie](localfunctionality/france/france-local-functionality.md) |
 |        | Island | [Lokální funkcionality Islandu](localfunctionality/iceland/iceland-local-functionality.md) |
