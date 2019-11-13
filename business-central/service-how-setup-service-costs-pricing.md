@@ -29,10 +29,10 @@ Můžete nastavit skupiny obsahující předměty servisu, které chcete dostáv
 2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
  > [!Tip]
- > Pole **Typ úpravy** a **Částka** společně určují, zda se úprava týká pevné částky, nebo se použije pouze v případě, že celková cena servisu překročí, nebo je nižší než částka v poli **Částka**.  
+ > Pole **Typ úpravy** a **Částka** společně určují, zda se úprava týká pevné částky, nebo se použije pouze v případě, kdy celková cena servisu překročí nebo je nižší než částka v poli **Částka**.  
 
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Nastavení skupiny úpravy ceny servisu  
-Můžete nastavit skupiny úpravy ceny, pro úpravu cen servisu u předmětů servisu. Můžete například nastavit skupiny úpravy ceny, které upravují cenu přepravného nebo náhradních dílů.  
+Můžete nastavit skupiny úpravy ceny pro úpravu cen servisu u předmětů servisu. Můžete například nastavit skupiny úpravy ceny, které upravují cenu přepravného nebo náhradních dílů.  
   
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Skupiny úprav ceny servisu** a poté vyberte související odkaz.  
 2. Vytvoření nové skupiny úpravy ceny servisu  
@@ -40,7 +40,7 @@ Můžete nastavit skupiny úpravy ceny, pro úpravu cen servisu u předmětů se
 4. Do pole **Typ** zadejte typ záznamu, který chcete upravit.  
   
     * Chcete-li upravit pouze jeden konkrétní záznam, zadejte číslo tohoto záznamu do pole **Číslo** . Pokud toto pole ponecháte prázdné, vaše skupina úpravy ceny upraví všechny položky typu definovaného v poli **Typ**.  
-    * Chcete-li upravit ceny služeb vztahující se pouze k jedné konkrétní službě, vyplňte pole **Typ práce**. Pokud toto pole necháte prázdné, bude to ignorováno.  
+    * Chcete-li upravit ceny služeb vztahující se pouze k jedné konkrétní službě, vyplňte pole **Typ práce**. Pokud toto pole necháte prázdné, bude ignorováno.  
   
 5. Do pole **Popis** zadejte krátký popis úpravy ceny servisu.  
 6. Chcete-li upravit ceny servisu vztahující se pouze na jednu konkrétní obecnou účto skupinu zboží, vyplňte pole **Obecná účto skupina zboží**.
@@ -60,5 +60,5 @@ Při práci s předměty servisu a servisními zakázkami budete možná muset z
 2. V poli **Počáteční poplatek servisní zakázky** vyberte příslušné servisní náklady.
 
 ## <a name="see-also"></a>Viz také
-[Nastavení Správce servisu](service-setup-service.md)  
-[Správce servisu](service-service.md)  
+[Nastavení Správy servisu](service-setup-service.md)  
+[Správa servisu](service-service.md)  

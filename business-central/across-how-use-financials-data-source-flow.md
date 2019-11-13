@@ -29,13 +29,13 @@ Svá data [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete použít jako sou
 5. Vyhledejte **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** konektor.
 6. Ze seznamu dostupných triggerů vyberte jeden z dostupných triggerů [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
     *Když je požadováno schválení zákazníka*,  
-    *Když je požadováno schválení List finančního deníku *,  
+    *Když je požadováno schválení listu finančního deníku*,  
     *Když je požadováno schválení řádku finančního deníku*,  
-    *Když je požadováno schvalování zboží *,  
+    *Když je požadováno schvalování zboží*,  
     *Když je požadováno schválení nákupního dokladu*,  
-    *Když je požadováno schválení prodejního dokladu *, nebo  
+    *Když je požadováno schválení prodejního dokladu*, nebo  
     *Když je požadováno schválení dodavatele*.
-7. Flow vás vyzve k výběru společnosti ve vašem [!INCLUDE[d365fin](includes/d365fin_md.md)] klientovi, stejně tak k výběru stavu ve vašich datech, která chcete poslouchat.
+7. Flow vás vyzve k výběru prostředí a společnosti ve vašem [!INCLUDE[d365fin](includes/d365fin_md.md)] klientovi, stejně tak k výběru podmínek, které chcete ve vašich datech sledovat.
 
 
 V tomto okamžiku jste se úspěšně připojili k datům Business Central a jste připraveni začít budovat svůj tok.
@@ -51,11 +51,11 @@ V tomto okamžiku jste se úspěšně připojili k datům Business Central a jst
     *Požadavek na schválení Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] nákupní objednávky*,  
     *Požadavek na schválení Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] nákupní faktury*,  
     *Požadavek na schválení Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] nákupního dobropisu*,  
-    *Požadavek na schválení Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Zboží *,  
+    *Požadavek na schválení Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Zboží*,  
     *Požadavek na schválení Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] dodavatele*,  
     *Požadavek na schválení Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] dávky finančního deníku*,  
-    *Požadavek na schválení Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] listu finančního deníku*,  
-11. Flow vás vyzve k výběru společnosti ve vašem [!INCLUDE[d365fin_md](includes/d365fin_md.md)] klientovi, Protože každý krok v toku je nezávislý na dalším, budete pravděpodobně muset při použití Flow šablony [!INCLUDE[d365fin_md](includes/d365fin_md.md)] definovat společnost vícekrát.
+    *Požadavek na schválení Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] listu finančního deníku*  
+11. Flow vás vyzve k výběru společnosti ve vašem [!INCLUDE[d365fin_md](includes/d365fin_md.md)] klientovi. Protože každý krok v toku je nezávislý na dalším, budete pravděpodobně muset při použití Flow šablony [!INCLUDE[d365fin_md](includes/d365fin_md.md)] definovat společnost vícekrát.
 
 Pro více informací navštivte sekci [Dokumentace Flow](https://docs.microsoft.com/en-us/flow/getting-started).
 
