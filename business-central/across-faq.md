@@ -10,19 +10,19 @@ ms.author: edupont
 ---
 # <a name="frequently-asked-questions"></a>Často kladené otázky
 
-Tato část obsahuje odpovědi na nejčastější dotazy týkající se registrace zkušební verze, zakoupení předplatného a použití [!INCLUDE[d365fin](includes/d365fin_md.md)]. Můžete se také naučit jak získat technickou podporu.  
+Tato část obsahuje odpovědi na nejčastější dotazy týkající se registrace na zkušební verzi, zakoupení předplatného a použití [!INCLUDE[d365fin](includes/d365fin_md.md)]. Můžete se také naučit jak získat technickou podporu.  
 
 ## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Je [!INCLUDE[d365fin](includes/d365fin_md.md)] dostupná v mé zemi?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] je k dispozici na omezeném počtu trhů, ale nové země jsou přidávány prostřednictvím lokalizace vedené společností Microsoft nebo prostřednictvím lokalizace vedené partnery na čtvrtletní bázi. Pro více informací běžte na [Země a podpora překladu](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] je k dispozici na omezeném počtu trhů, ale nové země jsou přidávány prostřednictvím lokalizace vedené společností Microsoft nebo prostřednictvím lokalizace vedené partnery na čtvrtletní bázi. Pro více informací běžte na[Země a podpora překladu](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Jak získám [!INCLUDE [prodshort](includes/prodshort.md)]?
 
-Můžete se zaregistrovat a vyzkoušet bezplatnou zkušební verzi [!INCLUDE [prodshort](includes/prodshort.md)] [!INCLUDE [free_trial_md](includes/free_trial_md.md)]. Pokud budete chtít více času k prohlížení, [můžete prodloužit bezplatnou zkušební dobu](#can-i-extend-my-30-day-new-company-trial-period).  
+Můžete se zaregistrovat a vyzkoušet bezplatnou zkušební verzi.[!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Pokud budete chtít více času k prohlížení, [můžete prodloužit bezplatnou zkušební dobu](#can-i-extend-my-30-day-new-company-trial-period).  
 
 Chcete-li se připravit na podnikání v [!INCLUDE [prodshort](includes/prodshort.md)], můžete pro vybrané nastavení spustit průvodce asistovaného nastavení, videa nebo nápovědu. Pro více infomací běžte na [Příprava na podnikání](ui-get-ready-business.md).  
 
-Pokud jste připraveni ke koupi [!INCLUDE [prodshort](includes/prodshort.md)], můžete vyhledat [!INCLUDE [prodshort](includes/prodshort.md)] partnera na [Hledám poskytovatele řešení](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Pokus jste připraveni ke koupi [!INCLUDE [prodshort](includes/prodshort.md)], můžete vyhledat [!INCLUDE [prodshort](includes/prodshort.md)] partnera na [Hledám poskytovatele řešení](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Kam mám jít, pokud mám dotazy?
 Máte-li dotazy k [!INCLUDE[d365fin](includes/d365fin_md.md)], na které nemůžete v této dokumentaci najít odpověď, můžete se zeptat komunity Business Central. Více informací naleznete na [Komunita Dynamics 365 Business Cental](https://community.dynamics.com/business)  
@@ -60,12 +60,12 @@ Pokud chcete nasadit [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, m�
 ## <a name="do-i-have-to-buy-office-365"></a>Musím si koupit Office 365?
 Ne. Pokud se chcete mít zkušenost s [!INCLUDE[d365fin](includes/d365fin_md.md)] jako plně integrovaný s Office 365, můžete se zaregistrovat na bezplatnou zkušební verzi Office 365 na 1 měsíc [zde](https://products.office.com/try).  
 
-Pokud účet, se kterým se zaregistrujete není účet Office 365 (například joe@mysolution.com) a máte předplatné sady Office 365, můžete svou doménu (mysolution.com) spojit s předplatným sady Office 365. Pro více informací běžte na [Získejte pomoc s doménami Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).
+Pokud účet, se kterým se zaregistrujete není účet Office 365 (například joe@mysolution.com) a máte předplatné sady Office 365, můžete svou doménu (mysolution.com) spojit s předplatným sady Office 365. Pro více informací běžte na [Získejte pomoc s doménami Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide)  
 
 Pokud nemáte předplatné sady Office 365 a nechcete si ho kupovat, poskytneme vám při registraci nový tenant služby Azure Active Directory, abyste měli přístup k portálu Azure, kde máte přístup pokročilé nástroje pro správu.  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>O čem je integrace s Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] je plně integrován s Office 365, takže můžete volně procházet mezi aplikacemi Office 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí launcheru aplikací. V [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete otevírat data v Excelu, tisknout sestavy pomocí aplikace Word a pracovat s vašimi [!INCLUDE[d365fin](includes/d365fin_md.md)] daty například v aplikaci Outlook. Pro více informací bežte na [Použití [!INCLUDE[d365fin](includes/d365fin_md.md)] jako vaše obchodní schránka v Outlook](admin-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] je plně integrován s Office 365, takže můžete volně procházet mezi aplikacemi Office 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí launcheru aplikací. V [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete otevírat data v Excelu, tisknout sestavy pomocí aplikace Word a pracovat s vašimi [!INCLUDE[d365fin](includes/d365fin_md.md)] daty například v aplikaci Outlook. Pro více informací bežte na [Použití[!INCLUDE[d365fin](includes/d365fin_md.md)] jako vaše obchodní schránka v Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Mohu prodloužit 30 denní zkušební období pro „Novou společnost“?
 Ano. Když se blíží datum vypršení zkušební doby, zobrazí se vám upozornění, jakmile se budete přihlašovat. Oznámení obsahuje odkaz na průvodce **Prodloužit zkušební období**, který můžete použít k prodloužení zkušební doby. Dalších 30 dní začíná okamžikem, kdy v průvodci zvolíte **Prodloužit zkušební verzi**. Zkušební období můžete jednou prodloužit sami. Poté jej může partner společnosti Microsoft prodloužit o dalších 30 dní. Pro více informací běžte na [Prodloužení Vaší zkušební verze](admin-extend-trial.md). Chcete-li kontaktovat partnera společnosti Microsoft ve vaší zemi nebo oblasti, přečtěte si seznam telefonních čísel v [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  

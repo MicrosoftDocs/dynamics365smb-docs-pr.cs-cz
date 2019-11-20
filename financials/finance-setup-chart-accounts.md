@@ -25,7 +25,7 @@ Z účtové osnovy můžete otevřít každý finanční účet a přidat, nebo 
 
 * Zůstatek na účtu musí být nula.  
 * Pole **Povolit smazání finančního účtu před** musí být nastaveno v okně **Nastavení financí** a účet nesmí mít položky toho data či po něm.  
-* Pokud pole **Kontrolovat použití fin. Účtu** v okně **Nastavení financí** je vybráno, pak účet nesmí být využíván v žádné z účtovacích skupin nebo účtovacího nastavení.  
+* Pokud je vybráno pole **Kontrolovat použití fin. Účtu** v okně **Nastavení financí**, pak účet nesmí být využíván v žádné z účtovacích skupin nebo účtovacího nastavení.  
 
 [!INCLUDE [d365fin](includes/d365fin_md.md)] bude předcházet tomu, abyste si vymazali účet hlavní knihy, který ukládá potřebné data v účtové osnově.  
 

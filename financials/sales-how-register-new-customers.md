@@ -32,7 +32,7 @@ Než budete moci evidovat nové zákazníky, musíte nastavit různé prodejní 
 4. Zvolte tlačítko **OK**. Otevře se nová karta zákazníka s některými poli vyplněnými informacemi podle šablony.  
 5. Postupujte podle potřeby tak, že vyplníte nebo změníte pole na kartě zákazníka. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Na záložce **Prodejní ceny** můžete zobrazit zvláštní ceny nebo slevy, které udělujete za daným zákazníkům pokud jsou splněna určitá kritéria, jako jsou položky, minimální objednávkové množství nebo datum ukončení. Každý řádek představuje zvláštní cenu nebo řádkovou slevu. Každý sloupec představuje kritérium, které musí platit, aby se zaručila zvláštní cena, kterou zadáte do pole **Jednotková cena**, nebo řádková sleva, kterou zadáte do pole **Řádková sleva %**. Pro více informací navštivte [Zaznamenat prodejní cenu, slevu a platební smlouvy](sales-how-record-sales-price-discount-payment-agreements.md).
+Na záložce **Prodejní ceny** můžete zobrazit zvláštní ceny nebo slevy, které udělujete zadaným zákazníkům pokud jsou splněna určitá kritéria, jako jsou položky, minimální objednávkové množství nebo datum ukončení. Každý řádek představuje zvláštní cenu nebo řádkovou slevu. Každý sloupec představuje kritérium, které musí platit, aby se zaručila zvláštní cena, kterou zadáte do pole **Jednotková cena**, nebo řádková sleva, kterou zadáte do pole **Řádková sleva %**. Pro více informací navštivte [Zaznamenat prodejní cenu, slevu a platební smlouvy](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Zákazník je nyní zaregistrován a karta zákazníka je připravena k použití v prodejních fakturách.
 
@@ -42,7 +42,7 @@ Chcete-li tuto zákaznickou kartu použít jako šablonu při vytváření nový
 1. V okně **Karta zákazníka**, vyberte akci **Uložit jako šablonu**. Okno **Šablona zákazníka** otevírá kartu zákazníka jako šablonu.
 2. Vyplňte pole podle potřeby. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Chcete-li znovu použít dimenze v šablonách, zvolte akci **Dimenze**. Okno **Šablony dimenzí** otevírá jakékoliv kódy dimenzí, které jsou pro daného zákazníka nastaveny.
-4. Upravte nebo zadejte kódy dimenzí, které se budou vztahovat na nové karty zákazníka vytvořeného pomocí šablony.  
+4. Upravte, nebo zadejte kódy dimenzí, které se budou vztahovat na nové karty zákazníka vytvořeného pomocí šablony.  
 5. Po dokončení nové šablony zákazníka vyberte tlačítko **OK** .
 
 Šablona zákazníka je přidána do seznamu šablon zákazníků, takže ji můžete použít k vytvoření nových karet zákazníků.

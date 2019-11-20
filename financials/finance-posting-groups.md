@@ -22,12 +22,12 @@ ms.author: bholtorf
 * Specifické - Použijte například prodejní doklady, místo přímého účtování do hlavní knihy. Když vytvoříte položky zákazníka, v hlavní knize se provedou odpovídající záznamy.  
 * Daňové - Definujte procenta daně a typy výpočtu, které se vztahují na to, od koho nakupujete a komu prodáváte, nebo co nakupujete a co prodáváte.
 
-Následující tabulka popistuje účto skupiny pod každou podskupinou.  
+Následující tabulka popisuje účto skupiny pod každou podskupinou.  
 
 | Obecné účetní skupiny | Popis |
 | --- | --- |
-| Obecné obchodní účto skupiny |Přiřaďte tuto skupinu zákazníkům a dodavatelům a určete, komu prodáváte a od koho nakupujete. Tyto nastavíte na **Obec. obchodní účto skupiny** Když tak učiníte, přemýšlejte, kolik skupin budete potřebovat k rozdělení prodejů a nákupů. Seskupte například zákazníky a dodavatele podle zeměpisné oblasti nebo podle typu podnikání. |
-| Obecné účto skupiny zboží |Přiřaďte tuto skupinu zboží, nebo prostředkům a určete, co prodáváte a co nakupujete. Tyto nastavíte na **Obec. obchodní účto skupiny** Když tak učiníte, zvažte počet skupin, které budete potřebovat k rozdělení prodejů podle produktů (zboží a služeb) a nákupů podle položek. Například rozdělte tyto skupiny podle surovin, maloobchodu, zdrojů, kapacity atd. |
+| Obecné obchodní účto skupiny |Přiřaďte tuto skupinu zákazníkům a dodavatelům a určete, komu prodáváte a od koho nakupujete. To nastavíte na **Obec. obchodní účto skupiny** Když tak učiníte, přemýšlejte, kolik skupin budete potřebovat k rozdělení prodejů a nákupů. Seskupte například zákazníky a dodavatele podle zeměpisné oblasti nebo podle typu podnikání. |
+| Obecné účto skupiny zboží |Přiřaďte tuto skupinu zboží, nebo prostředkům a určete, co prodáváte a co nakupujete. To nastavíte na **Obec. obchodní účto skupiny** Když tak učiníte, zvažte počet skupin, které budete potřebovat k rozdělení prodejů podle produktů (zboží a služeb) a nákupů podle položek. Například rozdělte tyto skupiny podle surovin, maloobchodu, zdrojů, kapacity atd. |
 | Nastavení obecného účtování |Zkombinujte obchodní účtovací skupiny a účtovací skupiny zboží a vyberte účty, na které chcete účtovat. Pro každou kombinaci obchodní účtovací skupiny a účtovací skupiny zboží, můžete přiřadit sadu účtů hlavní knihy. To například znamená, že můžete prodej stejné položky zaúčtovat na různé prodejní účty v hlavní knize, protože zákazníci jsou přiřazeni k různým obchodním účtovacím skupinám. Tyto nastavte v okně **Nastavení obecného účtování**. |
 
 | Specifické účetní skupiny | Popis |
@@ -40,7 +40,7 @@ Následující tabulka popistuje účto skupiny pod každou podskupinou.
 
 | Daňové účto skupiny | Popis |
 | --- | --- |
-| Daňové obchodní účto skupiny |Určí, jak vypočítat a účtovat daň z obratu pro zákazníky a dodavatele. Tyto nastavte na okně **DPH obchodní účto skupiny**. Když to uděláte, přemýšlejte, kolik skupin budete potřebovat. Toto může například záviset na faktorech jako místní legislitava, anebo jestli obchodujete na domacím i mezinárodním trhu. |
+| Daňové obchodní účto skupiny |Určí, jak vypočítat a účtovat daň z obratu pro zákazníky a dodavatele. Tyto nastavte na okně **DPH obchodní účto skupiny**. Když to uděláte, přemýšlejte, kolik skupin budete potřebovat. Toto může například záviset na faktorech jako místní legislativa, anebo jestli obchodujete na domácím i mezinárodním trhu. |
 | Daňové účto skupiny zboží |Uvádí daňové výpočty potřebné pro typy položek nebo prostředků, které kupujete nebo prodáváte. |
 | Nastavení účtování daní |Kombinuje Daň.obch.účto skupiny a DPH účto skupiny zboží. Když vyplníte řádek finančního deníku, nákupní řádek nebo prodejní řádek, podíváme se na kombinaci, abychom identifikovali účty, které se mají použít. |
 

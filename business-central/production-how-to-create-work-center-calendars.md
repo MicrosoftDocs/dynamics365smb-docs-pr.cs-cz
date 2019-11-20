@@ -1,6 +1,6 @@
 ---
 title: Jak nastavit Kalendáře dílny | Microsoft Docs
-description: 'Kalendář pracovního centra určuje pracovní dny a hodiny, směny, svátky a nepřítomnosti, které určují hrubou dostupnou kapacitu pracovního centra, měřenou v čase, podle definovaných hodnot účinnosti a kapacity. Vytvoření a povolení kalendáře pracovního centra zahrnuje několik přípravných úkolů.'
+description: 'Kalendář pracovního centra určuje pracovní dny a hodiny, směny, svátky a nepřítomnosti, které určují hrubou dostupnou kapacitu pracovního centra (typicky měřenou v minutách). Vytvoření a povolení kalendáře pracovního centra zahrnuje několik přípravných úkolů.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -16,20 +16,20 @@ ms.author: sgroespe
 # <a name="set-up-shop-calendars"></a>Nastavení Kalendářů dílny
 Kalendář pracovního nebo strojního centra určuje pracovní dny, hodiny, směny, svátky a nepřítomnosti, které určují hrubou dostupnou kapacitu pracovního centra, měřenou v čase, podle definovaných hodnot účinnosti a kapacity.
 
-Jako základ pro výpočet konkrétního kalendáře pracovních nebo strojních center musíte nejprve nastavit jeden nebo více obecných kalendářů obchodů. Kalendář dílny definuje standardní pracovní týden podle časů začátku a konce každého pracovního dne a vztahu pracovních směn. Kalendář dílny navíc definuje pevné svátky během roku.  
+Jako základ pro výpočet konkrétního kalendáře pracovních nebo strojních center musíte nejprve nastavit jeden nebo více obecných kalendářů dílen. Kalendář dílny definuje standardní pracovní týden podle časů začátku a konce každého pracovního dne a vztahu pracovních směn. Kalendář dílny navíc definuje pevné svátky během roku.  
 
-Následujicí článek popisuje jak nastavit kalendáře pracovního centra. Kroky jsou podobné nastavení strojního centra.  
+Následující článek popisuje jak nastavit kalendáře pracovního centra. Kroky jsou podobné nastavení strojního centra.  
 
-## <a name="to-create-work-shifts"></a>Pro vytvoření pracovního směn  
-1.  Vyberte ![Žárovku, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat") ikonu, zadejte **Pracovní směny** a poté vyberte související odkaz.  
+## <a name="to-create-work-shifts"></a>Pro vytvoření pracovních směn  
+1.  Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Pracovní směny** a poté vyberte související odkaz.  
 2.  Na prázdný řádek zadejte číslo do pole **Kód** pro identifikaci pracovní směny, jako například **1**.  
-3.  Popište pracovní směnu v poli **Popis**, jako například, **1ní směna**  
+3.  Popište pracovní směnu v poli **Popis**, jako například, **první směna**  
 4.  Popřípadě vyplňte řádky pro druhou nebo třetí pracovní směnu.  
 
 I když vaše pracovní centra nepracují v různých pracovních směnách, zadejte alespoň jeden kód pracovní směny.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Nastavení kalendářů dílny  
-1.  Vyberte ![Žárovku, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat") ikonu, zadejte **Kalendáře dílny** a poté vyberte související odkaz.  
+1.  Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Kalendáře dílny** a poté vyberte související odkaz.  
 2.  Na prázdný řádek zadejte číslo do pole **Kód** pro identifikaci kalendře dílny.  
 3.  Popište kalendář dílny v poli **Popis**.  
 4.  Vyberte akci **Pracovní dny**.
@@ -49,9 +49,9 @@ I když vaše pracovní centra nepracují v různých pracovních směnách, zad
 
     Všechny dny v týdnu, které v kalendáři dílny nedefinujete, jako je sobota, nebo neděle, budou považovány za nepracovní dny a budou mít v kalendáři pracovního centra nulovou dostupnou kapacitu.  
 
-    Pokud jsou definovány všechny pracovní dny v týdnu, můžete zavřít stránku **Kalendář prac.dnů dílny** a pokračovat k zadávání svátků.  
+    Pokud jsou definovány všechny pracovní dny v týdnu, můžete zavřít stránku **Kalendář prac. dnů dílny** a pokračovat k zadávání svátků.  
 
-6.  Na stránce **kalendáře dílny** vyberte kalendář obchodu a poté vyberte akci **Svátky**.
+6.  Na stránce **Kalendáře dílny** vyberte kalendář obchodu a poté vyberte akci **Svátky**.
 7. Na stránce **Svátky kalendáře dílen** definujte svátky roku zadáním počátečního data a času, koncového času a popisu každého svátku na jednotlivých řádcích. Například:  
 
     04/07/14 0:00:00 23:59:00 Letní prázdniny  
@@ -64,7 +64,7 @@ Kalendář dílny může být nyní přiřazen k pracovnímu centru pro výpoče
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Výpočet kalendáře pracovního centra  
 
-1.  Vyberte ![Žárovku, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat") ikonu, zadejte **Pracovní centra ** a poté vyberte související odkaz.
+1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Pracovní centra** a poté vyberte související odkaz.
 2. Otevřete pracovní centrum, které chcete aktualizovat.  
 3. V poli **Kód kalendáře dílny** vyberte, který kalendář dílny se má použít jako základ pro kalendář pracovního střediska.  
 4. Zvolte akci **Kalendář**.  
@@ -78,20 +78,20 @@ Kalendář dílny může být nyní přiřazen k pracovnímu centru pro výpoče
     Aby se nový kalendář dílny promítl jako čára ve vybraném pracovním centru, musí být nejprve vypočítán.  
 
 6.  Vyberte akci **Vypočítat**  
-7.  Na záložce s náhledem **Pracovní středisko** můžete nastavit filtr tak, aby počítal pouze pro jedno pracovní středisko. Pokud nenastavíte filtr, budou vypočítány všechny existující kalendáře pracovního centra.  
+7.  Na záložce s náhledem **Pracovní centrum** můžete nastavit filtr tak, aby počítal pouze pro jedno pracovní centrum. Pokud nenastavíte filtr, budou vypočítány všechny existující kalendáře pracovního centra.  
 8.  Definujte počáteční a koncové datum kalendářního období, které by se mělo vypočítat, například, jeden rok od 01/01/14 do 31/12/14.
 9. Zvolte tlačítko **OK** a vypočítejte kapacitu.  
 
 Položky kalendáře jsou nyní vytvářeny nebo aktualizovány a zobrazují dostupnou kapacitu pro každé období podle následujících tří sad hlavních dat:  
 
 - Pracovní dny a směny definované v přiřazeném obchodním kalendáři.  
-- Hodnota v poli **Kapacita** na kartě pracovního střediska.  
-- Hodnota v poli **Účinnost** na kartě pracovního střediska.  
+- Hodnota v poli **Kapacita** na kartě pracovního centra.  
+- Hodnota v poli **Účinnost** na kartě pracovního centra.  
 
-Vypočítaný kalendář pracovního centra bude nyní definovat, kdy a kolik kapacity je v tomto pracovním centru k dispozici. Tím se řídí podrobné plánování operací prováděných v pracovním středisku.  
+Vypočítaný kalendář pracovního centra bude nyní definovat, kdy a kolik kapacity je v tomto pracovním centru k dispozici. Tím se řídí podrobné plánování operací prováděných v pracovním centru.  
 
-## <a name="to-record-work-center-absence"></a>Chcete-li zaznamenat nepřítomnost pracovního střediska  
-1.  Na stránce **Kalendář pracovního střediska** zvolte akci **Ukázat Matice**.
+## <a name="to-record-work-center-absence"></a>Chcete-li zaznamenat nepřítomnost pracovního centra  
+1.  Na stránce **Kalendář pracovního centra** zvolte akci **Ukázat Matice**.
 2. Na stránce **Matice kalendáře pracovního centra** vyberte pracovní středisko a kalendářní den, kdy má být zaznamenána doba nepřítomnosti, a poté vyberte akci **Nepřítomnost**.  
 3.  Na stránce **Nepřítomnost** definujte počáteční čas, konečný čas a popis nepřítomnosti daného dne. Například:  
 
@@ -102,8 +102,8 @@ Vypočítaný kalendář pracovního centra bude nyní definovat, kdy a kolik ka
 Kapacita vybraného dne se nyní snížila o zaznamenanou dobu nepřítomnosti.  
 
 ## <a name="see-also"></a>Viz také  
-[Nastavení Kalendářů báze](across-how-to-assign-base-calendars.md)  
-[Nastavení pracovních a strojových center](production-how-to-set-up-work-and-machine-centers.md)  
+[Nastavení Kalendáře zdrojů](across-how-to-assign-base-calendars.md)  
+[Nastavení Pracovních a Strojních center](production-how-to-set-up-work-and-machine-centers.md)  
 [Nastavení výroby](production-configure-production-processes.md)  
 [Výroba](production-manage-manufacturing.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

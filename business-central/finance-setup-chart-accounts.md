@@ -16,14 +16,14 @@ ms.author: edupont
 Avšak můžete měnit výchozí účty a přidávat nové.  
 
 ## <a name="adding-or-changing-accounts"></a>Přidání nebo změna účtů
-Z účtové osnovy můžete otevřít každý finanční účet a přidat, nebo změnit nastavení.
+Z účtové osnovy můžete otevřít každý finanční účet a přidat, nebo změnit jeho nastavení.
 
 > [!NOTE]  
 >   Můžete smazat účet hlavní knihy. Avšak než jej smažete, musí platit následující:  
 >  
 >   * Zůstatek na účtu musí být nula.  
 >   * Pole **Povolit odstr.fin.účtu před** musí být nastaveno na stránce **Nastavení Financí** a účet nesmí mít položky toho stejného, nebo pozdějšího data.  
->   * Pokud pole **Kontrolovat použití fin. Účtu** v Stránka **Nastavení financí** je vybráno, pak účet nesmí být využíván v žádné z účtovacích skupin nebo účtovacího nastavení.  
+>   * Pokud je vybráno pole **Kontrolovat použití fin. Účtu** na stránce **Nastavení financí**, pak účet nesmí být využíván v žádné z účtovacích skupin nebo účtovacího nastavení.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bude předcházet tomu, abyste si vymazali účet hlavní knihy, který ukládá potřebné data v účtové osnově.  
 

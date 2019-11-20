@@ -20,7 +20,7 @@ Následující postupy předpokládají, že jste vytvořili a uložili konfigur
 
 Následující postupy předpokládají, že jste inicializovali a otevřeli novou společnost a že používáte roli Implementátor služeb RapidStart v Centru rolí.
 
-## <a name="to-import-a-configuration-package"></a>Pro import konfiguračního balíčku  
+## <a name="to-import-a-configuration-package"></a>Import konfiguračního balíčku  
 1. Otevřete novou společnost v databázi [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 2. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Konfigurační balíčky** a poté zvolte související odkaz.  
 3. Zvolte akci **Importovat balíček**.  
@@ -29,22 +29,22 @@ Následující postupy předpokládají, že jste inicializovali a otevřeli nov
 
 Importují se všechny tabulky, které jste určili pro zařazení do nové společnosti. V tomto okamžiku můžete aplikovat data balíčku do databáze nebo přizpůsobit a upravit data tabulky tak, aby vyhovovala vašim požadavkům zákazníka.  
 
-## <a name="to-apply-package-data"></a>Pro aplikaci dat balíčku  
+## <a name="to-apply-package-data"></a>Aplikace dat balíčku  
 1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Konfigurační sešit** a poté zvolte související odkaz.  
 2. Vyberte tabulku, pro kterou chcete upravit data, a poté vyberte akci **Použít data**. Stisknutím tlačítka **Ano** potvrďte aplikaci.
 3. Pro potvrzení, že data jsou nyní v databázi a že aplikace byla úspěšná, vraťte se na stránku **Konfigurační sešit** a zvolte akci **Data databáze**.  
 
 > [!NOTE]  
->  Po aplikování dat je můžete vidět pouze v databázi. Již nadále nejsou v balíčku.  
+>  Po aplikování dat je můžete vidět pouze v databázi. V balíčku již nadále nejsou.  
 
-## <a name="to-modify-and-apply-package-data"></a>Pro upravení a aplikaci dat balíčku  
+## <a name="to-modify-and-apply-package-data"></a>Upravení a aplikace dat balíčku  
 1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Konfigurační sešit** a poté zvolte související odkaz.  
 2. Vyberte tabulku, pro kterou chcete upravit data, a poté vyberte akci **Data balíčku**.  
 3. Na stránce **Záznamy konfiguračního balíčku** proveďte úpravy. Můžete například odstranit možnosti, které se neaplikují.  
 4. Zvolte akci **Použít data** a poté klepněte na tlačítko **OK**.  
 5. Pro potvrzení, že data jsou nyní v databázi a že aplikace byla úspěšná, vraťte se na stránku **Konfigurační sešit** a zvolte akci **Data databáze**.  
 
-## <a name="to-locate-and-identify-a-configuration-error"></a>Pro vyhledání a identifikaci chyby konfigurace  
+## <a name="to-locate-and-identify-a-configuration-error"></a>Vyhledání a identifikace chyb konfigurace  
 Při aplikaci dat do databáze se mohou vyskytnout určité typy chyb. Nejčastější chybou je, že požadované související tabulky nebyly zahrnuty. Tyto chyby opravíte v konfiguračním sešitu.
 
 1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Konfigurační balíčky** a poté zvolte související odkaz.  
@@ -54,7 +54,7 @@ Při aplikaci dat do databáze se mohou vyskytnout určité typy chyb. Nejčast�
 
 3. Zvolte pole **Počet chyb balíčku** a otevřete stránku **Záznamy konfiguračního balíčku**, kde jsou uvedeny záznamy s chybami.  
 
-### <a name="to-fix-an-error"></a>Pro opravení chyby  
+### <a name="to-fix-an-error"></a>Opravení chyby  
 1. Otevřete společnost, která je založena na vašem konfiguračním balíčku.  
 2. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Konfigurační sešit** a poté zvolte související odkaz.  
 3. Opravte chyby, jako je například přidání chybějících souvisejících tabulek do sešitu.  
@@ -65,7 +65,7 @@ Při aplikaci dat do databáze se mohou vyskytnout určité typy chyb. Nejčast�
     > [!NOTE]  
     >  Pokud znovu importujete stejný balíček, můžete přepsat všechny již provedené úpravy dat. Z tohoto důvodu můžete chtít přidat některé nové tabulky do nového balíčku a importovat je.  
 
-7. Aplikujte data do databáze, jak je popsáno v části [Pro upravení a aplikaci dat balíčku](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
+7. Aplikujte data do databáze, jak je popsáno v části [Upravení a aplikace dat balíčku](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
 
 ## <a name="see-also"></a>Viz také  
 [Aplikování konfigurace pro nové společnosti](admin-apply-configuration-to-new-companies.md)  

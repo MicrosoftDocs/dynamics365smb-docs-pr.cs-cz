@@ -46,14 +46,14 @@ Většina klávesových zkratek je stejná bez ohledu na to, zda je operační s
 
 |Stiskněte tyto klávesy<br />(na macOS)|Pro udělání tohoto v seznamovém zobrazení |Pro udělání tohoto v seznamovém zobrazení |Poznámky|
 |-----------------|-------|-------|-------|
-|Šipka nahoru|Přesune Vás ve stejném sloupci do pole v řádku nad ním.| Přesune Vás ve stejném sloupci do dlaždice v řádku nad ní.  |  | 
-|Šipka dolů|Přesune Vás ve stejném sloupci do pole v řádku pod ním. |Přesune Vás ve stejném sloupci do dlaždice v řádku pod ní. | |
+|Šipka nahoru|Přesune vás ve stejném sloupci do pole v řádku nad ním.| Přesune vás ve stejném sloupci do dlaždice v řádku nad ní.  |  | 
+|Šipka dolů|Přesune vás ve stejném sloupci do pole v řádku pod ním. |Přesune vás ve stejném sloupci do dlaždice v řádku pod ní. | |
 |Šipka vpravo|Přesunete se ve stejném řádku na další akční pole vpravo.| Přesunete se ve stejném řádku na další dlaždici vpravo. |To neplatí, pokud je seznam upravitelný.|
 |Šipka vlevo|Přesunete se ve stejném řádku na předchozí pole vlevo. | Přesunete se ve stejném řádku na předchozí dlaždici vlevo. |To neplatí, pokud je seznam upravitelný.|
 |Domů<br />(Fn+šipka vlevo)|Přesunete se na první pole v řádku.|Přesunete se na první dlaždici v řádku.||
 |End<br />(Fn+šipka vpravo)|Přesunete se na poslední akční pole v řádku.|Přesunete se na poslední dlaždici v řádku.||
-|Page Up<br />(Fn+šipka nahoru)|Přesune Vás ve stejném sloupci do nejvyššího viditelného řádku.|Přesune Vás ve stejném sloupci do nejvyššího viditelného řádku.||
-|Page Down<br />(Fn+šipka dolů)|Přesune Vás ve stejném sloupci do nejvyššího viditelného řádku.|Přesune Vás ve stejném sloupci do nejnižšího viditelného řádku.||
+|Page Up<br />(Fn+šipka nahoru)|Přesune vás ve stejném sloupci do nejvyššího viditelného řádku.|Přesune vás ve stejném sloupci do nejvyššího viditelného řádku.||
+|Page Down<br />(Fn+šipka dolů)|Přesune vás ve stejném sloupci do nejvyššího viditelného řádku.|Přesune vás ve stejném sloupci do nejnižšího viditelného řádku.||
 |Enter<br />(Fn+šipka dolů)|Otevře záznam, který je přidružen k poli|Otevře záznam.| Relevantní, jestli je k záznamu přiřazena stránka karty.|
 |Ctrl+Home<br />(Fn+Ctrl+šipka vlevo)|Vybere první řádek v seznamu; zobrazení se přesune na první akční pole v řadě.|Přesune na dlaždici v prvním řádku v seznamu||
 |Ctrl+End<br />(Fn+Ctrl+šipka vlevo)|Vybere poslední řádek v seznamu; zobrazení se přesune na první akční pole v řadě.|Přesune na první dlaždici v posledním řádku v seznamu||

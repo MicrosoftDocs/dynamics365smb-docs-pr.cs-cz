@@ -12,14 +12,14 @@ ms.search.keywords: 'item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ---
-# <a name="register-new-items"></a>Zaevidujte nové zboží
+# <a name="register-new-items"></a>Evidence nového zboží
 Zboží, mimo jiné, je základem vašeho podnikání, výrobků nebo služeb, se kterými obchodujete. Každé zboží musí být evidováno jako karta zboží.
 
 Karty zboží obsahují informace, které jsou nutné k nákupu, skladování, prodeji, doručení a účtu zboží.
 
 Karta zboží může být typu **Zásoby** nebo **Služby**, která určuje, zda je produkt fyzickou jednotkou nebo jednotkou času. Kromě některých polí, které se vztahují k fyzickým aspektům zboží, všechny políčka na kartě zboží fungují stejně jako skladové zboží a služby. Pro více informací o prodeji zboží navštivte [Prodej výrobků](sales-how-sell-products.md) nebo [Prodejní faktury](sales-how-invoice-sales.md).
 
-Zboží lze strukturovat jako nadřazené s podřízeným zbožím v kusovníku. V [!INCLUDE [d365fin](includes/d365fin_md.md)], může být kusovník buď kusovníkem montáže nebo výrobním kusovníkem v závislosti na jeho použití. Pro více informací navštivte [Práce s Kusovníkem ](inventory-how-work-BOMs.md).
+Zboží lze strukturovat jako nadřazené s podřízeným zbožím v kusovníku. V [!INCLUDE [d365fin](includes/d365fin_md.md)], může být kusovník buď kusovníkem montáže nebo výrobním kusovníkem v závislosti na jeho použití. Pro více informací navštivte [Práce s kusovníkem](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Pokud existují šablony zboží pro různé typy zboží, objeví se okno při vytváření nové karty zboží, odkud můžete vybrat vhodnou šablonu. Pokud existuje pouze jedna šablona zboží, pak nové karty zboží používají vždy tuto šablonu.
@@ -27,7 +27,7 @@ Zboží lze strukturovat jako nadřazené s podřízeným zbožím v kusovníku.
 Pokud zakoupíte stejné zboží od více než jednoho dodavatele, můžete ho připojit k dané kartě zboží. Dodavatelé se poté zobrazí v okně **Katalog dodavatele zboží**, takže můžete snadno vybrat alternativního dodavatele.
 
 ## <a name="to-create-a-new-item-card"></a>Vytvoření nové karty zboží
-1. Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Položky** a pak vyberte související odkaz.  
+1. Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Zboží** a pak vyberte související odkaz.  
 2. V okně **Zboží** vyberte akci **Nový**.
 
     Pokud existuje pouze jedna šablona zboží, otevře se nová karta zboží s několika poli vyplněnými informacemi ze šablony.
@@ -36,7 +36,7 @@ Pokud zakoupíte stejné zboží od více než jednoho dodavatele, můžete ho p
 5. Postupujte podle potřeby tak, že vyplníte nebo změníte pole na kartě zboží. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> V poli **Metoda ocenění** stanovíte, jak se vypočítají jednotkové náklady zboží, a to tak, že budete předpokládat tok fyzického zboží vaší společností. V závislosti na typu zboží je k dispozici pět metod ocenění. Pro více informací navštivte [Podrobnosti o designu: Metody ocenění](design-details-costing-methods.md).
+> V poli **Metoda ocenění** stanovíte, jak se vypočítají jednotkové náklady zboží, a to tak, že budete předpokládat tok fyzického zboží vaší společností. V závislosti na type zboží je k dispozici pět metod ocenění. Pro více informací navštivte [Podrobnosti o designu: Metody ocenění](design-details-costing-methods.md).
 >
 > Pokud vyberete **Průměr**, pak se jednotková cena zboží vypočítá jako průměrná jednotková cena v každém okamžiku po nákupu. Zásoby se oceňují s předpokladem, že všechny zásoby se prodávají současně. S tímto nastavením můžete vybrat pole **Pořizovací cena** pro zobrazení historie transakcí, z nichž se vypočítávají průměrné náklady, v okně **Přehled výpočtu průměrné  pořizovací ceny**.
 
@@ -58,7 +58,7 @@ Chcete-li tuto kartu zboží použít jako šablonu při vytváření nových ka
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Nastavení více dodavatelů pro zboží  
 Pokud zakoupíte stejné zboží od více než jednoho dodavatele, musíte zadat informace o každém dodavateli zboží, jako jsou ceny, dodací lhůta, slevy atd.  
 
-1.  Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Položky** a pak vyberte související odkaz.  
+1.  Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Zboží** a pak vyberte související odkaz.  
 2.  Vyberte příslušné zboží a pak zvolte akci **Upravit**.  
 3.  Zvolte akci **Dodavatelé**.  
 4.  Vyberte pole **Číslo dodavatele** a poté vyberte dodavatele, kterého chcete pro zboží nastavit.  
@@ -69,6 +69,6 @@ Dodavatelé se nyní objeví v okně **Katalog zboží dodavatele**, které otev
 
 ## <a name="see-also"></a>Viz také
   [Zásoby](inventory-manage-inventory.md)  
-  [Nakupování](purchasing-manage-purchasing.md)  
+  [Nákup](purchasing-manage-purchasing.md)  
   [Prodej](sales-manage-sales.md)  
   [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

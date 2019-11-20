@@ -1,6 +1,6 @@
 ---
 title: Klávesové zkratky
-description: Kompletní seznam kombinací klávesových zkratek za účelem zvýšení efektivnosti práce při pracování s Vašimi daty.
+description: Kompletní seznam kombinací klávesových zkratek za účelem zvýšení efektivnosti práce při pracování s vašimi daty.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -18,9 +18,9 @@ Tento článek poskytuje přehled některých kombinací klávesových zkratek, 
 [Klávesové zkratky pro tisk](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Přehled
-Klávesové zkratky usnadňují přístup a mohou zefektivnit navigaci do různých oblastí a prvků na stránce.
+Klávesové zkratky usnadňují přístup a mohou zefektivnit navigaci do různých prvků a oblastí na stránce.
 
-Klávesové zkratky jsou podporovány většinou webových prohlížečů, avšak chování se však může mírně lišit.
+Klávesové zkratky jsou podporovány většinou webových prohlížečů, avšak chování se může mírně lišit.
 
 Zde popsané klávesové zkratky se vztahují k americkému rozložení klávesnice. Rozložení kláves na jiných klávesnicích nemusí přesně odpovídat klávesám na americké klávesnici.
 
@@ -40,7 +40,7 @@ Následující tabulka popisuje klávesové zkratky pro navigaci a přístup k r
 |Alt+šipka vpravo|Zobrazí transakce, jejichž výsledkem byla vypočítaná hodnota v poli.|  
 |F5|Aktualizuje data na aktuální stránce.|Tím zajistíte, aby údaje na stránce byly aktuální s veškerými změnami, které ostatní během vaší práce provedli.|
 |Ctrl+F5|Načte znovu aplikaci [!INCLUDE[prodshort](includes/prodshort.md)].|Je to podobné výběru aktualizaci / opětovnému načtení v prohlížeči.|
-|Esc|Zavřete aktuální stránku nebo rozevírací seznam.|
+|Esc|Zavře aktuální stránku nebo rozevírací seznam.|
 
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Klávesové zkratky v seznamech
@@ -55,8 +55,8 @@ Následující tabulka popisuje klávesové zkratky, které můžete použít na
 
 |Stiskněte tyto klávesy<br />(na macOS)|Pro udělání tohoto v seznamovém zobrazení |Pro udělání tohoto v dlaždicovém zobrazení |Poznámky|
 |-----------------|-------|-------|-------|
-|Šipka nahoru|Přesune Vás ve stejném sloupci do pole v řádku nad ním.| Přesune Vás ve stejném sloupci do dlaždice v řádku nad ní.  |  |
-|Šipka dolů|Přesune Vás ve stejném sloupci do pole v řádku pod ním. |Přesune Vás ve stejném sloupci do dlaždice v řádku pod ní. | |
+|Šipka nahoru|Přesune vás ve stejném sloupci do pole v řádku nad ním.| Přesune vás ve stejném sloupci do dlaždice v řádku nad ní.  |  |
+|Šipka dolů|Přesune vás ve stejném sloupci do pole v řádku pod ním. |Přesune vás ve stejném sloupci do dlaždice v řádku pod ní. | |
 |Šipka vpravo|V seznamu pouze pro zobrazení se přesunete ve stejném řádku na další pole vpravo.<br /><br />V upravitelném seznamu se přesunete ve stejném řádku na další pole vpravo.| Přesunete se ve stejném řádku na další dlaždici vpravo. ||
 |Šipka vlevo|V seznamu pouze pro zobrazení se přesunete ve stejném řádku na předchozí pole vlevo. <br /><br />V upravitelném seznamu se přesunete ve stejném řádku na pole vlevo.| Přesunete se ve stejném řádku na předchozí dlaždici vlevo. ||
 |Tab|V upravitelném seznamu se přesunete ve stejném řádku na další pole vpravo.|Nepoužitelné.||
@@ -85,19 +85,19 @@ Následující tabulka popisuje klávesové zkratky, které můžete použít na
 |Shift+Page Down<br />(Shift+Fn+šipka dolů)|Rozšíří výběr řádků tak, aby zahrnoval všechny viditelné řádky pod aktuálním výběrem řádků.|Nepoužitelné.||
 |Ctrl+C<br />(Cmd+C)|Zkopíruje vybrané řádky do schránky.|Nepoužitelné.||
 |Ctrl+V<br />(Cmd+V)|Vloží vybrané řádky ze schránky na aktuální stránku nebo externí dokument, jako například Microsoft Excel nebo Outlook e-mail.|Nepoužitelné.|To můžete provádět jen v editovatelných seznamech.|
-|F8|Zkopíruje pole do stejného sloupce řádku nad ním a vloží jej do aktuálního řádku.|Nepoužitelné.|To můžete provádět jen v editovatelných seznamech. Pomocí této zkratky následované tabulátorem můžete rychle vyplnit pole v řádkových položkách, kde chcete mít stejnou hodnotu jako  na výše uvedeném řádku.|
+|F8|Zkopíruje pole do stejného sloupce řádku nad ním a vloží jej do aktuálního řádku.|Nepoužitelné.|To můžete provádět jen v editovatelných seznamech. Pomocí této zkratky následované tabulátorem můžete rychle vyplnit pole v řádkových položkách, kde chcete mít stejnou hodnotu jako na výše uvedeném řádku.|
 
 ### <a name="KeyboardFilter"></a> Klávesové zkratky pro vyhledávání a filtrování seznamů
 
 |Stiskněte tyto klávesy<br />(na macOS)|Pro udělání tohoto|
 |-----------------|-------|
-|F3|Přepíná vyhledávací pole.<ul><li>Aktivuje vyhledávací pole, takže můžete začít psát hledaný text.</li><li>Pokud je vyhledávací pole již aktivováno, F3  Vás vrátí do seznamu bez vymazání hledaného textu.</li><ul>|  
-|Shift+F3|Otevře a zavře podokno filtru.<ul><li> Pokud není podokno filtru otevřené, Shift+F3 jej otevře a zobrazí akci **+ Filtr** v seznamu **Filtrovat podle**, což vám umožní stisknout klávesu Enter a začít přidávat filtr pole.</li><li>Pokud je podokno filtru již otevřené, Shift+F3 jej uzavře, ale nevymaže žádné Vámi přidané filtry.</li></ul>|
+|F3|Přepíná vyhledávací pole.<ul><li>Aktivuje vyhledávací pole, takže můžete začít psát hledaný text.</li><li>Pokud je vyhledávací pole již aktivováno, F3 vás vrátí do seznamu bez vymazání hledaného textu.</li><ul>|  
+|Shift+F3|Otevře a zavře podokno filtru.<ul><li> Pokud není podokno filtru otevřené, Shift+F3 jej otevře a zobrazí akci **+ Filtr** v seznamu **Filtrovat podle**, což vám umožní stisknout klávesu Enter a začít přidávat filtr pole.</li><li>Pokud je podokno filtru již otevřené, Shift+F3 jej uzavře, ale nevymaže žádné vámi přidané filtry.</li></ul>|
 |Ctrl+ Shift+F3|Otevře a zavře podokno filtru.<ul><li> Pokud není podokno filtru otevřené Ctrl+Shift+F3 jej otevře a zobrazí akci **+ Filtr** pod **Filtrovat celkem podle**, což vám umožní stisknout klávesu Enter a začít přidávat celkové filtry.</li><li>Pokud je podokno filtru již otevřené, Ctrl+Shift+F3 jej uzavře, ale nevymaže žádné Vámi přidané filtry.</li></ul>  |
 |Alt+F3|Přepne filtrování na tuto hodnotu.<ul><li>Použije filtr sloupců na vybranou hodnotu pole v seznamu. Toto udělá stejnou akci, jako výběr položky **Filtrovat na tuto hodnotu** z nadpisu sloupce. Otevře podokno filtru, nastaví filtr na vybranou hodnotu, zatímco zaměření zůstává na buňce v seznamu.</li><li>Pokud je sloupec již filtrován, vymaže Alt+F3 filtr v tomto sloupci.</li></ul> |
-|Shift+Alt+F3|Otevře podokno filtru a přidá filtr do vybraného sloupce v seznamu. Zaměření je na novém poli filtru, které umožňuje ihned začít psát kritéria filtru.<br /><br /> Toto udělá stejnou akci, jako výběr položky **Filtrovat** z nadpisu sloupce. Nabídka er Zobrazí podokno filtru, přidá filtr a nastaví na něj zaměření, takže uživatel může zadat hodnotu, na kterou se má filtrovat.<br /><br />Pokud již v poli filtr existuje, přidá se nový filtr. |
+|Shift+Alt+F3|Otevře podokno filtru a přidá filtr do vybraného sloupce v seznamu. Zaměření je na novém poli filtru, které umožňuje ihned začít psát kritéria filtru.<br /><br /> Toto udělá stejnou akci, jako výběr položky **Filtrovat** z nadpisu sloupce .  Zobrazí podokno filtru, přidá filtr a nastaví na něj zaměření, takže uživatel může zadat hodnotu, na kterou se má filtrovat.<br /><br />Pokud již v poli filtr existuje, přidá se nový filtr. |
 |Ctrl+Shift+Alt+F3|Resetuje filtry. Toto udělá stejnou akci, jako volba **Obnovit filtry** v podokně filtrů a to platí i pro filtry pole a filtry celkem.<br /><br /> Filtry se vrací k výchozím filtrům pro aktuální zobrazení. Pokud je aktuální pohled **Vše**, pak je to ekvivalent návratu do nefiltrovaného zobrazení se všemi záznamy. |
-|Ctrl+Enter|Návratí do seznamu z podokna filtru.|
+|Ctrl+Enter|Navrátí do seznamu z podokna filtru.|
 
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Klávesové zkratky v kalendáři (Výběr data)
 Při nastavování datového pole můžete, buď zadat datum ručně, anebo otevřít kalendář (výběr data), který vám umožní vybrat požadované datum. Následující tabulka popisuje klávesové zkratky pro kalendář.
@@ -105,13 +105,13 @@ Při nastavování datového pole můžete, buď zadat datum ručně, anebo otev
 |Stiskněte tyto klávesy<br />(na macOS)|Pro udělání tohoto|
 |-----------------|-------|
 |Page Up|Přesune do předchozího měsíce|  
-|Page Down|Přesune do dalšího měsíce|
+|Page Down|Přesune do následujícího měsíce|
 |Ctrl+Home|Otevře kalendář, pokud je zavřený|
 |Ctrl+Home<br />(Cmd+Home)|Přesune na aktuální měsíc a aktuální den.|
 |Ctrl+šipka vlevo<br />(Cmd+šipka vlevo)|Přesune na aktuální měsíc, aktuální den.|
-|Ctrl+šipka vpravo<br />(Cmd+šipka vpravo)|Přesune na další den.|
+|Ctrl+šipka vpravo<br />(Cmd+šipka vpravo)|Přesune na následující den.|
 |(Ctrl+šipka nahoru)<br />(Cmd+šipka nahoru)|Přesune na předchozí týden, stejný den v týdnu.|
-|(Ctrl+šipka dolů)<br />(Cmd+šipka dolů)|Přesune na další týden, stejný den v týdnu.|
+|(Ctrl+šipka dolů)<br />(Cmd+šipka dolů)|Přesune na následující týden, stejný den v týdnu.|
 |Enter|Vybere cílové datum.|
 |Ctrl+End<br />(Cmd+End)|Zavře kalendář a odstraní aktuální datum.|
 |Esc|Zavře kalendář bez výběru a zachová aktuální datum.|

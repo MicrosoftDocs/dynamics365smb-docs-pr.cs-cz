@@ -12,10 +12,10 @@ ms.date: 09/04/2017
 ms.author: sgroespe
 ---
 # <a name="work-with-bills-of-material"></a>Práce s kusovníky
-K rozdělování nadřazených položek, které musí být smontovány nebo vyrobeny zdroji nebo strojními centry z komponent, použijete kusovníky (BOM). Montážní kusovník lze také použít k prodeji nadřazeného zboží jako soupravy sestávající z jejích součástí.
+K rozdělování nadřazeného zboží, které musí být smontováno nebo vyrobeno ze zdrojů nebo pomocí strojních center z komponent, použijete kusovníky (BOM). Montážní kusovník lze také použít k prodeji nadřazeného zboží jako soupravy sestávající z jejích součástí.
 
-## <a name="assembly-boms-or-production-boms"></a>Montážní nebo výrobní kusovníky
-Montážní zakázku použijte pro výrobu koncových položek z komponent v jednoduchém procesu, který může být proveden jedním nebo více základními zdroji, které nejsou strojními nebo pracovními centry nebo bez jakýchkoli zdrojů. Proces montáže by například mohl vybrat dvě láhve vína a jeden kávový pytlík a pak je zabalit jako dárek.  
+## <a name="assembly-boms-or-production-boms"></a>Montážní nebo výrobní kusovník
+Montážní zakázku použijte pro výrobu koncového zboží z komponent v jednoduchém procesu, který může být proveden jedním nebo více základními zdroji, které nejsou strojními nebo pracovními centry nebo bez jakýchkoli zdrojů. Proces montáže by například mohl vybrat dvě láhve vína a jeden kávový pytlík a pak je zabalit jako dárek.  
 
 Kusovníky montáže jsou kmenová data, která definují, které komponenty zboží přecházejí do koncového zboží montáže a jaké zdroje se používají k sestavení zboží montáže. Když zadáte zboží montáže a množství do záhlaví nové montážní objednávky, pak se řádky objednávky automaticky vyplní podle montážního kusovníku jedním řádkem montážní zakázky na komponentu nebo zdroj. Pro více informací navštivte [Správa montáže](assembly-assemble-items.md).
 
@@ -32,7 +32,7 @@ Montážní zakázky i výrobní zakázky mohou být přímo spojeny s prodejní
 ## <a name="to-create-an-assembly-bom"></a>Vytvoření kusovníku montáže
 Chcete-li definovat nadřazené zboží, které se skládá z jiných položek, a potenciálně ze zdrojů potřebných k sestavení nadřazené jednotky, musíte vytvořit kusovník montáže.  
 
-Kusovníky montáže obvykle obsahují položky, ale mohou také obsahovat jeden nebo více zdrojů, které jsou potřebné pro sestavení zboží montáže dohromady.
+Kusovníky montáže obvykle obsahují zboží, ale mohou také obsahovat jeden nebo více zdrojů, které jsou potřebné pro sestavení zboží montáže dohromady.
 
 Kusovníky montáže mohou mít více úrovní, což znamená, že komponentou v kusovníku montáže může být samotné zboží montáže. V takovém případě pole **Kusovník montáže** na řádku kusovníku montáže obsahuje **Ano**.
 
@@ -51,8 +51,8 @@ Vytvoření kusovníku montáže obsahuje dvě části:
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Zobrazení součástí zboží montáže odsazené podle struktury kusovníku
 V okně **Kusovníku montáže** můžete otevřít samostatné okno, které zobrazuje komponenty a všechny prostředky odsazené podle jejich pozice kusovníku pod zbožím montáže.
 
-1. Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Položky** a pak vyberte související odkaz.
-2. Otevřete kartu pro zboží montáže. (Pole **Kusovník montáže** v okně **Položky** obsahuje **Ano**.)
+1. Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **zboží** a pak vyberte související odkaz.
+2. Otevřete kartu pro zboží montáže. (Pole **Kusovník montáže** v okně **Zboží** obsahuje **Ano**.)
 3. V okně **Karty zboží**  vyberte akci **Montáž** a poté vyberte akci **Kusovník montáže**.
 4. V okně **Kusovníku montáže** zvolte akci **Ukázat kusovník**.
 
@@ -79,15 +79,15 @@ V okně **Sešit pevné ceny** můžete také spočítat a aktualizovat standard
 Jednotkové náklady na kusovník montáže se vždy rovnají součtu jednotkových nákladů na jeho součásti, včetně ostatních kusovníků montáže a jakýchkoli zdrojů.
 
 1. V pravém horním rohu zvolte ikonu **Hledat stránku nebo sestavu**, zadejte **Zboží** a zvolte související odkaz.
-2. Otevřete kartu pro zboží montáže. (Pole **Kusovník montáže** v okně **Položky** obsahuje **Ano**.)
+2. Otevřete kartu pro zboží montáže. (Pole **Kusovník montáže** v okně **Zboží** obsahuje **Ano**.)
 3. V okně **Karty zboží**  vyberte akci **Montáž** a poté vyberte akci **Kusovník montáže**.
 4. V okně **Kusovníku montáže** zvolte akci **Výpočet  pevné poř.ceny**.
 5. Vyberte jednu z následujících možností a poté stiskněte tlačítko **OK**.
 
 |Možnost |Popis |
 |-------|------------|
-|**Nejvyšší úroveň**|Vypočítá standardní náklady zboží montáže jako celkové náklady na všechny zakoupené nebo smontované zboží na tomto kusovníku montáže bez ohledu na jakékoli základní kusovníky montáže.|
-|**Všechny úrovně**|Vypočítá standardní náklady montáže jako součet: 1) Vypočítané náklady na všechny základní kusovníky montáže na kusovníku montáže. 2) Náklady na všechny základní kusovníky montáže na kusovníku montáže.|
+|**Nejvyšší úroveň**|Vypočítá standardní náklady zboží montáže jako celkové náklady na všechno zakoupené nebo smontované zboží na tomto kusovníku montáže bez ohledu na jakékoli základní kusovníky montáže.|
+|**Všechny úrovně**|Vypočítá standardní náklady montáže jako součet: 1) Vypočítané náklady na všechny základní kusovníky montáže na kusovníku montáže. 2) Náklady na všechno nakoupené zboží na kusovníku montáže.|
 
 
 
