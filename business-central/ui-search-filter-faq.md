@@ -12,7 +12,7 @@ ms.date: 10/01/2018
 ms.author: mikebc
 ---
 
-# <a name="searching-and-filtering-faq"></a>Vyhledávání a filtrování FAQ
+# <a name="searching-and-filtering-faq"></a>Nejčastější dotazy týkající se vyhledávání a filtrování
 Tento článek odpovídá na běžné otázky, které můžete mít ohledně vyhledávání a filtrování.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Existuje rozdíl mezi vyhledáváním a filtrováním?

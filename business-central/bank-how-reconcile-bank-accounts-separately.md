@@ -13,7 +13,7 @@ ms.search.keywords: 'bank account balance, bank statement'
 ms.date: 10/01/2018
 ms.author: sgroespe
 ---
-# <a name="reconcile-bank-accounts-separately"></a>Odsouhlasení bankovních účtů po jednom
+# <a name="reconcile-bank-accounts-separately"></a>Odsouhlasení bankovních účtů odděleně
 Chcete-li odsouhlasit bankovní účty [!INCLUDE[d365fin](includes/d365fin_md.md)] s výpisy obdrženími z banky, začněte vyplněním podokna na stránce **Odsouhlasení bankovního účtu** s informacemi z bankovním výpisu, které pak porovnáte (odsouhlasíte) s položkami bankovních účtů v pravém podokně.
 
 > [!NOTE]  

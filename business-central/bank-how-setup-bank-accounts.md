@@ -16,13 +16,13 @@ ms.author: sgroespe
 # <a name="set-up-bank-accounts"></a>Nastavení bankovních účtů
 Použití bankovní účtů v [!INCLUDE[d365fin](includes/d365fin_md.md)] slouží ke sledování vašich bankovních transakcí. Účty mohou být denominovány v místní měně nebo v cizí měně. Po nastavení bankovních účtů můžete použít také možnost kontroly tisku.
 
-## <a name="to-set-up-bank-accounts"></a>Založení Bankovních účtů
+## <a name="to-set-up-bank-accounts"></a>Nastavení Bankovních účtů
 1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Bankovní účty** a poté vyberte související odkaz.
-2. Na straánce**Bankovní účty** zvolte akci **Nový**.
+2. Na stránce **Bankovní účty** zvolte akci **Nový**.
 3. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Chcete-li vyplnit pole **Saldo** počátečním stavem, musíte zaúčtovat položku účetní knihy s příslušnou částkou. Můžete to provést odsouhlasením bankovního účtu. Pro více informací běžte na [Odsouhlasení bankovních účtů separátně](bank-how-reconcile-bank-accounts-separately.md) Případně můžete počáteční stav implementovat jako součást vytváření obecných dat v nových společnostech pomocí nastavení asistovaného **Migrace dat**. Další informace naleznete v [Začínáme](product-get-started.md).
+> Chcete-li vyplnit pole **Saldo** počátečním stavem, musíte zaúčtovat položku účetní knihy s příslušnou částkou. Můžete to provést odsouhlasením bankovního účtu. Pro více informací běžte na [Odsouhlasení bankovních účtů odděleně](bank-how-reconcile-bank-accounts-separately.md) Případně můžete počáteční stav implementovat jako součást vytváření obecných dat v nových společnostech pomocí nastavení asistovaného **Migrace dat**. Další informace naleznete v [Začínáme](product-get-started.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Založení bankovního účtu pro import nebo export bankovních souborů.
 Pole v záložce s náhledem **Transfer** na kartě **Bankovního účtu** se týkají importu/exportu bankovních prostředků a souborů. Další informace naleznete v [Nastavení služby převodu Bankovních dat](bank-how-setup-bank-data-conversion-service.md) a [Nastavení služby Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).

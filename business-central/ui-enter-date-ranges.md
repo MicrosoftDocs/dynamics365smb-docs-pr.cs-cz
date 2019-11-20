@@ -13,7 +13,7 @@ ms.date: 10/01/2018
 ms.author: jswymer
 ---
 
-# <a name="working-with-calendar-dates-and-times"></a>Práce s daty kalendáře a časy
+# <a name="working-with-calendar-dates-and-times"></a>Práce s kalendářním datem a časy
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] nabízí několik způsobů, jak zadávat data a časy, včetně výkonných funkcí, které urychlují zadávání dat, nebo pomáhají psát složité výrazy kalendáře. V celé aplikaci jsou různá místa, kde můžete do polí zadat data a časy. Například u prodejní objednávky můžete nastavit datum odeslání. Při filtrování seznamů nebo dat sestavy můžete zadat data a časy a vytyčit pouze údaje, které vás zajímají.
 

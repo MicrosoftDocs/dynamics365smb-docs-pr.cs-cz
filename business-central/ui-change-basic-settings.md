@@ -1,61 +1,74 @@
 ---
 title: Viewing and Editing Basic Settings | Microsoft Docs
-description: 'Learn how to change some basic settings, for example, the Role Center, company, or the work date.'
+description: Learn how to change some basic settings, for example, the Role Center, company, or the work date.
 author: SusanneWindfeldPedersen
+
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'change Role Center, notification, change company, change work date'
-ms.date: 11/19/2018
+ms.search.keywords: change Role Center, notification, change company, change work date
+ms.date: 04/01/2019
 ms.author: solsen
+
 ---
-# <a name="changing-basic-settings"></a>Changing Basic Settings
-In the [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace; not the workspaces of other users.  
+# Změna základního nastavení
+V okně [**Má nastavení**](https://businesscentral.dynamics.com?page=9176 " přejdete přímo na stránku uživatelského nastavení uživatele na stránce Business Central ") a můžete zobrazit a změnit základní nastavení aplikace [!INCLUDE[d365fin](includes/d365fin_md.md)]. Změny, které provedete, ovlivní pouze váš pracovní prostor; ne pracovní prostory ostatních uživatelů.
 
-## <a name="role-center"></a> Role Center
-The Role Center represents the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the Role Center gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
+## <a name="role-center">Centrum rolí</a>
+Centrum rolí představuje domovskou stránku, úvodní obrazovku, která je navržena pro potřeby určité role v organizaci. V závislosti na vaší roli vám Centrum rolí poskytuje přehled o firmě, vašem oddělení nebo vašich osobních úkolech. Pomáhá také při procházení každodenních úkolů a při hledání práce, která vám byla přidělena.
 
--   At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the Role Center.
+- Navigace v horní části umožňuje přepínat mezi zákazníky, prodejci, zbožím a dalšími důležitými seznamy informací. Podobně akce umožňují iniciovat úlohy, jako je například vytvoření nové prodejní faktury, přímo z centra rolí.
 
--   In the center, you find **Activities**. Activities show current data and can be clicked or tapped to view more detailed information. Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favorite customers on the home page for accounts that you do business with often or need to pay special attention to.
+- Uprostřed najdete **Aktivity**. Činnosti ukazují aktuální data a lze na ně kliknout a zobrazit podrobnější informace. Klíčové ukazatele výkonu (KPI) lze nastavit tak, aby zobrazovaly vybraný graf pro vizuální znázornění například peněžních toků nebo příjmů a výdajů. Můžete také vytvořit seznam oblíbených zákazníků na domovské stránce pro obchodní vztahy, s nimiž obchodujete často nebo potřebujete věnovat zvláštní pozornost.
 
-### <a name="to-change-role-center"></a>To change Role Center
-The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better.
-1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose **My Settings**.
-2. On the **My Settings** page, in the **Role Center** field, select the Role Center that you want to set as the standard. For example, select **Accountant**.
-3. Choose the **OK** button.
+### Změna Centra rolí
+Výchozí centrum rolí je **Obchodní ředitel**, ale můžete si zvoli jiné Centrum rolí, které bude více vyhovovat vašim potřebám.
+1. V pravém horním rohu zvolte **Nastavení** ikonu nastavení ![ Nastavení ikon ](media/ui-experience/settings_icon_small.png " pro Centrum rolí ") a pak zvolte **Moje nastavení** .
+2. Na stránce **Má nastavení**, v poli **Centrum rolí**, vyberte roli, kterou chcete jako standardní. Například vyberte **Účetní**.
+3. Klikněte na tlačítko **OK**.
 
-## <a name="company"></a>Company
-A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
+## <a name="company"></a>Společnost
+Společnost funguje jako úložiště pro data v [!INCLUDE[d365fin](includes/d365fin_md.md)]. V databázi může existovat více společností, ale v jednom okamžiku lze vybrat pouze jednu.
 
-The default company is called CRONUS and contains demonstration data only.
+Výchozí společnost se nazývá CRONUS a obsahuje pouze demonstrační data.
 
-> [!TIP]  
->   If you want to display a different name for your company in the application (such as on the Role Center), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
+> [!TIP]
+> Pokud chcete v aplikaci zobrazit jiné jméno vaší společnosti (například v Centru rolí), nastavte pole **Název** na stránce **Informace o společnosti** nebo pole **Zobrazovaný název** na stránce **Společnosti**.
 
-## <a name="work-date"></a>Work Date
-The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.
+## <a name="work-date"></a>Pracovní datum
+Výchozí pracovní datum je obvykle dnešní datum. Možná budete muset dočasně změnit pracovní datum, abyste mohli provádět úkoly, jako je dokončení transakcí k datu, které není aktuálním datem.
 
-> [!TIP]  
->   Type **w** to quickly enter the work date in a date field. Write **t** to quickly enter the current date in the date field.
+> [!TIP]
+> Napište **w** k rychlému zadání datumu v políčku s datumem. Napište **t** k rychlému zadání aktuálního data.
 
-> [!IMPORTANT]  
->   The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
+>  [!IMPORTANT]
+> Pokud změníte pracovní datum a odhlásíte se nebo přepnete na jinou společnost, pracovní datum se vrátí na výchozí pracovní datum. Takže při příštím přihlášení nebo přepnutí zpět na původní společnost bude možná nutné znovu nastavit pracovní datum.
 
-## <a name="region"></a> Region
-The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
+### Indikace pracovního data
+<!--
+Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+
+- If you dismiss the reminder, the work date will appear in the title of the page.  
+-->
+Pokud pracovní datum není nastaveno na aktuální den (dnes), pak se na všech stránkách, kde můžete upravovat data, zobrazuje aktuální pracovní datum v levém horním rohu stránky.
+
+## <a name="region"></a> Oblasti
+
+**Oblasti** určují, jak jsou data, časy, čísla a měny zobrazeny nebo formátovány.
 
 
-## <a name="language"></a> Language
-Changes the display language. This field appears only when there is more than one language to choose from. 
+## <a name="language"></a> Jazyk
+Změní zobrazovaný jazyk. Toto pole se zobrazí, pouze pokud je k dispozici více než jeden jazyk.
 
-The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
+Počáteční jazyk je určen administrátorem nebo nastavením vašeho prohlížeče, když se zaregistrujete pro [! INCLUDE[d365fin](includes/d365fin_md.md)]. Jazyk, který nastavíte, bude použit na všech zařízeních, ze kterých se přihlašujete, jako je telefon nebo tablet.
 
-## <a name="changing-when-i-receive-notifications"></a>Changing When I Receive Notifications
-Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Smart Notifications](ui-smart-notifications.md).
+## Změna příjmu oznámení
+Tento odkaz slouží k zobrazení nebo změně oznámení týkajících se určitých událostí nebo změn stavu, například pokud se chystáte fakturovat zákazníkovi, který má splatné saldo, nebo jsou dostupné zásoby nižší než množství, které chcete prodat. Další informace naleznete v části [Chytrá oznámení](ui-smart-notifications.md).
 
-## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+## Viz také
+[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Změna zobrazovaných funkcí](ui-experiences.md)

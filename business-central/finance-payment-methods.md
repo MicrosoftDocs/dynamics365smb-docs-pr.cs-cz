@@ -23,7 +23,7 @@ Vratky z dobropisu na vrácení jsou však výjimkami, protože peníze tečou o
 ## <a name="to-set-up-a-payment-method"></a>Nastavení způsobu platby
 [!INCLUDE[d365fin](includes/d365fin_md.md)] poskytuje několik platebních metod, které podniky často používají. Můžete jich však přidat tolik, kolik potřebujete.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Způsob platby ** a poté vyberte související odkaz.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Způsob platby** a poté vyberte související odkaz.
 2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>K přiřazení platební metody zákazníkovi nebo prodejci

@@ -16,7 +16,7 @@ ms.author: edupont
 
 Například vaše Účtová osnova je předem vyplněna řadou účetních účtů, které jsou připraveny k použití. Účetní osnovu můžete samozřejmě změnit tak, aby vyhovovala vašim potřebám. Pro více informací navštivte sekci [Finance](finance.md)
 
-Z centra rolí můžete získat přístup k asistovaným návodům pro instalace, které vám pomohou nakonfigurovat určité scénáře a přidat funkce do aplikace [!INCLUDE[d365fin](includes/d365fin_md.md)] . Informace o tom, jak získat přístup ke všem stránkám asistovaného a manuálního nastavení, naleznete v části [Příprava na podnikání](ui-get-ready-business.md).
+Z centra rolí můžete získat přístup k asistovaným návodům pro instalace, které vám pomohou nakonfigurovat určité scénáře a přidat funkce do aplikace [!INCLUDE[d365fin](includes/d365fin_md.md)] . Informace o tom, jak získat přístup ke všem stránkám asistovaného a manuálního nastavení, naleznete v části [Příprava obchodování](ui-get-ready-business.md).
 
 > [!NOTE]
 > Novou firmu můžete vytvořit v [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí služby RapidStart Services, což je nástroj navržený pro zkrácení doby nasazení, zlepšení kvality implementace, zavedení opakovatelných přístupů k implementacím a zvýšení produktivity automatizací a zjednodušením opakovaných úloh. Pro více informací navštivte [Nastavení společnosti pomocí RapidStart Services](admin-set-up-a-company-with-rapidstart.md)
@@ -45,7 +45,7 @@ Některé funkce, buď obecné, nebo specifické pro určité obchodní procesy,
 |Použijte vyhrazené průvodce migrací Quickbooks.|[Změna z aplikace QuickBooks na Business Central] přes-QuickBooks-Business-edition.md|
 |Získejte přístup k datům Business Central z mobilního zařízení.|[Získání Business Central na svém mobilním zařízení](install-mobile-app.md)|
 |Hromadné fakturace schůzek vytvořených v Bookings|[Hromadná fakturace pro Microsoft Bookings](finance-bookings.md)|
-|Nastavte server SMTP, který umožní e-mailovou komunikaci.<x0 />[!INCLUDE[d365fin](includes/d365fin_md.md)]| [Manuální nastavení e-mailu nebo pomocí asistovaného nastavení](admin-how-setup-email.md)|
+|Nastavte server SMTP, který umožní e-mailovou komunikaci.<x0/>[!INCLUDE[d365fin](includes/d365fin_md.md)]| [Manuální nastavení e-mailu nebo pomocí asistovaného nastavení](admin-how-setup-email.md)|
 | Nastavení jedinečných identifikačních kódů pro záznamy, jako jsou karty, dokumenty a řádky deníků, ke sledování v systému |[Vytváření číselných řad](ui-create-number-series.md) |
 |Nastavení a přiřazení základního kalendáře firmě a jejím obchodním partnerům, například zákazníkům, dodavatelům nebo lokacím. Termíny dodání a příjmu budoucích prodejních objednávek, objednávek, převodních objednávek a výrobních objednávek se pak počítají podle kalendářních pracovních dnů.|[Nastavení základních kalendářů](across-how-to-assign-base-calendars.md)|  
 
@@ -56,7 +56,7 @@ Některé oblasti vyžadují, abyste byli správcem [!INCLUDE[d365fin](includes/
 [Finance](finance.md)  
 [Prodej](sales-manage-sales.md)  
 [Nákup](purchasing-manage-purchasing.md)  
-[Zásoby](inventory-manage-inventory.md)<x1 />    
+[Zásoby](inventory-manage-inventory.md)<x1/>    
 [Správa projektu](projects-manage-projects.md)  
 [Dlouhodobý majetek](fa-manage.md)     
 [Správa montáže](assembly-assemble-items.md)  

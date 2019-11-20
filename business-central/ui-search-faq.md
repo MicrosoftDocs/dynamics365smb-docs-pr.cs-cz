@@ -11,7 +11,7 @@ ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
 ---
-# <a name="tell-me-faq"></a>Řekněte mi FAQ
+# <a name="tell-me-faq"></a>Nejčastější dotazy
 Toto téma odpovídá na otázky, na které se naši pokročilí uživatelé často ptají o funkci Řekněte mi, která nahradila předchozí funkci Vyhledávání na stránce, známou jako **Hledej stránky a sestavy**.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Jsou všechny akce z mé aktuální stránky zjistitelné v Řekněte mi?

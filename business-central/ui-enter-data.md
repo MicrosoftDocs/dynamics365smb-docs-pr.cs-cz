@@ -12,7 +12,7 @@ ms.date: 10/01/2018
 ms.author: jswymer
 ---
 
-# <a name="entering-data"></a>Vkládání dat
+# <a name="entering-data"></a>Zadávání dat
 Existuje mnoho obecných funkcí, které vám pomohou rychle a snadno zadávat data. V tomto textu jsou popsány obecné funkce pro zadávání dat.  
 
 Příklady v tomto článku používají demonstrační data.
