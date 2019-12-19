@@ -13,7 +13,9 @@ ms.search.keywords: null
 ms.date: 10/01/2018
 ms.author: sgroespe
 ---
+
 # <a name="set-up-company-configuration"></a>Nastavení konfigurace společnosti
+
 Proces implementace začíná u partnera společnosti Microsoft. Tento partner odpovídá za promyšlení konfiguračních detailů a vytvoření balíčku, který může zákazník snadno použít. Před vytvořením nové společnosti byste měli naplánovat, jak bude nakonfigurována. Musíte zvážit základní nastavení a typy dat, které vaše řešení [!INCLUDE[d365fin](includes/d365fin_md.md)] bude vyžadovat. Všechny tyto informace seskupujete do konfiguračních balíčků.
 
 Služby RapidStart vám také poskytují nástroje, které budete používat k migraci vašich starých dat, jako jsou odběratelé a prodejci.  
@@ -26,11 +28,12 @@ Pro usnadnění importu hlavních dat, jako jsou informace o odběrateli a dodav
 
 Následující tabulka popisuje sekvekci úloh s odkazy na témata, které je popisují.
 
-|**Pro**|**Navštivte**|  
-|------------|-------------|  
-|Naplánujte konfiguraci společnosti vyplněním konfiguračního sešitu.|[Správa konfigurace společnosti v sešitu](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Vytvořte konfigurační balíček, přizpůsobte balíček, přiřaďte tabulky balíčku, zkontrolujte nebo upravte stávající zákaznická data, vytvořte novou společnost a poté přesuňte testovací data do produkčního prostředí.|[Příprava konfiguračního balíčku](admin-how-to-prepare-a-configuration-package.md)| 
+| **Pro**                                                                                                                                                                                                                            | **Navštivte**                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Naplánování konfigurace společnosti pomocí vyplnění konfiguračního sešitu.                                                                                                                                                         | [Správa konfigurace společnosti v sešitu](admin-how-to-manage-company-configuration-in-a-worksheet.md) |
+| Vytvoření konfiguračního balíčku, přizpůsobení balíčku, přiřazení tabulek do balíčku, zkontrolování nebo upravení stávajících zákaznických dat, vytvořte novou společnost a poté přesuňte testovací data do produkčního prostředí. | [Příprava konfiguračního balíčku](admin-how-to-prepare-a-configuration-package.md)                     |
 
-## <a name="see-also"></a>Viz také  
+## <a name="see-also"></a>Viz také
+
 [Založení společnosti pomocí služeb RapidStart](admin-set-up-a-company-with-rapidstart.md)  
 [Správa](admin-setup-and-administration.md)

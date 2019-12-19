@@ -21,7 +21,7 @@ Chcete-li použít přidělení zdrojů, musíte nastavit:
   
 * Odbornost potřebnou k opravě a údržbě předmětů servisu. Přiřadíte ji předmětům servisu a prostředkům.  
 * Geografické oblasti zvané zóny, které definujete pro svůj trh. Například Východní, Západní, Centrální a tak dále. Přiřadíte je zákazníkům a prostředkům.  
-* Zda se má zobrazovat odbornost a zóny zdrojů a zda se má zobrazit varování, pokud si někdo vybere nekvalifikovaný zdroj nebo zdroj, který není v zákaznické zóně.  
+* Zda se má zobrazovat odbornost a zóny zdrojů a zda se má zobrazit varování, pokud si někdo vybere nekvalifikovaný zdroj, nebo zdroj který není v zákaznické zóně.  
 
 ## <a name="to-set-up-skills"></a>Nastavení odbornosti
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Odbornosti**, a poté vyberte související odkaz.  
@@ -71,7 +71,7 @@ Pokud chcete změnit kódy odbornosti přiřazené k položkám, například z *
 4.  Pokud má položka přidružené předměty servisu, otevře se dialogové okno s následujícími dvěma možnostmi:  
   
     * Změňte kódy na vybranou hodnotu: Tuto možnost vyberte, pokud chcete nahradit starý kód odbornosti novým kódem u všech souvisejících servisních předmětů.  
-    * Odstraňte kódy odbornosti nebo aktualizujte jejich vztah: Tuto možnost vyberte, pokud chcete změnit kód odbornosti pouze u této položky. Kód odbornosti u souvisejících předmětů servisu bude znovu přiřazen, to znamená, že pole **Přiděleno od** bude aktualizováno.  
+    * Odstraňte kódy odbornosti nebo aktualizujte jejich vztah: Tuto možnost vyberte, pokud chcete změnit kód odbornosti pouze u této položky. Kód odbornosti u souvisejících předmětů servisu bude znovu přiřazen. To znamená, že pole **Přiděleno od** bude aktualizováno.  
   
 ## <a name="see-also"></a>Viz také
 [Přidělení zdrojů](service-how-to-allocate-resources.md)  

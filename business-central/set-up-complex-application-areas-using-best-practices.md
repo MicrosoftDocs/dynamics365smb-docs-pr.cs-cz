@@ -14,7 +14,7 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Osvědčené postupy při nastavení komplexních oblasti aplikace
-Zadání správných hodnot nastavení již od začátku je důležité pro úspěch jakéhokoli nového obchodního softwaru.  
+Zadání správných hodnot nastavení již na začátku je důležité pro úspěch jakéhokoli nového obchodního softwaru.  
 
  Ať už používáte služby RapidStart k implementaci hodnot nastavení nebo je zadáváte ručně v nové společnosti, můžete svá rozhodnutí o nastavení podpořit některými obecnými doporučeními pro vybraná pole nastavení, o kterých je známo, že pokud budou nesprávně definovány, může být řešení neefektivní.  
 

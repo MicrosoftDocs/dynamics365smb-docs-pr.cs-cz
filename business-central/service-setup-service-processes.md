@@ -16,10 +16,10 @@ ms.author: bholtorf
 # <a name="configure-service-processes"></a>Konfigurace procesů servisu
 Následuje několik příkladů nastavení, která můžete použít pro procesy správy servisu:  
   
-* Některá celková nastavení pro různé procesy, jako jsou varování, další výpočty servisu pro předměty servisu, počáteční poplatek k vyhodnocení, úroveň hlášení poruchy, která se má použít,  atd.  
+* Některá celková nastavení pro různé procesy, jako jsou varování, další výpočty servisu pro předměty servisu, počáteční poplatek k vyhodnocení; úroveň hlášení poruchy, která se má použít,  atd.  
 * Typy informací, které musí technik uvést v servisních dokladech. Můžete například požadovat, aby byl určen typ zakázky, datum zahájení a/nebo ukončení práce a typ provedené práce.  
-* Některá výchozí nastavení pro čas odezvy, a záruky. Patří mezi ně výchozí doba odezvy pro zahájení servisu, procento záruční slevy pro díly a práci, a doba platnosti záruk.  
-* Nastavení smluv, například maximální počet dní, které můžete použít pro objednávky servisní smlouvy, zda použít kódy příčiny při zrušení smlouvy, standardní texty pro popisy smluv a hodnoty smlouvy.  
+* Některá výchozí nastavení pro čas odezvy a záruky. Patří mezi ně výchozí doba odezvy pro zahájení servisu, procento záruční slevy pro díly a práci, a doba platnosti záruk.  
+* Nastavení smluv, například maximální počet dní, který můžete použít pro objednávky servisní smlouvy, zda použít kódy příčiny při zrušení smlouvy, standardní texty pro popisy smluv a hodnoty smlouvy.  
 * Číselné řady, které se mají použít pro doklady a zboží související se službami.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Zadání obecných a povinných nastavení
