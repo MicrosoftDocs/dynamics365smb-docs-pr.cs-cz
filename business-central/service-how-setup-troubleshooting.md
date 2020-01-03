@@ -26,4 +26,4 @@ Můžete nastavit pokyny pro řešení potíží, které pomáhají technikům �
 2. Vyberte příslušnou entitu a poté vyberte akci **Řešení potíží**.  
 
 ## <a name="see-also"></a>Viz také
-[Správce servisu](service-service.md)
+[Správa servisu](service-service.md)

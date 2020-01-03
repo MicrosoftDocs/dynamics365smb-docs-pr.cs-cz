@@ -49,7 +49,7 @@ Chcete-li získat data z desktopové aplikace QuickBooks, bude nutné stáhnout 
 > Nástroj pro export dat funguje v současné době pouze s QuickBooks 2017 a 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Vyhledání rozšíření QuickBooks Data Migration
-Rozšíření QuickBooks Data Migration je nainstalováno a připraveno k použítí jako integrovaná část asistovaného průvodce nastavením Data Migration. Pokud jste připraveni začít hned teď a exportovali jste svá data z QuickBooks, vyberte ![Žárovku, která otevře Řekněte mi funkci](media/ui-search/search_small.png "Řekněte mi co chcete udělat") ikona, zadejte **Asistované nastavení** a poté vyberte související odkaz. Vyberte možnost **Migrovat obchodní data** a poté postupujte podle pokynů v průvodci.  
+Rozšíření QuickBooks Data Migration je nainstalováno a připraveno k použítí jako integrovaná část asistovaného průvodce nastavením Data Migration. Pokud jste připraveni začít hned teď a exportovali jste svá data z QuickBooks, vyberte ikonu ![ Žárovka, která otevře Řekněte mi funkci](media/ui-search/search_small.png "Řekněte mi co chcete udělat"), zadejte **Asistované nastavení** a poté vyberte související odkaz. Vyberte možnost **Migrovat obchodní data** a poté postupujte podle pokynů v průvodci.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Co mám dělat po migraci dat?
 Po migraci dat mají transakce stav Nezveřejněno, takže je můžete zkontrolovat a provést úpravy. Pokud chcete transakce zkontrolovat, přejděte na stránku, kde je obvykle najdete. Chcete-li například zkontrolovat nezveřejněné prodejní faktury, přejděte na stránku Prodejní faktury. Jestli chcete zkontrolovat deník plateb, přejděte na stránku Deník plateb.

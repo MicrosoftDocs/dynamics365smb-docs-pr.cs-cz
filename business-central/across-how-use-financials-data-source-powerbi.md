@@ -17,11 +17,11 @@ Můžete zpřístupnit svá [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.
 Musíte mít platný účet v [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] a ve službě Power BI. Také si musíte stáhnout [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
 
 ## <a name="to-add-included365fin_long_mdincludesd365fin_long_mdmd-as-a-data-source-in-power-bi-desktop"></a>Chcete-li přidat [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] jako zdroj dat v Power BI Desktop
-1. V Power BI Desktop, v levém navigačním podokně zvolte **Získat data**.
-2. Na stránce **Získat data** zvolte **Online služby**, zvolte ** Microsoft Dynamics 365 Business Central**, a poté zvolte tlačítko **Připojit**.
-3. Power BI zobrazí průvodce, který vás provede skrz [proces připojení](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Budete vyzváni k přihlášení do služby. Vyberte možnost **Přihlásit se** a vyberte účet, kterým se chcete přihlásit. To by měl být stejný účet, se kterým se přihlašujete do [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+1. V Power BI Desktop, v levém navigačním podokně, zvolte **Získat data**.
+2. Na stránce **Získat data** zvolte **Online služby**, vyberte **Microsoft Dynamics 365 Business Central**, a poté zvolte tlačítko **Připojit**.
+3. Power BI zobrazí průvodce, který vás provede skrz [proces připojení](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Budete vyzváni k přihlášení do služby. Vyberte možnost **Přihlásit se** a vyberte účet, kterým se chcete přihlásit. Ten by měl být stejný jako účet, se kterým se přihlašujete do [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 4. Zvolte tlačítko **Připojit** a pokračujte. Průvodce Power BI zobrazuje seznam Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)] společností a zdrojů dat. Tyto zdroje dat představují všechny webové služby, které jste publikovali z každé společnosti v Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
-5. Případně vytvořte novou adresu URL webové služby v [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] pomocí akce **Vytvořit sadu dat** na stránce **Webové služby**, pomocí Průvodce asistovanou instalací **Nastavení vykazování** nebo výběrem akce **Upravit v Excelu** v libovolném seznamu.
+5. Případně vytvořte novou adresu URL webové služby v [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] pomocí akce **Vytvořit sadu dat** na stránce **Webové služby**, pomocí Průvodce asistovanou instalací **Nastavení vykazování** nebo výběrem akce **Upravit v Excelu**, v libovolném seznamu.
 6. Určete data, která chcete přidat do svého datového modelu, a poté zvolte tlačítko **Načíst**.
 7. Chcete-li do datového modelu Power BI přidat další Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data, opakujte předchozí kroky.
 
@@ -32,7 +32,7 @@ Jakmile jsou data načtena, objeví se v navigaci vpravo na stránce. V tomto ok
 
 Před vytvořením sestavy doporučujeme importovat soubor motivu Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].  Soubor motivu vytvoří paletu barev, takže můžete vytvářet sestavy se stejným stylem barev jako mají obsahové balíčky Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], aniž byste museli definovat vlastní barvy pro každý vizuál.
 
-Pro více informací navštivte[Dokumentace Power BI ](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
+Pro více informací navštivte [Dokumentaci Power BI ](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>Viz také
 [Business Intelligence](bi.md)  
