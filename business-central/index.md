@@ -1,18 +1,20 @@
 ---
 title: Meet Microsoft Dynamics 365 Business Central
 description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
-author: SorenGP
+author: ZdenekBicek
 
 ms.service: dynamics365-business-central
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/02/2019
+ms.date: 01/06/2020
+ms.reviewer: v-zdbice
 ms.author: sgroespe
 
 ---
 # Vítejte v [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] je řešení pro správu podniku pro malé a střední organizace, které automatizuje a zefektivní obchodní procesy a pomáhá při řízení podniku. Vysoce přizpůsobitelné a na funkce bohaté [!INCLUDE[d365fin](includes/d365fin_md.md)] umožňuje společnostem spravovat své podnikání, včetně účetnictví, výroby, prodeje, dodávek, řízení projektů, služeb a dalších. Společnosti mohou snadno přidávat funkce vztahující se k oblasti činnosti, a které jsou přizpůsobeny pro podporu i vysoce specializovaných průmyslových odvětví.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] lze rychle implementovat, snadno konfigurovat a jeho jednoduchost vede inovace v designu produktu, vývoji, implementaci a použitelnosti. Na navigačním panelu vlevo naleznete informace o použití aplikace [!INCLUDE[d365fin](includes/d365fin_md.md)] ve vaší firmě. Některé klíčové články jsou také uvedeny v první části následující tabulky. A pokud jste partnerem nebo zákazníkem, který se snaží rozšířit funkčnost, najdete relevantní odkazy v sekci **Obsah pro vývojáře a IT**.
@@ -33,7 +35,7 @@ ms.author: sgroespe
 [Dokumentace Dynamics 365](/dynamics365/)  
 [Dynamics 365 Business Central na microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Katalog vzdělávání Business Central](readiness/readiness-learning-catalog.md)  
-[Dynamics 365 Business Central na Microsoft Learn](/learn/browse/?products=dynamics-business-central) 
+[Dynamics 365 Business Central na Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 
