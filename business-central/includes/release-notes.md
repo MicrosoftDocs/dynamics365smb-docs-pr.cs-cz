@@ -1,5 +1,5 @@
 > [!IMPORTANT]
 >
-> Wondering about upcoming and recently released capabilities in Dynamics 365 Business Central?
+> Zajímají Vás nadcházející a nedávno vydané funkce v Dynamics 365 Business Central?
 >
-> [Check out the latest version of the release plan](/dynamics365/release-plans/index). We've captured all the details, end to end, top to bottom, which you can use for planning. For each version, you can get the release plan as a single PDF.  
+> [Podívejte se na nejnovější verzi plánu vydání](/dynamics365/release-plans/index). Zaznamenali jsme všechny podrobnosti, od začátku do konce, které můžete použít pro plánování. Pro každou verzi můžete získat plán vydání jako jeden soubor PDF.
