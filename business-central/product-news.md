@@ -12,7 +12,7 @@ ms.author: edupont
 ---
 # Co je nového v Dynamics 365 Business Central
 
-Tato stránka ukazuje na témata, která vám mohou pomoci dozvědět se o nových funkcích v nejnovějších verzích [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Pokud jste tak ještě neučinili, zaregistrujte se na [zkoušku](https://trials.dynamics.com/), seznamte se se základy, které můžete v [!INCLUDE[d365fin](includes/d365fin_md.md)] dělat a poté si aplikaci na chvíli vyzkoušíte sami. Až budete připraveni, můžete otevřít prázdnou společnost a připravit si všechno pro sebe.  
+Tato stránka ukazuje na témata, která vám mohou pomoci dozvědět se o nových funkcích v nejnovějších verzích [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Pokud jste tak ještě neučinili, zaregistrujte si [zkušební verzi](https://trials.dynamics.com/), seznamte se se základy, které můžete v [!INCLUDE[d365fin](includes/d365fin_md.md)] dělat a poté si aplikaci na chvíli vyzkoušíte sami. Až budete připraveni, můžete otevřít prázdnou společnost a připravit si všechno pro sebe.  
 
 Pravidelně budeme aktualizovat [!INCLUDE[d365fin](includes/d365fin_md.md)] s dalšími funkcemi v základní aplikaci a novými [rozšířeními](ui-extensions.md).  
 
