@@ -1,14 +1,15 @@
 ---
 title: Začínáme | Microsoft Docs
 description: 'Zjistěte více o možnostech a pracovních scénářích v Business Central, řešení podnikového řízení pro malé a střední organizace.'
-author: edupont04
+author: ZdenekBicek
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 01/06/2020
+ms.reviewer: v-zdbice
 ms.author: edupont
 ---
 # Začínáme s [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
