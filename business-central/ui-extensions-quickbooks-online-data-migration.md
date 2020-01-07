@@ -32,7 +32,7 @@ Migrujeme pouze plnou částku v prodejních a nákupních fakturách. Neaktuali
 >   Nemigrujeme nákupní a prodejní objednávky.
 
 ## <a name="before-you-start"></a>Než začnete
-Důležitá část migračního procesu je specifikovat účty, do kterých budou transakce migrovat. Je dobrý nápad si toto mapování naplánovat před migrací dat. Například, účty, ve kterých zúčtujete transakce pro:  
+Důležitá část migračního procesu je specifikovat účty, do kterých budou transakce migrovat. Je dobrý nápad si toto mapování naplánovat před migrací dat. Například účty, ve kterých zúčtujete transakce pro:  
 
 * Prodej zboží a služeb odběratelům
 * Nákup zboží a služeb od dodavatelů  
@@ -45,7 +45,7 @@ Pokud mají transakce v aplikaci QuickBooks Online daňové částky, musíte p�
 ## <a name="how-do-i-start-using-the-extension"></a>Jak začnu používat rozšíření?
 Začít je snadné. Stačí spustit Průvodce asistovaného nastavení **migrace dat**. Zde je návod:
 
-1. Vyberte ![Žárovku, která otevře ikonu funkce Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** Asistovaná nastavení ** a poté vyberte **Migrovat obchodní data**.
+1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** Asistovaná nastavení ** a poté vyberte **Migrovat obchodní data**.
 2. Postupujte podle instrukcí k jednotlivým krokům v asistovaném průvodci nastavením.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Co mám dělat po migraci dat?

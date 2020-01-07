@@ -11,17 +11,19 @@ ms.search.keywords: 'customize, personalize, personalization, hide columns, remo
 ms.date: 10/01/2018
 ms.author: jswymer
 ---
-# <a name="why-a-page-is-locked-from-personalizing"></a>Proč je stránka uzamčena před přizpůsobením
+
+# <a name="why-a-page-is-locked-from-personalizing"> </a>Proč je stránka uzamčena před přizpůsobením
+
 Pokud se na panelu **Přizpůsobení** zobrazí při otevření stránky ikona zámku (viz obrázek), znamená to, že v současné době nemůžete na stránce provádět žádné další změny přizpůsobení.
 
 ![Zámek Přizpůsobení](media/personalization-locked.png "Zámek přizpůsobení")
 
 Je to proto, že jsme změnili způsob, jakým přizpůsobení funguje. Bohužel, starý a nový způsob nefunguje stejně.
 
-Stránka aktuálně obsahuje poslední změny přizpůsobení, které jste provedli. Pokud chcete pokračovat v přizpůsobení stránky, můžete zvolit ikonu zámku a poté **Odemknout**. Jen mějte na pozoru, že pokud se rozhodnete odemknout stránku, bude aktuální přizpůsobení stránky vymazána a budete muset začít od nuly.
+Stránka aktuálně obsahuje poslední změny přizpůsobení, které jste provedli. Pokud chcete pokračovat v přizpůsobení stránky, můžete zvolit ikonu zámku a poté zvolte akci **Odemknout**. Jen mějte na pozoru, že pokud se rozhodnete odemknout stránku, bude aktuální přizpůsobení stránky vymazána a budete muset začít od nuly.
 
+## <a name="see-also"> </a>Viz také
 
-## <a name="see-also"></a>Viz také
 [Přizpůsobení Vašeho Pracovního prostoru](ui-personalization-manage.md)  
 [Správa přizpůsobení](ui-personalization-manage.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

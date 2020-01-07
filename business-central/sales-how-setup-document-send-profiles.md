@@ -25,8 +25,8 @@ Pokud v prodejním dokladu zvolíte akci **Účtovat a Odeslat**, **Zaúčtovat 
 2. Na stránce **Profily odesílání dokladů**, vyberte akci **Nové**.
 3. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>K určení profilu odesílání na kartě zákazníka
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat") ikona, zadejte **Zákazník**, a poté vyberte související odkaz.
+## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Určení profilu odesílání na kartě zákazníka
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zákazník**, a poté vyberte související odkaz.
 2. Otevřete kartu zákazníka, pro kterého chcete nastavit profil odesílání.
 3. V poli **Profil odesílání dokladů** vyberte profil, který jste nastavili, jak je popsáno v předchozím postupu.
 

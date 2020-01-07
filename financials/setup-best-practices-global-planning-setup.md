@@ -11,18 +11,18 @@ ms.search.keywords: null
 ms.date: 09/08/2017
 ms.author: sgroespe
 ---
-# <a name="setup-best-practices-global-planning-setup"></a>Nastavení osvědčených postupů: Globalní plánování instalace
-**Plánovací** Záložka v okně **Nastavení výroby** obsahuje několik polí, která definují globální pravidla pro plánovače dodávek.  
+# <a name="setup-best-practices-global-planning-setup"></a>Nastavení osvědčených postupů: Instalace globálního plánování 
+Záložka **Plánování** v okně **Nastavení výroby** obsahuje několik polí, která definují globální pravidla pro plánovače dodávek.  
 
  Následující tabulka obsahuje doporučené postupy, jak nastavit vybraná pole parametrů globálního plánování. Další informace o poli získáte kliknutím na odkaz ve sloupci **Nastavení pole**.  
 
 
 |        Nastavení pole        |                                                          Osvědčený postup                                                           |                                                                     Komentář                                                                     |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Použití prognózy na místech |                                       Vyberte, pokud máte prognózy pro konkrétní lokace.                                       |                                                                                                                                                 |
+| Použití prognózy na lokacích |                                       Vyberte, pokud máte prognózy pro konkrétní lokace.                                       |                                                                                                                                                 |
 |  Komponenty na lokaci   |                        Pokud zboží není definováno jako SKJ, vyberte kód místa vašeho hlavního skladu.                        |                                          To platí také v případě, že používáte pouze sešity požadavků.                                           |
-|   Prázdná úroveň přetečení    |              Pokud migrujete z Microsoft Dynamics NAV 5.0 nebo starší, vyberte **Povolit výchozí kalkulaci**.               |                             Používejte pouze v případě, že chcete všem nebo některým zbožím povolit overflow bodu přiobjednání.                              |
-|  Výchozí doba prodlevy  | Nastavte mezi 1D a 5D.<br /><br /> Pokud teprve s [!INCLUDE [d365fin](includes/d365fin_md.md)] začínáme, tak nastavte delší období. | Když jsou uživatelé více sblížení s různými důvody pro hlášení akcí, tak začínají zkracovat dobu utlumení, aby povolili více doporučených změn. |
+|   Prázdná úroveň přetečení    |              Pokud migrujete z Microsoft Dynamics NAV 5.0 nebo starší, vyberte **Povolit výchozí kalkulaci**.               |                             Používejte pouze v případě, že chcete každému nebo jen některému zboží povolit přetéct bod přiobjednání.                              |
+|  Výchozí doba prodlevy  | Nastavte mezi 1D a 5D.<br /><br /> Pokud teprve s [!INCLUDE [d365fin](includes/d365fin_md.md)] začínáte, tak nastavte delší období. | Když jsou uživatelé více sblížení s různými důvody pro hlášení akcí, tak začínají zkracovat dobu utlumení, aby povolili více doporučených změn. |
 | Výchozí doba utlumení |                                       Nastavte mezi 5 a 20 procenty velikosti dávky zboží.                                       |                                                                                                                                                 |
 
 ## <a name="see-also"></a>Viz také  

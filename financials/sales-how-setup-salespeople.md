@@ -20,7 +20,7 @@ Pokud jste nastavili prodejce v okně **Prodejci**, můžete jej vybrat v poli *
 1. Zvolte ikonu ![Vyhledat stránku, nebo sestavu](media/ui-search/search_small.png "ikona vyhledat stránku, nebo sestavu"), zadejte **Prodejci** a pak vyberte související odkaz.
 2. V okně **Prodejce** vyberte akci **Nové**.
 
-Prodejce můžete používat v různých vztazích ke správě vztahů a marketingu. Můžete například prodejcům přiřadit úkoly, aby byly úkoly začleněny do prodejních příležitostí, ke kterým je prodejce přiřazen. Pro více informací navštivte [Nastavit cykly prodejních příležitostí a fáze prodejního cyklu](marketing-how-setup-opportunity-sales-cycles-stages.md)
+Prodejce můžete používat v různých vztazích ke správě vztahů a marketingu. Můžete například prodejcům přiřadit úkoly, aby byly úkoly začleněny do prodejních příležitostí, ke kterým je prodejce přiřazen. Pro více informací navštivte [Nastavení cyklů prodejních příležitostí a fáze prodejních cyklů](marketing-how-setup-opportunity-sales-cycles-stages.md)
 
 ## <a name="see-also"></a>Viz také
 [Nastavení Prodeje](sales-setup-sales.md)  

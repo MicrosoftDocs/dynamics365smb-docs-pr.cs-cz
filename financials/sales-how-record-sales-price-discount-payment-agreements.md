@@ -41,7 +41,7 @@ Protože prodejní ceny a prodejní řádkové slevy jsou založeny na kombinaci
 1. Zvolte ikonu ![Vyhledat stránku, nebo sestavu](media/ui-search/search_small.png "ikona vyhledat stránku, nebo sestavu"), zadejte **Zákazník** a pak vyberte související odkaz.
 2. Otevřete příslušnou kartu zákazníka a pak zvolte akci **Řádková sleva**.
 
-    Pole**Typ nákupu** je předvyplněno **Zákazník** a pole **Kód nákupu** je vyplněno číslem zákazníka.
+    Pole **Typ nákupu** je předvyplněno, **Zákazník** a pole **Kód nákupu** je vyplněno číslem zákazníka.
 3. Vyplňte pole na řádku podle potřeby. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vyplňte řádek pro každou kombinaci, která zákazníkovi poskytne prodejní řádkovou slevu.
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Nastavení slevy na faktuře pro zákazníka
@@ -107,10 +107,10 @@ Nejlepší cena je nejnižší přípustná cena s nejvyšší přípustnou řá
 Pokud pro zboží na řádku nelze vypočítat žádnou speciální cenu, je vložen buď poslední přímý náklad, nebo jednotková cena z karty zboží.
 
 ## <a name="to-copy-sales-prices"></a>Kopírování prodejních cen  
-Pokud chcete kopírovat prodejní ceny, jako například prodejní ceny jednotlivého zákazníka, které chcete použít pro cenovou skupinu zákazníka, musíte spustit **Navrhnout cenu z ceny** dávkovou úlohu. V okně **Sešit prodejní ceny** můžete nalézt dávkovou úlohu.    
+Pokud chcete kopírovat prodejní ceny, jako například prodejní ceny jednotlivého zákazníka, které chcete použít pro cenovou skupinu zákazníka, musíte spustit dávkovou úlohu **Navrhnout cenu z ceny** . V okně **Sešit prodejní ceny** můžete nalézt dávkovou úlohu.    
 
 1.  Zvolte ikonu ![Vyhledat stránku, nebo sestavu](media/ui-search/search_small.png "ikona vyhledat stránku, nebo sestavu"), zadejte **Sešit prodejní ceny** a pak vyberte související odkaz.  
-2.  Vyberte **Navrhnout cenu z ceny** tlačítko.  
+2.  Vyberte tlačítko **Navrhnout cenu z ceny** .  
 3.  Na záložce s náhledem **Prodejní ceny** vyplňte pole **Typ prodeje** a **Kód prodeje** původními prodejními cenami, které chcete kopírovat.  
 4.  V horní části okna s požadavkem vyplňte **Typ prodeje** a **Kód prodeje** typem a názvem, do kterých chcete prodejní ceny kopírovat.  
 5.  Pokud chcete, aby dávková úloha vytvořila nové ceny, vyberte pole **Vytvořit nové ceny**.  

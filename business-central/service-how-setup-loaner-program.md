@@ -27,7 +27,7 @@ Někdy musíte zákazníkovi poskytnout zápůjčku pro použití v případě, 
 5. V poli **Kód měrné jednotky** vyberte příslušnou měrnou jednotku.  
   
 ## <a name="see-also"></a>Viz také
-[Půjčování a přijím zápůjček](service-how-to-lend-receive-loaners.md)  
+[Půjčování a přijem zápůjček](service-how-to-lend-receive-loaners.md)  
 [Nastavení Správy servisu](service-setup-service.md)  
 [Dodání servisu](service-deliver-service.md)  
 

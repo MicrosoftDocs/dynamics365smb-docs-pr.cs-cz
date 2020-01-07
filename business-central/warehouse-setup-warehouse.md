@@ -14,7 +14,7 @@ ms.date: 10/04/2018
 ms.author: sgroespe
 ---
 # <a name="setting-up-warehouse-management"></a>Nastavení správy skladu
-Distribuční strategie společnosti se odráží v konfiguraci jejích skladových procesů. To zahrnuje definování způsobu nakládání s různým zbožím na různých místech skladu, jako je například stupeň kontroly přihrádek a rozsah workflow vyžadovaného mezi operacemi skladu.  
+Distribuční strategie společnosti se odráží v konfiguraci jejích skladových procesů. To zahrnuje definování způsobu nakládání s různými položkami na různých místech skladu, jako je například stupeň kontroly přihrádek a rozsah workflow vyžadovaného mezi operacemi skladu.  
 
  Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.   
 
@@ -29,8 +29,8 @@ Distribuční strategie společnosti se odráží v konfiguraci jejích skladov�
 |Nastavte uživatele jako zaměstnance skladu na konkrétních lokacích.|[Nastavení zaměstnanců skladu](warehouse-how-to-set-up-warehouse-employees.md)|
 |Definujte různé typy přihrádek ve skladu a určete, kde je zboží umístěno podle jeho typu, pořadí nebo úrovně manipulace.|[Nastavení lokací pro použití přihrádek](warehouse-how-to-set-up-locations-to-use-bins.md)|
 |U stávajícího umístění proveďte další nastavení, abyste je mohli povolit pro činnosti skladu.|[Převod existující lokace do lokací skladu](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)|
-|Umožňení vyskladnění, přesunu a zaskladnění montážních nebo výrobních objednávek v základních konfiguracích skladu.|[Nastavení základních lokací s provozními oblastmi](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|  
-|Nastavuje zboží a umístění pro nejpokročilejší rozsah správy skladu, kde všechny činnosti musí následovat přesné workflow.|[Nastavení zboží a lokace pro přímé zaskladnění a vyskladnění](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)|  
+|Umožňe vyskladnění, přesun a zaskladnění montážních nebo výrobních objednávek v základních konfiguracích skladu.|[Nastavení základních lokací s provozními oblastmi](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|  
+|Nastavuje zboží a umístění pro nejpokročilejší rozsah správy skladu, kde všechny činnosti musí následovat přesný pracovní postup.|[Nastavení zboží a lokace pro přímé zaskladnění a vyskladnění](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)|  
 |Definuje kdy a jak je zboží ve skladu počítáno pro účely údržby nebo finančního výkaznictví.|[Výpočet, adjustace a reklasifikace skladu](inventory-how-count-adjust-reclassify.md)|
 |Umožněte pracovníkům skladu rozdělit větší měrnou jednotku na menší měrné jednotky, aby splnili potřeby zdrojových dokumentů.|[Povolení automatického rozedělení zboží s řízeným zaskladněním a vyskladněním](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Nastavte sklad tak, aby automaticky navrhoval zboží, které má být vybráno a jejichž trvanlivost vyprší jako první.|[Povolení vyskladnění pomocí FEFO](warehouse-picking-by-fefo.md)|

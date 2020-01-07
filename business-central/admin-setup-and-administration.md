@@ -18,7 +18,7 @@ Zadání správných hodnot nastavení již od začátku je důležité pro úsp
 
 Ať už používáte služby RapidStart Services k implementaci hodnot nastavení nebo je zadáváte ručně v nové společnosti, můžete svá rozhodnutí o nastavení podpořit některými obecnými doporučeními pro vybraná pole nastavení, o kterých je známo, že pokud budou nesprávně definovány, může být řešení neefektivní.  
 
-Super uživatel nebo správce může nastavit Data Exchange Framework tak, aby uživatelům umožňoval exportovat a importovat data v bankovních a mzdových souborech, například pro různé procesy správy hotovosti.
+Super uživatel nebo správce může nastavit Data Exchange Framework tak, aby uživatelům umožňoval exportovat a importovat data v bankových a mzdových souborech, například pro různé procesy správy hotovosti.
 
 > [!NOTE]
 > Můžete založit novou společnost v [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí RapidStart Services, což je nástroj určený ke zkrácení doby nasazení, zlepšení kvality implementace, zavedení opakovatelného přístupu k implementacím a zvýšení produktivity automatizací a zjednodušením opakujících se úkolů. Pro více informací navštivte [Nastavení společnosti pomocí RapidStart Services](admin-set-up-a-company-with-rapidstart.md)
@@ -33,11 +33,11 @@ Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je po
 |Reakce na žádosti subjektů, týkající se jejich osobních údajů.|[Odpověď na žádost o osobní informace](admin-responding-to-requests-about-personal-data.md)|
 |Založení nové obchodní jednotky pomocí šablon|[Vytváření nových společností](about-new-company.md)|
 |Sledování všech přímých úprav, které uživatelé provádějí na datech v databázi a určení původu chyb a změny dat.|[Zaznamenávání změn](across-log-changes.md)|  
-|Zadávání jednorázových nebo opakujících se požadavků na spouštění sestav nebo codeunit.|[Použití front úloh k plánování úkolů](admin-job-queues-schedule-tasks.md)|  
+|Zadávejte jednorázové nebo opakující se požadavky na spouštění sestav nebo codeunit.|[Použití front úloh k plánování úkolů](admin-job-queues-schedule-tasks.md)|  
 |Správa, mazání nebo kompripomování dokumentů|[Mazání dokumentů](admin-manage-documents.md)|  
-|Publikování stránek, codeunit a dotazy jako webové služby.|[Publikování Webbových služeb](across-how-publish-web-service.md)|
+|Vystavení stránek, codeunit a dotazy jako webové služby.|[Publikování Webbových služeb](across-how-publish-web-service.md)|
 |V rámci vytváření aplikací Connect mezi [!INCLUDE[d365fin](includes/d365fin_md.md)] a řešeními třetích stran prostřednictvím rozhraní REST API definujte šablony, které se používají k naplnění prázdných vlastností v entitě při vytváření akce POST prostřednictvím rozhraní API.|[Konfigurace šablon API](admin-configuring-api-template.md)|
-|Šifrování dat na [!INCLUDE[d365fin](includes/d365fin_md.md)] serveru pomocí generováním nových nebo importováním existujících šifrovacích klíčů, které na serveru povolíte.|[Správa šifrování dat](admin-manage-data-encryption.md)|
+|Šifrovat data na [!INCLUDE[d365fin](includes/d365fin_md.md)] serveru pomocí generováním nových nebo importováním existujících šifrovacích klíčů, které na serveru povolíte.|[Správa šifrování dat](admin-manage-data-encryption.md)|
 |Připojte Dynamics 365 for Sales s [!INCLUDE[d365fin](includes/d365fin_md.md)] a získejte bezproblémovou integraci mezi vztahy se zákazníky a zpracováním objednávek v procesu vedoucí k hotovosti.|[Integrace s Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
 |Změňte pole a akce zobrazené v uživatelském rozhraní tak, aby vyhovovaly obchodním procesům vaší společnosti a rozšířte řešení o aplikace.|[Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 

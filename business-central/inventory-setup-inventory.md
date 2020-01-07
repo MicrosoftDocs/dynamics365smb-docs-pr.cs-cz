@@ -23,13 +23,13 @@ Po nastavení zásob můžete spravovat různé procesy související s transakc
 | Viz | také |
 | --- | --- |
 | Definování obecného nastavení zásob, například číselných řad a způsobu použití lokace. |[Nastavení obecných informací o zásobách](inventory-how-setup-general.md) |
-|Nakonfigurujte efektivní model distribuce s kombinací různých lokací a center odpovědnosti přiřazených obchodním partnerům nebo zaměstnancům.|[Práce s centry odpovědnosti](inventory-responsibility-centers.md)|
-| Uspořádejte své zásoby na více lokacích, včetně tras transferů. |[Nastavení lokací](inventory-how-register-new-items.md) |
+|Nakonfigurujte efektivní model distribuce s kombinací různých lokací a center odpovědnosti přiřazených obchodním partnerům nebo zaměstnancům.|[Práce s Centry odpovědnosti](inventory-responsibility-centers.md)|
+| Uspořádejte své zásoby na více lokacích, včetně tras transferů. |[Nastavení Lokací](inventory-how-register-new-items.md) |
 | Vytvořte karty zboží pro položky typu zásoby, neskladované nebo služba, se kterými obchodujete. |[Zaevidujte nové zboží](inventory-how-register-new-items.md) |
 |Naučte se, jak vyplnit pole **Typ** na kartách zboží podle obchodního účelu.|[O typech zboží](inventory-about-item-types.md)| 
-|Nastavení více měrných jednotek pro zboží, které můžete použít jako alternativní měrnou jednotku, například pro prodej, nákup nebo výrobní transakce.|[Nastavení měrné jednotky](inventory-how-setup-units-of-measure.md)|
+|Nastavení více měrných jednotek pro zboží, které můžete použít jako alternativní měrnou jednotku, například pro prodej, nákup nebo výrobní transakce.|[Nastavení Měrné jednotky](inventory-how-setup-units-of-measure.md)|
 |Jako doplněk ke kartám zboží zaznamenávejte informace o svým zboží na konkrétní lokaci nebo konkrétní variantě.|[Nastavení skladové jednotky](inventory-how-to-set-up-stockkeeping-units.md)|
-| Přiřaďte zboží do kategorií a přiřaďte jim atributy, které vám a zákazníkům pomohou najít zboží. |[Kategorizace zboží](inventory-how-categorize-items.md) |
+| Přiřaďte zboží do kategorií a přiřaďte jim atributy, které vám a zákazníkům pomohou najít zboží. |[Kategorizujte položky](inventory-how-categorize-items.md) |
 
 ## <a name="see-also"></a>Viz také
 [Správa zásob](inventory-manage-inventory.md)  

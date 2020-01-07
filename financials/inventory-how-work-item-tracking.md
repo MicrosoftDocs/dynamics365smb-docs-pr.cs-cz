@@ -25,11 +25,11 @@ Zboží se sériovým číslem nebo číslem šarže lze v dodavatelském řetě
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Vybírání sériových čísel nebo čísel šarží ve skladu
 Odchozí zpracování sériových čísel nebo čísel šarží je častým úkolem v různých skladových procesech.  
 
-V některých procesech skladové položky nenesou sériová čísla nebo čísla šarže a pracovník skladu musí při odchozí manipulaci přiřadit nové číslo, obvykle z předdefinované číselné řady.
+V některých procesech skladové zboží nenese sériové číslo nebo číslo šarže a pracovník skladu musí při odchozí manipulaci přiřadit nové číslo, obvykle z předdefinované číselné řady.
 
-V jednoduchých procesech již skladové položky nesou sériová čísla nebo čísla šarže, například přiřazená během odkládání, a tato čísla jsou automaticky přenášena prostřednictvím všech výstupních skladových činností bez interakce pracovníků skladu.
+V jednoduchých procesech již skladové zboží nese sériové číslo nebo číslo šarže, například přiřazené během odkládání, a toto číslo je automaticky přenášeno prostřednictvím všech výstupních skladových činností bez interakce pracovníků skladu.
 
-Ve zvláštních situacích u sériových nebo šaržových zásob jsou ve zdrojovém dokumentu definována konkrétní sériová nebo šaržová čísla, jako je prodejní objednávka, kterou musí pracovník skladu při manipulaci s výstupním skladem respektovat. Může to být způsobeno tím, že zákazník během procesu objednávky požadoval konkrétní dávku. Když je doklad vyskladnění zásob nebo vyskladnění ze skladu vybrán z výstupního zdrojového dokladu, kde jsou již definována sériová čísla nebo čísla šarže, všechna pole v okně **Řádky sledování zboží** pod vyskladněním zásob jsou zablokovány pro zápis, kromě pole **Množství ke zpracování**. V takovém případě řádky vyskladnění zásob určují sledovací čísla zboží na jednotlivých řádcích pro odběr a místo. Množství je již rozděleno do jedinečných kombinací sériových čísel nebo čísel šarží, protože prodejní objednávka specifikuje sledovací čísla zboží k odeslání.  
+Ve zvláštních situacích u sériových nebo šaržových zásob jsou ve zdrojovém dokladu definována konkrétní sériová nebo šaržová čísla, jako je prodejní objednávka, kterou musí pracovník skladu při manipulaci s výstupním skladem respektovat. Může to být způsobeno tím, že zákazník během procesu objednávky požadoval konkrétní dávku. Když je doklad vyskladnění zásob nebo vyskladnění ze skladu vybrán z výstupního zdrojového dokladu, kde jsou již definována sériová čísla nebo čísla šarže, všechna pole v okně **Řádky sledování zboží** pod vyskladněním zásob jsou zablokovány pro zápis, kromě pole **Množství ke zpracování**. V takovém případě řádky vyskladnění zásob určují sledovací čísla zboží na jednotlivých řádcích pro odběr a místo. Množství je již rozděleno do jedinečných kombinací sériových čísel nebo čísel šarží, protože prodejní objednávka specifikuje sledovací čísla zboží k odeslání.  
 
 ## <a name="item-tracking-availability"></a>Dostupnost sledování zboží
 Když pracujete se sériovými čísly a čísly šarží, [!INCLUDE [d365fin](includes/d365fin_md.md)] vypočítá informace o dostupnosti pro čísla šarže a sériová čísla a zobrazí je na různých oknech pro sledování zboží. To vám umožní zjistit, kolik z čísla šarže nebo sériového čísla se aktuálně používá v jiných dokladech. To snižuje chyby a nejistotu způsobenou dvojím přidělením.
@@ -60,7 +60,7 @@ Kód sledování zboží odráží různé aspekty, které má společnost ohled
 U některých zboží můžete chtít v kódu sledování zboží nastavit konkrétní data a pravidla vypršení platnosti. Tato funkce umožňuje sledovat, kdy vyprší platnost specifických sériových čísel a čísel šarží.
 
 1. Vyberte existující kód sledování zboží a poté vyberte akci **Upravit**.  
-2.  Na záložce **Různé** , zaškrtněte následující políčka.  
+2.  Na záložce **Různé**,  zaškrtněte následující políčka.  
 
     |Pole|Popis|  
     |---------------------------------|---------------------------------------|  
@@ -79,7 +79,7 @@ U některého zboží můžete chtít nastavit konkrétní záruky v kódu sledo
     |**Vzorec data záruky**|Určuje poslední den záruky zboží.|  
     |**Pož. ručního zadání data záruky**|Určuje, že na řádku sledování zboží musíte ručně zadat datum záruky.|  
 
-## <a name="to-record-serial-or-lot-number-information"></a>Zaznamenávaní informace o sériovém čísle nebo čísle šarži  
+## <a name="to-record-serial-or-lot-number-information"></a>Zaznamenávaní informace o sériovém čísle nebo čísle šarže  
 Potřebujete-li například spojit zvláštní informace s konkrétním číslem sledování zboží, například pro zajištění kvality, můžete tak učinit na informační kartě sériového čísla nebo čísla šarže.
 
 1. Otevřete dokument, který má přiřazeno sériové číslo nebo číslo šarže.
@@ -89,15 +89,15 @@ Potřebujete-li například spojit zvláštní informace s konkrétním číslem
     Pole **Sériové číslo** a **Číslo šarže** jsou vyplněna z řádku pro sledování zboží.  
 4. Do pole **Popis** zadejte krátkou informaci, například o stavu zboží.  
 5. Zvolte akci **Komentář** k vytvoření samostatného záznamu komentářů.  
-6. Chcete-li vyloučit sériové číslo nebo číslo šarže z transakcí, zaškrtněte políčko **Blokované**.  
+6. Chcete-li vyloučit sériové číslo nebo číslo šarže z transakcí, zaškrtněte políčko **Blokováno**.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Úprava stávající informace o sériovém čísle nebo čísle šarže  
-1. Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Položky** a pak vyberte související odkaz.  
+1. Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Zboží** a pak vyberte související odkaz.  
 2. Vyberte zboží, které má kód sledování zboží a obsahuje sériové číslo nebo číslo šarže.
 3. V okně **Karty zboží** vyberte akci **Položky** a poté zvolte **Položky hlavní knihy**.
 4. Vyberte pole **Číslo šarže** nebo **Sériové číslo**. Pokud pro sledovací číslo zboží existují informace, otevře se okno **Seznam informací o čísle šarže** nebo **Seznam informací o sériovém čísle**.  
 5. Vyberte kartu a poté vyberte akci **Karta informace sériového čísla/čísla šarže**.  
-6. Upravte text s krátkým popisem, záznam komentáře nebo pole **Blokované**.  
+6. Upravte text s krátkým popisem, záznam komentáře nebo pole **Blokováno**.  
 
 Sériová čísla ani čísla šarží nelze upravovat. Chcete-li tak učinit, musíte překlasifikovat dotyčný účet zboží. Pro více informací navštivte „Přeřadění čísel šarže nebo sériových čísel“.
 
@@ -110,7 +110,7 @@ Přesná pravidla pro manipulaci s čísly sledování zboží ve vaší společ
 >  Chcete-li v činnostech ve skladu používat čísla sledování zboží, musí být vybrána pole **Sledování šarže ve skladu** a **Sledování s.čísel ve skladu**, protože definují zvláštní principy při zpracování sériových čísel a čísel šarží v činnostech skladu.  
 
 1.  Vyberte ikonu ![Hledat stránku nebo sestavu](media/ui-search/search_small.png "Hledat ikonu stránky nebo sestavy"), zadejte **Nákupní objednávky** a poté vyberte související odkaz.  
-2.  Vyberte příslušný řádek dokumentu a na záložce **Řádky** vyberte akci **Řádek** a poté vyberte akci **Řádky sledování zboží.**  
+2.  Vyberte příslušný řádek dokladu a na záložce **Řádky** vyberte akci **Řádek** a poté vyberte akci **Řádky sledování zboží.**  
 
     Sériová čísla nebo čísla šarže můžete přiřadit následujícími způsoby:  
 
@@ -149,14 +149,14 @@ Různá pravidla pro čísla sledovaného zboží jsou nastavena v okně **Karta
 
     Čísla pro sledování zboží můžete přiřadit následujícími způsoby:  
     -   Automaticky z předdefinovaných číselných řad: Vyberte akci **Přiřadit sér.číslo** nebo **Přiřadit č.šarže**.  
-    -   Automaticky na základě parametrů, které definujete konkrétně pro odchozí zboží: Vyberte tlačítko **vytvořit ID zákazníka **.  
+    -   Automaticky na základě parametrů, které definujete konkrétně pro odchozí zboží: Vyberte tlačítko **Vytvořit ID zákazníka**.  
     -   Ručně zadáním sériových čísel nebo čísel šarží, bez použití číselné řady.  
 
 2.  Při tomto postupu přiřaďte sériové číslo automaticky výběrem **Přiřadit sér.číslo**.  
 
     Pole **Množství k vytvoření** obsahuje ve výchozím nastavení množství řádků, ale můžete je upravit.  
 3.  Chcete-li uspořádat nová sériová čísla v samostatné části, vyberte pole **Vytvořit nové č.šarže**.  
-4.  Stisknutím tlačítka **OK** vytvoříte číslo šarže a nová jednotlivá sériová čísla podle množství, které je třeba zpracovat na příslušné řádce dokladu.  
+4.  Stisknutím tlačítka **OK** vytvoříte číslo šarže a nová jednotlivá sériová čísla podle množství, které je třeba zpracovat na příslušném řádku dokladu.  
 
 Pole matice množství v horní části dynamicky zobrazuje množství a součty čísel sledovaného zboží, které definujete v okně. Množství musí odpovídat množství v řádku dokladu, které je v polích **Nedefinováno** označeno **0**.  
 
@@ -214,7 +214,7 @@ Funkce podporuje následující výstupní procesy:
 
 V těchto situacích se stávající řádky pro sledování zboží zkopírují automaticky do faktury nebo dobropisu, ale okno **Řádky sledování zboží** neumožňuje změny sériových čísel nebo čísel šarží. Změnit lze pouze množství.  
 
-1.  Zvolte pravém horním rohu zvolte ikonu ![Vyhledat stránku nebo sestavu] (media/ui-search/search_small.png "Vyhledat stránku nebo sestavu"), zadejte **Nákupní faktury** a vybete související odkaz.  
+1.  Zvolte pravém horním rohu zvolte ikonu ![Vyhledat stránku nebo sestavu] (media/ui-search/search_small.png "Vyhledat stránku nebo sestavu"), zadejte **Nákupní faktury** a vyberte související odkaz.  
 2.  Otevřete nákupní fakturu pro zboží, které je zakoupeno se sériovým číslem nebo číslem šarže.  
 3.  Na řádku prodejní faktury na záložce **Řádky** vyberte akci **Kopie řádků příjemky**.  
 4.  V okně **Kopie řádků příjemky** vyberte řádky příjemky, které mají řádky pro sledování zboží, a poté klepněte na tlačítko **OK**.  
@@ -236,7 +236,7 @@ Přeřazení sledování zboží u zboží znamená změnu šarže nebo sériov�
 5.  Pokud chcete zadat nové číslo sledování zboží, zadejte jej do pole **Nové sériové číslo** nebo **Nové číslo šarže**. Pokud chcete, můžete sloučit jednu nebo více šarží do jedné nové nebo existující šarže.  
 
     > [!NOTE]  
-    >  Uvědomte si, že když přeřadíte data expirace, budou nejprve navrženo zboží s nejčasnějšími daty expirace pro odchozí transakce. Pro více informací navštivte [Vyskladnění pomocí FEFO](warehouse-picking-by-fefo.md).  
+    >  Uvědomte si, že když přeřadíte data expirace, bude nejprve navrženo zboží s nejčasnějšími daty expirace pro odchozí transakce. Pro více informací navštivte [Vyskladnění pomocí FEFO](warehouse-picking-by-fefo.md).  
 
 5.  Pokud chcete zadat nové datum expirace sériového čísla nebo čísla šarže, zadejte je do pole **Nové datum expirace**.  
 

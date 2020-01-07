@@ -16,20 +16,20 @@ ms.author: edupont
 # <a name="setting-up-finance"></a>Nastavení financí
 Abychom vám pomohli rychle začít, [!INCLUDE [d365fin](includes/d365fin_md.md)] zahrnuje standardní konfigurace pro většinu finančních procesů. Pokud potřebujete změnit konfiguraci tak, aby vyhovovala vašemu podnikání, dejte se do toho. Například, z centra rolí můžete pomocí asistované příručky pro instalaci nastavit daňovou sazbu pro Vaši lokaci.  
 
-Některé věci, ale musíte nastavit sami. Například pokud chcete použít dimenze jako základ business intelligence.  
+Některé věci, ale musíte nastavit sami. Například, pokud chcete použít dimenze jako základ Business intelligence.  
 
 Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.
 
-| Viz | také |
+| Pro | Viz |
 | --- | --- |
-| Volba jak platit Vašim dodavatelům. |[Definování způsobu platby](finance-payment-methods.md) |
+| Možnosti jak platit vašim dodavatelům. |[Definování způsobu platby](finance-payment-methods.md) |
 | Určete účetní skupiny, které mapují položky, jako jsou zákazníci, dodavatelé, zboží, zdroje, nebo prodejní a nákupní doklady, do finančních účtů hlavní knihy. |[Nastavení účto skupin](finance-posting-groups.md)|
 |Nastavte toleranci, podle které systém uzavře fakturu, i když platba, včetně jakékoli slevy, nepokrývá celou částku faktury.|[Práce s odchylkami platby a tolerancemi platebních slev](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Nastavit fiskální období. |[Otevření nového fiskálního roku](finance-how-open-new-fiscal-year.md) |
+| Nastavení fiskálního období. |[Otevření nového fiskálního roku](finance-how-open-new-fiscal-year.md) |
 | Definujte, jak nahlásíte finančnímu úřadu částky daně z přidané hodnoty, které jste obdrželi za prodej. |[Jak na: Výkaz DPH Finančnímu úřadu](finance-how-report-vat.md)|
-| Nastavte funkce Prodej a Nákup tak, aby zpracovávaly platby v cizích měnách.|[Umožnit aplikaci položek v různých měnách](finance-how-enable-application-ledger-entries-different-currencies.md)
-| Přidejte nové účty k existující účetní osnově. |[Nastavení účetní osnovy](finance-setup-chart-accounts.md) |
-| Nastavte grafy business intelligence (BI) pro analýzu cashflow. |[Nastavení analýzy cashflow](finance-setup-cash-flow-analyses.md) |
+| Nastavte funkce Prodej a Nákup tak, aby zpracovávaly platby v cizích měnách.|[Umožnění aplikaci položek v různých měnách](finance-how-enable-application-ledger-entries-different-currencies.md)
+| Přidání nových účtů k existující účetní osnově. |[Nastavení účetní osnovy](finance-setup-chart-accounts.md) |
+| Nastavení grafů Business intelligence (BI) pro analýzu cashflow. |[Nastavení analýzy cashflow](finance-setup-cash-flow-analyses.md) |
 |Povolte fakturaci zákazníka, který není nastaven v systému.|[Nastavení zákazníků platících hotovostí](finance-how-to-set-up-cash-customers.md)|
 | Nastavení sestavy Intrastat a odeslání hlášení úřadům | [Nastavení a sestava Intrastat](finance-how-setup-report-intrastat.md)|
 
