@@ -26,7 +26,7 @@ Funkce zálohové faktury a platby se používá pro generování faktur a prov�
 ## Životní cyklus zálohové faktury
 
 Zálohová faktura má svůj vlastní životní cyklus, který je definován stavy:
-- **Otevřeno** - zálohovou fakturu lze editovat
+- **Otevřeno** - zálohovou fakturu lze editovat.
 - **Příprava platby** - je očekávána platba zálohové faktury.
 - **Příprava faktury** -  je očekáváno vytvoření daňového dokladu k přijaté/vydané platbě.
 - **Příprava** konečné faktury - zálohová faktura je připravena k čerpání.
@@ -57,7 +57,7 @@ Zálohová faktura má svůj vlastní životní cyklus, který je definován sta
 - Daňové doklady/daňové dobropisy jsou vytvářeny s vazbou na zálohovou fakturu, ke které byla platba provedena.
 - Modul obsahuje funkce pro automatické generování daňových dokladů při účtování zálohové platby. 
 - K vydaným zálohovým platbám je možná korekce daňových dokladů před jejich zaúčtováním z důvodu jejich účtování na základě obdrženého dokladu od věřitele. 
-- Režim zálohové faktury bez daňového dokladu umožňuje uplatnění DPH až na konečné faktuře, pokud její plnění splňuje podmínky § 28 Zákona o dani z přidané hodnoty. .
+- Režim zálohové faktury bez daňového dokladu umožňuje uplatnění DPH až na konečné faktuře, pokud její plnění splňuje podmínky § 28 Zákona o dani z přidané hodnoty.
 - Daňový doklad k vydané platbě lze účtovat pouze na základě obdrženého dokladu od věřitele, proto nákupní zálohová faktura umožňuje změnu režimu s/bez DPH i v průběhu jejího zpracování.
 - Výpočet DPH zálohových faktur opírající se o Zákon o dani z přidané hodnoty (§ 37a, § 92).
 - Nový modul pracuje s DPH také v režimu registrace plátce v jiné zemi EU.
@@ -80,7 +80,7 @@ Nástroj poskytuje možnost volby různých způsobů provázání řádků kone
 
 - režim provázání zálohových faktur zaplacených/nezaplacených
 - provázání dle částek zbývajících nebo k fakturaci konečného dokladu
-- provázání na základě sazeb DPH. 
+- provázání na základě sazeb DPH 
 
 ## Informační okna – statistika zákazníka/dodavatele 
 
@@ -99,7 +99,7 @@ Výstupní doklady:
 - Zálohová faktura
 - Daňový doklad k přijaté platbě
 - Daňový dobropis k přijaté platbě 
-- Prodejní faktura.
+- Prodejní faktura
 
 Interní doklady:
 - Seznam prodejních záloh
