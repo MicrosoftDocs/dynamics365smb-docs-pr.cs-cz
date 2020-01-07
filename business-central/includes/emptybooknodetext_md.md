@@ -1,1 +1,1 @@
-To see the topics in this section, choose the links under **See Also**.
+Chcete-li zobrazit témata v této části, vyberte odkazy pod **Viz také**.

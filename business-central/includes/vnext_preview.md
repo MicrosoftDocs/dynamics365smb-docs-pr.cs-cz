@@ -1,1 +1,1 @@
-This feature, or part of the feature, is in preview and the content is work in progress.
+Tato funkce nebo její část je ve verzi Preview a obsah je stále ve vývoji.
