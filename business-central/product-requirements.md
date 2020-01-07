@@ -1,20 +1,26 @@
 ---
 title: Minimální požadavky na použití Business Cental | Microsoft Docs
-description: Dozvěďte se více o minimálních požadavcích na systém a verzi pro použití produktu Business Central.
-author: edupont04
+description: Dověďte se více o minimálních požadavcích na systém a verzi pro použití produktu Business Central.
+author: ZdenekBicek
+
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2018
+ms.date: 01/07/2020
+ms.reviewer: v-zdbice
 ms.author: edupont
 ---
-# <a name="minimum-requirements-for-using-business-central"></a>Minimální požadavky na používání Business Central
+# Minimální požadavky na používání Business Central
+
 Před přístupem do [!INCLUDE[d365fin](includes/d365fin_md.md)] doporučujeme ověřit, zda váš počítač nebo mobilní zařízení splňuje nebo překračuje minimální systémové požadavky na produkt. V tomto článku jsou uvedeny požadavky.  
 
-## <a name="browsers"></a>Prohlížeče
+## Prohlížeče
+
+### Doporučené prohlížeče
+
 **Chrome pro Windows a Firefox pro Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] je navržen tak, aby pracoval s aktuální verzí těchto prohlížečů stolních počítačů.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] je navržen tak, aby pracoval s aktuální verzí Safari na OSX.  
 **Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] je navržen tak, aby pracoval s aktuální verzí Microsoft Edge.  

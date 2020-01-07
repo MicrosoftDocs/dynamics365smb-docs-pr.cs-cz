@@ -13,7 +13,7 @@ ms.author: v-pejano
 
 # Česká lokální funkcionalita
 
-Následující témata popisují lokalní funkcionalitu české verze [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+Následující témata popisují lokální funkcionalitu české verze [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
 ## Dostupnost funkcí
 
@@ -49,6 +49,6 @@ Následující témata popisují lokalní funkcionalitu české verze [!INCLUDE[
 
 ## Viz také
 
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+[Práce s [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]
