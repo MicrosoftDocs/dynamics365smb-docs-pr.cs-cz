@@ -1,1 +1,1 @@
-The Isabel features are available only for on-premises deployments.
+Funkce Isabel jsou k dispozici pouze pro lokální (on-premise) nasazení.

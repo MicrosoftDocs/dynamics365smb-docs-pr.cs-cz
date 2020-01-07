@@ -1,1 +1,1 @@
-Get [training!](/learn/browse/?products=dynamics-business-central)
+Získejte [školení!](/learn/browse/?products=dynamics-business-central)
