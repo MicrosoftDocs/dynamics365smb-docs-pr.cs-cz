@@ -1,1 +1,1 @@
-Hover over a field to read a short description.
+Chcete-li si přečíst krátký popis, umístěte ukazatel myši na pole.

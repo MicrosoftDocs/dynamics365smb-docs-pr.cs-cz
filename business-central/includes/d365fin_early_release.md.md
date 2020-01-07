@@ -1,1 +1,1 @@
-﻿This is early-release functionality that we’re still working on. The functionality, and the content on this page, are subject to change. To learn what’s coming, see the [Microsoft Dynamics 365 Business Central Release Plan](https://go.microsoft.com/fwlink/?linkid=2047422).
+﻿Toto je funkce uvolněná před vydáním, na které stále pracujeme. Funkčnost a obsah na této stránce se mohou změnit. Chcete-li se dozvědět, co se chystá, podívejte se do [Microsoft Dynamics 365 Business Central Plán vydání](https://go.microsoft.com/fwlink/?linkid=2047422).
