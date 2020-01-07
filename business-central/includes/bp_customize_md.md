@@ -1,1 +1,1 @@
-You can change how certain UI elements are displayed. For more information, see [Personalize Your Workspace](../ui-personalization-user.md).
+Můžete změnit způsob zobrazení určitých prvků uživatelského rozhraní. Další informace viz [Přizpůsobení pracovního prostoru](../ui-personalization-user.md).

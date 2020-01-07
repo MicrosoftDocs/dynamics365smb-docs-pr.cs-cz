@@ -1,1 +1,1 @@
-Dynamics NAV Client connected to Business Central
+Dynamics NAV klient připojen k Business Central

@@ -1,1 +1,1 @@
-Start a [free trial!](https://go.microsoft.com/fwlink/?linkid=847861)
+Začněte se [zkušební verzí zdarma!](https://go.microsoft.com/fwlink/?linkid=847861)

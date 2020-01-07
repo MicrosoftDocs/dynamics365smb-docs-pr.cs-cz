@@ -3,18 +3,21 @@ title: Správa financí | Microsoft Docs
 description: 'Informace o úkolech při nastavení financí v podniku, které vyhovují všem potřebám účetnictví, auditu nebo účetnictví'
 services: project-madeira
 documentationcenter: ''
-author: edupont04
+author: Urxova
+
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'accounting, auditing, bookkeeping'
-ms.date: 03/11/2019
+ms.date: 01/07/2020
+ms.reviewer: v-jiurxo
 ms.author: edupont
 ---
-# <a name="finance"></a>Finance
-[!INCLUDE[d365fin](includes/d365fin_md.md)]obsahuje standardní konfiguraci většiny finančních procesů, můžete však změnit konfiguraci tak, aby vyhovovala vašim obchodním procesům. Pro více informací navštivte [Nastavení financí](finance-setup-finance.md).
+# Finance
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] obsahuje standardní konfiguraci většiny finančních procesů, můžete však změnit konfiguraci tak, aby vyhovovala vašim obchodním procesům. Pro více informací navštivte [Nastavení financí](finance-setup-finance.md).
 
 Výchozí konfigurace zahrnuje účetní osnovu a standardní účto skupiny, které zefektivní proces přiřazování výchozích účtů hlavní knihy k odběratelům, dodavatelům a zboží.  
 
@@ -37,23 +40,24 @@ Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je po
 |Zaúčtování položek stornování za účelem vrácení zaúčtování hodnoty do finančního deníku nebo do zaúčtování množství v nákupních a prodejních dokladech |[Reverzní účtování](finance-how-reverse-journal-posting.md)|
 |Přidělení položky ve finanční deníku několika různým účtům při zaúčtování deníku. |[Přidělení nákladů a výnosů](year-allocate-costs-income.md) |
 | Přiřazení dodatečných nákladů, jako je dopravné nebo fyzické zpracování, které vzniknou během obchodu, k zúčastněným položkám tak, aby se náklady odrážely ve oceňování zásob. |[Použití poplatků za zboží na účet pro dodatečné obchodní náklady](payables-how-assign-item-charges.md) |
-|Účtování osobních nákladů zaměstnanců na činnosti spojené s podnikatelskou činností a uhradí zaměstnancům úhradu na jejich bankovní účet.|[Zaznamenávání a úhdrady výdajů zaměstnanců](finance-how-record-reimburse-employee-expenses.md)|
+|Účtování osobních nákladů zaměstnanců na činnosti spojené s podnikatelskou činností a uhradí zaměstnancům úhradu na jejich bankovní účet.|[Zaznamenávání a úhrady výdajů zaměstnanců](finance-how-record-reimburse-employee-expenses.md)|
 | Rozpoznání výnosů a nákladů v jiných obdobích než při zaúčtování transakcí. |[Odložení výnosů a výdajů](finance-how-defer-revenue-expenses.md)|
 |Naučte se, jak používat další měny a automaticky aktualizovat směnné kurzy. |[Aktualizace směnných kurzů](finance-how-update-currencies.md)|
 | Import mzdových transakcí z vašeho systému evidence mezd do hlavní knihy. |[Import mzdových transakcí](finance-how-import-payroll-transactions.md)|
 | Sledujte tok hotovosti do vašeho podniku a mimo něj. |[Analýza peněžních toků ve vaší společnosti](finance-analyze-cash-flow.md) |
 | Práce s finančními výkazy a přehledy v aplikaci Excel |[Analýza finančních výkazů v aplikaci Excel](finance-analyze-excel.md) |
 | Příprava na uzavření fiskálního roku nebo období |[Uzavírání roků a období](year-close-years-periods.md) |
-|Připrava sestav se seznamem DPH z prodeje a odeslání sestavy daňovým úřadům v EU. | [Nahlásit DPH daňovým úřadům](finance-how-report-vat.md)|
+|Příprava sestav se seznamem DPH z prodeje a odeslání sestavy daňovým úřadům v EU. | [Nahlásit DPH daňovým úřadům](finance-how-report-vat.md)|
 
-## <a name="see-also"></a>Viz také
+## Viz také
+
 [Nastavení financí](finance-setup-finance.md)  
 [Prodej](sales-manage-sales.md)  
 [Nákup](purchasing-manage-purchasing.md)  
 [Uzavírání fiskálních období](year-close-years-periods.md)  
-[Správa projektů](projects-manage-projects.md)     
-[Import dat z jiných finančních systémů](across-import-data-configuration-packages.md)(Across-import-data-Configuration-Packages.MD)  
+[Správa projektů](projects-manage-projects.md)  
+[Import dat z jiných finančních systémů](across-import-data-configuration-packages.md)  
 [Práce s finančními deníky](ui-work-general-journals.md)  
-[Práce s[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
