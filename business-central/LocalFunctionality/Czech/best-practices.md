@@ -11,20 +11,20 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Small Regulatory Features and Best Practices
-Smaller regulatory features and local practices of Czech companies apply:
-- G/L Account Group – Multi-circuit Accounting 
-- Check of Posting Group changing – Customer, Vendor, item, bank account
-- Check of output in inventory – time sequence
-- Templates for inventory Operations – Whse. Net Change Templates
-- Mandatory returning of exact costs in Manufacturing
-- Default Business Posting Group in Manufacturing
-- Check Balance in G/L Journal – additional feature for disabling balance check by document type
-- Default Business Posting Group in Assembly Orders
-- Automatic creation and update of Dimensions
-- Marking the latest version of the sales and purchase archive
-- Additional fields in Item Ledger Entry and Value Entry
-- Gen. Prod. Posting Group from SKU and Skip Update SKU on Posting
+# Drobné legislativní funkce a osvědčené postupy
+K dispozici jsou drobné legislativní funkce a zvyklosti českých společností:
+- Skupiny finančních účtů – více okruhové účetnictví
+- Kontrola změn účto skupin – zákazník, dodavatel, zboží, bankovní účet
+- Kontrola výdejů v zásobách – časová posloupnost
+- Šablony pro operace zásob  – Sklad Šablona pohybu
+- Povinné vrácení přesných nákladů ve výrobě
+- Výchozí Obchodní účto skupina ve výrobě
+- Kontrola salda ve finančním deníku – další volba pro vypnutí kontroly salda dle typu dokladu
+- Výchozí Obchodní účto skupina v Montážních zakázkách
+- Automatické vytváření a aktualizace dimenzí
+- Označení poslední verze archivu prodeje a nákupu
+- Nové pole vpoložkách zboží a položkách ocenění
+- Obecná účto skupina zboží ze SKJ a přeskočení aktualizací skladových jednotek při účtování
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
+## Viz také
+[Česká lokální funkcionalita](czech-local-functionality.md)
