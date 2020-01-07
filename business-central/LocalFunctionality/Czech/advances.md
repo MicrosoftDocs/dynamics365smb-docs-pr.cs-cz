@@ -11,102 +11,102 @@ ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Advance Payments and Invoices  
+# Zálohové platby a faktury
 
-The Advance Invoices and Payments feature is used to generate invoices and to make payments before goods or services have been delivered or before the production has begun. The Advance Invoices and Payments feature includes Advance Invoices, Advance Payments, Advance Payments subject to VAT, and tax documents. The document types and document requirements for this feature are listed below:
+Funkce zálohové faktury a platby se používá pro generování faktur a provádění plateb před dodáním zboží nebo před zahájením výroby. Funkce zálohové faktury a platby zahrnuje zálohové faktury, zálohové platby, zálohové platby podléhající DPH a daňové doklady. Typy dokumentů a požadavky na dokumenty pro tuto funkci jsou uvedeny níže:
 
-## Advance Invoices
+## Zálohové faktury
 
-- Used to request money in advance.
-- The document is not accounted and does not have a tax voucher.
-- Documents are created in advance of invoices templates (document groups) with predefined accounting and number series of related documents. Advance Invoices templates define whether or not you are obliged to post VAT.
-- Advance Invoices can be created from purchase orders, invoices, or as a separate document with no links to any documents.
-- Free advances can be additionally linked with documents before posting the final invoice.
+- Používají se k vyžádání peněz předem.
+- Doklad není účtován a nemá daňový doklad.
+- Doklady se vytvářejí před šablonami faktur (skupiny dokladů) s předdefinovaným účetnictvím a číselnou řadou souvisejících dokladů. Šablony zálohových faktur definují, zda jste, nebo nejste, povinni účtovat DPH.
+- Zálohové faktury lze vytvořit z objednávek, faktur nebo jako samostatný doklad bez vazby na doklady.
+- Volné zálohy lze dodatečně spojit s dokladem před zaúčtováním konečné faktury. 
 
-## Life cycle of Advance invoice
+## Životní cyklus zálohové faktury
 
-Advance invoice has its own life cycle, which is defined by states:
-- **Open** - an advance invoice can be edited.
-- **Prepayment** - payment of advance invoice is expected.
-- **Invoice preparation** - a tax receipt for the received/issued payment is expected.
-- **Preparation** of the final invoice - the advance invoice is ready to be drawn.
-- **Closed** - final status after the advance invoice has been exhausted.
+Zálohová faktura má svůj vlastní životní cyklus, který je definován stavy:
+- **Otevřeno** - zálohovou fakturu lze editovat.
+- **Příprava platby** - je očekávána platba zálohové faktury.
+- **Příprava faktury** -  je očekáváno vytvoření daňového dokladu k přijaté/vydané platbě.
+- **Příprava** konečné faktury - zálohová faktura je připravena k čerpání.
+- **Uzavřeno** - konečný stav po vyčerpání zálohové faktury.
 
-## Advance Payments
+## Zálohové platby
 
-- The payment made against an Advance Invoice.
-- Proportional advance payments with regard to posting and billing, in journals and banknotes.
-- Received advance payments are not receivables, they are liabilities.
-- Issued advance payments are not payables (liabilities), they are receivables.
-- Advance payments may be subject to VAT. Czech legislation lays down rules for the advanced payments whether or not they are subject to VAT.
-- Received advance payments are classified based on the date of receipt.
-- Issued advance payments are classified based on the date of tax documents receipt.
-- Any unspent part of advance payments can be returned.
-- Posting payment for a payment can be made on the basis of an advance invoice.
-- Posted invoice with a link to advance invoice can be disconnected.
-- The Advance Invoice can be paid by multiple payments.
-- Received advanced invoices are posted as liabilities.
-- Advance payments in foreign currency based on agreed data.
+- Platba provedená na vrub zálohové faktury.
+- Částečné zálohové platby, týkající se zaúčtování a fakturaci, v denících a pokladně.
+- Přijaté zálohové platby nejsou pohledávky, ale závazky.
+- Vydané zálohové platby nejsou závazky, pohledávky.
+- Zálohové platby mohou podléhat DPH. Legislativa CZ stanovuje pravidla, zda záloha podléhá nebo nepodléhá DPH.
+- Přijaté zálohové platby jsou účtovány na základě data přijetí platby. 
+- Vydané zálohové platby jsou účtovány na základě data příjmu daňových dokladů. 
+- Lze vrátit nevyčerpanou část zálohové faktury.
+- Zaúčtování platby jako platbu lze provést na základě zálohové faktury.
+- Zaúčtovanou zálohovou platbu propojenou se zálohovou fakturou lze odpojit. 
+- Zálohová faktura může být uhrazena více platbami.
+- Přijaté zálohové platby se účtují jako závazky.
+- Zálohové platby v cizí měně závisí na dohodnutých datech.
 
-## Tax Documents (Tax Credit Memo)
+## Daňové doklady (daňový dobropis)
 
-- Documents specifying the paid VAT from received advance payments.
-- It is not possible to claim VAT from advance payments without receiving tax documents issued for advance payments.
-- VAT Calculation improvements comply with the legislation of the Czech Republic.
-- Documents are declaring the VAT paid on the advance payments received/issued.
-- Tax documents/tax credits are created in relation to the advance invoice to which the payment was made.
-- The module includes functions for automatically generating tax documents when posting an advance payment.
-- For advance payments, it is possible to correct the tax documents before they are posted because of their billing based on the received document from the creditor.
-- The Advance Invoice mode without a tax document allows VAT to be applied only on the final invoice, provided that its performance meets the conditions of Section 28 of the Value Added Tax Act.
-- The tax document for the released payment can be charged only on the basis of the received document from the creditor, therefore the purchase advance invoice allows the change of the regime with / without VAT also during its processing.
-- Calculation of VAT on advance invoices based on the Value Added Tax Act (§ 37a, § 92).
-- The new module also works with VAT in the payer registration mode in another EU country.
+- Doklady specifikují zaplacené DPH z přijatých zálohových plateb. 
+- Není možné nárokovat DPH ze zálohových plateb, bez přijetí daňových dokladů, vydaných pro zálohové platby.
+- Vylepšení kalkulace DPH splňují legislativu České republiky.
+- Doklady deklarují zaplacené DPH z přijatých/vydaných zálohových plateb. 
+- Daňové doklady/daňové dobropisy jsou vytvářeny s vazbou na zálohovou fakturu, ke které byla platba provedena.
+- Modul obsahuje funkce pro automatické generování daňových dokladů při účtování zálohové platby. 
+- K vydaným zálohovým platbám je možná korekce daňových dokladů před jejich zaúčtováním z důvodu jejich účtování na základě obdrženého dokladu od věřitele. 
+- Režim zálohové faktury bez daňového dokladu umožňuje uplatnění DPH až na konečné faktuře, pokud její plnění splňuje podmínky § 28 Zákona o dani z přidané hodnoty.
+- Daňový doklad k vydané platbě lze účtovat pouze na základě obdrženého dokladu od věřitele, proto nákupní zálohová faktura umožňuje změnu režimu s/bez DPH i v průběhu jejího zpracování.
+- Výpočet DPH zálohových faktur opírající se o Zákon o dani z přidané hodnoty (§ 37a, § 92).
+- Nový modul pracuje s DPH také v režimu registrace plátce v jiné zemi EU.
 
-## Deduction of Advance
+## Čerpání zálohy
 
-- Deduction of Advance payments and already paid or claimed VAT from final invoices.
-- Deduction is done when posting final invoice proportionally.
-- The module offers a tool for linking advance invoices with the final document.
-- It is possible to change/supplement/cancel the linking of the advance invoice with the final document before it is posted.
-- It is possible to link multiple advance invoices to the final document in one step.
-- The tool parameters can be influenced by how the final deferral is interconnected with advance invoices.
-- For better control/correction of the final invoice tax, order statistics and invoices have been expanded to include bookmarks informing you of your payment usage and VAT paid/claimed.
-- Deduction of the advance invoice from the final invoice can be canceled with all accounting entries that were used for the deduction.
-- When using an advance invoice in a foreign currency, the exchange rate differences are quantified.
+- Čerpání zálohové platby a už zaplacené nebo nárokované DPH z konečné faktury.
+- Odpočet se provádí při poměrném zaúčtování konečné faktury.
+- Modul nabízí nástroj pro provázání zálohových faktur s konečným dokladem.
+- Lze provést změnu/doplnění/zrušení provázání zálohové faktury s konečným dokladem před jeho zaúčtováním. 
+- Je možné provázat více zálohových faktur ke konečnému dokladu v jednom kroku.
+- Parametry nástroje lze ovlivnit způsob propojení konečného odkladu se zálohovými fakturami. .
+- Pro lepší kontrolu/korekci daňového plnění konečné faktury byla rozšířena statistika objednávky a faktury o záložky informující o čerpání platby a zaplacené/nárokované DPH. 
+- Provedené čerpání zálohové faktury z konečné faktury lze stornovat se všemi účetními zápisy, kterými bylo čerpání účtováno. 
+- Při čerpání zálohové faktury v cizí měně dochází k vyčíslení kurzových rozdílů. 
 
-## Linking Tool for an Advance Invoice and a Final Document
+## Nástroj pro provázání zálohové faktury a konečného dokladu 
 
-The tool provides a choice of different ways to link the lines of the final document to the lines of backup payments:
+Nástroj poskytuje možnost volby různých způsobů provázání řádků konečného dokladu s řádky zálohových plateb: 
 
-- Mode of linking advance invoices paid/unpaid.
-- Linking by amounts remaining or billing the final document.
-- Linking based on VAT rates.
+- režim provázání zálohových faktur zaplacených/nezaplacených
+- provázání dle částek zbývajících nebo k fakturaci konečného dokladu
+- provázání na základě sazeb DPH 
 
-## Factboxes - Customer/Vendor Statistics
+## Informační okna – statistika zákazníka/dodavatele 
 
-The customer and vendor card statistical information windows were supplemented with information about advances:
-- Invoiced Amount of Advance
-- Advances - Open
-- Advances - Prepare Payments
-- Advances - Preparing an Invoice
-- Advances - Preparing the end Invoices
+Statistické informační okna karty zákazníka a dodavatele doplněny o informace o zálohách: 
+- Fakturovaná částka zálohy
+- Zálohy - otevřené
+- Zálohy  - příprava platby
+- Zálohy - příprava faktury
+- Zálohy - příprava koneč. faktury
 
-## Internal and Output Documents Printout
+## Interní a výstupní doklady 
 
-There was created set of documents that takes into account Czech legislation and practices.
+Byla vytvořena sada dokladů, které zohledňují národní legislativu a zvyklosti.
 
-Output Documents:
-- Advance Invoice
-- VAT Document to Received Payment
-- VAT Document to Tax Credit Memo
-- Sale Invoice
+Výstupní doklady:
+- Zálohová faktura
+- Daňový doklad k přijaté platbě
+- Daňový dobropis k přijaté platbě 
+- Prodejní faktura
 
-Internal Documents:
-- Sales Advance Letter List
-- Purch. Advance Letter List
-- VAT List on Purch. Adv. Letter
-- VAT List on Sales Adv. Letter
+Interní doklady:
+- Seznam prodejních záloh
+- Seznam nákupních záloh
+- Přehled DPH na  nákupních  zálohách
+- Přehled DPH na prodejních  zálohách
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
+## Viz také
+[Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](finance.md)
