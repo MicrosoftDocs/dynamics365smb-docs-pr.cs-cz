@@ -11,44 +11,44 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Czech Local Functionality  
+# Česká lokální funkcionalita
 
-The following topics describe the local functionality in the Czech version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+Následující témata popisují lokalní funkcionalitu české verze [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
-## Feature Availability
+## Dostupnost funkcí
 
-* Core Finance  
-  * [Finance](finance.md) **Available Now**  
-  * [Year Close Operations](year-close-operations.md) **Available Now**  
-  * [General Ledger Entries Application](general-ledger-entries-application.md) **Available Now**  
-  * [Exchange Rate Update](exchange-rate-update.md) **Available Now**  
+* Finance
+   * [Finance](finance.md) **Nyní k dispozici**
+   * [Uzávěrkové operace](year-close-operations.md) **Nyní k dispozici**
+   * [Vyrovnání věcných položek](general-ledger-entries-application.md) **Nyní k dispozici**
+   * [Aktualizace směnného kurzu](exchange-rate-update.md) **Nyní k dispozici**
 
-* VAT
-  * [Finance - VAT](finance-vat.md) **Available Now**
-  * [VAT Control Report](vat-control-report.md) **Available Now**
+* DPH
+   * [Finance – DPH](finance-vat.md) **Nyní k dispozici**
+   * [Kontrolní hlášení DPH](vat-control-report.md) **Nyní k dispozici**
 
-* Fixed Assets
-  * [Fixed Assets](fixed-assets.md) **Available Now**
+* Dlouhodobý majetek
+   * [Dlouhodobý majetek](fixed-assets.md) **Nyní k dispozici**
 
-* Banking and Payments
-  * [Bank Feature](bank-feature.md) **Available Now**
-  * [Cash Desk Management](cash-desk-management.md) **Available Now**
-  * [Registration of Sales (EET)](eet.md) **Available Now**
-  * [Advances](advances.md) **Available Now**
+* Bankovnictví a platby
+   * [Bankovnictví](bank-feature.md) **Nyní k dispozici**
+   * [Řízení hotovosti](cash-desk-management.md) **Nyní k dispozici**
+   * [Elektronická Evidence Tržeb](eet.md) **Nyní k dispozici**
+   * [Zálohy](advances.md) **Nyní k dispozici**
 
-* Payables and Receivables
-  * [Payables and Receivables](receivables-payables.md) **Available Now**
-  * [Intrastat](intrastat.md) **Available Now**
+* Závazky a pohledávky
+   * [Pohledávky a závazky](receivables-payables.md) **Nyní k dispozici**
+   * [Intrastat](intrastat.md) **Nyní k dispozici**
 
-* Inventory
-  * [Inventory](inventory.md) **Available Now**
+* Zásoby
+   * [Zásoby](inventory.md) **Nyní k dispozici**
 
-* General
-  * [General](general.md) **Available Now**
-  * [Best Practices](best-practices.md) **Available Now**
+* Obecné
+   * [Obecné](general.md) **Nyní k dispozici**
+   * [Osvědčené postupy](best-practices.md) **Nyní k dispozici**
 
-## See Also
+## Viz také
 
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]

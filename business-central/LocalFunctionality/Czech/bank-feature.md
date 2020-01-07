@@ -11,55 +11,59 @@ ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Local Banking Feature
-This feature provides improved efficiency and prevents user from making mistakes during entering the Customer and Vendor bank account data by capturing the bank specific information and eliminating the need to re-enter it every time. Such functionality is needed even more as more bank transactions are executed electronically.
+# Tuzemské bankovnictví 
+Tato funkce zajišťuje vyšší efektivitu a zabraňuje uživateli dělat chyby při zadávání údajů o bankovním účtu zákazníků a dodavatelů tím, že ukládá bankovní informace a eliminuje potřebu údaje vždy znovu zadávat.   Taková funkce je zapotřebí, zvláště když je více bankovních transakcí prováděno elektronicky.
 
-## Banking Setup
-New Banking setup introduces: 
-- General Information – assigning to Bank Account No.
-- Numbering – Payment orders Nos., Bank statement No.
-- Import, Export Information
-- Information for posting and applying
-- Settings for payment orders / bank statements
-  
-New fields added in Bank Account, Customer Bank Account and in Vendor Bank Account.
+## Nastavení bankovnictví
+Nová pole jsou doplněna na Bankovní účet:
+- Obecné informace – přiřazení k č. bankovního účtu
+- Číslování - Číslo platebního příkazu, číslo bankovního výpisu
+- Import, export informací
+- Informace pro účtování a párování
+- Nastavení pro platební příkazy/bankovní výpisy
 
-## Company Default Bank Account
+Nová pole jsou doplněna na Bankovní účet, Bankovní účet zákazníka a Bankovní účet dodavatele..
 
-Default Bank Account Code added to the Company Information.
+## Výchozí bankovní účet společnosti
 
-## Sales Documents and Bank Accounts
+Kód výchozího bankovního účtu je doplněn do Informací o společnosti.
 
-It is quite common for companies to have multiple bank accounts open with multiple banking institutions in order to lower the cost of financial transactions. For that purpose [!INCLUDE[d365fin](../../includes/d365fin_md.md)] needs to enable users to select the preferred bank account to be printed on Sales Documents.
-Bank Account Code selection was added on Sales Documents, and information from selected bank account is transferred to the Sales Header.
+## Prodejní doklady a bankovní účty
 
-Additional fields for payment identification were added to the Sales Header (Specific Symbol, Variable Symbol, Constant Symbol, etc.). This information is transferred to the posted document and Customer Ledger Entry during posting. This allows payments application to invoices precisely.
+Je docela běžné, že společnosti mají několik bankovních účtů vedených v několika bankovních institucích za účelem snížení nákladů finančních transakcí. Proto [!INCLUDE[d365fin](../../includes/d365fin_md.md)] musí umožnit uživatelům vybrat preferovaný bankovní účet, který má být vytištěn na prodejních dokladech.
+Výběr Kódu bankovního účtu byl přidán do prodejních dokladů a informace z vybraného bankovního účtu jsou přenášeny do hlavičky dokladu.
 
-## Purchase Documents and Bank Accounts
+Byla přidána další pole pro identifikaci platby do hlavičky dokladu (specifický symbol, variabilní symbol, konstantní symbol, atd.). Tyto informace jsou během účtování přenášeny do zaúčtovaného dokladu a položky zákazníka. To umožňuje přesnější vyrovnání plateb faktur. 
 
-It is quite common for Vendors to have multiple bank accounts open with multiple banking institutions. For this purpose [!INCLUDE[d365fin](../../includes/d365fin_md.md)] needs to enable users to select Vendor bank account for payment on Purchase Documents.
+## Nákupní doklady a bankovní účty
 
-Vendor Bank Account Code selection was added on Purchase documents and information from selected Vendor bank account is transferred to the Purchase Header.
+Je docela běžné, že dodavatelé mají několik bankovních účtů vedených v několika bankovních institucích. Proto [!INCLUDE[d365fin](../../includes/d365fin_md.md)] musí umožnit uživatelům vybrat preferovaný dodavatelský bankovní účet, který má být použit pro platbu nákupních dokladů.
 
-Additional fields for payment identification were added to the Purchase Header (Specific Symbol, Variable Symbol, Constant Symbol, etc.). This information is transferred to the posted document and Vendor Ledger entry during posting. This allows using this information for payments suggesting and also applying afterwards.
+Výběr kódu bankovního účtu dodavatele byl přidán do nákupních dokladů a informace z vybraného bankovního účtu dodavatele jsou převedeny do nákupní hlavičky.
 
-## Bank statement and Payment Orders
+Byla přidána další pole pro identifikaci platby do nákupní hlavičky (specifický symbol, variabilní symbol, konstantní symbol, atd.).  Tyto informace jsou během účtování přenášeny do zaúčtovaného dokladu a položky dodavatele. To následně umožňuje použití těchto informací pro návrhy plateb a pozdější párování.
 
-Allows you to create payment orders and bank statements. Unlimited number of bank accounts can be registered various banking institutions and in different currencies. You can import and export files (listings and orders) from banking software.
+## Bankovní výpisy a platební příkazy  
 
-### Main Features:
-- Create, post and export a payment order
-- Create, import, and post a bank statement
-- Bank statement rollover into a payment reconciliation journal
-- Pairing entries in the payment reconciliation journal and posting
+Umožňuje vytvářet platební příkazy a bankovní výpisy. Lze evidovat neomezený počet bankovních účtů u
+různých bankovních ústavů a v různých měnách. 
+. Lze importovat a exportovat soubory (výpisy a
+příkazy) z bankovních softwarů.
 
-### Other supported features:
-- The Payment Order and Bank Statement documents can be used in addition to their own import / export functions and standard tools for the definition of import and export formats of banking components.
-- Only standard payment reconciliation journal is used to process statement files. The standard options for automatic alignment of the options are extended by specification (eg, the O variable symbol has been extended for payment comparison rules).
-- Additional information and rules for calculating payments and text-based account mapping.
-- Text mapping of accounts - for automatic matching of bank statement entries from the text given in the description, extension and mapping of accounts according to variable symbol, constant symbol, specific symbol, bank account, IBAN code and SWIFT.
-- Payment reconciliation journal - the option to start and change automatically.
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
+### Hlavní funkčnosti: 
+- Vytvoření, vydání a exportování platebního příkazu 
+- Vytvoření, import a vydání bankovního výpisu
+- Překlopení bankovního výpisu do deníku odsouhlasení plateb 
+- Párování položek v deníku odsouhlasení plateb a zaúčtování 
+
+### Další podporované funkčnosti:
+- Na dokladech Platební příkaz a Bankovní výpis je možné využít vedle vlastních importních/exportních funkcí také standardních nástrojů pro definici formátů importu a exportu bankovních souborů.
+- Pro zpracování položek výpisu je využíváno výhradně standardního Deníku odsouhlasení plateb Standardní párovací nástroj pro automatické vyrovnání položek je rozšířen o CZ specifika (pravidla vyrovnání plateb rozšířena např. o variabilní symbol).
+- Další informace a pravidla pro výpočet plateb a mapování účtů na základě textu.
+- Textové mapování účtů - pro automatické párování položek bankovního výpisu dle textu uvedeného v popisu, rozšířeno také o možnost mapování účtů dle variabilního symbolu, konstantního symbolu, specifického symbolu, čísla bankovního účtu, IBAN a kódu SWIFT. 
+- Deníky odsouhlasení plateb - možnost spustit vyrovnání automaticky. 
+
+## Viz také
+[Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](finance.md)

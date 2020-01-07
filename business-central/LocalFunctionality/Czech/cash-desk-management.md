@@ -11,26 +11,26 @@ ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# CashDesk Management
+# Řízení hotovosti
 
-Cash Desks and Cash Documents features allow you to define cash accounts and Cash Desks for the physical receipt and money withdrawal. Each Cash Desk has to have a separate Number Series of the Cash Documents. You can setup separate Number Series for the Receipt Cash Documents and Withdrawal Cash Documents. The Cash Desk Cases are pre-defined cases to simplify document entering. You can specify individual user authorized to operate with the particular Cash Desk and transmit Cash Desk between users.  
+Funkcionalita pokladen a pokladních dokladů umožňuje definovat pokladní účty a pokladny pro fyzický příjem a výdej peněz. Každá pokladna musí mít samostatnou číselnou řadu pokladních dokladů. Pro pokladny je možné nastavit samostatné číselné řady příjmových a výdajových dokladů. Lze předdefinovat různé typy pokladních případů pro zjednodušení zadávání dokladů. Dále je možné nastavit uživatele zodpovědného za pokladnu a tuto zodpovědnost předávat mezi uživateli pokladny. 
 
-List of the main features of the Cash Desks:
-- Cash Desk Setup, Cash Desk users
-- Receipt Cash Document, Withdrawal Cash Document and their posting
-- Cash Desk Cases used as templates for usual accounting transactions
-- Payment Applying with the Customer and Vendor Ledger Entries
-- Payment Applying with the Advance Invoices
-- Cash Desk Inventory
-- Output Documents (Receipt Cash Document, Withdrawal Cash Document)
-- Reports (Cash Desk Account Book, Cash Desk Book, Cash Desk Hand Over)
+Pokladny obsahují následující funkcionality:
+- Nastavení pokladen, uživatele pokladny
+- Příjmové a výdajové doklady a jejich účtování
+- Pokladní případy používané jako šablony obvyklých účetních případů
+- Vyrovnání plateb s položkami zákazníků a dodavatelů
+- Vyrovnání plateb se zálohovými fakturami
+- Inventář pokladny
+- Výstupní doklady (Příjmový pokladní doklad, Výdajový pokladní doklad)
+- Sestavy (Pokladní kniha, Kniha pokladního účtu a Předání pokladny)
 
-The Cashdesk card contains basic cash register information, such as number, currency, contact details, etc. It also includes billing settings, definitions for checks and limits, and numeric series presets for cash receipts.  
+Karta pokladny obsahuje základní údaje o pokladně, jako jsou číslo, měna, kontaktní údaje apod. Dále obsahuje také nastavení pro účtování, definice pro kontroly a limity a přednastavení číselných řad pro pokladní doklady.
 
-Cash documents are Receipt or Withdrawal and can be in different currencies according to the cash register. The documents also enable the releasing, posting and printing of exit documents.  
+Pokladní doklady jsou příjmové nebo výdejové a mohou být v různých měnách dle pokladny. Doklady dále umožňují vydání, účtování a tisk výstupních dokladů.
 
-You can run the apply entries feature from the cash document rows to select customer or vendor entries for alignment. Similarly, features are available for offsetting backup invoices.  
+Z řádků pokladního dokladu lze spustit funkci Vyrovnat položky, která umožňuje vybrat k vyrovnání položky zákazníků nebo dodavatelů. Obdobně jsou k dispozici funkce pro vyrovnání se zálohovými fakturami.
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
+## Viz také
+[Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](finance.md)
