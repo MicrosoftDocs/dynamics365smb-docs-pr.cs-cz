@@ -16,7 +16,7 @@ ms.author: edupont
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] je řešení pro správu podnikání pro malé a střední organizace, které automatizuje a zjednodušuje obchodní procesy a pomáhá vám spravovat vaše podnikání. Registrace je snadná a můžete přesunout stávající obchodní data z původního systému.
 
-Pro pomoc s Vaším předplatným vyhledejte [!INCLUDE[d365fin](includes/d365fin_md.md)] partnera [zde](https://www.microsoft.com/en-us/solution-providers/search).  
+Pro pomoc s Vaším předplatným vyhledejte [!INCLUDE[d365fin](includes/d365fin_md.md)] partnera. Pro více informací běžte na [Jak najdu obchodního partnera?](across-faq.md#findpartner).  
 
 Pokud si zaregistrujete [!INCLUDE[d365fin](includes/d365fin_md.md)], dostanete přístup k demonstrační společnosti. Demonstrační společnost obsahuje ukázkové údaje, ale můžete například vytvořit vlastní prodejní doklady nebo si založit bankovní účet. Chcete-li však použít [!INCLUDE[prodshort](includes/prodshort.md)], aby vám pomohl řídit vaše podnikání, musíte kontaktovat prodejce [!INCLUDE[prodshort](includes/prodshort.md)] a zakoupit si předplatné. Další informace o zkušebních verzích a předplatných najdete v části [Zkušební verze a předplatné](across-preview.md).
 
