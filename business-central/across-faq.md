@@ -84,7 +84,7 @@ Pokud nemáte předplatné Office 365 a nechcete si ho kupovat, poskytneme vám 
 
 ## O čem je integrace s Office 365?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] online je plně integrován s Office 365, takže můžete volně procházet mezi aplikacemi Office 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí spouštěče aplikací. V [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete otevírat data v Excelu, tisknout sestavy pomocí aplikace Word a pracovat s vašimi [!INCLUDE[d365fin](includes/d365fin_md.md)] daty například v aplikaci Outlook. Pro více informací bežte na [Použití[!INCLUDE[d365fin](includes/d365fin_md.md)] jako vaší obchodní schránky v Outlook](admin-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] online je plně integrován s Office 365, takže můžete volně procházet mezi aplikacemi Office 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí spouštěče aplikací. V [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete otevírat data v Excelu, tisknout sestavy pomocí aplikace Word a pracovat s vašimi [!INCLUDE[d365fin](includes/d365fin_md.md)] daty například v aplikaci Outlook. Pro více informací běžte na [Použití[!INCLUDE[d365fin](includes/d365fin_md.md)] jako vaší obchodní schránky v Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Mohu prodloužit 30 denní zkušební období pro „Novou společnost“?
 

@@ -1,29 +1,31 @@
 ---
-title: Compliance | Microsoft Docs
-description: This content contains information about compliance in relation to Business Central.
-author: sorenfriisalexandersen
+title: Soulad | Microsoft Docs
+description: Tento obsah obsahuje informace o dodržování předpisů ve vztahu k Business Central.
+author: ZdenekBicek
 documentationcenter: ''
+
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 10/01/2018
+ms.date: 01/08/2020
+ms.reviwer: v-zdbice
 ms.author: soalex
 ---
-# <a name="compliance"></a>Compliance
-This content contains information about compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+# <a name="compliance"></a>Soulad
 
-Compliance is a topic of increasing interest and throughout the evolution of Business Central we have ensured that the product empowers customers and partners on a broad scale and does not impose blockers in regards to compliance. On the contrary, Business Central contains functionality and is built on a platform that makes it easy for customers to comply with compliance and regulatory legislation.
+Tento obsah obsahuje informace o dodržování předpisů ve vztahu k [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-In this section you can read more about our approach to compliance from and application, service and country specific perspective.
+Dodržování předpisů je téma s rostoucím zájmem a po celou dobu vývoje Business Central máme zajištěno, že zákazníkům a partnerům poskytuje produkt na široké základně a nevytváří blokátory v souvislosti s dodržováním předpisů. Business Central naopak obsahuje funkce a je postaven na platformě, která zákazníkům usnadňuje dodržování předpisů a legislativních požadavků.
+
+V této části si můžete přečíst více o našem přístupu k dodržování předpisů z hlediska aplikací, služeb a zemí.
 
 |**Viz**|**také**|  
 |------------|-------------|  
-|Learn about compliance from an application perspective, like GDPR and International Accounting Standards and more.|[Application Compliance](compliance-application-compliance.md)|  
-|Learn about compliance at the service level and the approaches made at the platform to ensure Business Central a best-in-class service compliance.|[Service Compliance](compliance-service-compliance.md)|  
-|See information about different certifications related to Business Central. Here you will find information about general certifications and country specific certifications.|[Certifications](compliance-certifications.md)|  
+|Další informace o dodržování předpisů z hlediska aplikace, jako je GDPR a mezinárodní účetní standardy a další.|[Soulad aplikace](compliance-application-compliance.md)|  
+|Dodržování předpisů na úrovni služeb a přístupu k platformě k zajištění toho, aby Business Central dosáhl souladu s nejlepšími službami ve své třídě.|[Soulad služeb](compliance-service-compliance.md)|  
+|Informace o různých certifikacích souvisejících s Business Central. Zde najdete informace o obecných certifikátech a certifikátech pro jednotlivé země.|[Certifikace](compliance-certifications.md)|  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]
