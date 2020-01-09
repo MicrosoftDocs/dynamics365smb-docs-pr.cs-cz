@@ -1,6 +1,6 @@
 ---
     title: Certifikace | Microsoft Docs
-    description: Tento obsah obsahuje informace o certifikacích ve vztahu k Business Central.
+    description: Tato část obsahuje informace o certifikacích ve vztahu k Business Central.
     author: ZdenekBicek
     documentationcenter: ''
 
@@ -17,7 +17,7 @@
 ---
 # Certifikace
 
-Tento obsah obsahuje informace o certifikacích ve vztahu k [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+Tato část obsahuje informace o certifikacích ve vztahu k [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
 ## Certifikáty a akreditace zemí
 
@@ -36,8 +36,8 @@ Business Central jako cloudová služba také získala certifikace jako ISO 2700
 
 ## Viz také
 
-[Soulad](compliance-overview.md)  
-[Soulad aplikace](compliance-application-compliance.md)  
-[Soulad služeb](compliance-service-compliance.md)  
+[Dodržování předpisů](compliance-overview.md)  
+[Dodržování předpisů - aplikace](compliance-application-compliance.md)  
+[Dodržování předpisů - služby](compliance-service-compliance.md)  
 
 ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]
