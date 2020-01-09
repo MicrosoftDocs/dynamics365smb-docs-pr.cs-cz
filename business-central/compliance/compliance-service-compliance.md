@@ -1,6 +1,6 @@
 ---
-    title: Soulad služeb | Microsoft Docs
-    description: Tento obsah obsahuje informace o souladu služeb ve vztahu k Business Central.
+    title: Dodržování předpisů - služby | Microsoft Docs
+    description: Tato část obsahuje informace o dodržování předpisů pro služby ve vztahu k Business Central.
     author: ZdenekBicek
     documentationcenter: ''
 
@@ -15,9 +15,9 @@
     ms.author: soalex
 
 ---
-# Soulad služeb
+# Dodržování předpisů - služby
 
-Tento obsah obsahuje informace o souladu služeb ve vztahu k [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+Tato část obsahuje informace o dodržování předpisů pro služby ve vztahu k [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
 Business Central je cloudová služba s globálním dosahem a rozsahem provozovaná na jedné z největších světových hyperscale infrastruktur, Microsoft Azure, s datovými centry v regionech po celém světě. Provoz cloudové služby také vyžaduje nutnost vyhovět určitým standardům v oblasti bezpečnosti a dodržování předpisů, takže z hlediska služeb Business Central splňuje přísné požadavky v několika ISO a průmyslových specifických certifikátech.
 
@@ -33,8 +33,8 @@ Kromě toho můžete monitorovat zdraví svého tenantu a určit okna pro upgrad
 
 ## Viz také
 
-[Soulad](compliance-overview.md)  
-[Soulad aplikace](compliance-application-compliance.md)  
+[Dodržování předpisů](compliance-overview.md)  
+[Dodržování předpisů - aplikace](compliance-application-compliance.md)  
 [Certifikace](compliance-certifications.md)  
 
 ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

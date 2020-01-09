@@ -1,6 +1,6 @@
 ---
-    title: Soulad aplikace | Microsoft Docs
-    description: Tento obsah obsahuje informace o souladu aplikace s ohledem na Business Central.
+    title: Dodržování předpisů - aplikace | Microsoft Docs
+    description: Tato část obsahuje informace o dodržování předpisů pro aplikace s ohledem na Business Central.
     author: ZdenekBicek
     documentationcenter: ''
 
@@ -15,9 +15,9 @@
     ms.author: soalex
 
 ---
-# Soulad aplikace
+# Dodržování předpisů - aplikace
 
-Tento obsah obsahuje informace o souladu aplikace s ohledem na [!INCLUDE[d365fin](../includes/d365fin_md.md)], jako jsou Mezinárodní standardy účetního výkaznictví, lokální funkcionality, GDPR a další. Důvěra v řešení podnikového řízení je klíčem k efektivnímu podnikání. S Business Central jsou společnosti oprávněny zefektivnit obchodní procesy a přitom důsledně a nákladově efektivně dodržovat rostoucí požadavky na předpisy a podávání zpráv.
+Tato část obsahuje informace o dodržování předpisů pro aplikace s ohledem na [!INCLUDE[d365fin](../includes/d365fin_md.md)], jako jsou Mezinárodní standardy účetního výkaznictví, lokální funkcionality, GDPR a další. Důvěra v řešení podnikového řízení je klíčem k efektivnímu podnikání. S Business Central jsou společnosti oprávněny zefektivnit obchodní procesy a přitom důsledně a nákladově efektivně dodržovat rostoucí požadavky na předpisy a podávání zpráv.
 
 ## Ochrana osobních údajů  
 
@@ -26,7 +26,7 @@ Business Central podporuje iniciativy na ochranu osobních údajů, jako je Obec
 Pokud jste vývojář rozšíření Business Central, musíte vědět o klasifikaci dat. Viz [tato stránka](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 Pokud se chcete dozvědět více o GDPR z širší perspektivy Dynamics 365, viz [tento seznam whitepapers](/dynamics365/get-started/gdpr/).
 
-## Účetní procesy a kontroly k zajištění souladu
+## Účetní procesy a kontroly k zajištění dodržování předpisů
 
 Společnosti čelí každoročně rostoucím výzvám v oblasti finančního účetnictví. V závislosti na průmyslu, trzích, zeměpisné poloze a potřebách financování může být organizace podrobena místním obecně uznávaným účetním zásadám (GAAP) a jednomu nebo více z:
 
@@ -36,7 +36,7 @@ Společnosti čelí každoročně rostoucím výzvám v oblasti finančního ú�
 
 ## Osvědčené postupy s technologií
 
-Soulad závisí nejen na přesných informacích a vhodných účetních postupech, ale také na lidech, kteří tyto procesy nastavují a spravují. Efektivní řešení podnikového řízení může usnadnit dodržování předpisů tím, že pomáhá spravovat platné a dostupné informace prostřednictvím transparentních procesů, které byly nastaveny v souladu s průmyslovými a legislativními standardy.
+Dodržování předpisů závisí nejen na přesných informacích a vhodných účetních postupech, ale také na lidech, kteří tyto procesy nastavují a spravují. Efektivní řešení podnikového řízení může usnadnit dodržování předpisů tím, že pomáhá spravovat platné a dostupné informace prostřednictvím transparentních procesů, které byly nastaveny v souladu s průmyslovými a legislativními standardy.
 
 ## Využijte výhod integrovaného řešení pro řízení podniku
 
@@ -83,7 +83,7 @@ Poskytujte integrované informace, sladěné procesy a snadno použitelné nást
 - Vyhledejte změny databáze, včetně předchozích a revidovaných dat, v [Protokolu změn](../across-log-changes.md).
 - Zvyšte průhlednost a použitelnost kontrolních záznamů a zrychlete přístup k informacím pro auditory třetích stran pomocí podrobného vyhledávání, vyhledávání, filtrování, registrace a navigace.
 
-## Soulad a lokální funkcionalita
+## Dodržování předpisů a lokální funkcionalita
 
 Microsoft připravuje lokalizované verze Business Central pro některé země. Tyto lokalizace se primárně zaměřují na legislativní prvky v daňové a finanční oblasti, ale někdy mohou zahrnovat i jiné části aplikace. Pokud chcete vidět, co je obsahují lokalizované verze produktu Business Central, podívejte se do nabídky **Lokální funkcionality** a vyberte zemi, kde se dozvíte o funkcích pro konkrétní zemi.
 
@@ -101,8 +101,8 @@ Microsoft připravuje lokalizované verze Business Central pro některé země. 
 
 ## Viz také
 
-[Soulad](compliance-overview.md)  
-[Soulad služeb](compliance-service-compliance.md)  
+[Dodržování předpisů](compliance-overview.md)  
+[Dodržování předpisů - služby](compliance-service-compliance.md)  
 [Certifikace](compliance-certifications.md)  
 
 ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]
