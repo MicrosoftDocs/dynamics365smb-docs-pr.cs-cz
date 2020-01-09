@@ -1,87 +1,112 @@
 ---
-title: Frequently Asked Questions about List Views
-description: Detailed information about saving filters as list views.
-author: mikebcMSFT
+title: Často kladené otázky týkající se zobrazení seznamů
+description: Podrobné informace o ukládání filtrů jako zobrazení seznamu.
+author: ZdenekBicek
+
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 01/01/2019
+ms.date: 01/09/2020
+ms.reviewer: v-zdbice
 ms.author: mikebc
 
 ---
-# List Views FAQ
-This topic answers questions that our advanced users often ask about working with list views and saving filters.  
+# Často kladené otázky týkající se zobrazení seznamů
 
-### How do views handle expressions?
-When saving a view that includes filters with expressions, such as date ranges, operators, keywords or filter tokens, the expression and not the resulting values is saved. For example, saving a view that filters on the **Created Date** field with the expression **-1W..today** will always find records relative to the current date, even when the view is accessed next month.
+Toto téma odpovídá na otázky, na které se naši pokročilí uživatelé často ptají při práci se zobrazeními seznamu a ukládáním filtrů.  
 
-### Where are list views saved?
-Similarly to hiding a field or reordering your navigation menu, list views are a part of user personalization and are stored in the database. Clearing all personalization on a list will also permanently remove your personal views and clear additional personalization such as re-ordering of views. For more information see [Personalize your workspace](ui-personalization-user.md).
+## Odpovědi na otázky
 
-### Why don't I have a Save icon?
-The save icon and options menu are not displayed alongside views in the filter pane if personalization is disabled for a user role. Users who do not have personalization enabled are still able to access system views that are a standard part of the page, modify or create more filters.
+### Jak pohledy zpracovávají vzorce?
 
-### On which page types can I use list views?
-Views are only available on list and worksheet pages.
+Při ukládání pohledu, který obsahuje filtry se vzorci, jako jsou časové období, operátory, klíčová slova nebo tokeny filtru, se uloží výraz a nikoli výsledné hodnoty. Například uložením pohledu, který se filtruje v poli **Datum vytvoření** s výrazem **- 1T..today**, budou vždy nalezeny záznamy relativně k aktuálnímu datu, a to i v případě, že je pohled použit příští měsíc.
 
-### Are views also available on other form factors?
-Yes. Any views you save on your desktop browser or desktop app will also be available on your tablet or smartphone. You cannot modify or personalize views on mobile devices.
+### Kde jsou uložena zobrazení seznamu?
 
-### Are my personal views always accessible?
-The same views are available on a list page if you access it from the navigation menu, through the **Tell Me** window, or through a URL link to the list page. Views are not available in list parts, lookups or whenever a list page is displayed as a dialog.
+Podobně jako skrytí pole nebo změna pořadí vaší navigační nabídky jsou zobrazení seznamu součástí přizpůsobení uživatele a jsou uložena v databázi. Vymazáním veškerého přizpůsobení ze seznamu také trvale odstraníte vaše osobní pohledy a vymažete další přizpůsobení, jako je změna pořadí pohledů. Další informace viz [Přizpůsobení pracovního prostoru](ui-personalization-user.md).
 
-### How do I return a view to its original filters after modifying them?
-At the bottom of the filter pane, choose the **Reset filters** action to clear filter changes you have made to the view and return to its original filtered fields and filter criteria.
+### Proč nemám ikonu Uložit?
 
-### What is the difference between hiding and removing views?
-Removing a view will permanently delete that view. Hiding a view allows you to temporarily hide it from the filter pane, but you can unhide it again later by choosing the **Show** action.
+Ikona uložení a nabídka možností se nezobrazí vedle pohledů v podokně filtru, pokud je přizpůsobení zakázáno pro roli uživatele. Uživatelé, kteří nemají povoleno přizpůsobení, mají stále přístup k systémovým pohledům, která jsou standardní součástí stránky, a mohou upravovat nebo vytvářet další filtry.
 
-### How can I share my views with others?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] does not provide a way to share the precise list view, but you can share your current filters so that other users can see a similar list of records. In your desktop browser, simply copy the URL and share it with your colleagues. Sharing filters is not guaranteed to give the recipient an identical set of filters that you see in your browser.
+### Na kterých typech stránek mohu použít zobrazení seznamu?
 
-### Can I search for views in the Tell Me window?
-No. The **Tell Me** window only displays search results for the page, but you are only a step away from getting to your favorite view once you navigate to the page.
+Zobrazení jsou k dispozici pouze na stránkách seznamů a pracovních listů.
 
-### What is shared layout?
-All views on a list page share a common column layout that includes which columns are displayed, their sequence, width, freeze pane and Quick Entry settings. Personalizing any of the column layout will also affect other views sharing the same layout on the list page.
+### Jsou pohledy k dispozici také na jiné formy seznamů?
 
-Some system views can have unique layouts of the columns in the list. For example, they could re-arrange columns to display only the columns most relevant to that view. You can identify which views have unique layouts by choosing the ![Show more options](media/show-more-options-icon.png "Show more options") icon and observing that the **Shared layout** check box is not selected. As a user, you can personalize the column layout for a view with unique layout without it affecting any of the other views on the list page. Only developers can define a unique column layout for a view that initially has a shared layout.
+Ano. Všechny pohledy, které uložíte do svého stolního prohlížeče nebo stolní aplikace, budou k dispozici také na tabletu nebo smartphonu. Pohledy na mobilních zařízeních nelze upravovat ani přizpůsobovat.
 
-### What does the Show System Filters link do?
-On some list pages, the filter pane will display **Show system filters** at the bottom of the filter pane when the page includes filters specified by the system. These special filters are typically used to display records based on the current context, such as when a list of orders has to be filtered for a specific customer.
+### Jsou moje osobní pohledy vždy přístupné?
 
-System filters are set by developers using filter group 0. For technical details about system filters, see [Filtergroup Method](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
+Stejné pohledy jsou k dispozici na stránce seznamu, pokud k ní přistupujete z navigační nabídky, prostřednictvím okna **Řekněte mi** nebo prostřednictvím URL odkazu na stránku seznamu. Pohledy nejsou k dispozici v podoknech seznamu, při vyhledávání ani při zobrazení stránky seznamu jako dialogu.
 
-### I see multiple views on my page, but I did not create them. Where did they come from?
-The views you see on any list are a combination of your personal views together with system views. System views may originate from the business application, from extensions, or may be role-specific if the list was customized for your role.
+### Jak vrátím pohled na původní filtry po jejich úpravě?
 
-### Why do some views provide fewer options?
-Some views only provide the option to save a copy of the view, while others do not allow saving changes to the view. How the view was created determines the options available to that view. Views can be created in multiple ways:
-- Personal views that you saved
-- System views that are a standard part of the business application, or added by extensions or role-specific views. Unlike personal views, you cannot save changes to filters back to that system view.
-- Legacy system views that are a standard part of the business application but were created using older versions of [!INCLUDE[d365fin](includes/d365fin_md.md)]. These views offer significantly fewer options. You can only save them as a new view and cannot hide or reorder them either. Note that legacy system views will be discontinued in a future update to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+V dolní části podokna filtru vyberte akci **Obnovit filtry**, abyste vyčistili změny filtru provedené v pohledu a vrátili se k původním filtrovaným polím a kritériím filtru.
 
-### How do I convert legacy system views?
-Legacy system views are list views that were created by developers in older versions of [!INCLUDE[d365fin](includes/d365fin_md.md)] by placing them on the Role Center page. These views are now displayed directly on the list page but offer a degraded experience and significantly fewer options. You can convert a legacy system view to a personal view that is fully customizable, simply by saving that legacy view as a new view. Similarly, administrators can choose to convert role-specific legacy system views by customizing the user role and saving the legacy view as a new role-specific view.
+### Jaký je rozdíl mezi skrytím a odebráním pohledů?
 
-Note that legacy system views will be discontinued in a future update to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Odebráním pohledu se toto zobrazení trvale odstraní. Skrytí pohledu vám umožňuje dočasně ho skrýt z podokna filtru, ale později ho můžete znovu skrýt výběrem akce **Zobrazit**.
 
-### Others in my organization need similar list views as standard. What can I do?
-Working with personal views is quick and effective, but [!INCLUDE[d365fin](includes/d365fin_md.md)] provides additional tools to define list views needed by specific user roles or all users in the organization.
- - Developers can customize the environment and create list views in extensions for all users in the organization.
- - Non-coders such as administrators or department managers, can create role-specific list views when customizing a role from the **Profiles (Roles)** page.
+### Jak mohu sdílet své pohledy s ostatními?
 
-### I work with multiple languages: how do I translate the name of the view?
-When saving a new view or renaming an existing view, you must enter a recognizable and meaningful name for that view. The name is saved for your current language and will be displayed also when you or other users work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in different languages. To provide translated view names, you must switch language using the **My Settings** page and then rename the view, which will store the translated name in the new language.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] neposkytuje způsob sdílení přesného zobrazení seznamu, ale můžete sdílet své současné filtry, aby ostatní uživatelé mohli vidět podobný seznam záznamů. V prohlížeči na počítači jednoduše zkopírujte URL adresu a sdílejte ji se svými kolegy. Sdílení filtrů nezaručuje příjemci identickou sadu filtrů, které vidíte v prohlížeči.
 
-### Do views with expressions work in all languages?
-Expressions that only use symbols, such as '**|**' or **..**, are considered safe for users to access in any language. Any views with expressions that include letters, keywords or filter tokens will only work for the language in which they were authored.
+### Mohu hledat pohledy v okně Řekněte mi?
 
+Ne. Okno **Řekněte mi** zobrazuje pouze výsledky vyhledávání pro stránku, ale po navigaci na stránku jste jen krok od dosažení svého oblíbeného zobrazení.
 
-### See Also  
-[Save and Personalize List Views](ui-views.md)  
-[Finding Features and Information](ui-search.md)    
-[Sorting, Searching and Filtering](ui-enter-criteria-filters.md)  
+### Co je sdílené rozložení?
+
+Všechna zobrazení na stránce seznamu sdílejí společné rozvržení sloupců, které zahrnuje, jaké sloupce jsou zobrazeny, jejich pořadí, šířku, nastavené podokno a nastavení rychlého vstupu. Přizpůsobení rozložení sloupců ovlivní také další pohledy, které sdílejí stejné rozložení na stránce seznamu.
+
+Některá systémová zobrazení mohou mít jedinečná rozvržení sloupců v seznamu. Mohli například změnit uspořádání sloupců tak, aby zobrazovaly pouze sloupce nejrelevantnější pro toto zobrazení. Můžete určit, která zobrazení mají jedinečná rozvržení výběrem ikony ![Show more options](media/show-more-options-icon.png "Zobrazit více možností") a pozorování, že není zaškrtnuto políčko **Použít sdílené rozvržení**. Jako uživatel si můžete přizpůsobit rozvržení sloupců pro pohled s jedinečným rozvržením, aniž by to ovlivnilo kterékoli z ostatních pohledů na stránce seznamu. Pouze vývojáři mohou definovat jedinečné rozvržení sloupců pro pohled, který má původní sdílené rozvržení.
+
+### Co dělá odkaz Zobrazit systémové filtry?
+
+Na některých stránkách seznamu podokno filtrů zobrazuje **Zobrazit filtry systému** v dolní části podokna filtrů, pokud stránka obsahuje filtry definované systémem. Tyto speciální filtry se obvykle používají k zobrazení záznamů na základě aktuálního kontextu, například když je třeba seznam objednávek filtrovat pro konkrétního zákazníka.
+
+Systémové filtry nastavují vývojáři pomocí skupiny filtrů 0. Technické podrobnosti o systémových filtrech viz [Metoda skupin filtrů](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
+
+### Na své stránce vidím více pohledů, ale nevytvořil jsem je. Odkud přišli?
+
+Pohledy, které vidíte v kterémkoli seznamu, jsou kombinací vašich osobních pohledů a systémových pohledů. Systémové pohledy mohou pocházet z podnikové aplikace, z rozšíření nebo mohou být specifické pro roli, pokud byl seznam přizpůsoben vaší roli.
+
+### Proč některá pohledy poskytují méně možností?
+
+Některé pohledy poskytují pouze možnost uložit kopii pohledu, zatímco jiná neumožňují vůbec uložit změny v pohledu. Způsob vytvoření pohledu určuje možnosti dostupné pro toto zobrazení. Pohledy lze vytvářet několika způsoby:
+
+- Osobní pohledy, které jste uložili
+- Systémové pohledy, které jsou standardní součástí podnikové aplikace nebo jsou přidána pomocí rozšíření nebo zobrazení specifických pro roli. Na rozdíl od osobních pohledů nemůžete uložit změny filtrů zpět do tohoto systémového zobrazení.
+- Starší systémové pohledy, které jsou standardní součástí podnikové aplikace, ale byly vytvořeny pomocí starších verzí systému [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tato zobrazení nabízejí výrazně méně možností. Můžete je uložit pouze jako nové zobrazení a nelze je skrýt ani změnit jejich pořadí. Uvědomte si, že starší systémová zobrazení budou v budoucích aktualizacích [!INCLUDE[d365fin](includes/d365fin_md.md)] zrušena.
+
+### Jak převést starší systémové pohledy?
+
+Starší systémové pohledy jsou zobrazení seznamu, která byla vytvořena vývojáři ve starších verzích systému  [!INCLUDE[d365fin](includes/d365fin_md.md)] umístěním na stránku Centrum rolí. Tyto pohledy se nyní zobrazují přímo na stránce seznamu, ale nabízejí zhoršenou obsluhu a výrazně méně možností. Starší systémové pohledy můžete převést na osobní pohled, který je plně přizpůsobitelný, jednoduše tak, že toto starý pohled uložíte jako nový. Podobně se správci mohou rozhodnout převést starší pohledy specifické pro uživatelskou roli přizpůsobením uživatelské role a uložením zastaralého pohledu jako nového pohledu specifického pro roli.
+
+Uvědomte si, že starší systémová zobrazení budou v budoucích aktualizacích [!INCLUDE[d365fin](includes/d365fin_md.md)] zrušena.
+
+### ostatní v mé organizaci potřebují podobné zobrazení seznamu jako standardní. Co můžu dělat?
+
+Práce s osobními pohledy je rychlá a efektivní, ale [!INCLUDE[d365fin](includes/d365fin_md.md)] poskytuje další nástroje pro definování zobrazení seznamu potřebných pro konkrétní uživatelské role nebo pro všechny uživatele v organizaci.
+
+- Vývojáři mohou přizpůsobit prostředí a vytvářet zobrazení seznamu v rozšířeních pro všechny uživatele v organizaci.
+- Ne-vývojáři, jako jsou administrátoři nebo vedoucí oddělení, mohou při přizpůsobování role na stránce **Profily (Role)** vytvářet zobrazení seznamu podle rolí.
+
+### Pracuji s více jazyky: jak překládám název pohledu?
+
+Při ukládání nového pohledu nebo přejmenování existujícího pohledu musíte pro toto zobrazení zadat rozpoznatelný a smysluplný název. Název se uloží pro váš aktuální jazyk a zobrazí se také, když s ním Vy nebo jiný uživatel pracujete [!INCLUDE[d365fin](includes/d365fin_md.md)] v různých jazycích. Chcete-li poskytnout přeložený název pohledu, musíte přepnout jazyk pomocí stránky **Moje nastavení** a poté přejmenovat zobrazení, které uloží přeložený název do nového jazyka.
+
+### Fungují zobrazení se vzorci ve všech jazycích?
+
+Vzorce, které používají pouze symboly, například '**|**' nebo **..**, jsou považovány za bezpečné pro přístup uživatelů v jakémkoli jazyce. Všechna zobrazení s výrazy, které obsahují písmena, klíčová slova nebo tokeny filtru, budou fungovat pouze pro jazyk, ve kterém byly vytvořeny.
+
+### Viz také
+
+[Ukládaní a přizpůsobení zobrazení seznamů](ui-views.md)  
+[Hledání funkcí a informací](ui-search.md)  
+[Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md)  
