@@ -26,7 +26,7 @@ Sekce **Najít** obsahuje dva odkazy na nápovědu produktu:
 
 - Nápověda ke stránce, kterou jste právě zobrazili v aplikaci [!INCLUDE[prodshort](includes/prodshort.md)]
 
-   Tento odkaz je generován automaticky. Pokud [!INCLUDE[ prodshort ](includes/prodshort.md)] nemůže najít relevantní odkaz, je zobrazena vstupní stránka na [Docs.microsoft.com](index.md) pro základní verzi [!INCLUDE<x5 />prodshort](includes/prodshort.md)]. K tomu může například dojít, pokud byla stránka součástí aplikace, která nepřidala kontextově citlivé mapování nápovědy do [!INCLUDE[prodshort](includes/prodshort.md)].
+   Tento odkaz je generován automaticky. Pokud [!INCLUDE[ prodshort ](includes/prodshort.md)] nemůže najít relevantní odkaz, je zobrazena vstupní stránka na [Docs.microsoft.com](index.md) pro základní verzi [!INCLUDE[prodshort](includes/prodshort.md)]. K tomu může například dojít, pokud byla stránka součástí aplikace, která nepřidala kontextově citlivé mapování nápovědy do [!INCLUDE[prodshort](includes/prodshort.md)].
 - Úvodní stránka nápovědy [!INCLUDE[prodshort](includes/prodshort.md)]
 
    Funkce ve výchozí verzi [!INCLUDE[prodshort](includes/prodshort.md)] je popsána na webu [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central). Navíc výchozí verze můžete také rozšířit a přizpůsobit [!INCLUDE[prodshort](includes/prodshort.md)] pomocí aplikací z AppSource. Všechny aplikace poskytují odkazy na příslušnou nápovědu k produktu, aby bylo možné vždy najít pokyny pro různé pracovní postupy ve vaší verzi aplikace [!INCLUDE [prodshort](includes/prodshort.md)].
