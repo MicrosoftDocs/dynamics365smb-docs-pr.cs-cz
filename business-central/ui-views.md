@@ -44,7 +44,7 @@ S rostoucím počtem pohledů na stránce budete možná potřebovat další kon
 
 ## See Also
 [Často kladené otázky týkající se zobrazení seznamů](ui-views-faq.md)  
-[Přizpůsobení pracovního prostoru](ui-personalization-user.md)    
-[Práce s[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)    
+[Přizpůsobení pracovního prostoru](ui-personalization-user.md)  
+[Práce s[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Změna základního nastavení](ui-change-basic-settings.md)  
 [Změna zobrazování funkcí](ui-experiences.md)  
