@@ -105,7 +105,7 @@ Při ukládání nového pohledu nebo přejmenování existujícího pohledu mus
 
 Vzorce, které používají pouze symboly, například '**|**' nebo **..**, jsou považovány za bezpečné pro přístup uživatelů v jakémkoli jazyce. Všechna zobrazení s výrazy, které obsahují písmena, klíčová slova nebo tokeny filtru, budou fungovat pouze pro jazyk, ve kterém byly vytvořeny.
 
-### Viz také
+## Viz také
 
 [Ukládaní a přizpůsobení zobrazení seznamů](ui-views.md)  
 [Hledání funkcí a informací](ui-search.md)  
