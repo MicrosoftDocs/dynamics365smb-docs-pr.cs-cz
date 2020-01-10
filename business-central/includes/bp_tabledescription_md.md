@@ -1,1 +1,1 @@
-Description
+Popis

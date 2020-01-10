@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Depending on your country or region, additional setup may be required. For more information, see the list of related articles in the [See Also](#see-also) section.  
+> V závislosti na vaší zemi nebo regionu může být nutné další nastavení. Další informace naleznete v seznamu souvisejících článků v části [Viz také](#see-also).
