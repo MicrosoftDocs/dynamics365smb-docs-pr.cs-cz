@@ -16,7 +16,7 @@ ms.author: sgroespe
 # <a name="copy-data-to-new-companies"></a>Kopírování dat do nových společností
 Můžete zkopírovat běžně používané hodnoty z existující společnosti do nové, pokud jsou obě společnosti ve stejné databázi. Pokud například máte standardní seznam kódů příznaku, který je společný pro všechny implementace správy služeb, můžete je snadno zkopírovat z jedné společnosti do druhé.  
 
-## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Pro kopírování dat do nové společnosti pomocí služeb RapidStart  
+## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Kopírování dat do nové společnosti pomocí služeb RapidStart  
 1. Otevřete novou společnost.  
 2. Zvolte ikonu ![Vyhledat Stránku nebo Sestavu](media/ui-search/search_small.png "ikona Vyhledat stránku nebo sestavu"), klikněte na **Konfigurační sešit** a poté vyberte související odkaz.  
 3. Zvolte **Kopírovat data ze společnosti**.  

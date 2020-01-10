@@ -18,7 +18,7 @@ Pomocí karet bankovních účtů můžete sledovat všechny své bankovní úč
 
 Chcete-li používat služby elektronického bankovnictví k importu bankovních výpisů a exportů plateb, musíte nastavit a povolit příslušné služby.
 
-| Viz | Také |
+| K | Viz |
 | --- | --- |
 | Nastavení karet bankovních účtů pro každý z vašich bankovních účtů, abyste mohli sledovat bankovní transakce. |[Nastavení bankovních účtů](bank-how-setup-bank-accounts.md) |
 | Nastavte externí službu, která umožňuje importovat bankovní výpisy jako bankovní prostředky pro účely platby a bankovního odsouhlasení. |[Nastavení služby Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |

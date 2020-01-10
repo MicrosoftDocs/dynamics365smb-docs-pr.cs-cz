@@ -18,9 +18,9 @@ ms.author: sgroespe
 
 Prvním krokem je vytvoření konfiguračního balíčku, který obsahuje tabulky nastavení pro tyto deníky. Následující postup předpokládá, že tento krok je dokončen. Pro více informací navštivte [Nastavení konfigurace společnosti](admin-set-up-company-configuration.md). Tento postup popisuje následující kroky, které zahrnují použití balíčku poskytovaného partnerem.  
 
-Než začnete, ujistěte se, že jste na stránce Centra rolí Implementátor služeb RapidStart, protože tato role poskytuje správný kontext pro vaši konfigurační práci. Pro další informace se podívejte na [Změna základního nastavení](ui-change-basic-settings.md).
+Než začnete, ujistěte se, že jste na stránce Centra rolí Implementátor služeb RapidStart, protože tato role poskytuje správný kontext pro vaši konfigurační práci. Pro více informací navštivte [Změna základního nastavení](ui-change-basic-settings.md).
 
-## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Pro aplikaci položek v deníku na novou společnost  
+## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Aplikace položek v deníku na novou společnost  
 1. Nakonfigurujte novou společnost a použijte na ni konfigurační balíček. Pro více informací navštivte [Konfigurace společnosti s průvodcem RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     Nová společnost neobsahuje informace o počátečních zůstatcích deníků.  

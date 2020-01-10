@@ -24,16 +24,16 @@ Následující tabulka popisuje úrovně citlivosti dat, které můžete přiřa
 |----|----|
 |Citlivá | Informace o rasovém nebo etnickém původu subjektu údajů, politických názorech, náboženských vyznáních, zapojení do odborů, fyzickém nebo duševním zdraví, sexualitě nebo podrobnosti o trestných činech. |
 |Osobní | Informace, které lze použít k identifikaci subjektu, buď přímo, nebo v kombinaci s jinými údaji nebo informacemi.|
-|Důvěrná pro společnost | Obchodní data, která používáte pro účetní nebo jiné obchodní účely a nechcete je vystavovat jiným subjektům. Může to například zahrnovat věcné položky.|
+|Důvěrná pro společnost | Obchodní data, která používáte pro účetní nebo jiné obchodní účely a nechcete je vystavovat jiným subjektům. Může to například zahrnovat položky účetní knihy.|
 |Normální | Obecná data, která nepatří do žádné jiné kategorie.|
 
 ## <a name="how-do-i-classify-my-data"></a>Jak mohu klasifikovat svá data?
-Klasifikace citlivosti velkého počtu polí po jednom by vyžadovala dlouhou dobu. Abychom urychlili proces klasifikace, poskytujeme nástroje, které můžete použít k hromadné klasifikaci citlivosti polí, a poté můžete doladit detaily klasifikace pro konkrétní pole. Nástroj pro Klasifikaci dat je k dispozici v centru rolí Administrace uživatelů, uživatelských skupin a oprávnění . Abyste mohli seznam používat, musíte být správce systému.
+Klasifikace citlivosti velkého počtu polí po jednom by vyžadovala dlouhou dobu. Abychom urychlili proces klasifikace, poskytujeme nástroje, které můžete použít k hromadné klasifikaci citlivosti polí, a poté můžete doladit detaily klasifikace pro konkrétní pole. Nástroje najít nástroj Klasifikace dat, který je k dispozici v centru rolí Administrace uživatelů, uživatelských skupin a oprávnění . Abyste mohli seznam používat, musíte být správce systému.
 
 > [!Important]
 > Při prvním otevření seznamu Klasifikace dat bude prázdný. Chcete-li vygenerovat seznam polí, musíte spustit Průvodce klasifikací dat. Chcete-li spustit průvodce, vyberte akci **Nastavit klasifikaci dat**.
 
-Například, sešit Klasifikace dat umožňuje provádět následující činnosti:  
+Například pracovního seznamu Klasifikace dat umožňuje provádět následující činnosti:  
 
 * Pomocí Průvodce klasifikací dat exportujte svá pole do listu aplikace Excel, kde je můžete hromadně klasifikovat. Použití listu Excel je zvláště užitečné, pokud spolupracujete s partnerem společnosti Microsoft. Po aktualizaci listu můžete pomocí průvodce importovat a použít klasifikace. Průvodce můžete také použít k ruční klasifikaci polí.  
 * Vyberte pole a poté filtrujte seznam a vyhledejte podobná pole, která pravděpodobně patří do stejné klasifikace jako pole, na kterém jste založili vyhledávání.  

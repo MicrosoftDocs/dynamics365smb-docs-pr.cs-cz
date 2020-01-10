@@ -18,16 +18,16 @@ Nejúčinnějším způsobem vytvoření přihrádek ve vašem skladu je vygener
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Vytvoření přihrádek z karty lokace  
 1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Lokace** a poté vyberte související odkaz.  
-2.  Vyberte lokaci, z které budete chtít založit přihrádku a vyberte tlačítko **Přihrádky**.  
+2.  Vyberte lokaci, z které budete chtít založit přihrádk a vyberte tlačítko **Přihrádky**.  
 3. Zvolte akci **Nový**.
 4. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="the-dedicated-field"></a>Políčko Přiřazený
 Políčko **Přiřazený** na stránce **Přihrádky** určuje, že množeství v přihrádce je chráněno před vyskladněním z jiných požadavků. Množství v vyhrazených přihrádkách však lze stále rezervovat. V souladu s tím jsou množství ve vyhrazených přihrádkách zahrnuta do pole **Celkové množství k dispozici** na stránce **Rezervace**.
 
-Vytvoření přiřazené přihrádky má za následek podobnou funkčnost v základním skladu jako použití typů přihrádek, což je k dispozici pouze ve velkém (rozšířeném) skladu. Pro více informací navštivte [Nastavení typů přihrádek](warehouse-how-to-set-up-bin-types.md).
+Vytvoření vyhrazené přihrádky má za následek podobnou funkčnost v základním skladu jako použití typů přihrádek, což je k dispozici pouze ve velkém (rozšířeném) skladu. Pro více informací navštivte [Založení typů přihrádky](warehouse-how-to-set-up-bin-types.md).
 
-**Příklad:** Pracovní centrum je založeno s kódem přihrádky v poli **Kód přihrádky na výrobu**. Řádky komponent výrobní zakázky s tímto kódem přihrádky vyžadují, aby zde byly umístěny dopředu posunuté komponenty. Dokud však nebudou komponenty spotřebovány z této přihrádky, mohou z této přihrádky vybírat nebo spotřebovávat další požadavky na komponenty, protože jsou stále považovány za dostupný obsah přihrádky. Chcete-li se ujistit, že obsah přihrádky je k dispozici pouze pro požadavek na komponentu, který používá tuto výrobní přihrádku, musíte vybrat pole **Přiřazený** na řádku pro tento kód přihrádky.
+**Příklad:** Pracovní centrum je založeno s kódem přihrádky v poli **Kód přihrádky na výrobu**. Řádky komponent výrobní zakázky s tímto kódem přihrádky vyžadují, aby zde byly umístěny dopředu propláchnuté komponenty. Dokud však nebudou komponenty spotřebovány z této přihrádky, mohou z této přihrádky vybírat nebo spotřebovávat další požadavky na komponenty, protože jsou stále považovány za dostupný obsah přihrádky. Chcete-li se ujistit, že obsah přihrádky je k dispozici pouze pro požadavek na komponentu, který používá tuto výrobní přihrádku, musíte vybrat pole **Přiřazený** na řádku pro tento kód přihrádky.
 
 > [!Caution]
 > Zboží ve vyhrazených přihrádkách není chráněno, pokud jsou vybrány a spotřebovány jako součásti výroby nebo sestavy na stránce **Vyskladnění zásob**. Pro více informací navštivte [Vyskladnění pro výrobu nebo montáž v základním skladu](warehouse-how-to-pick-for-production.md).
@@ -35,9 +35,9 @@ Vytvoření přiřazené přihrádky má za následek podobnou funkčnost v zák
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Vytvoření přihrádek individuálně v sešitu vytváření přihrádky  
 1.  Vyberte ikonu ![Žárovka, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), vstupte do **Sešit vytvoření přihrádky** a poté vyberte související odkaz.  
 2.  Na každém řádku vyplňte pole, která jsou nezbytná pro pojmenování a charakterizaci přihrádek, které vytváříte.  
-3.  Vyberte tlačítko **Vytvořit přihrádky**.  
+3.  Vyberte tlačítko **vytvořit přihrádky**.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Vytvoření přihrádky automatizovaně pomocí sešitu vytvoření přihrádek.  
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>vytvořte přihrádky automatizovaně pomocí sešitu vytvoření přihrádek.  
 Než začnete automaticky vytvářet přihrádky, měli byste určit druh přihrádek, které jsou nezbytné pro vaši činnost, jakož i nejpraktičtější tok zboží prostřednictvím fyzické struktury vašeho skladu.  
 
 > [!NOTE]  

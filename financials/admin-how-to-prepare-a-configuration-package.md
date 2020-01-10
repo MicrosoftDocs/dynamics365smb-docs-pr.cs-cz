@@ -25,7 +25,7 @@ Ujistěte se, že jste v centru rolí Implementátor služeb RapidStart. Pro ví
 >   
 >  Můžete importovat konfigurační balíček, který byl exportován z databáze, která má jiné schéma než tato cílová databáze. Avšak žádné tabulky nebo pole v konfiguračním balíčku, které chybí v cílové databázi, nebudou importovány. Tabulky s různými primárními klíči a poli s různými datovými typy se také neimportují úspěšně. Pokud například konfigurační balíček obsahuje tabulku **50000, zákazník**, která má primární klíč **Kód20**, a databáze, do které importujete balíček, zahrnuje tabulku **50000, bankovní účet zákazníka**, která má primární klíč **Kód20 + Kód20**, potom data nebudou importována.  
 
-## <a name="to-create-a-configuration-package"></a>Pro vytvoření konfiguračního balíčku  
+## <a name="to-create-a-configuration-package"></a>Vytvoření konfiguračního balíčku  
 1. Zvolte ikonu ![Hledat stránku nebo sestavu](media/ui-search/search_small.png "ikona Hledat stránku nebo sestavu"), klikněte na **Konfigurační balíčky** a poté zvolte související odkaz.  
 2. Zvolte akci **Nový**.  
 3. V záložce **Obecné** vyplňte pole podle potřeby. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -49,29 +49,29 @@ Ujistěte se, že jste v centru rolí Implementátor služeb RapidStart. Pro ví
 
 Po upřesnění seznamu polí, která mají být zahrnuta z tabulky, můžete zkontrolovat své výsledky v aplikaci Excel.  
 
-### <a name="to-filter-and-review-your-dataset"></a>Pro filtrování a kontrolu sady dat  
+### <a name="to-filter-and-review-your-dataset"></a>Filtrování a kontrola sady dat  
 1. Pro filtrování určité sady záznamů, která má být součástí balíčku, vyberte na kartě **Řádky** akci **Filtry** a zadejte příslušné hodnoty filtru.  
 2. Na kartě balíčku vyberte na kartě **Řádky** akci **Exportovat do aplikace Excel**.  
 3. Potvrďte zprávy, které umožňují export dat do Excelu. Otevře se pojmenovaný soubor .xlsx. Zkontrolujte záznamy, které byly exportovány.  
 4. Zavřete aplikaci Excel.  
 
-### <a name="to-include-a-template-for-application-to-a-table"></a>Pro zahrnutí šablony pro aplikaci do tabulky  
-Pro určité tabulky, jako je tabulka, která bude obsahovat hlavní data, můžete určit šablonu, která se použije na data. Šablona může obsahovat povinná pole, která chcete použít pro všechna hlavní data a která nikdy nechcete měnit. Můžete například vytvořit šablonu, kterou lze použít na zákaznická data. Šablona může obsahovat všechna povinná pole, což umožňuje konzistentní import standardizovaných informací. Informace, které nelze standardizovat, jako například jméno zákazníka, budou zpracovány při importu zákaznických dat.
+### <a name="to-include-a-template-for-application-to-a-table"></a>Zahrnutí šablony pro aplikaci do tabulky  
+Pro určité tabulky, jako je tabulka, která bude obsahovat hlavní data, můžete určit šablonu, která se na tyto data použije. Šablona může obsahovat povinná pole, která chcete použít pro všechna hlavní data a která nikdy nebudete chtít měnit. Můžete například vytvořit šablonu, kterou lze použít na zákaznická data. Šablona může obsahovat všechna povinná pole, což umožňuje konzistentní import standardizovaných informací. Informace, které nelze standardizovat, jako například jméno zákazníka, budou zpracovány při importu zákaznických dat.
 
 1. V okně **Karta konfiguračního balíčku** zvolte tabulku a poté vyberte pole **Šablona dat**. Zobrazí se seznam šablon na základě tabulky.
 2. Vybere šablonu a poté klepněte na tlačítko **OK**.  
 
 Po dokončení balíčku ho uložte do souboru podle následujícího postupu. Pak můžete dát balíček zákazníkovi nebo partnerovi k použití.
 
-### <a name="to-save-and-export-a-configuration-package"></a>Pro uložení a export konfiguračního balíčku  
+### <a name="to-save-and-export-a-configuration-package"></a>Uložení a export konfiguračního balíčku  
 - V okně **Karta konfiguračního balíčku** zvolte akci **Exportovat balíček**.  
 
 Balíček je vytvořen v souboru .rapidstart, který doručuje obsah balíčku v komprimovaném formátu. Konfigurační dotazník, konfigurační šablony a konfigurační sešit jsou do balíčku přidávány automaticky, pokud se výslovně nerozhodnete je vyloučit.  
 
 Můžete uložit soubor s názvem, který je pro vás smysluplný, ale nemůžete změnit příponu souboru. Ta musí být .rapidstart.  
 
-### <a name="to-copy-a-configuration-package"></a>Pro zkopírování konfiguračního balíčku  
-Po vytvoření balíčku, který splňuje většinu vašich potřeb, můžete jej použít jako základ pro vytváření podobných balíčků. To může urychlit dobu implementace a zvyšuje opakovatelnost služeb RapidStart.
+### <a name="to-copy-a-configuration-package"></a>Kopírování konfiguračního balíčku  
+Po vytvoření balíčku, který splňuje většinu vašich potřeb, jej můžete použít jako základ pro vytváření podobných balíčků. To může urychlit dobu implementace a zvyšuje opakovatelnost služeb RapidStart.
 
 1. Zvolte ikonu ![Hledat stránku nebo sestavu](media/ui-search/search_small.png "ikona Hledat stránku nebo sestavu"), klikněte na **Konfigurační balíčky** a poté zvolte související odkaz.  
 2. Vyberte balíček ze seznamu a poté vyberte akci **Kopírovat balíček**.  
@@ -79,8 +79,8 @@ Po vytvoření balíčku, který splňuje většinu vašich potřeb, můžete je
 4. Pokud chcete také kopírovat data databáze z existujícího balíčku, zaškrtněte políčko **Kopírovat data**.  
 5. Zvolte tlačítko **OK**.
 
-## <a name="to-customize-a-configuration-package"></a>Pro přizpůsobení konfiguračního balíčku
-Pomocí konfiguračního sešitu můžete shromažďovat a kategorizovat informace, které chcete použít ke konfiguraci nové společnosti, a uspořádat tabulky logickým způsobem. Formátování v sešitu je založeno na jednoduché hierarchii: Oblasti obsahují skupiny, které zase obsahují tabulky. Oblasti a skupiny jsou volitelné, ale nezbytné pro umožnění přehledu procesu konfigurace v centru rolí služeb RapidStart.
+## <a name="to-customize-a-configuration-package"></a>Přizpůsobení konfiguračního balíčku
+Pomocí konfiguračního sešitu můžete shromažďovat a kategorizovat informace, které chcete použít ke konfiguraci nové společnosti, a uspořádat tabulky logickým způsobem. Formátování v sešitu je založeno na jednoduché hierarchii: oblasti obsahují skupiny, které zase obsahují tabulky. Oblasti a skupiny jsou volitelné, ale nezbytné pro umožnění přehledu procesu konfigurace v centru rolí služeb RapidStart.
 
 1.  Zvolte ikonu ![Vyhledat Stránku nebo Sestavu](media/ui-search/search_small.png "ikona Vyhledat stránku nebo sestavu"), klikněte na **Konfigurační sešit** a poté vyberte související odkaz.  
 2.  V poli **Typ řádku** vyberte **Oblast**. Do pole **Název** zadejte popisný název.  
@@ -89,11 +89,11 @@ Pomocí konfiguračního sešitu můžete shromažďovat a kategorizovat informa
 
 Nyní můžete tabulky přiřadit ke konkrétním konfiguračním balíčkům, které jste vytvořili nebo plánujete vytvořit. Pro více informací navštivte sekci “Pro přiřazení tabulky konfiguračnímu balíčku“.
 
-## <a name="to-work-with-promoted-tables"></a>Pro práci s zvýrazněnými tabulkami  
+## <a name="to-work-with-promoted-tables"></a>Práce s zvýrazněnými tabulkami  
 1. Zaškrtněte políčko **Zvýrazněná tabulka** a označte tabulku, která se často používá během procesu nastavení typickým zákazníkem, například tabulka **Finanční účet**. Pokud má tabulka toto označení, bude zákazník moci snadno filtrovat svůj sešit a zobrazit pouze seznam zvýrazněných tabulek, které vyžadují pozornost.  
 2. Chcete-li zobrazit filtrované zobrazení, vyberte akci **Pouze zvýrazněné**. Seznam tabulek obsahuje pouze ty tabulky, které mají zaškrtnuté políčko.  
 
-## <a name="to-assign-a-table-to-a-configuration-package"></a>Pro přiřazení tabulky konfiguračnímu balíčku  
+## <a name="to-assign-a-table-to-a-configuration-package"></a>Přiřazení tabulky konfiguračnímu balíčku  
 Po definování tabulek, které chcete považovat za součást vaší konfigurace, můžete tabulky snadno přiřadit konfiguračním balíčkům. Tabulku můžete přiřadit pouze k jednomu balíčku. V následujícím postupu přiřadíte balíček zevnitř konfiguračního sešitu.  
 
 > [!NOTE]  
@@ -106,7 +106,7 @@ Po definování tabulek, které chcete považovat za součást vaší konfigurac
     Pokud tabulka již není součástí balíčku, bude přidána nyní. Pole kódu balíčku na řádku sešitu bude vyplněno kódem balíčku, ke kterému je tabulka přiřazena.  
 4. Pokud vyberete existující balíček, můžete zjistit, kolik tabulek je již v balíčku, a to kontrolou informací v poli **Počet tabulek**.
 
-## <a name="to-review-or-customize-existing-database-data"></a>Pro zkontrolování nebo úpravu existujících dat databáze
+## <a name="to-review-or-customize-existing-database-data"></a>Zkontrolování nebo úprava existujících dat databáze
 Při vytváření konfiguračního balíčku pro řešení si můžete prohlížet a přizpůsobovat dostupná databázová data podle svých potřeb. Databázová tabulka musí mít přidruženou stránku.  
 
 1. Zvolte ikonu ![Vyhledat Stránku nebo Sestavu](media/ui-search/search_small.png "ikona Vyhledat stránku nebo sestavu"), klikněte na **Konfigurační sešit** a poté vyberte související odkaz.
@@ -118,7 +118,7 @@ Při vytváření konfiguračního balíčku pro řešení si můžete prohlíž
 3. Vyberte akci **Data databáze**. Otevře se okno pro související stránky.
 4. Zkontrolujte dostupné informace. Upravte ji podle potřeb odstraněním záznamů, které nejsou relevantní, nebo přidáním nových.    
 
-## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Pro kopírování dat z testovacího prostředí do produkčního prostředí  
+## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Kopírování dat z testovacího prostředí do produkčního  
 Po prověření a otestování všech vašich informací o nastavení můžete pokračovat v kopírování dat do produkčního prostředí. Ve stejné databázi vytvoříte novou společnost.
 
 1. Otevřete a inicializujte novou společnost.  

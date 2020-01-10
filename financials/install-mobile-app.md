@@ -13,10 +13,10 @@ ms.date: 06/02/2017
 ms.author: solsen
 ---
 
-# <a name="getting-business-central-on-your-mobile-device"></a>Získání Business Central pro mobilním zařízení
+# <a name="getting-business-central-on-your-mobile-device"></a>Získání Business Central pro mobilní zařízení
 Získejte přístup k datům v [!INCLUDE[d365fin](includes/d365fin_md.md)] z mobilního zařízení. Můžete procházet data vašeho podniku, používat funkce jako je odesílání do aplikace Excel nebo Office 365, prohlížení aktuálních grafů a KPI, e-mailových prodejních nabídek, faktur, fotografování a připojení snímků pomocí fotoaparátu. Chcete-li aplikaci stáhnout a začít, postupujte podle následujících pokynů.
 
-## <a name="to-get-the-app-on-my-mobile-device"></a>Získat aplikaci na svém mobilním zařízení
+## <a name="to-get-the-app-on-my-mobile-device"></a>Jak získat aplikaci na své mobilním zařízení
 1. Nainstalujte si aplikaci [!INCLUDE [d365fin](includes/d365fin_md.md)] na svém mobilním zařízení stažením z Windows Store, App Store nebo Google Play.  
    [![Windows Store](./media/install-mobile-app/windowsstore.png)](http://go.microsoft.com/fwlink/?LinkId=734848)
    [![App Store](./media/install-mobile-app/appstore.png)](http://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](http://go.microsoft.com/fwlink/?LinkId=734849)  
