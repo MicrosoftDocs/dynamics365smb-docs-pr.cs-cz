@@ -69,7 +69,7 @@ Zálohová faktura má svůj vlastní životní cyklus, který je definován sta
 - Modul nabízí nástroj pro provázání zálohových faktur s konečným dokladem.
 - Lze provést změnu/doplnění/zrušení provázání zálohové faktury s konečným dokladem před jeho zaúčtováním. 
 - Je možné provázat více zálohových faktur ke konečnému dokladu v jednom kroku.
-- Parametry nástroje lze ovlivnit způsob propojení konečného odkladu se zálohovými fakturami. .
+- Parametry nástroje lze ovlivnit způsob propojení konečného odkladu se zálohovými fakturami.
 - Pro lepší kontrolu/korekci daňového plnění konečné faktury byla rozšířena statistika objednávky a faktury o záložky informující o čerpání platby a zaplacené/nárokované DPH. 
 - Provedené čerpání zálohové faktury z konečné faktury lze stornovat se všemi účetními zápisy, kterými bylo čerpání účtováno. 
 - Při čerpání zálohové faktury v cizí měně dochází k vyčíslení kurzových rozdílů. 
