@@ -13,109 +13,109 @@ ms.author: v-pejano
 
 # Finance
 
-In the Czech Republic, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your Finance.
+V České republice jsou funkce [!INCLUDE[prodshort](../../includes/prodshort.md)], které můžete využít pro sledování a spravování svých financí.
 
-## Corrections Posting (Red Storno)
+## Opravné účtování (červené storno)
 
-According to legal requirements, costs and revenues are usually posted only to either the debit or the credit side of a G/L Account. Companies in Eastern Europe usually enforce accounting policy to post certain inventory and GL transactions as corrections. The reason for this is that auditors and revenue authorities conduct accounting controls against this rule.  
+Podle požadavků legislativy jsou náklady a výnosy obvykle účtovány pouze buď na stranu Má-dáti nebo Dal finančního účtu. Společnosti ve východní Evropě obvykle dodržují účetní zásady, podle kterých některé skladové a finanční transakce v hlavní knize musí být účtovány jako oprava. Důvodem je, že auditoři a finanční úřady provádějí účetní kontroly v souladu s tímto pravidlem. 
 
-The purpose of the feature is:  
-- To allow the Accounting Manager to enforce corrective posting on desired G/L Accounts  
-- To allow the Accounting Manager to enforce corrective posting in Inventory Postings (negative transfer entries, expected costs posting)  
-- To allow the Accounting Manager to enforce corrective posting of cancelling in Fixed Assets  
-- To allow the user to enforce corrective posting with just one click (G/L, Inventory and Jobs Postings)  
+Cíl této funkcionality je:
+- Umožnit hlavnímu účetnímu vynutit opravné účtování na požadovaných účtech hlavní knihy
+- Umožnit hlavnímu účetnímu vynutit opravné účtování zásob (záporné položky transferů, účtování očekávaných nákladů)
+- Umožnit hlavnímu účetnímu vynutit opravné účtování storna v dlouhodobém majetku
+- Umožnit uživatelům opravné účtovaní pouze jedním kliknutím (finance, zásoby a účtování projektů)
 
-## Statutory Company Information
+## Statutární informace o společnosti
 
-In the current times, many documents are circulating within and outside company structures. Minimum necessary requirements of such documents are set by local legislations. It is possible to divide such requirements approximately into 3 groups:
-- Company officials names need to be present on some internal and external documents
-- Document footers – majority of external documents have to contain basic company information in document footers, usually in company’s partner language
-- Registration numbers have to be visible in internal and external document
+V současné době, kolují mnohé doklady vně i uvnitř společnosti. Místní právní předpisy stanovují minimální požadavky na takové doklady. Tyto požadavky můžeme zhruba rozdělit do tří skupin:
+- Jména zástupců společnosti musí být uvedena na některých interních či externích dokladech
+- Zápatí dokumentů – většina externích dokumentů musí obsahovat základní informace o společnosti v zápatích dokumentů, obvykle v jazyce partnerské společnosti
+- Registrační čísla společnosti musí být viditelně uvedena v interních a externích dokumentech 
 
-This feature allows users to define company officials and designate them as General Manager, Accounting and Finance Managers for usage in internal and external documents.
-Users can define document footers in different languages. Such footers can be used in different reports and documents.
+Tato funkce umožňuje uživatelům definovat zástupce společnosti a nastavit je jako generálního ředitele, hlavní účetní a finančního manažera pro použití v interních a externích dokladech. 
+Uživatelé mohou definovat zápatí dokumentu v různých jazycích. Tato zápatí lze použít v různých sestavách a dokumentech.
 
-Additional company registration numbers and other registration information can be stored in Company Information and used in documents.
+Další registrační čísla společnosti a další registrační informace mohou být uloženy v Informacích o společnosti a používány v dokladech.
 
-## Internal Financial Documents
+## Interní účetní doklady
 
-Users perform General Ledger operations and must have the possibility to print documents for these operations with layout in compliance with the legal requirements.
-Users also want to print a document for posted General Ledger operations.
-For the reasons above, this feature provides the following reports:
-- General Journal – Test Report is used to print documents from G/L Journals
-- General Ledger Document Report is used to print posted General Ledger operations
+Uživatelé provádějí účetní operace a musí mít možnost tisknout takové dokumenty s účetními operacemi, které vzhledem i obsahem vyhovují požadavkům legislativy. 
+Uživatelé také chtějí tisknout dokumenty pro již zaúčtované účetní operace.
+Z výše uvedených důvodů tato funkce poskytuje následující sestavy: 
+- Finanční deník – test – sestava se používá pro tisk dokumentů z finančního deníku
+- Obecný účetní doklad – sestava – se používá k tisku zaúčtovaných účetních operací
 
-## Accounting Output Documents  
+## Účetní výstupní doklady
 
-In order to comply with the legislation, reporting features and local reporting practices of Czech companies, this feature provides the following reports:
-- General Journal
-- General Ledger
-- Accounting Sheets
-- Turnover report by Global Dimension
-- Open G/L Entries to date 
-- Inventory Account to date
-- Joining Bank Account Adjustment
-- Joining G/L Account Adjustment
-- G/L VAT Reconciliation
-- All payments on hold 
-- Open Customer Entries at date
-- Open Vendor Entries at date
-- Fiscal Year Balance – standard report adjusted
-- Trial Balance by Period – standard report adjusted
+Pro splnění nároků na výstupy odpovídající legislativním požadavkům a místním zvyklostem poskytuje tato funkcionalita následující sestavy: 
+- Finanční deník
+- Hlavní účetní kniha
+- Kontační lístky
+- Obratová předvaha dle glob. dimenze
+- Otevřené věcné položky do data
+- Inventura účtu do data
+- Vyrovnání bankovního účtu
+- Vyrovnání spojovacího konta
+- Odsouhlasení DPH – finance
+- Pozdržené platby
+- Otevřené položky zákazníka k datu
+- Otevřené položky dodavatelů k datu
+- Saldo fiskálního roku – upravená standardní sestava 
+- Předvaha podle období - upravená standardní sestava
 
-## Account Schedule Feature
+## Účetní schémata - rozšíření 
 
-As one of the most extensively used areas of application for analysis and reporting, Eastern European countries often ask for following improvements of standard Account Schedules feature:
-- Common list of expressions – common list of expressions contains named lines which can be used in formulas of all Account Schedules. This is done by defining one of the Account Schedules as a common list of expressions called Shared Account Schedule.
-- Saving results (current state) of analysis – this improvement allows user to store results of analysis done by using Account Schedules, modification of results and retrieval of results later on.
-- Formulas Drill Down – this improvement allows user to drill down the results of formulas. Drill-down is now accessible for Totalling Type – Formula. Drilling down the result of the formula shows the user a new form containing the list of elements used to calculate results and their description.
-- Additional Data Sources – apart from being able to perform analysis on GL Entries, the user can perform analysis on VAT, Customer, Vendor and Value entries.
+Pro jednu z nejvíce používaných oblastí aplikace pro analýzu a reporting vyžadují východoevropské země následující vylepšení funkcionality standardních účetních schémat: :
+- Společný seznam výrazů – společný seznam výrazů obsahuje pojmenované řádky, které lze použít jako vzorce pro všechna účetní schémata. Toho je docíleno definováním jednoho účetního schématu jako společného seznamu výrazů s názvem Sdílené účetní schéma.
+- Ukládání výsledků (současný stav) analýzy - toto vylepšení umožňuje uživateli ukládat výsledky analýzy provedené pomocí účetních schémat.
+- Analýza vzorců – toto rozšíření umožňuje uživateli analyzovat výsledky vzorců. Analýza je nyní dostupná i pro Typ součtu - Vzorec. Analýza výsledku vzorce zobrazí uživateli nový formulář obsahující seznam prvků použitých pro výpočet a jejich popis.
+- Další zdroje dat - kromě toho, že uživatelé mohou provádět analýzu na základě položek v hlavní knize, mohou nyní provádět i analýzy na základě položek DPH, položek zákazníků, položek dodavatelů a položek ocenění.
 
-## Statutory Statements
+## Statutární výkazy
 
-Companies have to create Financial Statements according to the Accounting Law 563/1991. They have to create the Balance Sheet and the Profit and Loss Statement. 
-This feature provides the following reports:
+Společnosti musí vytvořit účetní závěrku v souladu se zákonem o účetnictví č. 563/1991.  Musí vytvořit rozvahu a výkaz zisků a ztrát.
+Tato funkce poskytuje následující výkazy:
 
-- Balance Sheet 
-- Income Statement
+- Rozvaha
+- Výkaz zisku a ztráty
 
-These reports use the Account Schedule with the statement structure defined.
+Tyto výkazy používají účetní schémata s definovanou strukturou statutárních výkazů.
 
-The Acc. Schedule Name contains new fields in the Czech version:
-- Acc. Schedule Type – Balance Sheet or Income Statement
+V názvu účetních schémat je v české verzi přidáno nové pole:
+- Typ účetního schématu – Rozvaha nebo Výkaz zisku a ztráty
 
-The Acc. Schedule Line contains new fields in the Czech version:
-- Row Correction – link to other line for Balance Sheet setup
-- Assets/Liabilities Type – Assets or Liabilities for Balance Sheet setup
-- Calc – Always, Never, When positive, When Negative
+V řádku účetních schémat jsou v české verzi přidána nová pole:
+- Korekce řady – odkaz na jiný řádek pro sestavení Rozvahy
+- Typ Aktivní/Pasivní – Aktiva nebo pasiva pro sestavení Rozvahy
+- Vypočti – Vždy, Nikdy, Při kladné, Při záporné
 
-Balance Sheet and the Profit and Loss Statements are often prepared in Excel file templates with the necessary design for statement printout. Users want to map defined Account Schedules to prepared Excel templates.
+Rozvaha a Výkaz zisků a ztrát jsou často připravovány v šablonách souborů aplikace Excel s potřebným vzhledem pro vytištění výkazu. Uživatelé chtějí mít možnost mapovat definované účetní schémata do připravených šablon aplikace Excel.
 
-For the reasons above, this feature provides the new setup of Excel Templates and Statement File Mapping. Based on this setup users can export Account Schedule data to Excel file.
+Z výše uvedených důvodů tato funkce poskytuje nové nastavení šablon aplikace Excel a mapování položek výkazů. Na základě tohoto nastavení mohou uživatelé exportovat data účetních schémat do souboru aplikace Excel.
 
-## WIP Extended Posting
+## Rozšířené účtování nedokončené výroby 
 
-The Czech legal Work in Progress (WIP) posting scheme includes the following new General Ledger Accounts:
-- Consumption Account
-- Change in Inventory of WIP Account
-- Change in Inventory of Product Account  
+Česká legislativa používá při účtování nedokončené výroby následující nové finanční účty:
+- Účet spotřeby
+- Změna stavu nedokončené výroby
+- Změna stavu výrobků
 
-This feature allows you to correctly perform Czech WIP and Production extended posting. It is therefore possible to set up combination Location and Inventory posting group for the account of Consumption, Work in Progress, Change of Semi-finished Product, Change of Product.
-This new posting scheme is used in the following transactions:
-- Consumption Posting in the Posting Journal
-- Posting the Costs on Capacities in the Output Journal
-- Finishing Orders and Auto Reporting
+Tato funkce umožňuje správně provádět účtování nedokončené výroby a výroby dle českých účetních postupů. Díky ní je možno nastavit pro kombinace skladové lokace a účto skupiny zboží finanční účty pro spotřebu, změnu stavu nedokončené výroby i změnu stavu polotovarů a výrobků.
+Nový systém účtování je používán u následujících transakcí:
+- Účtování spotřeby v denících spotřeby 
+- Účtování nákladů výrobních operací ve výstupních denících
+- Dokončování výrobních zakázek
 
-## Additional Finance Features
+## Dodatečné finanční funkce
 
-Use the following table to learn more about the additional finance features that are available for the Czech Republic.
+Následující tabulka obsahuje další informace o dodatečných finančních funkcích, které jsou k dispozici pro Českou republiku.
 
 
-| Topic                                                     | Description                                                  |
+| Téma | Popis |
 | :-------------------------------------------------------- | :----------------------------------------------------------- |
-| [Year Closing Operations](year-close-operations.md)                        | To comply with accounting legislation at the end of the fiscal year, certain account books must be closed or opened. |
-| [General Ledger Entries Application](general-ledger-entries-application.md)                                    | Apart from application of Customer and Vendor Ledger Entries, a new functionality of General Ledger Entries Application has been introduced. Application of General Ledger Entries is typically used to allow companies to work with temporary and transfer accounts in the General Ledger. |
-| [Exchange Rate Updating](exchange-rate-update.md)                                    | Possibility to automatically update currency exchange rates from the external service provided by the ČNB (Czech National Bank). |
+| [Uzávěrkové operace ](year-close-operations.md) | Aby bylo možné dodržet účetní předpisy na konci fiskálního roku, musí být některé účetní knihy uzavřeny nebo otevřeny. |
+| [Použití věcných položek](general-ledger-entries-application.md) | Kromě použití položek zákazníka a dodavatele byla zavedena nová funkčnost aplikace věcných položek. Aplikace položek hlavní knihy se obvykle používá k tomu, aby společnostem umožnila pracovat s dočasnými účty a účty pro převod v hlavní knize. |
+| [Aktualizace směnného kurzu](exchange-rate-update.md) | Možnost automatické aktualizace směnných kurzů z externí služby poskytované ČNB (Česká národní banka). |
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)
+## Viz také
+[Česká lokální funkcionalita](czech-local-functionality.md)
