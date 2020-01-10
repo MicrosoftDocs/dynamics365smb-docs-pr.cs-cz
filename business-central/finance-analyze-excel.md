@@ -1,7 +1,7 @@
 ---
-title: Work with financial overviews in Excel | Microsoft Docs
-description: Learn about how you can open the financial statements in Microsoft Excel from Business Central  for better analysis.
-author: edupont04
+title: Práce s finančními přehledy v Excelu | Microsoft Docs
+description: Přečtěte si o tom, jak můžete otevřít finanční výkazy v aplikaci Microsoft Excel z aplikace Business Central pro lepší analýzu.
+author: ZdenekBicek
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,36 +9,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 01/09/2020
+ms.reviewer: v-zdbice
 ms.author: edupont
 
 ---
-# Analyzing Financial Statements in Microsoft Excel
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can see KPIs and get overviews of the company's financial state. You can also open lists in Excel and analyze the data there. But you can also export heavy financial statements such as the balance sheet or the income statement to Excel, analyze the data, and print the reports.  
+# Analýza účetních výkazů v aplikaci Microsoft Excel
 
-In the Business Manager and Accountant Role Centers, you can choose which financial statements to view in Excel from a drop-down menu in the Reports section of the ribbon. When you choose a statement, it will be opened in Excel or Excel Online. An add-in connects the data to [!INCLUDE[d365fin](includes/d365fin_md.md)]. However, you have to sign in with the same account that you use with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+V [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete vidět KPI a získat přehled o finančním stavu společnosti. Můžete také otevřít seznamy v Excelu a analyzovat data tam. Můžete však také exportovat těžké finanční výkazy, jako je rozvaha nebo výkaz zisku a ztráty, do Excelu, analyzovat data a tisknout sestavy.  
 
-## Getting the Overview and the Details in Excel
-In the ribbon, choose the relevant Excel report, and let it open so you can get the overview that you were looking for. In this version of [!INCLUDE[d365fin](includes/d365fin_md.md)], we offer the following Excel reports:
+V Centrech rolí Obchodní ředitel a Účtárna můžete z rozbalovací nabídky v části Sestavy na pásu karet vybrat, které finanční výkazy chcete zobrazit v Excelu. Pokud vyberete příkaz, otevře se v Excelu nebo Excelu online. Doplněk připojuje data k [!INCLUDE[d365fin](includes/d365fin_md.md)]. Musíte se však přihlásit pomocí stejného účtu, který používáte [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-- Balance Sheet  
-- Income Statement  
-- Cash Flow Statement  
-- Retained Earnings Statement  
-- Aged Accounts Payable  
-- Aged Accounts Receivable  
+## Získání přehledu a podrobností v Excelu
 
-Let's say you want to dig deeper into your cash flow. From the Business Manager or Accountant Role Center, you can open the Cash Flow Statement report in Excel, but what actually happens is that we export the relevant data for you and create an Excel workbook based on a predefined template. Depending on your browser, you might be prompted to open or save the workbook.  
+Na pásu karet vyberte příslušnou sestavu aplikace Excel a nechte ji otevřít, abyste získali přehled, který jste hledali. V této verzi [!INCLUDE[d365fin](includes/d365fin_md.md)] nabízíme následující sestavy Excel:
 
-In Excel, you see a tab where the data is laid out for you on the first worksheet. All the data that was exported is also present in other worksheets in case you need it. You can print the report right away, or you can modify it until you have the overview and the details that you want. Use the [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel Add-in to further filter and analyze data.  
+- Rozvaha  
+- Výsledovka  
+- Předpověď cashflow  
+- Výkaz nerozděleného zisku  
+- Splatné závazky  
+- Splatné pohledávky  
 
-## The [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel Add-in
-Your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience includes an add-in for Excel. Depending on your subscription, you are logged in automatically, or you must specify the same login details that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Řekněme, že se chcete zanořit hlouběji do svých peněžních toků. V Centru rolí Obchodní ředitel nebo Účtárna můžete otevřít přehled výkazu o peněžních tocích v Excelu, ale ve skutečnosti se stane, že exportujeme relevantní data a vytvoříme sešit aplikace Excel na základě předdefinované šablony. V závislosti na prohlížeči se může zobrazit výzva k otevření nebo uložení sešitu.
 
-With the add-in, you can get fresh data from [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can push changes back into [!INCLUDE[d365fin](includes/d365fin_md.md)]. However, the ability to push data back to the database is disabled for the financial Excel reports in the list above.  
+V Excelu se zobrazí karta, na které jsou data pro Vás uložena na prvním listu. Všechna data, která byla exportována, jsou také k dispozici v jiných listech pro případ, že je potřebujete. Můžete okamžitě vytisknout sestavu, nebo ji můžete upravit, dokud nebudete mít přehled a podrobnosti, které chcete. Použijte [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel Add-in k dalšímu filtrování a analýze dat.  
 
-## See Also
+## [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel Add-in
+
+Vaše [!INCLUDE[d365fin](includes/d365fin_md.md)] prostředí zahrnuje doplněk pro Excel. V závislosti na vašem předplatném jste automaticky přihlášeni nebo musíte zadat stejné přihlašovací údaje, jaké používáte pro [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+S doplňkem můžete získat nová data z [!INCLUDE[d365fin](includes/d365fin_md.md)], a můžete vrátit změny zpět do[!INCLUDE[d365fin](includes/d365fin_md.md)]. Možnost vrátit data zpět do databáze je však zakázána pro finanční sestavy Excel ve výše uvedeném seznamu.  
+
+## Viz také
+
 [Finance](finance.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-[The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with Business Central](ui-work-product.md)  
+[Nastavení financí](finance-setup-finance.md)  
+[Hlavní kniha a účtová osnova](finance-general-ledger.md)  
+[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
