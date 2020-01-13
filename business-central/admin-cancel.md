@@ -24,7 +24,7 @@ Pokud jste se zaregistrovali do bezplatné zkušební verze a nechcete pokračov
 
 Musíte požádat správce Office 365, aby odebral předplatné zkušební verze z účtu vaší společnosti v [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
-Pokud jste se zaregistrovali do účtu [!INCLUDE[d365fin](include/d365fin_md.md)] pomocí obchodního účtu jiného než Office 365, nemáte správce Office 365. Místo toho se musíte zrušit předplatné tím, že se obrátíte na tým pro zrušení účtu [!INCLUDE[d365fin](includes/d365fin_md.md)], zasláním e-mailové zprávy na cancelbusinesscentra@microsoft.com. Do zprávy musíte zahrnout jméno Vašeho tenant účtu [!INCLUDE[d365fin](includes/d365fin_md.md)], abychom vás mohli identifikovat.Tyto informace najdete na stránce **Nápověda a podpora**. Další informace viz [Zdroje nápovědy a podpory](product-help-and-support.md).
+Pokud jste se zaregistrovali do účtu [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí obchodního účtu jiného než Office 365, nemáte správce Office 365. Místo toho se musíte zrušit předplatné tím, že se obrátíte na tým pro zrušení účtu [!INCLUDE[d365fin](includes/d365fin_md.md)], zasláním e-mailové zprávy na cancelbusinesscentra@microsoft.com. Do zprávy musíte zahrnout jméno Vašeho tenant účtu [!INCLUDE[d365fin](includes/d365fin_md.md)], abychom vás mohli identifikovat.Tyto informace najdete na stránce **Nápověda a podpora**. Další informace viz [Zdroje nápovědy a podpory](product-help-and-support.md).
 
 ## Zrušení předplatného odebráním [!INCLUDE[d365fin](includes/d365fin_md.md)] z prostředí Office 365
 
