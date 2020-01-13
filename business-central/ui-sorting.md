@@ -17,8 +17,9 @@ redirect_url: ui-enter-criteria-filters
 Vyberte záhlaví sloupce a použijte malou šipku k vzestupnému nebo sestupnému řazení.  
 
 > [!NOTE]  
->   Řazení není podporováno u obrázků, polí typu BLOB, filtrů toku, a u polí, která nenáleží tabulce.
+> Řazení není podporováno u obrázků, polí typu BLOB, filtrů toku, a u polí, která nenáleží tabulce.
 
-## <a name="see-also"></a>Viz také
+## Viz také
+
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Třídění, vyhledávání a filtrování seznamů](ui-enter-criteria-filters.md)
+[Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md)

@@ -251,6 +251,8 @@ Můžete zadat data a časy do všech polí, která jsou specificky přiřazena 
 
 <!--OnPrem > [!CAUTION]  
 >  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
-## <a name="see-also"></a>Viz také  
- [Třídění, Vyhledávání a Filtrování Seznamů](ui-enter-criteria-filters.md)  
+
+## Viz také
+
+ [Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md)  
  [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
