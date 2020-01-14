@@ -14,7 +14,7 @@ ms.reviewer: v-zdbice
 ms.author: jswymer
 ---
 
-# Řazení, vyhledávání a filtrování seznamů
+# Řazení, vyhledávání a filtrování
 
 Existuje několik věcí, které můžete udělat, aby vám pomohly prohlížet, najít a omezit záznamy v seznamu nebo v sestavě či XML portu. Patří sem řazení, vyhledávání a filtrování. Některé nebo všechny z nich můžete použít současně pro rychlé nalezení nebo analýzu vašich dat.
 

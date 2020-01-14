@@ -18,7 +18,7 @@ Můžete například upravit velikost a polohu libovolné stránky, rozšířit 
 > [!TIP]
 > Chcete-li zobrazit přehled nejpoužívanějších funkcí pro tisk, vyberte následující obrázek a stáhněte si soubor PDF.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [![Cheat sheet](media/cheat_sheet_inline.png "Tipy pro produktivitu")](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Kromě obecných funkcí uživatelského rozhraní popsaných v této části můžete použít další obecné funkce, které více souvisejí s obchodováním. Další informace naleznete v části [Obecné obchodní funkce](ui-across-business-areas.md).
@@ -28,7 +28,7 @@ V následující tabulce jsou uvedeny některé obecné funkce s odkazy na téma
 | Funkce | Odkaz |
 | --- | --- |
 | Najděte konkrétní stránky, sestavy, akce, téma nápovědy nebo partnerské rozšíření. |[Použití funkce Řekněte mi k nalezení funkcí a informací](ui-search.md) |
-| Filtrujte data v pohledech, sestavách nebo funkcích pomocí speciálních symbolů a znaků. |[Třídění, vyhledávání a filtrování seznamů](ui-enter-criteria-filters.md) |
+| Filtrujte data v pohledech, sestavách nebo funkcích pomocí speciálních symbolů a znaků. |[Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md) |
 |Naučte se mnoho obecných funkcí, které vám pomohou rychle a snadno zadávat data.|[Vkládání dat](ui-enter-data.md)|
 | Zobrazte nebo zpracujte data z konkrétního časového období. |[Práce s kalendářními daty a časy](ui-enter-date-ranges.md) |
 |Naučte se, jak rychle zkopírovat a vložit data, včetně použití klávesových zkratek.|[Kopírování a vkládání](ui-copy-paste.md)|
