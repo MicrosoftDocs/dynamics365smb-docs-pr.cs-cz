@@ -125,7 +125,7 @@ Hlavní část **Filtr** zobrazuje výchozí pole filtru, která používáte k 
 
 V sekci **Filtrovat součty dle** můžete upravit různé dimenze, které ovlivňují výpočty v sestavě nebo XML portu. Chcete-li přidat filtr, vyberte akci **+ Filtr**, zadejte název pole, podle kterého chcete filtrovat, nebo vyberte pole z rozevíracího seznamu.
 
-## Zadávání kritérií filtru
+## <a name="entering-filter-criteria"> </a>Zadávání kritérií filtru
 
 V podokně filtru i na stránce dialogu zadáte kritéria filtru do pole pod filtrovaným polem.
 
@@ -190,31 +190,31 @@ Následující oddíly popisují, jak používat různé operátory.
 |--------------|--------------------|
 |`<1200`|Čísla menší než 1200|
 
-### (?=) Menší než nebo rovno
+#### (?=) Menší než nebo rovno
 
 |Ukázka vzorce|Zobrazené záznamy|
 |--------------|-------------------------------|
 |`<=1200`|Čísla menší než nebo rovno 1200|
 
-### (&) A
+#### (&) A
 
 |Ukázka vzorce|Zobrazené záznamy|
 |--------------|---------------------------------|
 |`>200&<1200`|Čísla větší než 200 a zároveň menší než 1200|
 
-### ('') Přesná shoda znaků
+#### ('') Přesná shoda znaků
 
 |Ukázka vzorce|Zobrazené záznamy|
 |-------------|-------------------------------- |
 |`'man'|Text, který přesně odpovídá vzorce man a rozlišuje velká a malá písmena.|
 
-### (@) Nerozlišující malá a velká písmena
+#### (@) Nerozlišující malá a velká písmena
 
 |Ukázka vzorce|Zobrazené záznamy|
 |-------------|-----------------|
 |`@man*`|Text, který začíná man a nerozlišuje velká a malá písmena.|
 
-### (*) Neomezený počet neznámých znaků
+#### (*) Neomezený počet neznámých znaků
 
 |Ukázka vzorce|Zobrazené záznamy|
 |-------------|---------------------------------- |
@@ -225,13 +225,13 @@ Následující oddíly popisují, jak používat různé operátory.
 > [!NOTE]  
 > Nemůžete použít `*` při filtrování pole Volba (Option), například pole **Stav** na prodejních objednávkách. Chcete-li zadat filtr pro tento typ pole, můžete zadat číselnou hodnotu jako parametr filtrování. Například v poli **Stav** na prodejní objednávce, která má hodnoty **Otevřeno**, **Vydáno**, **Čeká na schválení** a **Čeká na zálohu** použijte hodnoty `0`, `1`, `2` a `3` k filtrování těchto možností.
 
-### (?) Jeden neznámý znak
+#### (?) Jeden neznámý znak
 
 |Ukázka vzorce|Zobrazené záznamy|
 |-------------|----------------------------|
 |`Hans?n`|Text jako Hansen nebo Hanson|
 
-### Vzorce v kombinovaném formátu
+#### Vzorce v kombinovaném formátu
 
 |Ukázka vzorce|Zobrazené záznamy|
 |-------------|------------------------------- |
@@ -239,14 +239,14 @@ Následující oddíly popisují, jak používat různé operátory.
 |`..1299|1400..`|Obsahuje záznamy s číslem menším nebo rovným 1299 nebo číslem rovnajícím se 1400 nebo větším (všechna čísla kromě 1300 až 1399).|
 |`>50&<100`|Obsahuje záznamy s čísly, které jsou větší než 50 a menší než 100 (čísla 51 až 99).|
 
-## Tokeny filtru
+### <a name="FilterTokens"> </a>Tokeny filtru
 
 Při zadávání kritérií filtru můžete také psát slova se zvláštním významem, která se nazývají tokeny filtru. Po zadání tokenového slova je slovo nahrazeno hodnotou nebo hodnotami, které představuje. Usnadňuje se tím filtrování snížením potřeby přejít na jiné stránky a vyhledat hodnoty, které chcete do filtru přidat. Níže uvedené tabulky popisují některé tokeny, které můžete zadat jako kritéria filtru.
 
 > [!TIP]
 > Vaše organizace může používat vlastní tokeny. Chcete-li se dozvědět více o kompletní sadě tokenů, které máte k dispozici, nebo přidat další vlastní tokeny, obraťte se na svého správce. Pro více informací navštivte [Přidání tokenů filtru](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-### (%me nebo %userid) Záznamy, které jsou přiřazeny vám
+#### (%me nebo %userid) Záznamy, které jsou přiřazeny vám
 
 Použijte `%me` nebo `%userid` při filtrování polí, která obsahují ID uživatele, například pole **Přiřazené ID uživatele**, pro zobrazení všech záznamů, které jsou vám přiřazeny.
 
@@ -254,7 +254,7 @@ Použijte `%me` nebo `%userid` při filtrování polí, která obsahují ID uži
 |-------------------|---------------------------------|
 |`%me`<br />nebo<br />`%userid`|Záznamy, které jsou přiřazeny k vašemu uživatelskému účtu.|
 
-### (%mycustomers) Zákazníci v Mí zákazníci
+#### (%mycustomers) Zákazníci v Mí zákazníci
 
 Pomocí `%mycustomers` v poli **Číslo zákazníka** zobrazíte všechny záznamy pro zákazníky, kteří jsou zahrnuti do seznamu **Mí zákazníci** v centru rolí.
 
@@ -262,7 +262,7 @@ Pomocí `%mycustomers` v poli **Číslo zákazníka** zobrazíte všechny zázna
 |-------------|------------------------------------|
 |`%mycustomers`|Zákazníci v **Mí zákazníci** ve vašem centru rolí.|
 
-### (%myitems) Zboží v Mé zboží
+#### (%myitems) Zboží v Mé zboží
 
 Pomocí `%myitems` v poli **Číslo zboží** zobrazíte všechny záznamy pro zboží, které jsou zahrnuty do seznamu **Mé zboží** v centru rolí.
 
@@ -270,7 +270,7 @@ Pomocí `%myitems` v poli **Číslo zboží** zobrazíte všechny záznamy pro z
 |-------------|---------------------------------------|
 |`%myitems`|Zboží v **Mé zboží** ve vašem centru rolí.|
 
-### (%myvendors) Dodavatelé v Mí dodavatelé
+#### (%myvendors) Dodavatelé v Mí dodavatelé
 
 Pomocí `%myvendors` v poli **Číslo dodavatele** zobrazíte všechny záznamy pro dodavatele, které jsou zahrnuty do seznamu **Mí dodavatelé** v centru rolí.
 
