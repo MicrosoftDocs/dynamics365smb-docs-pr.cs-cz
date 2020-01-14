@@ -34,9 +34,9 @@ Možná jste už obeznámeni s použitím klávesy **Tab** pro posun z jednoho p
 
 ### Jak funguje rychlý vstup
 
-Každé pole lze označit buď jako *zahrnuté do Rychlého vstupu* nebo *vyjmuté z Rychlého vstupu*. Pole, která jsou zahrnuta v **Rychlém vstupu**, budou zahrnuta do cesty, když stisknete **Enter** a pole, která jsou vyloučena z **Rychlého vstupu*, nebudou.
+Každé pole lze označit buď jako *zahrnuté do Rychlého vstupu* nebo *vyjmuté z Rychlého vstupu*. Pole, která jsou zahrnuta v **Rychlém vstupu**, budou zahrnuta do cesty, když stisknete **Enter** a pole, která jsou vyloučena z **Rychlého vstupu**, nebudou.
 
-Když dokončíte zadávání dat do pole, stačí stisknout **Enter** pro potvrzení změn a přejít na další pole. Pokud chcete změnit směr a přejít na předchozí pole, stiskněte **Shift+Enter**. Další informace o klávesových zkratkách naleznete v části [Klávesové zkratky pro rychlé zadání polí](keyboard-shortcuts.md#QuickEntry).
+Když dokončíte zadávání dat do pole, stačí stisknout **Enter** pro potvrzení změn a přejít na další pole. Pokud chcete změnit směr a přejít na předchozí pole, stiskněte **Shift+Enter**. Další informace o klávesových zkratkách naleznete v části [Klávesové zkratky](keyboard-shortcuts.md#QuickEntry).
 
 #### Tipy a triky
 
@@ -96,9 +96,9 @@ To je zvláště výhodné při práci s velkými seznamy řádkových záznamů
 
 ### Zapnutí a vypnutí režimu detailu
 
-Chcete-li zapnout režim detailu na řádkové záznamy, klepněte kdekoli v části řádkové položky a poté v pravém horním rohu vyberte ![Ikona režimu ostření](media/focus-mode.png "Ikona režimu ostření") nebo stiskněte **Ctrl+Shift+F12**.
+Chcete-li zapnout režim detailu na řádkové záznamy, klepněte kdekoli v části řádkové položky a poté v pravém horním rohu vyberte ![Ikona režimu detailu](media/focus-mode.png "Ikona režimu detailu") nebo stiskněte **Ctrl+Shift+F12**.
 
-Chcete-li přepnout zpět do normálního zobrazení, zvolte ![Ikona režimu ostření](media/focus-mode.png "Ikona režimu ostření") nebo stiskněte znovu **Ctrl+Shift+F12**.
+Chcete-li přepnout zpět do normálního zobrazení, zvolte ![Ikona režimu detailu](media/focus-mode.png "Ikona režimu detailu") nebo stiskněte znovu **Ctrl+Shift+F12**.
 
 ## Multitasking na více stránkách
 
@@ -203,7 +203,7 @@ Následující tabulka uvádí různé způsoby, jak můžete zadat data a časy
 |d čas|dnešní aktuální datum a čas|  
 |d 10:30|dnešní datum 10:30:00|  
 |d 3:3:3|dnešní datum 3:03:03|  
-|p|pracovní datum 00:00:00|  
+|p nebo pracovní|pracovní datum 00:00:00|  
 |po nebo pondělí|Pondělí aktuálního týdne 00:00:00|  
 |út nebo úterý|Úterý aktuálního týdne 00:00:00|  
 |st nebo středa|Středa aktuálního týdne 00:00:00|  
@@ -220,7 +220,7 @@ Trvání zadáte jako číslo následované jeho měrnou jednotkou.
 
 Zde jsou nějaké příklady.  
 
-|Doba trvání|Měrná jednotka**|  
+|Doba trvání|Měrná jednotka|  
 |------------------|-------------------------|  
 |2h|2 hod|  
 |6h 30m|6 hod 30 min|  
