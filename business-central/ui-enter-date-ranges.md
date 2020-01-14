@@ -362,7 +362,8 @@ Chcete-li vidět, jaká měrná jednotka se používá v poli trvání, zadejte 
 Například pokud jsou měrnou jednotkou hodiny, číslo `5` se převede na 5 hodin.
 
 
-## <a name="see-also"></a>Viz také
+## Viz také
+
 [Práce s [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Výpočet data pro nákupy](purchasing-date-calculation-for-purchases.md)  
-[Zadávání kritérií ve filtrech ](ui-enter-criteria-filters.md)  
+[Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md)  
