@@ -227,7 +227,7 @@
 
 ## Používání Power Automate s Business Central
 ### [Použití Business Central v automatickém workflow](across-how-use-financials-data-source-flow.md)
-## Using Power Apps with Business Central
+## Použití Power Apps s Business Central
 ### [Připojení k centrálním obchodním datům pro vytvoření obchodní aplikace pomocí PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Přechod z QuickBooks App na Microsoft Business Central](across-quickbooks-to-business-edition.md)
 ## [Získání Business Central pro mobilním zařízení](install-mobile-app.md)
@@ -248,7 +248,7 @@
 ## [Definice uživatelských úkolů](across-user-tasks.md)
 ## [Export vašich obchodních dat do Excelu](about-export-data.md)
 ## [Účtování dokladů a deníků](ui-post-documents-journals.md)
-## [Post Multiple Documents at the Same Time](ui-batch-posting.md)
+## [Současné zaúčtování více dokladů](ui-batch-posting.md)
 ## [Zobrazení výsledků účtování](ui-how-preview-post-results.md)
 ## [Úprava účtovaných dokladů](across-edit-posted-document.md)
 ## [Práce s finančními deníky](ui-work-general-journals.md)
@@ -731,8 +731,8 @@
 ## [Návod: Nastavení a použití workflow schvalování nákupů](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ## [Návod: Příjem a zaskladnění v základních konfiguracích skladu](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ## [Návod: Příjem a zaskladnění v rozšířených konfiguracích skladu](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-## [Návod: Ruční plánování nabídek](walkthrough-planning-supplies-manually.md)
-## [Návod: Automatické plánování nabídek](walkthrough-planning-supplies-automatically.md)
+## [Návod: Ruční plánování dodávek](walkthrough-planning-supplies-manually.md)
+## [Návod: Automatické plánování dodávek](walkthrough-planning-supplies-automatically.md)
 ## [Návod: Prodejní, montážní a přepravní sestavy](walkthrough-selling-assembling-and-shipping-kits.md)
 ## [Návod: Správa projektů pomocí úloh](walkthrough-managing-projects-with-jobs.md)
 ## [Návod: Výpočet nedokončené výroby projektu](walkthrough-calculating-work-in-process-for-a-job.md)
@@ -740,7 +740,7 @@
 ## [Návod: Sledování sériových čísel](walkthrough-tracing-serial-lot-numbers.md)
 ## [Návod: Tvorba prognóz cashflow pomocí účetních schémat](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
-# Podrobnosti návrhu
+# Detaily návrhu
 ## [Přehled](design-details-application-design.md)
 ## Detaily návrhu: Plánování dodávek
 ### [Přehled](design-details-supply-planning.md)
@@ -1465,8 +1465,8 @@
 #### [Jak spravovat úvěrové informace zákazníka](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)
 #### [Tisk sestav - Poradce při potížích](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Odesílání regulačních výstrah](submit-regulatory-alerts.md)
-# Soulad
+# Dodržování předpisů
 ## [Přehled](compliance/compliance-overview.md)
-## [Soulad aplikace](compliance/compliance-application-compliance.md)
-## [Soulad se službami](compliance/compliance-service-compliance.md)
+## [Dodržování předpisů - aplikace](compliance/compliance-application-compliance.md)
+## [Dodržování předpisů - služby](compliance/compliance-service-compliance.md)
 ## [Certifikace](compliance/compliance-certifications.md)
