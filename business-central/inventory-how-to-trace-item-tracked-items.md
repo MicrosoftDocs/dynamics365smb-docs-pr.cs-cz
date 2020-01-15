@@ -13,7 +13,7 @@ ms.search.keywords: null
 ms.date: 10/01/2018
 ms.author: sgroespe
 ---
-# <a name="trace-item-tracked-items"></a>Sledování zboží
+# <a name="trace-item-tracked-items"></a>Trasování zboží
 Můžete vidět, kde bylo sledované zboží použito, včetně toho, jak a kdy bylo přijaté nebo vyrobené, přenesené, prodané, spotřebované nebo vrácené. V databázi najdete také všechny aktuální instance konkrétního sériového čísla nebo čísla šarže. To provedete pomocí funkce Trasování zboží a Navigace.  
 
  Tyto funkce mohou být zvláště užitečné při kontrole kvality, když potřebujete zjistit, kteří zákazníci obdrželi produkty s konkrétním číslem šarže nebo když potřebujete zjistit, z které šarže pochází vadná komponenta.  

@@ -31,26 +31,26 @@ Prodejní doklady mohou být odeslány jako soubory PDF připojené k e-mailu. T
 
 Do všech prodejních procesů můžete zahrnout workflow schvalování, které například vyžaduje, aby byl velký prodej určitým zákazníkům schválen finančním manažerem. Pro více informací navštivte [Použití Workflow](across-use-workflows.md).
 
-Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.
+Následující tabulka popisuje přehled úloh s odkazy na témata, které je popisují.
 
 | Funkce | Odkaz |
 | --- | --- |
 |Vytvořte kartu zákazníka pro každého zákazníka, kterému prodáváte.|[Evidence nových zákazníků](sales-how-register-new-customers.md)|
 |Vytvořte prodejní nabídku, kde nabízíte produkty za obchodovatelných podmínek, před převodem nabídky na prodejní fakturu.|[Vytvoření prodejní nabídky](sales-how-make-offers.md) |
-|Vytvořte prodejní fakturu za účelem potvrzení smlouvy se zákazníkem za účelem prodeje produktů za určité dodací a platební podmínky.|[Fakturace prodeje](sales-how-invoice-sales.md) |
+|Vytvořte prodejní fakturu za účelem potvrzení smlouvy se zákazníkem za účelem prodeje produktů s určitými dodacími a platebními podmínkami.|[Fakturace prodeje](sales-how-invoice-sales.md) |
 |Zpracujte prodejní objednávku, která zahrnuje částečné dodání nebo přímou dodávku.|[Prodej produktů](sales-how-sell-products.md) |
 |Pochopte, co se stane, když zaúčtujete prodejní doklady.|[Účtování prodeje](ui-post-sales.md) |
 |Nastavte standardní prodejní nebo nákupní řádky, které můžete rychle vložit do dokladů, například pro opakující se objednávky na doplnění zásob.|[Vytvořit opakující se prodejní a nákupní řádky](sales-how-work-standard-lines.md)|  
 |Propojte prodejní objednávku s nákupní objednávkou pro prodej zboží pomocí přímé dodávky, kdy bude zboží dodáno přímo od vašeho dodavatele k zákazníkovi. |[Vytvoření přímé dodávky](sales-how-drop-shipment.md) |
 |Máte katalogové zboží od dodavatele dodané do vašeho skladu, aby bylo možné dodat zboží zákazníkovi.|[Vytvoření speciální objednávky](sales-how-to-create-special-orders.md)|
-|Proveďte akce u nezaplacené zaúčtované prodejní faktury za účelem automatického vytvoření dobropisu a stornování prodejní faktury nebo jejího opětovného vytvoření, aby bylo možné provést opravy.|[Opravit nebo zrušit nezaplacené prodejní faktury](sales-how-correct-cancel-sales-invoice.md) |
+|Proveďte akce u nezaplacené zaúčtované prodejní faktury pro automatického vytvoření dobropisu a stornování prodejní faktury nebo jejího opětovného vytvoření, aby bylo možné provést opravy.|[Opravit nebo zrušit nezaplacené prodejní faktury](sales-how-correct-cancel-sales-invoice.md)|
 |Vytvořte prodejní dobropis pro vrácení určité zaúčtované prodejní faktury, který odráží produkty vrácené zákazníkem a částku platby, kterou budete refundovat.|[Zpracování prodejní vratky nebo storna](sales-how-process-sales-returns-cancellations.md) |
 |Spravujte závazek zákazníka nakupovat velká množství dodávaná v několika zásilkách v průběhu času.|[Práce s hromadnými prodejními objednávkami](sales-how-to-create-blanket-sales-orders.md)|
 |Prodej montovaného zboží, které momentálně není k dispozici, vytvořením propojení na montážní zakázku pro dodání celkového nebo dílčího množství na prodejní objednávce.|[Prodej zboží montovaného na zakázku](assembly-how-to-sell-items-assembled-to-order.md)|
 |Fakturujte zákazníkovi jednou za více dodávek kombinováním dodávek do jedné faktury.|[Kombinování dodávek do jedné faktury](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Informujte své zákazníky o datech dodání výpočtem buď data "možné slíbit", nebo data "lze slíbit".|[Výpočet data příslibu objednávek](sales-how-to-calculate-order-promising-dates.md)|
 |Zaregistrujte své odhady budoucích prodejů dle zboží a období, aby fungovaly hlavně jako vstup do plánování výroby.|[Vytvořte prognózy](production-how-to-create-a-forecast.md)|
-|Řešení konfliktu, pokud existují dva nebo více záznamů pro stejného zákazníka.|[Sloučit duplicitní záznamy](sales-how-merge-duplicate-records.md)|
+|Vyřešte konflikt, pokud existují dva nebo více záznamů pro stejného zákazníka.|[Sloučit duplicitní záznamy](sales-how-merge-duplicate-records.md)|
 
 ## Navštivte související školení na [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
 
