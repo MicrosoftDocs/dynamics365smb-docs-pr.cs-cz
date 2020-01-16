@@ -25,7 +25,7 @@ Pokud si zaregistrujete [!INCLUDE[d365fin](includes/d365fin_md.md)], dostanete p
 V [!INCLUDE[d365fin](includes/d365fin_md.md)], Vám některé věci budou známy a jiné zase ne. Některé rychlé, příjemné triky naleznete v:  
 
 * [Vyhledávání funkcí](ui-search.md)  
-* [Vyhledávání, filtrování a řazení seznamů](ui-enter-criteria-filters.md)  
+* [Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md)  
 * [Vkládání dat](ui-enter-data.md)  
 
 Pro další informace se podívejte na [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  

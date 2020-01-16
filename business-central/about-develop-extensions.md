@@ -49,7 +49,7 @@ S cílem pomoci podnikovým uživatelům začít rychle, přidala společnost Mi
 
 ### Vývoj vertikálního řešení
 
-Vytvořte aplikaci, která se specializuje na konkrétní odvětví. S [vloženou aplikací](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps) můžete rozšířit a upravit existující [!INCLUDE[d365fin](includes/d365fin_md.md)] a obohatit koncového uživatele oborově specifickými funkcemi pomocí nových a moderních vývojářských nástrojů a Extensions v2.0. Naučte se více o [Vývoji vertikálního řešení](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical).
+Vytvořte aplikaci, která se specializuje na konkrétní odvětví. Se [začleněnou aplikací](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps) můžete rozšířit a upravit existující [!INCLUDE[d365fin](includes/d365fin_md.md)] a obohatit koncového uživatele oborově specifickými funkcemi pomocí nových a moderních vývojářských nástrojů a Extensions v2.0. Naučte se více o [Vývoji vertikálního řešení](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical).
 
 ### Vývoj horizontálního řešení
 

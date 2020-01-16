@@ -24,6 +24,7 @@ Dávková úloha je jako sestava, s tou výjimkou, že dávková úloha použív
 3. Stránka může obsahovat jeden nebo více Záložek s náhledem s filtry, které můžete použít k omezení dat obsažených v dávkové úloze. Do navrhovaných filtrů můžete zadat kritéria nebo přidat další filtry.
 4. Zvolte tlačítko **OK** pro Začátek dávkové úlohy.
 
-## <a name="see-also"></a>Viz také
-[Třídění, vyhledávání a filtrování seznamů](ui-enter-criteria-filters.md)  
+## Viz také
+
+[Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

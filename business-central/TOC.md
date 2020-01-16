@@ -7,32 +7,47 @@
 ## [Zdroje informací pro nápovědu a podporu](product-help-and-support.md)
 ## [Příprava obchodování](ui-get-ready-business.md)
 ## [Přehled obchodních funkcionalit](across-business-functionality.md)
-## [Vyzkoušení  ](across-preview.md)
-## [Zrušení odběru, odebrání nebo obnovení Business Centralu](admin-cancel.md)
-## [Odstraňování problémů Samoobslužného přihlašování](ui-troubleshoot-self-signup.md)
-## [Váš přístup k inteligentnímu Cloudu s Business Central](about-intelligent-cloud.md)
+## [Váš přístup k inteligentnímu cloudu pomocí Business Central](about-intelligent-cloud.md)
 ## [Navštivte naši video knihovnu](across-videos.md)
-## [Staňte se prodejcem](product-sell.md)
-## [Rozšíření Business Central](about-develop-extensions.md)
-## [Rozšíření Business Central od jiných poskytovatelů](ui-extensions-other.md)
+## Zkušební verze a předplatné
+### [Přehled](across-preview.md)
+### [Registrace ke službě samoobslužného řešení problémů](ui-troubleshoot-self-signup.md)
+### [Prodloužení zkušební verze](admin-extend-trial.md)
+### [Odhlásit nebo odebrat Business Central](admin-cancel.md)
+## Najděte školení
+### [Katalog vzdělávání](readiness/readiness-learning-catalog.md)
+### [Katalog vzdělávání pro manažery](readiness/readiness-learning-bus-decision-makers.md)
+### [Katalog vzdělávání uživatele](readiness/readiness-learning-bus-users.md)
+### [Katalog vzdělávání vývojáře](readiness/readiness-learning-developers.md)
+### [Katalog vzdělávání pro konzultanty](readiness/readiness-learning-functional-consultants.md)
+### [Katalog vzdělávání Pre-sales](readiness/readiness-learning-presales.md)
+### [Katalog vzdělávání pro obchod](readiness/readiness-learning-sales.md)
+## Prodejci a partneři
+### [Staň se prodejcem](product-sell.md)
+### [Rozšíření Business Central](about-develop-extensions.md)
 
 # Práce s Business Central
 ## [Přehled](ui-work-product.md)
+## [Tahák pro tisk](ui-work-product.md)
 ## [Hledání funkcí a informací](ui-search.md)
+## [Hledání stránek pomocí Průzkumníka rolí](ui-role-explorer.md)
 ## [Nejčastější dotazy](ui-search-faq.md)
-## [Řazení, vyhledávání a filtrování seznamů](ui-enter-criteria-filters.md)
-## [Nejčastější dotazy týkající se vyhledávání a filtrování](ui-search-filter-faq.md)
+## [Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md)
+## [Vyhledávání a filtrování nejčastějších dotazů](ui-search-filter-faq.md)
 ## [Zadávání dat](ui-enter-data.md)
+## [Kopírování a vkládání FAQ](ui-copy-paste.md)
 ## [Práce s kalendářním datem a časy](ui-enter-date-ranges.md)
-## [Kopírování a vkládání](ui-copy-paste.md)
 ## [Detekce povinných polí](ui-mandatory-fields.md)
 ## [Změna jazyka a oblasti](about-locale-language.md)
 ## [Zobrazení a úpravy v aplikaci Excel](across-work-with-excel.md)
 ## [Správa upozornění](ui-smart-notifications.md)
 ## [Změna základního nastavení](ui-change-basic-settings.md)
+## [Správa upozornění](ui-smart-notifications.md)
 ## Přizpůsobení Business Central
 ### [Přizpůsobení Vašeho pracovního prostoru](ui-personalization-user.md)
 ### [Proč je stránka uzamčena pro přizpůsobení](ui-personalization-locked.md)
+### [Uložení a přizpůsobení zobrazení seznamu](ui-views.md)
+### [Přidání akce stránky do svého centra rolí](ui-bookmarks.md)
 ### [Různé způsoby zobrazení seznamů](across-display-lists-different-views.md)
 ## Tisk sestav a spuštění dávkových úloh
 ### [Práce se sestavami a dávkovými úlohami](ui-work-report.md)
@@ -46,6 +61,7 @@
 ### [Aktualizace rozvržení sestav a dokladů](ui-update-report-layouts.md)
 ### [Provádění změn v rozvržení sestavy aplikace Word](ui-how-create-custom-report-layout.md)
 ### [Importování a exportování vlastního rozvržení sestavy nebo dokladu](ui-how-import-and-export-report-layout.md)
+### [Aktualizace vlastních rozvržení sestav](ui-update-report-layouts.md)
 ### [Změna rozvržení, které je aktuálně použito v sestavě](ui-how-change-layout-currently-used-report.md)
 ### [Přidání pole do rozvržení sestavy aplikace Word](ui-how-add-fields-word-report-layout.md)
 ## Použití klávesových zkratek
@@ -126,7 +142,6 @@
 ### [Definice metod odpisování](fa-depreciation-methods.md)
 ### [Nastavení pojištění dlouhodobého majetku](fa-how-setup-insurance.md)
 ### [Nastavení údržby dlouhodobého majetku](fa-how-setup-maintenance.md)
-
 ## Nastavení správy skladu
 ### [Přehled](warehouse-setup-warehouse.md)
 ### [Detaily návrhu: Přehled skladu](design-details-warehouse-overview.md)
@@ -200,6 +215,7 @@
 ### [Migrace zákaznických dat](admin-migrate-customer-data.md)
 ### [Vytvoření vlastních konfiguračních balíčků společnosti](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tipy a triky: Služby RapidStart](admin-tips-and-tricks-rapidstart-services.md)
+
 ## Používání aplikace Outlook s aplikací Business Central
 ### [Použití aplikace Business Central jako složky Doručená pošta v aplikaci Outlook](admin-outlook.md)
 ### [Synchronizace s kontakty aplikace Microsoft Outlook](admin-synchronize-outlook-contacts.md)
@@ -208,10 +224,11 @@
 ### [Povolení obchodních dat pro Power BI](admin-powerbi.md)
 ### [Zobrazení dat seznamu v Power BI Reports v Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Použití Business Central jako zdroje dat Power BI](across-how-use-financials-data-source-powerbi.md)
-## Používání Flow s Business Central
+
+## Používání Power Automate s Business Central
 ### [Použití Business Central v automatickém workflow](across-how-use-financials-data-source-flow.md)
-### [Integrace Poradce při potížích s Microsoft Flow - URL požadavku je příliš dlouhé](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Připojení k centrálním obchodním datům pro vytvoření obchodní aplikace pomocí PowerApps](across-how-use-financials-data-source-powerapps.md)
+## Použití Power Apps s Business Central
+### [Připojení k centrálním obchodním datům pro vytvoření obchodní aplikace pomocí PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Přechod z QuickBooks App na Microsoft Business Central](across-quickbooks-to-business-edition.md)
 ## [Získání Business Central pro mobilním zařízení](install-mobile-app.md)
 ## [Hromadná fakturace pro Microsoft Bookings](finance-bookings.md)
@@ -229,10 +246,9 @@
 ## [Archivování dokladů](across-how-to-archive-documents.md)
 ## [Přidat rozšířený text](ui-how-define-ext-text.md)
 ## [Definice uživatelských úkolů](across-user-tasks.md)
-## [Přidání odkazů na webové stránky, dokumenty nebo programy v záznamech](ui-how-add-link-to-record.md)
-## [Připojení souboru ke kartám a dokladům](across-attach-document-master-data.md)
 ## [Export vašich obchodních dat do Excelu](about-export-data.md)
 ## [Účtování dokladů a deníků](ui-post-documents-journals.md)
+## [Současné zaúčtování více dokladů](ui-batch-posting.md)
 ## [Zobrazení výsledků účtování](ui-how-preview-post-results.md)
 ## [Úprava účtovaných dokladů](across-edit-posted-document.md)
 ## [Práce s finančními deníky](ui-work-general-journals.md)
@@ -304,8 +320,9 @@
 
 # Správa
 ## [Přehled](admin-setup-and-administration.md)
+## [Vytváření uživatelů podle licencí](ui-how-users-permissions.md)
+## [Přiřazení oprávnění uživatelům a skupinám](ui-define-granular-permissions.md)
 ## [Principy uživatelů, rolí a profilů](admin-users-profiles-roles.md)
-## [Správa uživatelů a práv](ui-how-users-permissions.md)
 ## [Klasifikace citlivosti dat](admin-classifying-data-sensitivity.md)
 ## [Odpověď na žádost o osobní informace](admin-responding-to-requests-about-personal-data.md)
 ## [Vytváření nových společností](about-new-company.md)
@@ -318,6 +335,38 @@
 ## [Prodloužení zkušební verze ](admin-extend-trial.md)
 ## [Prohlídka stránek](across-inspect-page.md)
 ## [Vytváření prostředí Sandbox](across-how-create-sandbox-environment.md)
+## Přizpůsobení Business Central
+### [Přehled](ui-customizing-overview.md)
+### [Správa personalizace jako správce](ui-personalization-manage.md)
+### [Změna zobrazovaných funkcí](ui-experiences.md)
+### [Nastavení barevného indikátoru na hromádkách](admin-how-set-up-colored-indicator-on-cues.md)
+### Přizpůsobení pomocí rozšíření
+#### [Přehled](ui-extensions.md)
+#### [Přizpůsobení pomocí rozšíření](ui-extensions.md)
+#### [Účetní portál pro Business Central](ui-extensions-accountant-portal.md)
+#### [Ceridian Mzdy](ui-extensions-ceridian-payroll.md)
+#### [Migrace dat Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
+#### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+#### [Základní obchodní informace](ui-extensions-essential-business-insights.md)
+#### [Analyzátor obrázků](ui-extensions-image-analyzer.md)
+#### [Inteligentní Cloud](ui-extensions-data-replication.md)
+#### [Inteligentní Cloud Base](ui-extensions-intelligent-cloud.md)
+#### [Předpovědi pozdních plateb](ui-extensions-late-payment-prediction.md)
+#### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+#### [Standard plateb služby PayPal](ui-extensions-paypal-payments-standard.md)
+#### [Migrace dat QuickBooks](ui-extensions-quickbooks-data-migration.md)
+#### [Migrace dat QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
+#### [Import souboru Quickbooks Payroll](ui-extensions-quickbooks-payroll.md)
+#### [Prognóza prodeje a zásob](ui-extensions-sales-forecast.md)
+#### [AMC Banking 365 rozšíření](ui-extensions-amc-banking.md)
+#### [WorldPay Platební Standard](ui-extensions-worldpay-payments-standard.md)
+#### [DK - C5 Migrace dat](ui-extensions-c5-data-migration.md)
+#### [DK - Platby a vyrovnání](ui-extensions-payments-reconciliation-formats-dk.md)
+#### [DK - formáty daňových souborů](ui-extensions-tax-file-formats-dk.md)
+#### [UK - GetAddress.io UK Poštovní směrovací čísla](ui-extensions-getaddressio.md)
+#### [US/CA/UK/AU/NZ/ZA - Odeslání upozornění na úhradu](ui-extensions-send-remittance-advice.md)
+#### [Rozšíření Business Central od jiných poskytovatelů](ui-extensions-other.md)
+
 ## Integrace s Dynamics 365 for Sales
 ### [Přehled](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ### [Nastavení uživatelských účtů pro integraci s Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
@@ -327,36 +376,6 @@
 ### [Ruční synchronizace mapování tabulek](admin-manual-synchronization-of-table-mappings.md)
 ### [Plánování synchronizace](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Odstraňování potíží s chybami synchronizace](admin-troubleshoot-sales-synchronization.md)
-## Přizpůsobení Business Central
-### [Přehled](ui-customizing-overview.md)
-### Přizpůsobení pomocí rozšíření
-#### [Přehled](ui-extensions.md)
-#### [Přizpůsobení pomocí rozšíření](ui-extensions.md)
-#### [Účetní portál pro Business Central](ui-extensions-accountant-portal.md)
-#### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-#### [Migrace dat Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
-#### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-#### [Essential Business Insights](ui-extensions-essential-business-insights.md)
-#### [Analyzátor obrázků](ui-extensions-image-analyzer.md)
-#### [Intelligent Cloud](ui-extensions-data-replication.md)
-#### [Intelligent Cloud Base](ui-extensions-intelligent-cloud.md)
-#### [Late Payment Predictions](ui-extensions-late-payment-prediction.md)
-#### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-#### [Standard plateb služby PayPal](ui-extensions-paypal-payments-standard.md)
-#### [Migrace dat QuickBooks](ui-extensions-quickbooks-data-migration.md)
-#### [Migrace dat QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
-#### [Import souboru Quickbooks Payroll](ui-extensions-quickbooks-payroll.md)
-#### [Prognóza prodeje a zásob](ui-extensions-sales-forecast.md)
-#### [WorldPay Platební Standard](ui-extensions-worldpay-payments-standard.md)
-#### [DK - C5 Migrace dat](ui-extensions-c5-data-migration.md)
-#### [DK - Platby a vyrovnání](ui-extensions-payments-reconciliation-formats-dk.md)
-#### [DK - formáty daňových souborů](ui-extensions-tax-file-formats-dk.md)
-#### [UK - GetAddress.io UK Poštovní směrovací čísla](ui-extensions-getaddressio.md)
-#### [US/CA/UK/AU/NZ/ZA - Odeslání upozornění na úhradu](ui-extensions-send-remittance-advice.md)
-#### [Rozšíření Business Central od jiných poskytovatelů](ui-extensions-other.md)
-### [Změna zobrazovaných funkcí](ui-experiences.md)
-### [Správa personalizace jako správce](ui-personalization-manage.md)
-### [Nastavení barevného indikátoru na hromádkách](admin-how-set-up-colored-indicator-on-cues.md)
 
 # Finance
 ## [Přehled](finance.md)
@@ -368,6 +387,7 @@
 #### [Ruční kontrola nebo vyrovnání plateb po automatickém vyrovnání](receivables-how-review-apply-payments-auto-application.md)
 #### [Odsouhlasení plateb, které nelze vyrovnat automaticky](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Mapování textu na periodické platby na účty pro automatické odsouhlasení ](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Nastavení pravidel pro automatické vyrovnání plateb](receivables-how-set-up-payment-application-rules.md)
 ### [Odsouhlasení plateb zákazníků ze seznamu nezaplacených prodejních dokladů](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Odsouhlasení plateb zákazníků s deníkem přijaté hotovosti nebo z položek zákazníka](receivables-how-apply-sales-transactions-manually.md)
 ### [Inkaso nevyrovnaných zůstatků](receivables-collect-outstanding-balances.md)
@@ -406,15 +426,14 @@
 
 ## Fakturace záloh
 ### [Přehled](finance-invoice-prepayments.md)
-### Nastavení záloh
+### [Nastavení záloh](finance-set-up-prepayments.md)
 ### [Vytvoření zálohové faktury](finance-how-to-create-prepayment-invoices.md)
 ### [Oprava záloh](finance-how-to-correct-prepayments.md)
 
 ## Správa bankovních účtů
 ### [Přehled](bank-manage-bank-accounts.md)
-### [Automatické vyrovnání plateb a odsouhlasení bankovních účtů](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Odsouhlasení bankovních účtů odděleně](bank-how-reconcile-bank-accounts-separately.md)
-### [Převod bankovních prostředků](bank-how-transfer-bank-funds.md)
+### [Automatické vyrovnání plateb a odsouhlasení bankovních účtů](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ## Správa vnitropodnikových transakcí
 ### [Přehled](intercompany-manage.md)
@@ -483,6 +502,7 @@
 ## [Analýza peněžních toků ve vaší společnosti](finance-analyze-cash-flow.md)
 ## [Návod: Tvorba prognóz cashflow pomocí účetních schémat](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analýza finančních výkazů v aplikaci Excel](finance-analyze-excel.md)
+## [Převod bankovních prostředků](bank-how-transfer-bank-funds.md)
 ## [Zkušenosti účetních v Business Central](finance-accounting.md)
 
 # Business Intelligence
@@ -525,8 +545,8 @@
 ## [Zpracování nebo zrušení nákupní vratky](purchasing-how-process-purchase-returns-cancellations.md)
 ## [Příjem a převod elektronických dokladů](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ## [Výpočet data pro nákupy](purchasing-date-calculation-for-purchases.md)
-## [Sloučení duplikátního záznamu](sales-how-merge-duplicate-records.md)
-
+## [Sloučení duplicitního záznamu](sales-how-merge-duplicate-records.md)
+## [Práce s hromadnými nákupními objednávkami](sales-how-to-create-blanket-sales-orders.md)
 # Zásoby
 ## [Přehled](inventory-manage-inventory.md)
 ## [Evidence nového zboží](inventory-how-register-new-items.md)
@@ -592,7 +612,6 @@
 ### [Nastavení prodejních cyklů příležitostí a fází prodejního cyklu](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Vytvoření příležitostí](marketing-how-create-opportunities.md)
 ### [Sledování výměny e-mailových zpráv](marketing-set-up-email-logging.md)
-
 ### [Zpracování prodejních příležitostí](marketing-processing-sales-opportunities.md)
 ### [Nastavení protokolování e-mailů](marketing-set-up-email-logging.md)
 ## [Použití profilových dotazníků pro klasifikaci obchodních kontaktů](marketing-create-contact-profile-questionnaire.md)
@@ -616,7 +635,7 @@
 ## [Plán nové poptávky podle objednávky](production-how-to-plan-for-new-demand.md)
 ## [Spuštění úplného plánování, MPS nebo MRP](production-how-to-run-mps-and-mrp.md)
 ## [Přeplánování nebo přímá aktualizace výrobních zakázek](production-how-to-replan-refresh-production-orders.md)
-## [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
+## [Sledování vztahů mezi poptávkou a nabídkou](production-how-track-demand-supply.md)
 ## [Změna návrhů plánování v grafickém zobrazení](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
 
 # Správa montáže
@@ -712,8 +731,8 @@
 ## [Návod: Nastavení a použití workflow schvalování nákupů](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ## [Návod: Příjem a zaskladnění v základních konfiguracích skladu](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ## [Návod: Příjem a zaskladnění v rozšířených konfiguracích skladu](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-## [Návod: Ruční plánování nabídek](walkthrough-planning-supplies-manually.md)
-## [Návod: Automatické plánování nabídek](walkthrough-planning-supplies-automatically.md)
+## [Návod: Ruční plánování dodávek](walkthrough-planning-supplies-manually.md)
+## [Návod: Automatické plánování dodávek](walkthrough-planning-supplies-automatically.md)
 ## [Návod: Prodejní, montážní a přepravní sestavy](walkthrough-selling-assembling-and-shipping-kits.md)
 ## [Návod: Správa projektů pomocí úloh](walkthrough-managing-projects-with-jobs.md)
 ## [Návod: Výpočet nedokončené výroby projektu](walkthrough-calculating-work-in-process-for-a-job.md)
@@ -721,7 +740,7 @@
 ## [Návod: Sledování sériových čísel](walkthrough-tracing-serial-lot-numbers.md)
 ## [Návod: Tvorba prognóz cashflow pomocí účetních schémat](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
-# Podrobnosti návrhu
+# Detaily návrhu
 ## [Přehled](design-details-application-design.md)
 ## Detaily návrhu: Plánování dodávek
 ### [Přehled](design-details-supply-planning.md)
@@ -785,7 +804,7 @@
 ### [Detaily návrhu: Vyhledávání kombinací dimenzí](design-details-searching-for-dimension-combinations.md)
 ### [Detaily návrhu: Struktura tabulky](design-details-table-structure.md)
 
-# Místní funkcionality
+# Lokální funkcionality
 ## [Přehled](about-localization.md)
 
 ## Austrálie
@@ -839,7 +858,6 @@
 #### [Tisk testovací sestavy upomínek](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Obecné
 #### [Tisk informací nastavení financí](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Tisk prodejních a nákupních objednávek během dávkového účtování](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Belgie
 ### [Přehled](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -909,10 +927,29 @@
 
 ## Česká republika
 ### [Přehled](LocalFunctionality/Czech/czech-local-functionality.md)
+### Základ financí  
+#### [Finance](LocalFunctionality/Czech/finance.md)
+#### [Uzávěrkové operace](LocalFunctionality/Czech/year-close-operations.md)
+#### [Vyrovnání věcných položek](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Aktualizace směnného kurzu](LocalFunctionality/Czech/exchange-rate-update.md)
 ### DPH
+#### [Finance - DPH](LocalFunctionality/Czech/finance-vat.md)
 #### [Kontrolní hlášení DPH](LocalFunctionality/Czech/vat-control-report.md)
+### Dlouhodobý majetek
+#### [Dlouhodobý majetek](LocalFunctionality/Czech/fixed-assets.md)
 ### Bankovnictví a platby
-#### [Registrace tržeb (EET)](LocalFunctionality/Czech/eet.md)
+#### [Bankovnictví](LocalFunctionality/Czech/bank-feature.md)
+#### [Řízení hotovosti](LocalFunctionality/Czech/cash-desk-management.md)
+#### [Elektronická Evidence Tržeb (EET)](LocalFunctionality/Czech/eet.md)
+#### [Zálohy](LocalFunctionality/Czech/advances.md)
+### Závazky a pohledávky
+#### [Závazky a pohledávky](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Zásoby
+#### [Zásoby](LocalFunctionality/Czech/inventory.md)
+### Obecné
+#### [Obecné](LocalFunctionality/Czech/general.md)
+#### [Osvědčené postupy](LocalFunctionality/Czech/best-practices.md)
 
 ## Dánsko
 ### [Přehled](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1022,7 +1059,6 @@
 #### [Směnné kurzy měn](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [Prodejní seznam EU v Německu](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Zahrnout registrační čísla společnosti do sestav prodeje a nákupních sestav](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Tisk prodejních a nákupních objednávek během dávkového účtování](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Tisk informací nastavení financí](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Certifikace Business Central pro německý trh (dokument je v němčině)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,11 +1110,11 @@
 #### [Nastavení informací o společnosti](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Italské subdodávky](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Nastavení šablon a listů deníků](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Zpráva o obchodu se zákazníky a dodavateli ve státech a regionech černé listiny](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)
 
 ## Mexico
 ### [Přehled](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Daň
+#### [Nastavení a vytváření DIOT sestav](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Mexiko - Prodejní daň](LocalFunctionality/Mexico/mexico-sales-tax.md)
 #### [Nastavení použití daně a nákupní daně](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)
 #### [Nastavení nerealizované DPH a prodejního skonta](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1168,6 +1204,7 @@
 ## Norsko
 ### [Přehled](LocalFunctionality/Norway/norway-local-functionality.md)
 ### DPH
+#### [Norský standardní soubor auditu - Daňová správa (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Norské vykazování DPH](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norské DPH kódy](LocalFunctionality/Norway/norwegian-vat-codes.md)
 #### [Jak používat jeden kód DPH v denících](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1223,7 +1260,17 @@
 #### [Korespondence hlavní knihy](LocalFunctionality/Russia/general-ledger-correspondence.md)
 #### [Měna](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 #### [Jak na: Nastavení odpovědných zaměstnanců a předběžných výkazů](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
-#### [Závazky a pohledávky](LocalFunctionality/Russia/Payables-and-Receivables.md)
+### Závazky a pohledávky
+#### [Přehled](LocalFunctionality/Russia/Payables-and-Receivables.md)
+#### [Enter Custom Declarations Information](LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md)
+#### [Set Up and Create Letters of Attorney](LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md)
+#### [Russian Payables Reports](LocalFunctionality/Russia/russian-payables-reports.md)
+#### [Russian Receivables Reports](LocalFunctionality/Russia/russian-receivables-reports.md)
+#### [Set Up Customer Prepayments](LocalFunctionality/Russia/how-to-set-up-customer-prepayments.md)
+#### [Set Up Vendor Prepayments](LocalFunctionality/Russia/how-to-set-up-vendor-prepayments.md)
+#### [Posting Vendor and Customer Prepayments](LocalFunctionality/Russia/prepayments-vendor-and-customers.md)
+#### [Prepayment Differences](LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences.md)
+#### [Set Up Customer and Vendor Agreements](LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md)
 ### Dlouhodobý majetek
 #### [Dlouhodobý majetek](LocalFunctionality/Russia/fixed-assets.md)
 #### [Jak na: Výpočet vyměřené daně](LocalFunctionality/Russia/How-to-Calculate-Assessed-Tax.md)
@@ -1257,6 +1304,7 @@
 #### [Daňové registry](LocalFunctionality/Russia/Tax-Registers.md)
 #### [Jak na: Vytvoření daňových registrů ](LocalFunctionality/Russia/How-to-Create-Tax-Registers.md)
 #### [Jak na: Vytvoření oddílů daňového registru](LocalFunctionality/Russia/How-to-Set-Up-Tax-Register-Sections.md) #### [Daňové rozdíly](LocalFunctionality/Russia/Tax-Differences.md)
+#### [Tax Differences](LocalFunctionality/Russia/Tax-Differences.md)  
 #### [Zúčtování plateb za osobní daně z příjmu](LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md)
 #### [Nahrání KLADR](LocalFunctionality/Russia/Upload-KLADR.md)
 #### [Statutární sestavy](LocalFunctionality/Russia/Statutory-Reports.md)
@@ -1417,8 +1465,8 @@
 #### [Jak spravovat úvěrové informace zákazníka](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)
 #### [Tisk sestav - Poradce při potížích](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Odesílání regulačních výstrah](submit-regulatory-alerts.md)
-# Soulad
+# Dodržování předpisů
 ## [Přehled](compliance/compliance-overview.md)
-## [Soulad aplikace](compliance/compliance-application-compliance.md)
-## [Soulad se službami](compliance/compliance-service-compliance.md)
+## [Dodržování předpisů - aplikace](compliance/compliance-application-compliance.md)
+## [Dodržování předpisů - služby](compliance/compliance-service-compliance.md)
 ## [Certifikace](compliance/compliance-certifications.md)
