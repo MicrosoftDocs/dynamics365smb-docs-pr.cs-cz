@@ -13,7 +13,7 @@ ms.author: v-pejano
 
 # Finance
 
-V České republice jsou funkce [!INCLUDE[prodshort](../../includes/prodshort.md)], které můžete využít pro sledování a spravování svých financí.
+V České republice existují specifické funkce [!INCLUDE[prodshort](../../includes/prodshort.md)], které můžete využít pro sledování a spravování svých financí.
 
 ## Opravné účtování (červené storno)
 
@@ -65,7 +65,7 @@ Pro splnění nároků na výstupy odpovídající legislativním požadavkům a
 
 ## Účetní schémata - rozšíření 
 
-Pro jednu z nejvíce používaných oblastí aplikace pro analýzu a reporting vyžadují východoevropské země následující vylepšení funkcionality standardních účetních schémat: :
+Pro jednu z nejvíce používaných oblastí aplikace pro analýzu a reporting vyžadují východoevropské země následující vylepšení funkcionality standardních účetních schémat:
 - Společný seznam výrazů – společný seznam výrazů obsahuje pojmenované řádky, které lze použít jako vzorce pro všechna účetní schémata. Toho je docíleno definováním jednoho účetního schématu jako společného seznamu výrazů s názvem Sdílené účetní schéma.
 - Ukládání výsledků (současný stav) analýzy - toto vylepšení umožňuje uživateli ukládat výsledky analýzy provedené pomocí účetních schémat.
 - Analýza vzorců – toto rozšíření umožňuje uživateli analyzovat výsledky vzorců. Analýza je nyní dostupná i pro Typ součtu - Vzorec. Analýza výsledku vzorce zobrazí uživateli nový formulář obsahující seznam prvků použitých pro výpočet a jejich popis.
@@ -114,7 +114,7 @@ Následující tabulka obsahuje další informace o dodatečných finančních f
 | Téma | Popis |
 | :-------------------------------------------------------- | :----------------------------------------------------------- |
 | [Uzávěrkové operace ](year-close-operations.md) | Aby bylo možné dodržet účetní předpisy na konci fiskálního roku, musí být některé účetní knihy uzavřeny nebo otevřeny. |
-| [Použití věcných položek](general-ledger-entries-application.md) | Kromě použití položek zákazníka a dodavatele byla zavedena nová funkčnost aplikace věcných položek. Aplikace položek hlavní knihy se obvykle používá k tomu, aby společnostem umožnila pracovat s dočasnými účty a účty pro převod v hlavní knize. |
+| [Vyrovnání věcných položek](general-ledger-entries-application.md) | Kromě použití položek zákazníka a dodavatele byla zavedena nová funkčnost aplikace věcných položek. Vyrovnání věcných položek se obvykle používá s cílem umožnit společnostem práci s dočasnými a převodovými účty ve financích. |
 | [Aktualizace směnného kurzu](exchange-rate-update.md) | Možnost automatické aktualizace směnných kurzů z externí služby poskytované ČNB (Česká národní banka). |
 
 ## Viz také
