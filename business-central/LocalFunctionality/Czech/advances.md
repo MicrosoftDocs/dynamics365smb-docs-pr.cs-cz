@@ -28,7 +28,7 @@ Funkce zálohové faktury a platby se používá pro generování faktur a prov�
 Zálohová faktura má svůj vlastní životní cyklus, který je definován stavy:
 - **Otevřeno** - zálohovou fakturu lze editovat.
 - **Příprava platby** - je očekávána platba zálohové faktury.
-- **Příprava faktury** -  je očekáváno vytvoření daňového dokladu k přijaté/vydané platbě.
+- **Příprava faktury** - je očekáváno vytvoření daňového dokladu k přijaté/vydané platbě.
 - **Příprava** konečné faktury - zálohová faktura je připravena k čerpání.
 - **Uzavřeno** - konečný stav po vyčerpání zálohové faktury.
 
@@ -87,7 +87,7 @@ Nástroj poskytuje možnost volby různých způsobů provázání řádků kone
 Statistické informační okna karty zákazníka a dodavatele doplněny o informace o zálohách: 
 - Fakturovaná částka zálohy
 - Zálohy - otevřené
-- Zálohy  - příprava platby
+- Zálohy - příprava platby
 - Zálohy - příprava faktury
 - Zálohy - příprava koneč. faktury
 

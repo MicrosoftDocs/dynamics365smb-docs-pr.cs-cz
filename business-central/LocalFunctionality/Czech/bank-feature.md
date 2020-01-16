@@ -22,7 +22,7 @@ Nová pole jsou doplněna na Bankovní účet:
 - Informace pro účtování a párování
 - Nastavení pro platební příkazy/bankovní výpisy
 
-Nová pole jsou doplněna na Bankovní účet, Bankovní účet zákazníka a Bankovní účet dodavatele..
+Nová pole jsou doplněna na Bankovní účet, Bankovní účet zákazníka a Bankovní účet dodavatele.
 
 ## Výchozí bankovní účet společnosti
 
