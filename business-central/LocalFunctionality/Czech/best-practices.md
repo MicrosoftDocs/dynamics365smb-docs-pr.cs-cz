@@ -16,7 +16,7 @@ K dispozici jsou drobné legislativní funkce a zvyklosti českých společnost�
 - Skupiny finančních účtů – více okruhové účetnictví
 - Kontrola změn účto skupin – zákazník, dodavatel, zboží, bankovní účet
 - Kontrola výdejů v zásobách – časová posloupnost
-- Šablony pro operace zásob  – Šablony skladového pohybu
+- Šablony pro operace zásob  – šablony skladového pohybu
 - Povinné vrácení přesných nákladů ve výrobě
 - Výchozí Obchodní účto skupina ve výrobě
 - Kontrola salda ve finančním deníku – další volba pro vypnutí kontroly salda dle typu dokladu

@@ -33,7 +33,7 @@ Následující prodejní doklady jsou zahrnuty v aplikaci [!INCLUDE[d365fin](../
 - Platba zálohové faktury
 - Refundace prodejního dobropisu
 - Refundace zálohové faktury
-- Příjmový pokladní doklad na Finanční účet(without source sales document)
+- Příjmový pokladní doklad na Finanční účet (bez prodejního dokladu původu)
 
 Při zaúčtování definovaných dokladů (a s definovanou platební metodou) se vytvoří položka EET a na základě funkčního režimu se zpracuje:
 

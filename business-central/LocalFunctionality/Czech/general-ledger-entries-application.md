@@ -11,16 +11,16 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# General Ledger Entries Application
+# Vyrovnání věcných položek
 
-Apart from application of Customer and Vendor Ledger Entries, a new functionality of General Ledger Entries Application has been introduced. Application of General Ledger Entries is typically used to allow companies to work with temporary and transfer accounts in the General Ledger. Temporary and transfer accounts are used as a temporary “storage” and contain amounts (Ledger Entries) pending further “processing”. The new application functionality enables the user to match general expenses to distributed expenses (transferred earlier from account general for all amounts) by using the new applying and unapplying functions, and to companies to see analytic subtotals by using the new Open G/L Entries on Date or Inventory Account to the date reports for a specific date.
+Kromě použití položek zákazníka a dodavatele byla zavedena nová funkčnost aplikace věcných položek. Vyrovnání věcných položek se obvykle používá s cílem umožnit společnostem práci s dočasnými a převodovými účty ve financích. Dočasné a převodové účty se používají jako dočasné "úložiště" a obsahují částky (věcné položky), které čekají na další zpracování. Nová funkce umožňuje uživatelům propojit jednotlivé položky na účtu (např. předpis se zúčtováním) pomocí nových funkcí vyrovnání a zrušení vyrovnání a společnostem umožňuje vidět analytické souhrny pomocí nových sestav: Otevřené věcné položky k datu nebo Inventura účtu k datu pro určitý den. 
 
-The General Ledger Entries structure has been redesigned by adding the new storage for application information of a G/L Entry. The Detailed G/L Entry table contains all entries related to the original G/L Entry and stores the application amount, while the G/L Entry table contains overalls of this amount in the Applied Amount flowfield.  
+Struktura věcných položek byla doplněna o nové úložiště informací o vyrovnání věcných položek. Tabulka Detailní věcné položky obsahuje všechny položky vztahující se k původní věcné položce a ukládá částku vyrovnání, zatímco v tabulce Věcná položka se nachází v kalkulovaném poli Vyrovnaná částka tato částka celkově. 
 
-**Apply Entries** and **Unapply Entries** functions on G/L Entries page have been added to the user interface. Partial applying is allowed. Remaining amount for applying is shown on G/L Entry.
-User can apply G/L Entries before posting in General Journal or Cash Desk.
-User can run batch applying using report **G/L Entry Applying**.
+Do uživatelského rozhraní na stránce Věcné položky byly přidány funkce **Vyrovnat položky** a **Zrušit vyrovnání položek**. Částečné vyrovnání je povoleno. Zbývající částka pro vyrovnání je zobrazena na věcné položce.
+Uživatel může nastavit vyrovnání položek i před účtováním ve finančním deníku nebo v pokladně. 
+Uživatel může spustit dávkové vyrovnání položek pomocí sestavy **Párování věcných položek**.
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)  
+## Viz také
+[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Finance](finance.md)

@@ -11,20 +11,20 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# VAT Control Report
+# Kontrolní hlášení DPH
 
-The [!INCLUDE[d365fin](../../includes/d365fin_md.md)] functionality has been extended by the **VAT Control Report**. Basic form is **VAT Control Report Card**. VAT items are loaded by the VAT Date or Posting Date (according to the general ledger setup) into the form for the selected period. The basic setup, i.e. distribution of combinations of VAT posting groups into the individual sections of control report, is determined in the VAT statement. To process the control report you have to setup VAT control report sections, tariff numbers, VAT statement, stat. reporting setup and extended the VAT posting setup. Functionality contains:
+Funkcionalita [!INCLUDE[d365fin](../../includes/d365fin_md.md)] byla rozšířena o **Kontrolní hlášení DPH**. Základním formulářem je **Karta kontrolní hlášení DPH**. Položky DPH jsou pro zvolené datum DPH a datum zaúčtování (podle nastavení hlavní knihy) načítány do formuláře podle zvoleného období.  Základní nastavení, tj. Rozdělení kombinací DPH účto skupin do jednotlivých sekcí kontrolní sestavy, je stanoveno ve výkazu DPH. Ke zpracování kontrolního hlášení je nutné nastavit sekce kontrolního hlášení DPH, čísla sazebníku, výkaz DPH, nastavení  stat. vykazování a rozšířené nastavení účtování DPH. Funkcionalita obsahuje:
 
-* **VAT Control Report Card** - allows you to select report period.
+* **Kartu kontrolní hlášení DPH** - umožňuje vybrat období hlášení.
 
-* **Control report lines suggestion** - loads control report lines of selected period.
+* **Návrh řádků kontrolního hlášení** - načte řádky kontrolního hlášení pro zvolené období.
 
-* Control performance - **VAT Control Report - test** report - prints overview according to individual sections.
+* Provedení kontrol - sestava **Kontrolní hlášení DPH - test** - tiskne přehled odpovídající jednotlivým oddílům.
 
-* Control report export - **Export** function exports control report to the file.
+* Možnost exportu hlášení - funkce **Export** exportuje hlášení do souboru.
 
-* Closing lines - **Close lines** function fills the **Closed by document no.** field in control report lines.
+* Uzavření řádků - funkčnost **Uzavření řádků**  vyplní pole **Uzavřeno dokladem číslo** v řádcích kontrolního hlášení.
 
-## See also
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md) 
+## Viz také
+[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Finance](../../finance.md)
