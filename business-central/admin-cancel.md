@@ -14,7 +14,7 @@ ms.reviewer: v-zdbice
 ms.author: edupont
 
 ---
-# Zrušení předplatného nebo odebrání[!INCLUDE[prodshort](includes/prodshort.md)]
+# Zrušení předplatného nebo odebrání [!INCLUDE[prodshort](includes/prodshort.md)]
 
 Chcete-li přestat používat aplikaci [!INCLUDE[365fin](includes/d365fin_md.md)] můžete uzavřít svůj účet nebo odebrat licenci z Vašeho účtu. Kroky, které je třeba provést, se liší, pokud aktuálně používáte bezplatnou zkušební verzi nebo pokud máte předplatné.
 

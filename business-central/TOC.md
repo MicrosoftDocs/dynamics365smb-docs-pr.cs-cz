@@ -11,7 +11,7 @@
 ## [Navštivte naši video knihovnu](across-videos.md)
 ## Zkušební verze a předplatné
 ### [Přehled](across-preview.md)
-### [Registrace ke službě samoobslužného řešení problémů](ui-troubleshoot-self-signup.md)
+### [Řešení problémů při samoobslužné registraci](ui-troubleshoot-self-signup.md)
 ### [Prodloužení zkušební verze](admin-extend-trial.md)
 ### [Odhlásit nebo odebrat Business Central](admin-cancel.md)
 ## Najděte školení
@@ -31,12 +31,12 @@
 ## [Tahák pro tisk](ui-work-product.md)
 ## [Hledání funkcí a informací](ui-search.md)
 ## [Hledání stránek pomocí Průzkumníka rolí](ui-role-explorer.md)
-## [Nejčastější dotazy](ui-search-faq.md)
+## [Nejčastější dotazy o Řekněte mi](ui-search-faq.md)
 ## [Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md)
-## [Vyhledávání a filtrování nejčastějších dotazů](ui-search-filter-faq.md)
+## [Nejčastější dotazy o vyhledávání a filtrování](ui-search-filter-faq.md)
 ## [Zadávání dat](ui-enter-data.md)
-## [Kopírování a vkládání FAQ](ui-copy-paste.md)
-## [Práce s kalendářním datem a časy](ui-enter-date-ranges.md)
+## [Nejčastější dotazy o kopírování a vkládání](ui-copy-paste.md)
+## [Práce s kalendářními daty a časy](ui-enter-date-ranges.md)
 ## [Detekce povinných polí](ui-mandatory-fields.md)
 ## [Změna jazyka a oblasti](about-locale-language.md)
 ## [Zobrazení a úpravy v aplikaci Excel](across-work-with-excel.md)
@@ -547,6 +547,7 @@
 ## [Výpočet data pro nákupy](purchasing-date-calculation-for-purchases.md)
 ## [Sloučení duplicitního záznamu](sales-how-merge-duplicate-records.md)
 ## [Práce s hromadnými nákupními objednávkami](sales-how-to-create-blanket-sales-orders.md)
+
 # Zásoby
 ## [Přehled](inventory-manage-inventory.md)
 ## [Evidence nového zboží](inventory-how-register-new-items.md)
@@ -565,15 +566,15 @@
 ## [Blokování zboží](inventory-how-block-items.md)
 ## [Práce s centry odpovědnosti](inventory-responsibility-centers.md)
 
-# Project Management
+# Správa projektů
 ## [Přehled](projects-manage-projects.md)
 ## [Vytváření projektů](projects-how-create-jobs.md)
 ## [Použití zdrojů pro projekty](projects-how-use-resources.md)
 ## [Použití pracovních výkazů pro projekty](projects-how-use-time-sheets.md)
 ## [Správa rozpočtů projektu](projects-how-manage-budgets.md)
-## [Zaznamenávání využití projektu](projects-how-record-job-usage.md)
+## [Evidence spotřeby na projektu](projects-how-record-job-usage.md)
 ## [Správa dodávek projektu](projects-how-manage-project-supplies.md)
-## [Princip metod Nedokončené výroby](projects-understanding-wip.md)
+## [Metody nedokončené výroby](projects-understanding-wip.md)
 ## [Sledování průběhu a výkonu projektu](projects-how-monitor-progress-performance.md)
 ## [Fakturace projektů](projects-how-invoice-jobs.md)
 
