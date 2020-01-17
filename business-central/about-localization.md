@@ -14,7 +14,7 @@ ms.author: edupont
 # <a name="local-functionality-in-included365fin_longincludesd365fin_long_mdmd"></a>Lokální funkce v [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)]<x0 /> má kombinovanou lokalizační strategii včetně modelů vedených společností Microsoft i partnerů. V této části jsou uvedeny popisy funkcí, které se týkají zemí, ve kterých společnost Microsoft poskytuje právní předpisy a další místní funkce.  
 
-Seznam aktuálně podporovaných trhů naleznete v balíčku [International availability Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).  
+Seznam aktuálně podporovaných trhů naleznete v balíčku [Mezinárodní dostupnost Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).  
 
 ## <a name="local-functionality"></a>Lokální funkcionality
 Chcete-li se dozvědět více o funkcionalitách pro každou zemi, vyberte související odkaz:
