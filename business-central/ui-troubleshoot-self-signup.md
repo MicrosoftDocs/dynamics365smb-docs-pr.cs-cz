@@ -12,7 +12,7 @@ ms.date: 01/13/2020
 ms:reviewer: v-zdbice
 ms.author: edupont
 ---
-# Řešení problémů při samoobslužné registraci.
+# Řešení problémů při samoobslužné registraci
 
 Registrace do [!INCLUDE[d365fin](includes/d365fin_md.md)] je jednoduchá a lze ji provést velmi rychle. Můžete si vytvořit účet zdarma, i když jste již existující organizací. Tento článek se zabývá problémy, které se mohou vyskytnout během registrace.
 
