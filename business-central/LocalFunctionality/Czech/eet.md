@@ -6,7 +6,7 @@
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.search.keywords: CZ, Czech, local, VAT, Control Report
-    ms.date: 10/12/2018
+    ms.date: 12/30/2019
     ms.reviewer: v-pejano
     ms.author: v-pejano
 ---
@@ -43,9 +43,9 @@ Při zaúčtování definovaných dokladů (a s definovanou platební metodou) s
 ## Hlavní funkčnosti
 
 - Položky knihy EET - tabulka, kde jsou uloženy a zpracovány registrované dokumenty. Každý záznam obsahuje údaje o prodeji vyžadované daňovými úřady, potřebné pro tisk účtenky a data z elektronické komunikace. Nové záznamy jsou vytvářeny automaticky zaúčtováním dokladů původu.
-- Nastavení služby EET.
+- Nastavení služby EET
 - Nastavení certifikátu
-- Terminály EET POS – identifikace registrovaných míst.
+- Terminály EET POS – identifikace registrovaných míst
 
 ## Viz také
 
