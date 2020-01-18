@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, Posting
-ms.date: 05/15/2019
+ms.date: 12/30/2019
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -17,7 +17,7 @@ V České republice existují specifické funkce [!INCLUDE[prodshort](../../incl
 
 ## Opravné účtování (červené storno)
 
-Podle požadavků legislativy jsou náklady a výnosy obvykle účtovány pouze buď na stranu Má-dáti nebo Dal finančního účtu. Společnosti ve východní Evropě obvykle dodržují účetní zásady, podle kterých některé skladové a finanční transakce v hlavní knize musí být účtovány jako oprava. Důvodem je, že auditoři a finanční úřady provádějí účetní kontroly v souladu s tímto pravidlem. 
+Podle požadavků legislativy jsou náklady a výnosy obvykle účtovány pouze buď na stranu Má-dáti nebo Dal finančního účtu. Společnosti ve východní Evropě obvykle dodržují účetní zásady, podle kterých některé skladové a finanční transakce v hlavní knize musí být účtovány jako oprava. Důvodem je, že auditoři a finanční úřady provádějí účetní kontroly v souladu s tímto pravidlem.  
 
 Cíl této funkcionality je:
 - Umožnit hlavnímu účetnímu vynutit opravné účtování na požadovaných účtech hlavní knihy
@@ -30,7 +30,7 @@ Cíl této funkcionality je:
 V současné době, kolují mnohé doklady vně i uvnitř společnosti. Místní právní předpisy stanovují minimální požadavky na takové doklady. Tyto požadavky můžeme zhruba rozdělit do tří skupin:
 - Jména zástupců společnosti musí být uvedena na některých interních či externích dokladech
 - Zápatí dokumentů – většina externích dokumentů musí obsahovat základní informace o společnosti v zápatích dokumentů, obvykle v jazyce partnerské společnosti
-- Registrační čísla společnosti musí být viditelně uvedena v interních a externích dokumentech 
+- Registrační čísla společnosti musí být viditelně uvedena v interních a externích dokumentech
 
 Tato funkce umožňuje uživatelům definovat zástupce společnosti a nastavit je jako generálního ředitele, hlavní účetní a finančního manažera pro použití v interních a externích dokladech. 
 Uživatelé mohou definovat zápatí dokumentu v různých jazycích. Tato zápatí lze použít v různých sestavách a dokumentech.
@@ -47,7 +47,7 @@ Z výše uvedených důvodů tato funkce poskytuje následující sestavy:
 
 ## Účetní výstupní doklady
 
-Pro splnění nároků na výstupy odpovídající legislativním požadavkům a místním zvyklostem poskytuje tato funkcionalita následující sestavy: 
+Pro splnění nároků na výstupy odpovídající legislativním požadavkům a místním zvyklostem poskytuje tato funkcionalita následující sestavy:
 - Finanční deník
 - Hlavní účetní kniha
 - Kontační lístky
@@ -58,12 +58,12 @@ Pro splnění nároků na výstupy odpovídající legislativním požadavkům a
 - Vyrovnání spojovacího konta
 - Odsouhlasení DPH – finance
 - Pozdržené platby
-- Otevřené položky zákazníka k datu
+- Otevřené položky zákazníků k datu
 - Otevřené položky dodavatelů k datu
-- Saldo fiskálního roku – upravená standardní sestava 
+- Saldo fiskálního roku – upravená standardní sestava
 - Předvaha podle období - upravená standardní sestava
 
-## Účetní schémata - rozšíření 
+## Účetní schémata - rozšíření  
 
 Pro jednu z nejvíce používaných oblastí aplikace pro analýzu a reporting vyžadují východoevropské země následující vylepšení funkcionality standardních účetních schémat:
 - Společný seznam výrazů – společný seznam výrazů obsahuje pojmenované řádky, které lze použít jako vzorce pro všechna účetní schémata. Toho je docíleno definováním jednoho účetního schématu jako společného seznamu výrazů s názvem Sdílené účetní schéma.
@@ -81,8 +81,8 @@ Tato funkce poskytuje následující výkazy:
 
 Tyto výkazy používají účetní schémata s definovanou strukturou statutárních výkazů.
 
-V názvu účetních schémat je v české verzi přidáno nové pole:
-- Typ účetního schématu – Rozvaha nebo Výkaz zisku a ztráty
+V tabulce Název účetního schématu je v české verzi přidáno nové pole:
+- Typ účetního schématu – Rozvaha nebo Výkaz zisku a ztrát
 
 V řádku účetních schémat jsou v české verzi přidána nová pole:
 - Korekce řady – odkaz na jiný řádek pro sestavení Rozvahy
@@ -93,7 +93,7 @@ Rozvaha a Výkaz zisků a ztrát jsou často připravovány v šablonách soubor
 
 Z výše uvedených důvodů tato funkce poskytuje nové nastavení šablon aplikace Excel a mapování položek výkazů. Na základě tohoto nastavení mohou uživatelé exportovat data účetních schémat do souboru aplikace Excel.
 
-## Rozšířené účtování nedokončené výroby 
+## Rozšířené účtování nedokončené výroby  
 
 Česká legislativa používá při účtování nedokončené výroby následující nové finanční účty:
 - Účet spotřeby
@@ -115,7 +115,7 @@ Následující tabulka obsahuje další informace o dodatečných finančních f
 | :-------------------------------------------------------- | :----------------------------------------------------------- |
 | [Uzávěrkové operace ](year-close-operations.md) | Aby bylo možné dodržet účetní předpisy na konci fiskálního roku, musí být některé účetní knihy uzavřeny nebo otevřeny. |
 | [Vyrovnání věcných položek](general-ledger-entries-application.md) | Kromě použití položek zákazníka a dodavatele byla zavedena nová funkčnost aplikace věcných položek. Vyrovnání věcných položek se obvykle používá s cílem umožnit společnostem práci s dočasnými a převodovými účty ve financích. |
-| [Aktualizace směnného kurzu](exchange-rate-update.md) | Možnost automatické aktualizace směnných kurzů z externí služby poskytované ČNB (Česká národní banka). |
+| [Aktualizace směnného kurzu](exchange-rate-update.md) | Možnost automatické aktualizace směnných kurzů z externí služby poskytované ČNB (Česká Národní Banka). |
 
 ## Viz také
 [Česká lokální funkcionalita](czech-local-functionality.md)

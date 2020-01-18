@@ -14,9 +14,10 @@ ms.author: v-pejano
 # Aktualizace směnného kurzu
 
 Společnosti je umožněno automaticky aktualizovat směnné kurzy měn pomocí funkcí Služby směnného kurzu.
-Ty byly vylepšeny o možnost automaticky aktualizovat směnné kurzy měn z ČNB (České národní banky). 
-Uživatel si může v nastavení služby směnného kurzu definovat http adresu služby a další parametry aktualizace směnných kurzů. 
+Ty byly vylepšeny o možnost automaticky aktualizovat směnné kurzy měn z ČNB (České Národní Banky).
+Uživatel si může v nastavení služby směnného kurzu definovat http adresu služby a další parametry aktualizace směnných kurzů.  
 
-## Viz také
+## Viz také  
+
 [Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](finance.md)
