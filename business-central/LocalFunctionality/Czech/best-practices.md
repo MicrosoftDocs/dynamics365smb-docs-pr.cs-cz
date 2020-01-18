@@ -28,5 +28,6 @@ K dispozici jsou drobné legislativní funkce a zvyklosti českých společnost�
 - Nové pole v položkách zboží a položkách ocenění
 - Obecná účto skupina zboží ze SKJ a přeskočení aktualizací skladových jednotek při účtování
 
-## Viz také
+## Viz také  
+
 [Česká lokální funkcionalita](czech-local-functionality.md)
