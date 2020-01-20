@@ -1,0 +1,1 @@
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>ADVANCED</b><br />Tato funkce je k dispozici pouze s pokročilými funkcemi. Další informace naleznete v části [Přizpůsobení prostředí Business Central](../ui-experiences.md) </blockquote>

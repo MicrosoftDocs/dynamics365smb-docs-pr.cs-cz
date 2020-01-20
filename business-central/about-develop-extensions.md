@@ -1,8 +1,8 @@
 ---
-title: Customize Dynamics 365 Business Central | Microsoft Docs
-description: Build, showcase, and promote your apps and extensions for Business Central.
+title: Přizpůsobte si Dynamics 365 Business Central | Microsoft Docs
+description: Vytvářejte, předvádějte a propagujte své aplikace a rozšíření pro Business Central.
 documentationcenter: ''
-author: edupont04
+author: ZdenekBicek
 
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,72 +10,84 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2018
+ms.date: 01/13/2020
+ms.reviewer: v-zdbice
 ms.author: edupont
 
 ---
-# Extending [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is a business management solution that helps companies connect their financials, sales, service, and operations to streamline business processes, improve customer interactions, and make better decisions. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is available in the cloud and to users across various multiple types of devices, which is always up-to-date. With this modern business platform you can easily and quickly tailor, extend, and build applications so they fit your specific needs — with little to no code development.  
+# Rozšíření [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
-There are plenty of benefits of using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a platform for App builders, which includes:
+Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] je řešení pro řízení podniků, které pomáhá společnostem propojit své finance, prodej, služby a operativu s cílem zefektivnit obchodní procesy, zlepšit interakce se zákazníky a lépe se rozhodovat. [!INCLUDE[d365fin](includes/d365fin_md.md)] je k dispozici v cloudu a uživatelům napříč různými typy zařízení, které jsou vždy aktuální. Díky této moderní podnikové platformě můžete snadno a rychle přizpůsobit, rozšířit a vytvářet aplikace tak, aby vyhovovaly vašim konkrétním potřebám - s malým až žádným vývojem kódu.
 
-* Get started with confidence through a seamless onboarding experience 
-* Use Microsoft’s Go-To-Market services
-* Customize your app listing page 
-* Connect directly with decision-makers and reach more customers
-* Enhance business value and increase deal size with existing and new customers
-* Achieve more with a platform that delivers a modern experience and offers scale  
-* Get actionable insights on the performance of your listings via the Cloud Partner Portal or the Office app publishing process
-* Bundle with intelligent business apps such as PowerApps, Flow, Power BI, Cortana Intelligence, and many more  
+Použití [!INCLUDE[d365fin](includes/d365fin_md.md)] jako platformy pro tvůrce aplikací má spoustu výhod, které zahrnují:
 
-Bring your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] services to Microsoft AppSource as: 
+* Začněte s důvěrou prostřednictvím bezproblémového "Onboardingu".
+* Využití služby Go-To-Market společnosti Microsoft
+* Přizpůsobení stránky se seznamem aplikací
+* Napojte se na ty, kteří rozhodují a oslovte více zákazníků
+* Zvyšujte obchodní hodnotu a zvyšte objem obchodu se stávajícími i novými zákazníky
+* Získejte více s platformou, která přináší moderní zkušenosti a nabízí škálování
+* Získejte přehledné informace o výkonu svých zápisů prostřednictvím portálu Cloud Partner Portal nebo procesu publikování aplikací sady Office
+* Balík inteligentních obchodních aplikací jako Power Apps, Power Automate, Power BI, Azure AI a mnoho dalších
 
-**Individual Apps** – where you bring your industry expertise to market.  
-**Packaged Consulting Services** – where you bring ready-made packaged engagements to market.
+Přineste své [!INCLUDE[d365fin](includes/d365fin_md.md)]aplikace do Microsoft AppSource jako:
 
-The new development tools enable to you to build extensions for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] users. If you want to familiarize yourself with the new tools or learn about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
+**Jednotlivé aplikace** – kde přenesete Vaše oborové zkušenosti na trh.
+**Balíčky poradenských služeb** – kde přinesete hotové balíčky příležitostí na trh.
 
-Find information on apps and consulting services that are currently available on [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
+Nové vývojové nástroje vám umožňují vytvářet rozšíření pro uživatele [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pokud se chcete seznámit s novými nástroji nebo se dozvědět o Extensions 2.0, podívejte se na [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).
 
-To help business users get started quickly, Microsoft has added a catalog of consulting services offerings for solutions based on [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], Power BI, and PowerApps to AppSource. Learn more about the [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting).
+Vyhledejte informace o aplikacích a poradenských službách, které jsou aktuálně k dispozici na [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
 
-## Choosing which Services to Offer with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] 
+S cílem pomoci podnikovým uživatelům začít rychle, přidala společnost Microsoft do nabídky AppSource katalog konzultačních služeb pro řešení založených na [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI a PowerApps. Naučte se více o [Konzultačních službách](/dynamics-nav/developer/readiness/readiness-consulting).
 
-### Integrate a 3rd Party Solution
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] exposes many ready-to-use APIs for [Connect apps](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) to make a seamless integration between your service and [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. You can bundle your services with a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] and give your customers an integrated experience. Learn more about [Integrating a 3rd Party Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
+## Výběr služeb, které nabízíme s [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
-### Development of a Vertical Solution
-Create an app that is specialized within a specific industry. With [Embed app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps), you can extend and customize the existing [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] application and enrich the end-user experience with an industry specific functionality using the new and modern development tools and Extensions version 2.0. Learn more about the [Development of a Vertical Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical).
+### Integrace řešení třetích stran
 
-### Development of a Horizontal Solution
-Extend the experience and capability of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] by creating an [Add-on app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps) which integrates into user experience of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Build an interface based on how you want your data to flow between [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] and your services. Learn more about the [Development of a Horizontal Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal). 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] vystavuje mnoho API rozhraní připravených k použití pro [Připojení aplikací](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps), aby byla bezproblémová integrace mezi službou a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Služby můžete provázat Vaše služby s [!INCLUDE[d365fin](includes/d365fin_md.md)] a poskytnout svým zákazníkům integrované prostředí. Naučte se více o [Integrace řešení třetích stran](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
 
-### Development of a Localization Solution
-Comply with local regulatory capabilities by developing for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], which adapts functional areas to the requirements of the local market along with [Dynamics 365 Translation Service](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Align the core capabilities of local legal requirement and extend existing functionality to successfully compete on your local market. Learn more about the [Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
+### Vývoj vertikálního řešení
 
-### Reseller Solution
-Since every business is unique, with [Customizing Tenants](/dynamics-nav/developer/readiness/readiness-customizing-tenants), you can match how you work with your streamlined processes, your terminology, and how your employees or departments connect and collaborate. Additionally, you can choose to resell and adjust [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] to the individual needs of your customers by providing [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting). Or, use Microsoft Flow, Power Apps, and Power BI to create [Customized Workflows](/dynamics-nav/developer/readiness/readiness-no-code), apps and business insight reports without having to write any code. Learn more about [Dynamics 365 Reseller (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller). 
+Vytvořte aplikaci, která se specializuje na konkrétní odvětví. Se [začleněnou aplikací](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps) můžete rozšířit a upravit existující [!INCLUDE[d365fin](includes/d365fin_md.md)] a obohatit koncového uživatele oborově specifickými funkcemi pomocí nových a moderních vývojářských nástrojů a Extensions v2.0. Naučte se více o [Vývoji vertikálního řešení](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical).
 
-## Where do I Learn more?
-To learn more about the Microsoft AppSource consulting services offerings, select the following links: 
+### Vývoj horizontálního řešení
 
-[AppSource Consulting Offerings](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
-[Partner Eligibility](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
-[Partner Nomination Form](https://appsource.microsoft.com/en-us/partners/list-consulting-service)  
+Rozšířením možností a schopností [!INCLUDE[d365fin](includes/d365fin_md.md)] vytvořením [Add-on aplikace](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps), která je integrována do uživatelského prostředí [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vytvořte rozhraní založené na tom, jak chcete, aby vaše data tekla mezi [!INCLUDE[d365fin](includes/d365fin_md.md)] a vašimi službami. Naučte se více o [Vývoji horizontálního řešení](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal).
 
-## The Ready to Go Program
-The Ready to Go program is designed to support you in bringing your Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offers into Microsoft Appsource. The program holds: 
+### Vývoj lokalizačního řešení
 
-- [Online learning](https://aka.ms/ReadyToGoOnlineLearning)
-- [Training and workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
-- [Microsoft Collaborate platform](https://aka.ms/Collaborate)
+Dodržujte místní legislativní požadavky vývojem pro [!INCLUDE[d365fin](includes/d365fin_md.md)], který přizpůsobuje funkční oblasti požadavkům místního trhu spolu s [překladatelskou službou Dynamics 365](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview) . Připravte základní řešení lokálních legislativních požadavků a rozšiřte stávající funkce tak, aby úspěšně fungovali na vašem místním trhu. Naučte se více o [Vývoj lokalizačního řešení](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
-Learn more on how you can build a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offering in the [Ready to Go program](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) details. If you have questions or feedback about the **Ready to Go** program offering, you can [contact us](mailto:dyn365bep@microsoft.com). 
+### Řešení pro prodejce
 
-## See Also
-[Getting Started](product-get-started.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
+Vzhledem k tomu, že každý podnik je jedinečný, díky [Přizpůsobení Tenantů](/dynamics-nav/developer/readiness/readiness-customizing-tenants) si můžete se přizpůsobit jak pracujete s Vašimi efektivnějšími procesy, Vaší terminologií a jak se vaši zaměstnanci nebo oddělení spojují a spolupracují. Kromě toho si můžete vybrat, zda budete prodávat a upravovat [!INCLUDE[d365fin](includes/d365fin_md.md)] podle individuálních potřeb svých zákazníků tím, že budete poskytovat [Konzultační služby](/dynamics-nav/developer/readiness/readiness-consulting). Nebo pomocí aplikací Power Automate, Power Apps a Power BI vytvoříte [přizpůsobená workflow](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), aplikace a obchodní statistiky aniž byste museli psát programový kód. Naučte se více v [Prodejci Dynamics 365 (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+## Kde se toho mohu dozvědět více?
+
+Chcete-li se dozvědět více o nabídkách poradenských služeb Microsoft AppSource, vyberte následující odkazy:
+
+[AppSource - Nabídka konzultantských služeb](https://appsource.microsoft.com/marketplace/consulting-services)  
+[Způsobilost partnera](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
+[Formulář pro jmenování partnera](https://appsource.microsoft.com/partners/list-consulting-service)  
+
+## Program - Ready to Go
+
+Program Ready to Go je navržen tak, aby vás podpořil při uvádění Vašich řešení pro [!INCLUDE[d365fin](includes/d365fin_md.md)] v nabídce Microsoft AppSource. Program zahrnuje:
+
+- [Online vzdělávání](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-catalog)
+- [Školení and workshopy](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
+- [Platforma Microsoft Collaborate](https://aka.ms/Collaborate)
+
+Další informace o vytváření [!INCLUDE[d365fin](includes/d365fin_md.md)] řešení nabízí [podrobné informace o programu Ready to Go](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Pokud máte další otázky nebo zpětnou vazbu na program **Ready to Go** [můžete nás kontaktovat](mailto:dyn365bep@microsoft.com)
+
+## [!INCLUDE[d365fin](includes/d365fin_md.md)] rozšíření poskytovaná společností Microsoft
+
+Standardní verze produktu zahrnuje rostoucí počet rozšíření vyvinutých společností Microsoft. Pro více informací běžte na [Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí rozšíření](ui-extensions.md).
+
+## Viz také
+[Začínáme](product-get-started.md)
+
+[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-financials&page=1)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
