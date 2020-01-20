@@ -1,0 +1,1 @@
+Funkce Isabel jsou k dispozici pouze pro lokální (on-premise) nasazení.
