@@ -14,7 +14,7 @@ ms.reviewer: v-zdbice
 ms.author: sgroespe
 ---
 
-# Vkládání dat
+# Zadávání dat
 
 Existuje mnoho obecných funkcí, které vám pomohou rychle a snadno zadávat data. V tomto textu jsou popsány obecné funkce pro zadávání dat.  
 
