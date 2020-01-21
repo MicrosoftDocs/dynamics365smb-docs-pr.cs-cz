@@ -18,7 +18,7 @@
 Rozhraní výměny dat můžete použít pro výměnu obchodních dokladů, bankovních souborů, směnných kurzů a dalších datových souborů s vašimi obchodními partnery.
 
 ## Elektronické doklady
-Jako alternativu k odesílání obchodních dokladů v přílohách e-mailů můžete obchodní dokumenty zasílat a přijímat elektronicky. Elektronickým dokladem se rozumí soubor vyhovující standardu představující obchodní doklad, jako například faktura od dodavatele, kterou můžete obdržet a převést na nákupní fakturu v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Výměnu elektronických dokladů mezi dvěma obchodními partnery provádí externí poskytovatel služeb pro výměnu dokladů. Obecná verze [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje odesílání a přijímání elektronických faktur a dobropisů ve formátu PEPPOL, který je podporován největšími poskytovateli služeb pro výměnu dok. Hlavní poskytovatel služeb pro výměnu dokladů je předem nakonfigurován a připraven k nastavení ve vaší společnosti. K poskytování podpory pro jiné formáty elektronických dokladů vytvořte novou definici výměny dat pomocí rozhraní pro výměnu dat.
+Jako alternativu k odesílání obchodních dokladů v přílohách e-mailů můžete obchodní dokumenty zasílat a přijímat elektronicky. Elektronickým dokladem se rozumí soubor vyhovující standardu představující obchodní doklad, jako například faktura od dodavatele, kterou můžete obdržet a převést na nákupní fakturu v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Výměnu elektronických dokladů mezi dvěma obchodními partnery provádí externí poskytovatel služeb pro výměnu dokladů. Obecná verze [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje odesílání a přijímání elektronických faktur a dobropisů ve formátu PEPPOL, který je podporován největšími poskytovateli služeb pro výměnu dokladů. Hlavní poskytovatel služeb pro výměnu dokladů je předem nakonfigurován a připraven k nastavení ve vaší společnosti. K poskytování podpory pro jiné formáty elektronických dokladů vytvořte novou definici výměny dat pomocí rozhraní pro výměnu dat.
 
 Z PDF nebo souborů s obrázky reprezentujících příchozí doklady můžeme nechat externí službu OCR (Optical Character Recognition - Optické rozpoznávání znaků) vytvořit elektronické doklady, které pak můžeme převést na došlé doklady v [!INCLUDE[d365fin](includes/d365fin_md.md)], stejně jako elektronické došlé doklady formátu PEPPOL. Pokud například od svého dodavatele obdržíte fakturu ve formátu PDF, můžete ji odeslat službě OCR na stránce **Došlé doklady**. Po několika sekundách obdržíte soubor zpět jako elektronickou fakturu, kterou lze pro dodavatele převést na nákupní fakturu. Pokud soubor odešlete do služby OCR pomocí e-mailu, bude automaticky vytvořen nový záznam příchozího dokladu, v momentě, kdy obdržíte elektronický doklad zpět.
 
@@ -46,16 +46,16 @@ Pro všechny výměny dat v souborech XML můžete připravit nastavení výměn
 
 Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.
 
-| Viz | Navštivte |
+| Viz | také |
 |--------|---------|  
 | Zjistění, jak funguje Rozhraní výměny dat. | [O rozhraní výměny dat](across-about-the-data-exchange-framework.md) |
 | Připravení se na výměnu dat v souboru opakovaným použitím schématu XML souboru. Nastavení definice výměny dat. Nastavení hlavních dat pro odesílání elektronického dokladu. Nastavení různých polí pro bankovní import/export. | [Nastavení výměny dat](across-set-up-data-exchange.md) |
 | Posílání a příjmání faktur PEPPOL, importování bankovních výpisů a exportování bankovních platebních souborů na základě definice výměny dat. | [Výměna dat](across-exchange-data.md) |
 
 ## Viz také
-[O rozhraní výměny dat](across-about-the-data-exchange-framework.md)
-[Použití schémat XML k přípravě definic datových výměn](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-[Nastavení výměny dat](across-set-up-data-exchange.md)
-[Výměna dat](across-exchange-data.md)
-[Došlé doklady](across-income-documents.md)
-[Obecné obchodní funkcionalityy](ui-across-business-areas.md)
+[O rozhraní výměny dat](across-about-the-data-exchange-framework.md)  
+[Použití schémat XML k přípravě definic datových výměn](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Nastavení výměny dat](across-set-up-data-exchange.md)  
+[Výměna dat](across-exchange-data.md)  
+[Došlé doklady](across-income-documents.md)  
+[Obecné obchodní funkcionalityy](ui-across-business-areas.md)  

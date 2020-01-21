@@ -48,7 +48,7 @@ Pokud byli schvalovatelé nastaveni na stránce **Schvalovatelé příchozích d
 > Vaše přihlašovací údaje jsou automaticky šifrovány.
 
 ## Viz také
-[Zpracování došlých dokladů](across-process-income-documents.md)
-[Došlé doklady](across-income-documents.md)
-[Nakupování](purchasing-manage-purchasing.md)
+[Zpracování došlých dokladů](across-process-income-documents.md)  
+[Došlé doklady](across-income-documents.md)  
+[Nakupování](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
