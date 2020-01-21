@@ -11,102 +11,102 @@ ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Payables and Receivables
+# Závazky a pohledávky
 
-## Credits
+## Zápočty
 
-Company Customers are quite often, to some extent, company Vendors as well. In such situations, it is quite common for companies to compensate their Receivables and Payables.
+Zákazníci společnosti jsou do jisté míry také často prodejci společnosti. V takových situacích je běžné, že společnosti vyrovnají své pohledávky a závazky.
 
-List of the main features of the Credits functionality:  
-- View Balance as Vendor/Balance as Customer – to view Balance as Vendor on Customer card and Balance as Customer on Vendor card, user needs to set a Customer and Vendor business relation with a contact to indicate to the system that even though particular company is registered in application as Vendor and as Customer, it is in fact the same company.
-- Credits Setup – Credit Nos., Credit Bal. Account No., etc.
-- Credit Maintaining on Credit Card – choose Customer/Vendor, suggest lines/entries for compensation.
-- Agreement printout.
-- Credit posting – posted credit is created, entries application is posted.
+Seznam hlavních funkcionalit zápočtů:
+- Pole Saldo jako dodavatel / Saldo jako zákazník na kartě zákazníka/ dodavatele – chcete-li zobrazit saldo jako dodavatel na kartě zákazníka a saldo jako zákazník na kartě dodavatele, potřebuje uživatel nastavit obchodní vztah zákazníka a dodavatele s kontaktem, aby systému ukázal, že když je určitá společnost registrována v aplikaci jako dodavatel a zákazník, je ve skutečnosti stejná společnost.
+- Nastavení zápočtů – Číselná řada, Protiúčet zápočtu, atd.,
+- Správa úvěru na kreditní kartě – zvolte zákazníka/dodavatele, navrhněte řádky/položky pro kompenzaci.
+- Výtisk smlouvy
+- Účtování zápočtu – je vytvořen Účtovaný zápočet a provedeno vyrovnání položek.
 
-entries to be counted can be entered manually or automatically from the Credit Card. In addition, there are functions to mark entries to count and balance the balance.
- 
-There is also a print of the Agreement on Mutual Settlement of Receivables and Payables under Czech legislation.
+Položky k započítání lze vkládat ručně nebo automaticky z Karty zápočtu funkcí Navrhni řádky zápočtu.  Dále jsou k dispozici funkce pro označení položek k započítání a přepočtení salda.
 
-## Exchange Rates Adjustment Feature
+K dispozici je pak i tisk Dohody o vzájemném zápočtu pohledávek a závazků dle České legislativy.
 
-The majority of companies in the Czech Republic request the following improvements to be implemented in Exchange Rates Adjustment: 
-- Ability to run Exchange Rates Adjustment for Customers, Vendors and Bank Accounts separately 
-- Ability to have Exchange Rates Adjustment batch post adjustments in detail as well as summarized per currency 
-- Ability to run Exchange Rates Adjustment just as simulation (without posting) in Test Mode
+## Přepočet pohledávek a závazků
 
-On standard report Adjust Exchange Rates is now possible to:
-- Set Bank Account, Customer, Vendor filter for adjustment
-- Choose adjustment for Customer or Vendor or Bank Account
-- Choose the test mode
-- Choose summarizing entries 
-- Choose the method for dimension transfer
+Většina firem v České republice požaduje následující vylepšení, která mají být realizována v oblasti úpravy směnných kurzů při přepočtu pohledávek a závazků:
+- Možnost řídit úpravu směnných kurzů samostatně pro bank. účty, zákazníky a dodavatele
+- Možnost účtovat úpravu směnného kurzu v detailu nebo souhrnně dle měny
+- Možnost spustit úpravu směnných kurzů jako simulaci (bez účtování) v testovacím režimu
 
-The Adjust Exchange Rate report feature also modifies the calculation principle for implemented gains and losses based on the Income Tax Act. This feature calculates the implemented gain or loss against the recently adjusted amount.
-This feature in the standard version of Microsoft [!INCLUDE[d365fin](../../includes/d365fin_md.md)] reverses the non-implemented gain or loss first, and calculates the implemented gain or loss afterwards. The calculation is expressed against the amount in the initial exchange rate during the application of the payment and the invoice.
-The new calculation principle is implemented for fluctuation in the already adjusted exchange rate.
-The Adjust Exchange Rates batch job has been for Czech Advance Payments has also been extended.
+Ve standardní sestavě Úprava směnných kurzů je nyní možné:
+- Nastavit bankovní účet, zákazníka nebo dodavatele jako filtr
+- Vybrat úpravu jen pro zákazníky nebo dodavatele nebo bankovní účty
+- Zvolit testovací režim
+- Vybrat sumarizaci položek
+- Vybrat způsob přenosu dimenzí
 
-## Multiple Payables/Receivables Accounts
+Úprava směnných kurzů rovněž obsahuje změněný princip výpočtu pro realizované zisky a ztráty na základě Zákona o daních z příjmů. Tato funkce vypočítá realizovaný zisk nebo ztrátu proti naposledy upraveným částkám.
+Tato funkce ve standardní verzi Microsoft[!INCLUDE[d365fin](../../includes/d365fin_md.md)] nejdříve odúčtuje nerealizovaný zisk nebo ztrátu a pak vypočítá realizovaný zisk nebo ztrátu.  Výpočet je proveden proti částce v původním kurzu při zpracování platby a faktury.
+Nový princip výpočtu zpracovává odchylky oproti aktuálně upravenému směnnému kurzu.
+Úprava směnných kurzů byla rozšířena i o český modul zálohy.
 
-Users often post transactions like bad debt or other types of Receivable/Payable transactions that need to be recorded in Customer and Vendor Ledgers, but at same time posted to different Receivable/Payable GL Account, other than the one specified on Customer or Vendor posting groups. The easiest way to enable such functionality is to allow users to change Customer and Vendor posting groups in the moment of posing a particular transaction.
+## Více účtů pohledávek a závazků
 
-## Customers/Vendors Reconciliations
+Uživatelé často účtují operace jako nedobytné pohledávky či jiné typy operací pohledávek/závazků, které mají být zaznamenány v položkách zákazníků/dodavatelů, ale zároveň zaúčtovány na jiné účty pohledávek/závazků než jsou specifikovány v účto skupinách zákazníků a dodavatelů. Nejjednodušší způsob, jak umožnit takovou funkčnost, je povolit uživateli změnu účto skupiny zákazníka/dodavatele při účtování dílčí operace.
 
-At the end of each fiscal year (or another period, when requested), companies send a statement of balances to Customers and Vendors in order to reconcile them with Customer and Vendor records. Customers and Vendors either confirm the statement or not and send it back with corrections, based on their own information. This feature allows users to prepare such report in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+## Odsouhlasení pohledávek a závazků
 
-## Sales Correcting Documents
+Na konci každého fiskálního roku (nebo jiného období je-li požadováno) společnosti zasílají hlášení o stavu pohledávek zákazníkům a závazků dodavatelům, aby si navzájem sladili svoje záznamy. Zákazníci a dodavatelé buď hlášení potvrdí, nebo ho pošlou na základě svých vlastních informací s opravami zpět. Tato funkcionalita umožňuje uživatelům v [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vytvořit takové sestavy.
 
-According to the VAT law amendment, it is necessary to differentiate types of Sales Credit-Memo documents. This feature allows users to set up the following Credit Memo Types:
-- Corrective Tax Document
-- Internal Correction
-- Insolvency Tax Document
+## Opravné prodejní doklady
 
-This Credit Memo Type defines how is handled Postponed VAT on Sales Credit-Memo documents.
+Podle novelizace Zákona o DPH je nutné rozlišovat typy prodejních dobropisů. Tato funkce umožňuje uživatelům nastavit následující typy dobropisů:
+- Opravný daňový doklad
+- Interní oprava
+- Daňový doklad insolvence
 
-## Contacts Actualization from ARES
+Tento typ dobropisu definuje, jak je nakládáno s odloženým DPH na prodejních dobropisech.
 
-ARES stands for Access to Register of Economic Subjects. ARES is an information system allowing retrieval of information on economic entities registered in the Czech Republic.  
-The user can fill in ARES Http in Reg. No. Validation Service Setup. 
-It is possible to run ARES actualization from Contact, Vendor and Customer Card. It is possible to search the company and decide which fields can be updated in [!INCLUDE[d365fin](../../includes/d365fin_md.md)](Name, Address, City, Post Code).
+## Aktualizace kontaktů z Ares
 
-## New Design of Output Documents
+ARES je zkratka pro Access to Register of Economic Subjects. ARES je informační systém umožňující získávání informací o ekonomických subjektech registrovaných v České republice.
+Uživatel může http adresu služby ARES vyplnit v  Nastavení financí.
+Aktualizaci z ARES můžete spustit z karty kontaktu, dodavatele nebo zákazníka. Můžete vyhledávat společnosti a rozhodnout, která pole v [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zaktualizujete (jméno, adresa, město, PSČ).
 
-New set of printed reports for company external documents was created.
-All documents have the same layout design (headers, footers, font type and size, etc.).
-Additionally to standardisation, NAV documents were extended by all requirements required by the Czech legislation:  
-- Registration No., VAT Registration No.
-- Deduction of advances with information about invoice and date of payment received
-- VAT specification printout grouped by VAT Identifier
-- Naming of tax corrective documents based on Credit Memo type
-- Printout of documents related to advance payments
+## Nový design výstupních dokladů
 
-### List of Reports in the CZ Document Set:
-- Sales – Advance Letter CZ
-- Sales – Advance Invoice CZ
-- Sales – Advance Credit Memo CZ
-- Purchase – Advance Letter CZ
-- Purchase – Advance Invoice CZ
-- Purchase – Advance Cr. Memo CZ
-- Purchase – Quote CZ
-- Order CZ
-- Return Order Confirmation CZ
-- Sales – Quote CZ
-- Order Confirmation CZ
-- Sales – Invoice CZ
-- Sales – Credit Memo CZ
-- Sales – Shipment CZ
-- Sales – Return Receipt CZ
-- Charge Memo CZ
-- Reminder CZ
-- Service - Contract CZ
-- Service - Contract Quote
-- Service - Quote CZ
-- Service - Order CZ
-- Service - Invoice CZ
-- Service - Credit Memo CZ
-- Service - Shipment CZ
+Byla vytvořena nová sada tiskových sestav pro externí doklady společnosti.
+Všechny doklady mají stejný vzhled (záhlaví, zápatí, typ a velikost písma, atd.)
+Kromě toho byly výstupní doklady rozšířeny o všechny náležitosti vyžadované českou legislativou:
+- IČ, DIČ
+- Odpočet záloh s informacemi o faktuře a datu přijaté platby
+- Tisk Specifikace DPH seskupené podle DPH identifikátoru
+- Pojmenování opravných daňových dokladů na základě typu dobropisu
+- Tisk dokladů vztahujících se k zálohám
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
+### Seznam CZ sestav dokladů:
+- Prodej - zálohová faktura CZ
+- Prodejní záloha - faktura CZ
+- Prodejní záloha - dobropis CZ
+- Nákup - zálohová faktura CZ
+- Nákupní záloha - faktura CZ
+- Nákupní záloha - dobropis CZ
+- Nákup - poptávka CZ
+- Objednávka CZ
+- Potvrzení objednávky vratky CZ
+- Prodej - nabídka CZ
+- Potvrzení objednávky CZ
+- Prodej - faktura CZ
+- Prodej - dobropis CZ
+- Prodej - dodávka CZ
+- Prodej - příjemka vratky
+- Penále CZ
+- Upomínka CZ
+- Servisní smlouva CZ
+- Nabídky servisních smluv
+- Servisní nabídka CZ
+- Servisní zakázka CZ
+- Servis - faktura CZ
+- Servis - Dobropis CZ
+- Servis - dodávka CZ
+
+## Viz také
+[Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](finance.md)
