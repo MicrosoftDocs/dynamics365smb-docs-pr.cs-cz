@@ -15,27 +15,31 @@ ms.author: v-makune
 
 ## Zápočty
 
-Zákazníci společnosti jsou do jisté míry také často prodejci společnosti. V takových situacích je běžné, že společnosti vyrovnají své pohledávky a závazky.
+Zákazníci společnosti jsou také často jejími dodavateli. V takových případech je běžné, že společnosti vyrovnají své pohledávky a závazky.
 
-Seznam hlavních funkcionalit zápočtů:
-- Pole Saldo jako dodavatel / Saldo jako zákazník na kartě zákazníka/ dodavatele – chcete-li zobrazit saldo jako dodavatel na kartě zákazníka a saldo jako zákazník na kartě dodavatele, potřebuje uživatel nastavit obchodní vztah zákazníka a dodavatele s kontaktem, aby systému ukázal, že když je určitá společnost registrována v aplikaci jako dodavatel a zákazník, je ve skutečnosti stejná společnost.
-- Nastavení zápočtů – Číselná řada, Protiúčet zápočtu, atd.,
-- Správa úvěru na kreditní kartě – zvolte zákazníka/dodavatele, navrhněte řádky/položky pro kompenzaci.
-- Výtisk smlouvy
-- Účtování zápočtu – je vytvořen Účtovaný zápočet a provedeno vyrovnání položek.
+Seznam hlavních funkcionalit Zápočtů:  
+
+- Pole **Saldo jako dodavatel / Saldo jako zákazník** na kartě zákazníka/ dodavatele – chcete-li zobrazit saldo jako dodavatel na kartě zákazníka a saldo jako zákazník na kartě dodavatele, musí uživatel nastavit obchodní vztah zákazníka a dodavatele s kontaktem, aby systému ukázal, že daná společnost je v aplikaci evidována jako dodavatel i jako zákazník, a že se jedná o jednu a tutéž společnost.
+- **Nastavení zápočtů** – Číselná řada, Protiúčet zápočtu, atd.,
+- **Karta zápočtu** – řádky k započtení,  
+- Funkce – **Navrhni řádky zápočtu**, Vydání,
+- **Dohoda o vzájemném zápočtu pohledávek a závazků**,
+- **Účtování zápočtu** – je vytvořen Účtovaný zápočet a provedeno vyrovnání položek.
 
 Položky k započítání lze vkládat ručně nebo automaticky z Karty zápočtu funkcí Navrhni řádky zápočtu.  Dále jsou k dispozici funkce pro označení položek k započítání a přepočtení salda.
 
 K dispozici je pak i tisk Dohody o vzájemném zápočtu pohledávek a závazků dle České legislativy.
 
-## Přepočet pohledávek a závazků
+## Přepočet pohledávek a závazků (Úprava směnných kurzů)
 
 Většina firem v České republice požaduje následující vylepšení, která mají být realizována v oblasti úpravy směnných kurzů při přepočtu pohledávek a závazků:
+
 - Možnost řídit úpravu směnných kurzů samostatně pro bank. účty, zákazníky a dodavatele
 - Možnost účtovat úpravu směnného kurzu v detailu nebo souhrnně dle měny
 - Možnost spustit úpravu směnných kurzů jako simulaci (bez účtování) v testovacím režimu
 
 Ve standardní sestavě Úprava směnných kurzů je nyní možné:
+
 - Nastavit bankovní účet, zákazníka nebo dodavatele jako filtr
 - Vybrat úpravu jen pro zákazníky nebo dodavatele nebo bankovní účty
 - Zvolit testovací režim
@@ -43,7 +47,7 @@ Ve standardní sestavě Úprava směnných kurzů je nyní možné:
 - Vybrat způsob přenosu dimenzí
 
 Úprava směnných kurzů rovněž obsahuje změněný princip výpočtu pro realizované zisky a ztráty na základě Zákona o daních z příjmů. Tato funkce vypočítá realizovaný zisk nebo ztrátu proti naposledy upraveným částkám.
-Tato funkce ve standardní verzi Microsoft[!INCLUDE[d365fin](../../includes/d365fin_md.md)] nejdříve odúčtuje nerealizovaný zisk nebo ztrátu a pak vypočítá realizovaný zisk nebo ztrátu.  Výpočet je proveden proti částce v původním kurzu při zpracování platby a faktury.
+Tato funkce ve standardní verzi Microsoft[!INCLUDE[d365fin](../../includes/d365fin_md.md)] nejdříve odúčtuje nerealizovaný zisk nebo ztrátu a pak vypočítá realizovaný zisk nebo ztrátu. Výpočet je proveden proti částce v původním kurzu při zpracování platby a faktury.
 Nový princip výpočtu zpracovává odchylky oproti aktuálně upravenému směnnému kurzu.
 Úprava směnných kurzů byla rozšířena i o český modul zálohy.
 
@@ -53,35 +57,37 @@ Uživatelé často účtují operace jako nedobytné pohledávky či jiné typy 
 
 ## Odsouhlasení pohledávek a závazků
 
-Na konci každého fiskálního roku (nebo jiného období je-li požadováno) společnosti zasílají hlášení o stavu pohledávek zákazníkům a závazků dodavatelům, aby si navzájem sladili svoje záznamy. Zákazníci a dodavatelé buď hlášení potvrdí, nebo ho pošlou na základě svých vlastních informací s opravami zpět. Tato funkcionalita umožňuje uživatelům v [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vytvořit takové sestavy.
+Na konci každého fiskálního roku (nebo jiného období je-li požadováno) společnosti zasílají hlášení o stavu pohledávek zákazníkům a závazků dodavatelům, aby si navzájem sladili svoje záznamy. Zákazníci a dodavatelé buď hlášení potvrdí, nebo ho pošlou na základě svých vlastních informací s opravami zpět. Tato funkcionalita umožňuje uživatelům vytvořit sestavy odsouhlasení pohledávek a závazků v [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)].
 
 ## Opravné prodejní doklady
 
 Podle novelizace Zákona o DPH je nutné rozlišovat typy prodejních dobropisů. Tato funkce umožňuje uživatelům nastavit následující typy dobropisů:
+
 - Opravný daňový doklad
 - Interní oprava
 - Daňový doklad insolvence
 
-Tento typ dobropisu definuje, jak je nakládáno s odloženým DPH na prodejních dobropisech.
-
-## Aktualizace kontaktů z Ares
+## Aktualizace kontaktů z ARES
 
 ARES je zkratka pro Access to Register of Economic Subjects. ARES je informační systém umožňující získávání informací o ekonomických subjektech registrovaných v České republice.
-Uživatel může http adresu služby ARES vyplnit v  Nastavení financí.
-Aktualizaci z ARES můžete spustit z karty kontaktu, dodavatele nebo zákazníka. Můžete vyhledávat společnosti a rozhodnout, která pole v [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zaktualizujete (jméno, adresa, město, PSČ).
+Uživatel může http adresu služby ARES vyplnit v Nastavení služby ověření IČ.  
+Aktualizaci z ARES můžete spustit z karty kontaktu, dodavatele nebo zákazníka na tlačítku v poli IČ. Můžete vyhledávat společnosti a rozhodnout, která pole v [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)] zaktualizujete (název, adresa, město, PSČ).
 
 ## Nový design výstupních dokladů
 
 Byla vytvořena nová sada tiskových sestav pro externí doklady společnosti.
-Všechny doklady mají stejný vzhled (záhlaví, zápatí, typ a velikost písma, atd.)
-Kromě toho byly výstupní doklady rozšířeny o všechny náležitosti vyžadované českou legislativou:
+Všechny doklady mají stejný vzhled (záhlaví, zápatí, typ a velikost písma, atd.)  
+
+Kromě toho byly výstupní doklady rozšířeny o všechny náležitosti vyžadované českou legislativou:  
+
 - IČ, DIČ
 - Odpočet záloh s informacemi o faktuře a datu přijaté platby
 - Tisk Specifikace DPH seskupené podle DPH identifikátoru
 - Pojmenování opravných daňových dokladů na základě typu dobropisu
 - Tisk dokladů vztahujících se k zálohám
 
-### Seznam CZ sestav dokladů:
+### Seznam CZ sestav dokladů  
+
 - Prodej - zálohová faktura CZ
 - Prodejní záloha - faktura CZ
 - Prodejní záloha - dobropis CZ
@@ -96,17 +102,18 @@ Kromě toho byly výstupní doklady rozšířeny o všechny náležitosti vyžad
 - Prodej - faktura CZ
 - Prodej - dobropis CZ
 - Prodej - dodávka CZ
-- Prodej - příjemka vratky
-- Penále CZ
+- Prodej - příjemka vratky CZ
 - Upomínka CZ
-- Servisní smlouva CZ
-- Nabídky servisních smluv
+- Penále CZ
 - Servisní nabídka CZ
 - Servisní zakázka CZ
+- Nabídka servisní smlouvy CZ
+- Servisní smlouva CZ
 - Servis - faktura CZ
-- Servis - Dobropis CZ
 - Servis - dodávka CZ
+- Servis - dobropis CZ
 
-## Viz také
+## Viz také  
+
 [Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](finance.md)
