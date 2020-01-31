@@ -114,7 +114,7 @@ The **OCR Data Correction** page, which you open from the **Incoming Document** 
 The fields on the **Financial Information** FastTab on the **Incoming Document** page are updated with any new values that you entered in step 4.
 
 ## Viz také
-[Zpracování došlých dokladů](across-process-income-documents.md)
-[Došlé doklady](across-income-documents.md)
-[Nakupování](purchasing-manage-purchasing.md)
+[Zpracování došlých dokladů](across-process-income-documents.md)  
+[Došlé doklady](across-income-documents.md)  
+[Nakupování](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

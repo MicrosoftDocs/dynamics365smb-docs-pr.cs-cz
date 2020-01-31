@@ -48,7 +48,7 @@ Before you can process customer payments electronically by exporting direct debi
 2. Choose the **New** action.
 3. Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **Direct Debit** | Specify if the payment method is for SEPA direct debit collection. |
    | **Direct Debit Pmt. Terms Code** | Specify the payment terms, such as DON’T PAY, that are displayed on sales invoices that are paid with SEPA direct debit to indicate to the customer that the payment will be collected automatically. Alternatively, leave the field empty. |
@@ -69,7 +69,7 @@ Before you can process customer payments electronically by exporting direct debi
 4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then choose the **Direct Debit Mandates** action.
 5. On the **SEPA Direct Debit Mandates** page, fill in the fields as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **Customer Bank Account Code** | Specifies the bank account from which direct\-debit payments are collected. This field is filled automatically. |
    | **Valid From** | Specify the date when the direct\-debit mandate starts. |
@@ -96,7 +96,7 @@ To instruct the bank to transfer the payment amount from the customer’s bank a
 2. On the **Direct Debit Collections** page, choose the **Create Direct Debit Collection** action.
 3. On the **Create Direct Debit Collection** page, fill in the fields as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **From Due Date** | Specify the earliest payment due date on sales invoices that you want to create a direct-debit collection for. |
    | **To Due Date** | Specify the latest payment due date on sales invoices that you want to create a direct-debit collection for. |
@@ -143,7 +143,7 @@ You can post the payment receipt directly from the **Direct Debit Collections** 
 3. Choose the **Post Payment Receipts** action.
 4. On the **Post Direct Debit Collection** page, fill in the fields as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **Direct Debit Collection No.** | Specify the direct debit collection that you want to post payment receipt for. |
    | **General Journal Template** | Specify which general journal template to use for posting the payment receipt, such as the template for cash receipts. |

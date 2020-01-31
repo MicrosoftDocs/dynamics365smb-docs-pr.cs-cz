@@ -40,9 +40,9 @@ This topic contains the following procedures:
 
 3. Choose the **New** action.
 
-4. Fill the fields as described in the following table.
+4. Vyplňte pole podle popisu v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **Code** | Specify a code to identify the XML schema. |
    | **Description** | Specify a description of the XML schema. |
@@ -62,7 +62,7 @@ This topic contains the following procedures:
 
 2. Fill the fields on the header as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **XML Schema Code** | Specify the XML schema file that you loaded in step 5 in the “To load an XML schema file” section. |
    | **New XMLport No.** | Specify the number of the XMLport that is created from this XML schema when you choose the **Generate XMLport** action. |
