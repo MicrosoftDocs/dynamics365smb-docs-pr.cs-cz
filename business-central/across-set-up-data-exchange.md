@@ -14,13 +14,13 @@ ms.author: sgroespe
 
 ---
 # Setting Up Data Exchange
-Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. For more information, see [Exchanging Data Electronically](across-data-exchange.md).
+Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
 
 When [!INCLUDE[d365fin](includes/d365fin_md.md)] is set up to exchange data with external files, users can use the setup in common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.
 
 Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.
 
-| **Viz** | **Navštivte** |
+| **Viz** | **Také** |
 |------------|-------------|  
 | Set up the preconfigured document exchange service to enable sending and receiving electronic documents from and to [!INCLUDE[d365fin](includes/d365fin_md.md)]. | [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md) |
 | Set up the preconfigured OCR service to turn PDF or image files into electronic documents that can be converted to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)] | [Set Up Incoming Documents](across-how-setup-income-documents.md) |

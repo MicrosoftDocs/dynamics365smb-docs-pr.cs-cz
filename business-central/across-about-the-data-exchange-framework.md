@@ -23,9 +23,9 @@ Následující diagramy ukazují architekturu rozhraní výměny dat.
 ![Elektronická výměna dat &#45; Export](media/across-data-exchange/dataexchangeframework_export.png)
 
 ## Viz také
-[Elektronická výměna dat](across-data-exchange.md)
-[Použití schémat XML k přípravě definic datových výměn](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-[Nastavení výměny dat](across-set-up-data-exchange.md)
-[Výměna dat](across-exchange-data.md)
-[Došlé doklady](across-income-documents.md)
+[Elektronická výměna dat](across-data-exchange.md)  
+[Použití schémat XML k přípravě definic datových výměn](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Nastavení výměny dat](across-set-up-data-exchange.md)  
+[Výměna dat](across-exchange-data.md)  
+[Došlé doklady](across-income-documents.md)  
 [Obecné obchodní funkcionality](ui-across-business-areas.md)
