@@ -43,7 +43,7 @@ The topic contains the following procedures:
 1. In the **Search** box, enter **Company Information**, and then choose the related link.
 2. On the **General** FastTab, fill the fields as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **GLN** | Identify your company.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **EndPointID** element under the **AccountingSupplierParty** node in the file. The number is based on the GS1 standard, which is compliant with ISO 6523. |
    | **VAT Registration No.** | Specify your company’s VAT registration number. |
@@ -53,7 +53,7 @@ The topic contains the following procedures:
 1. In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.
 2. For each VAT posting setup line that you will use for electronic documents, fill the field as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **Tax Category** | Specify the VAT category.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **TaxApplied** element under the **AccountingSupplierParty** node in the file. The number is based on the UNCL5305 standard. |
 
@@ -61,7 +61,7 @@ The topic contains the following procedures:
 1. In the **Search** box, enter **Country/Regions**, and then choose the related link.
 2. For each country/region that you will exchange electronic documents with, fill the field as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **VAT Scheme** | Identify the national body that issues the VAT registration number for the country\/region in connection with electronic document sending.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **SchemeID** attribute for the **EndPointID** element under both the **AccountingSupplierParty** node and the **AccountingCustomerParty** in the file.<br /><br /> The **VAT Scheme** field is only used if the **GLN** field on the **Company Information** page is not filled. **Note:**  The value in the **Code** field on the **Countries\/Regions** page must comply with ISO 3166\-1:Alpha2. |
 
@@ -69,7 +69,7 @@ The topic contains the following procedures:
 1. In the **Search** box, enter **Items**, and then choose the related link.
 2. For each item that you buy or sell on electronic documents, fill the field as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **GTIN** | Identifies the item in connection with electronic document sending and receiving. For the PEPPOL format, the field is used as follows:<br /><br /> If the **StandardItemIdentification\/ID** element has the **SchemeID** attribute set to **GTIN**, then the element is mapped to the **GTIN** field on the item card. |
 
@@ -77,7 +77,7 @@ The topic contains the following procedures:
 1. In the **Search** box, enter **Units of Measure**, and then choose the related link.
 2. For each unit of measure that you will use for items on electronic documents, fill the field as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **International Standard Code** | Specify the unit of measure code expressed according to the UNECERec20 standard in connection with sending of electronic documents.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **unitCode** attribute of the **InvoicedQuantity** element under the **InvoiceLine** node. **Note:**  If the **Unit of Measure** field on the sales line is empty, the UNECERe20 standard value for “Piece” \(H87\) is inserted by default. For more information and a list of valid unit of measure codes, see [Recommendation No. 20 \- Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf). |
 
@@ -85,7 +85,7 @@ The topic contains the following procedures:
 1. In the **Search** box, enter **Customers**, and then choose the related link.
 2. For each customer who you will send electronic documents to, fill the fields as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **GLN** | Identify the customer.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **EndPointID** element under the **AccountingCustomerParty** node in the file. The number is based on the GS1 standard, which is compliant with ISO 6523.<br /><br /> If the **GLN** field is blank, the value in the **VAT Registration No.** field is used. |
    | **VAT Registration No.** | Specify the customer's VAT registration number. **Tip:**  Choose the DrillDown button to use the web service that verifies if the number exists in the country’s company register. |
@@ -110,7 +110,7 @@ The topic contains the following procedures:
 1. In the **Search** box, enter **Vendors**, and then choose the related link.
 2. For each vendor that you will receive electronic documents from, fill the fields as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **GLN** | Identify the vendor.<br /><br /> For example, when you receive electronic invoices in the PEPPOL format, the value in this field is used to populate the **EndPointID** element under the **AccountingSupplierParty** node in the file. The number is based on the GS1 standard, which is compliant with ISO 6523.<br /><br /> If the **GLN** field is blank, the value in the **VAT Registration No.** field is used. |
    | **VAT Registration No.** | Specify the vendor’s VAT registration number. **Tip:**  Choose the DrillDown button to use the web service that verifies if the number exists in the country’s company register. |
@@ -128,7 +128,7 @@ The topic contains the following procedures:
 1. In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.
 2. On the **Default Accounts** FastTab, fill the field as described in the following table.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **G/L Account for Non-Item Lines** | Specifies the G/L account that is automatically inserted on purchase lines that are created from electronic documents when the incoming document line does not contain an identifiable item. Any incoming document line that does not have a GTIN or the vendor’s item number will be converted to a purchase line of type **G/L Account**, and the **No.** field on the purchase line will contain the account that you select in the **G/L Account for Non-Item Lines** field.<br /><br /> If you leave the **G/L Account for Non-Item Lines** field blank, and the incoming document has lines without identifiable items, then the purchase document will not be created. An error message will instruct you to fill the **G/L Account for Non-Item Lines** field before you can complete the task. |
 

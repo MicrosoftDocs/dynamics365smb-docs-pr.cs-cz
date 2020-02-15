@@ -16,11 +16,11 @@
 # Výměna dat
 Můžete vyměňovat data mezi [!INCLUDE[d365fin](includes/d365fin_md.md)]  a externími soubory nebo datovými toky v souvislosti s běžnými obchodními úkoly, jako je odesílání a přijímání elektronických dokladů nebo import a export bankovních souborů.
 
-Než budete moci odesílat a přijímat elektronické doklady nebo importovat a exportovat bankovní soubory, musíte nastavit rámec pro výměnu dat pro zpracování datových souborů nebo datových toků. Kromě toho je nutné nastavit související oblasti, jako například zákazníky, kterým odesíláte elektronické faktury a rozšíření AMC Banking 365 Fundamentals, pokud rozesíláte převody bankovních souborů externímu poskytovateli služeb. Další informace naleznete v části  [Nastavení výměny dat](across-set-up-data-exchange.md).
+Než budete moci odesílat a přijímat elektronické doklady nebo importovat a exportovat bankovní soubory, musíte nastavit rámec pro výměnu dat pro zpracování datových souborů nebo datových toků. Kromě toho je nutné nastavit související oblasti, jako například zákazníky, kterým odesíláte elektronické faktury a rozšíření AMC Banking 365 Fundamentals, pokud rozesíláte převody bankovních souborů externímu poskytovateli služeb. Pro více informaci navštivte [Nastavení výměny dat](across-set-up-data-exchange.md).
 
 Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.
 
-| **Viz** | **Navštivte** |
+| **Viz** | **Také** |
 |------------|-------------|  
 | Převedení záznamů prodejních dokladů v [!INCLUDE[d365fin](includes/d365fin_md.md)] do standardizovaného formátu a jejich odeslání jako elektronické doklady, které mohou zákazníci nahrát do svého systému. | [Posílání elektronických dokumentů](sales-how-to-send-electronic-documents.md) |
 | Odesílání obrázkových a PDF souborů poskytovateli služeb OCR a jejich přijímání zpět jako elektronické doklady, které v [!INCLUDE[d365fin](includes/d365fin_md.md)] lze převést na záznamy dokladů. | [Použití funkce OCR k převedení souborů PDF a obrázkových souborů do elektronických dokumentů](across-how-use-ocr-pdf-images-files.md) |
@@ -34,9 +34,9 @@ Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je po
 | Zobrazení polí v aplikaci [!INCLUDE[d365fin](includes/d365fin_md.md)], která jsou mapovány na prvky souboru při exportu platebních souborů pomocí rozšíření AMC Banking 365 Fundamentals. | [Mapování polí při exportu platebních souborů pomocí rozšíření AMC Banking 365 Fundamentals ](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md) |
 
 ## Viz také
-[Nastavení výměny dat](across-set-up-data-exchange.md)
-[Elektronická výměna datn](across-data-exchange.md)
-[Fakturace prodeje](sales-how-invoice-sales.md)
-[Záznam nákupu](purchasing-how-record-purchases.md)
-[Došlé doklady](across-income-documents.md)
+[Nastavení výměny dat](across-set-up-data-exchange.md)  
+[Elektronická výměna dat](across-data-exchange.md)  
+[Fakturace prodeje](sales-how-invoice-sales.md)  
+[Záznam nákupu](purchasing-how-record-purchases.md)  
+[Došlé doklady](across-income-documents.md)  
 [Obecné obchodní funkcionality](ui-across-business-areas.md)
