@@ -13,8 +13,8 @@ ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
-# O elektronické výměně dat v [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Formát souborů, pro výměnu dat bankovních souborů, elektronických dokladů, směnných kurzů a dalších, se v systémech ERP liší, v závislosti na poskytovateli datového souboru, nebo datového proudu a na zemi / regionu. [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje různé formáty bankovních souborů a standartů datových služeb. K poskytování podpory pro jiné formáty elektronických dokladů použijte rozhraní pro výměnu dat. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
+# O rozhraní výměny dat v [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Formát souborů, pro výměnu dat bankovních souborů, elektronických dokladů, směnných kurzů a dalších, se v systémech ERP liší, v závislosti na poskytovateli datového souboru, nebo datového proudu a na zemi / regionu. [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje různé formáty bankovních souborů a standardů datových služeb. K poskytování podpory pro jiné formáty elektronických dokladů použijte rozhraní pro výměnu dat. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
 
 Následující diagramy ukazují architekturu rozhraní výměny dat.
 

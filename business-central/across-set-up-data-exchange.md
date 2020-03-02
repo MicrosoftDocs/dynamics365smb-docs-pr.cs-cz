@@ -13,29 +13,29 @@ ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
-# Setting Up Data Exchange
-Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
+# Nastavení výměny dat
+Než budete moci odesílat a přijímat elektronické dokumenty nebo importovat a exportovat bankovní soubory, musíte nastavit rámec pro výměnu dat pro zpracování příslušných datových souborů. Kromě toho je nutné nastavit související oblasti, jako například zákazníky, kterým odesíláte elektronické faktury, nebo rozšíření AMC Banking 365 Fundamentals, pokud používáte externí poskytovatele služeb k převodu bankovních souborů. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
 
-When [!INCLUDE[d365fin](includes/d365fin_md.md)] is set up to exchange data with external files, users can use the setup in common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.
+Když je [!INCLUDE[d365fin](includes/d365fin_md.md)] nastaven na výměnu dat s externími soubory, mohou uživatele toto nastavení použít v běžných obchodních úlohách, jako je odesílání a přijímání elektronických dokumentů a import a export bankovních souborů.
 
 Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.
 
 | **Viz** | **Také** |
 |------------|-------------|  
-| Set up the preconfigured document exchange service to enable sending and receiving electronic documents from and to [!INCLUDE[d365fin](includes/d365fin_md.md)]. | [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md) |
-| Set up the preconfigured OCR service to turn PDF or image files into electronic documents that can be converted to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)] | [Set Up Incoming Documents](across-how-setup-income-documents.md) |
-| Set up one of two preconfigured services for updated exchange rates to get the latest currency exchange rates into the **Currencies** page. | [Aktualizace směnných kurzů](finance-how-update-currencies.md) |
-| Set up various master data, such as company information, customers, vendors, items, and units of measure, related to mapping data in [!INCLUDE[d365fin](includes/d365fin_md.md)] | [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md) |
-| Set up a bank account, a vendor, and a payment journal for SEPA credit transfer. | [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md) |
-| Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit. | [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md) |
-| Set up user authentication and the URL of the bank data conversion service provider that is required to have bank files converted to your bank’s format. | [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) |
-| Set up and enable an external service that enables you to import bank statements directly as bank feeds. | [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md) |
-| After the Bank Statement service is enabled, link bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] | [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) |
-| Prepare to set up a new data exchange definition for a data file or stream by using the file’s XML schema to prefill the **Column Definitions** FastTab on the **Posting Exchange Definition** page. | [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) |
-| Set up the Data Exchange Framework to enable users to receive a new purchase document format, send a new sales document format, import a new bank file, or other data exchange. | [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) |
+| Nastavte předkonfigurovanou službu výměny dokumentů tak, aby umožňovala odesílání a přijímání elektronických dokumentů do a z [!INCLUDE[d365fin](includes/d365fin_md.md)]. | [Nastavení služby směnných kurzů](across-how-to-set-up-a-document-exchange-service.md) |
+| Nastavte předkonfigurovanou službu OCR tak, aby přeměnila soubory obrazové, nebo PDF soubory na elektronické dokumenty, které lze převést na záznamy dokumentů v [!INCLUDE[d365fin](includes/d365fin_md.md)] | [Nastavení Příchozích dokumentů](across-how-setup-income-documents.md) |
+| Nastavte jednu ze dvou předkonfigurovaných služeb pro aktualizované směnné kurzy, abyste získali nejnovější směnné kurzy na stránce **Měny**. | [Aktualizace směnných kurzů](finance-how-update-currencies.md) |
+| Nastavte různá hlavní data, jako jsou informace o společnosti, zákaznících, dodavatelích, zboží a měrné jednotky, související s mapováním dat v [!INCLUDE[d365fin](includes/d365fin_md.md)] | [Nastavení odesílání a přijímání elektronického dokladu](across-how-to-set-up-electronic-document-sending-and-receiving.md) |
+| Nastavte bankovní účet, dodavatele a deník plateb pro převod SEPA. | [Nastavení převodu SEPA](finance-how-to-set-up-sepa-credit-transfer.md) |
+| Připravte si formáty bankovních účtů, způsoby platby a smlouvy se zákazníky pro příkaz k inkasu SEPA. | [Nastavení SEPA – příkaz k inkasu](finance-how-to-set-up-sepa-direct-debit.md) |
+| Nastavte ověřování uživatelů a adresu URL poskytovatele služeb převodu bankovních údajů, který má převádět bankovní soubory do formátu vaší banky. | [Používání rozšíření AMC Banking 365 Fundamentals ](ui-extensions-amc-banking.md) |
+| Nastavte a povolte externí službu, která umožňuje importovat bankovní výpisy přímo jako bankovní kanál. | [Nastavení služby bankovních výpisů](bank-how-setup-bank-statement-service.md) |
+| Po aktivaci služby Bankovní výpisů propojte bankovní účty v [!INCLUDE[d365fin](includes/d365fin_md.md)] | [Nastavení bankovních účtů](bank-how-setup-bank-accounts.md) |
+| Připravte se na nastavení nové definice výměny dat pro datový soubor nebo datový proud pomocí souborového schéma XML a předvyplňte záložky **Definice sloupce** na stránce **Definice výměny účtovaných dat**. | [Použití schémat XML k přípravě definic datových výměn](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) |
+| Nastavte rámec pro výměnu dat, který uživatelům umožní přijímat nový formát nákupních dokladů, odesílat nový formát prodejních dokladů, importovat nový bankovní soubor nebo vyměňovat jiné údaje. | [Nastavení definice výměny dat](across-how-to-set-up-data-exchange-definitions.md) |
 
 ## Viz také
-[Exchanging Data Electronically](across-data-exchange.md)
-[Exchanging Data](across-exchange-data.md)
-[Incoming Documents](across-income-documents.md)
-[General Business Functionality](ui-across-business-areas.md)
+[Elektronická výměna dat](across-data-exchange.md)  
+[Výměna dat](across-exchange-data.md)  
+[Došlé doklady](across-income-documents.md)  
+[Obecné obchodní funkcionality](ui-across-business-areas.md)

@@ -16,7 +16,7 @@
 # Mapování polí při importu souborů SEPA CAMT
 [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje regionální standardy SEPA (Single Euro Payments Area) pro import SEPA bankovních výpisů (formát CAMT). Další informace naleznete v části [Používání rozšíření AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 
-Samotný Standard SEPA CAMT má lokální varianty. Proto bude možná nutné změnit obecnou definici výměny dat (představovanou ** kódem SEPA CAMT ** na stránce **účtování definic výměny**), aby se přizpůsobila místní variaci standardu. Následující tabulky ukazují mapování element-k-poli pro tabulky 81, 273 a 274 v implementaci SEPA CAMT v [INCLUDE[d365fin](includes/d365fin_md.md)].
+Samotný Standard SEPA CAMT má lokální varianty. Proto bude možná nutné změnit obecnou definici výměny dat (představovanou **kódem SEPA CAMT** na stránce **Definice výměny účtovaných dat**), aby se přizpůsobila místní variaci standardu. Následující tabulky ukazují mapování element-k-poli pro tabulky 81, 273 a 274 v implementaci SEPA CAMT v [INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Informace o vytváření nebo úpravě definic výměny dat naleznete v [Nastavení definice výměny dat](across-how-to-set-up-data-exchange-definitions.md).
 
@@ -32,7 +32,7 @@ Informace o vytváření nebo úpravě definic výměny dat naleznete v [Nastave
 | Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd | Unstructured | Text | Informace poskytnuté k tomu, aby umožnily vyrovnání / odsouhlasení položky se zbožím, které má platba uhradit, jako jsou obchodní faktury v systému pohledávek, v nestrukturované podobě | 8 | Popis |
 | Stmt/Ntry/AddtlNtryInf | AdditionalEntryInformation | Text | Další informace o položce | 1222 | Transaction Information |
 
-## CAMT mapování dat na pole v tabulce vyrování (273)
+## CAMT mapování dat na pole v tabulce vyrovnání (273)
 
 | Cesta prvku | Element zprávy | Datový typ | Popis | Identifikátor záporného znaménka | Číslo pole | Název pole |
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -53,7 +53,7 @@ Informace o vytváření nebo úpravě definic výměny dat naleznete v [Nastave
 | Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd | Unstructured | Text | Informace poskytnuté k tomu, aby umožnily vyrovnání / odsouhlasení položky se zbožím, které má platba uhradit, jako jsou obchodní faktury v systému pohledávek, v nestrukturované podobě | 6 | Popis |
 | Stmt/Ntry/AddtlNtryInf | AdditionalEntryInformation | Text | Další informace o položce | 16 | Transaction Information |
 
-Prvky v uzlu **Ntry**, které jsou importovány do aplikace [!INCLUDE[d365fin](includes/d365fin_md.md)], ale nejsou namapovány na žádná pole, jsou uložena v ** Účtování sloupce výměna dat**. Uživatelé si mohou tyto prvky zobrazit z **Deníku odsouhlasení plateb**, z ** Vyrovnání platby ** a ze stránky **Odsouhlasení bankovního účtu** zvolením akce **Detaily řádku bankovního výpisu**. Pro více informací bežte na [Automatické odsouhlasení plateb](receivables-how-reconcile-payments-auto-application.md).
+Prvky v uzlu **Ntry**, které jsou importovány do aplikace [!INCLUDE[d365fin](includes/d365fin_md.md)], ale nejsou namapovány na žádná pole, jsou uložena v **Účtování sloupce výměna dat**. Uživatelé si mohou tyto prvky zobrazit z **Deníku odsouhlasení plateb**, z **Vyrovnání platby** a ze stránky **Odsouhlasení bankovního účtu** zvolením akce **Detaily řádku bankovního výpisu**. Pro více informací běžte na [Automatické odsouhlasení plateb](receivables-how-reconcile-payments-auto-application.md).
 ## Viz také
 [Nastavení výměny dat](across-set-up-data-exchange.md)  
 [Elektronická výměna dat](across-data-exchange.md)  

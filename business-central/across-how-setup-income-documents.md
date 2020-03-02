@@ -18,7 +18,7 @@ ms.author: sgroespe
 # Nastavení Příchozích dokumentů
 Pokud vytvoříte řádky finančního deníku ze záznamů příchozího dokumentu, musíte zadat na stránce **Nastavení příchozích dokumentů** šablonu deníku a dávku, které chcete použít.
 
-Pokud nechcete, aby uživatelé vytvářeli faktury nebo řádky finančního deníku ze záznamů příchozího dokumentu, pokud nejsou dokumenty prvně schváleny, je nutné nastavit schvalovatele na stránce  **Schvalovatelé příchozího dokumentu**.
+Pokud nechcete, aby uživatelé vytvářeli faktury nebo řádky finančního deníku ze záznamů příchozího dokumentu, pokud nejsou dokumenty prvně schváleny, je nutné nastavit schvalovatele na stránce **Schvalovatelé příchozího dokumentu**.
 
 Chcete-li soubory PDF a obrázkové soubory převést do elektronických dokumentů, které lze převést například na nákupní faktury v [!INCLUDE[d365fin](includes/d365fin_md.md)], musíte nejprve nastavit funkci OCR a povolit službu.
 
@@ -51,4 +51,4 @@ Pokud byli schvalovatelé nastaveni na stránce **Schvalovatelé příchozích d
 [Zpracování došlých dokladů](across-process-income-documents.md)  
 [Došlé doklady](across-income-documents.md)  
 [Nakupování](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
