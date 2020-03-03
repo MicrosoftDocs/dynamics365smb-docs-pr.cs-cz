@@ -16,12 +16,12 @@
 # Nastavení Definice výměny dat 
 Můžete nastavit [!INCLUDE[d365fin](includes/d365fin_md.md)] pro výměnu dat v určitých tabulkách s daty v externích souborech, například pro odesílání a přijímání elektronických dokumentů, import a export bankovních dat nebo jiných dat, jako jsou mzdy, směnné kurzy měn a katalogy položek. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
 
-Jako příprava pro vytvoření definice výměny dat pro datový soubor, nebo datový proud, můžete pomocí souvisejícího schématu XML definovat, které datové prvky mají být zahrnuty na záložce **Definice sloupců** záložce s náhledem definice sloupců. Viz krok 6 v [Popis formátování řádků a sloupců v souboru](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Pro více informací navštivte [Použití schémat XML k přípravě definic datových výměn](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
+Jako příprava pro vytvoření definice výměny dat pro datový soubor, nebo datový proud, můžete pomocí souvisejícího schématu XML definovat, které datové prvky mají být zahrnuty na záložce **Definice sloupců** záložce s náhledem definice sloupců. Viz krok 6 v [Popis formátování řádků a sloupců v souboru](across-how-to-set-up-data-exchange-definitions.md#popis-formatovani-radku-a-sloupcu-v-souboru). Pro více informací navštivte [Použití schémat XML k přípravě definic datových výměn](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
 
 Definici výměny dat obvykle nastavíte na stránce **Definice výměny dat**. Pokud však nastavíte definici výměny dat pro službu aktualizací směnných kurzů, spustíte tento proces ve zjednodušené stránce **Nastavení  aktualizace karty sm.kurzů**.
 
 > [!NOTE]
-> Pokud je převáděný soubor ve formátu XML, měl by být termín  *„sloupec“* v tomto tématu interpretován jako *“Prvek XML obsahující data”*.
+> Pokud je převáděný soubor ve formátu XML, měl by být termín  *„sloupec"* v tomto tématu interpretován jako *"Prvek XML obsahující data"*.
 
 Toto téma obsahuje následující postupy:
 
@@ -40,7 +40,7 @@ To je popsáno v následujících postupech.
 > [!TIP]
 > Chcete-li zjistit, které procedury Microsoft používá ve stávajících definicích ve standartním produktu, zkontrolujte pro každou definici tři pole **Procedur** na hlavičce stránky **Mapování polí**.
 
-#### Popsat formátování řádků a sloupců v souboru
+#### Popis formatovani radku a sloupcu v souboru
 1. Do pole **Hledat**, zadejte **Definice výměny dat** a poté vyberte související odkaz.
 2. Zvolte akci **Nový**.
 3. Na záložce **Obecné**, popište definici výměny dat a typ datového souboru vyplněním polí, jak je popsáno v následující tabulce.
@@ -116,7 +116,7 @@ Konkrétní mapování závisí na obchodním účelu datového souboru, který 
    | **Název** | Zadejte název pro nastavení mapování. |
    | **Procedura předzpracování mapování** | Určuje proceduru, která připraví mapování mezi poli v [!INCLUDE[d365fin](includes/d365fin_md.md)] a externími daty. |
    | **Procedura mapování** | Určuje proceduru, která je použita k mapování specifických sloupců nebo prvků dat XML k polím v [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
-   | **Procedura násl.zpracování mapování** | Určuje proceduru, která provede mapování mezi poli v [!INCLUDE[d365fin](includes/d365fin_md.md)] a externími daty. **Poznámka:**  Při používání funkcionality Bank Data Conversion Service, převádí procedura exportovaná data z [!INCLUDE[d365fin](includes/d365fin_md.md)] do obecného formátu, který je připraven k exportu. V případě importu převede kódová jednotka externí data do formátu, který je připraven k importu, do [! INCLUDE[d365fin](includes/d365fin_md.md)]. |
+   | **Procedura násl.zpracování mapování** | Určuje proceduru, která provede mapování mezi poli v [!INCLUDE[d365fin](includes/d365fin_md.md)] a externími daty. **Poznámka:**  Při používání funkcionality Bank Data Conversion Service, převádí procedura exportovaná data z [!INCLUDE[d365fin](includes/d365fin_md.md)] do obecného formátu, který je připraven k exportu. V případě importu převede kódová jednotka externí data do formátu, který je připraven k importu, do [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 
 3. Na záložce **Mapování polí**, určete, které sloupce mapují na která pole v části [!INCLUDE[d365fin](includes/d365fin_md.md)] vyplněním polí popsaných v následující tabulce.
 

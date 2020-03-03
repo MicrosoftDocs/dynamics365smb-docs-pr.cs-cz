@@ -16,7 +16,7 @@
 # Mapování polí při importu souborů SEPA CAMT
 [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje regionální standardy SEPA (Single Euro Payments Area) pro import SEPA bankovních výpisů (formát CAMT). Další informace naleznete v části [Používání rozšíření AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 
-Samotný Standard SEPA CAMT má lokální varianty. Proto bude možná nutné změnit obecnou definici výměny dat (představovanou **kódem SEPA CAMT** na stránce **Definice výměny účtovaných dat**), aby se přizpůsobila místní variaci standardu. Následující tabulky ukazují mapování element-k-poli pro tabulky 81, 273 a 274 v implementaci SEPA CAMT v [INCLUDE[d365fin](includes/d365fin_md.md)].
+Samotný Standard SEPA CAMT má lokální varianty. Proto bude možná nutné změnit obecnou definici výměny dat (představovanou **kódem SEPA CAMT** na stránce **Definice výměny účtovaných dat**), aby se přizpůsobila místní variaci standardu. Následující tabulky ukazují mapování element-k-poli pro tabulky 81, 273 a 274 v implementaci SEPA CAMT v [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Informace o vytváření nebo úpravě definic výměny dat naleznete v [Nastavení definice výměny dat](across-how-to-set-up-data-exchange-definitions.md).
 
