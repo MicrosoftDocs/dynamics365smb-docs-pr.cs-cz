@@ -22,7 +22,7 @@ Pokud nechcete, aby uživatelé vytvářeli faktury nebo řádky finančního de
 
 Chcete-li soubory PDF a obrázkové soubory převést do elektronických dokumentů, které lze převést například na nákupní faktury v [!INCLUDE[d365fin](includes/d365fin_md.md)], musíte nejprve nastavit funkci OCR a povolit službu.
 
-Když je nastavena funkce Příchozí dokumenty, můžete použít různé funkce pro kontrolu výdajů, správu úloh OCR a převod souborů příchozího dokumentu ručně nebo automaticky na příslušné dokumenty nebo řádky deníku. Externí soubory lze připojit v libovolné fázi procesu, včetně zaúčtovaných dokumentů a výsledných záznamů prodejce, zákazníka a položek hlavní knihy. Další informace naleznete v části [Zpracování došlých dokladů](across-process-income-documents.md).
+Když je nastavena funkce Příchozí dokumenty, můžete použít různé funkce pro kontrolu výdajů, správu úloh OCR a převod souborů příchozího dokumentu ručně nebo automaticky na příslušné dokumenty nebo řádky deníku. Externí soubory lze připojit v libovolné fázi procesu, včetně zaúčtovaných dokumentů a výsledných záznamů prodejce, zákazníka a položek hlavní knihy. Pro více informací navštivte [Zpracování došlých dokladů](across-process-income-documents.md).
 
 ## Nastavení funkcí Příchozích dokumentů
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení příchozích dokumentů** a poté vyberte související odkaz.

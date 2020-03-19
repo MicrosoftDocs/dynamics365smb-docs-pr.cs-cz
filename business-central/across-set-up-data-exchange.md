@@ -14,7 +14,7 @@ ms.author: sgroespe
 
 ---
 # Nastavení výměny dat
-Než budete moci odesílat a přijímat elektronické dokumenty nebo importovat a exportovat bankovní soubory, musíte nastavit rámec pro výměnu dat pro zpracování příslušných datových souborů. Kromě toho je nutné nastavit související oblasti, jako například zákazníky, kterým odesíláte elektronické faktury, nebo rozšíření AMC Banking 365 Fundamentals, pokud používáte externí poskytovatele služeb k převodu bankovních souborů. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
+Než budete moci odesílat a přijímat elektronické dokumenty nebo importovat a exportovat bankovní soubory, musíte nastavit rámec pro výměnu dat pro zpracování příslušných datových souborů. Kromě toho je nutné nastavit související oblasti, jako například zákazníky, kterým odesíláte elektronické faktury, nebo rozšíření AMC Banking 365 Fundamentals, pokud používáte externí poskytovatele služeb k převodu bankovních souborů. Pro více informací navštivte [Elektronická výměna dat](across-data-exchange.md).
 
 Když je [!INCLUDE[d365fin](includes/d365fin_md.md)] nastaven na výměnu dat s externími soubory, mohou uživatele toto nastavení použít v běžných obchodních úlohách, jako je odesílání a přijímání elektronických dokumentů a import a export bankovních souborů.
 

@@ -30,7 +30,7 @@ Pokud jsou platby úspěšně zpracovány, jak je sdělí vaše banka, můžete 
 ## Nastavení SEPA – příkaz k inkasu
 Ze stránky **Přímá inkasa** můžete exportovat pokyny do své elektronické banky a provést inkaso z účtu zákazníka na váš bankovní účet. [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje formát inkasa SEPA, ale ve vaší zemi/oblasti mohou být k dispozici jiné formáty pro elektronické platby.
 
-Chcete-li povolit export formátů bankovních souborů, které nejsou v [!INCLUDE[d365fin](includes/d365fin_md.md)] předdefinované, můžete nastavit definici výměny dat pomocí rámce pro výměnu dat. Více informací viz [Nastavení definic výměny dat ](across-how-to-set-up-data-exchange-definitions.md).
+Chcete-li povolit export formátů bankovních souborů, které nejsou v [!INCLUDE[d365fin](includes/d365fin_md.md)] předdefinované, můžete nastavit definici výměny dat pomocí rámce pro výměnu dat. Více informací viz [Nastavení definic výměny dat](across-how-to-set-up-data-exchange-definitions.md).
 
 Před zpracováním plateb odběratele elektronicky exportem inkasa ve formátu přímého debetu SEPA je nutné provést následující kroky nastavení:
 
