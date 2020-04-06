@@ -14,7 +14,7 @@
 
 ---
 # Nastavení služby směnných kurzů  
-Můžete použít externí službu k výměně elektronických dokladů se svými obchodními partnery. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
+Můžete použít externí službu k výměně elektronických dokladů se svými obchodními partnery. Pro více informací navštivte [Elektronická výměna dat](across-data-exchange.md).
 
 ## Pro nastavení služby směnných kurzů
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat")a zadejte **Nastavení výměny  dokladů**, a poté vyberte související odkaz.
