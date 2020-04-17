@@ -53,3 +53,4 @@ Pokud chcete prozkoumat prognózu, můžete se kromě položek prognózy podíva
 [Nastavení financí](finance-setup-finance.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Nastavení analýzy cash flow](finance-setup-cash-flow-analyses.md)  
+
