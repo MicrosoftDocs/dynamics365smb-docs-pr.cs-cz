@@ -18,7 +18,7 @@ Pomocí průvodce konfigurací služeb RapidStart Services můžete rychle nakon
 
 V následujícím postupu jste zákazníkovi poskytli konfigurační balíček, který je nainstalován v počítači. Zákazník otevře novou společnost, která neobsahuje žádné zákaznické údaje. Vy nebo zákazník pak postupujete podle pokynů v Průvodci RapidStart Services, které jsou popsány v tomto postupu, abyste poskytli základní informace o společnosti. Průvodce importuje konfigurační balíček a poté tento balíček aplikuje na společnost.  
 
-## <a name="to-configure-a-new-company"></a>Pro konfiguraci nové společnosti  
+## <a name="to-configure-a-new-company"></a>Konfigurace nové společnosti  
 1. V Centru rolí implementátoru služeb RapidStart Services vyberte akci **Průvodce RapidStart**.  
 2. Rozbalte pevnou záložku **Krok 1**, která obsahuje obecné informace o nové společnosti. Do příslušných polí zadejte příslušné informace o nové společnosti. Pole **Název** je povinné. Ostatní pole jsou volitelná.  
 3. Rozbalte pevnou záložku **Krok 2**, která obsahuje komunikační a kontaktní informace pro novou společnost. Do příslušných polí zadejte příslušné informace o nové společnosti.
@@ -27,7 +27,7 @@ V následujícím postupu jste zákazníkovi poskytli konfigurační balíček, 
 
     1. Aplikujte konfiguraci výběrem akce **Použít balíček**. Tím se importuje konfigurační balíček a všechna data databáze balíků se aplikují současně.  
 
-    2. Po použití zkontrolujte konfiguraci. Tato možnost umožňuje zkontrolovat podrobnosti konfigurace a dotazníky poskytnuté partnerem a importovat některá hlavní data, která jsou pro vaši společnost požadována. Zvolte akci **Konfigurační sešit**. Pro více informací navštivte sekci “Pro vyplnění konfiguračního dotazníku“ v [Shromáždění hodnot nastavení zákazníka](admin-gather-customer-setup-values.md).  
+    2. Po použití zkontrolujte konfiguraci. Tato možnost umožňuje zkontrolovat podrobnosti konfigurace a dotazníky poskytnuté partnerem a importovat některá hlavní data, která jsou pro vaši společnost požadována. Zvolte akci **Konfigurační sešit**. Pro více informací navštivte sekci “Vyplnění konfiguračního dotazníku“ v [Shromáždění hodnot nastavení zákazníka](admin-gather-customer-setup-values.md).  
 
 6. Rozbalte pevnou záložku **Krok 5**. Určete, které Centrum rolí má být výchozí pro novou společnost.  
 

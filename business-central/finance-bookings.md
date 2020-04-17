@@ -15,9 +15,9 @@ ms.author: edupont
 Pokud vaše společnost používá aplikaci Bookings v Office 365, můžete provést hromadnou fakturaci. Stránka **Booking Nevyfakturované položky** v [!INCLUDE[d365fin](includes/d365fin_md.md)] obsahuje seznam dokončených rezervací společnosti. Na této stránce můžete rychle vybrat události, které chcete fakturovat, a vytvořit návrhy faktury za poskytované služby.  
 
 ## <a name="connect-to-bookings"></a>Připojení k Bookings
-Chcete-li se spojit v [!INCLUDE[d365fin](includes/d365fin_md.md)] s Bookings, musíte určit Účetní společnost, co synchronizovat s Bookings, jak často synchronizovat a jaké šablony použít. Tyto položky můžete nastavit v **Booking Nastavení  synchronizace**, kterou můžete spustit z **Nastavení synchronizace  Exchange**, kterou můžete najít skrz [Vyhledat](ui-search.md)  
+Chcete-li se spojit v [!INCLUDE[d365fin](includes/d365fin_md.md)] s Bookings, musíte určit Účetní společnost, co synchronizovat s Bookings, jak často synchronizovat a jaké šablony použít. Tyto položky můžete nastavit v **Booking Nastavení  synchronizace**, které můžete spustit z **Nastavení synchronizace  Exchange**, které můžete najít skrz [Vyhledat](ui-search.md)  
 
-Pokud například chcete synchronizovat zákazníky mezi Bookings a [!INCLUDE[d365fin](includes/d365fin_md.md)], musíte určit výchozí šablonu, pomocí které se budou přidávat noví zákazníci v [!INCLUDE[d365fin](includes/d365fin_md.md)] na základě zákazníků ve vaší Účetní společnosti.  
+Pokud například chcete synchronizovat zákazníky mezi Bookings a [!INCLUDE[d365fin](includes/d365fin_md.md)], musíte určit výchozí šablonu, pomocí které se budou přidávat noví zákazníci v [!INCLUDE[d365fin](includes/d365fin_md.md)] na základě zákazníků ve vaší účetní společnosti.  
 
 > [!NOTE]
 > Aplikace Bookings je určena k rezervování schůzek pro jednotlivé zákazníky, než pro společnosti. Synchronizace s [!INCLUDE[d365fin](includes/d365fin_md.md)] bude tedy pouze synchronizovat kontakty se zákazníkem s typem „Osoba“. Pro synchronizaci je potřeba zadat také e-mailovovou adresu.  

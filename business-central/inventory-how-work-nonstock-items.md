@@ -22,13 +22,13 @@ Můžete nabídnout svým zákazníkům určité zboží pro jejich pohodlí, kt
 > Nemůžete vybrat katalog zboží ze stránky **Prodejní faktura**.<br /><br />
 > Zboží katalogu můžete vybrat na stránce **prodejní nabídka**, ale zboží katalogu se při použití funkce **Vytvořit zakázku** nepřevede na normální zboží.
 
-Zboží katalogu má typicky číslo zboží dodavatele, který jej nabízí. Chcete-li povolit konverzi karty zboží katalogu na normální kartu zboží, musíte nejprve nastavit, jak bude převedeno číslování položek dodavatele na vaše číslování položek.   
+Zboží katalogu má typicky číslo zboží dodavatele, který jej nabízí. Chcete-li povolit konverzi karty zboží katalogu na normální kartu zboží, musíte nejprve nastavit, jak bude převedeno číslování zboží dodavatele na vaše číslování zboží.   
 
 > [!Important]
-> Zboží katalogu by se nemělo zaměňovat se zbožím mimo zásob, což je běžné zboží, které dostávají typ **Mimo zásoby**, aby je např. udržovaly mimo výpočty dostupnosti a kalkulace, protože se používají pouze interně a mají nízké náklady. Pro více informací navštivte [O typech zboží](inventory-about-item-types.md).
+> Zboží katalogu by se nemělo zaměňovat se zbožím mimo zásob, což je běžné zboží, které dostává typ **Mimo zásob**, aby je např. udržovaly mimo výpočty dostupnosti a kalkulace, protože se používají pouze interně a mají nízké náklady. Pro více informací navštivte [O typech zboží](inventory-about-item-types.md).
 
-## <a name="to-create-a-catalog-item"></a>Vytvoření zboží katalogu
-Karty zboží katalogu mají mnohem méně informací než karty normálního zboží, protože je používáte pouze na nabídkách a jinými způsoby. Z tohoto důvodu je třeba je převést na normální kartu, než budete moci za ně zaúčtovat prodejní transakce.
+## <a name="to-create-a-catalog-item"></a>Vytvoření zboží z katalogu
+Karty zboží z katalogu mají mnohem méně informací než karty normálního zboží, protože je používáte pouze v nabídkách a jinými způsoby. Z tohoto důvodu je třeba je převést na normální kartu, než budete moci za ně zaúčtovat prodejní transakce.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zboží katalogu** a poté vyberte související odkaz.
 2. Zvolte akci **Nový**.
@@ -43,14 +43,14 @@ Chcete-li povolit konverzi karty zboží katalogu na kartu normálního zboží,
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Převod zboží katalogu na normální zboží
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zboží katalogu** a poté vyberte související odkaz.
 2. Otevřete kartu pro zboží katalogu, které chcete převést na normální.
-3. V stránka **Karta katalogu zboží** vyberte akci **Vytvořit zboží**.
+3. Na stránce **Karta katalogu zboží** vyberte akci **Vytvořit zboží**.
 
 Vytvoří se nová karta zboží, která je předem vyplněna informacemi ze zboží katalogu a příslušné šablony zboží. Můžete vyplnit nebo upravit pole na nové kartě zboží podle potřeby. Pro více informací navštivte [Evidence nového zboží](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Prodej zboží katalogu a převod na normální zboží
-1. Vyberte ![Žárovku, která otevře funkci Řekněte Mi], ikonu (media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** Prodej objednávky** a poté vyberte související odkaz.
+1. Vyberte ![Žárovku, která otevře funkci Řekněte Mi], ikonu (media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní objednávky** a poté vyberte související odkaz.
 2. Zvolte akci **Nový**. Vyplňte pole na záložce **Obecné** jako u každé prodejní objednávky. Pro více informací navštivte [Prodej produktů](sales-how-sell-products.md).
-3. Na novém prodejním řádku v poli **Typ** vyberte **zboží**, ale pole **Číslo** .
+3. Na novém prodejním řádku v poli **Typ** vyberte **Zboží**, ale pole **Číslo** ponechte prázdné.
 4. Vyberte akci **Řádek** a poté vyberte akci **Vybrat zboží katalogu**.
 
     Zboží katalogu je převedeno na normální zboží. Vytvoří se nová karta zboží, která je předem vyplněna informacemi ze zboží katalogu a příslušné šablony zboží.
@@ -60,10 +60,10 @@ Vytvoří se nová karta zboží, která je předem vyplněna informacemi ze zbo
 Můžete vyplnit nebo upravit pole na nové kartě zboží podle potřeby. Pro více informací navštivte [Evidence nového zboží](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Záznam křížového odkazu zboží je automaticky vytvořen pro dodavatele zboží mezi číslem zboží dodavatele a novým číslem zboží. Pro více informací navštivte [ Křížové odkazy Sledované zboží](inventory-how-use-item-cross-refs.md).
+>   Záznam křížového odkazu zboží je automaticky vytvořen pro dodavatele zboží mezi číslem zboží dodavatele a novým číslem zboží. Pro více informací navštivte [ Křížové odkazy sledovaného zboží](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Viz také
-[Zaevidujte nové zboží](inventory-how-register-new-items.md)  
+[Evidence nového zboží](inventory-how-register-new-items.md)  
 [Vytvoření speciálních objednávek](sales-how-to-create-special-orders.md)|  
 [Zásoby](inventory-manage-inventory.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

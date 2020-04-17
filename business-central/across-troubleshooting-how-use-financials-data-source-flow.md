@@ -18,7 +18,7 @@ Svá data [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete použít jako sou
 > [!NOTE]  
 >   Musíte mít platný účet v [!INCLUDE[d365fin](includes/d365fin_md.md)] a ve službě Flow.  
 
-Pokud vytváříte Microsoft Flow pomocí [!INCLUDE[d365fin](includes/d365fin_md.md)] konektoru, může se zobrazit chybová zpráva oznamující, že požadovaná adresa URL je po vytvoření toku příliš dlouhá, například následující: **URLPožadavkuPřílišDlouhé**.
+Pokud vytváříte Microsoft Flow pomocí [!INCLUDE[d365fin](includes/d365fin_md.md)] konektoru, může se zobrazit chybová zpráva oznamující, že požadovaná adresa URL je po vytvoření toku příliš dlouhá, například následující: **URL adresa požadavku je příliš dlouhá**.
 
 ## <a name="cause"></a>Příčina
 Aby se tok spustil, hledá změny ve vašich údajích. Při určování, zda se vaše data změnila, konektory porovnávají data v mezipaměti s novými daty požadovanými od zdroje.  
@@ -36,7 +36,7 @@ Pokud například tabulka, kterou používáte jako zdroj dat, má 4 000 záznam
 4. Aktualizujte svůj tok.
 
 > [!NOTE]  
-> Konektor je aktuálně v beta verzi. Aktualizace směru, jakým jsou změny dat cíleny pro budoucí vydání.
+> Konektor je aktuálně v beta verzi. Aktualizace způsobu změny dat jsou zamýšleny pro budoucí vydání.
 
 
 ## <a name="see-also"></a>Viz také

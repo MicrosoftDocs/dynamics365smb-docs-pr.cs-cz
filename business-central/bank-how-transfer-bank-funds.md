@@ -14,11 +14,11 @@ ms.date: 11/18/2018
 ms.author: sgroespe
 ---
 # <a name="transfer-bank-funds"></a>Převod bankovních prostředků
-Někdy budete možná muset převést částku z jednoho bankovního účtu na jiný. Chcete-li to provést, musíte účtovat transakci ve finančním deníku. Úloha se liší v závislosti na tom, zda bankovní účty používají stejnou měnu nebo různé měny.
+Někdy budete možná muset převést částku z jednoho bankovního účtu na jiný. Chcete-li to provést, musíte odeslat transakci do finančního deníku. Úloha se liší v závislosti na tom, zda bankovní účty používají stejnou měnu nebo různé měny.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Zaúčtování převodu mezi bankovními účty se stejným kódem měny
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Finanční deníky** a poté vyberte související odkaz.
-2. Na řádku deníku vyplňte pole **Datum zaúčtování** a **Číslo dokladu**
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** Finanční deník ** a poté vyberte související odkaz.
+2. Na řádku deníku vyplňte pole **Datum zaúčtování** a **Číslo dokumentu**
 3. V poli **Typ účtu** vyberte **Bankovní účet**.
 4. V poli **Číslo účtu** vyberte bankovní, ze kterého chcete peníze převést.
 5. Do pole **Částka** zadejte částku, kterou chcete převést.
@@ -31,7 +31,7 @@ Někdy budete možná muset převést částku z jednoho bankovního účtu na j
 Chcete-li převádět finanční prostředky mezi bankovními účty, které používají různé měny, musíte zaúčtovat dva řádky finančního deníku.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** Finanční deník ** a poté vyberte související odkaz.
-2. Vytvořte dva řádky deníku a vyplňte pole **Datum zaúčtování** a **Číslo dokladu**
+2. Vytvořte dva řádky deníku a vyplňte pole **Datum zaúčtování** a **Číslo dokumentu**
 3. Na prvním řádku deníku v poli **Typ** vyberte **Bankovní účet**.
 4. V poli **Číslo účtu** vyberte bankovní účet, na který chcete peníze převést.
 5. V poli **Částka** zadejte částku v měně bankovního účtu. Zadejte částku Dal se znaménkem mínus. Zadejte částku MD se znaménkem mínus.

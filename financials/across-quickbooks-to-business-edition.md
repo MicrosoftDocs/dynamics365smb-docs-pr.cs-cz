@@ -17,7 +17,7 @@ ms.author: bholtorf
 # <a name="changing-from-a-quickbooks-app-to-microsoft-business-central"></a>Přechod z QuickBooks App na Microsoft Business Central
 Stále více a více podniků přechází z finančních aplikací, jako jsou QuickBooks Desktop a QuickBooks Online, které jsou určeny pro startupy a další malé podniky, do [!INCLUDE[d365fin](includes/d365fin_md.md)], které podporují větší a složitější organizace.
 
-Při přechodu, společnosti obvykle chtějí se sebou přinést i svá obchodní data, aby nezačínali zase od nuly. Chcete-li pomoci s přenosem dat, [!INCLUDE [d365fin](includes/d365fin_md.md)] nabízí vestavěná rozšíření, která migrují data, jako jsou zákazníci, dodavatelé, skladové položky a účty hlavní knihy. Následující rozšíření jsou nainstalována a připravena k použítí jako integrované části asistovaného průvodce nastavením **Data Migration**:
+Při přechodu, společnosti obvykle chtějí se sebou přinést i svá obchodní data, aby nezačínali zase od nuly. Chcete-li pomoci s přenosem dat, [!INCLUDE [d365fin](includes/d365fin_md.md)] nabízí vestavěná rozšíření, která migrují data, jako jsou zákazníci, dodavatelé, skladové položky a účty hlavní knihy. Následující rozšíření jsou nainstalována a připravena k použití jako integrované části asistovaného průvodce nastavením **Data Migration**:
 
 * QuickBooks Data Migration
 * QuickBooks Online Data Migration

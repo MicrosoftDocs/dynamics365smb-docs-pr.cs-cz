@@ -16,7 +16,7 @@ ms.author: sgroespe
 # <a name="set-up-stockkeeping-units"></a>Nastavení skladové jednotky
 Pomocí skladových jednotek můžete zaznamenávat informace o svým zboží pro konkrétní lokaci nebo kód konkrétní varianty.  
 
- Skladové jednotky jsou doplňkem ke kartám zboží. Nenahrazují je, i když s nimi souvisí. Skladovací jednotky umožňují rozlišovat informace o zboží pro konkrétní lokaci, jako je sklad nebo distribuční centrum, nebo konkrétní varianta, jako jsou různá čísla polic a různé informace o doplňování, pro stejné zboží.  
+ Skladové jednotky jsou doplňkem ke kartám zboží. Nenahrazují je, i když s nimi souvisí. Skladové jednotky umožňují rozlišovat informace o zboží pro konkrétní lokaci, jako je sklad nebo distribuční centrum, nebo konkrétní varianta, jako jsou různá čísla polic a různé informace o doplňování, pro stejné zboží.  
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Nastavení skladové jednotky  
 
@@ -26,13 +26,13 @@ Pomocí skladových jednotek můžete zaznamenávat informace o svým zboží pr
 
 Pokud jste pro zboží nastavili první skladovou jednotku, je zaškrtnuto políčko **Skladová jednotka existuje** na kartě **Zboží**.  
 
-Chcete-li pro položku vytvořit několik skladových jednotek, použijte dávkovou úlohu **Vytvořit skladovou jednotku**.  
+Chcete-li pro zboží vytvořit několik skladových jednotek, použijte dávkovou úlohu **Vytvořit skladovou jednotku**.  
 
 > [!NOTE]  
 >  Informace na kartě **Skladové jednotky** mají přednost před kartou **Zboží**.  
 
 ## <a name="see-also"></a>Viz také  
-[Zaevidujte nové zboží](inventory-how-register-new-items.md)  
+[Evidence nového zboží](inventory-how-register-new-items.md)  
 [Nastavení správy skladu](warehouse-setup-warehouse.md)  
 [Správa skladů](warehouse-manage-warehouse.md)  
 [Zásoby](inventory-manage-inventory.md)  

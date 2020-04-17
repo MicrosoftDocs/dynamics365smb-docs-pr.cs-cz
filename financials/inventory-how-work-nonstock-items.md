@@ -21,10 +21,10 @@ Můžete nabídnout svým zákazníkům určité zboží pro jejich pohodlí, kt
 > [!NOTE]  
 >   Nemůžete vybrat neskladované zboží z okna **Prodejní faktura**. Můžete vybrat neskladované zboží z okna **Prodejní nabídka**, ale neskladované zboží nebude převedeno na normální, pokud použijete funkci **Objednat**.
 
-Neskladové zboží má typicky číslo zboží dodavatele, který jej nabízí. Chcete-li povolit konverzi karty neskladovaného zboží na normální kartu zboží, musíte nejprve nastavit, jak bude převedeno číslování položek dodavatele na vaše číslování položek.   
+Neskladové zboží má typicky číslo zboží dodavatele, který jej nabízí. Chcete-li povolit konverzi karty neskladovaného zboží na normální kartu zboží, musíte nejprve nastavit, jak bude převedeno číslování zboží dodavatele na vaše číslování zboží.   
 
-## <a name="to-create-a-nonstock-item"></a>Chcete-li vytvořit neskladované zboží
-Karty neskladnovaného zboží mají mnohem méně informací než karty normálního zboží, protože je používáte pouze na nabídkách a jinými způsoby. Z tohoto důvodu je třeba je převést na normální kartu, než budete moci za ně zaúčtovat prodejní transakce.
+## <a name="to-create-a-nonstock-item"></a>Vytvoření zboží z katalogu
+Karty neskladovaného zboží mají mnohem méně informací než karty normálního zboží, protože je používáte pouze v nabídkách a jinými způsoby. Z tohoto důvodu je třeba je převést na normální kartu, než budete moci za ně zaúčtovat prodejní transakce.
 
 1. Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Neskladované zboží** a pak vyberte související odkaz.
 2. Zvolte akci **Nový**.
@@ -44,9 +44,9 @@ Chcete-li povolit konverzi karty neskladovaného zboží na kartu normálního z
 Nová karta zboží předvyplněná informacemi ze šablon neskladované zboží a odpovídající šablona zboží je vytvořena. Můžete vyplnit nebo upravit pole na nové kartě zboží podle potřeby. Pro více informací navštivte [Evidence nového zboží](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a>Chcete-li prodávat neskladované zboží a převést jej na normální zboží
-1. Vyberte ikonu ![Hledat stránku nebo sestavu](media/ui-search/search_small.png "Hledat ikonu stránky nebo sestavy"), zadejte **Objednávky Prodej ** a poté vyberte související odkaz.
+1. Vyberte ikonu ![Hledat stránku nebo sestavu](media/ui-search/search_small.png "Hledat ikonu stránky nebo sestavy"), zadejte **Prodejní objednávky** a poté vyberte související odkaz.
 2. Zvolte akci **Nový**. Vyplňte pole na záložce **Obecné** jako u každé prodejní objednávky. Pro více informací navštivte [Prodej produktů](sales-how-sell-products.md).
-3. Na novém prodejním řádku v poli **Typ** vyberte **zboží**, ale pole **Číslo**  .
+3. Na novém prodejním řádku v poli **Typ** vyberte **Zboží**, ale pole **Číslo**  ponechte prázdné.
 4. Vyberte akci **Řádek** a poté vyberte akci **Vybrat neskladované zboží**.
 
     Neskladované zboží je převedeno na normální zboží. Nová karta zboží předvyplněná informacemi ze šablony neskladované zboží a odpovídající šablona zboží je vytvořena.
@@ -59,7 +59,7 @@ Můžete vyplnit nebo upravit pole na nové kartě zboží podle potřeby. Pro v
 >   Záznam křížového odkazu zboží je automaticky vytvořen pro dodavatele zboží mezi číslem zboží dodavatele a novým číslem zboží.
 
 ## <a name="see-also"></a>Viz také
-[Zaevidujte nové zboží](inventory-how-register-new-items.md)  
+[Evidence nového zboží](inventory-how-register-new-items.md)  
 [Vytvoření speciálních objednávek](sales-how-to-create-special-orders.md)|  
 [Zásoby](inventory-manage-inventory.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

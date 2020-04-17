@@ -13,8 +13,8 @@ ms.search.keywords: null
 ms.date: 10/01/2018
 ms.author: sgroespe
 ---
-# <a name="trace-item-tracked-items"></a>Trasování sledovaného zboží
-Můžete vidět, kde bylo sledované zboží použito, včetně toho, jak a kdy bylo přijato nebo vyrobeno, přeneseno, prodáno, spotřebováno nebo vráceno. V databázi najdete také všechny aktuální instance konkrétního sériového čísla nebo čísla šarže. To provedete pomocí funkce Trasování zboží a Navigace.  
+# <a name="trace-item-tracked-items"></a>Trasování zboží
+Můžete vidět, kde bylo sledované zboží použito, včetně toho, jak a kdy bylo přijaté nebo vyrobené, přenesené, prodané, spotřebované nebo vrácené. V databázi najdete také všechny aktuální instance konkrétního sériového čísla nebo čísla šarže. To provedete pomocí funkce Trasování zboží a Navigace.  
 
  Tyto funkce mohou být zvláště užitečné při kontrole kvality, když potřebujete zjistit, kteří zákazníci obdrželi produkty s konkrétním číslem šarže nebo když potřebujete zjistit, z které šarže pochází vadná komponenta.  
 
@@ -36,7 +36,7 @@ Můžete vidět, kde bylo sledované zboží použito, včetně toho, jak a kdy 
     |**Se sledováním zboží**|Tuto možnost vyberte, pokud chcete vidět pouze komponenty, které mají číslo šarže nebo sériové číslo.|  
     |**Vše**|Tuto možnost vyberte, pokud chcete vidět všechny komponenty.|  
 
-4.  V poli **Metoda sledování** vyberte metodu, kterou chcete použít pro trasování položky. Možnosti jsou následující  
+4.  V poli **Metoda sledování** vyberte metodu, kterou chcete použít pro trasování zboží. Možnosti jsou následující:  
 
     |Pole|Popis|  
     |----------------------------------|---------------------------------------|  
@@ -51,7 +51,7 @@ Můžete vidět, kde bylo sledované zboží použito, včetně toho, jak a kdy 
 > [!NOTE]  
 >  Pokud již byla další trasa transakcí pod řádkem trasování zboží sledována jiným řádkem nad ní, je zaškrtnuto políčko **Již sledováno**. Pro zajištění jednoduššího pohledu nejsou takové řádky zobrazeny.  
 >   
->  Chcete-li najít řádky pro trasování zboží, kde již byla sledována historie transakcí, zvolte tlačítko **Jít na Již-sledované**. Je vybrán příslušný řádek pro sledování zboží a všechny podkladové řádky jsou rozbaleny.  
+>  Chcete-li najít řádky pro trasování zboží, kde již byla sledována historie transakcí, zvolte tlačítko **Jít na již-sledované**. Je vybrán příslušný řádek pro sledování zboží a všechny podkladové řádky jsou rozbaleny.  
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Hledání zboží pomocí Navigace  
 
@@ -63,6 +63,6 @@ Můžete vidět, kde bylo sledované zboží použito, včetně toho, jak a kdy 
 [Zásoby](inventory-manage-inventory.md)  
 [Podrobnosti o designu: Trasování zboží](design-details-item-tracking.md)
 [Podrobnosti návrhu - Trasování zboží a Rezervace](design-details-item-tracking-and-reservations.md)  
-[Rezervace zboží](inventory-how-to-reserve-items.md)  
+[Reservace zboží](inventory-how-to-reserve-items.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 [Návod: Sledování zboží označeného sériovými čísly nebo čísly šarže](walkthrough-tracing-serial-lot-numbers.md)

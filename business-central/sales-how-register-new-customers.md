@@ -14,7 +14,7 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 # <a name="register-new-customers"></a>Registrace nového zákazníka
-Zákazníci jsou zdrojem vašich příjmů. Každého zákazníka, kterému prodáváte musíte registrovat, jako kartu zákazníka Karty zákazníka obsahují informace, které jsou potřebné k prodeji produktů zákazníkovi. Pro více informací navštivte [Prodej faktur](sales-how-invoice-sales.md) a [Evidence nového zboží](inventory-how-register-new-items.md).  
+Zákazníci jsou zdrojem vašich příjmů. Každého zákazníka, kterému prodáváte musíte registrovat, jako kartu zákazníka. Karty zákazníka obsahují informace, které jsou potřebné k prodeji produktů zákazníkovi. Pro více informací navštivte [Prodej faktur](sales-how-invoice-sales.md) a [Evidence nového zboží](inventory-how-register-new-items.md).  
 
 Než budete moci evidovat nové zákazníky, musíte nastavit různé prodejní kódy, ze kterých si můžete vybrat při vyplňování zákaznických karet. Další informace naleznete v části [Nastavení prodeje](sales-setup-sales.md).
 
@@ -22,14 +22,14 @@ Než budete moci evidovat nové zákazníky, musíte nastavit různé prodejní 
 >   Pokud existují šablony zákazníka pro různé typy zákazníků, tak se při vytváření nové karty zákazníka objeví stránka, odkud můžete vybrat vhodnou šablonu. Pokud existuje pouze jedna šablona zákazníka, pak nové karty zákazníka používají vždy tuto šablonu.
 
 ## <a name="to-create-a-new-customer-card"></a>Vytvoření nové karty zákazníka
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat") ikona, zadejte **Zákazníci**, a poté vyberte související odkaz.  
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zákazníci**, a poté vyberte související odkaz.  
 2. Na stránce ** Zákazníci ** vyberte akci **Nový**.
 
-    Pokud existuje pouze jedna šablona zákazníka, otevře se nová karta zboží s několika poli vyplněnými informacemi ze šablony.
+    Pokud existuje pouze jedna šablona zákazníka, otevře se nová karta zboží s několika poli s předvyplněnými informacemi ze šablony.
 
     Pokud existuje více než jedna šablona zákazníka, otevře se stránka, ze které můžete vybrat požadovanou šablonu zákazníka. V takovém případě postupujte podle následujících dvou kroků.
 3. Na stránce **Vybrat šablonu pro nového zákazníka** vyberte šablonu, kterou chcete použít pro novou kartu zákazníka.
-4. Zvolte tlačítko **OK**. Otevře se nová karta zákazníka s některými poli vyplněnými informacemi podle šablony.  
+4. Zvolte tlačítko **OK**. Otevře se nová karta zákazníka s některými předvyplněnými poli podle informací ze šablony.  
 5. Postupujte podle potřeby tak, že vyplníte nebo změníte pole na kartě zákazníka. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Na záložce **Prodejní ceny** můžete zobrazit zvláštní ceny nebo slevy, které udělujete za daným zákazníkům pokud jsou splněna určitá kritéria, jako jsou položky, minimální objednávkové množství nebo datum ukončení. Každý řádek představuje zvláštní cenu nebo řádkovou slevu. Každý sloupec představuje kritérium, které musí platit, aby se zaručila zvláštní cena, kterou zadáte do pole **Jednotková cena**, nebo řádková sleva, kterou zadáte do pole **Řádková sleva %**. Pro více informací navštivte [Zaznamenat prodejní cenu, slevu a platební smlouvy](sales-how-record-sales-price-discount-payment-agreements.md).

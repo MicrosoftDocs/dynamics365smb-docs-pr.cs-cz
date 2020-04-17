@@ -1,7 +1,7 @@
 ---
-title: Intelligent insights| Microsoft Docs
-description: Get connected to intelligent insights with Business Central, even from your on-premises solution.
-author: bmeier94
+title: Inteligentí Cloud| Microsoft Docs
+description: Připojte se k inteligentnímu Cloudu s aplikací Business Central, dokonce i z vašeho on-premises řešení.
+author: ZdenekBicek
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,46 +10,47 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 05/20/2019
+ms.date: 01/10/2020
+ms:reviewer: v-zdbice
 ms.author: bmeier
 
 ---
 
 # Váš přístup k inteligentnímu Cloudu s Business Central [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Jako uživatel [!INCLUDE[prodshort](includes/prodshort.md)] online máte plný přístup ke scénářům založeným na inteligentním cloudu, jako jsou KPI založené na strojovém učení nebo při prohlížení dat v Power BI. Nicméně, zatímco [!INCLUDE[prodshort](includes/prodshort.md)] je služba cloud-first, také zákazníci, kteří potřebují plně pracovat lokálně (on-premis) nebo na "Inteligent Edge", které jsou ke cloudu připojeny to mohou dělat.
+Jako uživatel [!INCLUDE[prodshort](includes/prodshort.md)] online máte plný přístup ke scénářům založeným na inteligentním cloudu, jako jsou KPI založené na strojovém učení nebo při prohlížení dat v Power BI. Nicméně, zatímco [!INCLUDE[prodshort](includes/prodshort.md)] je primárně cloudově orientovaná služba , také zákazníci, kteří potřebují plně pracovat lokálně (on-premises) nebo na "Inteligent Edge" připojeném ke cloudu, to mohou dělat také.
 
-Máte-li zájem o [!INCLUDE[prodshort](includes/prodshort.md)], můžete se přihlásit k bezplatné zkušební verzi online, nebo se můžete rozhodnout pro spolupráci s partnerem pro nasazení produktu [!INCLUDE[prodshort](includes/prodshort.md)] lokálně na vlastním výběru hardwaru. Poté se můžete rozhodnout pro získání inteligentních přehledů připojením ke cloudu. V důsledku toho budou data z vašeho lokálně nasazeného [!INCLUDE[prodshort](includes/prodshort.md)] replikována do cloudu pro inteligentní cloudové scénáře.
+Máte-li zájem o [!INCLUDE[prodshort](includes/prodshort.md)], můžete se přihlásit k bezplatné zkušební verzi online, nebo se můžete rozhodnout pro spolupráci s partnerem pro nasazení produktu [!INCLUDE[prodshort](includes/prodshort.md)] lokálně na hardwaru dle vlastního výběru. Poté se můžete rozhodnout pro získání inteligentních přehledů připojením ke cloudu. V důsledku toho budou data z vašeho lokálně nasazeného [!INCLUDE[prodshort](includes/prodshort.md)] replikována do cloudu pro inteligentní cloudové scénáře.
 
-Připojení k inteligentním cloudu ze zařízení on-premis  musí správce specifikovat informace o vaší databázi. Pro další informace navštivte [Připojení k inteligentnímu cloudu](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) v obsahu ITPro [!INCLUDE[prodshort](includes/prodshort.md)].
+Připojení k inteligentním cloudu z on-premises řešení  vyžaduje specifikaci informací o Vaší databázi Vaším  správcem. Pro další informace navštivte [Připojení k inteligentnímu cloudu](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) v obsahu pro IT odborníky [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## Prohlížení inteligentních cloudových statistik v [!INCLUDE[prodshort](includes/prodshort.md)] online
 
 Ve vaší online společnosti [!INCLUDE[prodshort](includes/prodshort.md)]  zobrazuje stránka **Intelligent Cloud Insights** čtyři klíčové ukazatele pro většinu podniků:
 
-- Dostupnost hotovosti
+- Hotovost k dispozici
 - Ziskovost prodeje
 - Čistý zisk
 - Hodnota zásob
 
-Vedle grafů KPI získáte přehled o potenciálních oblastech zájmu, včetně plateb po splatnosti. Zvolte si přehled, který vám umožní zkoumat data.
+Vedle ukazatelů výkonu získáte přehled o potenciálních oblastech zájmu, včetně plateb po splatnosti. Zvolte si přehled, který vám umožní zkoumat data.
 
 > [!div class="mx-imgBorder"]
-> ![Intelligent cloud insights](media/across-intelligent-cloud/intelligentcloudApril19.png "zobrazení stránky Inteligentní cloudové statistiky v Business Central")
+> ![Intelligent cloud insights](media/across-intelligent-cloud/intelligentcloudOctober19.png "zobrazení stránky Inteligentní cloudové statistiky v Business Central")
 
-Stránka se také připojuje k Power BI pro ještě větší přehledy.
+Stránka se také připojuje k Power BI pro ještě více přehledů.
 
-## Zobrazení On-Premis Intelligent Insights
+## Zobrazení On-Premises Intelligent Insights
 
-Když váš partner pro prodej Dynamics 365 získal správnou licenci pro vaše místní (on-premis) řešení pro připojení ke cloudu prostřednictvím [!INCLUDE[prodshort](includes/prodshort.md)], může administrátor připojení nastavit. Jakmile je toto provedeno, můžete zobrazit stejné přehledy z cloudu ve vaší lokální aplikaci. V závislosti na místním řešení lze stránku **Intelligent Cloud Insights** vložit na domovskou stránku nebo na samostatnou stránku jako v [!INCLUDE[prodshort](includes/prodshort.md)] online i na místě.
+Když váš obchodní partner Dynamics 365 získal správnou licenci pro vaše místní (on-premises) řešení pro připojení ke cloudu prostřednictvím [!INCLUDE[prodshort](includes/prodshort.md)], může správce připojení nastavit. Jakmile je toto provedeno, můžete zobrazit stejné přehledy z cloudu ve vaší on-premises aplikaci. V závislosti na on-premises řešení lze stránku **Intelligent Cloud Insights** vložit na domovskou stránku nebo na samostatnou stránku jak v [!INCLUDE[prodshort](includes/prodshort.md)] online tak i on-premises.
 
 ## Připojení k Business Central z jiných produktů Dynamics
 
-Pokud používáte některou z podporovaných on-premis verzí, můžete se také připojit k Business Central online a získat informace přímo lokálně. Pro další informace navštivte [Připojení k inteligentnímu cloudu](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) v obsahu ITPro [!INCLUDE[prodshort](includes/prodshort.md)].
+Pokud používáte některou z podporovaných on-premises verzí, můžete se také připojit k [!INCLUDE[prodshort](includes/prodshort.md)] online a získat inteligentní přehledy přímo lokálně. Pro další informace navštivte [Připojení k inteligentnímu cloudu](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) v obsahu pro IT odborníky [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## Viz také
 
 [Vítejte v Business Central](index.md)  
 [Rozšíření Business Central Intelligent Cloud](ui-extensions-intelligent-cloud.md)  
-[Rozšíření replikace dat](ui-extensions-data-replication.md)  
-[Připojení do Intelligent Cloud](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)
+[Rozšíření pro replikaci dat](ui-extensions-data-replication.md)  
+[Připojení k inteligentnímu cloudu](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)

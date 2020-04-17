@@ -20,11 +20,11 @@ Po vytvoření konfiguračního balíčku je dalším krokem zavedení balíčku
 
 |**Pro**|**Navštivte**|  
 |------------|-------------|  
-|Vytvoření nové společnosti, ve které budete provádět implementaci zákazníků|[Vytvoření nové společnosti](admin-how-to-create-a-new-company.md)|  
+|Vytvoření nové společnosti, ve které budete provádět implementaci zákazníků.|[Vytvoření nové společnosti](admin-how-to-create-a-new-company.md)|  
 |Importování a aplikování konfiguračního balíčku pro novou společnost.|[Konfigurace nových společností](admin-how-to-configure-new-companies.md)|  
-|Konfiguraci společnosti můžete snadno dokončit pomocí průvodce nastavením.|[Konfigurace společnosti s průvodcem RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
-|Zkopírujte běžně používané hodnoty z existující společnosti do nové v rámci stejné databáze.|[Kopírování dat do nových společností](admin-how-to-copy-data-to-new-companies.md)|  
-|Pomocí dávkové úlohy můžete přenést zůstatky starších účtů do nově nakonfigurované společnosti a použít výsledné položky deníku.|[Vytvoření počátečních zůstatků deníku](admin-how-to-create-journal-opening-balances.md)|  
+|Konfiguraci společnosti, kterou snadno dokončíte pomocí průvodce nastavením.|[Konfigurace společnosti s průvodcem RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
+|Zkopírování běžně používaných hodnot z existující společnosti do nové v rámci stejné databáze.|[Kopírování dat do nových společností](admin-how-to-copy-data-to-new-companies.md)|  
+|Přenesení zůstatků starších účtů do nově nakonfigurované společnosti pomocí dávkové úlohy a následné použití výsledné položky deníku.|[Vytvoření počátečních zůstatků deníku](admin-how-to-create-journal-opening-balances.md)|  
 
 ## <a name="see-also"></a>Viz také  
 [Založení společnosti pomocí služeb RapidStart](admin-set-up-a-company-with-rapidstart.md)  

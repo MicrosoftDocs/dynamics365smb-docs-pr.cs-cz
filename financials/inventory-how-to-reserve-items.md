@@ -1,6 +1,6 @@
 ---
 title: Jak rezervovat zboží | Microsoft Docs
-description: 'Můžete si rezervovat zboží pro prodejní objednávky, nákupní objednávky a výrobní objednávky. Zboží můžete rezervovat ve skladu nebo jako vstup na otevřených řádcích dokladů.'
+description: 'Můžete si rezervovat zboží pro prodejní, nákupní a výrobní objednávky. Zboží můžete rezervovat ve skladu nebo jako vstup na otevřených řádcích dokladů.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,8 +13,8 @@ ms.search.keywords: null
 ms.date: 08/14/2017
 ms.author: sgroespe
 ---
-# <a name="reserve-items"></a>Rezervace zboží
-Můžete si rezervovat položky pro prodejní, nákupní, servisní, montážní a výrobní objednávky. Zboží můžete rezervovat ve skladu nebo jako vstup na otevřených řádcích dokladů nebo deníků. Práce provádíte v okně **Rezervace**.
+# <a name="reserve-items"></a>Reservace zboží
+Můžete si rezervovat zboží pro prodejní, nákupní, servisní, montážní a výrobní objednávky. Zboží můžete rezervovat ve skladu nebo jako vstup na otevřených řádcích dokladů nebo deníků. Práce provádíte v okně **Rezervace**.
 
 Každý řádek v okně **Rezervace**, který si otevřete pro rezervování zboží, zobrazuje informace o jednom typu řádku (prodej, nákup, deník) nebo položky skladu. Řádky popisují, kolik zboží je možné rezervovat z každého typu řádku nebo položky.
 
@@ -27,14 +27,14 @@ Následující text popisuje, jak rezervovat zboží z prodejní objednávky. Kr
 
     |**Funkce**|**Popis**|
     |------------------|---------------------|  
-    |**Auto rezervace**|Automatická rezervace položek v okně **Rezervace**.|  
+    |**Auto rezervace**|Automatická rezervace zboží v okně **Rezervace**.|  
     |**Rezerva z aktuálního řádku**|Chcete-li rezervovat zboží z dokladu na vybraném řádku.|  
-    |**Zrušení Rezervace z aktuálního řádku**|Chcete-li zrušit rezervovat zboží z dokladu na vybraném řádku.|
+    |**Zrušení rezervace z aktuálního řádku**|Chcete-li zrušit rezervaci zboží z dokladu na vybraném řádku.|
 
 > [!NOTE]  
 >  Pokud existují řádky sledovaného zboží pro prodejní objednávku, rezervační systém vás provede zvláštními kroky. Pro více informací navštivte „Rezervace konkrétního sériového čísla nebo čísla šarže“.  
 
-## <a name="to-reserve-an-item-for-a-production-order-line"></a>Rezervace zboží pro řádek výrobní zakázku  
+## <a name="to-reserve-an-item-for-a-production-order-line"></a>Rezervace zboží pro řádek výrobní zakázky  
 Můžete si objednat zboží pro výrobní zakázky. Musíte rozlišovat mezi řádky výrobní zakázky, což znamená nadřazeným zbožím, a komponenty výrobní zakázky.
 
 V následujícím postupu je použita pevně plánovaná výrobní zakázka.   
@@ -71,7 +71,7 @@ Někdy můžete chtít změnit rezervaci zboží.
 Někdy můžete chtít zrušit rezervaci zboží.   
 1. Z řádku dokumentu, ze kterého chcete zrušit rezervaci, vyberte na záložce **Řádky** akci **Rezervace**.  
 2. V okně **Rezervace** vyberte akci **Položky rezervace**.  
-3.  V okně **Položky rezervace** vyberte akci **Zrušení Rezervace**.  
+3.  V okně **Položky rezervace** vyberte akci **Zrušení rezervace**.  
 4.  Potvrďte následnou zprávu stisknutím tlačítka **OK**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Rezervace konkrétního sériového čísla nebo čísla šarže  
@@ -92,6 +92,6 @@ Následující postup je založen na prodejní objednávce.
 ## <a name="see-also"></a>Viz také
 [Zásoby](inventory-manage-inventory.md)  
 [Podrobnosti o designu: Rezervace, sledování objednávek a správy akcí](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Podrobnosti návrhu - Trasování zboží a Rezervace](design-details-item-tracking-and-reservations.md)  
+[Podrobnosti návrhu - Trasování zboží a rezervace](design-details-item-tracking-and-reservations.md)  
 [Práce se sériovými čísly a čísly šarží](inventory-how-work-item-tracking.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

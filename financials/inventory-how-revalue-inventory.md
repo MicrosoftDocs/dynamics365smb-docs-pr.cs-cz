@@ -32,5 +32,5 @@ Nové položky přecenění jsou nyní vytvořeny tak, aby odrážely přeceněn
 [Podrobnosti návrhu: Přecenění](design-details-revaluation.md)  
 [Zásoby](inventory-manage-inventory.md)  
 [Prodej](sales-manage-sales.md)  
-[Nakupování](purchasing-manage-purchasing.md)  
+[Nákup](purchasing-manage-purchasing.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

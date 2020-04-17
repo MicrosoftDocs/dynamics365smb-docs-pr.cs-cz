@@ -14,7 +14,7 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Nastavení stavů pro Servisní zakázky a Opravy
-Musíte nastavit možností stavu opravy, které určují průběh opravy a údržby předmětů servisu v servisních zakázkách. Musíte nastavit nejméně devět možností stavu opravy, které identifikují situace nebo kroky provedené při servisu předmětů servisu.  
+Musíte nastavit možnosti stavu opravy, které určují průběh opravy a údržby předmětů servisu v servisních zakázkách. Musíte nastavit nejméně devět možností stavu opravy, které identifikují situace nebo kroky provedené při servisu předmětů servisu.  
 
 Můžete nastavit úroveň priority pro možnosti stavu servisní zakázky. Tyto čtyři úrovně jsou Vysoká, Středně vysoká, Středně nízká a Nízká.  
 

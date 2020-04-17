@@ -18,23 +18,23 @@ Chcete-li používat služby RapidStart pro [!INCLUDE[d365fin](includes/d365fin_
 
 Kromě toho můžete po inicializaci použít ve vaší společnosti konkrétní instalační data. Informace jsou poskytovány v konfiguračním balíčku, souboru .rapidstart, který dodává obsah v komprimovaném formátu.  
 
-Příklady konfiguračních balíčků, včetně souborů specifických pro zemi nebo oblast, jsou součástí demonstrační společnosti CRONUS. Použijte následující postupy pro použití příkladu konfiguračního balíčku s novou společností.  
+Příklady konfiguračních balíčků, včetně souborů specifických pro zemi nebo oblast, jsou součástí demonstrační společnosti CRONUS. Použijte následující postupy pro použití vzorového konfiguračního balíčku s novou společností.  
 
-## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Pro použití ukázkového konfiguračního balíčku BASICCONIG  
+## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Použití ukázkového konfiguračního balíčku BASICCONIG  
 1. Otevřete společnost CRONUS International Ltd. Pro další informace se podívejte na [Změna základního nastavení](ui-change-basic-settings.md).
 2. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Konfigurační balíčky** a poté vyberte související odkaz.  
 3. Vyberte balíček BASICCINFOG ze seznamu a poté vyberte akci **Exportovat balíček**.  
 
 Následující postup použijte k vytvoření nové společnosti a jako součást procesu použijte balíček BASICCONFIG.  
 
-## <a name="to-create-a-new-company"></a>Pro vytvoření nové společnosti  
+## <a name="to-create-a-new-company"></a>Vytvoření nové společnosti  
 1. Vytvořte novou společnost. Pro více informací navštivte [Vytváření nových společností v [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
 2. Z role Implementátor služeb RapidStart můžete nyní importovat konfigurační balíček, který jste exportovali od společnosti CRONUS International Ltd.
 
 Po vytvoření nové společnosti jsou některé tabulky automaticky vyplněny, i když není použita žádná firemní šablona. Na stránce **Zdrojový kód** si můžete například prohlédnout standardní kódy pro účtování a dávkové transakce. Pokud poskytujete místní verzi [!INCLUDE[d365fin](includes/d365fin_md.md)], měli byste si přečíst tuto tabulku a zvážit případné problémy s místním jazykem.
 
 ## <a name="about-data-tables"></a>O datových tabulkách
-[!INCLUDE[d365fin](includes/d365fin_md.md)], data přicházejí ve dvou základních typech: Hlavní a nastavení. Při nastavování firemní konfigurace můžete pomocí těchto typů zaměřit svou konfigurační strategii.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)], data přicházejí ve dvou základních typech: hlavní a data nastavení. Při nastavování firemní konfigurace můžete pomocí těchto typů zaměřit svou konfigurační strategii.  
 
 ### <a name="master-data-tables"></a>Tabulky hlavních dat  
 V následující tabulce jsou uvedeny některé tabulky hlavních dat. Při inicializaci nové společnosti jsou tyto tabulky prázdné.  

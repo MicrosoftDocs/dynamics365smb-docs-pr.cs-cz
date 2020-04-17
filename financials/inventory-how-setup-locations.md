@@ -16,7 +16,7 @@ ms.author: SorenGP
 # <a name="set-up-locations"></a>Nastavení Lokací
 Pokud kupujete, skladujete nebo prodáváte zboží na více než jednom místě nebo skladu, musíte nastavit každou lokaci pomocí karty lokace a definovat trasy transferu.
 
-Poté můžete vytvořit řádky dokumentů pro konkrétní lokaci, zobrazit dostupnost podle lokace a převést zásoby mezi lokacemi. Pro více informací navštivte [Správa skladu](inventory-manage-inventory.md).
+Poté můžete vytvořit řádky dokladů pro konkrétní lokaci, zobrazit dostupnost podle lokace a převést zásoby mezi lokacemi. Pro více informací navštivte [Správa skladu](inventory-manage-inventory.md).
 
 ## <a name="to-create-a-location-card"></a>Vytvoření Karty lokace
 1. Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Lokace** a pak vyberte související odkaz.
@@ -25,7 +25,7 @@ Poté můžete vytvořit řádky dokumentů pro konkrétní lokaci, zobrazit dos
 4. Opakujte kroky 2 a 3 pro každou lokaci, kde chcete vést inventář zásob.
 
 > [!NOTE]  
-> Mnoho polí na kartě umístění odkazuje na manipulaci se zbožím v procesech vstupního a výstupního skladu. Pro více informací navštivte [Nastavení správy skladu](warehouse-setup-warehouse.md).
+> Mnoho polí na kartě lokace odkazuje na manipulaci se zbožím v procesech vstupního a výstupního skladu. Pro více informací navštivte [Nastavení správy skladu](warehouse-setup-warehouse.md).
 
 ## <a name="to-create-a-transfer-route"></a>Vytvoření trasy transferu
 1. Zvolte ikonu ![Vyhledat stránku nebo sestavu](media/ui-search/search_small.png "Ikona Vyhledat stránku nebo sestavu"), zadejte **Trasy transferu** a pak vyberte související odkaz.
@@ -36,7 +36,7 @@ Poté můžete vytvořit řádky dokumentů pro konkrétní lokaci, zobrazit dos
 Nyní můžete přenášet skladové zboží mezi dvěma lokacemi. Pro více informací navštivte [Převádění zásob mezi lokacemi](inventory-how-transfer-between-locations.md).    
 
 ## <a name="see-also"></a>Viz také
-[Spravovat zásoby](inventory-manage-inventory.md)  
+[Správa zásob](inventory-manage-inventory.md)  
 [Převádění zásob mezi lokacemi](inventory-how-transfer-between-locations.md)    
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Změna zobrazovaných funkcí](ui-experiences.md)  
