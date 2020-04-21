@@ -13,29 +13,29 @@
     ms.author: sgroespe
 
 ---
-# Set Up a Document Exchange Service
-You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Exchanging Data Electronically](across-data-exchange.md).
+# Nastavení služby směnných kurzů  
+Můžete použít externí službu k výměně elektronických dokladů se svými obchodními partnery. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
 
-## To set up a document exchange service
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Doc. Exch. Service Setup**, and then choose the related link.
-2. Fill the fields as described in the following table.
+## Pro nastavení služby směnných kurzů
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat")a zadejte **Nastavení výměny  dokladů**, a poté vyberte související odkaz.
+2. Vyplňte pole podle popisu v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **User Agent** | Enter any text that can be used to identify your company in document exchange processes. |
-   | **Doc. Exch. Tenant ID** | Enter the tenant in the document exchange service that represents your company. This is provided by the document exchange service provider. |
-   | **Enabled** | Specify if the service is enabled. **Note:**  As soon as you enable the service, at least two job queue entries are created to process the traffic of electronic documents in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]. When you disable the service, the job queue entries are deleted. |
-   | **Signup URL** | Specify the web page where you sign up for the document exchange service. |
-   | **Service URL** | Specify the address of the document exchange service, which will be called when you send and receive electronic documents. |
-   | **Login URL** | Specify the logon page for the document exchange service, which is where you enter your company’s user name and password to log on to the service. |
-   | **Consumer Key** | Enter the 3-legged OAuth key for the consumer key. This is provided by the document exchange service provider. |
-   | **Consumer Secret** | Enter the secret that protects the consumer key. This is provided by the document exchange service provider. |
-   | **Token** | Enter the 3-legged OAuth key for the token. This is provided by the document exchange service provider. |
-   | **Token Secret** | Enter the secret that protects the token. This is provided by the document exchange service provider. |
+   | **Uživatelský agent** | Zadejte libovolný text, který lze použít k identifikaci vaší společnosti v procesech výměny dokumentů. |
+   | **ID nájemce výměny dokladů** | Zadejte nájemce do služby výměny dokumentů, která představuje vaši společnost. Ten je poskytován poskytovatelem služeb pro výměnu dokumentů. |
+   | **Povoleno** | Určuje, zda je služba povolena. **Note:** Jakmile službu povolíte, budou vytvořeny alespoň dvě položky fronty úloh pro zpracování přenosů elektronických dokumentů ve službě [!INCLUDE[d365fin](includes/d365fin_md.md)]. Když službu zakážete, položky fronty úloh budou odstraněny. |
+   | **URL registrace** | Zadejte webovou stránku, na které se chcete přihlásit ke službě pro výměnu dokumentů. |
+   | **Služba URL** | Zadejte adresu služby pro výměnu dokumentů, která bude zavolána při odesílání a přijímání elektronických dokumentů. |
+   | **Přihlašovací adresa URL** | Určuje přihlašovací stránku pro službu výměny dokumentů, kde zadáte uživatelské jméno a heslo vaší společnosti pro přihlášení ke službě. |
+   | **Klíč příjemce** | Zadejte 3-legged Oauth klíč pro klíč příjemce. Ten je poskytován poskytovatelem služeb pro výměnu dokumentů. |
+   | **Tajný klíč příjemce** | Zadejte tajný klíč, který chrání klíč příjemce. Ten je poskytován poskytovatelem služeb pro výměnu dokumentů. |
+   | **Token** | Zadejte 3-legged Oauth klíč pro token. Ten je poskytován poskytovatelem služeb pro výměnu dokumentů. |
+   | **Token - tajné** | Zadejte tajný klíč, který chrání token. Ten je poskytován poskytovatelem služeb pro výměnu dokumentů. |
 
    > [!NOTE]
-   > You login data is automatically encrypted.
+   > Vaše přihlašovací údaje jsou automaticky šifrovány.
 
 ## Viz také
-[Setting Up Data Exchange](across-set-up-data-exchange.md)
-[Exchanging Data Electronically](across-data-exchange.md)
+[Nastavení výměny dat](across-set-up-data-exchange.md)  
+[Elektronická výměna dat](across-data-exchange.md)

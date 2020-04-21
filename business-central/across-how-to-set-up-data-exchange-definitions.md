@@ -13,148 +13,148 @@
     ms.author: sgroespe
 
 ---
-# Set Up Data Exchange Definitions
-You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. Pro více informací navštivte sekci [Elektronická výměna dat](across-data-exchange.md).
+# Nastavení Definice výměny dat 
+Můžete nastavit [!INCLUDE[d365fin](includes/d365fin_md.md)] pro výměnu dat v určitých tabulkách s daty v externích souborech, například pro odesílání a přijímání elektronických dokumentů, import a export bankovních dat nebo jiných dat, jako jsou mzdy, směnné kurzy měn a katalogy položek. Pro více informací navštivte [Elektronická výměna dat](across-data-exchange.md).
 
-As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in [To describe the formatting of lines and columns in the file](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). For more information, see the [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
+Jako příprava pro vytvoření definice výměny dat pro datový soubor, nebo datový proud, můžete pomocí souvisejícího schématu XML definovat, které datové prvky mají být zahrnuty na záložce **Definice sloupců** záložce s náhledem definice sloupců. Viz krok 6 v [Popis formátování řádků a sloupců v souboru](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Pro více informací navštivte [Použití schémat XML k přípravě definic datových výměn](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
 
-You normally set up data exchange definitions on the **Data Exchange Definition** page. However, when you set up a data exchange definition for the service of refreshing currency exchange rates, you start the process in the simplified **Exch. Rate Update Setup Card** page.
+Definici výměny dat obvykle nastavíte na stránce **Definice výměny dat**. Pokud však nastavíte definici výměny dat pro službu aktualizací směnných kurzů, spustíte tento proces ve zjednodušené stránce **Nastavení  aktualizace karty sm.kurzů**.
 
 > [!NOTE]
-> If the file that is being converted is in XML format, the term *“column”* in this topic should be interpreted as *“XML element containing data”*.
+> Pokud je převáděný soubor ve formátu XML, měl by být termín  *„sloupec“* v tomto tématu interpretován jako *“Prvek XML obsahující data”*.
 
-This topic includes the following procedures:
+Toto téma obsahuje následující postupy:
 
-* To create a data exchange definition
-* To export a data exchange definition as an XML file for use by others
-* To import an XML file for an existing data exchange definition
+* Vytvoření definice výměny dat
+* Export definice výměny dat jako souboru XML pro použití jinými uživateli
+* Import souboru XML pro existující definici výměny dat
 
-## To create a data exchange definition
-Creating a data exchange definition involves two tasks:
+## Vytvoření definice výměny dat
+Vytvoření definice výměny dat zahrnuje dva úkoly:
 
-1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file.
-2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+1. Na stránce **Definice výměny dat** popište formátování řádků a sloupců v souboru.
+2. Na stránce **Mapování výměny dat**, mapujte sloupce v datovém souboru na pole v [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-This is described in the following procedures.
+To je popsáno v následujících postupech.
 
 > [!TIP]
-> To see which codeunits Microsoft uses in existing definitions in the standard product, review the three **Codeunit** fields on the header of the **Field Mapping** page for each definition.
+> Chcete-li zjistit, které procedury Microsoft používá ve stávajících definicích ve standartním produktu, zkontrolujte pro každou definici tři pole **Procedur** na hlavičce stránky **Mapování polí**.
 
-#### To describe the formatting of lines and columns in the file
-1. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.
-2. Choose the **New** action.
-3. On the **General** FastTab, describe the data exchange definition and the data file type by filling the fields as described in the following table.
+#### Popsat formátování řádků a sloupců v souboru
+1. Do pole **Hledat**, zadejte **Definice výměny dat** a poté vyberte související odkaz.
+2. Zvolte akci **Nový**.
+3. Na záložce **Obecné**, popište definici výměny dat a typ datového souboru vyplněním polí, jak je popsáno v následující tabulce.
 
-   | Field | Definition |
+   | Pole | Definice |
    |---------------------------------|---------------------------------------|  
-   | **Code** | Enter a code to identify the data exchange definition. |
-   | **Name** | Enter a name for the data exchange definition. |
-   | **File Type** | Specify what type of file that the data exchange definition is used for. You can select between four file types:<br /><br /> -   **XML**: Layered strings of content and markup surrounded by tags indicating function.<br />-   **Variable Text**: Records have variable length and are separated by a character, such as comma or semi\-colon. Also known as *delimited file*.<br />-   **Fixed Text**: Records have the same length, using pad characters, and each record is on a separate line. Also known as *fixed-width file*.<br />- **Json**: Layered strings of content in JavaScript. |
-   | **Type** | Specify what type of business activity the data exchange definition is used for, such as **Payment Export**. |
-   | **Data Handling Codeunit** | Specify the codeunit that transfers data in and out of tables in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
-   | **Validation Codeunit** | Specify the codeunit that is used to validate data against pre-defined business rules. |
-   | **Reading/Writing Codeunit** | Specify the codeunit that processes imported data prior to mapping and exported data after mapping. |
-   | **Reading/Writing XMLport** | Specify the XMLport through which an imported data file or service enters prior to mapping and through which exported data exits when it is written to a data file or service after mapping. |
-   | **Ext. Data Handling Codeunit** | Specify the codeunit that transfers external data in and out of the data exchange framework. |
-   | **User Feedback Codeunit** | Specify the codeunit that does various clean-up after mapping, such as marks the lines as exported and deletes temporary records. |
-   | **File Encoding** | Specify the encoding of the file. **Note:**  This field is only relevant for import. |
-   | **Column Separator** | Specify how columns in the data file are separated, if the file is of type **Variable Text**. |
-   | **Header Lines** | Specify how many header lines exist in the file.<br /><br /> This makes sure that the header data is not imported. **Note:**  This field is only relevant for import. |
-   | **Header Tag** | If a header line exists in several positions in the file, enter the text of the first column on the header line.<br /><br /> This makes sure that the header data is not imported. **Note:**  This field is only relevant for import. |
-   | **Footer Tag** | If a footer line exists in several positions in the file, enter the text of the first column on the footer line.<br /><br /> This makes sure that the footer data is not imported. **Note:**  This field is only relevant for import. |
+   | **Kód** | Zadejte kód pro identifikaci definice výměny dat. |
+   | **Název** | Zadejte název pro definici výměny dat. |
+   | **Typ souboru** | Určete, pro jaký typ souboru se používá definice výměny dat. Můžete vybrat mezi čtyřmi typy souborů:<br /><br /> -   **XML**: Vrstvené řetězce obsahu a označení obklopené značkami označujícími funkci.<br />-   **Variable Text**: Záznamy mají proměnnou délku a jsou odděleny znakem, například čárkou, dvojtečkou, nebo středníkem. Známý taky jako *soubor s oddělovači*.<br />-   **Fixed Text**: Záznamy mají stejnou délku, používají vyplňovací znaky a každý záznam je na samostatném řádku Také známý jako *soubor s pevnou šířkou*.<br />- **Json**: Vrstvené řetězce obsahu v JavaScriptu. |
+   | **Typ** | Určuje, jaký typ obchodní činnosti se používá pro definici výměny dat, například **Export platby**. |
+   | **Procedura zpracování dat** | Zadejte proceduru, která přenáší data do a z tabulek v [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
+   | **Procedura validace** | Zadejte proceduru, která je použitá k ověření dat podle předem definovaných obchodních pravidel. |
+   | **Procedura čtení/zápisu** | Určuje proceduru, která zpracovává importovaná data před mapováním a exportovaná data po mapování. |
+   | **XMLPort čtení/zápisu** | Určuje XMLport, skrz který importované soubory nebo služby vkládají předešlé mapování a skrz který exportovaná data odchází, když jsou zapisována do souboru nebo služby po mapování. |
+   | **Procedura  ext. zpracování dat** | Určuje proceduru, která přenáší externí data dovnitř a ven z rámce výměny dat. |
+   | **Procedura zpětné vazby uživatelů** | Určuje proceduru, která dělá různé vyčištění po mapování, jako je označení řádků jako exportovaných a mazání dočasných záznamů. |
+   | **Kódování souboru** | Určuje kódování souboru. **Poznámka:**  Toto pole je aktuální pouze pro import. |
+   | **Oddělovač sloupců** | Určuje, jak jsou sloupce v datovém souboru oddělené, pokud je soubor typu **Variable Text**. |
+   | **Řádky hlavičky** | Určuje kolik řádků hlavičky existuje v souboru.<br /><br /> To zajišťuje, že data hlavičky nejsou importována. **Poznámka:** Toto pole je relevantní pouze pro import. |
+   | **Značka hlavičky** | Pokud řádek hlavičky existuje na několika pozicích v souboru, otevřete text prvního řádku na řádku hlavičky.<br /><br /> Tím je zajištěno, že data záhlaví nejsou importována. **Poznámka:** Toto pole je relevantní pouze pro import. |
+   | **Značka patičky** | Pokud řádek zápatí existuje na několika pozicích v souboru, vložte text prvního sloupce do řádku zápatí.<br /><br /> Tím je zajištěno, že data zápatí nejsou importována. **Poznámka:** Toto pole je relevantní pouze pro import. |
 
-4. On the **Line Definitions** FastTab, describe the formatting of lines in the data file by filling the fields as described in the following table.
+4. Na záložce **Definice řádků**, popište formátování řádků v datovém souboru vyplněním polí, tak jak jsou popsány v následující tabulce.
 
    > [!NOTE]
-   > For import of bank statements, you only create one line for the single format of the bank statement file that you want to import.
-   > For export of payments, you can create a line for each payment type that you want to export. In that case, the **Column Definitions** FastTab shows different columns for each payment type.
+   > Pro import bankovních výpisů vytvoříte pouze jeden řádek pro jediný formát souboru bankovních výpisů, který chcete importovat.
+   > Pro export plateb můžete každému typu platby, který chcete exportovat, vytvořit řádek. V takovém případě záložka **Definice sloupce** zobrazuje různé sloupce pro každý druh platby.
    > 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **Code** | Enter a code to identify the line in the file. |
-   | **Name** | Enter a name that describes the line in the file. |
-   | **Column Count** | Specify how many columns the line in data file has. **Note:**  This field is only relevant for import. |
-   | **Data Line Tag** | Specify the position in the related XML schema of the element that represents the main entry of the data file. **Note:**  This field is only relevant for import. |
-   | **Namespace** | Specify the namespace that is expected in the file, to enable namespace validation. You can leave this field blank if you do not want to enable namespace validation. |
+   | **Kód** | Zadejte kód pro identifikaci řádku v souboru. |
+   | **Název** | Zadejte název, který popisuje řádek v souboru. |
+   | **Počet sloupců** | Určuje, kolik sloupců má řádek v souboru bankovního výpisu. **Poznámka:**  Toto pole je aktuální pouze pro import. |
+   | **Značka řádku dat** | Určuje, pozici prvku v souvisejícím schématu XLM, který představuje hlavní položku datového souboru. **Poznámka:**  Toto pole je aktuální pouze pro import. |
+   | **Obor názvů** | Určuje, obor názvů, který je v souboru očekáván, pro umožnění ověření oboru názvů. Toto pole můžete nechat prázdné, pokud nechcete povolit ověření oboru názvů. |
 
-5. Repeat step 4 to create a line for every type of file data that you want to export.
+5. Opakujte krok 4 a vytvořte řádek pro každý typ dat souboru, který chcete exportovat.
 
-   Proceed to describe the formatting of columns in the data file by filling the fields on the **Column Definitions** FastTab as described in the table below. You can use the structure file, such as an .XSD file, for the data file to prefill the FastTab with the relevant elements. For more information, see [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
+   Pokračujte v popisu formátování sloupců v datovém souboru vyplněním polí na záložce **Definice sloupce**, jak je popsáno v následující tabulce. Můžete použít soubor struktury, jako například soubor .XSD, aby datový soubor předvyplňoval kartu s náhledem příslušnými prvky. Pro více informací navštivte [Použití schémat XML k přípravě definic datových výměn](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
 
-6. On the **Column Definitions** FastTab, choose **Get File Structure**.
-7. On the **Get File Structure** page, select the related structure file, and then choose the **OK** button. The lines on the **Column Definitions** FastTab are filled according to the structure of the data file.
-8. On the **Column Definitions** FastTab, edit or fill the fields as described in the following table.
+6. Na záložce **Definice sloupce**, vyberte **Získat strukturu souboru**.
+7. Na stránce **Získat strukturu souboru**, vyberte související soubor struktury a poté zvolte tlačítko **OK**. Řádky na záložce **Definice sloupce** jsou vyplněny podle struktury datového souboru.
+8. Na záložce **Definice sloupce**, upravte nebo vyplňte pole, jak je popsáno v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **Column No.** | Specify the number that reflects the column’s position on the line in the file.<br /><br /> For XML files, specify the number that reflects the type of element in the file that contains the data. |
-   | **Name** | Specify the name of the column.<br /><br /> For XML files, specify the markup that marks the data to be exchanged. |
-   | **Data Type** | Specify if the data to be exchanged is of type **Text**, **Date**, or **Decimal**. |
-   | **Data Format** | Specify the format of the data, if any. For example, **MM-dd-yyyy** if the data type is **Date**. **Note:**  For export, specify the data format according to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For import, specify the data format according to the .NET Framework. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466). |
-   | **Data Formatting Culture** | Specify the culture of the data format, if any. For example, **en-US** if the data type is **Decimal** to make sure that comma is used as the .000 separator, according to the US format. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466). **Note:**  This field is only relevant for import. |
-   | **Length** | Specify the length of the fixed-width line that holds the column if the data file is of type **Fixed Text**. |
-   | **Description** | Enter a description of the column, for information. |
-   | **Path** | Specify the position of the element in the related XML schema. |
-   | **Negative-Sign Identifier** | Enter the value that is used in the data file to identify negative amounts, in data files that cannot contain negative signs. This identifier is then used to reverse the identified amounts to negative signs during import. **Note:**  This field is only relevant for import. |
-   | **Constant** | Specify any data that you want to export in this column, such as extra information about the payment type. **Note:**  This field is only relevant for export. |
+   | **Číslo sloupce** | Zadejte číslo, které odráží pozici sloupce na řádku v souboru. <br /><br /> U souborů XML zadejte číslo, které odráží typ prvku v souboru, který data obsahuje. |
+   | **Název** | Zadejte název sloupce. <br /> <br /> U souborů XML zadejte značky, které označují data, která mají být vyměněna. |
+   | **Datový typ** | Určete, zda jsou data, která mají být vyměněna, typu **Text**, **Date**, nebo **Decimal**. |
+   | **Formát dat** | Určete formát dat, pokud existují. Například, **MM-dd-yyyy** pokud je datový typ **Datum**. **Poznámka:** Pro export zadejte formát dat podle [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pro import zadejte formát dat podle rozhraní .NET Framework. Pro více informací navštivte [Řetězce standardního formátu data a času](https://go.microsoft.com/fwlink/?LinkID=323466). |
+   | **Jazyková verze formátování dat** | Zadejte jazykovou verzi datového formátu, pokud existuje. Například, **en-US** pokud je datový typ **Decimal**, abyste se ujistili, že je čárka používána jako oddělovač .000 podle formátu USA. Pro více informací navštivte [Řetězce standardního formátu data a času](https://go.microsoft.com/fwlink/?LinkID=323466). **Poznámka:** Toto pole je relevantní pouze pro import. |
+   | **Délka** | Určete délku řádku o pevné šířce, který obsahuje sloupec, jestli je soubor typu **Fixed Text**. |
+   | **Popis** | Zadejte popis sloupce s informacemi. |
+   | **Cesta** | Určete pozici elementu v souvisejícím XML schématu. |
+   | **Identifikátor záporného znaménka** | Zadejte hodnotu, která se používá v datovém souboru k identifikaci záporných částek do datových souborů, které nemohou obsahovat záporné znaménka. Tento identifikátor je potom použit ke znegování hodnot během importu. **Poznámka:**  Toto pole je aktuální pouze pro import. |
+   | **Konstanta** | Určete jakákoliv data, které chcete exportovat do tohoto sloupce, jako jsou extra informace o typu platby. **Poznámka:** Toto pole je relevantní pouze pro export. |
 
-9. Repeat step 8 for every column or XML element in the data file that has data that you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)].
+9. Opakujte krok 8 pro každý sloupec nebo prvek XML v datovém souboru, který obsahuje data, která chcete vyměnit, s [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Dalším krokem při vytváření definice výměny dat je rozhodnout, které sloupce nebo elementy XML v datovém souboru mapovat, na jaká pole v [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
-The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).
+Konkrétní mapování závisí na obchodním účelu datového souboru, který má být vyměněn, a na místních variacích. I bankovní standard SEPA má místní variace. [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje import předpřipravených souborů bankovních výpisů SEPA CAMT. To je reprezentováno kódem záznamu definice výměny dat **SEPA CAMT** na stránce **Definice výměny dat**. Pro více informací o konkrétním mapování polí podporovaného SEPA CAMT, viz [Mapování polí při importu souborů SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).
 
-#### To map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. On the **Line Definitions** FastTab, select the line for which you want to map columns to fields, and then choose **Field Mapping**. The **Data Exchange Mapping** page opens.
-2. On the **General** FastTab, specify the mapping setup by filling the fields as described in the following table.
+#### Mapování sloupců v datovém souboru na pole v [!INCLUDE[d365fin](includes/d365fin_md.md)]
+1. Na záložce **Definice řádků** vyberte řádek, pro který chcete mapovat sloupce na pole, a pak zvolte **Mapování polí**. Otevře se stránka **Mapování výměny dat**.
+2. Na záložce **Obecné**, určete nastavené mapování vyplněním polí, jak je popsáno v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **Table ID** | Specify the table that holds the fields to or from which data is exchanged according to the mapping. |
-   | **Use as Intermediate Table** | Specify if the table that you select in the **Table ID** field is an intermediate table where the imported data is stored before it is mapped to the target table.<br /><br /> You typically use an intermediate table when the data exchange definition is used to import and convert electronic documents, such as vendor invoices into purchase invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Exchanging Data Electronically](across-data-exchange.md). |
-   | **Name** | Enter a name for the mapping setup. |
-   | **Pre-Mapping Codeunit** | Specify the codeunit that prepares the mapping between fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] and external data. |
-   | **Mapping Codeunit** | Specify the codeunit that is used to map the specified columns or XML data elements to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
-   | **Post-Mapping Codeunit** | Specify the codeunit that completes the mapping between fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] and external data. **Note:**  When using the Bank Data Conversion Service feature, the codeunit converts exported data from [!INCLUDE[d365fin](includes/d365fin_md.md)] to a generic format that is ready for export. For import, the codeunit converts external data to a format that is ready for import into [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
+   | **ID tabulky** | Určuje tabulku, která drží pole do nebo z kterých jsou data vyměněna podle mapování. |
+   | **Použít jako přechodnou tabulku** | Určuje, že tabulka, kterou jste vybrali v poli **ID tabulky**  je přechodná tabulka, kde importovaná data jsou uchovávána předtím, než jsou nahrána do cílové tabulky. <br /> <br /> Obvykle používáte přechodná tabulku, když se definice výměny dat používá k importu a převodu elektronických dokladů, například faktur dodavatelů na nákupní faktury v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pro více informací navštivte [Elektronická výměna dat](across-data-exchange.md). |
+   | **Název** | Zadejte název pro nastavení mapování. |
+   | **Procedura předzpracování mapování** | Určuje proceduru, která připraví mapování mezi poli v [!INCLUDE[d365fin](includes/d365fin_md.md)] a externími daty. |
+   | **Procedura mapování** | Určuje proceduru, která je použita k mapování specifických sloupců nebo prvků dat XML k polím v [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
+   | **Procedura násl.zpracování mapování** | Určuje proceduru, která provede mapování mezi poli v [!INCLUDE[d365fin](includes/d365fin_md.md)] a externími daty. **Poznámka:**  Při používání funkcionality Bank Data Conversion Service, převádí procedura exportovaná data z [!INCLUDE[d365fin](includes/d365fin_md.md)] do obecného formátu, který je připraven k exportu. V případě importu převede kódová jednotka externí data do formátu, který je připraven k importu, do [! INCLUDE[d365fin](includes/d365fin_md.md)]. |
 
-3. On the **Field Mapping** FastTab, specify which columns map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] by filling the fields as described in the following table.
+3. Na záložce **Mapování polí**, určete, které sloupce mapují na která pole v části [!INCLUDE[d365fin](includes/d365fin_md.md)] vyplněním polí popsaných v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **Column No.** | Specify which column in the data file that you want to define a map for.<br /><br /> You can only select columns that are represented by lines on the **Column Definitions** FastTab on the **Data Exchange Definition** page. |
-   | **Field ID** | Specify which field the column in the **Column No.** field maps to.<br /><br /> You can only select from fields that exist in the table that you specified in the **Table** field on the **General** FastTab. |
-   | **Optional** | Specify that the map will be skipped if the field is empty. **Note:**  If you do not select this check box, an export error will occur if the field is empty. **Note:**  This field is only relevant for export. |
-   | **Target Table ID** | Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify the table that the value in the **Column Caption** field is mapped to, when you are using an intermediate table for data import. |
-   | **Target Table Caption** | Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify the name of the table in the **Target Table ID** field, which is the table that the value in the **Column Caption** field is mapped to, when you are using an intermediate table for data import. |
-   | **Target Field ID** | Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify the field in the target table that the value in the **Column Caption** field is mapped to, when you are using an intermediate table for data import. |
-   | **Target Field Caption** | Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify the name of the field in the target table that the value in the **Column Caption** field is mapped to, when you are using an intermediate table for data import. |
-   | **Optional** | Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify if the map should be skipped if the field is empty. If you do not select this check box, then an export error will occur if the field is empty. |
+   | **Číslo sloupce** | Určuje, pro který sloupec v datovém souboru chcete definovat mapu. <br /><br /> Můžete vybrat pouze sloupce, které jsou reprezentovány řádky na záložce**Definice sloupců** na **Definice výměny dat**. |
+   | **ID pole** | Určuje, na které pole se sloupec mapuje v poli **Číslo sloupce**. <br /> <br /> Můžete vybrat pouze z polí, která existují v tabulce, kterou jste zadali v poli **Tabulka** na záložce **Obecné**. |
+   | **Volitelné** | Určuje, že mapování bude přeskočeno, pokud je pole prázdné. **Poznámka:** Pokud toto políčko nezaškrtnete, dojde k chybě při exportu, pokud bude pole prázdné. **Poznámka:** Toto pole je relevantní pouze pro export. |
+   | **ID cílové tabulky** | Viditelné pouze tehdy, když je zaškrtnuto políčko **Použít jako převodní tabulku**. <br /><br /> Určuje tabulku, z níž bude mapována hodnota v poli **Titulek sloupce**, když pro import dat používáte přechodnou tabulku. |
+   | **Titulek cílové tabulky** | Viditelné pouze v případě, že je zaškrtnuto políčko **Použít jako převodní tabulku**. <br /><br /> Určete název tabulky na poli **ID cílové tabulky**, což je tabulka, na kterou je mapována hodnota na poli **Titulek sloupce**, pokud používáte převodní tabulku pro import dat. |
+   | **ID cílového pole** | Viditelné, pouze pokud je zaškrtnuto políčko **Použít jako převodní tabulku**.<br /><br /> Zadejte pole v cílové tabulce, na které je mapována hodnota v poli **Titulek sloupce**, pokud pro import dat používáte přechodnou tabulku. |
+   | **Titulek cílového pole** | Viditelné, pouze pokud je zaškrtnuto políčko **Použít jako převodní tabulku**. <br /><br />Zadejte název pole v cílové tabulce, na které je mapována hodnota v poli **Titulek sloupce**, pokud pro import dat používáte přechodnou tabulku. |
+   | **Volitelné** | Viditelné pouze tehdy, když je zaškrtnuto políčko **Použít jako přechodnou tabulku**. <br /><br /> Určete, zda má být mapování přeskočeno, pokud je pole prázdné. Pokud toto políčko nezaškrtnete, dojde k chybě při exportu, pokud bude pole prázdné. |
 
-The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md), [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md), and [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
+Definice výměny dat je nyní připravena k povolení pro uživatele. Pro více informací navštivte [Nastavení odesílání a přijímání elektronického dokladu](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Nastavení převodu SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Nastavení SEPA – příkaz k inkasu](finance-how-to-set-up-sepa-direct-debit.md), a [Provádění plateb pomocí služby převodu bankovních dat nebo převodem na SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
-When you have created the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that can be used to quickly enable import of the data file in question. This is described in the following procedure.
+Pokud jste vytvořili definici výměny dat pro konkrétní datový soubor, můžete exportovat definici výměny dat jako soubor XML, který lze použít k rychlému povolení importu daného datového souboru. To je popsáno v následujícím postupu.
 
-### To export a data exchange definition as an XML file for use by others
-1. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.
-2. Select the data exchange definition that you want to export.
-3. Choose the **Export Data Exchange Definition** action.
-4. Save the XML file that represents the data exchange definition in an appropriate location.
+### Export definice výměny dat jako souboru XML pro použití jinými uživateli
+1. Do pole **Hledat**, zadejte **Definice výměny dat** a poté vyberte související odkaz.
+2. Vyberte definici výměny dat, kterou chcete exportovat.
+3. Vyberte akci **Export definice výměny dat**.
+4. Uložte soubor XML, který představuje definici výměny dat, do příslušného umístění.
 
-   If a data exchange definition has already been created, you just have to import the XML file into the Data Exchange Framework. This is described in the following procedure.
+   Pokud již byla vytvořena definice pro výměnu dat, stačí importovat soubor XML do rámce výměny dat. To je popsáno v následujícím postupu.
 
-### To import an existing data exchange definition
-1. Save the XML file that represents the data exchange definition in an appropriate location.
-2. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.
-3. Choose the **New** action. The **Data Exchange Definitio** page opens.
-4. Choose the **Import Data Exchange Definition** action.
-5. Choose the file that you saved in step 1.
+### Chcete-li importovat existující definici výměny dat
+1. Uložte soubor XML, který představuje definici výměny dat, do příslušného umístění.
+2. Do pole **Hledat**, zadejte **Definice výměny dat** a poté vyberte související odkaz.
+3. Zvolte akci **Nový**. Otevře se stránka **Definice výměny dat**.
+4. Vyberte akci **Import definice výměny dat**.
+5. Vyberte soubor, který jste uložili v kroku 1.
 
 ## Viz také
-[Setting Up Data Exchange](across-set-up-data-exchange.md)
-[Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-[Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)
-[Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
-[Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
-[Incoming Documents](across-income-documents.md)
-[General Business Functionality](ui-across-business-areas.md)
+[Nastavení výměny dat](across-set-up-data-exchange.md)  
+[Nastavení odesílání a přijímání elektronického dokladu](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Nastavení převodu SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Nastavení SEPA – příkaz k inkasu](finance-how-to-set-up-sepa-direct-debit.md)  
+[Provádění plateb pomocí služby převodu bankovních dat nebo převodem na SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Došlé doklady](across-income-documents.md)  
+[Obecné obchodní funkcionality](ui-across-business-areas.md)

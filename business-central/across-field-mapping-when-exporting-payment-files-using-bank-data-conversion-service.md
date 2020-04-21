@@ -64,7 +64,7 @@ Následující tabulka obsahuje pole v [!INCLUDE[d365fin](includes/d365fin_md.md
 | Název banky odesílatele - konv. dat | Název banky – konver. dat | Bankovní účet | Název bankovního účtu odesílatele, který je požadován rozšířením AMC Banking 365 Fundamentals a je uveden na kartě bankovního účtu |
 
 ## Viz také
-[Nastavení výměny dat](across-set-up-data-exchange.md)
-[Elektronická výměna dat](across-data-exchange.md)
-[Používání rozšíření AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+[Nastavení výměny dat](across-set-up-data-exchange.md)  
+[Elektronická výměna dat](across-data-exchange.md)  
+[Používání rozšíření AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Provádění plateb pomocí služby převodu bankovních dat nebo převodem na SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)

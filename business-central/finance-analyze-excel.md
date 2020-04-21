@@ -47,3 +47,4 @@ S doplňkem můžete získat nová data z [!INCLUDE[d365fin](includes/d365fin_md
 [Nastavení financí](finance-setup-finance.md)  
 [Hlavní kniha a účtová osnova](finance-general-ledger.md)  
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+

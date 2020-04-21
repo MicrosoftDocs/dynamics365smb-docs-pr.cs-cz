@@ -13,145 +13,145 @@
     ms.author: sgroespe
 
 ---
-# Collect Payments with SEPA Direct Debit
-With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.
+# Sběr plateb pomocí SEPA – příkaz k inkasu
+Se souhlasem zákazníka můžete vybírat platby přímo z bankovního účtu zákazníka podle formátu SEPA.
 
-First, set up the export format of the bank file that instructs your bank to perform a direct debit. Then, set up the customer’s payment method. Last, set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.
+Nejprve nastavte formát exportu bankovního souboru, který dá bance pokyn k provedení inkasa. Poté nastavte způsob platby zákazníka. Nakonec nastavte zmocnění k přímému debetu, který odráží váš souhlas se zákazníkem vybírat platby v určitém období trvání smlouvy.
 
-To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection entry, which holds information about bank accounts, the affected sales invoices, and the direct-debit mandate. You then export an XML file that is based on the collection entry, which you send to your bank for processing. Any payments that could not be processed will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.
+Chcete-li dát pokyn bance, aby převedla částku platby z bankovního účtu zákazníka na účet vaší společnosti, vytvořte Položku přímého inkasa, která obsahuje informace o bankovních účtech, ovlivněných prodejních fakturách a mandátu k inkasu. Potom exportujte soubor XML, který je založen na položce inkasa, kterou odešlete bance ke zpracování. Všechny platby, které nemohly být zpracovány, vám sdělí vaše banka a musíte poté ručně odmítnout Položky přímého inkasa
 
-You can set up standard customer sales codes with the direct-debit payment method and mandate information. You can then use the **Create Standard Cust. Invoices** batch job to generate multiple sales invoices with the direct-debit information prefilled. This is can be done manually or automatically, according to the payment due date.
+Můžete nastavit Kódy std.prodeje zákazníka pomocí způsobu platby inkasem a informací o pověření. Potom můžete použít dávkovou úlohu **Vytvořit standardní faktury odběratele** pro generování několika prodejních faktur s předvyplněnými informacemi o přímém debetu. To lze provést ručně nebo automaticky podle data splatnosti platby.
 
-When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** page or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** page. Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation.
+Pokud jsou platby úspěšně zpracovány, jak je sdělí vaše banka, můžete účtovat přijaté platby buď přímo ze stránky **Položky přímého inkasa** nebo přesunutím platebních řádků do deníku, kde zaúčtujete potvrzení o platbě, například na stránku **Deník přijaté hotovosti**. Případně, v závislosti na procesu řízení hotovosti, můžete počkat a použít platby jako součást odsouhlasení banky.
 
 > [!NOTE]
-> To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.
+> Pro inkaso plateb pomocí příkaz k inkasu SEPA, musí být měna na prodejní faktuře EURO.
 
-## Setting Up SEPA Direct Debit
-From the **Direct Debit Collections** page, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format, but in your country/region,other formats for electronic payments may be available.
+## Nastavení SEPA – příkaz k inkasu
+Ze stránky **Přímá inkasa** můžete exportovat pokyny do své elektronické banky a provést inkaso z účtu zákazníka na váš bankovní účet. [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje formát inkasa SEPA, ale ve vaší zemi/oblasti mohou být k dispozici jiné formáty pro elektronické platby.
 
-To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
+Chcete-li povolit export formátů bankovních souborů, které nejsou v [!INCLUDE[d365fin](includes/d365fin_md.md)] předdefinované, můžete nastavit definici výměny dat pomocí rámce pro výměnu dat. Více informací viz [Nastavení definic výměny dat](across-how-to-set-up-data-exchange-definitions.md).
 
-Before you can process customer payments electronically by exporting direct debit instructions in the SEPA Direct Debit format, you must perform the following setup steps:
+Před zpracováním plateb odběratele elektronicky exportem inkasa ve formátu přímého debetu SEPA je nutné provést následující kroky nastavení:
 
-* Set up the export format of the bank file that instructs your bank to perform a direct debit collection from the customer’s bank account to your bank account.
-* Set up the customer’s payment method.
-* Set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.
+* Nastavte formát exportu bankovního souboru, který vaší bance dá pokyn k provedení inkasní inkasy z bankovního účtu zákazníka na bankovní účet.
+* Nastavte způsob platby zákazníka.
+* Nastavte zmocnění k přímému debetu, který odráží váš souhlas se zákazníkem získávat jejich platby v určité době trvání smlouvy.
 
-### To set up your bank account for SEPA direct debit
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
-2. Open the bank account that you want to use for direct debit.
-3. On the **Transfer** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.
+### Nastavení bankovního účtu pro inkaso SEPA
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Bankovní účty** a poté vyberte související odkaz.
+2. Otevřete bankovní účet, který chcete použít pro inkaso.
+3. Na záložce **Převod** v poli **Formát exportu přímého inkasa SEPA**, vyberte možnost inkasa SEPA.
 
-### To set up the customer’s payment method for SEPA direct debit
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
-2. Choose the **New** action.
-3. Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.
+### Nastavení způsobu platby zákazníka pro inkaso SEPA
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Způsoby platby** a poté vyberte související odkaz.
+2. Zvolte akci **Nový**.
+3. Nastavte způsob platby. Vyplňte pole pro inkaso, nebo specifická, jak je popsáno v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **Direct Debit** | Specify if the payment method is for SEPA direct debit collection. |
-   | **Direct Debit Pmt. Terms Code** | Specify the payment terms, such as DON’T PAY, that are displayed on sales invoices that are paid with SEPA direct debit to indicate to the customer that the payment will be collected automatically. Alternatively, leave the field empty. |
+   | **Přímý debet** | Určete, zda je způsob platby Přímé inkaso SEPA. |
+   | **Kód podmínek  přímého inkasa** | Určete platební podmínky, jako například NEPLATIT, které se zobrazují na prodejních fakturách placených inkasem SEPA, což zákazníkovi oznamuje, že platba bude inkasována automaticky. Případně pole nechte prázdné. |
 
    > [!NOTE]
-   > Do not enter a value in the **Bal. Account No.** field.
+   > Nezadávejte hodnotu do pole **Číslo protiúčtu**.
 
-4. Choose the **OK** button to close the **Payment Methods** page.
-5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-6. Open the customer card for the customer that you want to set up for SEPA direct debit collection.
-7. Choose the **Payment Method Code** field, and then select the payment method code that you specified in step 3.
-8. Repeat steps 6 and 7 for all customers that you want to set up for SEPA direct debit collection.
+4. Zvolte tlačítko **OK**, chcete-li zavřít stránku **Způsoby platby**.
+5. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zákazníci** a poté vyberte související odkaz.
+6. Otevřete zákaznickou kartu zákazníka, kterého chcete nastavit pro příkaz k inkasu SEPA.
+7. Vyberte pole **Kód způsobu platby**, a poté vyberte kód platební metody, který jste zadali v kroku číslo 3.
+8. Opakujte kroky 6 a 7 pro všechny zákazníky, které chcete nastavit pro příkaz k inkasu SEPA.
 
-#### To set up the direct-debit mandate that represents the customer agreement
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-2. Open the card for the customer that you want to set up for SEPA direct debits.
-3. Choose the **Bank Accounts** action.
-4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then choose the **Direct Debit Mandates** action.
-5. On the **SEPA Direct Debit Mandates** page, fill in the fields as described in the following table.
+#### Chcete-li nastavit mandát k přímému inkasu, který představuje smlouvu se zákazníkem
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zákazníci** a poté vyberte související odkaz.
+2. Otevřete kartu pro zákazníka, kterého chcete nastavit pro příkaz k inkasu SEPA.
+3. Zvolte akci **Bankovní účty**.
+4. Na stránce **Přehled bank.účtů zákazníka** odběratele vyberte bankovní účet odběratele, který bude používat inkasa, a pak zvolte **Zmocnění k přímému debetu**.
+5. Na stránce **Zmocnění k přímému debetu** vyplňte pole, jak je popsáno v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **Customer Bank Account Code** | Specifies the bank account from which direct\-debit payments are collected. This field is filled automatically. |
-   | **Valid From** | Specify the date when the direct\-debit mandate starts. |
-   | **Valid To** | Specify the date when the direct\-debit mandate ends. |
-   | **Date of Signature** | Specify the date when the customer signed the direct\-debit mandate. |
-   | **Sequence Type** | Specify if the agreement covers multiple (**Recurring**) or a single (**One Off**) direct debit collection. |
-   | **Expected Number of Debits** | Specify how many direct debit collections you expect to make. This field is only relevant if you selected **Recurring** in the **Sequence Type** field. |
-   | **Debit Counter** | Specifies how many direct debit collections have been made using this direct\-debit mandate. This field is automatically updated. |
-   | **Blocked** | Specify that direct debit collections cannot be made using this direct\-debit mandate. |
+   | **Kód bankovního účtu zákazníka** | Určuje bankovní účet, ze kterého se platí přímým\inkasem. Toto pole je vyplněno automaticky. |
+   | **Platné od** | Zadejte datum zahájení Zmocnění k přímému debetu. |
+   | **Platné do** | Určete datum, ukončení zmocnění k přímému debetu. |
+   | **Datum podpisu** | Zadejte datum, kdy zákazník schválil zmocnění k přímému debetu. |
+   | **Typ sekvence** | Určete, zda se smlouva vztahuje na několik (**Periodický**) nebo jednu (**Jednorázové**) přímé inkaso. |
+   | **Očekávaný počet inkas** | Určete, kolik přímých inkas očekáváte, že provedete. Toto pole je relevantní pouze v případě, že jste v poli **Typ sekvence** vybrali  **Periodický**. |
+   | **Počet inkas** | Určuje, kolik přímých inkas bylo provedeno pomocí tohoto zmocnění k přímému debetu. Toto pole je automaticky aktualizováno. |
+   | **Blokováno** | Určete, že přímé inkasa nelze provést pomocí tohoto zmocnění k přímému debetu. |
 
-6. Repeat steps 1 through 5 for all customers that you want to set up for SEPA direct debits.
+6. Opakujte kroky 1 až 5 pro všechny zákazníky, které chcete nastavit pro přímé inkasa SEPA.
 
-The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).
+Zmocnění k přímému debetu je automaticky vloženo do **ID zmocnění k přímému debetu** při vytváření prodejní faktury pro odběratele, kterého jste vybrali v kroku 2. Další informace naleznete v části [Vytvoření periodických nákupních a prodejních řádků](sales-how-work-standard-lines.md).
 
-## Creating SEPA Direct Debit Collection Entries and Export to a Bank File
-To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection, which holds information about the customer’s bank account, the affected sales invoices, and the direct-debit mandate. From the resulting direct-debit collection entry, you then export an XML file that you send or upload to your electronic bank for processing. Any payments that could not be processed by the bank will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.
+## Vytvoření záznamů přímého inkasa SEPA a export do bankovního souboru.
+Chcete-li dát pokyn bance, aby převedla částku platby z bankovního účtu zákazníka na účet vaší společnosti, vytvořte Přímé inkaso, která obsahuje informace o bance, ovlivněných prodejních fakturách a Zmocnění k přímému debetu. Z výsledné položky přímého inkasa pak exportujete soubor XML, který odešlete, nebo nahrajete do elektronického bankovnictví ke zpracování. Všechny platby, které nemohly být bankou zpracovány, vám sdělí vaše banka a poté musíte ručně odmítnout Položky přímého inkasa.
 
 > [!NOTE]
-> To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.
+> Pro inkaso plateb pomocí příkaz k inkasu SEPA, musí být měna na prodejní faktuře EURO.
 
-### To create a direct-debit collection
+### Chcete-li vytvořit přímé inkaso
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.
-2. On the **Direct Debit Collections** page, choose the **Create Direct Debit Collection** action.
-3. On the **Create Direct Debit Collection** page, fill in the fields as described in the following table.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Přímá inkasa** a poté vyberte související odkaz.
+2. Na stránce **Přímá inkasa** vyberte akci **Vytvořit přímé inkaso**.
+3. Na stránce **Vytvořit přímé inkaso**, vyplňte pole podle popisu v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **From Due Date** | Specify the earliest payment due date on sales invoices that you want to create a direct-debit collection for. |
-   | **To Due Date** | Specify the latest payment due date on sales invoices that you want to create a direct-debit collection for. |
-   | **Partner Type** | Specify if the direct-debit collection is made for customers of type **Company** or **Person**. |
-   | **Only Customers With Valid Mandate** | Specify if a direct-debit collection is created for customers who have a valid direct-debit mandate. **Note:**  A direct-debit collection is created even if the **Direct Debit Mandate ID** field is not filled on the sales invoice. |
-   | **Only Invoices With Valid Mandate** | Specify if a direct-debit collection is only created for sales invoices if a valid direct-debit mandate is selected in the **Direct Debit Mandate ID** field on the sales invoice. |
-   | **Bank Account No.** | Specify which of your company’s bank accounts the collected payment will be transferred to from the customer’s bank account. |
-   | **Bank Account Name** | Specifies the name of the bank account that you select in the **Bank Account No.** field. This field is filled automatically. |
+   | **Od data splatnosti** | Určuje nejdřívější datum splatnosti platby na prodejních fakturách, pro které chcete vytvořit přímé inkaso. |
+   | **Do data splatnosti** | Určuje nejnovější data splatnosti na prodejních fakturách, pro které chcete vytvořit přímé inkaso. |
+   | **Typ partnera** | Určete, zda je přímé inkaso vytvořeno pro zákazníky typu **Společnost** nebo **Osoba**. |
+   | **Pouze zákazníci s platným povolením** | Určete, zda je pro zákazníky, kteří mají platné zmocnění k přímému debitu, vytvořeno přímé inkaso. **Note:** Přímé inkaso je vytvořeno i v případě, že **ID zmocnění k přímému debetu** není vyplněno na prodejní faktuře. |
+   | **Pouze faktury s platným povolením** | Určuje, jestli přímé inkaso je vytvořeno pouze pro prodejní faktury, pokud je vybrán platný mandát přímého inkasa v poli  **ID mandátu přímého inkasa** na prodejní faktuře. |
+   | **Číslo bankovního účtu** | Určuje, na který z vašich bankovních účtů společnosti budou inkasované platby převedeny z bankovního účtu zákazníka. |
+   | **Název bankovního účtu** | Určuje název bankovního účtu, který jste vybrali v poli **Číslo bankovního účtu**. Toto pole je vyplněno automaticky. |
 
-4. Choose the **OK** button.
+4. Zvolte tlačítko **OK**.
 
-   A direct-debit collection is added to the **Direct Debit Collections** page, and one or more direct-debit collection entries are created.
+   Přímé inkaso je přidáno na stránku **Přímé inkaso**, a vytvoří se jedna nebo více položek přímého inkasa.
 
-### To export a direct-debit collection entry to a bank file
-1. On the **Direct Debit Collections** page, choose the **Direct Debit Collect. Entries** action.
-2. On the **Direct Debit Collect. Entries** page, select the entry that you want to export, and then choose the **Create Direct Debit File** action.
-3. Save the export file to the location from where you send or upload it to your electronic bank.
+### Pro export položky přímého inkasa do bankovního souboru
+1. Na stránce **Přímé inkaso**, vyberte akci **Položky přímého  inkasa**.
+2. Na stránce **Položky přímého inkasa** vyberte položku, kterou chcete exportovat, a poté vyberte akci **Vytvořit soubor přímého inkasa**.
+3. Uložte exportovaný soubor na místo, odkud jej odešlete nebo nahrajete do svého elektronického bankovnictví.
 
-   On the **Direct Debit Collect. Entries** page, the **Direct Debit Collection Status** field is changed to File Created. On the **SEPA Direct Debit Mandates** page, the **Debit Counter** field is updated with one count.
+   Na stránce **Položky přímého inkasa** je změněno pole **Stav přímého inkasa** na soubor vytvořen. Na stránce **SEPA povolení přímého inkasa** je pole **Počet inkas** zvětšeno o jedna.
 
-If the exported file cannot be processed, for example because the customer is insolvent, you can reject the direct-debit collection entry. If the exported file is successfully processed by the bank, the due payments of the involved sales invoices are automatically collected from the involved customers. In that case you can close the collection.
+Pokud exportovaný soubor nelze zpracovat, například z důvodu platební neschopnosti zákazníka, můžete položku přímého inkasa odmítnout. Pokud je exportovaný soubor úspěšně zpracován bankou, jsou splatné platby zahrnutých prodejních faktur automaticky vybírány od vybraných zákazníků. V takovém případě můžete sbírku uzavřít.
 
-### To reject a direct-debit collection entry
+### Odmítnutí položky přímého inkasa
 
-* On the **Direct Debit Collect. Entries** page, select the entry that was not successfully processed, and then choose the **Reject Entry** action.
+* Na stránce **Položky přímého inkasa**, vyberte položku, která nebyla úspěšně zpracována, a poté vyberte akci **Odmítnout položku**.
 
-   The value in the **Status** field on the **Direct Debit Collect. Entries** page is changed to **Rejected**.
+   Hodnota v poli **Stav** na stránce **Položky přímého  inkasa** je změněno na **Odmítnuto**.
 
-### To close a direct-debit collection
-* On the **Direct Debit Collect. Entries** page, select the entry that was successfully processed, and then choose the **Close Collection** action.
+### Zavření přímého inkasa
+* Na stránce **Položky přímého inkasa** vyberte položku, která byla úspěšně zpracována, a pak zvolte akci **Zavřít inkaso**.
 
-   The related direct-debit collection is closed.
+   Související přímé inkaso je uzavřeno.
 
-You can now proceed to post receipts of payment for the involved sales invoices. You can do this as you typically post payment receipts, such as on the **Payment Registration** page, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** page. For more information, see [Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
+Nyní můžete přistoupit k zaúčtování potvrzení o platbě za zahrnuté prodejní faktury. Toto můžete provést tak, jak obvykle zaúčtujete potvrzení o platbě, například na stránce **Platební registrace**, nebo můžete související potvrzení o platbě zaúčtovat přímo ze stránky **Položky přímého  inkasa** Více informací viz [Účtování přijaté platby SEPA – příkaz k inkasu](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
 
-## Posting SEPA Direct Debit Payment Receipts
-When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).
+## Účtování přijaté platby SEPA – příkaz k inkasu
+Pokud banka úspěšně zpracuje přímé inkaso, můžete přistoupit k zaúčtování přijetí platby za zúčastněné prodejní faktury. Více informací viz [Vytvoření přímého inkasa SEPA a jeho exportace do bankovního souboru](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).
 
-You can post the payment receipt directly from the **Direct Debit Collections** page or the **Direct Debit Collect. Entries** page. Alternatively, you can relay the work to another user by preparing the related journal lines.
+Přijetí platby můžete přímo ze stránky **Přímá inkasa**, nebo ze stránky **Položky přímého inkasa** Případně můžete předat práci jinému uživateli přípravou souvisejících řádků deníku.
 
-### To post a direct-debit payment receipt from the Direct Debit Collections page
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.
-2. Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank.
-3. Choose the **Post Payment Receipts** action.
-4. On the **Post Direct Debit Collection** page, fill in the fields as described in the following table.
+### Chcete-li zaúčtovat potvrzení o inkasu ze stránky Přímé inkaso.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Přímá inkasa** a poté vyberte související odkaz.
+2. Vyberte řádek pro inkasní kolekci, která byla exportována do bankovního souboru a úspěšně zpracována bankou.
+3. Zvolte akci **Účtovat přijaté platby**.
+4. Na stránce **Zaúčtovat přímé inkaso** vyplňte pole podle popisu v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **Direct Debit Collection No.** | Specify the direct debit collection that you want to post payment receipt for. |
-   | **General Journal Template** | Specify which general journal template to use for posting the payment receipt, such as the template for cash receipts. |
-   | **General Journal Batch Name** | Specify which general journal batch to use for posting the payment receipt. |
-   | **Create Journal Only** | Select this check box if you do not want to post the payment receipt when you choose the **OK** button. The payment receipt will be prepared in the specified journal and will not be posted until someone posts the journal lines in question. |
+   | **Číslo přímého inkasa** | Určuje přímé inkaso, pro které chcete zaúčtovat příjem platby. |
+   | **Šablona hlavního deníku** | Určuje, která šablona hlavního deníku se použije k účtování přijetí platby, jako je například šablona pro příjmy v hotovosti. |
+   | **Název listu finančního deníku** | Určuje, který list finančního deníku použít pro účtování přijetí platby. |
+   | **Pouze vytvořit deník** | Určuje, zda chcete zúčtovat příjemku platby, když zvolíte tlačítko **OK**. Příjemka platby bude připravena ve definovaném deníku a nebude zúčtována, dokud někdo nezúčtuje řádky deníku. |
 
-5. Choose the **OK** button.
+5. Zvolte tlačítko **OK**.
 
 ## Viz také
-[Managing Receivables](receivables-manage-receivables.md)
-[Service Management](service-service.md)
+[Správa pohledávek](receivables-manage-receivables.md)  
+[Správa servisu](service-service.md)

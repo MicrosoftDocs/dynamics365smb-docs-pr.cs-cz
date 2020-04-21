@@ -13,126 +13,126 @@
     ms.author: sgroespe
 
 ---
-# Set Up Electronic Document Sending and Receiving
-Jako alternativu k odesílání obchodních dokladů v přílohách e-mailů můžete obchodní dokumenty zasílat a přijímat elektronicky. By electronic document is meant a standard\-compliant file representing a business document, such as an invoice from a vendor that can be received and converted to a purchase invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Výměnu elektronických dokladů mezi dvěma obchodními partnery provádí externí poskytovatel služeb pro výměnu dokladů. The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. Hlavní poskytovatel služeb pro výměnu dokladů je předem nakonfigurován a připraven k nastavení ve vaší společnosti.
+# Nastavení odesílání a přijímání elektronického dokladu
+Jako alternativu k odesílání obchodních dokladů v přílohách e-mailů můžete obchodní dokumenty zasílat a přijímat elektronicky. Elektronickým dokladem se rozumí soubor vyhovující standardu představující obchodní doklad, jako například faktura od dodavatele, která může být obdržena a převedena na nákupní fakturu v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Výměnu elektronických dokladů mezi dvěma obchodními partnery provádí externí poskytovatel služeb pro výměnu dokladů. Obecná verze [!INCLUDE[d365fin](includes/d365fin_md.md)] podporuje odesílání a přijímání elektronických faktur a dobropisů ve formátu PEPPOL, který je podporován největšími poskytovateli služeb pro výměnu dokladů. Hlavní poskytovatel služeb pro výměnu dokladů je předem nakonfigurován a připraven k nastavení ve vaší společnosti.
 
-Z PDF nebo souborů s obrázky reprezentujících příchozí doklady můžeme nechat externí službu OCR (Optical Character Recognition - Optické rozpoznávání znaků) vytvořit elektronické doklady, které pak můžeme převést na došlé doklady v [!INCLUDE[d365fin](includes/d365fin_md.md)], stejně jako elektronické došlé doklady formátu PEPPOL. Pokud například od svého dodavatele obdržíte fakturu ve formátu PDF, můžete ji odeslat službě OCR na stránce **Došlé doklady**. Po několika sekundách obdržíte soubor zpět jako elektronickou fakturu, kterou lze pro dodavatele převést na nákupní fakturu. Pokud soubor odešlete do služby OCR pomocí e-mailu, bude automaticky vytvořen nový záznam příchozího dokladu, v momentě, kdy obdržíte elektronický doklad zpět.
+Z PDF nebo souborů s obrázky reprezentujících příchozí doklady můžeme nechat externí službu OCR (Optical Character Recognition - Optické rozpoznávání znaků) vytvořit elektronické doklady, které pak můžeme převést na došlé doklady v [!INCLUDE[d365fin](includes/d365fin_md.md)], stejně jako elektronické došlé doklady formátu PEPPOL. Pokud například od dodavatele obdržíte fakturu ve formátu PDF, můžete ji odeslat do služby OCR ze stránky  **Došlé doklady**. Po několika sekundách obdržíte soubor zpět jako elektronickou fakturu, kterou lze pro dodavatele převést na nákupní fakturu. Pokud soubor odešlete do služby OCR pomocí e-mailu, bude automaticky vytvořen nový záznam příchozího dokladu, v momentě, kdy obdržíte elektronický doklad zpět.
 
-The **PEPPOL** electronic document format is preconfigured to enable you to send electronic invoices and credit memos in the PEPPOL format. Nejprve je nutné nastavit různá hlavní data, například informace o společnosti, zákazníky, zboží a měrné jednotky.  These are used to identify the business partners and items when converting data in fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] to elements in the outgoing document file. Last, you must select the format on the **Electronic Document Format** page for each customer who you will send electronic PEPPOL documents to. For more information, see [Send Electronic Documents](sales-how-to-send-electronic-documents.md).
+Formát elektronického dokumentu **PEPPOL** je předkonfigurován tak, aby vám umožnil odesílat elektronické faktury a dobropisy ve formátu PEPPOL. Nejprve je nutné nastavit různá hlavní data, například informace o společnosti, zákazníky, zboží a měrné jednotky.  Používají se k identifikaci obchodních partnerů a zboží, při převádění dat v polích v [!INCLUDE[d365fin](includes/d365fin_md.md)] na prvky v odchozích dokladech. Nakonec musíte vybrat formát na stránce **Formát elektronických dokumentů** pro každého zákazníka, kterému pošlete elektronické dokumenty PEPPOL. Pro více informací navštivte [Odeslání elektronických dokladů](sales-how-to-send-electronic-documents.md).
 
-The **PEPPOL – Invoice** and **PEPPOL – Credit Memo** data exchange definitions are preconfigured to enable you to receive electronic invoices and credit memos in the PEPPOL format. Nejprve je nutné nastavit různá hlavní data, například informace o společnosti, dodavatele, zboží a měrné jednotky. These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Last, you must select the data exchange definition on the **Incoming Documents** page for each incoming electronic document that you want to convert to a purchase document in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Definice výměny dat **PEPPOL – Faktura** a **PEPPOL – Dobropisy** jsou předkonfigurovány, aby vám umožnily přijímat elektronické faktury a dobropisy ve formátu PEPPOL. Nejprve je nutné nastavit různá hlavní data, například informace o společnosti, dodavatele, zboží a měrné jednotky. Tyto položky slouží k identifikaci obchodních partnerů a zboží při převádění dat v prvcích příchozích dokumentů do polí v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nakonec musíte vybrat definici výměny dat na stránce **Došlé doklady** pro každý došlý elektronický doklad, který chcete převést na nákupní doklad v [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-The **OCR – Invoice** data exchange definition is preconfigured to enable you to receive electronic documents that are generated by the OCR service. To receive, for example, an invoice as an electronic OCR document, you set up master date and then process the document just as when receiving an electronic PEPPOL document. For more information, see [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).
+Definice výměny dat **OCR – faktura** je předkonfigurována tak, aby umožňovala přijímat elektronické doklady, které jsou generovány službou OCR. Chcete-li například obdržet fakturu jako elektronický doklad OCR, nastavíte hlavní data a potom dokument zpracujete stejně, jako při příjmu elektronického dokumentu PEPPOL. Pro více informací navštivte [Použití funkce OCR k převedení souborů PDF a obrázkových souborů do elektronických dokumentů](across-how-use-ocr-pdf-images-files.md).
 
-The preconfigured services for document exchange and OCR must be enabled before you send or receive. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).
+Předkonfigurované služby pro výměnu dokumentů a OCR musí být před odesláním nebo přijetím povoleny. Pro více informací navštivte [Nastavení služby směnných kurzů](across-how-to-set-up-a-document-exchange-service.md).
 
-The topic contains the following procedures:
+Téma obsahuje následující postupy:
 
-* To set up the company for electronic document sending and receiving
-* To set up VAT posting for electronic document sending and receiving
-* To set up countries/regions for electronic document sending and receiving
-* To set up items for electronic document sending and receiving
-* To set up units of measure for electronic document sending and receiving
-* To set up customers for electronic document sending
-* To select the **PEPPOL** electronic document format for electronic document sending
-* To set up vendors for electronic document receiving
-* To select the **PEPPOL – Invoice** data exchange definition for electronic document receiving
-* To set up the G/L account to use on new purchase invoice lines for non\-identifiable items and non\-items
+* Nastavení společnosti pro odesílání a přijímání elektronických dokladů
+* Nastavení účtování DPH pro odesílání a přijímání elektronických dokladů
+* Nastavení zemí/oblastí pro odesílání a přijímání elektronických dokladů
+* Nastavení položek pro odesílání a přijímání elektronických dokladů
+* Nastavení měrných jednotek pro odesílání a přijímání elektronických dokladů
+* Nastavení zákazníků pro odesílání elektronických dokladů
+* Výběr formátu elektronického dokladu **PEPPOL** pro elektronické odesílání dokladů
+* Nastavení dodavatelů pro příjem elektronických dokumentů
+* Výběr definice výměny dat **PEPPOL – Faktura** pro příjem elektronických dokladů 
+* Nastavení finančního účtu pro použití na nových řádcích nákupní faktury pro ne\existující a ne\identifikovatelné položky
 
-### To set up the company for electronic document sending and receiving
-1. In the **Search** box, enter **Company Information**, and then choose the related link.
-2. On the **General** FastTab, fill the fields as described in the following table.
+### Nastavení společnosti pro odesílání a přijímání elektronických dokladů
+1. V poli **Hledat**, zadejte **Informace o společnosti**, a pak zvolte související odkaz.
+2. Na záložce s náhledem **Obecné** vyplňte pole, podle popisu v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **GLN** | Identify your company.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **EndPointID** element under the **AccountingSupplierParty** node in the file. The number is based on the GS1 standard, which is compliant with ISO 6523. |
-   | **VAT Registration No.** | Specify your company’s VAT registration number. |
-   | **Responsibility Center** | If your company is set up with a responsibility center, make sure that the **Country/Region Code** field is filled. |
+   | **GLN** | Identifikujte svou společnost. <br /><br /> Například, při odesílání elektronických faktur ve formátu PEPPOL se hodnota v tomto poli používá k naplnění prvku **EndPointID** v souboru pod uzlem **AccountingSupplierParty**. Číslo je založeno na standardu GS1, který je kompatibilní s ISO 6523. |
+   | **DIČ** | Určete DIČ vaší společnosti. |
+   | **Centrum odpovědnosti** | Pokud je vaše společnost nastavena s centrem odpovědnosti, ujistěte se, že je vyplněno pole **Kód země/oblasti**. |
 
-### To set up VAT posting for electronic document sending and receiving
-1. In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.
-2. For each VAT posting setup line that you will use for electronic documents, fill the field as described in the following table.
+### Nastavení účtování DPH pro odesílání a přijímání elektronických dokladů
+1. Do pole **Hledat**, zadejte **Nastavení účtování DPH** a poté vyberte související odkaz.
+2. Pro každý řádek nastavení účtování DPH, který budete používat pro elektronické doklady, vyplňte pole popsané v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **Tax Category** | Specify the VAT category.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **TaxApplied** element under the **AccountingSupplierParty** node in the file. The number is based on the UNCL5305 standard. |
+   | **Kategorie daně** | Určuje kategorii DPH ve spojení<br /><br /> Například když posíláte elektronické faktury ve formátu PEPPOL, hodnota v tomto poli je použita k naplnění prvku **TaxApplied** v souboru pod uzlem **AccountingSupplierParty**. Číslo je založeno na standardu UNCL5305. |
 
-### To set up countries/regions for electronic document sending and receiving
-1. In the **Search** box, enter **Country/Regions**, and then choose the related link.
-2. For each country/region that you will exchange electronic documents with, fill the field as described in the following table.
+### Nastavení zemí/oblastí pro odesílání a přijímání elektronických dokladů
+1. V poli **Hledat**, zadejte **Země/oblasti**, a pak zvolte související odkaz.
+2. Pro zemi, nebo oblast, každého subjektu, se kterým budete vyměňovat elektronické dokumenty, vyplňte pole, jak je popsáno v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **VAT Scheme** | Identify the national body that issues the VAT registration number for the country\/region in connection with electronic document sending.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **SchemeID** attribute for the **EndPointID** element under both the **AccountingSupplierParty** node and the **AccountingCustomerParty** in the file.<br /><br /> The **VAT Scheme** field is only used if the **GLN** field on the **Company Information** page is not filled. **Note:**  The value in the **Code** field on the **Countries\/Regions** page must comply with ISO 3166\-1:Alpha2. |
+   | **Schéma DPH** | Identifikujte národní subjekt, který přiděluje DIČ pro zemi/oblast ve spojení s elektronickým odesíláním dokladů.<br /><br /> Například při odesílání elektronických faktur ve formátu PEPPOL, hodnota v tomto poli se používá k naplnění atributu **SchemeID** v souboru, pro prvek **EndPointID** pod uzly **AccountingSupplierParty** a **AccountingCustomerParty**. <br /><br /> Pole **Schéma DPH** se používá pouze v případě, kdy pole **GLN** není na stránce **Informace o společnosti** vyplněno. **Note:**  Hodnota v poli **Kód** na stránce **Země/oblasti** musí odpovídat ISO 3166\-1:Alpha2. |
 
-### To set up items for electronic document sending and receiving
-1. In the **Search** box, enter **Items**, and then choose the related link.
-2. For each item that you buy or sell on electronic documents, fill the field as described in the following table.
+### Nastavení položek pro odesílání a přijímání elektronických dokladů
+1. V poli **Hledat**, zadejte **Zboží**, a pak zvolte související odkaz.
+2. Pro každé zboží, které nakupujete a prodáváte na elektronických dokladech, vyplňte pole, jak je popsáno v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **GTIN** | Identifies the item in connection with electronic document sending and receiving. For the PEPPOL format, the field is used as follows:<br /><br /> If the **StandardItemIdentification\/ID** element has the **SchemeID** attribute set to **GTIN**, then the element is mapped to the **GTIN** field on the item card. |
+   | **Číslo GTIN** | Identifikuje zboží v propojení s odesíláním a přijímáním elektronického dokladu. Pro formát PEPPOL, je pole použito následujícím způsobem:<br /><br /> Pokud má prvek **StandardItemIdentification\/ID** atribut **SchemeID** nastaven na **GTIN**, tak je prvek namapován na pole **GTIN**, které se nachází na kartě zboží. |
 
-### To set up units of measure for electronic document sending and receiving
-1. In the **Search** box, enter **Units of Measure**, and then choose the related link.
-2. For each unit of measure that you will use for items on electronic documents, fill the field as described in the following table.
+### Nastavení měrných jednotek pro odesílání a přijímání elektronických dokladů
+1. V poli **Hledat**, zadejte **Měrné jednotky**, a pak zvolte související odkaz.
+2. Pro každou měrnou jednotku, kterou budete používat na elektronických dokladech, vyplňte pole, jak je popsáno v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **International Standard Code** | Specify the unit of measure code expressed according to the UNECERec20 standard in connection with sending of electronic documents.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **unitCode** attribute of the **InvoicedQuantity** element under the **InvoiceLine** node. **Note:**  If the **Unit of Measure** field on the sales line is empty, the UNECERe20 standard value for “Piece” \(H87\) is inserted by default. For more information and a list of valid unit of measure codes, see [Recommendation No. 20 \- Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf). |
+   | **Mezinárodní standardní kód** | Určuje kód měrné jednotky vyjádřený podle standartu UNECERec20 ve spojení s elektronickým odesíláním prodejních dokumentů. <br /><br />Například, při posílání prodejních dokumentů skrz servis PEPPOL, hodnota v tomto poli je použita k importování atributu **unitCode** v prvku **InvoicedQuantity** pod uzlem **InvoiceLine**. **Note:**  Je-li pole **Měrná jednotka** v prodejním řádku prázdné, je vložena výchozí standardní hodnota UNECERe20 za “Kus” \(H87\). Pro více informací a seznam platných kódů měrných jednotek navštivte sekci [Recommendation No. 20 \- Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf). |
 
-### To set up customers for electronic document sending
-1. In the **Search** box, enter **Customers**, and then choose the related link.
-2. For each customer who you will send electronic documents to, fill the fields as described in the following table.
+### Nastavení zákazníků pro odesílání elektronických dokladů
+1. V poli **Hledat**, zadejte **Zákazníci**, a pak zvolte související odkaz.
+2. Pro každého zákazníka, který vám bude zasílat elektronické dokumenty, vyplňte pole, jak je popsáno v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **GLN** | Identify the customer.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **EndPointID** element under the **AccountingCustomerParty** node in the file. The number is based on the GS1 standard, which is compliant with ISO 6523.<br /><br /> If the **GLN** field is blank, the value in the **VAT Registration No.** field is used. |
-   | **VAT Registration No.** | Specify the customer's VAT registration number. **Tip:**  Choose the DrillDown button to use the web service that verifies if the number exists in the country’s company register. |
-   | **Responsibility Center** | If the customer is set up with a responsibility center, make sure that the **Country/Region Code** field is filled. |
+   | **GLN** | Identifikuje zákazníka.<br /><br />Například když odešlete elektronické faktury ve formátu PEPPOL, hodnota v tomto poli se použije k naplnění prvku **EndPointID** pod uzlem **AccountingCustomerParty**. Číslo je založeno na standardu GS1, který je kompatibilní s ISO 6523.<br /><br /> Pokud je pole **GLN** prázdné, je použita hodnota v poli **DIČ**. |
+   | **DIČ** | Určuje DIČ zákazníka. **Tip:** Zvolte tlačítko Podrobnosti a použijte webovou službu, která ověří, zda číslo existuje v obchodním rejstříku v zemi. |
+   | **Centrum odpovědnosti** | Pokud je zákazník zřízen v centru odpovědnosti, ujistěte se, že je vyplněno pole **Kód země/oblasti**. |
 
-   You can set up each customer with a preferred method of sending business documents, so that you do not have to select a sending option every time that you send a document to the customer. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+   U každého zákazníka můžete nastavit upřednostňovanou metodu odesílání obchodních dokumentů, takže nemusíte při každém odeslání dokumentu zákazníkovi vybírat možnost odeslání. Pro více informací navštivte [Nastavení profilů odesílání dokladů](sales-how-setup-document-send-profiles.md).
 
-### To select the PEPPOL electronic document format for electronic document sending
-1. In the **Search** box, enter **Document Sending Profiles**, and then choose the related link.
-2. Open an existing document sending profile, or create a new one. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
-3. On the **Document Sending Profile** page, choose the **Electronic Format**, select the line for PEPPOL, and then choose **OK**.
-4. In the **Electronic Document** field, select **Yes (Through Document Exchange Service)**.
+### Výběr formátu elektronického dokladu PEPPOL pro elektronické odesílání dokladů.
+1. Do pole **Hledat**, zadejte **Profily odesílání dokladů** a poté vyberte související odkaz.
+2. Otevřete existující profil pro odesílání dokladů nebo vytvořte nový. Pro více informací navštivte [Nastavení profilů odesílání dokladů](sales-how-setup-document-send-profiles.md).
+3. Na stránce **Profil odesílání dokladů**, vyberte **Elektronický formát**, zvolte řádek pro PEPPOL, a poté zvolte **OK**.
+4. Na poli **Elektronický doklad** vyberte **Ano (Prostřednictvím služby výměny dokumentů)**.
 
    > [!NOTE]
-   > [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically detects if the document is an invoice or a credit memo and applies the PEPPOL format accordingly.
+   > [!INCLUDE[d365fin](includes/d365fin_md.md)] automaticky detekuje, zda je dokumentem faktura nebo dobropis a použije odpovídajícím způsobem formát PEPPOL.
 
-5. To make this document sending profile apply to all customers, select the **Default** check box on the **General** FastTab. To make it apply to specific customers only, fill the **Document Sending Profile** field on the customer cards in question. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+5. Chcete-li, aby se tento profil odesílání dokladů vztahoval na všechny zákazníky, zaškrtněte pole **Výchozí** na záložce **Obecné**. Chcete-li, aby se vztahovalo pouze na konkrétní zákazníky, vyplňte pole **Profil odesílání dokladů** na příslušných zákaznických kartách. Pro více informací navštivte [Nastavení profilů odesílání dokladů](sales-how-setup-document-send-profiles.md).
 
-   You can now send the electronic document containing the converted data. For more information, see [Send Electronic Documents](sales-how-to-send-electronic-documents.md).
+   Nyní můžete odeslat elektronický dokument obsahující převedená data. Pro více informací navštivte [Odeslání elektronických dokladů](sales-how-to-send-electronic-documents.md).
 
-### To set up vendors for electronic document receiving
-1. In the **Search** box, enter **Vendors**, and then choose the related link.
-2. For each vendor that you will receive electronic documents from, fill the fields as described in the following table.
+### Nastavení dodavatelů pro příjem elektronických dokumentů
+1. V poli **Hledat**, zadejte **Dodavatelé**, a pak zvolte související odkaz.
+2. Pro každého dodavatele, od kterého obdržíte elektronické doklady, vyplňte pole, jak je popsáno v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **GLN** | Identify the vendor.<br /><br /> For example, when you receive electronic invoices in the PEPPOL format, the value in this field is used to populate the **EndPointID** element under the **AccountingSupplierParty** node in the file. The number is based on the GS1 standard, which is compliant with ISO 6523.<br /><br /> If the **GLN** field is blank, the value in the **VAT Registration No.** field is used. |
-   | **VAT Registration No.** | Specify the vendor’s VAT registration number. **Tip:**  Choose the DrillDown button to use the web service that verifies if the number exists in the country’s company register. |
-   | **Responsibility Center** | If the vendor is set up with a responsibility center, make sure that the **Country/Region Code** field is filled. |
+   | **GLN** | Identifikujte dodavatele. <br /><br /> Například když odešlete elektronické faktury ve formátu PEPPOL, hodnota v tomto poli se použije k naplnění prvku **EndPointID** pod uzlem **AccountingSupplierParty**. Číslo je založeno na standardu GS1, který je kompatibilní s ISO 6523.<br /><br /> Pokud je pole **GLN** prázdné, je použita hodnota v poli **DIČ**. |
+   | **DIČ** | Určete DIČ dodavatele. **Tip:** Zvolte tlačítko Podrobnosti a použijte webovou službu, která ověří, zda číslo existuje v obchodním rejstříku v zemi. |
+   | **Centrum odpovědnosti** | Pokud je dodavatel zřízen v centru odpovědnosti, ujistěte se, že je vyplněno pole **Kód země/oblasti**. |
 
-### To select the PEPPOL - Invoice data exchange definition for electronic document receiving
-1. In the **Search** box, enter **Incoming Documents**, and then choose the related link.
-2. On the line for the electronic document that you want to receive and convert, choose the **Data Exchange Type** field, and then select **PEPPOLINVOICE**.
+### Výběr definice výměny dat PEPPOL – Faktura pro příjem elektronických dokladů 
+1. zadejte v poli **Hledat** **Došlé doklady**, a pak zvolte související odkaz.
+2. Na řádku elektronického dokladu, který chcete přijmout a převést, zvolte pole **Typy výměny dat** a poté vybrat **PEPPOLINVOICE**.
 
-   If the document to receive is a credit memo, select **PEPPOLCREDITMEMO**.
+   Pokud je dokument, který má být přijat, dobropisem, vyberte **PEPPOLCREDITMEMO**.
 
-   You can now receive the electronic document by starting the data conversion process on the **Incoming Documents** page. For more information, see [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md).
+   Nyní můžete přijmout elektronický dokument spuštěním procesu převodu dat na stránce **Došlé doklady**. Pro více informací navštivte [Příjem a převod elektronických dokladů](purchasing-how-to-receive-and-convert-electronic-documents.md).
 
-### To set up the G/L account to use on new purchase invoice lines for non-identifiable items and non-items
-1. In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.
-2. On the **Default Accounts** FastTab, fill the field as described in the following table.
+### Pro nastavení finančního účtu pro nové řádky nákupní faktury pro neidentifikovatelné a neidentifikovatelné zboží
+1. Do pole **Hledat**, zadejte **Nastavení nákupu a závazků** a poté vyberte související odkaz.
+2. Na záložce s náhledem **Výchozí účty** vyplňte pole, podle popisu v následující tabulce.
 
-   | Field | Popis |
+   | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **G/L Account for Non-Item Lines** | Specifies the G/L account that is automatically inserted on purchase lines that are created from electronic documents when the incoming document line does not contain an identifiable item. Any incoming document line that does not have a GTIN or the vendor’s item number will be converted to a purchase line of type **G/L Account**, and the **No.** field on the purchase line will contain the account that you select in the **G/L Account for Non-Item Lines** field.<br /><br /> If you leave the **G/L Account for Non-Item Lines** field blank, and the incoming document has lines without identifiable items, then the purchase document will not be created. An error message will instruct you to fill the **G/L Account for Non-Item Lines** field before you can complete the task. |
+   | **Finanční účet pro řádky neobsahující zboží** | Určuje finanční účet, který je automaticky vložen na nákupních řádcích, které jsou vytvořeny z elektronických dokladů, když řádek došlého dokladu neobsahuje identifikovatelné zboží. Řádek došlého dokladu, který nemá kód GTIN nebo číslo zboží dodavatele, bude převeden na nákupní řádek typu **Účet** a pole **Číslo** na nákupním řádku bude obsahovat účet, který jste vybrali v poli **Finanční účet pro řádky neobsahující zboží.**<br /><br /> Jestli necháte pole **Finanční účet pro řádky neobsahující zboží** prázdné a příchozí doklad obsahuje řádky bez identifikovatelných zboží, nebude nákupní doklad vytvořen. Chybová zpráva vás, předtím než dokončíte úlohu, vyzve k vyplnění pole **Finanční účet pro řádky neobsahující zboží**. |
 
 ## Viz také
-[Exchanging Data Electronically](across-data-exchange.md)
-[Invoice Sales](sales-how-invoice-sales.md)
-[Record Purchases](purchasing-how-record-purchases.md)
+[Elektronická výměna dat](across-data-exchange.md)  
+[Fakturace prodeje](sales-how-invoice-sales.md)  
+[Záznam nákupu](purchasing-how-record-purchases.md)
