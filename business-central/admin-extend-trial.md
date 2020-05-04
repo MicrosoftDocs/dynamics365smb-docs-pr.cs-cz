@@ -18,7 +18,7 @@
 # Potřebujete více času na rozhodnutí, zda se přihlásit k odběru?
 Je důležité učinit správné rozhodnutí při výběru obchodní aplikace, a víme, že,  prozkoumat všechny kouty v [!INCLUDE[d365fin](includes/d365fin_md.md)] může nějakou dobu trvat. Pokud potřebujete více času na dokončení vašeho zhodnocení, můžete zkušební dobu prodloužit sami o dalších 30 dní. Když se blíží datum vypršení platnosti zkušebnídoby, zobrazí se oznámení, které vás při přihlášení upozorní. Oznámení obsahuje odkaz na průvodce **Prodloužením zkušební doby** který můžete použít k prodloužení zkušební doby. Dalších 30 dní začíná okamžikem, kdy v průvodci zvolíte možnost  **Prodloužit zkušební období** in the guide.
 
-Prodloužení zkušební doby je však jednorázovou záležitostí. Nemůžete ji prodloužit dvakrát, alespoň ne sami. Pokud jste již tuto lhůtu prodloužili, váš partner společnosti Microsoft vám ji může prodloužit znovu. To je také jednorázová záležitost. Pokud ještě s partnerem nespolupracujete, přečtěte si informace [Jak najdu obchodního partnera?](across-faq.md#findpartner).
+Prodloužení zkušební doby je však jednorázovou záležitostí. Nemůžete ji prodloužit dvakrát, alespoň ne sami. Pokud jste již tuto lhůtu prodloužili, váš partner společnosti Microsoft vám ji může prodloužit znovu. To je také jednorázovou záležitostí. Pokud ještě s partnerem nespolupracujete, přečtěte si informace [Jak najdu obchodního partnera?](across-faq.md#findpartner).
 
 ## Pro prodloužení zkušební doby
 
