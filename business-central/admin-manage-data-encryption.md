@@ -16,7 +16,7 @@
 # Správa šifrování dat
 Data můžete šifrovat na serveru [!INCLUDE[d365fin](includes/d365fin_md.md)] generováním nových nebo importem existujících šifrovacích klíčů, které povolíte na instanci serveru [!INCLUDE[d365fin](includes/d365fin_md.md)], která se připojuje k databázi.
 
-Pro více informací navštivte [Šifrování dat v Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) v nápovědě Vývojářů a IT-Pro.
+Pro více informací navštivte [Šifrování dat v Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) v nápovědě pro vývojáře a IT-Pro.
 
 > [!Note]
 > Šifrování můžete zapnout nebo vypnout, pouze pokud používáte místní verzi [!INCLUDE[d365fin](includes/d365fin_md.md)]. Šifrování je u online verzí vždy zapnuto a nelze ho vypnout.

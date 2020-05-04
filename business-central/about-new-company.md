@@ -22,7 +22,7 @@ Pokud se rozhodnete přidat společnost do svého [!INCLUDE[d365fin](includes/d3
 Průvodce nastavením nabízí tři šablony:
 
 - **Vyhodnocení - vzorek dat**
-Tímto se vytvoří společnost, která je podobná demonstrační společnosti s ukázkovými daty a instalačními daty.
+Tím se vytvoří společnost, která je podobná demonstrační společnosti s ukázkovými daty a instalačními daty.
 - **Provozní sada - pouze nastavení dat**
 Tím se vytvoří společnost, která je podobná  **Mé společnosti** s daty nastavení, ale bez ukázkových dat.
 - **Úplné vyhodnocení - úplný vzorek dat**

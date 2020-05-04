@@ -38,7 +38,7 @@ Po nastavení protokolu změn, jeho aktivaci a změně dat můžete zobrazit a f
 
 Na některých stránkách v [!INCLUDE [prodshort](includes/prodshort.md)], můžete zobrazit protokol aktivity, který zobrazuje stav a případné chyby souborů, které exportujete nebo importujete do [!INCLUDE [prodshort](includes/prodshort.md)].
 
-Informace je zobrazena na stránce **Protokol aktivity**, podle kontextu, ze kterého je otevřena. Okno můžete například otevřít ze stránek **Nastavení služby výměny dokladů**, **Došlý doklad**, **Zaúčtovaná faktura servisu**, a **Účtovaný prodejní dobropis**. Můžete také vyprázdnit seznam záznamů v protokolu nebo pouze vymazat seznam položek starších než 7 dnů.
+Informace je zobrazena na stránce **Protokol aktivity**, podle kontextu, ze kterého je otevřena. Okno můžete například otevřít ze stránek **Nastavení služby výměny dokladů**, **Došlý doklad**, **Zaúčtovaná faktura servisu**, a **Účtovaný prodejní dobropis**. Můžete také vyprázdnit seznam záznamů v protokolu, nebo pouze vymazat seznam položek starších než 7 dnů.
 
 ## Viz také
 [Změna základního nastavení](ui-change-basic-settings.md)  

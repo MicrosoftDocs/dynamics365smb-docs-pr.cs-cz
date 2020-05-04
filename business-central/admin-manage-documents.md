@@ -23,7 +23,7 @@ Objednávky vratek jsou obvykle vymazány po jejich fakturaci. Když zaúčtujet
 
 Nákupní hromadné objednávky nejsou po zpracování a fakturaci všech souvisejících nákupních objednávek odstraněny. Hromadné objednávky můžete odstranit dávkovou úlohou **Odstranit fakturované hrom. nák. objednávky**.
 
-Fakturované servisní zakázky jsou obvykle po úplné fakturaci vymazány automaticky. Po zaúčtování faktury se vytvoří odpovídající položka na stránce **Zaúčtované faktury servisu**. Zaúčtovaný dokument lze zobrazit na stránce **Zaúčtované faktury servisu**.
+Fakturované servisní zakázky jsou obvykle po úplné fakturaci automaticky vymazány. Po zaúčtování faktury se vytvoří odpovídající položka na stránce **Zaúčtované faktury servisu**. Zaúčtovaný dokument lze zobrazit na stránce **Zaúčtované faktury servisu**.
 
 Servisní zakázky nejsou automaticky odstraněny, pokud však celkové množství na objednávce nebylo zaúčtováno ze samotné servisní zakázky, ale ze stránky **Faktura servisu**, pak budete muset odstranit fakturované objednávky, které nebyly odstraněny. To lze provést spuštěním dávkové úlohy **Odstranit fakturované servisní zakázky**.
 

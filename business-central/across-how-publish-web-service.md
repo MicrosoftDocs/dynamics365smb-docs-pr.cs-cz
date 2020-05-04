@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Publikování webových služeb
 
-Webové služby jsou lehký způsob, jak zpřístupnit funkce aplikace různým externím systémům a uživatelům. [!INCLUDE[d365fin](includes/d365fin_md.md)] obsahuje řadu objektů, které jsou ve výchozím nastavení vystaveny jako webové služby z důvodu integrace s jinými službami společnosti Microsoft, můžete ale také sami přidat další webové služby.
+Webové služby jsou snadný způsob, jak zpřístupnit funkce aplikace různým externím systémům a uživatelům. [!INCLUDE[d365fin](includes/d365fin_md.md)] obsahuje řadu objektů, které jsou ve výchozím nastavení vystaveny jako webové služby z důvodu integrace s jinými službami společnosti Microsoft, můžete ale také sami přidat další webové služby.
 
 Webovou službu můžete nastavit v klientu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Poté musíte webovou službu publikovat, aby byla přes síť dostupná. Uživatelé mohou webové služby najít nasměrováním prohlížeče na umístění serveru a vyžádáním seznamu dostupných služeb. Když publikujete webovou službu, je okamžitě k dispozici v síti pro ověřené uživatele. Všichni oprávnění uživatelé mají přístup k metadatům webových služeb, ale pouze uživatelé, kteří mají dostatečná oprávnění, mají přístup ke skutečným datům.
 

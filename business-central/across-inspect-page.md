@@ -13,7 +13,7 @@ ms.date: 10/01/2019
 
 # Prohlížení stránek v Business Central
 
-Funkce prohlížení stránky umožňuje získat podrobnosti o stránce a poskytnout tak přehled o návrhu stránky, různých prvcích, které stránku tvoří, a zdroji na pozadí zobrazených dat. Funkce prohlížení stránky je speciálně navržena pro administrátory, uživatele napájení, podpůrné pracovníky a vývojáře. Je ideální pro určení datového modelu na pozadí stránky a řešení potíží. Pokud například narazíte na problém se stránkou, můžete pomocí inspekce stránky získat informace, které předáte správci systému nebo pracovníkům podpory.
+Funkce prohlížení stránky umožňuje získat podrobnosti o stránce a poskytnout tak přehled o návrhu stránky, různých prvcích, které stránku tvoří a zdroji na pozadí zobrazených dat. Funkce prohlížení stránky je speciálně navržena pro administrátory, uživatele napájení, podpůrné pracovníky a vývojáře. Je ideální pro určení datového modelu na pozadí stránky a řešení potíží. Pokud například narazíte na problém se stránkou, můžete pomocí inspekce stránky získat informace, které předáte správci systému nebo pracovníkům podpory.
 
 ## Práce s kontrolou stránky
 
@@ -25,7 +25,7 @@ Na stránce se otevře podokno **Prohlížet stránky a data**. Následující o
 
 Když se panel **Prohlížet stránky a data** otevře poprvé, zobrazí informace, které se týkají objektu hlavní stránky.
 
-Pomocí klávesnice nebo polohovacího zařízení přesuňte zaostření na různé prvky na stránce. Když vyberete okno s fakty nebo část na hlavní stránce, ohraničovací oblast se zvýrazní ohraničením a panel **Prohlížet stránky a data** zobrazí informace o vybraném prvku. Například předchozí obrázek zobrazuje informace o části seznamu na stránce **Prodejní objednávka**. Když přejdete na jiné stránky v aplikaci, panel **Prohlížet stránky a data** se automaticky aktualizuje informacemi o stránce, podle vašeho postupu.
+Pomocí klávesnice, nebo polohovacího zařízení přesuňte zaostření na různé prvky na stránce. Když vyberete okno s fakty, nebo část na hlavní stránce, ohraničovací oblast se zvýrazní ohraničením a panel **Prohlížet stránky a data** zobrazí informace o vybraném prvku. Například předchozí obrázek zobrazuje informace o části seznamu na stránce **Prodejní objednávka**. Když přejdete na jiné stránky v aplikaci, panel **Prohlížet stránky a data** se automaticky aktualizuje informacemi o stránce, podle vašeho postupu.
 
 Pro více informací o tom, co je na prohlížení stránek zobrazeno navštivte [Prohlížení a řešení problému stránek](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) v nápovědě Vývojář Business Central a IT Pro.
 

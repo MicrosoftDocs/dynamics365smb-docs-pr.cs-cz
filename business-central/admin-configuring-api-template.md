@@ -36,7 +36,7 @@ Toto je stránka rozhraní API, na které bude šablona použita. Vyhledávání
 4. Vyberte hodnotu v poli **Kód šablony**.
 Kód šablony je kód šablony, který byl definován na stránce **Konfigurační šablony**. Definované hodnoty šablony jsou použity pro rozhraní API.
 5. V poli **Podmínky** určete, která šablona má být použita.
-Definovaná šablona se použije na nový záznam vytvořený pomocí API, a to pouze tehdy, jsou-li podmínky definované v poli **Podmínky** shodné s hodnotami již definovanými pro novou instanci entity.
+Definovaná šablona se použije na nový záznam vytvořený pomocí API, a to pouze tehdy, jsou-li podmínky definované v poli **Podmínky** shodné s hodnotami již nadefinovanými pro novou instanci entity.
 
 ## Viz také
 [Dokumentace API](/dynamics-nav/fin-graph)  
