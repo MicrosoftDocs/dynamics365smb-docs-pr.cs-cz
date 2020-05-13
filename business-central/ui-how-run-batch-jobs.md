@@ -21,7 +21,7 @@ Dávková úloha je jako sestava, s tou výjimkou, že dávková úloha použív
 ## <a name="to-run-a-batch-job"></a>Spuštění dávkové úlohy
 1. Chcete-li otevřít stránku požadavku pro příslušnou dávkovou úlohu, vyberte ![Žárovku, která otevře ikonu Řekněte mi](media/ui-search/search_small.png "Řekněte mi co chcete udělat"), zadejte název dávkové úlohy a poté vyberte související odkaz.
 2. Pokud pro dávkovou úlohu existuje Záložka s náhledem **Možnosti**, vyplňte pole a určete, co bude dávková úloha dělat.
-3. Stránka může obsahovat jeden nebo více Záložek s náhledem s filtry, které můžete použít k omezení dat obsažených v dávkové úloze. Do navrhovaných filtrů můžete zadat kritéria nebo přidat další filtry.
+3. Stránka může obsahovat jednu nebo více Záložek s náhledem s filtry, které můžete použít k omezení dat obsažených v dávkové úloze. Do navrhovaných filtrů můžete zadat kritéria nebo přidat další filtry.
 4. Zvolte tlačítko **OK** pro Začátek dávkové úlohy.
 
 ## Viz také
