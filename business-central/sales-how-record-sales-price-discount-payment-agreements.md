@@ -34,14 +34,14 @@ Protože prodejní ceny a prodejní řádkové slevy jsou založeny na kombinaci
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zákazníci**, a poté vyberte související odkaz.
 2. Otevřete příslušnou kartu zákazníka a pak zvolte akci **Ceny**.
 
-    Pole **Typ nákupu** je předvyplněno, **Zákazník** a pole **Kód nákupu** je vyplněno číslem zákazníka.
+    Pole **Typ nákupu** je předvyplněno **Zákazník** a pole **Kód nákupu** je vyplněno číslem zákazníka.
 3. Vyplňte pole na řádku podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vyplňte řádek pro každou kombinaci, která zákazníkovi poskytne speciální prodejní cenu.
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Nastavení prodejní řádkové slevy pro zákazníka
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zákazníci**, a poté vyberte související odkaz.
 2. Otevřete příslušnou kartu zákazníka a pak zvolte akci **Řádková sleva**.
 
-    Pole **Typ nákupu** je předvyplněno, **Zákazník** a pole **Kód nákupu** je vyplněno číslem zákazníka.
+    Pole **Typ nákupu** je předvyplněno **Zákazník** a pole **Kód nákupu** je vyplněno číslem zákazníka.
 3. Vyplňte pole na řádku podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vyplňte řádek pro každou kombinaci, která zákazníkovi poskytne prodejní řádkovou slevu.
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Nastavení slevy na faktuře pro zákazníka
@@ -56,8 +56,8 @@ Pokud jste se rozhodli, kteří zákazníci mají nárok na slevy na faktuře, z
 
 Pokračujte v nastavování nových podmínek slev z prodejní faktury.
 
-1. Na stránce **Karta zákazníka**, vyberte akci **Fakturační slevy**. **Zák. fakturační slevy**.
-2. Do pole **Kód měny** zadejte kód měny, na kterou se vztahují podmínky slevy z faktury na řádku. Chcete-li nastavit podmínky slevy z faktury v USD, ponechte pole prázdné.
+1. Na stránce **Karta zákazníka** vyberte akci **Fakturační slevy**. **Zák. fakturační slevy**.
+2. Do pole **Kód měny** zadejte kód měny, na kterou se vztahují podmínky slevy z faktury na řádku. Chcete-li nastavit podmínky slevy z faktury v LM, ponechte pole prázdné.
 3. Do pole **Minimální částka** zadejte minimální částku, kterou musí faktura obsahovat, aby vznikl nárok na slevu.
 4. Do pole **Sleva %** zadejte slevu z faktury jako procento z částky faktury.
 5. Opakujte kroky 5 až 7 pro každou měnu, za kterou zákazník obdrží jinou fakturační slevu.
@@ -65,7 +65,7 @@ Pokračujte v nastavování nových podmínek slev z prodejní faktury.
 Fakturační sleva je nyní nastavena a přiřazena dotyčnému zákazníkovi. Když vyberete zákaznický kód v **Kód fakturační  slevy**, na různých zákaznických kartách je  pak těmto zákazníkům přidělena stejná fakturační sleva.
 
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Práce s fakturačními slevami prodejních faktur a servisními poplatky.
-Když použijete fakturační slevy, velikost faktury určuje velikost poskytnuté slevy.  
+Když použijete fakturační slevy, výše částky faktury určuje velikost poskytnuté slevy.  
 
 Na stránce **Zák. fakturační slevy**, můžete také k fakturám za určitou částku přidat servisní poplatek.  
 
@@ -74,7 +74,7 @@ Než budete moci použít během prodeje fakturační slevy, musíte do programu
 - Kterým zákazníkům bude tento typ slevy poskytnut.  
 - Jaká procenta slev použijete.  
 
-Pokud fakturujete slevy, které chcete vypočítat automaticky, tak je můžete zadat na stránce **Nastavení prodeje a pohledávek**.  
+Pokud fakturujete slevy, které chcete vypočítat automaticky, můžete je zadat na stránce **Nastavení prodeje a pohledávek**.  
 
 U každého zákazníka můžete specifikovat, zda udělíte fakturační slevy, jestliže je splněn uvedený požadavek (tj. Je-li částka faktury dostatečně velká). Podmínky fakturační slevy můžete definovat v místní měně pro tuzemské zákazníky a v cizí měně pro zahraniční zákazníky.  
 
@@ -83,15 +83,15 @@ Propojíte procenta slev se specifickými částkami faktur na stránce **Zák. 
 Kromě (nebo namísto) procenta slevy můžete propojit částku servisního poplatku s konkrétní částkou faktury.  
 
 > [!TIP]  
->  Než začnete zadávat tyto informace do programu, je vhodné připravit si osnovu struktur slev, kterou budete chtít použít. To nám usnadní zjistit, kteří zákazníci mohou být propojeni na stejnou stránku fakturační slevy. Čím méně stránek musíte nastavit, tím rychleji můžete zadat základní informace.  
+>  Než začnete zadávat tyto informace do programu, je vhodné připravit si osnovu struktur slev, kterou budete chtít použít. To vám usnadní zjistit, kteří zákazníci mohou být propojeni na stejnou stránku fakturační slevy. Čím méně stránek musíte nastavit, tím rychleji můžete zadat základní informace.  
 
 ## <a name="best-price-calculation"></a>Výpočet nejlepší ceny
 Pokud jste zaznamenali speciální ceny a řádkové slevy za prodej a nákupy, [!INCLUDE[d365fin](includes/d365fin_md.md)] zajistí, že váš zisk z obchodu se zbožím je vždy optimální automatickým výpočtem nejlepší ceny na prodejních a nákupních dokladech a na řádcích deníků zboží a projektů.
 
-Nejlepší cena je nejnižší přípustná cena s nejvyšší přípustnou řádkovou slevou k danému datu. [!INCLUDE[d365fin](includes/d365fin_md.md)] Automaticky je vypočteno, když vloží jednotkovou cenu a procento řádkové slevy pro zboží na nových řádcích dokladu a deníku.
+Nejlepší cena je nejnižší přípustná cena s nejvyšší přípustnou řádkovou slevou k danému datu. [!INCLUDE[d365fin](includes/d365fin_md.md)] cenu automaticky vypočte, když vloží jednotkovou cenu a procento řádkové slevy pro zboží na nových řádcích dokladu a deníku.
 
 > [!NOTE]  
->   Následující text popisuje, jak je pro prodej vypočítána nejlepší cena. Výpočet je stejný pro nákupy.
+>   Následující text popisuje, jak je pro prodej vypočítána nejlepší cena. Výpočet je stejný i pro nákup.
 
 1. [!INCLUDE[d365fin](includes/d365fin_md.md)] zkontroluje kombinaci plátce a zboží a poté vypočítá použitelnou jednotkovou cenu a procentuální řádkovou slevu pomocí následujících kritérií:
 
@@ -127,7 +127,7 @@ Pokud chcete hromadně aktualizovat ceny položek, jako například zvýšit vš
 2.  Vyberte tlačítko **Navrhnout cenu ze zboží** .   
 3.  Na záložce s náhledem **Zboží**, vyplňte **Ne** nebo **Účto skupina zboží** anebo jiná pole s původními cenami zboží, které chcete aktualizovat.   
 4.  V horní části stránky s požadavkem vyplňte **Typ prodeje** a **Kód prodeje** typem a názvem, do kterých chcete prodejní ceny kopírovat.
-5.  Pokud chcete, aby dávková úloha automaticky upravila navržené ceny zboží, zadejte úpravu do pole **Faktor úpravy**. Například pro 15% zvýšení ceny zboží zadáte 1,15 v **Faktoru úpravy** .  
+5.  Pokud chcete, aby dávková úloha automaticky upravila navržené ceny zboží, zadejte úpravu do pole **Faktor úpravy**. Například pro 15% zvýšení ceny zboží zadáte 1,15 ve **Faktoru úpravy** .  
 6.  Pokud chcete, aby dávková úloha vytvořila nové ceny, vyberte pole **Vytvořit nové ceny**.   
 7.  Vyberte tlačítko **OK** pro vyplnění řádků na stránce **Sešitu prodejní ceny** navrhovanými cenami, které označují, že jsou platné pro vybrané **Zboží**.   
 
