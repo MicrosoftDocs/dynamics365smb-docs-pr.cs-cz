@@ -12,7 +12,7 @@ ms.date: 12/10/2018
 ms.author: edupont
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Nastavení nebo změnění účetní osnovy
-Účetní osnova ukazuje účet hlavní knihy, který ukládá vaše finanční data. [!INCLUDE[d365fin](includes/d365fin_md.md)] obsahuje standardní účetní osnovu, která je připravena podpořit váš obchod.
+Účetní osnova je soubor účtů hlavní knihy, na které se účtují vaše finanční pohyby. [!INCLUDE[d365fin](includes/d365fin_md.md)] obsahuje standardní účetní osnovu, která je připravena podpořit váš obchod.
 Avšak můžete měnit výchozí účty a přidávat nové.  
 
 ## <a name="adding-or-changing-accounts"></a>Přidání nebo změna účtů
@@ -23,7 +23,7 @@ Z účtové osnovy můžete otevřít každý finanční účet a přidat, nebo 
 >  
 >   * Zůstatek na účtu musí být nula.  
 >   * Pole **Povolit odstr.fin.účtu před** musí být nastaveno na stránce **Nastavení Financí** a účet nesmí mít položky toho stejného, nebo pozdějšího data.  
->   * Pokud je vybráno pole **Kontrolovat použití fin. Účtu** na stránce **Nastavení financí**, pak účet nesmí být využíván v žádné z účtovacích skupin nebo účtovacího nastavení.  
+>   * Pokud je vybráno pole **Kontrolovat použití fin. Účtu** na stránce **Nastavení financí**, pak účet nesmí být využíván v žádné z účto skupin nebo nastavení účtování.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bude předcházet tomu, abyste si vymazali účet hlavní knihy, který ukládá potřebné data v účtové osnově.  
 

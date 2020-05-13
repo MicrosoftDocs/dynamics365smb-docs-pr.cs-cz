@@ -16,17 +16,17 @@ Globální poskytovatel služeb, který převádí informace o platbách do libo
 
 Platební řádky můžete exportovat ze stránky **Platební deník** do souboru nebo datového toku, který pak nahrajete do své banky pro automatické zpracování, takže nemusíte provádět elektronické platby jednotlivě. Další informace naleznete v části [Export plateb do Bankovních dokladů](payables-how-export-payments-bank-file.md).
 
-Soubory bankovních výkazů můžete importovat na stránku **deník odsouhlasení plateb** pomocí služby pro převod bankovních dat a převést soubor, který obdržíte z banky, do datového proudu, který [!INCLUDE[d365fin](includes/d365fin_md.md)] lze importovat. Další informace naleznete v části [Automatické vyrovnání plateb a odsouhlasení bankovních účtů](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Soubory bankovních výpisů můžete importovat na stránku **deník odsouhlasení plateb** pomocí služby pro převod bankovních dat a převést soubor, který obdržíte z banky, do datového formátu, který je [!INCLUDE[d365fin](includes/d365fin_md.md)] schopen importovat. Další informace naleznete v části [Automatické vyrovnání plateb a odsouhlasení bankovních účtů](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Jako alternativu k importu bankovních výpisů pomocí služby převodu bankovních údajů můžete použít službu Envestnet Yodlee Bank Feeds. Pro více informací běžte na [Nastavení Envestnet  yodlee Bank služby](bank-how-setup-bank-statement-service.md).
 
-Chcete-li importovat nebo exportovat bankovní soubory, musíte si nastavit vlastní bankovní účet a bankovní účty svých dodavatelů. Další informace naleznete v části N [astavení bankovních účtů](bank-how-setup-bank-accounts.md).
+Chcete-li importovat nebo exportovat bankovní soubory, musíte si nastavit vlastní bankovní účet a bankovní účty svých dodavatelů. Další informace naleznete v části [Nastavení bankovních účtů](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
 > Služba převodu bankovních dat může omezit počet řádků, které lze exportovat do jednoho souboru. Při překročení limitu se zobrazí chybová zpráva. Doporučuje se, aby soubory bankovních výpisů nepřekročily 1000 řádků, jelikož doba zpracování v bankovní službě převodu dat se může výrazně zvýšit.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Zaregistrování vaší společnosti na službu převodu bankovních dat
-1. Zvolte ![žárovku, která otevře funkci upozornit na]to,(media/ui-search/search_small.png "co chcete udělat s") ikonou, zadejte ** Služba konv. bank. dat** a pak vyberte související odkaz.  
+1. Zvolte ![,žárovku, která otevře funkci Tell Me](media/ui-search/search_small.png "co chcete udělat"), zadejte **Služba konv.bank. dat** a pak vyberte související odkaz.  
 2. **Převod konv. bankovních dat** se třemi políčky předem vyplněnými příslušnými adresami URL poskytovatele služby převodu bankovních dat.
 
     > [!NOTE]  
@@ -43,7 +43,7 @@ Chcete-li importovat nebo exportovat bankovní soubory, musíte si nastavit vlas
 > Vaše přihlašovací údaje jsou automaticky šifrovány.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Zobrazení nebo aktualizace seznamu aktuálně podporovaných formátů bankovních dat
-1. Zvolte ![žárovku, která otevře funkci upozornit na]to,(media/ui-search/search_small.png "co chcete udělat s") ikonou, zadejte ** Služba konv. služby konver. bank. dat** a pak vyberte související odkaz.
+1. Zvolte ![,žárovku, která otevře funkci Tell Me](media/ui-search/search_small.png "co chcete udělat"), zadejte **Služba konv. služby konver. bank. dat** a pak vyberte související odkaz.
 2. Na stránce **Nastavení Konverze bankovních dat** , zvolte akci **Název banky - Přehled převodu dat** a otevřete seznam názvů bank představujících formáty bankovních dat podporované službou převodu.
 3. Na stránce **Název banky - seznam převodu dat** vyberte akci **Aktualizovat seznam bankovních názvů**.
 
