@@ -26,11 +26,11 @@ Na jednotlivých kartách projektů musíte nastavit ceny za zboží projektů, 
 >   Zaškrtávací políčko **Použít propojení spotřeby jako výchozí** je poměrně složité, a proto je vysvětleno v následující části.
 
 ## <a name="to-set-up-job-usage-tracking"></a>Pro nastavení sledování spotřeby projektu
-Když provádíte projekt, možná budete chtít vědět, jak vaše spotřeba sleduje váš plán. Chcete-li to snadno provést, můžete vytvořit vazbu mezi řádky plánování projektu a skutečným využitím. To vám umožní sledovat vaše náklady a snadno zjistit, kolik práce zbývá ještě udělat. Ve výchozím nastavení je typem řádku plánování projektu **Rozpočet**, ale použití typu řádku **Obojí plán i fakturovatelné** má podobný efekt.
+Když realizujete projekt, možná budete chtít vědět, jak vaše spotřeba sleduje váš plán. Chcete-li to snadno provést, můžete vytvořit vazbu mezi řádky plánování projektu a skutečným využitím. To vám umožní sledovat vaše náklady a snadno zjistit, kolik práce zbývá ještě udělat. Ve výchozím nastavení je typem řádku plánování projektu **Rozpočet**, ale použití typu řádku **Obojí plán i fakturovatelné** má podobný efekt.
 
 Pokud zaškrtnete zaškrtávací políčko **Použít propojení spotřeby jako výchozí**, můžete zkontrolovat informace na řádku plánování projektu. Můžete nastavit množství zdroje, zboží nebo účtu hlavní knihy a pak určit, jaké množství chcete přenést do deníku projektu. Pole **Zbývající množství** na řádku plánování projektu vám řekne, co zbývá k převodu a zaúčtování do deníku projektů.
 
-Když je zaškrtnuto zaškrtávací políčko **Použít propojení spotřeby jako výchozí** a typ řádku plánování projektu je **Fakturovatelné**, finanční vytvoří řádek plánování projektu typu **Rozpočet** po zaúčtování řádku deníku.
+Když je zaškrtnuto zaškrtávací políčko **Použít propojení spotřeby jako výchozí** a typ řádku plánování projektu je **Fakturovatelné**, finanční deník vytvoří řádek plánování projektu typu **Rozpočet** po zaúčtování řádku deníku.
 
 > [!NOTE]  
 >   Pokud je na kartě projektu zaškrtnuto zaškrtávací políčko**Použít propojení spotřeby jako výchozí** a pole **Typ řádku** na řádku deníku projektů je prázdné, vytvoří se při účtování řádků deníku nové řádky plánování projektu typu **Rozpočet**. Pokud na kartě projektu není zaškrtnuto zaškrtávací políčko **Použít propojení spotřeby jako výchozí** a pole **Typ řádku** na řádku deníku projektů je prázdné, nevytvoří se při účtování řádků deníku žádné nové řádky plánování projektu. Pro více informací navštivte [Zaznamenání spotřeby pro projekty](projects-how-record-job-usage.md).
@@ -92,7 +92,7 @@ Jedním aspektem plánování projektů je rozhodování, které účty pro úč
 | Pole účtu | Popis |
 | --- | --- |
 | **Kód** |Kód pro účto skupinu. Můžete zadat až 10 znaků včetně mezer. |
-| **Účet nákladů NV** |Účet NV pro vypočítané náklady na projekt NV, což je účet rozvahových majetkových aktiv. |
+| **Účet nákladů NV** |Účet NV pro vypočítané náklady na projekt, což je účet rozvahových majetkových aktiv. |
 | **Účet kumulovaných nákladů NV** |Účet pro metody Hodnota nákladů nebo Náklady na prodej pro výpočet NV, což je účet rozvahových majetkových pasiv. To bude zaúčtováno, když úprava NV vyžaduje, aby se zvýšily náklady na spotřebu zaúčtované ve výsledovce. |
 | **Účet použitých nákladů projektu** |Vyrovnávací účet k účtu nákladů NV, což je protiklad k účtu záporných výdajů. |
 | **Účet použitých nákladů zboží** |Vyrovnávací účet k účtu nákladů NV, což je protiklad k účtu záporných výdajů. |

@@ -22,23 +22,23 @@ Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je po
 
 | Pro | Viz |
 | --- | --- |
-| Možnosti jak platit vašim dodavatelům. |[Definování způsobu platby](finance-payment-methods.md) |
+| Možnosti, jak platit vašim dodavatelům. |[Definování způsobu platby](finance-payment-methods.md) |
 | Určení účetní skupiny, které mapují položky, jako jsou zákazníci, dodavatelé, zboží, zdroje, nebo prodejní a nákupní doklady, do finančních účtů hlavní knihy. |[Nastavení účto skupin](finance-posting-groups.md)|
-|Definování kategorií v finančních tabulkách a sestavách, jako jsou výkazy rozvahy, nebo výkazy zisků a ztrát, vytvořte pro účty plány a poté definujte jejich kategorie.|[Příprava finančního výkaznictví s účetními schématy a kategoriemi účtů](bi-how-work-account-schedule.md)|
-|Nastavení toleranci, podle které systém uzavře fakturu, i když platba, včetně jakékoli slevy, nepokrývá celou částku faktury.|[Práce s odchylkami platby a tolerancemi platebních slev](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+|Definice kategorií ve finančních tabulkách a sestavách, jako jsou výkazy rozvahy, nebo výkazy zisků a ztrát, vytvořte pro účty plány a poté definujte jejich kategorie.|[Příprava finančního výkaznictví s účetními schématy a kategoriemi účtů](bi-how-work-account-schedule.md)|
+|Nastavení tolerance, podle které systém uzavře fakturu, i když platba, včetně jakékoli slevy, nepokrývá celou částku faktury.|[Práce s odchylkami platby a tolerancemi platebních slev](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Nastavení fiskálního období. |[Otevření nového fiskálního roku](finance-how-open-new-fiscal-year.md) |
-| Definování, jak nahlásíte finančnímu úřadu částky daně z přidané hodnoty, které jste obdrželi za prodej. |[Nastavení výpočtů a metod účtování daně z přidané hodnoty](finance-setup-vat.md)|
-|Připravení zpracování neuplatněného DPH v souvislosti s účetními metodami založenými na hotovosti.|[Nastavení neuplatněného DPH pro hotovostní učetnictví](finance-setup-unrealized-vat.md)|
+| Definice parametrů účtování DPH, jak se budou finančnímu úřadu vykazovat částky daně z přidané hodnoty. |[Nastavení výpočtů a metod účtování daně z přidané hodnoty](finance-setup-vat.md)|
+|Příprava zpracování neuplatněného DPH v souvislosti s účetními metodami založenými na hotovosti.|[Nastavení neuplatněného DPH pro hotovostní učetnictví](finance-setup-unrealized-vat.md)|
 | Nastavení funkce Prodej a Nákup tak, aby zpracovávaly i platby v cizích měnách.|[Umožnit aplikaci položek v různých měnách](finance-how-enable-application-ledger-entries-different-currencies.md)
-|Definování jedné nebo více dalších měn tak, aby částky byly automaticky vykazovány jak v LM, tak v další měně vykazované pro každou položku v hlavní knize, ale i pro ostatní položky.|[Nastavení Přídavné měny pro hlášení](finance-how-setup-additional-currencies.md)|
-|Pravidelná úprava dodatečných prodlení měny, abyste vyrovnali výkyvy směnných kurzů.|[Aktualizace směnných kurzů](finance-how-update-currencies.md)|
-|Definování několika úrokových sazeb, které mají být použity pro různá období při zpoždění plateb obchodních transakcí.|[Nastavení více úrokových sazeb ](finance-how-to-set-up-multiple-interest-rates.md)|
-|Připravení automatického zaokrouhlování fakturačních částek při vytváření faktur.|[Nastavení zaokrouhlování faktur](finance-set-up-invoice-rounding.md)|
+|Definice jedné nebo více dalších měn tak, aby částky byly automaticky vykazovány jak v LM, tak v další měně pro každou položku v hlavní knize, ale i pro ostatní položky.|[Nastavení Přídavné měny pro hlášení](finance-how-setup-additional-currencies.md)|
+|Pravidelná aktualizace směnných kurzů používaných měn..|[Aktualizace směnných kurzů](finance-how-update-currencies.md)|
+|Definice několika úrokových sazeb, které mají být použity pro různá období při zpoždění plateb obchodních transakcí.|[Nastavení více úrokových sazeb ](finance-how-to-set-up-multiple-interest-rates.md)|
+|Nastavení automatického zaokrouhlování fakturačních částek při vytváření faktur.|[Nastavení zaokrouhlování faktur](finance-set-up-invoice-rounding.md)|
 | Přidání nových účtů k existující účetní osnově. |[Nastavení účetní osnovy](finance-setup-chart-accounts.md) |
 | Nastavení grafů Business intelligence (BI) pro analýzu cashflow. |[Nastavení analýzy cashflow](finance-setup-cash-flow-analyses.md) |
-|Povolení fakturaci zákazníka, který není nastaven v systému.|[Nastavení zákazníků platících hotovostí](finance-how-to-set-up-cash-customers.md)|
-| Nastavení sestavy Intrastat a odeslání hlášení úřadům | [Nastavení a sestava Intrastat](finance-how-setup-report-intrastat.md)|
-|Připravení sestavu Konsolidovaná předvaha v Centru rolí Účetní, abyste získali finanční přehled pro více společností.|[Konsolidování finančních dat z několika společností](finance-consolidated-company-reporting.md)|
+|Povolení fakturace zákazníkovi, který není nastaven v systému.|[Nastavení zákazníků platících hotovostí](finance-how-to-set-up-cash-customers.md)|
+| Nastavení sestavy Intrastat a odeslání hlášení úřadům. | [Nastavení a sestava Intrastat](finance-how-setup-report-intrastat.md)|
+|Příprava sestavy Konsolidovaná předvaha v Centru rolí Účetní, abyste získali finanční přehled pro více společností.|[Konsolidování finančních dat z několika společností](finance-consolidated-company-reporting.md)|
 |Ujistěte se, že položka ve finančním deníku je při účtování deníku přidělena několika různým účtům, a to buď množství, procento, nebo částka.|[Použití alokačního klíče ve finančních denících](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Viz také

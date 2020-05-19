@@ -14,12 +14,12 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 # <a name="set-up-time-sheets"></a>Nastavení pracovních výkazů
-Pracovní výkazy v [!INCLUDE[d365fin](includes/d365fin_md.md)] zpracovávají evidenci času v týdenních přírůstcích po sedmi dnech. Používáte je ke sledování času použitého na projekty a můžete je použít k záznamu jednoduché registrace času zdroje. Než budete moci používat pracovní výkazy, musíte určit, jak chcete, aby byly nastaveny a nakonfigurovány.
+Pracovní výkazy v [!INCLUDE[d365fin](includes/d365fin_md.md)] zpracovávají evidenci času v týdenních přírůstcích po sedmi dnech. Používáte je ke sledování času použitého na projekty a můžete je použít k záznamu jednoduché registrace času zdroje. Než budete moci používat pracovní výkazy, musíte je nejprve nastavit.
 
-Poté, co jste nastavili, jak bude vaše organizace používat pracovní výkazy, můžete určit, zda a jak budou pracovní výkazy schváleny. V závislosti na potřebách vaší organizace můžete určit:
+Poté, co jste nastavili, jak bude vaše organizace používat pracovní výkazy, můžete určit, zda a jak budou pracovní výkazy schválovány. V závislosti na potřebách vaší organizace můžete určit:
 
 * Jednoho nebo více uživatelů jako správce pracovního výkazu a schvalovatele všech pracovních výkazů.
-* Schvalovatel pracovního výkazu pro každý zdroj.
+* Schvalovatele pracovního výkazu pro každý zdroj.
 
 Pokud jste nastavili pracovní výkazy, můžete vytvořit pracovní výkazy pro zdroje, přiřadit je k řádkům plánování projektů a účtovat pracovní výkazy. Pro více informací navštivte [Použití pracovních výkazů](projects-how-use-time-sheets.md).
 

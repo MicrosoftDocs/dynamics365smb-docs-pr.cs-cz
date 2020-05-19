@@ -17,7 +17,7 @@ ms.author: sgroespe
 Poté co založíte přihrádky můžete začít vytvářet jejich obsah. Jinými slovy, můžete založit zboží, které chcete uložit do libovolné dané přihrádky, a nastavit pravidla, kterými se řídí plnění přihrádek konkrétním zbožím.. Můžete to udělat manuálně na stránce **Obsah přihrádky** nebo automatizovaně na stránce **Sešit vytvoření obsahu přihrádky**.
 
 ## <a name="to-create-bin-content-manually"></a>Vytvření obsahu přihrádky manuálně  
-1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte ** Lokace ** a poté vyberte související odkaz.  
+1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Lokace** a poté vyberte související odkaz.  
 2.  Vyberte lokaci, kde budete chtít založit obsah přihrádky a vyberte tlačítko **Přihrádka**.  
 3.  Vyberte přihrádku, kde budete chtít založit obsah a vyberte tlačítko **Obsah přihrádky**.  
 4.  Pro každé zboží, které chcete uskladnit do přihrádky, vyplňte řádek na stránce  **Obsah přihrádky** patřičnou informací. Některá políčka jsou již vyplněna s informacemi o dané přihrádce.  
@@ -27,7 +27,7 @@ Pokud je nutné vyplňte i pole **Pevné**. Pokud je přihrádka nastavena jako 
 
 Pokud používáte řízené vyskladnění a zaskladnění a pokud jste již zadali správné rozměrové informace o každé měrné jednotce zboží, maximální množství, které zadáte na stránce **Obsah přihrádky** je ověřováno na základně fyzikcé možnosti dané přihrádky. Minimální a maximální množství se používá při výpočtu doplňování přihrádky a navrhovaných zaskladňovacích míst.  
 
-Pokud vyberete políčko **Pevné**, zafixujete dané zboží do přihrádky, to v [!INCLUDE[d365fin](includes/d365fin_md.md)] znamená, že se pokusí umístit zboží do přihrádky a pokusí se zachovat zboží pro danou přihrádku ikdyž množství v přihrádce bude 0 Ostatní zboží může být uloženo do přihrádky, dokonce i když bylo zboží částečně fixováno k přihrádce.  
+Pokud vyberete políčko **Pevné**, zafixujete dané zboží do přihrádky, to v [!INCLUDE[d365fin](includes/d365fin_md.md)] znamená, že se pokusí umístit zboží do přihrádky a pokusí se zachovat zboží pro danou přihrádku, i když množství v přihrádce bude 0. Ostatní zboží může být uloženo do přihrádky, dokonce i když bylo zboží částečně fixováno k přihrádce.  
 
 > [!NOTE]  
 >  Můžete založit několik přihrádek současně, přes **Sešit vytvoření obsahu přihrádky**.  
