@@ -16,7 +16,7 @@ ms.author: jswymer
 
 ---
 # Uzavírání knih
-Poté, co se ujistíte, že všechny vaše účty jsou aktuální a náklady a příjmy josu přideleny, můžete knihy uzavřít na fiskální rok nebo období.
+Poté, co se ujistíte, že všechny vaše účty jsou aktuální a náklady a příjmy jsou přideleny, můžete knihy uzavřít na fiskální rok nebo období.
 
 Nejste povinni uzavřít rok, ale díky tomu bude práce v systému pro vás snazší, protože budete moci využít výhodných dostupných možností filtrování. Také se nemusíte starat o ztrátu podrobností o transakcích při uzavření, protože všechny podrobnosti jsou zachovány, a to i po uzavření roku.
 
@@ -45,7 +45,7 @@ Proces uzavření knihy zahrnuje tyto hlavní úkoly:
 ## Co se stane při uzávěrke
 Když provedete uzávěrku na konci roku, systém přesune vaše příjmy z vypočtených příjmů na účet nerozděleného zisku. Systém také označí fiskální rok jako „uzavřený“ a všechny následné položky za uzavřený rok označí jako „záznamy předchozího roku“.
 
-Systém poté vygeneruje závěrečný záznam, ale nezveřejní jej automaticky. Máte příležitost provést zápis nebo záznamy o započítání vlastního kapitálu, což vám umožní rozhodnout se, jak přiřadit svůj závěrečný záznam. Například, pokud má vaše společnost několik divizí, můžete nechat systém vygenerovat jediný uzavírací záznam pro všechny divize a pak můžete provést vyrovnávací zápis pro majetkový účet každé divize.
+Systém poté vygeneruje závěrečný záznam, ale nezaúčtuje jej automaticky. Máte příležitost provést zápis nebo záznamy o započítání vlastního kapitálu, což vám umožní rozhodnout se, jak přiřadit svůj závěrečný záznam. Například, pokud má vaše společnost několik divizí, můžete nechat systém vygenerovat jediný uzavírací záznam pro všechny divize a pak můžete provést vyrovnávací zápis pro majetkový účet každé divize.
 
 Můžete zaúčtovat v předchozím fiskálním roce, a to i po uzavření účtů výsledovky, pokud potom znovu spustíte dávkovou úlohu Uzavření výsledovky.
 
