@@ -16,7 +16,7 @@ Jako alternativu k vybírání plateb prostřednictvím bankovních převodů ne
 
 Po povolení platebních služeb v [!INCLUDE[d365fin](includes/d365fin_md.md)], je k dispozici odkaz na tuto službu v prodejních dokladech, které odesíláte e-mailem vašim zákazníkům. Zákazníci mohou pomocí tohoto odkazu přejít na platební službu a zaplatit účet přímo z prodejního dokladu. Pokud nechcete zahrnout odkaz, například pokud zákazník zaplatí hotovostí, můžete před zaúčtováním odebrat platební službu z faktury.  
 
-V [!INCLUDE[d365fin](includes/d365fin_md.md)] jsou instalovány standardní rozšíření Microsoft Pay, PayPal Payments Standart a WorldPay Payments a jsou připraveny k povolení.  
+V [!INCLUDE[d365fin](includes/d365fin_md.md)] jsou instalovány standardní rozšíření Microsoft Pay, PayPal Payments Standard a WorldPay Payments a jsou připraveny k povolení.  
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365fin_mdmd"></a>Povolení platební služby v [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Služby pro platby** a poté vyberte související odkaz.  
