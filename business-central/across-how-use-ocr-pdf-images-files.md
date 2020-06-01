@@ -14,14 +14,14 @@ ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
-# Use OCR to Turn PDF and Image Files into Electronic Documents
-From PDF or image files that you receive from your trading partners, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can be converted to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pokud například od svého dodavatele obdržíte fakturu ve formátu PDF, můžete ji odeslat službě OCR na stránce **Došlé doklady**. This is described in the first procedure.
+# Použití funkce OCR k převedení souborů PDF a obrázkových souborů do elektronických dokumentů
+Ze souborů PDF nebo obrázkový souborů, které obdržíte od svých obchodních partnerů, můžete pomocí externí služby OCR (Optical Character Recognition) generovat elektronické dokumenty, které lze převést na záznamy dokumentů v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pokud například od dodavatele obdržíte fakturu ve formátu PDF, můžete ji odeslat do služby OCR ze stránky  **Došlé doklady**. Toto je popsáno v první proceduře.
 
-As an alternative to sending the file from the **Incoming Documents** page, you can send the file to the OCR service by email. Then, when you receive the electronic document back, a related incoming document record is created automatically. This is described in the second procedure.
+Jako alternativu k odeslání souboru ze stránky **Příchozí dokumenty**, můžete odeslat soubor službě OCR e-mailem. Poté, když obdržíte elektronický dokument zpět, automaticky se vytvoří související záznam příchozího dokumentu. Toto je popsáno v druhé proceduře.
 
-After some seconds, you receive the file back from the OCR service as an electronic invoice that can be converted to a purchase invoice for the vendor. This is described in the third procedure.
+Po několika sekundách obdržíte soubor zpět od služby OCR jako elektronickou fakturu, kterou lze převést na nákupní fakturu dodavatele. Toto je popsáno v třetí proceduře.
 
-Because OCR is based on optical recognition, it is likely that the OCR service will interpret characters in your PDF or image files wrongly when it first processes a certain vendor’s documents, for example. It may not interpret the company logo as the vendor’s name or it may misinterpret the total amount on a receipt because of its layout. To avoid these errors going forward, you can correct the errors in a separate version of the **Incoming Document** page. Then you send the corrections back to the OCR service to train it to interpret the specific characters correctly next time it processes a PDF or image document for the same vendor. For more information, see [To train the OCR service to avoid errors](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
+Vzhledem k tomu, že OCR je založen na optickém rozpoznávání, je pravděpodobné, že služba OCR interpretuje znaky ve vašem souboru PDF nebo obrázkových souborů nesprávně, když například nejprve zpracuje dokumenty konkrétního dodavatele. It may not interpret the company logo as the vendor’s name or it may misinterpret the total amount on a receipt because of its layout. To avoid these errors going forward, you can correct the errors in a separate version of the **Incoming Document** page. Then you send the corrections back to the OCR service to train it to interpret the specific characters correctly next time it processes a PDF or image document for the same vendor. For more information, see [To train the OCR service to avoid errors](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
 
 The traffic of files to and from the OCR service is processed by a dedicated job queue entry, which are created automatically when you enable the related service connection. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).
 
@@ -56,7 +56,7 @@ If you are not using a job queue, or you want to receive a finished OCR document
 
    Information for the OCR document is displayed, showing both the source content of the PDF or image file and the resulting OCR field values.
 3. Review the various field values and manually edit or enter values in fields that the OCR service has tagged as uncertain.
-4. Choose the **OK** button. The OCR process is completed and the resulting electronic document is sent to the **Incoming Documents** page in [!INCLUDE[d365fin](includes/d365fin_md.md)],  according to the job queue schedule.
+4. Zvolte tlačítko **OK**. The OCR process is completed and the resulting electronic document is sent to the **Incoming Documents** page in [!INCLUDE[d365fin](includes/d365fin_md.md)],  according to the job queue schedule.
 5. Repeat step 4 for any other OCR document to be verified.
 
 Now you can proceed to create document records for the received electronic documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], manually or automatically. For more information, see the next procedure. You can also connect the new incoming document record to existing posted or non-posted document so that the source file is easy to access from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Process Incoming Documents](across-process-income-documents.md).
@@ -117,4 +117,4 @@ The fields on the **Financial Information** FastTab on the **Incoming Document**
 [Zpracování došlých dokladů](across-process-income-documents.md)  
 [Došlé doklady](across-income-documents.md)  
 [Nakupování](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
