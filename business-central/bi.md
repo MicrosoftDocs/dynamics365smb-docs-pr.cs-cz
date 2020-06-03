@@ -12,6 +12,7 @@ ms.reviewer: v-pejano
 ms.author: sgroespe
 ---
 # Business Intelligence
+
 Podniky zaznamenávají během každodenní činnosti obrovské množství dat. Tato data, která odrážejí takové věci, jako jsou prodejní údaje organizace, nákupy, provozní náklady, platy zaměstnanců a rozpočty, se mohou stát cennými informacemi nebo obchodními informacemi pro osoby s rozhodovací pravomocí. [!INCLUDE[d365fin](includes/d365fin_md.md)] obsahuje řadu funkcí, které vám pomohou shromáždit, analyzovat a sdílet data společnosti.
 
 Funkce dimenzí hraje důležitou roli v analytických funkcích. Dimenze jsou údaje, které můžete přidat k položce jako druh značky. Tato data slouží k seskupování položek s podobnými vlastnostmi, jako jsou například zákazníci, oblasti, produkty, prodejci a snadno se tyto skupiny načítají pro účely analýzy. Kromě jiných použití se dimenze používají při definování pohledů analýz a při vytváření obchodních schémat pro vykazování. Pro další informace se podívejte na [Práce s dimenzemi](finance-dimensions.md).
@@ -19,9 +20,9 @@ Funkce dimenzí hraje důležitou roli v analytických funkcích. Dimenze jsou �
 > [!TIP]
 > Jako rychlý způsob analýzy transakčních dat dle dimenzí můžete filtrovat součty v účetní osnově a položky ve všech stránkách **Položek** dle dimenzí. Vyhledejte akci **Nastavení filtru dimenze**.  
 
-Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.  
+Následující tabulka popisuje přehled úloh s odkazy na témata, které je popisují.  
 
-| Viz | také |
+| Funkce | Odkaz |
 | --- | --- |
 |Zobrazení skutečných částek ve srovnání s částkami rozpočtu pro všechny účty a několik období.|[Analýza skutečných částek proti částkám rozpočtu](bi-how-analyze-actual-versus-budget.md)|
 |Vytvoření nových účetních schémat k definici finančních výkazů pro vykazování nebo pro zobrazení jako grafů.|[Příprava finančního výkaznictví pomocí účetních schémat a kategorií účtů](bi-how-work-account-schedule.md)|
@@ -31,6 +32,7 @@ Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je po
 |Umožňuje vytvářet globální finanční výkazy mezinárodním účetním organizacím se standardem eXtensible Business Reporting Language.|[Vytváření sestav pomocí XBRL](bi-create-reports-with-xbrl.md)|
 
 ## Viz také
+
 [Finance](finance.md)  
 [Použití Business Central jako zdroje dat Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Uzavírání fiskálních období](year-close-years-periods.md)  

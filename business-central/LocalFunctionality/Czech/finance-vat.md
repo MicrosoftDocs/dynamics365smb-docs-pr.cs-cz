@@ -6,100 +6,102 @@ author: ACMartinKunes
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, VAT
-ms.date: 05/15/2019
+ms.date: 12/30/2019
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Finance - VAT
+# Finance - DPH
 
-## VAT Date
+## Datum DPH
 
-The VAT Date is important for tax documents by §28 of VAT Law 235/2004. The VAT Date can be different from the posting date or the document date. The VAT Date is an important field for the VAT reporting.  
+Datum DPH je důležité pro daňové doklady podle § 28 zákona o DPH 235/2004 Sb. Datum DPH se může lišit od data zaúčtování nebo data dokladu. Datum DPH je důležité pole pro vykazování DPH.
 
-This feature focuses on improving the following:
+Tato funkce se zaměřuje na zlepšení následujících oblastí:
 
-### Setup of VAT Date Feature
+### Nastavení použití Data DPH
 
-- Enabling VAT Date usage in system generally.
-- Select the way the system will default the VAT Date’s value in different areas (Posting Date or Document Date).
-- Periods for reporting VAT and company accounting periods are often different. To allow users to seamlessly report and post VAT according to VAT periods, and to issue internal and other statutory reporting based on accounting periods, this VAT Date feature introduces VAT Periods.
-- Allow VAT Posting From/To – enter a date range in from/to fields to prevent mistakes of posting to closed Accounting or VAT periods.
+- Obecné povolení používání Data DPH v systému.
+- Výběr způsobů, jakým systém bude zobrazovat výchozí hodnotu Data DPH v různých oblastech (Zúčtovací datum nebo Datum dokladu).
+- Období pro vykazování DPH a účetní období společnosti se mohou často lišit. Abychom umožnili uživatelům bezproblémově vykazovat a účtovat DPH podle období pro vykazování DPH a také vydávat interní a další statutární vykazování na základě účetních období, zavádí tato funkce nově Období DPH.
+- Povolit účtování DPH od/do – zadání časové období v polích od/do, aby se zabránilo chybám účtování do uzavřených účetních a DPH období.
 
-### Posting Sales, Purchase and Service Transactions with VAT Date
+### Účtování transakcí s datem DPH  
 
-To post transactions using the VAT Date, the user needs to be able to enter VAT Dates in the document headers and Journal lines throughout the application.
-After the posting of the VAT Date, it becomes a part of the posted documents and G/L Entries and VAT Entries.
+Aby uživatel zaúčtoval transakce s použitím Data DPH, musí být schopen zadat datum DPH v aplikaci do hlaviček dokladů a řádků deníku.
+Po zaúčtování je Datum DPH součástí zaúčtovaných dokladů, věcných položek a položek DPH.
 
-### Calculating and Posting VAT Settlement
+### Výpočet a účtování vyrovnání DPH
 
-System filters VAT Entries use the VAT Date (instead of the Posting Date) by selecting VAT Period and prepares a report showing which entries will be transferred to the Settlement Account. Printout also contains VAT Date information.
+Systém filtruje položky DPH na základě data DPH (místo Zúčtovacího data) výběrem DPH období a připraví sestavu ukazující, které položky budou převedeny na účet vyrovnání DPH. Výtisk obsahuje také informace o datu DPH.
 
-### Reconciling VAT and G/L Entries
+### Odsouhlasení položek DPH a věcných položek  
 
-Users frequently reconcile amount kept in VAT Entries and VAT amounts posted to GL Entries.
-Amounts shown in new Net Change (VAT Date) columns in all following forms will always be filtered out by VAT Date:
+Uživatelé často porovnávají částky v položkách DPH a částky DPH zaúčtované ve věcných položkách.
+Částky zobrazované v novém poli Pohyb (Datum DPH) v následujících formulářích jsou vždy filtrované dle data DPH:
 
-- Chart of Accounts form
-- G/L Balance form
-- G/L Account Balance form 
+- Účetní osnova
+- Saldo
+- Saldo účtu
 
-## VAT Statement
+## Výkaz DPH
 
-The VAT Statement contains many improvements which enable the user to:
+Výkaz DPH obsahuje řadu vylepšení a možností:
 
-- Add Stat. Reporting Setup with general setup for VAT reporting.
-- Add two new operation rows (Row Division and Row Multiplication) in the Type field.
-- Add setup for VAT from advances.
-- Filter the VAT Entries selection for the VAT Statement line by the EU Triangular Trade field. This is required, as EU (European Union) triangular trade (middle person – 1 debtor) must be reported in separate rows.
-- Print the VAT Statement report with a new option to round off calculated amounts in the VAT statement to the nearest whole value.
-- Filter data based on VAT Date using VAT Periods.
-- Filter data for the posted VAT Statement of later date.
-- More VAT Statement Types – Recapitulative, Corrective, Supplementary (by §43 part 1 of VAT Law 235/2004) – payer can submit Supplementary VAT Statement (see further). 
-- Export the VAT statement to .xml file.
-- Add Comments and Attachments to export for Tax Office.
+- Doplněno Nastaven stat. vykazování s obecným nastavením pro vykazování DPH.
+- Doplněny dvě nové řádkové operace v poli typ (Dělení řad a Násobení řad).
+- Doplněno nastavení pro DPH ze záloh.
+- Filtrovat položky DPH pro výkaz DPH dle režimu třístranného obchodu v EU. Tento krok je nutný, protože třístranný obchod (prostředník - 1 dlužník) v EU musí být veden na samostatných řádcích. 
+- Vytisknout výkaz DPH s novou možností zaokrouhlit vypočtené částky ve výkazu DPH na celé hodnoty.
+- Filtrovat data na základě Data DPH s použitím Období DPH.
+- Filtrovat data pro starší zaúčtovaná hlášení DPH.
+- Další typy výkazu DPH – Řádný, Následný, Dodatečný – podle § 43 část 1 Zákona o DPH 235/2004) plátce může předložit dodatečné hlášení o DPH (viz dále).
+- Exportovat výkaz DPH do souboru .xml.
+- Přidat komentáře a přílohy k exportu pro finanční úřad.
 
-## Supplementary VAT Statement
+## Dodatečná hlášení DPH  
 
-By §43 part 1 of VAT Law 235/2004, payer can submit Supplementary VAT Statement. In case user wants to issue the Supplementary VAT Statement, it is necessary to choose Supplementary type of VAT Statement by exporting the Statement.
-In the Calculate and post VAT Settlement functionality, the Posted Document Number is stored in closed VAT entries as VAT Settlement No. for further filtering in VAT Statement and reports. This feature allows calculation and printing VAT statement for different VAT statements posted and submitted in one VAT Period.
+Podle § 43 část 1 zákona o DPH 235/2004 může plátce předložit dodatečné hlášení DPH. V případě, že chce uživatel provést dodatečné hlášení DPH, vybere si Typ hlášení – Dodatečné v rámci exportu výkazu.  
+Ve funkcionalitě Vypočítat a účtovat vyrovnání DPH je číslo dokladu uloženo do uzavíraných položek DPH jako Číslo daňového přiznání  pro další vyhledávání ve výkazu DPH a sestavách. Tato funkce umožňuje výpočet a tisk pro různé výkazy DPH zaúčtované a podané v jednom období DPH.
 
-## VIES
+## Souhrnné hlášení  
 
-The VIES report is used for sales declaration to tax authorities in EU (European Union) countries. By §102 of VAT Law 235/2004, payers are obliged to submit VIES declaration („Souhrnné hlášení“). The VIES declaration has to be submitted to the Tax Office electronically.
-The VIES functionality allows to:
+Souhrnné hlášení je používáno k hlášením o prodejích daňovým orgánům v zemích EU (Evropské unie). Podle § 102 zákona o DPH 235/2004 je plátce povinen podat Souhrnné hlášení. Souhrnné hlášení musí být podáno elektronicky na finanční úřad.  
 
-- Set up State Reporting 
-- Select combinations of VAT Business/Product posting group (VAT Posting Setup) to include into the VIES Reporting
-- Keep the VIES Reporting history
-- Input all information needed for electronic file submission
-- Suggest Lines for VIES Reporting
-- Support corrective declarations
-- Export data into file for electronic submission
+Funkcionalita Souhrnného hlášení umožňuje:
 
-## Unreliable Payer
+- Nastavit stat. vykazování s obecným nastavením pro hlášení
+- Vybrat kombinace DPH obchodní účto skupiny a DPH účto skupiny zboží (nastavení účtování DPH) pro zahrnutí do souhrnného hlášení
+- Uchovat historii souhrnných hlášení
+- Zadat všechny informace potřebné pro elektronické podání souboru
+- Navrhnout řádky pro souhrnné hlášení
+- Podporovat opravná hlášení
+- Exportovat data do souboru pro elektronické podání
 
-The amendment of VAT Law 235/2004 (§106a) introduced the institute of Unreliable Payer. The Treasury Department is obliged to publish the names of Unreliable Payers. 
-This feature uses this service to obtain published information and indicate payer status on Vendor card and purchase documents. 
-The Treasury Department also publishes information about registered bank accounts of the payer (only these accounts are allowed for payments). Information about payer registered bank accounts is stored on the Vendor Bank Accounts and used in Cash Management.
+## Institut nespolehlivého plátce  
 
-## VAT Exchange Rate
-The exchange rate is located in documents, but Czech Republic requires the possibility to set different exchange rates for posting and VAT in sales and purchase documents. This feature adds VAT Currency Code field and VAT Exchange Rate in documents. Users can change the exchange rate for VAT before document posting.
+Novela zákona o DPH 235/2004 (§ 106a) zavedla institut nespolehlivého plátce. Ministerstvo financí zveřejňuje elektronicky seznam nespolehlivých plátců.  
+Tato funkce využívá tuto službu k získání zveřejněných informací a ukazuje stav plátce na kartách dodavatelů a nákupních dokladech.  
+Ministerstvo financí také zveřejňuje informace o registrovaných bankovních účtech plátců (pouze tyto účty jsou povoleny pro platby). Informace o registrovaných bankovních účtech plátců jsou uloženy v Bankovních účtech dodavatele a používány v rámci platebního styku.
 
-## [VAT Control Report](vat-control-report.md)
+## Směnný kurz pro DPH  
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] functionality has been extended by the VAT Control Report. VAT items are loaded by the VAT Date or Posting Date (according to the general ledger setup) into the form for the selected period. To process the control report you have to setup VAT control report sections, tariff numbers, VAT statement, stat. reporting setup and extended the VAT posting setup.  
+Směnný kurz se již v dokladech nachází, ale v České republice musí existovat možnost nastavit v prodejních a nákupních dokladech jiný směnný kurz pro účtování a jiný pro výpočet DPH. Tato funkce přidává pole Kód měny DPH a Směnný kurz DPH na dokladech.  Uživatelé mohou změnit směnný kurz pro DPH před zaúčtováním dokladů.  
 
-## VAT Reports
+## [Kontrolní hlášení DPH](vat-control-report.md)
 
-In order to achieve requirements in legislation reporting and local reporting practices of Czech companies, this feature provides the following reports:
+Funkcionalita [!INCLUDE[d365fin](../../includes/d365fin_md.md)] byla rozšířena o Kontrolní hlášení DPH. Položky DPH jsou pro zvolené datum DPH a datum zaúčtování (podle nastavení hlavní knihy) načítány do formuláře podle zvoleného období.  Ke zpracování kontrolního hlášení je nutné nastavit sekce kontrolního hlášení DPH, čísla sazebníku, výkaz DPH, nastavení  stat. vykazování a rozšířené nastavení účtování DPH.
 
-- Calc. and Post VAT Settlement – standard report adjusted
-- Documentation for VAT
-- VAT Document List 
-- VAT List on Sales Adv. Letter
-- VAT List on Purch. Adv. Letter
+## Sestavy DPH
 
-## See Also
+Pro splnění nároků na tiskové výstupy odpovídající legislativním požadavkům a místním zvyklostem poskytuje tato funkce následující sestavy:  
 
-[Czech Local Functionality](czech-local-functionality.md)
+- Výpočet a účtování vyrovnání DPH - standartní sestava byla přizpůsobena
+- Podklady pro DPH
+- Seznam daňových dokladů,
+- Přehled DPH na prodejních  zálohách
+- Přehled DPH na  nákupních  zálohách
+
+## Viz také
+
+[Česká lokální funkcionalita](czech-local-functionality.md)

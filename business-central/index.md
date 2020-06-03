@@ -1,6 +1,6 @@
 ---
-title: Meet Microsoft Dynamics 365 Business Central
-description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
+title: Seznamte se s Microsoft Dynamics 365 Business Central
+description: Další informace o možnostech a pracovních scénářích v Business Central, řešení podnikového řízení pro malé a střední společnosti.
 author: ZdenekBicek
 
 ms.service: dynamics365-business-central

@@ -1,28 +1,34 @@
 ---
-title: Fields Required to Complete Processes | Microsoft Docs
-description: Learn about fields marked with a red asterisk, which indicates that they are required and must be filled in to complete a processes.
+
+title: Pole potřebná k dokončení procesu | Microsoft Docs
+description: Dozvíte se o polích označených červenou hvězdičkou, což znamená, že jsou povinná a pro dokončení procesů musí být vyplněna.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: ZdenekBicek
+
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 01/14/2020
+ms.reviewer: v-zdbice
 ms.author: solsen
 
 ---
 # Detekce povinných polí
-Když zadáváte data na stránky v  [!INCLUDE[d365fin](includes/d365fin_md.md)], některá políčka jsou označena červenou hvězdičkou. Červená hvězdička znamená, že pole musí být vyplněno, aby bylo možné dokončit určitý proces, který toto pole používá, například zaúčtování transakce, která používá hodnotu v poli.
 
-Přestože pole obsahuje červenou hvězdičku, není nutné pole vyplňovat dříve, než budete pokračovat v jiných polích nebo stránku zavřít. Červená hvězdička slouží pouze jako připomenutí, že vám bude zablokováno dokončení určitého procesu.
+Když zadáte data na stránkách v [!INCLUDE[d365fin](includes/d365fin_md.md)], některá pole jsou označena červenou hvězdičkou. Červená hvězdička znamená, že pole musí být vyplněno, aby se dokončil určitý proces, který pole používá, jako je účtování transakce, která používá hodnotu v poli.
+
+Přestože pole obsahuje červenou hvězdičku, nemusíte pole vyplňovat dříve, než budete pokračovat v jiných polích nebo zavřete stránku. Červená hvězdička slouží pouze jako připomenutí, že vám bude zablokováno dokončení určitého procesu.
 
 ## Příklady
-Na stránce **kartě zákazníka** se v poli **Název**, v poli **Kód daňové oblasti** a v účto skupinách se objeví červená hvězdička, označuje to, že prodejní transakci pro zákazníka nemůžete zaúčtovat, pokud nejsou pole vyplněna.
 
-Na **kartě zboží**, se červená hvězdička v poli **Popis** zobrazí pro indikaci, že nemůžete zadat zboží na řádek dokladu, jako je například prodejní objednávka, pokud toto pole není vyplněno.
+Na stránce **Karta zákazníka** se v poli **Název**, a v polích účto skupin zobrazí červená hvězdička, což znamená, že nelze zaúčtovat prodejní transakci pro zákazníka, pokud nejsou pole vyplněna.
 
-## Viz také
+Na stránce **Karta zboží** se v poli **Popis** zobrazí červená hvězdička, která označuje, že nemůžete zadat zboží na řádku dokumentu, například na prodejní objednávku, pokud není toto pole vyplněno.
+
+## See Also
+
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

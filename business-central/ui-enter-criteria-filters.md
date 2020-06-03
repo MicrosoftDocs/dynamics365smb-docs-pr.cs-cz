@@ -1,292 +1,286 @@
 ---
 title: 'Řazení, vyhledávání a filtrování seznamů | Microsoft Docs'
 description: 'Pracujte efektivně v seznamech tím, že prohledáváte data, řadíte sloupce a zpřesňujete výsledky pomocí výkonných symbolů filtru a klávesových zkratek.'
-author: jswymer
+author: ZdenekBicek
+
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'delimit, FlowFilter, totals, limit, advanced'
-ms.date: 10/01/2018
+ms.date: 01/09/2020
+ms.reviewer: v-zdbice
 ms.author: jswymer
 ---
 
-# <a name="sorting-searching-and-filtering-lists"> </a>Řazení, vyhledávání a filtrování seznamů
+# Řazení, vyhledávání a filtrování
 
-Existuje několik věcí, které můžete udělat, aby vám pomohly prohlížet, najít a redukovat záznamy v seznamu. Patří sem řazení, vyhledávání a filtrování. Některé nebo všechny z nich můžete použít současně pro rychlé nalezení nebo analýzu vašich dat.
+Existuje několik věcí, které můžete udělat, aby vám pomohly prohlížet, najít a omezit záznamy v seznamu nebo v sestavě či XML portu. Patří sem řazení, vyhledávání a filtrování. Některé nebo všechny z nich můžete použít současně pro rychlé nalezení nebo analýzu vašich dat.
+
+U sestav a XML portů můžete nastavit filtry jako v seznamech, aby bylo možné určit, která data mají být zahrnuta do sestavy nebo XML portu, ale nemůžete data řadit a prohledávat.
 
 > [!TIP]
-> Při prohlížení dat jako dlaždic můžete vyhledávat a používat základní filtrování. Chcete-li použít celou řadu výkonných funkcí pro třídění, vyhledávání a filtrování, vyberte ikonu ![Zobrazit jako seznam](media/ui_show_as_list_icon.png "Zobrazit jako seznam šipka doleva") pro zobrazení dat jako seznamu.
+> Při prohlížení dat jako dlaždic můžete vyhledávat a používat základní filtrování. Chcete-li použít kompletní řadu výkonných funkcí pro třídění, vyhledávání a filtrování, vyberte ikonu ![Zobrazit jako seznam](media/ui_show_as_list_icon.png "Zobrazit jako seznam") pro zobrazení dat jako seznamu.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
-## <a name="sorting"> </a>Řazení
+## Řazení
 
-Řazení vám usnadňuje dostat rychlý přehled o vašich datech. Máte-li například mnoho zákazníků, můžete je řadit podle **Čísla zákazníka**, **Účto skupiny zákazníka**, **Kódu měny**, **Kódu zěmě/oblasti** nebo **Čísla registrace DPH**, abyste dostali přehled, který potřebujete.
+Řazení vám usnadňuje dostat rychlý přehled o vašich datech. Máte-li například mnoho zákazníků, můžete je řadit podle **Čísla zákazníka**, **Účto skupiny zákazníka**, **Kódu měny**, **Kódu zěmě/oblasti** nebo **DIČ**, abyste dostali přehled, který potřebujete.
 
 Chcete-li seřadit seznam, můžete buď zvolit text záhlaví sloupce pro přepínání mezi vzestupným a sestupným pořadí, nebo zvolit malou šipku dolů v záhlaví sloupce a poté zvolit **Vzestupně** nebo **Sestupně**.  
 
 > [!NOTE]  
->   Řazení není podporováno pro obrázky, pole typu BLOB, dynamický filtr a pole, která nepatří do tabulky.  
+> Řazení není podporováno pro obrázky, pole typu BLOB, dynamické filtry (FlowFilters) a pole, která nepatří do tabulky.  
 
-## <a name="searching"> </a>Vyhledávání
+## Vyhledávání
 
 <!--## Searching by using the Quick Filter -->
 
-V horní části každé stránky seznamu je ikona ![Prohledat seznam](media/ui-search/search-list.png "ikona Prohledat seznam") **Hledat**, která poskytuje rychlý a snadný způsob, jak redukovat záznamy v seznamu a zobrazit pouze ty záznamy, které obsahují data, která chcete vidět.
+V horní části každé stránky seznamu je ikona ![Prohledat seznam](media/ui-search/search-list.png "Prohledat seznam") **Hledat**, která poskytuje rychlý a snadný způsob, jak redukovat záznamy v seznamu a zobrazit pouze ty záznamy, které obsahují data, která chcete vidět.
 
 Chcete-li hledat, jednoduše vyberte ikonu vyhledávání a potom do pole zadejte hledaný text. Můžete zadat písmena, čísla a další symboly.
 
-### <a name="fine-tune-the-search"> </a>Doladění vyhledávání
+### Doladění vyhledávání
 
-Obecně se vyhledávání pokusí shodovat text ve všech polích; nerozlišuje mezi malými a velkými písmeny a bude odpovídat textu umístěnému kdekoli v poli (na začátku, na konci nebo uprostřed).
+Obecně se vyhledávání pokusí vyhledat text ve všech polích. Nerozlišuje mezi malými a velkými písmeny (case insensitive) a bude vyhledávat text umístěný kdekoli v poli (na začátku, na konci nebo uprostřed).
 
 Přesnější vyhledávání však můžete provést pomocí následujících speciálních znaků:
 
 - Chcete-li najít pouze hodnoty polí, které přesně odpovídají celému textu a velikosti písmen, umístěte hledaný text mezi jednoduché uvozovky `''` (například `'man'`).
 
-- Chcete-li najít hodnoty polí, které začínají určitým textem a odpovídají případu, umístěte `*` za hledaný text (například `man*`).
+- Chcete-li najít hodnoty polí, které začínají určitým textem a odpovídají velikosti písmen, umístěte `*` za hledaný text (například `man*`).
 
-- Chcete-li najít hodnoty polí, které končí určitým textem a odpovídají případu, umístěte `*` za hledaný text (například `*man`).
+- Chcete-li najít hodnoty polí, které končí určitým textem a odpovídají velikosti písmen, umístěte `*` před hledaný text (například `*man`).
 
 - Při použití `''` nebo `*` se při vyhledávání rozlišují malá a velká písmena. Pokud chcete, aby vyhledávání nerozlišovalo malá a velká písmena, umístěte `@` před hledaný text (například `@man*`).
 
 V následující tabulce jsou uvedeny některé příklady, které vysvětlují, jak můžete vyhledávání použít.
 
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
-| Kritéria vyhledávání        | Najde...                                                                                                                                                    |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `man`<br />nebo <br />`Man` | Všechny záznamy s poli, které obsahují text **man** bez ohledu na malá a velká písmena. Například **Manchester**, **manual** nebo **Sportsman**.            |
-| `'Man'`                     | Všechny záznamy s poli, které obsahují text **Man** s ohledem na malá a velká písmena.                                                                      |
-| `Man*`                      | Všechny záznamy s poli, které začínají textem <b>Man</b> s ohledem na malá a velká písmena. Například **Manchester**, ale ne **manual** nebo **Sportsman**. |
-| `@Man*`                     | Všechny záznamy s poli, které začínají na **man** bez ohledu na malá a velká písmena. Například **Manchester**, **manual**, ale ne **Sportsman**.           |
-| `@*man`                     | Všechny záznamy, které končí na **man** bez ohledu na malá a velká písmena. Například  **Sportsman**, ale ne **Manchester** nebo **manual**.                |
+|Kritéria vyhledávání|Najde...|
+|--------------------|------- |
+|`man`<br />nebo <br />`Man`|Všechny záznamy s poli, které obsahují text **man** bez ohledu na malá a velká písmena. Například **Manchester**, **manual** nebo **Sportsman**.|
+|`'Man'`|Všechny záznamy s poli, které obsahují text **Man** s ohledem na malá a velká písmena.|
+|`Man*`|Všechny záznamy s poli, které začínají textem <b>Man</b> s ohledem na malá a velká písmena. Například **Manchester**, ale ne **manual** nebo **Sportsman**.|
+|`@Man*`|Všechny záznamy s poli, které začínají na **man** bez ohledu na malá a velká písmena. Například **Manchester**, **manual**, ale ne **Sportsman**.|
+|`@*man`|Všechny záznamy, které končí na **man** bez ohledu na malá a velká písmena. Například  **Sportsman**, ale ne **Manchester** nebo **manual**.|
 
 > [!TIP]
 > Stisknutím F3 můžete aktivovat nebo deaktivovat vyhledávací pole. Další informace naleznete v [Klávesové zkratky](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="filtering"> </a>Filtrování
 
-Filtrování poskytuje pokročilejší a všestrannější způsob řízení, které záznamy se zobrazují v seznamu. Mezi vyhledáváním a filtrováním existují dva hlavní rozdíly, jak je popsáno v následující tabulce.
+Filtrování poskytuje pokročilejší a všestrannější způsob řízení, které záznamy se zobrazují v seznamu nebo jsou zahrnuty do sestavy či XML portu. Mezi vyhledáváním a filtrováním existují dva hlavní rozdíly, jak je popsáno v následující tabulce.
 
-|                     | **Vyhledávání**                                                                                                            | **Filtrování**                                                                                                                     |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| **Použitelná pole** | Prohledává všechna pole, která jsou viditelná na stránce.                                                                  | Filtruje jedno nebo více polí jednotlivě a vybírá z kteréhokoli pole v tabulce, včetně polí, která nejsou na stránce viditelná.    |
-| **Odpovídající**    | Zobrazuje záznamy s poli, která odpovídají hledanému textu, bez ohledu na malá a velká písmena nebo umístění tohoto textu. | Zobrazuje záznamy, kde pole přesně odpovídá filtru a rozlišuje velká a malá písmena, pokud nejsou zadány speciální symboly filtru. |
+||**Vyhledávání**|**Filtrování**|
+|--|------------|------------|
+|**Použitelná pole**|Prohledává všechna pole, která jsou viditelná na stránce.|Filtruje jedno nebo více polí jednotlivě a vybírá z kteréhokoli pole v tabulce, včetně polí, která nejsou na stránce viditelná.|
+|**Shoda**|Zobrazuje záznamy s poli, která odpovídají hledanému textu, bez ohledu na malá a velká písmena nebo umístění tohoto textu.|Zobrazuje záznamy, kde pole přesně odpovídá filtru a rozlišuje velká a malá písmena, pokud nejsou zadány speciální symboly filtru.|
 
-Filtrování umožňuje zobrazit záznamy pro konkrétní účty nebo zákazníky, data, částky a další informace zadáním kritérií filtru. Zobrazí se pouze záznamy, které odpovídají kritériím. Pokud zadáte kritéria pro více polí, zobrazí se pouze záznamy, které odpovídají všem kritériím.
+Filtrování umožňuje zobrazit záznamy pro konkrétní účty nebo zákazníky, data, částky a další informace zadáním kritérií filtru. Zobrazí se pouze záznamy, které odpovídají kritériím, se zobrazí v seznamu nebo jsou zahrnuty do sestavy, dávkové úlohy či XML portu. Pokud zadáte kritéria pro více polí, zobrazí se pouze záznamy, které odpovídají všem kritériím.
 
-### <a name="working-in-the-filter-pane"> </a>Práce v podokně filtru
+U seznamů jsou filtry zobrazeny na podokně filtrů, který se po aktivaci zobrazí na levé straně seznamu. U sestav, dávkových úloh a XML portů jsou filtry viditelné přímo na stránce dialogu.
 
-Podokno filtru zobrazuje aktuální filtry seznamu a umožňuje vám nastavit vlastní filtry na jedno nebo více polí. Následující obrázek ukazuje příklad podokna filtru pro seznam prodejních nabídek.
+### Filtrování pomocí polí typu Volba (Option)
 
-![Přehled podokna filtru](media/filter-pane-overview.png "Ikona filtru")
+U „běžných“ polí, která obsahují data, datum nastavení nebo obchodní data, můžete nastavit filtry výběrem dat i zadáním hodnot filtru a pomocí symbolů můžete definovat pokročilá kritéria pro filtrování. Další informace naleznete v části [Zadávání kritérií filtru](ui-enter-criteria-filters.md#entering-filter-criteria).
 
-Chcete-li zobrazit podokno filtru, použijte klávesovou zkratku **Shift+F3**. U seznamů v Centru rolí můžete také vybrat šipku dolů vedle nadpisu stránky na navigační liště nad seznamem a poté zvolit **Zobrazit podokno filtru**.
+Pro pole typu **Option** však můžete nastavit filtr pouze výběrem jedné nebo více možností z rozevíracího seznamu dostupných voleb. Příkladem pole typu Volba (Option) je pole **Stav** na stránce **Prodejní objednávky**.
 
-![Zobrazit podokno filtru](media/open-filter-pane.png "Zobrazit podokno filtru")
+### Nastavení filtrů v seznamech
 
-Podokno filtru je rozděleno do tří sekcí: **Zobrazení**, **Filtrovat seznam podle** a **Filtrovat součty podle**:
+V seznamech nastavujete filtry pomocí podokna filtrů. Chcete-li zobrazit podokno filtru pro seznam, vyberte rozevírací šipku vedle názvu stránky a poté vyberte akci **Zobrazit podokno filtru**. Případně stiskněte **Shift+F3**.
 
-- **Zobrazení**
-  
-  Některé seznamy budou zahrnovat sekci **Zobrazení**. Zobrazení jsou variace seznamu, které byly předkonfigurovány pomocí filtrů. Chcete-li přepnout do jiného zobrazení seznamu, jednoduše vyberte jiný odkaz. Filtry můžete v zobrazení dočasně změnit, ale změny se neuloží natrvalo.
+Chcete-li zobrazit podokno filtru pro sloupec v seznamu, vyberte rozevírací šipku a poté vyberte akci **Filtr**. Případně stiskněte **Shift+F3**. Otevře se podokno filtru s vybraným sloupcem zobrazeným jako pole filtru v sekci **Seznam filtrů podle**.
 
-- **Filtrovat seznam podle**
-  
-  V sekci **Filtrovat seznam podle** můžete přidat filtry do konkrétních polí, abyste snížili počet zobrazených záznamů. Chcete-li přidat filtr, vyberte **+ Filtr**, zvolte pole, které chcete filtrovat z libovolného pole v tabulce, a do pole zadejte kritéria filtru.
+Podokno filtru zobrazuje aktuální filtry seznamu a umožňuje vybrat vlastní filtry do jednoho nebo více polí výběrem akce **+ Filtr**.
 
-- **Filtrovat součty podle**
-  
-  Některé seznamy, které zobrazují vypočtená pole, například částky a množství, budou zahrnovat sekci **Filtrovat součty podle**, kde můžete upravit různé kóty, které ovlivňují výpočty. Můžete například rychle analyzovat svou účetní osnovu filtrováním částek do konkrétního období, nebo si můžete zobrazit součty prodejních objednávek pouze z konkrétního skladu.
-  
-  Chcete-li přidat filtr, vyberte **+ Filtr**, zvolte jednu z předdefinovaných dimenzí a poté do pole přidejte kritéria filtru.
-  
-  > [!NOTE]
-  > Filtry v sekci **Filtrovat součty podle** jsou řízeny pomocí dynamických filtrů v návrhu stránky. Pro další informace navštivte [Dynamické filtry](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+Podokno filtru je rozděleno do tří částí: **Pohledy**, **Filtrovat seznam** a **Filtrovat součty**:
 
-### <a name="entering-filter-criteria-in-the-filter-pane"> </a>Zadání kritérií filtru v podokně filtru
+- **Pohledy**
 
-Chcete-li vybrat pole, které chcete filtrovat, proveďte jednu z následujících akcí:
+  Některé seznamy obsahují sekci **Pohledy**. Pohledy jsou varianty seznamu, které byly předkonfigurovány pomocí filtrů. V seznamu můžete definovat a uložit tolik pohledů, kolik chcete, a tato zobrazení budou k dispozici na jakémkoli zařízení, ke kterému se přihlásíte. Další informace viz [Ukládaní a přizpůsobení zobrazení seznamů](ui-views.md).
 
-- V podokně filtru vyberte **+ Pole**. Zadejte název pole, které chcete filtrovat, nebo vyberte pole z nabídky, která zobrazuje všechna pole v tabulce.
+- **Filtrovat seznam dle**
 
-- V záhlaví sloupce vyberte šipku dolů a pak zvolte **Filtr...**. Tím se otevře podokno filtru a sloupec se přidá do podokna filtru.
+   Zde přidáte filtry na konkrétní pole, abyste snížili počet zobrazených záznamů. Chcete-li přidat filtr, vyberte akci **+ Filtr**, zadejte název pole, podle kterého chcete seznam filtrovat, nebo vyberte pole z rozevíracího seznamu.
 
-Nyní můžete do pole zadat nebo vybrat kritéria filtru. Typ pole, které filtrujete, určuje, která kritéria můžete zadat. Například filtrování pole s pevnými hodnotami vám umožní pouze vybrat z těchto hodnot. Pro více informací o speciálních symbolech filtrů navštivte [Kritéria filtru](#FilterCriteria) a [Tokeny filtru](#FilterTokens).
+- **Filtrovat součty dle**
 
-Sloupce, které již mají filtry, jsou označeny ![ikona filtru](media/ui-search/filter-icon.png "ikona filtru") v záhlaví sloupce. Chcete-li odebrat filtr, vyberte záhlaví sloupce a poté zvolte **Vymazat filtr**.
+  Některé seznamy, které zobrazují vypočtená pole, například částky a množství, budou zahrnovat sekci **Filtrovat součty dle**, kde můžete upravit různé dimenze, které ovlivňují výpočty. Chcete-li přidat filtr, vyberte akci **+ Filtr**, zadejte název pole, podle kterého chcete seznam filtrovat, nebo vyberte pole z rozevíracího seznamu.
 
-### <a name="entering-filter-criteria-without-the-filter-pane"> </a>Zadání kritérií filtru bez podokna filtru
+ > [!NOTE]
+ > Filtry v sekci **Filtrovat součty dle** jsou řízeny pomocí FlowFilters při návrhu stránky. Technické informace viz [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-Jednoduché filtry můžete určit přímo v seznamu, aniž byste museli používat podokno filtru.
-S libovolným polem vybraným v řádku použijte klávesovou zkratku **Alt+F3** pro zobrazení pouze záznamů se stejnou hodnotou. Poté můžete vybrat další pole a znovu použít stejnou zkratku k dalšímu zdokonalování filtrů. Pokud je vybrané pole již filtrováno, pomocí **Alt+F3** se tento filtr vymaže.
+Jednoduchý filtr můžete nastavit přímo v seznamu pomocí podokna filtrů, konkrétně filtru, který zobrazuje pouze záznamy se stejnou hodnotou jako ve vybrané buňce. Vyberte buňku v seznamu, vyberte rozevírací šipku a poté vyberte akci **Filtr na tuto hodnotu**. Případně stiskněte **Alt+F3**.
+
+### Nastavení filtrů v sestavách, dávkových úlohách a XML portech
+
+U sestav a XML portů jsou filtry viditelné přímo na stránce dialogu. Na stránce dialogu se zobrazí poslední použité filtry podle vašeho výběru v poli **Použít výchozí hodnoty z**. Další informace naleznete v části [Používání uložených nastavení](ui-work-report.md#SavedSettings).
+
+Hlavní část **Filtr** zobrazuje výchozí pole filtru, která používáte k vymezení záznamů, které mají být zahrnuty do sestavy nebo XML portu. Chcete-li přidat filtr, vyberte akci **+ Filtr**, zadejte název pole, podle kterého chcete filtrovat, nebo vyberte pole z rozevíracího seznamu.
+
+V sekci **Filtrovat součty dle** můžete upravit různé dimenze, které ovlivňují výpočty v sestavě nebo XML portu. Chcete-li přidat filtr, vyberte akci **+ Filtr**, zadejte název pole, podle kterého chcete filtrovat, nebo vyberte pole z rozevíracího seznamu.
+
+## <a name="entering-filter-criteria"> </a>Zadávání kritérií filtru
+
+V podokně filtru i na stránce dialogu zadáte kritéria filtru do pole pod filtrovaným polem.
+
+Typ filtrovacího pole určuje, která kritéria můžete zadat. Například filtrování pole s pevnými hodnotami vám umožní pouze vybrat z těchto hodnot. Další informace o speciálních symbolech filtrů naleznete v části [Kritéria filtrů](#FilterCriteria) a [Tokeny filtrů](#FilterTokens).
+
+Sloupce, které již mají filtry, jsou v záhlaví sloupce označeny ikonou ![Filter icon](media/ui-search/filter-icon.png "Ikona filtru"). Chcete-li odebrat filtr, vyberte rozevírací šipku a poté vyberte akci **Vymazat filtr**.
 
 > [!TIP]
-> Urychlete vyhledávání a analýzu dat pomocí kombinací klávesových zkratek. Například vyberte pole, použijte **Shift+Alt+F3** k přidání tohoto pole do podokna filtru, zadejte kritéria filtru, použijte **Ctrl+Enter** pro návrat do řádků, vyberte jiné pole a použijte **Alt+F3** k filtrování této hodnoty.
-> Další informace naleznete v [Klávesové zkratky](keyboard-shortcuts.md#KeyboardFilter).
+> Zrychlete vyhledávání a analýzu dat pomocí kombinací klávesových zkratek. Například vyberte pole, použijte **Shift+Alt+F3** k přidání tohoto pole do podokna filtru, zadejte kritéria filtru, použijte **Ctrl+Enter** pro návrat do řádků, vyberte jiné pole a použijte k tomu filtru **Alt+F3**. Další informace viz [Klávesové zkratky](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="FilterCriteria"> </a>Kritéria a symboly filtru
+### <a name="FilterCriteria"> </a>Kritéria a symboly filtrů
 
-Při zadávání kritérií můžete použít všechna čísla a písmena, která můžete v poli normálně použít. Kromě toho můžete použít speciální symboly k dalšímu filtrování výsledků. Následující tabulky ukazují symboly, které lze použít ve filtrech. Další informace o datech a časech naleznete také v [Práce s daty a časy kalendáře](ui-enter-date-ranges.md).
+Při zadávání kritérií můžete použít všechna čísla a písmena, která můžete v poli normálně použít. Kromě toho můžete k dalšímu filtrování výsledků použít speciální symboly (nebo operátory). Následující tabulky ukazují symboly, které lze použít ve filtrech. Další informace o datech a časech naleznete také v části [Práce s kalendářními daty a časy](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
->  Mohou se vyskytnout případy, kdy hodnoty polí obsahují tyto symboly a vy je chcete filtrovat. Chcete-li toto provést, musíte do uvozovek ('') zahrnout výraz filtru, který obsahuje symbol. Pokud například chcete filtrovat záznamy, které začínají textem *S&R*, výraz je filtru `'S&R*'`.  
+> Mohou nastat případy, kdy hodnoty polí obsahují tyto symboly a chcete je filtrovat. Chcete-li to provést, musíte do uvozovek ('') zahrnout vzorec filtru, který obsahuje symbol. Pokud například chcete filtrovat záznamy, které začínají textem *S&R*, je vzorec filtru `'S&R*'`.
 
-### <a name="-interval"> </a>(..) Interval
+Následující oddíly popisují, jak používat různé operátory.
 
-| Ukázkový výraz | Záznamy zobrazeny                                                                    |
-| -------------- | ------------------------------------------------------------------------------------ |
-| `1100..2100`   | Čísla 1100 až 2100                                                                   |
-| `..2500`       | Až do 2500 včetně                                                                    |
-| `..12 31 00`   | Data do 12 31 00 včetně                                                              |
-| `P8..`         | Informace za účetní období 8 a následující                                           |
-| `..23`         | Od počátečního data do 23-aktuální měsíc-aktuální rok 23:59:59                       |
-| `23..`         | Od 23-aktuální měsíc-aktuální rok 0:00:00 do konce času                              |
-| `22..23`       | Od 22-aktuální měsíc-aktuální rok 0:00:00 do 23-aktuální měsíc-aktuální rok 23:59:59 |
+> [!NOTE]
+> Pokud je v jednom filtru více než 200 operátorů, systém za účelem zpracování automaticky seskupí některé vzorce v závorkách `()`. To nemá žádný vliv na filtr ani na výsledky.
 
-### <a name="124-eitheror"> </a>(&#124;) Buď/nebo
+#### (..) Interval
 
-| Ukázkový výraz | Záznamy zobrazeny |
-| -------------- | ----------------- |
-| `1200          | 1300`             |
+|Ukázka vzorce|Zobrazené záznamy|
+|-----------------------|-----------------------|
+|`1100..2100`|Čísla 1100 až 2100|
+|`..2500`|Do 2500 včetně|
+|`..31 12 00`|Data do 31.12.00 včetně|
+|`P8..`|Informace pro účetní období 8 a následující|
+|`..23`|Od začátku do 23. aktuálního měsíce v aktuálním roce 23:59:59|
+|`23..`|Od 23. aktuálního měsíce aktuálního roku 0:00:00 do konce času|
+|`22..23`|Od 22. aktuálního měsíce aktuálního roku 0:00:00 do 23. aktuálního měsíce aktuálního roku 23:59:59|
 
-### <a name="-not-equal-to"> </a>(<>) Není rovno
+#### (&#124;) Buď a nebo
 
-| Ukázkový výraz | Záznamy zobrazeny                                                                                                                                                                    |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `<>0`          | Všechny čísla kromě 0<br /><br /> Možnost SQL Server umožňuje kombinovat tento symbol s výrazem zástupných znaků. Například <>A* znamená nerovnost žádnému textu, který začíná na A. |
+|Ukázka vzorce |Zobrazené záznamy|
+|-----------------------|-----------------------|
+|`1200|1300`|Čísla 1200 nebo 1300|
 
-### <a name="-greater-than"> </a>(>) Větší než
+#### (<>) Není rovno
 
-| Ukázkový výraz | Záznamy zobrazeny    |
-| -------------- | -------------------- |
-| `>1200`        | Čísla větší než 1200 |
+|Ukázka vzorce|Zobrazené záznamy|
+|-----------------------|-----------------------|
+|`<>0`|Všechna čísla kromě 0 <br /><br /> Volba SQL serveru umožňuje kombinovat tento symbol s vzorceem zástupných znaků. Například <>A* znamená, že se nerovná žádnému textu, který začíná na A.|
 
-### <a name="-greater-than-or-equal-to"> </a>(>=) Větší než nebo rovno
+#### (>) Větší než
 
-| Ukázkový výraz | Záznamy zobrazeny               |
-| -------------- | ------------------------------- |
-| `>=1200`       | Čísla větší než nebo rovno 1200 |
+|Ukázka vzorce|Zobrazené záznamy|
+|-----------------------|-----------------------|
+|`> 1200`|Čísla větší než 1200|
 
-### <a name="-less-than"> </a>(<) Menší než
+#### (> =) Větší než nebo rovno
 
-| Ukázkový výraz | Záznamy zobrazeny    |
-| -------------- | -------------------- |
-| `<1200`        | Čísla menší než 1200 |
+|Ukázka vzorce|Zobrazené záznamy|
+|-----------------------|-----------------------|
+|`>=1200`|Čísla větší nebo rovnající se 1200|
 
-### <a name="-less-than-or-equal-to"> </a>(?=) Menší než nebo rovno
+#### (<) Menší než
 
-| Ukázkový výraz | Záznamy zobrazeny               |
-| -------------- | ------------------------------- |
-| `<=1200`       | Čísla menší než nebo rovno 1200 |
+|Ukázka vzorce|Zobrazené záznamy|
+|--------------|--------------------|
+|`<1200`|Čísla menší než 1200|
 
-### <a name="-and"> </a>(&) A
+#### (?=) Menší než nebo rovno
 
-| Ukázkový výraz | Záznamy zobrazeny                            |
-| -------------- | -------------------------------------------- |
-| `>200&<1200`   | Čísla větší než 200 a zároveň menší než 1200 |
+|Ukázka vzorce|Zobrazené záznamy|
+|--------------|-------------------------------|
+|`<=1200`|Čísla menší než nebo rovno 1200|
 
-### <a name="-an-exact-character-match"> </a>('') Přesná shoda znaků
+#### (&) A
 
-| Ukázkový výraz | Záznamy zobrazeny                                                        |
-| -------------- | ------------------------------------------------------------------------ |
-| `'man'`        | Text, který přesně odpovídá výrazu man a rozlišuje velká a malá písmena. |
+|Ukázka vzorce|Zobrazené záznamy|
+|--------------|---------------------------------|
+|`>200&<1200`|Čísla větší než 200 a zároveň menší než 1200|
 
-### <a name="-case-insensitive"> </a>(@) Nerozlišující malá a velká písmena
+#### ('') Přesná shoda znaků
 
-| Ukázkový výraz | Záznamy zobrazeny                                          |
-| -------------- | ---------------------------------------------------------- |
-| `@man*`        | Text, který začíná man a nerozlišuje velká a malá písmena. |
+|Ukázka vzorce|Zobrazené záznamy|
+|-------------|-------------------------------- |
+|`'man'|Text, který přesně odpovídá vzorce man a rozlišuje velká a malá písmena.|
 
-### <a name="-an-indefinite-number-of-unknown-characters"> </a>(*) Neomezený počet neznámých znaků
+#### (@) Nerozlišující malá a velká písmena
 
-| Ukázkový výraz | Záznamy zobrazeny                                            |
-| -------------- | ------------------------------------------------------------ |
-| `*Co*`         | Text, který obsahuje “Co“ a rozlišuje malá a velká písmena.  |
-| `*Co`          | Text, který končí na “Co“ a rozlišuje malá a velká písmena.  |
-| `Co*`          | Text, který začíná na “Co“ a rozlišuje malá a velká písmena. |
+|Ukázka vzorce|Zobrazené záznamy|
+|-------------|-----------------|
+|`@man*`|Text, který začíná man a nerozlišuje velká a malá písmena.|
+
+#### (*) Neomezený počet neznámých znaků
+
+|Ukázka vzorce|Zobrazené záznamy|
+|-------------|---------------------------------- |
+|`*Co*`|Text, který obsahuje “Co“ a rozlišuje malá a velká písmena.|
+|`*Co`|Text, který končí na “Co“ a rozlišuje malá a velká písmena.|
+|`Co*`|Text, který začíná na “Co“ a rozlišuje malá a velká písmena.|
 
 > [!NOTE]  
->   Nemůžete použít `*` při filtrování na pole voleb (výčtového typu), například pole **Stav** na prodejních objednávkách. Chcete-li zadat filtr pro tento typ pole, můžete zadat číselnou hodnotu jako parametr filtrování. Například v poli **Stav** na prodejní objednávce, která má hodnoty **Otevřeno**, **Vydáno**, **Čeká na schválení** a **Čeká na zálohu** použijte hodnoty `0`, `1`, `2` a `3` k filtrování těchto možností.
+> Nemůžete použít `*` při filtrování pole Volba (Option), například pole **Stav** na prodejních objednávkách. Chcete-li zadat filtr pro tento typ pole, můžete zadat číselnou hodnotu jako parametr filtrování. Například v poli **Stav** na prodejní objednávce, která má hodnoty **Otevřeno**, **Vydáno**, **Čeká na schválení** a **Čeká na zálohu** použijte hodnoty `0`, `1`, `2` a `3` k filtrování těchto možností.
 
-### <a name="-one-unknown-character"> </a>(?) Jeden neznámý znak
+#### (?) Jeden neznámý znak
 
-| Ukázkový výraz | Záznamy zobrazeny            |
-| -------------- | ---------------------------- |
-| `Hans?n`       | Text jako Hansen nebo Hanson |
+|Ukázka vzorce|Zobrazené záznamy|
+|-------------|----------------------------|
+|`Hans?n`|Text jako Hansen nebo Hanson|
 
-### <a name="combined-format-expressions"> </a>Výrazy v kombinovaném formátu
+#### Vzorce v kombinovaném formátu
 
-| Ukázkový výraz | Záznamy zobrazeny                                                                   |
-| -------------- | ----------------------------------------------------------------------------------- |
-| `5999          | 8100..8490`                                                                         |
-| `..1299        | 1400..`                                                                             |
-| `>50&<100`     | Obsahuje záznamy s čísly, které jsou větší než 50 a menší než 100 (čísla 51 až 99). |
+|Ukázka vzorce|Zobrazené záznamy|
+|-------------|------------------------------- |
+|`5999|8100..8490`|Obsahuje všechny záznamy s číslem 5999 nebo číslem z intervalu 8100 až 8490.|
+|`..1299|1400..`|Obsahuje záznamy s číslem menším nebo rovným 1299 nebo číslem rovnajícím se 1400 nebo větším (všechna čísla kromě 1300 až 1399).|
+|`>50&<100`|Obsahuje záznamy s čísly, které jsou větší než 50 a menší než 100 (čísla 51 až 99).|
 
-## <a name="FilterTokens"> </a>Tokeny filtru
+### <a name="FilterTokens"> </a>Tokeny filtru
 
 Při zadávání kritérií filtru můžete také psát slova se zvláštním významem, která se nazývají tokeny filtru. Po zadání tokenového slova je slovo nahrazeno hodnotou nebo hodnotami, které představuje. Usnadňuje se tím filtrování snížením potřeby přejít na jiné stránky a vyhledat hodnoty, které chcete do filtru přidat. Níže uvedené tabulky popisují některé tokeny, které můžete zadat jako kritéria filtru.
 
 > [!TIP]
 > Vaše organizace může používat vlastní tokeny. Chcete-li se dozvědět více o kompletní sadě tokenů, které máte k dispozici, nebo přidat další vlastní tokeny, obraťte se na svého správce. Pro více informací navštivte [Přidání tokenů filtru](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-### <a name="me-or-userid-records-assigned-to-you"> </a>(%me nebo %userid) Záznamy, které jsou přiřazeny vám
+#### (%me nebo %userid) Záznamy, které jsou přiřazeny vám
 
 Použijte `%me` nebo `%userid` při filtrování polí, která obsahují ID uživatele, například pole **Přiřazené ID uživatele**, pro zobrazení všech záznamů, které jsou vám přiřazeny.
 
-| Ukázkový výraz                 | Záznamy zobrazeny                                          |
-| ------------------------------ | ---------------------------------------------------------- |
-| `%me`<br />nebo<br />`%userid` | Záznamy, které jsou přiřazeny k vašemu uživatelskému účtu. |
+|Ukázka vzorce|Zobrazené záznamy|
+|-------------------|---------------------------------|
+|`%me`<br />nebo<br />`%userid`|Záznamy, které jsou přiřazeny k vašemu uživatelskému účtu.|
 
-### <a name="mycustomers-customers-in-my-customers"> </a>(%mycustomers) Zákazníci v Mí zákazníci
+#### (%mycustomers) Zákazníci v Mí zákazníci
 
 Pomocí `%mycustomers` v poli **Číslo zákazníka** zobrazíte všechny záznamy pro zákazníky, kteří jsou zahrnuti do seznamu **Mí zákazníci** v centru rolí.
 
-| Ukázkový výraz | Záznamy zobrazeny                                  |
-| -------------- | -------------------------------------------------- |
-| `%mycustomers` | Zákazníci v **Mí zákazníci** ve vašem centru rolí. |
+|Ukázka vzorce|Zobrazené záznamy|
+|-------------|------------------------------------|
+|`%mycustomers`|Zákazníci v **Mí zákazníci** ve vašem centru rolí.|
 
-### <a name="myitems-items-in-my-items"> </a>(%myitems) Zboží v Mé zboží
+#### (%myitems) Zboží v Mé zboží
 
 Pomocí `%myitems` v poli **Číslo zboží** zobrazíte všechny záznamy pro zboží, které jsou zahrnuty do seznamu **Mé zboží** v centru rolí.
 
-| Ukázkový výraz | Záznamy zobrazeny                          |
-| -------------- | ------------------------------------------ |
-| `%myitems`     | Zboží v **Mé zboží** ve vašem centru rolí. |
+|Ukázka vzorce|Zobrazené záznamy|
+|-------------|---------------------------------------|
+|`%myitems`|Zboží v **Mé zboží** ve vašem centru rolí.|
 
-### <a name="myvendors-vendors-in-my-vendors"> </a>(%myvendors) Dodavatelé v Mí dodavatelé
+#### (%myvendors) Dodavatelé v Mí dodavatelé
 
 Pomocí `%myvendors` v poli **Číslo dodavatele** zobrazíte všechny záznamy pro dodavatele, které jsou zahrnuty do seznamu **Mí dodavatelé** v centru rolí.
 
-| Ukázkový výraz | Záznamy zobrazeny                                    |
-| -------------- | ---------------------------------------------------- |
-| `%myvendors`   | Dodavatelé v **Mí dodavatelé** ve vašem centru rolí. |
+|Ukázka vzorce|Zobrazené záznamy|
+|-------------|------------------------------------ |
+|`%myvendors`|Dodavatelé v **Mí dodavatelé** ve vašem centru rolí.|
 
-## <a name="see-also"> </a>Viz také
+## Viz také
 
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Ukládaní a přizpůsobení zobrazení seznamů](ui-views.md)  
 [Časté dotazy týkající se vyhledávání a filtrování](ui-search-filter-faq.md)
+v

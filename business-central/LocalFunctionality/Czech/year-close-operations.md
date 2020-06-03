@@ -6,24 +6,25 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, finance, CZ, closing operations
-ms.date: 05/15/2019
+ms.date: 12/30/2019
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Year closing operations
+# Uzávěrkové operace
 
-To comply with accounting legislation (Accounting Law 563/1991 §17) at the end of the fiscal year, the following account books must be closed or opened:
-- Close Profit and Loss Accounts (Close Income Statement)
-- Close Balance Sheet Accounts (new Close Balance Sheet report)
-- Open Balance Sheet Accounts (new Open Balance Sheet report)
+V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) musí být na konci fiskálního roku provedeny následující účetní operace:
+- Uzavření účtů zisků a ztrát (Uzavření výsledovky)
+- Uzavření rozvahových účtů (nová rozvaha Uzavření rozvahy)
+- Otevření rozvahových účtů (nová rozvaha Otevření rozvahy)
 
-## This feature provides the following changes  
+## Tato funkce obsahuje následující změny
 
-- Close Income Statement – Standard report Close Income Statement improved.
-- Close Balance Sheet – Report Close Balance Sheet added. This report creates lines in General Journal. These lines contain posting to the Closing Balance Sheet account.
-- Open Balance Sheet – Report Open Balance Sheet added. This report creates lines in General Journal. These lines contain posting to the Opening Balance Sheet Account.
+- Uzavření výsledovky – standardní sestava uzavření výsledovky byla vylepšena.
+- Uzavření rozvahy – byla přidána sestava Uzavření rozvahy. Tato sestava je tvořena řádky ve finančním deníku. Tyto řádky obsahují uzávěrková účtování vůči Konečnému účtu rozvážnému.
+- Otevření rozvahy – byla přidána sestava Otevření rozvahy. Tato sestava je tvořena řádky ve finančním deníku. Tyto řádky obsahují uzávěrková účtování vůči Počátečnímu účtu rozvážnému.  
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)  
+## Viz také  
+
+[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Finance](finance.md)

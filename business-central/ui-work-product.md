@@ -10,6 +10,7 @@ ms.reviewer: v-pejano
 ms.author: solsen
 ---
 # Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]
+
 Při provádění obchodních úkolů můžete interagovat s daty různými způsoby, například vytvářením záznamů a zadáváním dat, tříděním a filtrováním dat, zápisem poznámek a výstupem dat do jiných aplikací.
 
 Můžete například upravit velikost a polohu libovolné stránky, rozšířit šířku sloupců a zvětšit výšku záhlaví sloupců a změnit řazení dat ve sloupcích. A pokud chcete použít vodorovný posuvník k zobrazení všech sloupců na stránce seznamu nebo na řádcích dokladu, existuje zde svislé podokno, které omezuje některé sloupce v posouvání.
@@ -17,17 +18,17 @@ Můžete například upravit velikost a polohu libovolné stránky, rozšířit 
 > [!TIP]
 > Chcete-li zobrazit přehled nejpoužívanějších funkcí pro tisk, vyberte následující obrázek a stáhněte si soubor PDF.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [![Cheat sheet](media/cheat_sheet_inline.png "Tipy pro produktivitu")](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Kromě obecných funkcí uživatelského rozhraní popsaných v této části můžete použít další obecné funkce, které více souvisejí s obchodováním. Další informace naleznete v části [Obecné obchodní funkce](ui-across-business-areas.md).
 
 V následující tabulce jsou uvedeny některé obecné funkce s odkazy na témata, která je popisují.
 
-| Viz | Také |
+| Funkce | Odkaz |
 | --- | --- |
 | Najděte konkrétní stránky, sestavy, akce, téma nápovědy nebo partnerské rozšíření. |[Použití funkce Řekněte mi k nalezení funkcí a informací](ui-search.md) |
-| Filtrujte data v pohledech, sestavách nebo funkcích pomocí speciálních symbolů a znaků. |[Třídění, vyhledávání a filtrování seznamů](ui-enter-criteria-filters.md) |
+| Filtrujte data v pohledech, sestavách nebo funkcích pomocí speciálních symbolů a znaků. |[Řazení, vyhledávání a filtrování](ui-enter-criteria-filters.md) |
 |Naučte se mnoho obecných funkcí, které vám pomohou rychle a snadno zadávat data.|[Vkládání dat](ui-enter-data.md)|
 | Zobrazte nebo zpracujte data z konkrétního časového období. |[Práce s kalendářními daty a časy](ui-enter-date-ranges.md) |
 |Naučte se, jak rychle zkopírovat a vložit data, včetně použití klávesových zkratek.|[Kopírování a vkládání](ui-copy-paste.md)|
@@ -42,14 +43,17 @@ V následující tabulce jsou uvedeny některé obecné funkce s odkazy na téma
 |Získejte informace o funkcích a možnostech, které jsou [!INCLUDE[d365fin](includes/d365fin_md.md)] snadno dostupné lidem se zdravotním postižením.|[Usnadnění přístupu a klávesové zkratky](ui-accessibility.md)|
 
 ## Seznámení s Business Central
+
 Zde je krátké video, jak se seznámit s [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
 ## Viz také
+
 [Začínáme](product-get-started.md)  
 [Nastavení Business Central](setup.md)  
 [Obecné obchodní funkcionality](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

@@ -13,81 +13,87 @@ ms.author: v-makune
 
 # Intrastat
 
-The standard Intrastat feature does not transfer all and only valid transactions into Intrastat journal. This results into a lot of manual work necessary to exclude/include the excess/missing transactions, often rendering a lot of errors. According to the requirements of the Czech Republic, following improvements are needed for the Intrastat feature:
-- Particular options in Intrastat engine need to be parameterized
-- Handling of supplementary measure units needs to be improved
-- Calculation of Intrastat Amount and Statistical Amounts needs to be improved
-- Get Intrastat Entries batch needs to be improved
-- Exporting of Intrastat reports to .csv files according to local requirements
+Standardní funkce systému Intrastat nepřenese všechny platné transakce do deníku Intrastat. Výsledkem je množství manuální práce, která je nutná k vyloučení nebo zahrnutí nadbytečných nebo chybějících transakcí, což často způsobuje velké množství chyb. Podle požadavků České republiky jsou pro funkci Intrastat nutná následující vylepšení:
 
-This feature adds improvement of data transferred into Intrastat journal and prepares the environment for correct Intrastat reporting.
+- Jednotlivé možnosti v modulu Intrastat je třeba parametrizovat
+- Potřeba lepšího zpracování doplňkových měrných jednotek
+- Potřeba vylepšit výpočet statistické částky a částky Intrastat
+- Potřeba zdokonalit dávku pro získání položek Intrastat
+- Export sestav Intrastat do souborů CSV podle místních požadavků
 
-## Intrastat Engine Setup
+Tato funkce přidává vylepšení dat převedených do deníku Intrastat a připravuje prostředí pro správné vykazování v systému Intrastat.
 
-Additional Intrastat engine general parameters setup allows to:
-- Set mandatory fields of Intrastat transactions in Sales, Purchase and Transfer transaction
-- Set where the particular parts on Intrastat data related to Items should be taken from (item or posted entry) and which Item attributes will be mandatory in Sales, Purchase and Transfer transaction
-- Set if any Item Charges related to Sales, Purchase and Transfer transaction will be ignored by the system (i.e. not including them in Intrastat or Statistical Amount)
-- Define if Statistical amount is calculated and calculation method for it
-- Select Intrastat Rounding Type to set how Intrastat and Statistical Amounts will be rounded
-- Set foreign Currency Exchange Rate for Intrastat reporting
-- Set object for Intrastat report export
+## Nastavení modulu Intrastat
 
-### New Setup Tables added for:
+Další nastavení obecných parametrů modulu Intrastat umožňuje:
 
-- Statistic Indications
-- Specific Movements
-- Intrastat Delivery Groups
+- Stanovit povinná pole Intrastat transakcí v oblasti prodeje, nákupu a transferů
+- Nastavit odkud mají být získávána některá data týkající se zboží (zboží nebo zaúčtované položky) a jaké atributy zboží jsou povinné v transakcích prodeje, nákupu a transferů
+- Nastavit zda některé Poplatky za zboží spojené s transakcemi prodeje, nákupu a transferů bude systém ignorovat (nezahrnovat je do částky nebo statistiky)
+- Definovat, zda se vypočte statistická částka a způsob jejího výpočtu
+- Vybrat Typ zaokrouhlování, jak budou částky a statistické částky zaokrouhlovány
+- Nastavit směnný kurz cizí měny pro hlášení Intrastat
+- Nastavit objekt pro export výkazu Intrastat
 
-### Additional Setup for Intrastat allows to:
+### Nové tabulky nastavení byly přidány pro
 
-- Set Country/Region Code for Entry/Exit Point
-- Set Tariff Number Supplementary Units of Measure if Tariff numbers have to be reported in Supplementary Units of Measure
-- Set if particular item charges have to be included in either Intrastat Amount or Intrastat Statistical Value or both
-- Set Intrastat behaviour for Shipment Methods – select if item charges should be included/excluded for particular Shipment Methods and Intrastat Delivery Group for reporting 
-- Set Area value in Location Card
-- Set default values and enforce company policies following additional Intrastat data available on Customer and Vendor Cards
-- Define on the Item Card additional Intrastat data – Statistic indication and Specific movement
-- Make special foreign Currency Exchange Rate setup and object for export setup for each Registration Country
+- Statistické údaje
+- Specifické pohyby
+- Dodací skupiny Intrastat
 
-## Posting Sales, Purchase or Transfer Transaction
+### Dodatečné nastavení pro Intrastat umožňuje
 
-To identify and enter attributes of sales transaction that will be used in Intrastat reporting user, follows these steps:
-- User verifies Intrastat data (Transaction Type, Specification and Transport Method, etc.) on the Foreign Trade tab. These were transferred to the document header from the relevant Customer or Vendor card and can be manually edited.
-- Intrastat Transaction field (non-editable) informs the user whether the particular transaction is qualified as Intrastat transaction.
-- Identification of the Physical Movement in the correction (Credit-Memo) documents using the Physical Transfer field.
-- User can manually exclude an Intrastat Transaction from Intrastat reporting using the Intrastat Exclude field.
-- User verifies Intrastat Data (Tariff No., Statistic Indication, Country/Region of Origin and Net Weight) in the document lines. These were transferred to the line from the relevant Item card and can be manually edited.
-- User assigns Item Charge to the sales line and includes/excludes its value to Intrastat Amount and Statistical Amount.
-- During the posting, system transfers all Intrastat relevant information to Item Ledger Entry.
-- During the posting, system displays an error if any Intrastat field set as mandatory in Stat. Reporting Setup form is not filled in. This will prevent the user from posting the transaction.
+- Nastavení kódu Země/oblasti pro Místa přechodu
+- Stanovit pro číslo sazebníku doplňkové měrné jednotky, pokud musí být číslo sazebníku vykazováno v doplňkových měrných jednotkách. 
+- Nastavit zda konkrétní poplatky za zboží musí být zahrnuty v částce nebo statistické částce či v obou
+- Nastavit chování Intrastatu pro způsoby dodávky – zda poplatky za zboží musí být zahrnuty/vyloučeny pro konkrétní způsoby dodávky a dodací skupiny Intrastat
+- Nastavit hodnotu Oblasti na kartě lokace
+- Nastavit výchozí hodnoty pro dalších doplňkové údaje Intrastat na zákaznických a dodavatelských kartách
+- Definovat na kartě zboží další údaje pro Intrastat – Statistický údaj a Specifický pohyb
+- Vytvořit speciální nastavení pro zahraniční směnný kurz a nastavení objektu pro export pro každou registraci země
 
-## Preparing Intrastat Journal
+## Účtování transakcí pro Intrastat  
 
-The Intrastat Journal contains the following new fields and functionalities:
-- Shipment Method Code
-- Statistic Indication
-- Specific Movement
-- Supplementary Units of Measure Calculation
-- Declaration Numbering 
-- Declaration types for Statement Classification – Primary, Null, Replacing, Deleting
-- Registration Country entries filtering
+Pro identifikaci a zadání parametrů transakce, které budou použity v systému Intrastat, postupujte podle následujících kroků:
 
-Fastest way to prepare the Intrastat Journal and make sure all the rules set in the previous steps are followed is by using the Get Entries batch job. During the execution of the Get Entries batch job, the system will take care of the following:
-- System considers Item and Job Ledger Entries created by transaction identified as Intrastat transactions
-- System ignores sales and purchase Intrastat transactions with the EU-3 Party Trade flag
-- System makes sure to include Intrastat transactions with Entry/Exit Points in EU Country
-- System makes sure to include sales and purchase documents (i.e. Credit Memos) posted with the Correction flag as inserted in Intrastat Journal with the same type as documents they are correcting, but with opposite sign for Non-physical Transfer documents and with the opposite type for documents marked as Physical Transfer
-- System makes sure the reversed Intrastat transactions (i.e. using Undo Receipt/Shipment) are excluded from reporting (both revered and reversing Intrastat transactions)
-- System makes sure the Item Charges are (not) included, adjusted and calculated in Intrastat Amount and Statistical Amount according to the user’s setup in Stat. Reporting Setup, Item Charges, Shipment Methods and Item Charge Assignments
-- System makes sure the Supplementary Units of Measure are used while preparing Intrastat Journal lines
-- System makes sure the correct data source is used for Tariff No., Net Weight and Country/Region of Origin according to Stat. Reporting Setup
+- Uživatel ověřuje Intrastat údaje (typ transakce, specifikace transakce a typ přepravy, atd.) na kartě Zahraniční obchod. Tyto údaje byly převedeny do hlavičky dokladu z příslušné karty zákazníka nebo dodavatele a mohou být ručně přepsány.
+- Pole Intrastat transakce (needitovatelné) informuje uživatele o tom, zda konkrétní transakce je kvalifikována jako transakce vykazovaná v Intrastat.
+- Identifikace fyzického pohybu v korekčních dokladech (dobropisech) pomocí pole Fyzický pohyb.
+- Uživatel může ručně vyloučit Intrastat transakce z vykazování Intrastat pomocí pole Nezahrnuto do Intrastatu.
+- Uživatel ověřuje data pro Intrastat (Číslo sazebníku, Statistický údaj, země/oblast původu a hmotnost) v řádcích dokladu. Tyto údaje byly převedeny do řádku z příslušné karty zboží a mohou být ručně přepsány.
+- Uživatel přiřadí poplatky za zboží k řádku a zahrne/vyloučí jejich hodnotu z částky a statistické částky pro Intrastat.
+- Během účtování systém přenese všechny relevantní informace pro Intrastat do položky zboží.
+- Během účtování systém ohlásí chybu, pokud některá Intrastat pole nastavená jako povinná ve formuláři Nastavení stat. vykazování nejsou vyplněna.  Toto nedovolí uživateli transakci zaúčtovat.
 
-## Intrastat Report Export to CSV Format
+## Příprava deníku Intrastat
 
-Export of Intrastat reports to .csv files according to local requirements (for INSTATDESK and INSTATONLINE applications) was added to Intrastat Journal.
-Export use object for export based on setup in Stat. Reporting Setup or Registration Country.
+Deník Intrastat obsahuje následující nová pole a funkce:  
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
+- Kód způsobu dodávky
+- Statistický údaj
+- Specifický pohyb
+- Kalkulace doplňkových měrných jednotek
+- Číslování hlášení
+- Typy hlášení pro klasifikaci výkazů – Nové, Prázdné, Opravné, Storno
+- Filtrování položek dle Registrace země
+
+Nejrychlejší způsob jak uživatel může připravit Intrastat deník a ujistit se, že všechna pravidla stanovená v předchozích krocích jsou dodržována, je pomocí dávkové úlohy Najít položky zboží. Při provádění dávkové úlohy Najít položky zboží se systém postará o následující:
+
+- Zpracovává položky zboží a položky projektu vytvořené v transakcích identifikovaných jako Intrastat transakce.
+- Ignoruje prodejní a nákupní Intrastat transakce, které mají příznak EU obchod třetích stran
+- Zahrnuje Intrastat transakce, které mají místa přechodu v EU zemích
+- Systém zahrnuje prodejní a nákupní doklady zaúčtované s příznakem Oprava (tj. dobropisy) do deníku Intrastat se stejným typem pohybu jako opravovaný doklad, ale s opačným znaménkem pro doklady neoznačené jako Fyzický pohyb a s opačným typem pohybu pro doklady označené jako Fyzický pohyb.
+- Zajišťuje, že zrušené Intrastat transakce (pomocí funkcí Vrátit příjemku/Vrátit dodávku) jsou vyloučeny z vykazování.
+- Zajišťuje, že Poplatky za zboží jsou (nejsou) započteny a upraveny v částce a statistické částce podle nastavení v Nastavení stat. vykazování, na poplatcích za zboží, způsoby dodávky a přiřazení poplatku za zboží.
+- Zajišťuje, že při přípravě řádků Intrastat deníku se používají Doplňkové měrné jednotky.
+- Zajišťuje, že je užíván správný zdroj dat pro číslo sazebníku, hmotnost a zemi/oblast původu podle Nastavení stat. vykazování.
+
+## Export hlášení Intrastat do formátu CSV
+
+Do deníku Intrastat bylo přidána možnost exportu sestav do souborů .csv odpovídající lokálním požadavkům (pro aplikace INSTATDESK a INSTATONLINE).
+Export používá objekt pro export podle Nastavení stat. vykazování.
+
+## Viz také
+
+[Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](finance.md)

@@ -11,104 +11,107 @@ ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Fixed Assets
+# Dlouhodobý majetek
 
-## Fixed Assets Tax Depreciation  
-The Fixed Assets Tax Depreciation feature calculates and posts tax depreciation in compliance with the Income Tax Act (Law 586/1992 §26 - §33). This feature has a special setup for tax depreciation groups to enable entering rates and coefficients for new depreciation methods with Fixed Assets Tax Depreciation.
+## Daňové odpisy dlouhodobého majetku  
 
-Each long-term tangible Fixed Asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters used for calculating depreciation.
-The following depreciation methods are provided for long-term tangible Fixed Asset (FA) depreciations for tax purposes:
+Funkcionalita daňového odepisování dlouhodobého majetku počítá a účtuje daňové odpisy v souladu se Zákonem o dani z příjmu (Zákon č. 586/1992 §26 - §33). Obsahuje zvláštní nastavení pro daňové odpisové skupiny, kde lze zadávat dobu a metodu odepisování, odpisové sazby a koeficienty pro nové odpisové metody daňových odpisů dlouhodobého majetku.  
 
-- Regular – This method is based on the acquisition value and percentage (straight line).
-- Accelerated – This method is based on the book value and coefficient (declining balance).
-- Regular based on the acquisition value and percentage (straight-line intangible).
+Každý dlouhodobý hmotný majetek náleží do odpisové skupiny. Tyto skupiny určují minimální dobu odpisu a parametry používané pro výpočet odpisů.
+K dispozici jsou následující metody odpisování dlouhodobého hmotného majetku (DM) pro daňové účely:
 
-Each long-term Fixed Asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters that will be used for calculating depreciation.
+- Lineární – tato metoda je založena na pořizovací hodnotě a procentu.
+- Zrychlené – tato metoda je založena na účetní hodnotě a koeficientu (klesající zůstatek).
+- Lineární pro nehmotný majetek - tato metoda je založena na pořizovací hodnotě a procentu.
 
-## Calculation of Depreciation Basis in Fixed Assets
+Každý dlouhodobý majetek je zařazen do určité odpisové skupiny. Tyto skupiny určují minimální dobu odepisování a parametry, které jsou využívány k výpočtu odpisů.  
 
-Due to the Czech legislation, it is necessary to calculate tax depreciations from the depreciable basis which can be different from acquisition costs. According to the requirements, a depreciation basis by Czech Declining-balance depreciation method for the second and following years of Fixed Asset life should be calculated by the new formula defined in the Income Tax Act.
-Changes have been made in the calculation of depreciation amount by the CZ Declining-balance depreciation method for the second and following years of Fixed Asset life by the formula stated above. The Tax depreciation is calculated annually and the Force No. of Days option is recommended for calculating the correct depreciation amount. 
+## Výpočet odpisů Dlouhodobého majetku
 
-## Fixed Assets Depreciation Holidays
+Vzhledem k českým právním předpisům je nutné vypočítávat daňové odpisy z odpisovatelného základu, který se může lišit od pořizovací ceny. Podle požadavků by měla být odpisová základna, podle české metody odpisování s klesajícím zůstatkem pro druhý a následující rok životnosti dlouhodobého majetku, vypočtena podle nového vzorce definovaného zákonem o dani z příjmu.
+Byly provedeny změny ve výpočtu odpisované částky pomocí metody zrychleného odpisování pro druhé a následující roky životnosti dlouhodobého majetku podle výše uvedeného vzorce. Daňové odpisy se počítají ročně a volba počet dní platnosti se doporučuje pro výpočet správné částky odpisu.
 
-The Fixed Asset Depreciation Holidays feature (by Income Tax Act – Law 586/1992 §26 part 8) enables user to discontinue depreciation for selected Fixed Asset and for specified periods. The system determines the depreciation schedule after the break period ends. 
-The list of depreciation methods for which the discontinuing of depreciation has been implemented is as follows:
+## Přerušení odepisování  
 
-- Straight line
-- Regular
-- Accelerated
-- Straight line for intangible fixed assets
-- Enhanced depreciation methods and straight-line methods to pick up the threads of the depreciation schedule end after the break depreciation period.  
+Funkcionalita Přerušení odepisování (na základě zákona o dani z příjmu Zákon č. 586/1992 §26 část 8) umožňuje přerušit odepisování pro vybraný dlouhodobý majetek a zadané období. Systém stanoví odpisový plán po skončení doby přerušení.
+K dispozici jsou následující metody odpisování dlouhodobého hmotného majetku pro daňové účely:  
 
-User can open FA Depreciation book and fill in the fields Depreciation Interrupt and Depreciation Interrupt up to. Field Keep Depr. Ending Date defines if you want to maintain the depreciation schedule.
+- Lineární
+- Zrychlené
+- Lineární pro nehmotný majetek
 
-## Two Steps Fixed Asset Acquisition
+Uživatel může otevřít knihu odpisů DM a vyplnit pole **Přerušit odpisování** a **Přerušit odepisování do**. Pole **Zachovat poslední datum odpisu** určuje, zda chcete zachovat Plán odpisů.
 
-There are two steps to accomplish when acquiring a Fixed Asset in the Czech accounting. When a company gets an invoice for a Fixed Asset acquisition, it has to be posted. Since the moment of initial use of the Fixed Asset, the used Fixed Asset is posted. Both the acquisition and put in use steps are required and connected with G/L Entries. Fixed Assets are not depreciated until put in use.
+## Dvou-krokové pořízení dlouhodobého majetku
 
-For this topic, use Custom 2 fixed asset posting type for the first step (Acquisition) and Acquisition Fixed Asset posting type for the second step (Put in Use). Select the Fixed Asset Acquisition as Custom2 check box in Fixed Asset Setup to start use of this feature.
-Value Custom 2 is renamed in Czech language from "Vlastní 2" to "Pořízení" for correct FA purchase identification and better accountant understanding.
+Při pořizování dlouhodobého majetku je nutno dle českého účetnictví provést dva kroky. Pokud společnost obdrží fakturu za pořízení dlouhodobého majetku, musí být zaúčtována. O Dlouhodobém majetku se účtuje už od okamžiku jeho prvního pořízení. Jak pořízení, tak i zařazení je vyžadováno a propojeno s Věcnými položkami. Dlouhodobý majetek není odpisován, dokud není zařazen.
 
-## Fixed Asset Posting of Disposal
+Pro tento postup použijte typ účtování **Vlastní 2** pro první krok (**Pořízení**) a typ účtování **Pořízení** dlouhodobého majetku pro krok druhý (**Zařazení**). Chcete-li začít používat tuto funkci, zaškrtněte políčko **Pořízení dlouhodobého majetku jako Vlastní 2** v **Nastavení DM**.
+Hodnota "Custom 2" je v Češtině přejmenovaná z "Vlastní 2" na "Pořízení" pro správnou identifikaci a intuitivnější porozumění.
 
-Czech accounting standards require specific posting when a Fixed Asset is being disposed of or be-ing sold. After selling or posting Fixed Assets (FA), Fixed Asset Posting of disposal ensures the Fixed Asset value remains the same as that of the acquired value after depreciation.
+## Účtování o vyřazení majetku
 
-The Fixed Asset remains unchanged even after it is put to use. When the Fixed Asset is depreciated periodically, a corresponding sum is debited from the acquired cost at the time of disposal. The balance amount is the current Fixed Asset value.
+České účetní standardy vyžadují specifické účtování, když je hmotný majetek vyřazován nebo prodán. Po prodeji nebo zaúčtování vyřazení dlouhodobého majetku (DM), účtování o vyřazení majetku zajistí, že hodnota dlouhodobého majetku zůstane stejná jako hodnota  po odepsání.
 
-On Depreciation Book, select the Corresponding G/L Entries on Disposal check box to make this feature operational. Also select the Corresponding FA Entries on Disposal check box to retain the correspondence between G/L Entries and FA Entries.  
+Dlouhodobý majetek zůstává nezměněn i po zařazení. Pokud je dlouhodobý majetek pravidelně odepisován, odečte se odpovídající částka z pořizovacích nákladů v okamžiku vyřazení. Částka salda je aktuální hodnota dlouhodobého majetku.
 
-## Different Types of Disposal and Maintenance
+V knize odpisů zaškrtněte políčko **Odpovídající věcné položky při vyřazení**, aby byla tato funkce funkční. Vyberte zaškrtávací políčko **Odpovídající položky DM při vyřazení**, pro zachování souladu mezi věcnými položkami a položkami DM.
 
-In the Czech accounting, it is necessary to post different types of disposal and different types of maintenance of Fixed Assets to specific G/L Accounts. A standard way offers only one method of disposal and maintenance posting.
+## Různé typy účtování vyřazení a údržby  
 
-A new setup was added for this feature – FA Extended Posting Group table. This table allows to set up each FA Posting group:
+V českém účetnictví je nutné účtovat různé druhy vyřazení a údržby DM na různé finanční účty. Standardní funkcionalita nabízí pouze jeden způsob účtování vyřazení a údržby.
 
-- Posting disposal to different Accounts in combination with Reason Code used  for disposal 
-- Posting maintenance in combination with Maintenance Code used for maintenance
+Pro tyto účely je nově doplněna tabulka – **Rozšířená účto skupina DM**. Tato tabulka umožňuje pro každou Účto skupinu DM nastavit:  
 
-## Fixed assets clasification
+- Účtování vyřazení na různé účty v kombinaci s **Kódem příčiny** použitým při vyřazení
+- Účtování údržby na různé účty v kombinaci s **Kódem údržby** použitým při účtování
 
-### Classification Code
+## Klasifikace dlouhodobého majetku
 
-Tax of Income Law 586/1992 insists on sorting Fixed Assets by Production Classification marked CZ-CPA and by Classification building operations marked CZ-CC. The new Classification Code table and Classification Code field on Fixed Asset were added. This field is used for FA classification to the tax group.
+### Kódy klasifikace  
 
-## Fixed Asset Location/Responsible History Report
+Zákon o dani z příjmu č. 586/1992 Sb. vyžaduje třídění dlouhodobého majetku podle klasifikace produkce CZ-CPA a podle klasifikace stavebních činností CZ-CC. Byla přidána nová tabulka **Kód klasifikace** a pole Kód klasifikace na kartě dlouhodobého majetku. Toto pole se používá pro klasifikaci DM do daňové skupiny.
 
-This feature provides users with ability to track Fixed Asset Location and Responsible Employee changes.
-With the addition of this feature users are able to control location history of the Fixed Asset and history of employees responsible for the Fixed Asset.
-This feature also provides reports for company verification where specific FA is/was located or to whom it is/was assigned.
-To enable FA Location and Responsible Employee tracking (further as FA History) user first needs to enable this feature in Fixed Asset Setup with checkmark in the Fixed Assets History field. After enabling FA History in FA Setup, user can start tracking changes of FA Location and Responsible employees – these changes are stored in table FA History Entry.
+## Sestavy umístění dlouhodobého majetku a Historie majetku
 
-Items of fixed assets:
-- Save changes in FA evidence
-- Include time and user stamp changes
+Tato funkce umožňuje rozšířené sledování změn v umístění dlouhodobého majetku včetně odpovědných osob.
+Přidáním této funkce mohou uživatelé ovládat historii polohy dlouhodobého majetku a historii odpovědných osob za dlouhodobý majetek.
+Tato funkce také poskytuje sestavy pro ověření společnosti, kde se nachází konkrétní DM / se nacházel nebo komu je / byla přiřazen.
+Aby bylo možné povolit sledování umístění DM a odpovědného zaměstnance (dále jako Historie DM), musí uživatel nejprve povolit tuto funkci v okně **Nastavení DM** zaškrtnutím políčka **Historie dlouhodobého majetku**. Po povolení Historie DM v Nastavení DM může uživatel začít sledovat změny v Umístění DM a v Odpovědných zaměstnancích - tyto změny jsou uloženy v tabulce **Položka historie DM**.
 
-New reports for transactions and history documentation added:
-- FA Assignment/Discharge
-- FA History
+Položky historie DM:  
 
-## Fixed Assets Reporting
+- Ukládají změny v evidenci DM
+- Obsahují časové a uživatelské razítko změny
 
-In order to comply with the requirements in legislation reporting features and local reporting practices of Czech companies, this feature provides following reports:
+Byly přidány nové sestavy pro dokumentaci transakcí a historie:  
 
-- **Fixed Asset Card** – report combines data from standard FA List and FA details report, grouping details per FA Depreciation book.
-- **FA Receipt** – report is printed when particular Fixed Asset is received to be put in use. Such document must be signed by company officials.
-- **FA Disposal** – report is printed when particular Fixed Asset is disposed or damaged.
-- **FA – Analysis G/L Account** – user can use this report to compare it with G/L Account.
-- **Fixed Asset – Analysis 2** – user can define 3 columns for date, 4 columns for amount field, group total and choose export to Excel.
-- **Fixed Asset – Analys. Dep. Book** – user can choose 2 depreciation books for comparison.
-- **FA Phys. Inventory List** – companies are obliged to reconcile the physical state of Fixed Assets and book value in order to prepare the financial statement.  
-- **FA Inventory List** – prints the FA Inventory list for Responsible Employee or for FA Location Code.
+- Přiřazení/uvolnění DM
+- Historie DM
 
-The following standard reports have been adjusted for the Czech Republic (new Group total, etc.):
-- Fixed Asset – Analysis
-- Fixed Asset – Book Value 01
-- Fixed Asset – Book Value 02
-- Fixed Asset – Projected Value
-- Fixed Asset – G/L Analysis
-- Maintenance – Analysis
+## Sestavy dlouhodobého majetku
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)  
+Pro splnění nároků na výstupy odpovídající legislativním požadavkům a místním zvyklostem poskytuje tato funkcionalita následující sestavy:
+
+- **Karta DM** – sestava kombinuje data ze standardního přehledu DM a sestavy detailů DM, seskupuje detaily za knihu odpisů DM.
+- **Sestava pořízení DM** – sestava se vytiskne,  jakmile je přijat konkrétní dlouhodobý majetek k zařazení. Tyto dokumenty musí být podepsané zástupci společnosti.
+- **Sestava vyřazení DM** – sestava se vytiskne, pokud je určitý dlouhodobý majetek vyřazen nebo poškozen.
+- **Dlouhodobý majetek – analýza fin. účtu** – uživatel může tuto sestavu použít k porovnání s finančním účtem.
+- **Dlouhodobý majetek – analýza  2** – uživatel může definovat 3 sloupce pro datum, 4 sloupce pro pole množství, pole skupina celkem a zvolit export do Excelu.
+- **Dlouhodobý majetek – porovnání   odpisových knih** – uživatel může zvolit 2 knihy odpisů pro porovnání.
+- **Seznam fyzické inventury DM** – společnosti jsou povinny odsouhlasit fyzický stav dlouhodobého majetku a jeho účetní hodnoty za účelem přípravy finančního výkazu.
+- **Inventurní seznam DM** – vytiskne inventurní seznam DM pro odpovědného zaměstnance, nebo pro kód umístění DM.
+
+Pro Českou republiku byly upraveny následující standardní sestavy (nové součty za skupiny, atd.):
+
+- Analýza dlouhodobého majetku
+- Dlouhodobý majetek – úč.hodn.01
+- Dlouhodobý majetek – úč.hodn.02
+- Dlouhod. majetek – oček. hodnota
+- Finanční analýza dlouhodobého majetku
+- Analýza údržby dlouhodobého majetku
+
+## Viz také  
+
+[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Finance](finance.md)

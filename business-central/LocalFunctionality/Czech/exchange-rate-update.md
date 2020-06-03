@@ -11,12 +11,13 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Exchange Rate Updating
+# Aktualizace směnného kurzu
 
-The Company is allowed to automatically update currency exchange rates using Exchange Rate Services.  
-These have been improved by the ability to automatically update currency exchange rates from the CNB (Czech National Bank).  
-The user can define the http service address and other exchange rate update parameters in the exchange rate service settings.
+Společnosti je umožněno automaticky aktualizovat směnné kurzy měn pomocí funkcí Služby směnného kurzu.
+Ty byly vylepšeny o možnost automaticky aktualizovat směnné kurzy měn z ČNB (České Národní Banky).
+Uživatel si může v nastavení služby směnného kurzu definovat http adresu služby a další parametry aktualizace směnných kurzů.  
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)  
+## Viz také  
+
+[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Finance](finance.md)
