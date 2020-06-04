@@ -23,7 +23,7 @@ Než budete moci evidovat nové zákazníky, musíte nastavit různé prodejní 
 
 ## <a name="to-create-a-new-customer-card"></a>Vytvoření nové karty zákazníka
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zákazníci**, a poté vyberte související odkaz.  
-2. Na stránce ** Zákazníci ** vyberte akci **Nový**.
+2. Na stránce **Zákazníci** vyberte akci **Nový**.
 
     Pokud existuje pouze jedna šablona zákazníka, otevře se nová karta zboží s několika poli s předvyplněnými informacemi ze šablony.
 
@@ -32,7 +32,7 @@ Než budete moci evidovat nové zákazníky, musíte nastavit různé prodejní 
 4. Zvolte tlačítko **OK**. Otevře se nová karta zákazníka s některými předvyplněnými poli podle informací ze šablony.  
 5. Postupujte podle potřeby tak, že vyplníte nebo změníte pole na kartě zákazníka. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Na záložce **Prodejní ceny** můžete zobrazit zvláštní ceny nebo slevy, které udělujete za daným zákazníkům pokud jsou splněna určitá kritéria, jako jsou položky, minimální objednávkové množství nebo datum ukončení. Každý řádek představuje zvláštní cenu nebo řádkovou slevu. Každý sloupec představuje kritérium, které musí platit, aby se zaručila zvláštní cena, kterou zadáte do pole **Jednotková cena**, nebo řádková sleva, kterou zadáte do pole **Řádková sleva %**. Pro více informací navštivte [Zaznamenat prodejní cenu, slevu a platební smlouvy](sales-how-record-sales-price-discount-payment-agreements.md).
+Na záložce **Prodejní ceny** můžete zobrazit zvláštní ceny nebo slevy, které udělujete zadaným zákazníkům, pokud jsou splněna určitá kritéria, jako jsou položky, minimální objednávkové množství nebo datum ukončení. Každý řádek představuje zvláštní cenu nebo řádkovou slevu. Každý sloupec představuje kritérium, které musí platit, aby se zaručila zvláštní cena, kterou zadáte do pole **Jednotková cena**, nebo řádková sleva, kterou zadáte do pole **Řádková sleva %**. Pro více informací navštivte [Zaznamenat prodejní cenu, slevu a platební smlouvy](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Zákazník je nyní zaregistrován a karta zákazníka je připravena k použití v prodejních fakturách.
 

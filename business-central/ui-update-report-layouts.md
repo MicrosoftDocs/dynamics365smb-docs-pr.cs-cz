@@ -13,7 +13,7 @@ ms.search.keywords: null
 ms.date: 02/19/2019
 ms.author: jswymer
 ---
-# <a name="updating-report-or-document-layouts"></a>Aktualizace rozvržení sestav a dokumentů
+# <a name="updating-report-or-document-layouts"></a>Aktualizace rozvržení sestav a dokadů
 Možná bude nutné aktualizovat vlastní rozvržení sestavy, které se používá v sestavě. Je to vyžadováno v případě, že došlo ke změně návrhu sady dat sestavy, například pole použité v rozvržení bylo ze sady dat sestavy odstraněno. Pokud rozvržení sestavy vyžaduje aktualizaci, zobrazí se chybová zpráva při pokusu o zobrazení náhledu, tisk nebo uložení sestavy.  
 
 Rozvržení sestavy můžete automaticky aktualizovat z chybové zprávy, která se zobrazí při spuštění sestavy, výběrem tlačítka **Ano** v chybové zprávě. Nebo před spuštěním sestav můžete aktualizovat konkrétní rozvržení sestav nebo všechna vlastní rozvržení sestav, které mohou být ovlivněny změnou setu dat.  
