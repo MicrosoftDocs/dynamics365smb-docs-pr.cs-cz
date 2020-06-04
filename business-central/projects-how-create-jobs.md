@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 10/01/2019
 ms.author: sgroespe
-
 ---
 # Vytváření projektů
+
 Při spuštění nového projektu je nutné vytvořit kartu projektu s integrovanými úkoly projektu a řádky plánování projektu, strukturované do dvou vrstev.
 
 První vrstvu tvoří úlohy projektu. Musíte vytvořit alespoň jednu úlohu projektu na projekt, protože všechna účtování odkazují na úlohu projektu. Pokud ve svém projektu máte alespoň jednu úlohu projektu, můžete založit řádky plánování projektu a zaúčtovat spotřebu do projektu.
@@ -25,6 +25,7 @@ Struktura vrstvy umožňuje rozdělit projekt na menší úkoly, a proto umožň
 
 ## Vytvoření karty projektu
 Vytvořte kartu projektu a poté pro ni vytvořte úlohy projektu a řádky plánování projektu.
+
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Projekty** a poté vyberte související odkaz.
 2. Vyberte akci **Nový** a vyplňte pole dle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -63,6 +64,7 @@ Nové úlohy projektu můžete upřesnit na řádcích plánování projektu. Ř
 5. Opakujte kroky 3 a 4 pro všechny řádky plánování, které potřebujete pro úlohu projektu.
 
 ## Viz také
+
 
 [Správa projektů](projects-manage-projects.md)  
 [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

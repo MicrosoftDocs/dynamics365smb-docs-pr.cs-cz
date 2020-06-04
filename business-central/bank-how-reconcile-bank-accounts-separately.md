@@ -14,6 +14,7 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Odsouhlasit bankovní účty samostatně
+
 Chcete-li odsouhlasit bankovní účty [!INCLUDE[d365fin](includes/d365fin_md.md)] s výpisy obdrženými z banky, začněte vyplněním podokna na stránce **Odsouhlasení bankovního účtu** informacemi z bankovního výpisu, které pak porovnáte (odsouhlasíte) s položkami bankovních účtů v pravém podokně. Inteligentní způsob vyplnění řádků bankovních výpisů je importem souboru nebo zdrojem bankovních výpisů.
 
 > [!NOTE]  

@@ -13,7 +13,7 @@ ms.search.keywords: online printing
 ms.date: 10/01/2018
 ms.author: solsen
 ---
-# <a name="specify-printer-selection-for-reports"></a>Určete výběr tiskárny pro sestavy
+# <a name="specify-printer-selection-for-reports"></a>určení výběru tiskárny pro sestavy
 Tato stránka je prázdná, protože nelze nastavit konkrétní tiskárny pro konkrétní sestavy. Pracujeme na řešení tohoto problému.
 
 Pokud chcete v současné době sestavu vytisknout, musíte ji nejprve stáhnout jako dokument PDF kliknutím na tlačítko **Odeslat do**. Poté vyberte typ souboru, který chcete stáhnout, a zvolte možnost **Dokument PDF**. Nyní můžete dokument PDF okamžitě otevřít a vytisknout jej, nebo ho uložit a vytisknout později.
