@@ -14,17 +14,17 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 # <a name="setting-up-project-management"></a>Nastavení správy projektu
-Než budete moci použít v [!INCLUDE[d365fin](includes/d365fin_md.md)] ke správě projektů, musíte nastavit zdroje, pracovní výkazy a úlohy.
+Než budete moci použít v [!INCLUDE[d365fin](includes/d365fin_md.md)] projekty, musíte nastavit zdroje, pracovní výkazy a úlohy.
 
-Poté můžete vytvářet úlohy a rozvrhnout zdroje pro projekty, spravovat rozpočty, sledovat pracovní hodiny strojů a zaměstnanců s pracovními výkazy. Pro více informací navštivte [Správa projektů](projects-manage-projects.md).  
+Poté můžete vytvářet úlohy a rozvrhnout zdroje pro projekty, spravovat rozpočty, srovnávat pracovní hodiny strojů a zaměstnanců s pracovními výkazy. Pro více informací navštivte [Správa projektů](projects-manage-projects.md).  
 
-Následující tabulka popisuje postup úkolů s odkazy na téma, která je popisují.
+Následující tabulka popisuje úkoly s odkazy na témata, která je popisují.
 
 | Pro | Viz |
 | --- | --- |
-| Nastavení vašich zdrojů a souvisejících nákladů a cen, buď pro jednotlivé zdroje, skupiny zdrojů nebo pro všechny dostupné zdroje společnosti. |[Nastavení zdrojů](projects-how-setup-resources.md) |
-| Povolení zdrojů sestavy o využití času pro jednotlivce nebo stroje a umožnění správci zkontrolovat využití a jeho alokaci. |[Nastavení pracovních výkazů](projects-how-setup-time-sheets.md) |
-| Vytvoření projektů a úloh projektů. Nastavení cen pro zboží projektu, projektové zdroje a definici projektových účto skupin. |[Nastavení úloh](projects-how-setup-jobs.md) |
+| Nastavení vašich zdrojů, souvisejících nákladů a cen, buď pro jednotlivé zdroje, skupiny zdrojů nebo pro všechny dostupné zdroje společnosti. |[Nastavení zdrojů](projects-how-setup-resources.md) |
+| Nastavení potřebná pro vykazování práce jednotlivců nebo strojů na projekty a umožnění správci zkontrolovat využití a jejich alokaci. |[Nastavení pracovních výkazů](projects-how-setup-time-sheets.md) |
+| Vytvoření projektů a úloh projektů. Nastavení cen pro zboží projektu, projektové zdroje a definice projektových účto skupin. |[Nastavení úloh](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Viz také
 [Správa projektů](projects-manage-projects.md)  

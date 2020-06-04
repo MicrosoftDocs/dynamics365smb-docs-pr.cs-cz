@@ -51,7 +51,7 @@ Pokud je vaše společnost dceřinou společností a obdržíte soubor XML obsah
 3. Pokud bude vaše vnitropodniková účetní osnova stejná nebo podobná běžné účetní osnově, můžete stránku vyplnit automaticky výběrem akce **Kopírovat z účetní osnovy**. Nové řádky můžete podle potřeby upravit.
 
 ### Export vnitropodnikové účetní osnovy
-Chcete-li umožnit svým vnitropodnikovým partnerům importovat definující schému účtů, musíte ji exportovat do souboru.
+Chcete-li umožnit svým vnitropodnikovým partnerům importovat definující účetní osnovu, musíte ji exportovat do souboru.
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Vnitropodniková účtová osnova** a poté vyberte související odkaz.
 2. Na stránce **Vnitropodniková účtová osnova** vyberte akci **Export** a poté vyberte tlačítko **Uložit**.
 3. Zadejte název souboru a umístění, do kterého chcete soubor XML uložit, a poté vyberte tlačítko **Uložit**.
@@ -76,11 +76,11 @@ Pokud mají účty ve vnitropodnikové účetní osnově stejná čísla jako od
 ## Nastavení výchozích účtů hlavní knihy vnitropodnikového partnera
 Když vytvoříte vnitropodnikový prodejní nebo nákupní řádek, který bude odeslán jako odchozí transakce, zadáte účet z vnitropodnikové účetní osnovy jako výchozí, pro který účet ve společnosti vašeho partnera je částka zaúčtována. Na stránce **Účetní osnova** u účtů, které často používáte na odchozích vnitropodnikových prodejních nebo nákupních řádcích, můžete určit výchozí účet hlavní knihy vnitropodnikových partnerů. Například pro vaše účty pohledávek můžete zadat odpovídající závazkové účty z vnitropodnikové účetní osnovy.
 
-Poté, když zadáte účet hlavní knihy v poli **Číslo  protiúčtu** na vnitropodnikovém řádku **Vnitropodnikový partner** v poli **Typ účtu** pole **Finanční účet vnitropodnikového partner** je automaticky vyplněno.
+Poté, když zadáte účet hlavní knihy v poli **Číslo  protiúčtu** na vnitropodnikovém řádku **Vnitropodnikový partner** v poli **Typ účtu** pole **Finanční účet vnitropodnikového partnera** je automaticky vyplněno.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Účetní osnova** a poté vyberte související odkaz.
-2. V řádku pro účet hlavní knihy, který se používá pro vnitropodnikové transakce, zadejte do pole **Výchozí finanční účet vnitropodnikového partner** účet hlavní knihy vnitropodnikové společnosti, na který bude váš partner účtovat při účtování na účet hlavní knihy na řádku.
-3. Opakujte krok 2 pro každý účet, který často zadáváte v balíku **Číslo  protiúčtu** na řádku ve vnitropodnikovém deníku nebo dokumentu.
+2. V řádku pro účet hlavní knihy, který se používá pro vnitropodnikové transakce, zadejte do pole **Výchozí finanční účet vnitropodnikového partnera** účet hlavní knihy vnitropodnikové společnosti, na který bude váš partner účtovat při účtování na účet hlavní knihy na řádku.
+3. Opakujte krok 2 pro každý účet, který často zadáváte v poli **Číslo  protiúčtu** na řádku ve vnitropodnikovém deníku nebo dokumentu.
 
 ## Nastavení vnitropodnikových dimenzí
 Pokud vy a vaši vnitropodnikoví partneři chcete mít možnost vyměňovat si transakce s dimenzemi s nimi spojenými, musíte se dohodnout na dimenzích, které všichni budete používat. Například mateřská společnost skupiny vytvoří zjednodušenou verzi své vlastní sady dimenzí, exportuje tyto vnitropodnikové dimenze do souboru XML a distribuuje je každé ze společností ve skupině. Každá z dceřiných společností pak importuje soubor XML na stránku **Vnitropodnikové dimenze** a mapuje vnitropodnikové dimenze na stránce **Dimenze**.
@@ -106,7 +106,7 @@ Pokud soubor existuje pro definování vnitropodnikových dimenzí, mohou jej vn
 Řádky na stránce **Vnitropodnikové dimenze** a **Hodnoty vnitropodnikových dimenzí** se importují.
 
 ### Mapování vnitropodnikových dimenzí na dimenze vaší společnosti
-Pokud jste definovali nebo importovali dimenze, které jste se dohodli používat se svými partnery v rámci společnosti, musíte přiřadit každou z dimenzí společnosti k jedné z dimenzí vaší společnosti a naopak. Na stránce **Vnitropodnikové dimenze** určete, jak budou vnitropodnikové dimenze při příchozích transakcích převedeny do dimenzí ze seznamu dimenzí vaší společnosti. Na strínce **Dimenze** určete, jak budou vaše dimenze převedeny na vnitropodnikové dimenze u odchozích transakcí.
+Pokud jste definovali nebo importovali dimenze, které jste se dohodli používat se svými partnery v rámci vnitropodniku, musíte přiřadit každou z vnitropodnikových dimenzí k jedné z dimenzí vaší společnosti a naopak. Na stránce **Vnitropodnikové dimenze** určete, jak budou vnitropodnikové dimenze při příchozích transakcích převedeny do dimenzí ze seznamu dimenzí vaší společnosti. Na strínce **Dimenze** určete, jak budou vaše dimenze převedeny na vnitropodnikové dimenze u odchozích transakcí.
 
 Pokud má některá z vnitropodnikových dimenzí stejný kód jako odpovídající dimenze v seznamu dimenzí vaší společnosti, můžete nechat aplikaci mapovat dimenze automaticky.
 

@@ -16,7 +16,7 @@ ms.author: jswymer
 
 ---
 # Uzavírání roků a období
-Na konci fiskálního roku je třeba provést řadu administrativních úkolů, například zajistit, aby byly zaúčtovány všechny doklady a deníky, zajistit, aby byla data měny aktuální, zavření knih a další. Skutečné úkoly budou záviset na vaší společnosti.
+Na konci fiskálního roku je třeba provést řadu administrativních úkolů, například zajistit, aby byly zaúčtovány všechny doklady a deníky, zajistit, aby byla data měny aktuální, zavřít knihy a mnoho dalších. Skutečné úkoly budou záviset na vaší společnosti.
 
 Následující tabulka poskytuje přehled úkolů, které obvykle provádíte za účelem uzavření roku a období.
 

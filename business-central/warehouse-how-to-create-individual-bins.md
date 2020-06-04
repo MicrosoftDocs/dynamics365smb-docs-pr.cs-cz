@@ -18,12 +18,12 @@ Nejúčinnějším způsobem vytvoření přihrádek ve vašem skladu je vygener
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Vytvoření přihrádek z karty lokace  
 1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Lokace** a poté vyberte související odkaz.  
-2.  Vyberte lokaci, z které budete chtít založit přihrádk a vyberte tlačítko **Přihrádky**.  
+2.  Vyberte lokaci, ze které budete chtít založit přihrádku a vyberte tlačítko **Přihrádky**.  
 3. Zvolte akci **Nový**.
 4. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="the-dedicated-field"></a>Políčko Přiřazený
-Políčko **Přiřazený** na stránce **Přihrádky** určuje, že množeství v přihrádce je chráněno před vyskladněním z jiných požadavků. Množství v vyhrazených přihrádkách však lze stále rezervovat. V souladu s tím jsou množství ve vyhrazených přihrádkách zahrnuta do pole **Celkové množství k dispozici** na stránce **Rezervace**.
+Políčko **Přiřazený** na stránce **Přihrádky** určuje, že množství v přihrádce je chráněno před vyskladněním z jiných požadavků. Množství ve vyhrazených přihrádkách však lze stále rezervovat. V souladu s tím jsou množství ve vyhrazených přihrádkách zahrnuta do pole **Celkové množství k dispozici** na stránce **Rezervace**.
 
 Vytvoření vyhrazené přihrádky má za následek podobnou funkčnost v základním skladu jako použití typů přihrádek, což je k dispozici pouze ve velkém (rozšířeném) skladu. Pro více informací navštivte [Založení typů přihrádky](warehouse-how-to-set-up-bin-types.md).
 
@@ -37,7 +37,7 @@ Vytvoření vyhrazené přihrádky má za následek podobnou funkčnost v zákla
 2.  Na každém řádku vyplňte pole, která jsou nezbytná pro pojmenování a charakterizaci přihrádek, které vytváříte.  
 3.  Vyberte tlačítko **vytvořit přihrádky**.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>vytvořte přihrádky automatizovaně pomocí sešitu vytvoření přihrádek.  
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Vytvořte přihrádky automatizovaně pomocí sešitu vytvoření přihrádek.  
 Než začnete automaticky vytvářet přihrádky, měli byste určit druh přihrádek, které jsou nezbytné pro vaši činnost, jakož i nejpraktičtější tok zboží prostřednictvím fyzické struktury vašeho skladu.  
 
 > [!NOTE]  
@@ -49,7 +49,7 @@ Chcete-li pracovat se stránkou **Sešit vytvoření přihrádky**, musíte být
 2.  Vyberte tlačítko **Výpočet přihrádek**.
 3. Na stránce **Výpočet přihrádek** v poli **Kód šablony přihrádky** vyberte šablonu přihrádky, kterou chcete použít jako model pro přihrádky, které vytváříte.
 4.  Vyplňte popis přihrádek, které právě vytváříte.  
-5.  Chcete-li vytvořit kódy přihrádky, vyplňte políčka **Od čísla** a **Do čísla** ve třech kategoriích zobrazených na stránce: **Regál**, **Sekce,** a **Úroveň**. Kód přihrádky může mát až 20 znaků.  
+5.  Chcete-li vytvořit kódy přihrádky, vyplňte políčka **Od čísla** a **Do čísla** ve třech kategoriích zobrazených na stránce: **Regál**, **Sekce,** a **Úroveň**. Kód přihrádky může mít až 20 znaků.  
 
     > [!NOTE]  
     >  Počet znaků, které jste zadali do tří kategorií pro každé pole, například znaky, které jste zadali do tří polí **Od čísla** plus oddělovače pole, pokud existují, musí být 20 nebo méně.  

@@ -14,7 +14,7 @@ ms.date: 03/01/2019
 ms.author: sgroespe
 ---
 # <a name="categorize-items"></a>Kategorizace zboží
-Chcete-li udržovat přehled o vašem zboží, který vám může pomoc při řazení a hledání zboží, je vhodné ho uspořádat v kategoriích zboží.
+Chcete-li udržovat přehled o vašem zboží, který vám může pomoci při řazení a hledání zboží, je vhodné ho uspořádat v kategoriích zboží.
 
 Chcete-li vyhledat zboží podle vlastností, můžete přiřadit atributy zboží ke zboží a také ke kategoriím zboží. Pro více informací navštivte [Práce s atributy zboží](inventory-how-work-item-attributes.md).
 

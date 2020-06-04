@@ -1,9 +1,11 @@
 ---
+
 title: Pole potřebná k dokončení procesu | Microsoft Docs
 description: Dozvíte se o polích označených červenou hvězdičkou, což znamená, že jsou povinná a pro dokončení procesů musí být vyplněna.
 services: project-madeira
 documentationcenter: ''
 author: ZdenekBicek
+
 
 ms.service: dynamics365-business-central
 ms.topic: article

@@ -28,14 +28,14 @@ Vytvořte kartu pro každý zdroj, který chcete použít v projektech.
 3. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Nastavení skupiny zdrojů
-V jedné skupině zdrojů můžete kombinovat několik zdrojů. Všechny kapacity a rozpočty skupin zdrojů se hromadí z jednotlivých zdrojů. Je také možné zadat kapacity pro skupiny zdrojů buď nezávisle na kumulovaných hodnotách, nebo k nim navíc.
+V jedné skupině zdrojů můžete kombinovat několik zdrojů. Všechny kapacity a rozpočty skupin zdrojů se sčítají z jednotlivých zdrojů. Je také možné zadat kapacity pro skupiny zdrojů buď nezávisle na kumulovaných hodnotách, nebo k nim navíc.
 
 1. Vyberte ikonu ![Žárovku, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), vstupte do **Skupiny zdrojů** a poté vyberte související odkaz.
 2. Zvolte akci **Nový**.
 3. Vyplňte pole podle potřeby.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Nastavení kapacity zdroje
-Chcete-li vypočítat, kolik času může zdroj utratit za projekt, musí být jejich kapacita nejprve nastavena jako dostupný čas za období v pracovním kalendáři. Toto nastavení se používá, když vyplníte řádky plánování projektu, které obsahují daný zdroj. Pro více informací navštivte [Vytváření projektů](projects-how-create-jobs.md).
+Chcete-li vypočítat, kolik času odvede zdroj  na projektu, musí být kapacita zdroje nejprve nastavena jako dostupný čas za období v pracovním kalendáři. Toho docílíte, když vyplníte řádky plánování projektu, které obsahují daný zdroj. Pro více informací navštivte [Vytváření projektů](projects-how-create-jobs.md).
 
 1. Vyberte ikonu ![Žárovku, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), vstupte do **Zdroje** a poté vyberte související odkaz.
 2. Otevřete příslušnou kartu zdroje a potom vyberte akci **Kapacita zdroje**.
