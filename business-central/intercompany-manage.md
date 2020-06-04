@@ -21,13 +21,13 @@ Vaše organizace se může skládat z několika společností, ale nemusí mít 
 Funkce vnitropodniku má čtyři hlavní výhody:
 
 - Zvýšená produktivita díky úsporám času a zjednodušeným transakcím
-- Minimalizovaný potenciál chyb díky jednorázovému zadávání informací a automatickým aktualizacím v celém systému
+- Minimalizace chyb díky jednorázovému zadávání informací a automatickým aktualizacím v celém systému
 - Kompletní revizní záznam a úplné zviditelnění obchodních aktivit a historie transakcí
-- Efektivní a nákladově efektivní transakce s přidruženými a dceřinými společnostmi
+- Efektivní transakce (včetně nákladů) s přidruženými a dceřinými společnostmi
 
-Máte plnou kontrolu nad všemi transakčními doklady. Můžete například odmítnout doklad, který vám byl zaslán, a tímto způsobem zpětně účtovat v deníku a vrátit zpět příjemky/dodávky, které byly nesprávné. Nebo při nákupu od partnera nebo dceřiné společnosti můžete nákupní objednávku aktualizovat, pokud prodávající společnost nedodala žádné zboží.
+Máte plnou kontrolu nad všemi transakčními doklady. Můžete například odmítnout doklad, který vám byl zaslán, a tímto způsobem zpětně účtovat v deníku a vrátit zpět příjemky/dodávky, které byly nesprávné. Nebo při nákupu od partnera nebo dceřiné společnosti můžete nákupní objednávku aktualizovat, pokud prodávající společnost ještě nedodala žádné zboží.
 
-Když zadáváte transakci, nemusíte specifikovat účty pro jednotlivé sady knih, ale jednoduše zadejte identifikaci partnerské společnosti. Vnitropodnikové funkce vytvoří řádky finančního deníku, které vedou k vyvažování knih obou společností zapojených do transakce. U pohledávek a závazků přidělujete kód vnitropodnikového partnera libovolného jakémukoli zákazníkovi nebo dodavateli. Od tohoto okamžiku budou všechny objednávky a faktury vytvořené v oblasti transakcí s těmito společnostmi vytvářet odpovídající doklady v partnerské společnosti, což povede ke správnému vyvažování účtů.
+Když zadáváte transakci, nemusíte specifikovat účty pro jednotlivé sady knih, ale jednoduše zadejte identifikaci partnerské společnosti. Vnitropodnikové funkce vytvoří řádky finančního deníku, které vedou k přidělení finančních účtů knih obou společností zapojených do transakce. U pohledávek a závazků přidělujete kód vnitropodnikového partnera jakémukoli zákazníkovi nebo dodavateli. Od tohoto okamžiku budou všechny objednávky a faktury vytvořené v oblasti transakcí s těmito společnostmi vytvářet odpovídající doklady v partnerské společnosti, což povede ke správnému nastavení účtů.
 
 Po nastavení obchodních partnerů jako zákazníků a dodavatelů v systému a po přiřazení kódu vnitropodnikového partnera v rámci společnosti, je možné vyměňovat nákupní a prodejní doklady v rámci společnosti, včetně zboží a poplatků za zboží. Funkce vnitropodniku umožňuje vnitropodnikové transakce mezi více databázemi, například v různých zemích/regionech, jakož i více měn, různé účetní mapy, různé dimenze a různé číslování zboží.
 
@@ -37,7 +37,7 @@ Následující tabulka popisuje posloupnost úkolů s odkazy na témata, která 
 
 | K | Vidění |
 |---|---|
-| Vytvořte vnitropodnikové dodavatele a zákazníky jako tzv. vnitropodnikových partnerů a nastavte vnitropodnikovou účetní osnovu. | [Nastavení vnitropodniku](intercompany-how-setup.md) |
+| Vytvořte vnitropodnikové dodavatele a zákazníky jako tzv. vnitropodnikové partnery a nastavte vnitropodnikovou účetní osnovu. | [Nastavení vnitropodniku](intercompany-how-setup.md) |
 | K zaúčtování transakcí s vnitropodnikovými partnery použijte vnitropodnikové doklady nebo deníky. | [Práce s vnitropodnikovými doklady a deníky](intercompany-how-work-documents-journals.md) |
 | Uspořádejte a zpracujte příchozí a odchozí transakce, které si vyměňujete se svými vnitropodnikovými partnery. | [Správa vnitropodnikové doručené pošty a pošty k odeslání](intercompany-how-manage-intercompany-inbox.md) |
 

@@ -29,24 +29,24 @@ Co s transakcí můžete udělat, záleží na tom, zda to bylo:
 
 Pomocí pole **Zobrazit zdroj transakce** můžete filtrovat stránku **Transakce vnitropodnikové doručené pošty** tak, aby zobrazovala pouze jeden z těchto typů transakcí. (Můžete také filtrovat podle vnitropodnikového partnera nebo podle obsahu pole **Akce řádku**.)
 
-#### Vytvoření vnitropodnikového partnera
+#### Transakce vytvořená vnitropodnikovým partnerem
 Když obdržíte novou transakci, kterou vytvořil váš partner, můžete si vybrat buď:
 
 - Přijetí transakce
 - Odmítnutí transakce (vrácení partnerovi)
-- Zrušení transakce (Odstrání transakci, ale nevrátí ji svému partnerovi)
+- Zrušení transakce (odstraní transakci, ale nevrátí ji vašemu partnerovi)
 
 #### Vrácení od vnitropodnikového partnera
-Pokud transakce byla odmítnuta vaším vnitropodnikovým partnerem, jedinou možností je zrušení transakce v doručené poště. Poté musíte ve své společnosti vytvořit opravné řádky nebo obrátit deník nebo dokument.
+Pokud transakce byla odmítnuta vaším vnitropodnikovým partnerem, jedinou možností je zrušení transakce v doručené poště. Poté musíte ve své společnosti vytvořit opravné řádky nebo stornovat deník nebo dokument.
 
 ## Opětovné vytvoření položek doručené pošty
-Pokud jste transakci přijali ve složce doručená pošta, ale místo zaúčtování dokument nebo deník odstranili, můžete položku doručené pošty znovu vytvořit a znovu ji přijmout.
+Pokud jste transakci přijali ve složce doručená pošta, ale místo zaúčtování dokumentu jste deník odstranili, můžete položku doručené pošty znovu vytvořit a znovu ji přijmout.
 
 ## Získání přehledu vnitropodnikových transakcí za období
-Můžete získat přehled o všech vnitropodnikových transakcích, které jste odeslali a přijali v období. Sestava **Vnitropodnikové transakce** jsou uvedeny všechny vnitropodnikové věcné položky, položky zákazníka a položky dodavatele.
+Můžete získat přehled o všech vnitropodnikových transakcích, které jste odeslali a přijali v období. Sestava **Vnitropodnikové transakce** uvádí všechny vnitropodnikové věcné položky, položky zákazníka a položky dodavatele.
 
 > [!NOTE]
-> Pokud jsou vnitropodnikový partnery ve stejné databázi, pak se transakce přenášejí bez potřeby souboru nebo e-mailu. Podívejte se na pole **Typ přenosu** na stránce **Vnitropodnikový partner**. <br /><br />
+> Pokud jsou vnitropodnikoví partneři ve stejné databázi, pak se transakce přenášejí bez potřeby souboru nebo e-mailu. Podívejte se na pole **Typ přenosu** na stránce **Vnitropodnikový partner**. <br /><br />
 V takovém případě můžete systém nastavit tak, aby obcházel doručenou poštu a poštu k odeslání výběrem zaškrtávacího políčka **Auto.  Přijmout transakce** na stránce **Vnitropodnikový partner** a výběrem zaškrtávacího políčka **Auto.  Odeslat transakce** na stránce **Nastavení vnitropodnikové společnosti**.
 
 ## Import vnitropodnikových transakcí ze souboru
@@ -61,7 +61,7 @@ Pokud máte vnitropodnikového partnera, který není ve stejné databázi jako 
 Transakce se importují do složky Doručená pošta a nyní je můžete zpracovat.
 
 ## Zpracování příchozích vnitropodnikových transakcí
-Když vám vaši vnitropodnikové partnery pošlou vnitropodnikové transakce, transakce skončí ve vaší vnitropodnikové doručené poště. Každou transakci v doručené poště musíte vyhodnotit a jednat podle ní.
+Když vám vaši vnitropodnikoví partneři pošlou vnitropodnikové transakce, transakce skončí ve vaší vnitropodnikové doručené poště. Každou transakci v doručené poště musíte vyhodnotit a jednat podle potřeby.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Transakce vnitropodnikové doručené pošty** a poté vyberte související odkaz.
 2. Na stránce **Transakce vnitropodnikové doručené pošty** vyberte řádek a poté vyberte akci, například **Přijmout**, aby se řádek zpracoval.

@@ -16,9 +16,9 @@ ms.author: sgroespe
 # Práce s vnitropodnikovými doklady a deníky
 K účtování transakcí s vašimi partnery v rámci společnosti používáte vnitropodnikové doklady nebo deníky. Když ve společnosti zaúčtujete vnitropodnikový doklad nebo řádek deníku, vytvoří se odpovídající řádek dokladu nebo deníku ve vnitropodnikové poště k odeslání, kterou můžete přenést na svého partnera. Váš partner pak může zaúčtovat odpovídající transakci ve své společnosti, aniž by musel znovu zadávat data.
 
-U prodejních a nákupních dokladů zajišťuje kód vnitropodnikového partnera na příslušném odběrateli nebo dodavateli, že všechny objednávky a faktury vytvořené v případě transakcí s těmito společnostmi budou v partnerské společnosti vytvářet odpovídající doklady a vést ke správnému vyvažování účtů.
+U prodejních a nákupních dokladů zajišťuje kód vnitropodnikového partnera na příslušném odběrateli nebo dodavateli, že všechny objednávky a faktury vytvořené v případě transakcí s těmito společnostmi budou v partnerské společnosti vytvářet odpovídající doklady a vést ke správnému přiřazení účtů.
 
-U řádku vnitropodnikového finančního deníku nemusíte specifikovat účty pro jednotlivou sadu knih, ale jednoduše uveďte identifikaci partnerské společnosti. Odpovídající řádky vnitropodnikového finančního deníku jsou pak vytvořeny v partnerské společnosti, což vede k vyvažování účetních knih obou společností zapojených do transakce.
+U řádku vnitropodnikového finančního deníku nemusíte specifikovat účty pro jednotlivou sadu knih, ale jednoduše uveďte identifikaci partnerské společnosti. Odpovídající řádky vnitropodnikového finančního deníku jsou pak vytvořeny v partnerské společnosti, což vede k vyrovnání účetních knih obou společností zapojených do transakce.
 
 ## Vyplnění a odeslání vnitropodnikové prodejní objednávky
 Před zaúčtováním můžete odeslat prodejní a nákupní objednávky a vratky. Faktury a dobropisy nelze odeslat, dokud nejsou zaúčtovány.

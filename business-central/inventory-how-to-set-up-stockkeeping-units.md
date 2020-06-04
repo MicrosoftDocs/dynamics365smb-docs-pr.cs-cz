@@ -14,7 +14,7 @@ ms.date: 11/15/2018
 ms.author: sgroespe
 ---
 # <a name="set-up-stockkeeping-units"></a>Nastavení skladové jednotky
-Pomocí skladových jednotek můžete zaznamenávat informace o svým zboží pro konkrétní lokaci nebo kód konkrétní varianty.  
+Pomocí skladových jednotek můžete zaznamenávat informace o svém zboží pro konkrétní lokaci nebo kód konkrétní varianty.  
 
  Skladové jednotky jsou doplňkem ke kartám zboží. Nenahrazují je, i když s nimi souvisí. Skladové jednotky umožňují rozlišovat informace o zboží pro konkrétní lokaci, jako je sklad nebo distribuční centrum, nebo konkrétní varianta, jako jsou různá čísla polic a různé informace o doplňování, pro stejné zboží.  
 

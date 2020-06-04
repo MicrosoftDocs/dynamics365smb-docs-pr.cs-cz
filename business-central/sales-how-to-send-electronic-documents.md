@@ -46,10 +46,10 @@ Chcete-li odeslat prodejní fakturu jako elektronický doklad PEPPOL, vyberte v 
    > Zaúčtované prodejní faktury můžete také odeslat jako elektronický doklad. Postup je stejný, jak je popsáno v tomto tématu pro nezaúčtované prodejní doklady. Na stránce **Účtovaná prodejní faktura**, vyberte akci **protokol aktivity** pro zobrazení stavu elektronického dokladu. Pro více informací navštivte **protokol aktivity**.
 
 ## Viz také
-[Fakturace prodeje](sales-how-invoice-sales.md)
-[Nastavení profilů odesílání dokladů](sales-how-setup-document-send-profiles.md)
-[Nastavení odesílání a přijímání elektronického dokladu](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-[Nastavení služby směnných kurzů](across-how-to-set-up-a-document-exchange-service.md)
-[Nastavení definice výměny dat](across-how-to-set-up-data-exchange-definitions.md)
-[Elektronická výměna dat](across-data-exchange.md)
+[Fakturace prodeje](sales-how-invoice-sales.md)  
+[Nastavení profilů odesílání dokladů](sales-how-setup-document-send-profiles.md)  
+[Nastavení odesílání a přijímání elektronického dokladu](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Nastavení služby směnných kurzů](across-how-to-set-up-a-document-exchange-service.md)  
+[Nastavení definice výměny dat](across-how-to-set-up-data-exchange-definitions.md)  
+[Elektronická výměna dat](across-data-exchange.md)  
 [Obecné obchodní funkcionality](ui-across-business-areas.md)

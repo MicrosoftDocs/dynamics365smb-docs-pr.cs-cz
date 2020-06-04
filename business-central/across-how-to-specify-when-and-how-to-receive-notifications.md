@@ -15,7 +15,7 @@
     ms.author: sgroespe
 ---
 # Určení, kdy a jak přijímat upozornění
-Pokud nastavíte uživatele ve workflow schvalování, musíte na stránkách **Nastavení upozornení** a **Plán upozornění** určit, jak a kdy jednotliví uživatelé obdrží upozornění na workflow schválení. Jednotliví uživatelé mohou také změnit své nastavení upozornění výběrem tlačítka **Změnit nastavení upozornění** u jakéhokoli upozornění.
+Pokud nastavíte uživatele ve workflow schvalování, musíte na stránkách **Nastavení upozornení** a **Plán upozornění** určit, jak a kdy jednotliví uživatelé obdrží upozornění na kroky workflow schvalování. Jednotliví uživatelé mohou také změnit své nastavení upozornění výběrem tlačítka **Změnit nastavení upozornění** u jakéhokoli upozornění.
 
 Než budete moci nastavit předvolby upozornění uživatele schvalování, musíte jej nastavit jako uživatele schvalování. Pro více informací navštivte [Nastavení uživatelů schvalování](across-how-to-set-up-approval-users.md).
 
@@ -25,13 +25,13 @@ Mnoho kroků workflow schvalování je o upozorňování uživatelů na to, že 
 
 ## Určení, kdy a jak budou uživatelé dostávat upozornění
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řeknete mi, co chcete dělat"), zadejte **Nastavení uživatelů schvalování** a poté vyberte související odkaz.
+1. Vyberte ikonu ![Žárovky, která otevře ikonu Řekněte mi](media/ui-search/search_small.png "Řeknete mi, co chcete dělat"), zadejte **Nastavení uživatelů schvalování** a poté vyberte související odkaz.
 2. Vyberte řádek pro uživatele, pro kterého chcete nastavit předvolby upozornění, a poté vyberte akci **Nastavení upozornění**.
 3. Na stránce **Nastavení upozornení** vyplňte pole podle popisu v následující tabulce.
 
    | Pole | Popis |
    |---------------------------------|---------------------------------------|  
-   | **Typ upozornění** | Zadejte typ události, který se upozornění týká. <br /><br />Vyberte jednu z následujících možností:<br /><br /> - **Nový záznam** určuje, že se upozornení týká nového záznamu, například dokladu, na který musí uživatel reagovat.<br /> - **Schválení** určuje, že oznámení se týká nejméně jedné žádosti o schválení.<br /> - **Vypr. platnost** určuje, že upozornění upozorní uživatele, že se zpozdí v reakci na událost. |
+   | **Typ upozornění** | Zadejte typ události, které se upozornění týká. <br /><br />Vyberte jednu z následujících možností:<br /><br /> - **Nový záznam** Určuje, že se upozornení týká nového záznamu, například dokladu, na který musí uživatel reagovat.<br /> - **Schválení** Určuje, že oznámení se týká nejméně jedné žádosti o schválení.<br /> - **Vypr. platnost** Určuje, že upozornění upozorní uživatele, že se zpozdí v reakci na událost. |
    | **Metoda upozornění** | Určete, zda je upozornění e-mailem nebo interní poznámkou. |
 
    Rozložení e-mailových upozornení můžete definovat přizpůsobením sestavy 1320, e-mailové upozornění. Pro více informací navštivte [Vytvoření a úprava vlastní sestavy nebo rozvržení dokladu](ui-how-create-custom-report-layout.md).
@@ -44,11 +44,11 @@ Mnoho kroků workflow schvalování je o upozorňování uživatelů na to, že 
    | Pole | Popis |
    |---------------------------------|---------------------------------------|  
    | **Opakování** | Zadejte způsob opakování, ve kterém uživatel obdrží upozornění. |
-   | **Čas** | Určete, kdy počas dne obdrží uživatel upozornění, pokud se hodnota v poli **Opakování** liší od **Okamžitě**. |
-   | **Denní frekvence** | Určete, ve které části dne obdrží uživatel upozornění, když je hodnota v poli **Opakování** nastavena na **Denně**. Vyberte **Pracovní den** a uživatel bude přijímat upozornění každý pracovní den v týdnu. Vyberte **Denně**, chcete-li dostávat oznámení každý den v týdnu, včetně víkendů. |
+   | **Čas** | Určete, kdy počas dne obdrží uživatel upozornění, pokud se ohdnota v poli **Opakování** liší od **Okamžitě**. |
+   | **Denní frekvence** | Určete, ve které části dne obdrží uživatel upozornění, když je hodnota v poli **Opakování** nastavena na **Denně**. <br /><br />Vyberte **Pracovní den** a uživatel bude přijímat upozornění každý pracovní den v týdnu. Vyberte **Denně**, chcete-li dostávat oznámení každý den v týdnu, včetně víkendů. |
    | **Pondělí** až **neděle** | Můžete určit dny, kdy uživatel obdrží upozornění, pokud je hodnota v poli **Opakování** nastavena na **Týdně**. |
    | **Den v měsíci** | Určete, zda uživatel obdrží upozornění první, poslední nebo konkrétní den v měsíci. |
-   | **Datum měsíčního upozornění** | Zadejte datum v měsíci, ve kterém uživatel obdrží upozornění, pokud je hodnota v poli **Den upozornění** nastavena na **Vlastní**. |
+   | **Datum měsíčního upozornění** | Zadejte datum v měsíci, ve kterém uživatel obdrží upozornění, pokud je hodnota v poli **Den upozornění** nastavena na **Vlastní** . |
 
 ## Změnit, kdy a jak dostávat upozornění
 1. V jednom z přijatých upozornění, buď jako e-mail nebo poznámka, vyberte tlačítko **Změnit nastavení oznámení**.
