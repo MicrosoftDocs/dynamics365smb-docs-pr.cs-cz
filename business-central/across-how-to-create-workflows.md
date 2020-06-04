@@ -1,6 +1,6 @@
 ---
-    title: Jak vytvořit workflow | Microsoft Docs
-    description: Můžete vytvářet workflow, které spojují úlohy podnikových procesů prováděné různými uživateli. Systémové úlohy, jako je například automatické účtování, lze zahrnout jako kroky do workflow, které předchází nebo následují úkoly uživatele. Vyžádání a udělení souhlasu k vytvoření nových záznamů jsou typické kroky workflow.
+    title: How to Create Workflows | Microsoft Docs
+    description: You can create workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Vytvoření Workflow
-Můžete vytvářet workflow, které spojují úlohy podnikových procesů prováděné různými uživateli. Systémové úlohy, jako je například automatické účtování, lze zahrnout do workflow jako jednotlivé kroky, které předchází nebo následují úkoly uživatele. Vyžádání a udělení souhlasu k vytvoření nových záznamů jsou typické kroky workflow.
+Můžete vytvářet workflow, které spojují úlohy podnikových procesů prováděné různými uživateli. Systémové úlohy, jako je například automatické účtování, lze zahrnout jako kroky do workflow, které předchází nebo následují úkoly uživatele. Vyžádání a udělení souhlasu k vytvoření nových záznamů jsou typické kroky workflow.
 
 Na stránce **Workflow** vytvoříte workflow vypsáním příslušných kroků na řádcích. Každý krok sestává z události workflow, která je řízená podmínkami události, a odezvy workflow s možnostmi odezvy. Kroky workflow definujete vyplněním polí na řádcích workflow z pevných seznamů hodnot událostí a odezev představujících scénáře, které jsou podporovány kódem aplikace.
 
@@ -34,10 +34,10 @@ Pokud váš obchodní scénář vyžaduje události workflow nebo odezvy, které
 4. Chcete-li vytvořit workflow ze šablony workflow, na stránce **Workflow** zvolte akci **Nové workflow ze šablony**. Pro více informací navštivte [Vytvoření workflow z šablony workflow](across-how-to-create-workflows-from-workflow-templates.md).
 5. V poli **Popis** popište dané workflow.
 6. V poli **Kategorie** zadejte, do které kategorie workflow patří.
-7. V poli **Když událost** zadejte událost, která musí nastat před spuštěním kroku workflow.
+7. V poli **Když událost** zadejte událost, která musí nastat ke spuštění kroku workflow.
 
    Pokud vyberete pole, otevře se stránka **Události workflow** kde můžete vybrat ze všech událostí workflow, které existují.
-8. V poli **Předpoklad** zadejte jednu nebo více podmínek, které musí být splněny, aby mohla nastat událost v poli **Když událost**.
+8. V poli **Predpoklad** zadejte jednu nebo více podmínek, které musí být splněny, aby mohla nastat událost v poli **Když událost**.
 
    Když vyberete pole, otevře se stránka **Podmínky události**, kde si vyberete ze seznamu polí filtru, která jsou relevantní jako podmínky pro danou událost. Můžete přidat nová pole filtru, která chcete použít jako podmínky událostí. Filtry podmínek událostí se nastavují stejně jako filtry na stránkách požadavků na sestavu.
 
@@ -61,11 +61,11 @@ Pokud váš obchodní scénář vyžaduje události workflow nebo odezvy, které
 
       | Pole | Popis |
       |----------------------------------|---------------------------------------|  
-      | **Výpočet data platnosti** | Určete, do kolika dní musí být žádost o schválení vyřešena od data, kdy byla odeslána. |
-      | **Delegovat po** | Určete, zda a kdy bude žádost o schválení automaticky delegována na příslušného zástupce. Můžete zvolit automatické delegování po jednom, dvou nebo pěti dnech po datu, kdy bylo schválení zažádáno. |
-      | **Typ schvalovatele** | Určete, kdo je schvalovatel, podle nastavení uživatelů schvalování a uživatelů workflow.<br /><br /> Existují následující možnosti:<br /><br /> -   **Prodejce/nákupčí** určuje, že uživatel, který je nastaven v poli **Kód prodejce/nákupčího** na stránce **Nastavení uživatelů schvalování**, je schvalovatel. Položky požadavku ke schválení jsou poté vytvořeny podle hodnoty v poli **Typ limitu schvalovatele**.<br /> Pro více informací navštivte [Nastavení uživatelů schvalování](across-how-to-set-up-workflow-users.md). |
-      | **Zobrazit potvrzující zprávu** | Zadejte, zda se uživateli zobrazí potvrzovací zpráva po vyžádání schválení. |
-      | **Typ limitu schvalovatele** | Určuje, jak se ovlivní limity pro schvalování schvalovatelů při vytváření položek žádosti o schválení. Kvalifikovaný schvalovatel je osoba, jehož schvalovací limit je nad touhle hodnotou na zadané žádosti.<br /><br /> Existují následující možnosti:<br /><br /> 1.  **Řetěz schvalovatelů** určuje, že položky žádosti o schválení jsou vytvářeny pro všechny schvalovatele žadatele až do prvního kvalifikovaného schvalovatele včetně.<br />2.  **Přímý schvalovatel** určuje, že položka požadavku na schválení je vytvořena pouze pro okamžitého schvalovatele žadatele, bez ohledu na limit schválení schvalovatele.<br />3.  **První kvalifikovaný schvalovatel** určuje, že položka požadavku na schválení je vytvořena pouze pro prvního kvalifikovaného schvalovatele žadatele.<br /> |
+      | **Výpočet data platnosti** | Určete, kolik dní musí být žádost o schválení vyřešena od data, kdy byla odeslána. |
+      | **Delegovat po** | Určete, zda a kdy bude žádost o schválení automaticky delegována na příslušného zástupce. Můžete zvolit automatické delegování jednoho, dvou nebo pěti dnů po datu požadavku na schválení. |
+      | **Typ schvalovatele** | Určete, kdo je schvalovatel, podle nastavení uživatelů schvalování a uživatelů workflow.<br /><br /> Existují následující možnosti:<br /><br /> -   **Prodejce/nákupčí** určuje, že uživatel, který je nastaven v poli **Kód prodejce/ nákupčího** na stránce **Nastavení uživatelů schvalování** určuje schvalovatele. Položky požadavku ke schvalování jsou poté vytvořeny podle hodnoty v poli **Typ limitu schvalovatele**.<br /> Pro více informací navštivte [Nastavení uživatelů schvalování](across-how-to-set-up-workflow-users.md). |
+      | **Zobrazení potvrzovací zprávu** | Zadejte, zda se uživateli zobrazí potvrzovací zpráva po vyžádání schválení. |
+      | **Typ limitu schvalovatele** | Určete, jak mají být limity schválení schvalovatelů ovlivněny při vytváření položek požadavků na schválení. Kvalifikovaný schvalovatel je osoba, jehož schvalovací limit je nad hodnotou na zadané žádosti.<br /><br /> Existují následující možnosti:<br /><br /> 1.  **Řetěz schvalovatelů** určuje, že položky žádosti o schválení jsou vytvářeny pro všechny schvalovatele žadatele až do prvního kvalifikovaného schvalovatele včetně<br />2.  **Přímý schvalovatel** určuje, že položka požadavku na schválení je vytvořena pouze pro okamžitého schvalovatele žadatele, bez ohledu na limit schválení schvalovatele.<br />3.  **První kvalifikovaný schvalovatel** určuje, že položka požadavku na schválení je vytvořena pouze pro prvního kvalifikovaného schvalovatele žadatele.<br /> |
    3. Chcete-li určit možnosti pro odezvu workflow, která zahrnuje vytvoření řádků deníku, vyplňte pole tak, jak je popsáno v následující tabulce.
 
       | Pole | Popis |

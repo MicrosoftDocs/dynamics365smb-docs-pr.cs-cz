@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # Použití schvalování workflow
-Pokud musí být záznam, například nákupní doklad nebo zákaznická karta, schválen někým ve vaší organizaci, odešlete požadavek na schválení jako součást postupu. Na základě nastavení postupu je příslušná schvalující osoba informována o tom, že záznam vyžaduje schválení.
+Pokud musí být záznam, například nákupní doklad nebo karta zákazníka, schválen někým ve vaší organizaci, odešlete požadavek na schválení jako součást workflow. Na základě nastavení workflow je příslušná schvalující osoba informována o tom, že záznam vyžaduje schválení.
 
 Schvalování workflow se nastavuje na stránce **Workflow**. Pro více informací navštivte [Nastavení workflow](across-set-up-workflows.md).
 

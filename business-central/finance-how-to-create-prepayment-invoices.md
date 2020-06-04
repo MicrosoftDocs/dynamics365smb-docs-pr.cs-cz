@@ -18,13 +18,13 @@ Pokud požadujete, aby vaši zákazníci před odesláním objednávky odeslali 
 
 Po vytvoření prodejní nebo nákupní objednávky můžete vytvořit zálohovou fakturu. Pro každý prodejní nebo nákupní řádek můžete použít výchozí procenta nebo můžete podle potřeby upravit částku. Můžete například zadat celkovou částku pro celou objednávku.
 
-Následující postup popisuje, jak fakturovat zálohu na prodejní objednávky. Kroky jsou podobné pro nákupní objednávky.
+Následující postup popisuje, jak fakturovat zálohu z prodejní objednávky. Kroky jsou podobné pro nákupní objednávky.
 
 ## Vytvoření zálohové faktury
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní objednávky** a poté vyberte související odkaz.
 2. Vytvořte novou prodejní objednávku. Pro více informací navštivte [Prodej produktů](sales-how-sell-products.md).
 
-   Na záložce **Záloha** se pole **Záloha (%)** vyplní automaticky, pokud je na kartě zákazníka výchozí procento zálohy. Můžete změnit obsah pole. Procento zálohy je zkopírováno pouze z hlavičky na řádky, které nekopírují výchozí procento zálohy z položky.
+   Na záložce **Záloha** se pole **Záloha (%)** vyplní automaticky, pokud je na kartě zákazníka výchozí procento zálohy. Můžete změnit obsah pole. Procento zálohy je zkopírováno z hlavičky pouze na řádky, které nekopírují výchozí procento zálohy z položky.
 
    Pokud je vybráno pole **Slučovat zálohy**, budou řádky na faktuře sloučeny, pokud:
    - Mají stejný účet hlavní knihy pro zálohy, jak je stanoveno v obecném nastavení účtování.
