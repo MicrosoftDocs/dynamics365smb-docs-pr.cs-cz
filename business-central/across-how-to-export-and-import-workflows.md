@@ -14,11 +14,11 @@
 
 ---
 # Export a import workflow
-Na to aby jste přenesli workflow do jiných [!INCLUDE[d365fin](includes/d365fin_md.md)] databází, například kvůli ušetření času při vytváření nových workflow, můžete workflow exportovat a importovat.
+Pro přenesení workflow do jiných [!INCLUDE[d365fin](includes/d365fin_md.md)] databází, například kvůli ušetření času při vytváření nových workflow, můžete daný workflow exportovat a importovat.
 
 Dalším způsobem rychlého vytvoření workflow je vytvoření ze šablon workflow. Pro více informací navštivte [Vytvoření workflow z šablony workflow](across-how-to-create-workflows-from-workflow-templates.md).
 
-Na stránce **Workflow** vytvoříte workflow vypsáním příslušných kroků na řádcích. Každý krok sestává z události workflow, která je řízená podmínkami událostí, a odezvy workflow, která je řízená možnostmi odezvy. Kroky workflow definujete vyplněním polí na řádcích workflow z pevných seznamů hodnot událostí a odezev představujících scénáře, které jsou podporovány kódem aplikace. Pro více informací navštivte [Vytvoření workflow](across-how-to-create-workflows.md).
+Na stránce **Workflow** vytvoříte workflow vypsáním příslušných kroků na řádcích. Každý krok sestává z události workflow, která je řízená podmínkami událostí, a odezvy workflow, která je řízená možnostmi odezvy. Kroky workflow definujete vyplněním polí na řádcích workflow z pevných seznamů hodnot událostí a odezev představujících scénáře, které jsou podporovány kódem aplikace. Pro více informací navštivte [Vytvoření workfloworkflow](across-how-to-create-workflows.md).
 
 ## Exportování workflow
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řeknete mi, co chcete dělat"), zadejte **Workflow** a poté vyberte související odkaz.
@@ -29,7 +29,7 @@ Na stránce **Workflow** vytvoříte workflow vypsáním příslušných kroků 
 ## Importování workflow
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řeknete mi, co chcete dělat"), zadejte **Workflow** a poté vyberte související odkaz.
 2. Zvolte akci **Importovat ze souboru**.
-3. Na stránce **Import** zvolte soubor XML, který obsahuje workflow, a pak zvolte tlačítko **Otevřít**.
+3. Na stránce **Importu** zvolte soubor XML, který obsahuje workflow, a pak zvolte tlačítko **Otevřít**.
 
 > [!CAUTION]
 > Pokud kód workflow již v databázi existuje, kroky workflow budou přepsány kroky v importovaném workflow.

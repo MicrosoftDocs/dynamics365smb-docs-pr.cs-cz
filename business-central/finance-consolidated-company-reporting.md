@@ -26,10 +26,10 @@ Můžete konsolidovat:
 
 * Napříč společnostmi, které mají různé účetní osnovy.
 * Společnosti, které používají různé fiskální roky a různé měny.
-* Celá částka nebo procento finančních informací společnosti
-* Použití různých směnných kurzů na jednotlivých finančních účtech
+* Celú částku nebo procento finančních informací společnosti.
+* Použití různých směnných kurzů na jednotlivých finančních účtech.
 
-V závislosti na složitosti vašich podniků existují dva způsoby nastavení přehledu:
+V závislosti na složitosti vašich podniků existují dva způsoby nastavení sestavy:
 
 * Pokud nepotřebujete pokročilá nastavení, jako je například zahrnutí společnosti, ve které vlastníte pouze část, můžete pomocí průvodce **Konsolidace společnosti** rychle nastavit konsolidaci. Průvodce vám pomůže projít základní kroky.
 * Pokud potřebujete pokročilejší nastavení, můžete si sami nastavit konsolidovanou společnost a účetní jednotky.
@@ -66,7 +66,7 @@ Pokud se účetní osnova v účetní jednotce liší od konsolidované společn
 2. Otevřete kartu pro účet a poté vyplňte pole na záložce **Konsolidace**.
 
 ### Upřesnění směnných kurzů pro konsolidaci
-Pokud účetní jednotka používá jinou měnu než konsolidovaná společnost, musíte před konsolidací zadat metody směnného kurzu pro každý účet. U každého účtu je obsah pole **Způsob  převodu konsolidace** určuje směnný kurz. Na každé kartě účetní jednotky v poli **Tabulka směnných kurzů** určete, zda konsolidace použije směnné kurzy z obchodní jednotky nebo konsolidované společnosti. Pokud používáte směnné kurzy od konsolidované společnosti, můžete změnit směnné kurzy pro účetní jednotku. Pokud pro účetní jednotky obsahuje pole **Tabulka směnných kurzů** na kartě účetní jednotky hodnotu **Místní** můžete změnit směnný kurz z karty účetních jednotek. Směnné kurzy jsou zkopírovány z tabulky **Směnný kurz**, ale před konsolidací je můžete změnit.
+Pokud účetní jednotka používá jinou měnu než konsolidovaná společnost, musíte před konsolidací zadat metody směnného kurzu pro každý účet. U každého účtu obsah pole **Způsob  převodu konsolidace** určuje směnný kurz. Na každé kartě účetní jednotky v poli **Tabulka směnných kurzů** určete, zda konsolidace použije směnné kurzy z obchodní jednotky nebo konsolidované společnosti. Pokud používáte směnné kurzy od konsolidované společnosti, můžete změnit směnné kurzy pro účetní jednotku. Pokud pro účetní jednotky obsahuje pole **Tabulka směnných kurzů** na kartě účetní jednotky hodnotu **Místní** můžete změnit směnný kurz z karty účetních jednotek. Směnné kurzy jsou zkopírovány z tabulky **Směnný kurz**, ale před konsolidací je můžete změnit.
 
 Následující tabulka popisuje metody směnného kurzu, které můžete použít pro účty.
 

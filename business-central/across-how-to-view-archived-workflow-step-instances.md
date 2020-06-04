@@ -18,7 +18,7 @@
 # Zobrazení archivovaných instancí kroku workflow
 Všechny dokončené instance kroku workflow jsou uloženy na stránce **Archivované instance workflow**.
 
-Na stránce **Workflow** vytvoříte workflow vypsáním příslušných kroků na řádcích. Každý krok sestává z události workflow, která je řízená podmínkami událostí, a odezvy workflow, která je řízená možnostmi odezvy. Kroky workflow definujete vyplněním polí na řádcích workflow z pevných seznamů hodnot událostí a odezev představujících scénáře, které jsou podporovány kódem aplikace. Pro více informací navštivte [Vytvoření workflow](across-how-to-create-workflows.md).
+Na stránce **Workflow** vytvoříte workflow vypsáním příslušných kroků na řádcích. Každý krok sestává z události workflow, která je řízená podmínkami událostí, a odezvy workflow, která je řízená možnostmi odezvy. Kroky workflow definujete vyplněním polí na řádcích workflow z pevných seznamů hodnot událostí a odezev představujících scénáře, které jsou podporovány kódem aplikace. Pro více informací navštivte [Vytvoření workfloworkflow](across-how-to-create-workflows.md).
 
 ## Zobrazení archivovaných instancí kroku workflow
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řeknete mi, co chcete dělat"), zadejte **Workflow** a poté vyberte související odkaz.
