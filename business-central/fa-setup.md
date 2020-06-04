@@ -13,12 +13,12 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 # <a name="setting-up-fixed-assets"></a>Nastavení dlouhodobého majetku
-Než budete moci pracovat s dlouhodobými majetky, musíte definovat několik věcí:  
+Než budete moci v pracovat s dlouhodobým majetkem, je potřeba definovat tyto oblasti:  
 
 * Jak pojistíte, udržujete a odepisujete dlouhodobý majetek.  
 * Jak zaznamenáváte náklady a další hodnoty v hlavní knize.  
 
-Níže uvedená tabulka obsahuje odkazy na další informace. Po nastavení těchto věcí můžete zahájit různé aktivity. Pro více informací navštivte [Dlouhodobý majetek](fa-manage.md).  
+Níže uvedená tabulka obsahuje odkazy na další informace. Po nastavení těchto oblastí můžete zahájit různé aktivity. Pro více informací navštivte [Dlouhodobý majetek](fa-manage.md).  
 
 > [!NOTE]  
 >   Můžete zaznamenat transakce dlouhodobého majetku na stránce **Finanční deník DM** nebo v okně **Deník dlouhodobého majetku** podle toho, zda jsou transakce pro finanční výkaznictví nebo interní správu. Nápověda pro dlouhodobý majetek ukazuje pouze, jak používat stránku **Finanční deník DM**.  

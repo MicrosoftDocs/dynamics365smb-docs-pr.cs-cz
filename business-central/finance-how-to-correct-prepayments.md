@@ -21,12 +21,12 @@ Následující postup ukazuje, jak vydat dobropis zálohy a zrušit všechny fak
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní objednávky** a poté vyberte související odkaz.
 2. Otevřete příslušnou prodejní objednávku.
 3. Vyberte akci **Záloha** a poté vyberte akci **Zaúčtovat dobropis zálohy** nebo **Zaúčtovat a vytisknout  dobropis  zálohy**.
-4. Na stránce **Prodejní dobropis** pokračujte v opravě příslušných položek, jako u všech prodejních dobropisů. Pro více informací navštivte [Zpracování prodejní vratky nebo stornování](sales-how-process-sales-returns-cancellations.md).
+4. Na stránce **Prodejní objednávka** pokračujte v opravě příslušných položek, jako u všech prodejních objednávek. Pro více informací navštivte [Zpracování prodejní vratky nebo stornování](sales-how-process-sales-returns-cancellations.md).
 
    > [!NOTE]
    > Chcete-li snížit částku v poli **Částka na řádku**, musíte nejprve zvýšit procento předplacení na řádku tak, aby hodnota v poli **Částka  řádku zálohy** neklesla pod hodnotu v poli **Fakt.  částka  zálohy**.
 
-5. Chcete-li vytvořit zálohovou fakturu pro všechny nové řádky v prodejním dobropisu, vyberte akci **Záloha** a poté vyberte akci **Zaúčtovat fakturu pro platbu předem** nebo **Zaúčtovat a vytisknout zálohovou  fakturu**.
+5. Chcete-li vytvořit zálohovou fakturu pro všechny nové řádky v prodejní objednávce, vyberte akci **Záloha** a poté vyberte akci **Zaúčtovat fakturu pro platbu předem** nebo **Zaúčtovat a vytisknout zálohovou  fakturu**.
 6. Chcete-li vystavit další zálohovou fakturu, zvyšte částku zálohy na jednom nebo více řádcích a zaúčtujte zálohovou fakturu. Bude vytvořena nová faktura pro rozdíl mezi fakturovanými částkami zálohy a novými částkami zálohy.
 
 ## Viz také

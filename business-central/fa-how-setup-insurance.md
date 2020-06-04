@@ -23,13 +23,13 @@ Pro používání pojišťovacích funkcí v [!INCLUDE[d365fin](includes/d365fin
 2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>Nastavení typů pojištění
-Můžete seskupit vaše pojistné smlouvy do kategorií, např. pojištění proti krádeži nebo pojištění proti požáru. Typy pojištění jsou používány na kartě pojištění.
+Pojistné smlouvy můžete seskupit do kategorií, např. pojištění proti krádeži nebo pojištění proti požáru. Typy pojištění jsou používány na kartě pojištění.
 
 1. Vyberte ikonu ![Žárovka, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), vstupte do **Typy pojištění** a poté vyberte související odkaz.  
 2. Vyplňte pole podle potřeby.
 
-## <a name="to-set-up-insurance-cards"></a>Nastavení karet pojištění.
-Můžete shromažďovat informace o každé pojistné smlouvě na kartě pojištění.  
+## <a name="to-set-up-insurance-cards"></a>Nastavení karet pojištění
+Na kartě pojištění můžete shromažďovat informace o každé pojistné smlouvě.  
 
 1. Vyberte ikonu ![Žárovka, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), vstupte do **Pojištění** a poté vyberte související odkaz.  
 2. Na stránce **Pojištění** zvolte akci **Nový** pro vytvoření nové karty pojištění.  

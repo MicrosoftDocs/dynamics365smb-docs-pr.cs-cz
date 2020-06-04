@@ -14,7 +14,7 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Nastavení údržby dlouhodobého majetku
-Ke správě údržby dlouhodobého majetku musíte nejprve nastavit nějaké obecné informace o údržbě, účet pro zaúčtování nákladů údržby a kódy údržby pro typy práce, jako je např. služba rutiny nebo oprava.
+Ke správě údržby dlouhodobého majetku musíte nejprve nastavit nějaké obecné informace o údržbě, účet pro zaúčtování nákladů údržby a kódy údržby pro typy práce, jako je např. pravidelný servis nebo oprava.
 
 ## <a name="to-set-up-general-maintenance-information"></a>Nastavení obecných informací o údržbě
 Pokud nastavíte pole pro údržbu, můžete účtovat výdaje za údržbu z deníku dlouhodobého majetku.
@@ -24,7 +24,7 @@ Pokud nastavíte pole pro údržbu, můžete účtovat výdaje za údržbu z den
 3. Na pevné záložce **Údržba** vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Pro nastavení kódů údržby
-Když účtujete náklady na údržbu z obecného deníku, vyplníte pole **Kód údržby** k zaznamenání, k jaké údržbě došlo, např. služba rutiny nebo oprava.
+Když účtujete náklady na údržbu z obecného deníku, vyplníte pole **Kód údržby** k zaznamenání, k jaké údržbě došlo, např. pravidelný servis nebo oprava.
 
 1. Vyberte ikonu ![Žárovka, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), vstupte do **Údržba** a poté vyberte související odkaz.
 2. Na stránce **Údržba** nastavte kódy pro různé typy údržbářských prací.

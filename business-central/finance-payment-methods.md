@@ -11,14 +11,14 @@ ms.search.keywords: 'check, bank transfer, cash, PayPal'
 ms.date: 11/22/2018
 ms.author: bholtorf
 ---
-# <a name="defining-payment-methods"></a>Definování způsobu platby
+# <a name="defining-payment-methods"></a>Nastavení způsobu platby
 Způsoby platby definují, jaký způsob platby od zákazníků preferujete a jak chcete platit svým dodavatelům. Metody se mohou u každého zákazníka a dodavatele lišit. Mezi typické způsoby platby patří **banka**, **hotovost**, **šek**, nebo **účet**. 
 
 Zákazníkům a dodavatelům můžete přiřadit způsob platby, tak, aby se stejný způsob vždy použil u prodejních a nákupních faktur, které pro ně vytvoříte. V případě potřeby můžete způsob změnit přímo na prodejní nebo nákupní faktuře. Například, pokud chcete platit konkrétní nákupní fakturu v hotovosti, a nikoli šekem. Tímto se nezmění výchozí způsob platby přiřazený dodavateli.
 
-Stejné způsoby platby se používají pro prodejní a nákupní faktury. Například, způsob platby v _hotovosti_ se používá jak při provádění plateb, tak při jejich přijímání. [!INCLUDE[d365fin](includes/d365fin_md.md)] ví, že když vytváříte prodejní fakturu očekáváte platbu, a opak zase u nákupních faktur. 
+Stejné způsoby platby se používají pro prodejní a nákupní faktury. Například, způsob platby v _hotovosti_ se používá jak při provádění plateb, tak při jejich přijímání. [!INCLUDE[d365fin](includes/d365fin_md.md)] předpokládá, že když vytváříte prodejní fakturu, očekáváte platbu, a opak zase u nákupních faktur. 
 
-Vratky z dobropisu na vrácení jsou však výjimkami, protože peníze tečou opačným směrem, od vás k vašemu zákazníkovi a od vašeho dodavatele k vám. Výchozí způsob platby proto není k dobropisům přiřazen. Pokud jste však určili platební podmínky pro zákazníka nebo dodavatele, tak zde existuje řešení. Avšak pole **Výpočet skonta   na   dobropisech** není k tomuto určeno. Pokud na stránce **Platební podmínky** zaškrtnete políčko, při vytváření dobropisu se přidá výchozí způsob platby.
+Vratky z dobropisu jsou však výjimkami, protože peníze tečou opačným směrem, od vás k vašemu zákazníkovi a od vašeho dodavatele k vám. Výchozí způsob platby proto není k dobropisům přiřazen. Pokud jste však určili platební podmínky pro zákazníka nebo dodavatele, tak zde existuje řešení. Avšak pole **Výpočet skonta   na   dobropisech** není k tomuto určeno. Pokud na stránce **Platební podmínky** zaškrtnete toto políčko, při vytváření dobropisu se přidá i výchozí způsob platby.
 
 ## <a name="to-set-up-a-payment-method"></a>Nastavení způsobu platby
 [!INCLUDE[d365fin](includes/d365fin_md.md)] poskytuje několik platebních metod, které podniky často používají. Můžete jich však přidat tolik, kolik potřebujete.
