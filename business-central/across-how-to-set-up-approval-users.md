@@ -47,7 +47,7 @@ Po nastavení uživatelů schvalování můžete pomoci nastavení vytvořit ode
    | **Správce schvalování** | Určete uživatele, který má práva k odblokování schvalování workflow, například delegováním žádostí o schválení na nové náhradníky schvalování a odstraněním žádostí o schválení po splatnosti. |
 
    > [!Note]
-Správcem schválení může být pouze jedna osoba.|
+Správcem schválení může být pouze jedna osoba.
 
 3. Chcete-li otestovat nastavení uživatelů schvalování, zvolte akci **Nastavení uživatelů schvalování - test**.
 4. Opakujte kroky 2 a 3 pro každého uživatele, kterého chcete nastavit jako uživatele schvalování.
