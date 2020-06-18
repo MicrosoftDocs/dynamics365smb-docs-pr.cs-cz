@@ -32,7 +32,7 @@ Vzhledem k tomu, že pevná pořizovací cena na vyrobené nebo sestavené zbož
 - Odhadněte pevnou pořizovací cenu na hotové zboží a nastavte ji na kartě zboží.
 - Zaznamenejte a přidělte skutečné náklady na klíčové prvky nákladů a zohledněte odchylky.
 
-Pro určení přímých nákladů na hotové zboží musí být všechny náklady na součásti sečteny. Sestavené nebo vyrobené zboží může zahrnovat podsestavy, které jsou také sestáveny z více komponent.
+Pro určení přímých nákladů na hotové zboží musí být všechny náklady na součásti sečteny. Sestavené nebo vyrobené zboží může zahrnovat podsestavy, které jsou také sestaveny z více komponent.
 
 Následující klíčové prvky nákladů tvoří celkové přímé náklady na hotové zpracované zboží:
 
