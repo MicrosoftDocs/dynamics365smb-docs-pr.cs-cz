@@ -13,120 +13,120 @@
     ms.author: bholtorf
 
 ---
-# Setting Up User Accounts for Integrating with Dynamics 365 Sales
-This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# Nastavení uživatelských účtů pro integraci s Dynamics 365 for Sales
+Tento článek obsahuje přehled, jak nastavit uživatelské účty, které jsou nutné k integraci [!INCLUDE[crm_md](includes/crm_md.md)] s [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
 
-## Setting Up the Administrator User Account in Sales
-You must add your administrator user account for [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user in [!INCLUDE[crm_md](includes/crm_md.md)], and then promote the user to administrator in [!INCLUDE[crm_md](includes/crm_md.md)]. The administrator user account must also have the System Customizer role and at least one other non-administrative user role, such as Sales Manager, in [!INCLUDE[crm_md](includes/crm_md.md)].
+## Nastavení uživatelského účtu správce v prodeji
+Musíte přidat svůj uživatelský účet správce pro [!INCLUDE[d365fin](includes/d365fin_md.md)] jako uživatel v [!INCLUDE[crm_md](includes/crm_md.md)] a poté povýšit uživatele na administrátora v [!INCLUDE[crm_md](includes/crm_md.md)]. Uživatelský účet správce musí mít také roli Úpravce systému a alespoň jednu další roli uživatele bez oprávnění správce, například Správce prodeje, v [!INCLUDE[crm_md](includes/crm_md.md)].
 
-## Setting Up the User Account for the Integration
-You must create a dedicated user account in your Office 365 subscription that both [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] can use to synchronize data. This user account must be able to sign in to [!INCLUDE[crm_md](includes/crm_md.md)], which means this user must have a license for [!INCLUDE[crm_md](includes/crm_md.md)] and at least one security role assigned to it in [!INCLUDE[crm_md](includes/crm_md.md)] as described [here](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). For more information about how to create users in [!INCLUDE[crm_md](includes/crm_md.md)], see [Manage security, users, and teams](https://go.microsoft.com/fwlink/?LinkID=616518). After the connection is set up, [!INCLUDE[d365fin](includes/d365fin_md.md)] will assign the user account the security roles that it needs in [!INCLUDE[d365fin](includes/d365fin_md.md)] and this account can be set to [non-interactive access mode](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) in [!INCLUDE[crm_md](includes/crm_md.md)]
+## Nastavení uživatelského účtu pro integraci
+V předplatném sady Office 365 musíte vytvořit vyhrazený uživatelský účet, který lze použít k synchronizaci dat [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]. Tento uživatelský účet musí být schopen přihlásit se do [!INCLUDE[crm_md](includes/crm_md.md)] což znamená, že tento uživatel musí mít licenci pro [!INCLUDE[crm_md](includes/crm_md.md)] a alespoň jednu bezpečnostní roli, která je mu přiřazena v [!INCLUDE[crm_md](includes/crm_md.md)], jak je popsáno [zde](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Pro další informace o vytváření uživatelů v [!INCLUDE[crm_md](includes/crm_md.md)] navštivte [Správa zabezpečení, uživatelů a týmů](https://go.microsoft.com/fwlink/?LinkID=616518). Po nastavení připojení [!INCLUDE[d365fin](includes/d365fin_md.md)] přiřadí uživatelskému účtu bezpečnostní role, které potřebuje v [!INCLUDE[d365fin](includes/d365fin_md.md)] a tento účet může být nastaven na [Neinteraktivní režim přístupu](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) v [!INCLUDE[crm_md](includes/crm_md.md)].
 
-![Assisted setup guide showing place to enter synchronization user credentials](media/sync-user-setup.png "Visualization assisted setup wizard page showing place to enter synchronization user credentials")
+![Průvodce asistovaným nastavením ukazující místo pro zadání přihlašovacích údajů pro synchronizaci](media/sync-user-setup.png "Stránka průvodce nastavením asistované vizualizace ukazující místo pro zadání přihlašovacích údajů pro synchronizaci")
 
-> [!IMPORTANT]  
-> Do not use the administrator account for [!INCLUDE[crm_md](includes/crm_md.md)] for synchronization. Doing so will break the synchronization.
-> Also, to avoid constant synchronization, changes to data that are made by the integration user account are not synchronized. <!--What changes would this account make?--> After the connection is made, we recommend setting the access mode for the user account for integration to non-interactive mode in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Create a non-interactive user account](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+> [!IMPORTANT]
+> Nepoužívejte účet správce pro synchronizaci [!INCLUDE[crm_md](includes/crm_md.md)]. Pokud tak učiníte, dojde k přerušení synchronizace.
+<x6 />Aby nedocházelo k neustálé synchronizaci, nejsou synchronizovány ani změny dat provedených uživatelským účtem integrace. <!--What changes would this account make?--> Po navázání spojení doporučujeme nastavit režim přístupu uživatelského účtu pro integraci do neinteraktivního režimu v [!INCLUDE[crm_md](includes/crm_md.md)]. Pro více informací navštivte [Vytvoření neinteraktivního uživatelského účtu](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## Setting Up Accounts for Salespeople
-You must create user accounts in [!INCLUDE[crm_md](includes/crm_md.md)] for the salespeople from [!INCLUDE[d365fin](includes/d365fin_md.md)]. To make that easier, the Microsoft 365 admin center offers an Excel template that you can use. On the **Active users** page, choose **More**, and then **Import multiple users**. Choose **Download a CSV file with headers only**, and then enter the information for the salespersons. To see an example, choose **Download a CSV file with headers and sample user information**. After you enter the information about the users, the next step in the import process is to assign the users licenses to the Dynamics 365 Customer Engagement Plan.  
+## Nastavení účtů pro prodejce
+Musíte vytvořit uživatelské účty v [!INCLUDE[crm_md](includes/crm_md.md)] pro prodejce z [!INCLUDE[d365fin](includes/d365fin_md.md)]. Aby to bylo snazší, nabízí administrátorské centrum Microsoft 365 šablonu Excel, kterou můžete použít. Na stránce **Aktivní uživatelé** vyberte **Více** a poté **Importovat více uživatelů**. Zvolte **Stáhnout pouze soubor CSV s hlavičkami** a zadejte informace pro prodejce. Chcete-li zobrazit příklad, vyberte **Stáhnout soubor CSV s hlavičkami a ukázkové informace o uživateli**. Po zadání informací o uživatelích je dalším krokem v procesu importu přiřazení uživatelských licencí k plánu zapojení zákazníků Dynamics 365.
 
-After you import the users, and assign them licenses for Dynamics 365 Customer Engagement, you must assign the users to the **Salesperson** role in [!INCLUDE[crm_md](includes/crm_md.md)].
+Po importu uživatelů a přiřazení licencí pro zákaznické zasílání Dynamics 365 musíte uživateli přiřadit roli **Prodejce** v [!INCLUDE[crm_md](includes/crm_md.md)].
 
-![Coupling sales people to users in Dynamics 365 Sales](media/couple-salespeople.png "Visualization of coupling of sales people to users in Dynamics 365 Sales")
+![Spojování prodejců s uživateli v Dynamics 365 for Sales](media/couple-salespeople.png "Vizualizace spojování prodejců s uživateli v Dynamics 365 for Sales")
 
-## Minimum Permissions for User Accounts in [!INCLUDE[crm_md](includes/crm_md.md)]
-When you install the Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
+## Minimální oprávnění pro uživatelské účty v [!INCLUDE[crm_md](includes/crm_md.md)]
+Při instalaci integračního řešení jsou oprávnění pro uživatelský účet integrace konfigurována v [!INCLUDE[crm_md](includes/crm_md.md)]. Pokud se tato oprávnění změní, bude možná nutné je resetovat. To lze provést přeinstalací integračního řešení nebo ručním obnovením. V následujících tabulkách jsou uvedeny minimální oprávnění pro uživatelské účty v [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### Integration Administrator
-The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
+### Správce integrace
+V následující tabulce jsou uvedena minimální oprávnění na každé kartě pro každou roli zabezpečení, která je požadována pro uživatele s oprávněními správce.
 
-##### Customization
-|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+##### Přizpůsobení
+| Role zabezpečení | Úroveň přístupu | Dynamics NAV 2018 a starší | Business Central <br> říjen 2018 | Business Central <br> duben 2019 |
 |----|----|-----|----|----|
-|Model Driven App|Global|||Read|
-|Plugin Assembly|Global|Read|Read|Read|
-|Plugin Type|Global|Read|Read|Read|
-|Relationship|Global|||Read|
-|SDK Message|Global|Read|Read|Read|
-|SDK Message Proessing Step|Global|Read|Read|Read|
-|SDK Message Proessing Step Image|Global|Read|Read|Read|
-|System From|Global|||Write|
+| Modelem řízená aplikace | Globální | Číst |
+| Sestavení modulu plug-in | Globální | Číst | Číst | Číst |
+| Typ modulu plug-in | Globální | Číst | Číst | Číst |
+| Vztah | Globální | Číst |
+| Zpráva sady SDK | Globální | Číst | Číst | Číst |
+| Krok zpracování zpráv SDK | Globální | Číst | Číst | Číst |
+| Obrázek kroku zpracování zprávy SDK | Globální | Číst | Číst | Číst |
+| Systém od | Globální | Zápis |
 
-##### Custom Entities
-|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+##### Vlastní entity
+| Role zabezpečení | Úroveň přístupu | Dynamics NAV 2018 a starší | Business Central <br> říjen 2018 | Business Central <br> duben 2019 |
 |----|----|-----|----|----|
-|Business Central Account Statistics|Global|Read|Read|Read|
-|Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
-|Post Configuration|Global|||Write|
+| Statistika účtu Business Central | Globální | Číst | Číst | Číst |
+| Připojení Business Central | Globální | Vytvořit, číst, zapsat, odstranit | Vytvořit, číst, zapsat, odstranit | Vytvořit, číst, zapsat, odstranit |
+| Po konfiguraci | Globální | Zápis |
 
-#### Integration User
-The following table displays the minimum permissions on each tab for each security role that is required for the integration user.
+#### Uživatel integrace
+Následující tabulka zobrazuje minimální oprávnění na každé kartě pro každou roli zabezpečení, která je vyžadována pro uživatele integrace.
 
-##### Core Records
-|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+##### Základní záznamy
+| Role zabezpečení | Úroveň přístupu | Dynamics NAV 2018 a starší | Business Central <br> říjen 2018 | Business Central <br> duben 2019 |
 |----|----|-----|----|----|
-|Account|Global|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|
-|Action Card|Global||Read|Read|
-|Connection|Global|Read|Read|Read|
-|Contact|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
-|Note|Global|||Create, Read, Write, Delete Append, Assign|
-|Opportunity|Global||Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
-|Post|Global|||Create, Read, Append To|
-|User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
+| Účet | Globální | Vytvořit, číst, zapsat, připojit, připojit k, přiřadit | Vytvořit, číst, zapsat, připojit, připojit k, přiřadit | Vytvořit, číst, zapsat, připojit, připojit k, přiřadit |
+| Karta akcí | Globální | Číst | Číst |
+| Připojení | Globální | Číst | Číst | Číst |
+| Kontakt | Globální | Vytvořit, číst, zapsat, připojit, připojit k | Vytvořit, číst, zapsat, připojit, připojit k | Vytvořit, číst, zapsat, připojit, připojit k |
+| Poznámka | Globální | Vytvořit, číst, zapsat, odstranit připojení, přiřadit |
+| Příležitost | Globální | Vytvořit, číst, zapsat, připojit, připojit k | Vytvořit, číst, zapsat, připojit, připojit k |
+| Účtování | Globální | Vytvořit, číst, připojit k |
+| Uživatelské rozhraní entity uživatele | Uživatel | Vytvořit, číst, zapsat | Vytvořit, číst, zapsat | Vytvořit, číst, zapsat |
 
-##### Sales
-|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+##### Prodej
+| Role zabezpečení | Úroveň přístupu | Dynamics NAV 2018 a starší | Business Central <br> říjen 2018 | Business Central <br> duben 2019 |
 |----|----|-----|----|----|
-|Invoice|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
-|Order|Global|Read, Write, Append To|Read, Write, Append To|Read, Write, Append, Append To, Assign|
-|Product|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
-|Property|Global|Read|Read|Read|
-|Property Association|Global|Read|Read|Read|
-|Property Option Set Item|Global|Read|Read|Read|
-|Quote|Global|Read|Read|Read|
+| Faktura | Globální | Vytvořit, číst, zapsat, připojit, připojit k | Vytvořit, číst, zapsat, připojit, připojit k | Vytvořit, číst, zapsat, připojit, připojit k |
+| Objednávka | Globální | Číst, zapsat, připojit k | Číst, zapsat, připojit k | Číst, zapsat, připojit, připojit k, přiřadit |
+| Produkt | Globální | Vytvořit, číst, zapsat, připojit, připojit k | Vytvořit, číst, zapsat, připojit, připojit k | Vytvořit, číst, zapsat, připojit, připojit k |
+| Vlastnost | Globální | Číst | Číst | Číst |
+| Přidružení vlastnosti | Globální | Číst | Číst | Číst |
+| Položka sady možností vlastnosti | Globální | Číst | Číst | Číst |
+| Poptávka | Globální | Číst | Číst | Číst |
 
-##### Service
-|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+##### Služba
+| Role zabezpečení | Úroveň přístupu | Dynamics NAV 2018 a starší | Business Central <br> říjen 2018 | Business Central <br> duben 2019 |
 |----|----|-----|----|----|
-|Case|Global|Read|Read|Read|
+| Případ | Globální | Číst | Číst | Číst |
 
-##### Business Management
-|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+##### Řízení podniku
+| Role zabezpečení | Úroveň přístupu | Dynamics NAV 2018 a starší | Business Central <br> říjen 2018 | Business Central <br> duben 2019 |
 |----|----|-----|----|----|
-|Currency|Global|Create, Read, Write|Create, Read, Write|Create, Read, Write|
-|Organization|Global|Read, Write|Read, Write|Read, Write|
-|Security Role|Global|||Read|
-|User|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
-|User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
-|Act on Behalf of Another User|Global|Yes|Yes|Yes|
+| Měna | Globální | Vytvořit, číst, zapsat | Vytvořit, číst, zapsat | Vytvořit, číst, zapsat |
+| Organizace | Globální | Číst, zapsat | Číst, zapsat | Číst, zapsat |
+| Role zabezpečení | Globální | Číst |
+| Uživatel | Globální | Vytvořit, číst, zapsat, připojit, připojit k | Vytvořit, číst, zapsat, připojit, připojit k | Vytvořit, číst, zapsat, připojit, připojit k |
+| Nastavení uživatelú | Globální | Vytvořit, číst, zapsat, odstranit, připojit k | Vytvořit, číst, zapsat, odstranit, připojit k | Vytvořit, číst, zapsat, odstranit, připojit k |
+| Jednání jménem jiného uživatele | Globální | Ano | Ano | Ano |
 
-##### Customization
-|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+##### Přizpůsobení
+| Role zabezpečení | Úroveň přístupu | Dynamics NAV 2018 a starší | Business Central <br> říjen 2018 | Business Central <br> duben 2019 |
 |----|----|-----|----|----|
-|Field|Global||Read|Read|
-|Plug-in Assembly|Global|Read|Read|Read|
-|Plug-in Type|Global|Read|Read|Read|
-|SDK Message|Global|Read|Read|Read|
-|SDK Message Processing Step|Global|Read|Read|Read|
-|Web Resource|Global|Read|Read|Read|
+| Pole | Globální | Číst | Číst |
+| Sestavení modulu plug-in | Globální | Číst | Číst | Číst |
+| Typ modulu plug-in | Globální | Číst | Číst | Číst |
+| Zpráva sady SDK | Globální | Číst | Číst | Číst |
+| Krok zpracování zprávy sady SDK | Globální | Číst | Číst | Číst |
+| Webový zdroj | Globální | Číst | Číst | Číst |
 
-##### Custom Entities
-|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+##### Vlastní entity
+| Role zabezpečení | Úroveň přístupu | Dynamics NAV 2018 a starší | Business Central <br> říjen 2018 | Business Central <br> duben 2019 |
 |----|----|-----|----|----|
-|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
-|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
+| Statistika účtu Dynamics 365 Business Central | Globální | Vytvořit, číst, zapsat, připojit k | Vytvořit, číst, zapsat, připojit k | Vytvořit, číst, zapsat, připojit k |
+| Připojení Dynamics 365 Business Central | Globální | Číst | Číst | Číst |
 
-### Product Availability User
-You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
+### Uživatel dostupnosti produktu
+Prodejcům můžete umožnit zobrazení úrovní zásob pro zboží, které prodávají, poskytnutím oprávnění popsaných v následující tabulce.
 
-##### Custom Entities
-|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+##### Vlastní entity
+| Role zabezpečení | Úroveň přístupu | Dynamics NAV 2018 a starší | Business Central <br> říjen 2018 | Business Central <br> duben 2019 |
 |----|----|-----|----|----|
-|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
-|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
+| Statistika účtu Dynamics 365 Business Central | Globální | Vytvořit, číst, zapsat, připojit k | Vytvořit, číst, zapsat, připojit k | Vytvořit, číst, zapsat, připojit k |
+| Připojení Dynamics 365 Business Central | Globální | Číst | Číst | Číst |
 
-## See Also  
-[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+## Viz také
+[Integrace s Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

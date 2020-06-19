@@ -14,84 +14,84 @@ ms.author: bholtorf
 
 ---
 
-# Synchronizing Data in Business Central and Dynamics 365 Sales
-When you integrate [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can decide whether to synchronize data in selected fields of [!INCLUDE[d365fin](includes/d365fin_md.md)] records (such as customers, contacts, and sales people) with equivalent records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (such as accounts, contacts, and users). Depending on the type of record, you can synchronize data from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)], or vice versa. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# Synchronizace dat v Business Central a Dynamics 365 for Sales
+Když integrujete [!INCLUDE[crm_md](includes/crm_md.md)] s [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete rozhodnout, zda chcete synchronizovat data ve vybraných polích záznamů [!INCLUDE[d365fin](includes/d365fin_md.md)] (například zákazníci, kontakty a prodejci) s ekvivalentními záznamy v [!INCLUDE[d365fin](includes/d365fin_md.md)] (jako jsou účty, kontakty a uživatelé). V závislosti na typu záznamu můžete synchronizovat data z [!INCLUDE[crm_md](includes/crm_md.md)] do [!INCLUDE[d365fin](includes/d365fin_md.md)] nebo naopak. Pro více informací, navštivte [Integrace s Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
-Synchronization uses the following elements:
+Synchronizace používá následující prvky:
 
-* Integration table mappings
-* Integration field mappings
-* Synchronization rules
-* Coupled records
+* Mapování tabulky integrace
+* Mapování polí integrace
+* Pravidla synchronizace
+* Párování záznamů
 
-When synchronization is set up you can couple [!INCLUDE[d365fin](includes/d365fin_md.md)] records to [!INCLUDE[crm_md](includes/crm_md.md)] records to synchronize their data. You can start a synchronization manually, or based on a schedule. The following table provides on overview of the ways you can synchronize records.  
+Při nastavení synchronizace můžete párovat záznamy [!INCLUDE[d365fin](includes/d365fin_md.md)] se záznamy [!INCLUDE[crm_md](includes/crm_md.md)] na synchronizaci jejich dat. Synchronizaci můžete spustit ručně nebo na základě plánu. Následující tabulka obsahuje přehled způsobů, jakými lze synchronizovat záznamy.
 
-|  Type  |  Method  |  See  |  
+| Typ | Metoda | Viz |
 |--------|----------|-------|  
-|Manual synchronization|Synchronize on a record-by-record basis.<br /><br /> You can synchronize individual records in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as a customer, with a corresponding [!INCLUDE[crm_md](includes/crm_md.md)] record, such as an account. This is typically how users will work with [!INCLUDE[crm_md](includes/crm_md.md)] data in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Couple and Synchronize Records Manually](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
-|  |Synchronize on a table mapping basis.<br /><br /> You can synchronize all records in a [!INCLUDE[d365fin](includes/d365fin_md.md)] table with an entity [!INCLUDE[crm_md](includes/crm_md.md)] entity.|[Synchronize Individual Table Mappings](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
-||Synchronize all modified records for all table mappings.<br /><br /> You can synchronize all of the records that have been modified in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables since the last synchronization.|[Synchronizing All Modified Records](admin-manual-synchronization-of-table-mappings.md#synchronizing-all-modified-records)|
-||Full synchronization of all data for all table mappings.<br /><br /> You can synchronize all of the data in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and [!INCLUDE[crm_md](includes/crm_md.md)] entities that are mapped, and create new records in the destination solution for uncoupled records in the source solution.<br /><br /> Full synchronization synchronizes all data and ignores coupling. Typically, you do a full synchronization when you set up the integration and only one of solutions contains data. A full synchronization can also be useful in a demonstration environment.|[Run a Full Synchronization](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
-|Scheduled synchronization|Synchronize all changes to data for all table mappings.<br /><br /> You can synchronize [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[crm_md](includes/crm_md.md)] on scheduled intervals by setting up jobs in the job queue.|[Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
+| Ruční synchronizace | Synchronizuje na základě záznamů.<br /><br /> Jednotlivé záznamy lze synchronizovat v [!INCLUDE[d365fin](includes/d365fin_md.md)], jako je například zákazník, s odpovídajícím záznamem [!INCLUDE[crm_md](includes/crm_md.md)], například účet. To je obvykle způsob, jak uživatelé budou pracovat s daty [!INCLUDE[crm_md](includes/crm_md.md)] v [!INCLUDE[d365fin](includes/d365fin_md.md)]. | [Ruční párování a synchronizace záznamů](admin-manual-synchronization-of-table-mappings.md) |
+|  | Synchronizuje na základě mapování tabulky.<br /><br /> Všechny záznamy v tabulce [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete synchronizovat s entitou [!INCLUDE[crm_md](includes/crm_md.md)]. | [Synchronizace mapování jednotlivých tabulek](admin-manual-synchronization-of-table-mappings.md) |
+|  | Synchronizuje všechny upravené záznamy pro všechna mapování tabulek.<br /><br /> Můžete synchronizovat všechny záznamy, které byly změněny v tabulkách [!INCLUDE[d365fin](includes/d365fin_md.md)] od poslední synchronizace. | [Synchronizace všech změněných záznamů](admin-manual-synchronization-of-table-mappings.md) |
+|  | Plná synchronizace všech dat pro všechna mapování tabulek.<br /><br /> Můžete synchronizovat všechna data v tabulkách [!INCLUDE[d365fin](includes/d365fin_md.md)] a entitách [!INCLUDE[crm_md](includes/crm_md.md)], které jsou mapovány, a vytvářejí nové záznamy v cílovém řešení pro neoddělené záznamy ve zdrojovém řešení.<br /><br /> Úplná synchronizace synchronizuje všechna data a ignoruje párování. Obvykle provádíte úplnou synchronizaci, když nastavíte integraci a pouze jedno řešení obsahuje data. Úplná synchronizace může být také užitečná v demonstračním prostředí. | [Spuštění úplné synchronizace](admin-manual-synchronization-of-table-mappings.md) |
+| Plánovaná synchronizace | Synchronizuje všechny změny dat pro všechna mapování tabulek.<br /><br /> Můžete synchronizovat [!INCLUDE[d365fin](includes/d365fin_md.md)] s [!INCLUDE[crm_md](includes/crm_md.md)] v plánovaných intervalech nastavením úloh ve frontě úloh. | [Plánovaní synchronizace](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md) |
 
-## Standard Sales Entity Mapping for Synchronization
-Entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts, are integrated with equivalent types of entities in [!INCLUDE[d365fin](includes/d365fin_md.md)],such as customers. To work with [!INCLUDE[crm_md](includes/crm_md.md)] data you set up links, called couplings, between entities in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
+## Standardní mapování entit prodeje pro synchronizaci
+Entity v [!INCLUDE[crm_md](includes/crm_md.md)], jako jsou například účty, jsou integrovány s ekvivalentnými typy entit v [!INCLUDE[d365fin](includes/d365fin_md.md)], jako jsou například zákazníci. Chcete-li pracovat s daty [!INCLUDE[crm_md](includes/crm_md.md)], nastavte propojení, nazývané párování, mezi entitami v [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)].
 
-The following table lists the standard mapping between entities in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] that [!INCLUDE[d365fin](includes/d365fin_md.md)] provides.
+Následující tabulka uvádí standardní mapování mezi entitami v [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)], které poskytuje [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Synchronization Direction|Default Filter|
+| [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Směr synchronizace | Výchozí filtr |
 |-------------------------------------------|-----|-------------------------|--------------|
-|Salesperson/Purchaser|User|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Status** is **No**, **User Licensed** is **Yes**, Integration user mode is **No**|
-|Customer|Account|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales account filter: **Relationship Type** is **Customer** and **Status** is **Active**.|
-|Contact|Contact|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] contact filter: **Type** is **Person** and the contact is assigned to a company. Sales contact filter: The contact is assigned to a company and the parent customer type is **Account**|
-|Currency|Transaction Currency|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Unit of Measure|Unit Group|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Item|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Product Type** is **Sales Inventory**|
-|Resource|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Product Type** is **Services**|
-|Customer Price Group|Price List|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Sales Price|Product Price List|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] contact filter: **Sales Code** is not blank, **Sales Type** is **Customer Price Group**|
-|Opportunity|Opportunity|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
-|Sales Invoice Header|Invoice|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Sales Invoice Line|Invoice Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Sales Order Header|Sales Order|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales Header filter: **Document Type** is Order, **Status** is Released|
-|Sales Order Notes|Sales Order Notes|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
+| Prodejce/nákupčí | Uživatel | [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtr kontaktu prodeje: **Stav** je **Ne**, **Uživatel licencován** je **Ano**, Režim integrace uživatelů je **Ne** |
+| Zákazník | Účet | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtr kontaktu prodeje: **Typ vztahu** je **Zákazník** a **Stav** je **Aktivní**. |
+| Kontakt | Kontakt | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/d365fin_md.md)] filtr kontaktu: **Typ** je **Osoba** a kontakt je přiřazen firmě. Filtr kontaktu prodeje: Kontakt je přiřazen společnosti a typ nadřazeného zákazníka je **Účet** |
+| Měna | Měna transakce | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Měrná jednotka | Skupina jednotek | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Zboží | Produkt | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtr kontaktu prodeje: **Typ produktu** je **Prodejní zásoba** |
+| Zdroj | Produkt | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtr kontaktu prodeje: **Typ produktu** je **Služba** |
+| Cenová skupina zákazníka | Ceník | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Prodejní cena | Ceník produktu | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[d365fin](includes/d365fin_md.md)] filtr kontaktu: **Kód prodeje** není prázdný, **Typ prodeje** je **Cenová skupina zákazníka** |
+| Příležitost | Příležitost | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] |  |
+| Hlavička prodejní faktury | Faktura | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Řádek prodejní faktury | Produkt na faktuře | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Záhlaví prodejní objednávky | Prodejní objednávka | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[d365fin](includes/d365fin_md.md)] Filtr prodejní hlavičky: **Typ dokumentu** je Objednávka, **Stav** je Vydaná |
+| Poznámky prodejní objednávky | Poznámky prodejní objednávky | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] |  |
 
-### Tip for Admins: Viewing Entity Mappings
-You can view the mapping between the entities in [!INCLUDE[crm_md](includes/crm_md.md)] and the tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] on the **Integration Table Mappings** page, where you can also apply filters. You define the mapping between the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and the fields in [!INCLUDE[crm_md](includes/crm_md.md)] entities on the **Integration Field Mapping** page, where you can add additional mapping logic. For example, this can be useful if you need to troubleshoot synchronization.
+### Tip pro Administrátoři: zobrazení mapování entit
+Můžete si zobrazit mapování mezi entitami v [!INCLUDE[crm_md](includes/crm_md.md)] a tabulkami v [!INCLUDE[d365fin](includes/d365fin_md.md)] na stránce **Mapování tabulky integrace**, kde můžete také použít filtry. Mapování definujete mezi poli v tabulkách [!INCLUDE[d365fin](includes/d365fin_md.md)] a pole v entitách [!INCLUDE[crm_md](includes/crm_md.md)] na stránce **Mapování pole integrace**, kde můžete přidat další logiku mapování. To může být užitečné například v případě, že potřebujete vyřešit synchronizaci.
 
-### Tip for Developers: Mapping Fields in Business Central to the Option Sets in Sales
-If you are a developer and you want to add options to the option sets in [!INCLUDE[crm_md](includes/crm_md.md)], you need to know this. There are three tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are mapped to the option fields of the **Account** entity in [!INCLUDE[crm_md](includes/crm_md.md)]. Records in the tables that are not linked to options in [!INCLUDE[crm_md](includes/crm_md.md)] will not be synchronized. This means that the **Option** field will be blank in [!INCLUDE[crm_md](includes/crm_md.md)].
+### Tip pro vývojáře: Mapování polí v Business Central na sady možností v prodeji
+Pokud jste vývojář a chcete přidat možnosti do sad možností v [!INCLUDE[crm_md](includes/crm_md.md)], musíte to vědět. V [!INCLUDE[d365fin](includes/d365fin_md.md)] jsou tři tabulky, které jsou mapovány do polí voleb entity **Účet** v [!INCLUDE[crm_md](includes/crm_md.md)]. Záznamy v tabulkách, které nejsou propojeny s možnostmi v [!INCLUDE[crm_md](includes/crm_md.md)], nebudou synchronizovány. To znamená, že pole **Volba** bude prázdné v [!INCLUDE[crm_md](includes/crm_md.md)].
 
-The following table shows mappings from [!INCLUDE[d365fin](includes/d365fin_md.md)] tables for the **Option** field in the **Account** entity in [!INCLUDE[crm_md](includes/crm_md.md)].
+V následující tabulce jsou uvedena mapování z tabulek [!INCLUDE[d365fin](includes/d365fin_md.md)] pro pole **Volba** v entitě **Účet** v [!INCLUDE[crm_md](includes/crm_md.md)].
 
-|Table|Option Field in the Account Entity|
+| Tabulka | Pole Volba v entite účet |
 |----------------------|-------------------------------------------|
-|Payment Terms|Payment Terms|
-|Shipment Method|Address 1: Freight Terms|
-|Shipping Agent|Address 1: Shipping Method|
+| Platební podmínky | Platební podmínky |
+| Způsob dodávky | Adresa 1: Dodací podmínky |
+| Přepravce | Adresa 1: Způsob dopravy |
 
-### Synchronization Rules
-The following table describes rules that control the synchronization between the apps.
+### Pravidla synchronizace
+Následující tabulka popisuje pravidla, která řídí synchronizaci mezi aplikacemi.
 
-> [!NOTE]  
-> Changes to data in [!INCLUDE[crm_md](includes/crm_md.md)] that were made by the [!INCLUDE[crm_md](includes/crm_md.md)] connection user account are not synchronized. Therefore, we recommended that you do not change data while using that account. For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> [!NOTE]
+> Změny dat v [!INCLUDE[crm_md](includes/crm_md.md)], které byly provedeny uživatelským účtem [!INCLUDE[crm_md](includes/crm_md.md)], nejsou synchronizovány. Doporučujeme proto, abyste během používání tohoto účtu neměnili data. Pro více informací navštivte [Nastavení uživatelských účtů pro integraci s Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
-|Table|Rule|
+| Tabulka | Pravidlo |
 |-----|----|
-|Customers|Before a customer can be synchronized to an account, the salesperson that is assigned to the customer must be coupled to a user in [!INCLUDE[crm_md](includes/crm_md.md)]. Therefore, when you run the CUSTOMERS - Dynamics 365 Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with [!INCLUDE[crm_md](includes/crm_md.md)] users before you synchronize customers with accounts in [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />The CUSTOMERS - Dynamics 365 Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.|
-|Contacts|Only contacts in [!INCLUDE[crm_md](includes/crm_md.md)] that are associated with an account will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The Salesperson Code value defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|
-|Currencies|Currencies are coupled to transaction currencies in [!INCLUDE[crm_md](includes/crm_md.md)] based on ISO codes. Only currencies that have a standard ISO code will be coupled and synchronized with transaction currencies.|
-|Units of Measure|Units of measure are synchronized with unit groups in [!INCLUDE[crm_md](includes/crm_md.md)]. There can only be one unit of measure defined in the unit group.|
-|Items|When synchronizing items with [!INCLUDE[crm_md](includes/crm_md.md)] products, [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates a price list in [!INCLUDE[crm_md](includes/crm_md.md)]. To avoid synchronization errors, you should not modify this price list manually.|
-|Salespersons|Salespersons are coupled to system users in [!INCLUDE[crm_md](includes/crm_md.md)]. The user must be enabled and licensed and must not be the Integration user. Note, that this is the first table that must be synchronized because it is used in customers, contacts, opportunities, and sales invoices.|
-|Resources|Resources are synchronized with [!INCLUDE[crm_md](includes/crm_md.md)] products that have product type Service.|
-|Customer Price Groups|Customer price groups are synchronized with Sales price lists.|
-|Sales Prices|Sales prices that have sales type Customer Price Group and have a sales code defined are synchronized with [!INCLUDE[crm_md](includes/crm_md.md)] price list lines|
-|Opportunities|Opportunities are synchronized with [!INCLUDE[crm_md](includes/crm_md.md)] opportunities. The Salesperson Code value defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|
-|Posted Sales Invoices|Posted sales invoices are synchronized with sales invoices. Before an invoice can be synchronized, it is better to synchronize all other entities that can participate in the invoice, from salespersons to price lists. The Salesperson Code value in the invoice header defines the owner of the coupled entity in Sales.|
-|Sales Orders|When sales order integration is enabled, sales orders in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized with sales orders in INCLUDE SALES when they are released. Before you synchronize orders, we recommend that you first synchronize all entities that the are involved with the order, such as sales persons and price lists. The Salesperson Code field in the order header defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|  
+| Zákazníci | Dříve než může být zákazník synchronizován s účtem, musí být prodejce, který je přiřazen k zákazníkovi, spojen s uživatelem v [!INCLUDE[crm_md](includes/crm_md.md)]. Proto když spustíte úlohu synchronizace Zákazníci - Dynamics 365 for Sales a nastavíte ji tak, aby vytvořila nové záznamy, nezapomeňte před synchronizací zákazníků s účty synchronizovat prodejce s uživateli [!INCLUDE[crm_md](includes/crm_md.md)] v [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />Úloha synchronizace zákazníci-Dynamics 365 for Sales synchronizuje pouze účty prodeje, které mají typ vztahu Zákazník. |
+| Kontakty | V [!INCLUDE[crm_md](includes/crm_md.md)] budou vytvořeny pouze kontakty v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hodnota kódu prodejce definuje vlastníka spojené entity v [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| Měny | Měny jsou spojeny s měnami transakcí v [!INCLUDE[crm_md](includes/crm_md.md)] na základě kódů ISO. Pouze měny, které mají standardní kód ISO, budou spojeny a synchronizovány s měnami transakcí. |
+| Měrné jednotky | Měrné jednotky jsou synchronizovány se skupinami jednotek v [!INCLUDE[crm_md](includes/crm_md.md)]. Ve skupině jednotek může být definována pouze jedna měrná jednotka. |
+| Zboží | Při synchronizaci zboží s produkty [!INCLUDE[crm_md](includes/crm_md.md)] vytvoří produkt automaticky [!INCLUDE[d365fin](includes/d365fin_md.md)] ceník v  [!INCLUDE[crm_md](includes/crm_md.md)]. Chcete-li se vyhnout chybám synchronizace, neměli byste tento ceník upravovat ručně. |
+| Prodejci | Prodejci jsou spojeni s uživateli systému v [!INCLUDE[crm_md](includes/crm_md.md)]. Uživatel musí být aktivován a licencován a nesmí být uživatelem integrace. Všimněte si, že se jedná o první tabulku, kterou je třeba synchronizovat, protože se používá ve zákaznících, kontaktech, příležitostech a prodejních fakturách. |
+| Zdroje | Zdroje jsou synchronizovány s produkty [!INCLUDE[crm_md](includes/crm_md.md)], které mají typ produktu Služba. |
+| Cenové skupiny zákazníka | Cenové skupiny zákazníka jsou synchronizovány s ceníky. |
+| Prodejní ceny | Prodejní ceny, které mají typ prodeje Cenová skupina zákazníka a mají definovaný prodejní kód, jsou synchronizovány s řádky ceníku [!INCLUDE[crm_md](includes/crm_md.md)] |
+| Příležitosti | Příležitosti jsou synchronizovány s příležitostmi [!INCLUDE[crm_md](includes/crm_md.md)]. Hodnota kódu prodejce definuje vlastníka spojené entity v [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| Účtované prodejní faktury | Účtované prodejní faktury jsou synchronizovány s prodejními fakturami. Před synchronizací faktury je lepší synchronizovat všechny ostatní subjekty, které se mohou faktury účastnit, od prodejců po ceníky. Hodnota kódu prodejce v záhlaví faktury definuje vlastníka propojené entity v prodeji. |
+| Prodejní objednávky | Když je integrace prodejních objednávek povolena, jsou prodejní objednávky v [!INCLUDE[d365fin](includes/d365fin_md.md)], které jsou vytvořeny z odeslaných prodejních objednávek v [!INCLUDE[crm_md](includes/crm_md.md)], synchronizovány s prodejními objednávkami v Zahrnutých prodejích, když jsou vydané. Před synchronizací objednávek doporučujeme nejprve synchronizovat všechny entity, které se na objednávce podílejí, jako jsou prodejci a ceníky. Pole Kód prodejce v záhlaví objednávky definuje vlastníka spojené entity v [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
-## See Also  
-[Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   
-[Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
-[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Viz také
+[Ruční párování a synchronizace záznamů](admin-how-to-couple-and-synchronize-records-manually.md)  
+[Plánování synchronizace](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+[Integrace s Dynamics 365 fot Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
