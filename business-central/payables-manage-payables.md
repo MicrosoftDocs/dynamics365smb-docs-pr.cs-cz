@@ -13,29 +13,29 @@ ms.date: 10/01/2019
 ms.author: edupont
 
 ---
-# Managing Payables
+# Správa závazků
 
-A big part of managing accounts payable is paying your vendors, or reimbursing your employees for expenses. You can use functions to add payments lines for purchase invoices that are due on the **Payment Journal** page. To send transactions to your bank, you can export multiple payment journal lines to a file, and then upload the file to your bank. You can also make payments by check, including transmitting checks as electronic payments.
+Velkou částí správy závazků je zaplacení vašich dodavatelů nebo refundace zaměstnanců za výdaje. Pomocí funkcí můžete přidat platební řádky pro splatné nákupní faktury na stránce **Deníky plateb**. Chcete-li odeslat transakce do své banky, můžete do souboru exportovat více řádků platebního deníku a poté soubor nahrát do své banky. Můžete také provádět platby šekem, včetně přenosu šeků jako elektronických plateb.
 
-Another typical task is to apply outgoing payments to their related vendor or employee ledger entries in order to close purchase invoices, purchase credit memos, or employee accounts as paid. You can do this on the **Payment Reconciliation Journal** page by importing a bank statement file to register the payments. The payments are applied to open vendor, customer, or employee ledger entries by matching payment text and entry information. There are various ways to review and change the matches before you post the journal. You can choose to close any open bank account ledger entries related to the applied ledger entries when you post the journal. The bank account is automatically reconciled when all payments are applied.
+Dalším typickým úkolem je použití odchozích plateb na související položky dodavatele nebo záznamy zaměstnanců, aby uzavíraly nákupní faktury, kupní dobropisy nebo účty zaměstnanců jako zaplacené. Můžete to udělat na stránce **Deník odsouhlasení plateb** importem souboru bankovního výpisu k registraci plateb. Platby se použijí na otevřené položky dodavatele, zákazníka nebo zaměstnance podle odpovídajících platebních textů a vstupních informací. Existují různé způsoby, jak zkontrolovat a změnit odpovídající položky před zaúčtováním deníku. Při zaúčtování deníku můžete zvolit uzavření všech otevřených položek bankovního účtu spojených s položkami účetní knihy. Bankovní účet je automaticky vyrovnán, když jsou provedeny všechny platby.
 
-Alternatively, you can apply outgoing payments manually on the **Payment Journal** page or from the related vendor or employee ledger entries.
+Případně můžete odchozí platby vyrovnat ručně na stránce **Deníky plateb** nebo z souvisejících položek dodavatele nebo zaměstnance.
 
-The following table describes a sequence of tasks within accounts payable, with links to the topics that describe them.
+Následující tabulka popisuje posloupnost úkolů v rámci účtů s odkazy na témata, která je popisují.
 
-| To | See |
+| Viz | také |
 | --- | --- |
-| Generate due vendor payments or employee reimbursements, prepare check payments, and export payments to a bank file when posting. |[Making Payments](payables-make-payments.md) |
-| Apply vendor payments automatically to unpaid purchase invoices by importing a bank statement file. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Apply vendor payments to unpaid purchase invoices manually. |[Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md) |
-|Ensure correct inventory valuation by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
-|Reimburse employees for personal expenses during business activities by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
+| Generovat splatné platby dodavateli nebo náhrady zaměstnancům, připravovat platby šekem a exportovat platby do bankovního souboru při účtování. | [Provádění plateb](payables-make-payments.md) |
+| Import souboru s výpisem z účtu automaticky na platby nezaplacených faktur od dodavatele. | [Automatické použití plateb a odsouhlasení bankovních účtů](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Ruční použití plateb dodavatele na nezaplacené nákupní faktury. | [Odsouhlasení plateb dodavatele s deníkem plateb nebo z položek dodavatele](payables-how-apply-purchase-transactions-manually.md) |
+| Zajištění správného oceňování zásob přiřazením nákladů na přidané položky, jako je dopravné, fyzické zpracování, pojištění a doprava, které vzniknou při nákupu. | [Použití poplatku za položky k účtování dalších obchodních nákladů](payables-how-assign-item-charges.md) |
+| Uhrazení osobních výdajů zaměstnance během obchodních činností provedením platby na jejich bankovní účet. | [Evidence a úhrada výdajů zaměstnance](finance-how-record-reimburse-employee-expenses.md) |
 
-## See Also
-[Purchasing](purchasing-manage-purchasing.md)  
-[Managing Receivables](receivables-manage-receivables.md)  
-[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)  
-[General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## Viz také
+[Nákup](purchasing-manage-purchasing.md)  
+[Správa pohledávek](receivables-manage-receivables.md)  
+[Použijte poplatky za položky k účtování dalších obchodních nákladů](payables-how-assign-item-charges.md)  
+[Obecné obchodní funkce](ui-across-business-areas.md)  
+[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
