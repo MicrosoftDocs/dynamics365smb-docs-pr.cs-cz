@@ -14,79 +14,79 @@ ms.author: bholtorf
 
 ---
 
-# Scheduling a Synchronization between Business Central and Dynamics 365 Sales
-You can synchronize [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[crm_md](includes/crm_md.md)] on scheduled intervals by setting up jobs in the job queue. The synchronization jobs synchronize data in [!INCLUDE[d365fin](includes/d365fin_md.md)] records and [!INCLUDE[crm_md](includes/crm_md.md)] records that have been previously coupled together. Or for records that are not already coupled, depending on the synchronization direction and rules, the synchronization jobs can create and couple new records in the destination system. There are several synchronization jobs that are available out-of-the-box. You can view them on the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+# Plánování synchronizace mezi Business Central a Dynamics 365 for Sales
+Můžete synchronizovat [!INCLUDE[d365fin](includes/d365fin_md.md)] s [!INCLUDE[crm_md](includes/crm_md.md)] v naplánovaných intervalech nastavením úloh ve frontě úloh. Synchronizační úlohy synchronizují data v záznamech [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)], které byly dříve spojeny dohromady. Nebo u dosud nespojených záznamů, v závislosti na směru a pravidlech synchronizace mohou úlohy synchronizace vytvářet a spojovat nové záznamy v cílovém systému. Existuje hned několik synchronizačních úloh, které jsou k dispozici hned po spustení. Můžete je zobrazit na stránce **Položky fronty úloh**. Pro více informací navštivte [Použití fronty úloh na plánování úloh](admin-job-queues-schedule-tasks.md).
 <!--
 > [!Note]
 > For the on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the synchronization jobs are run by codeunit **5339 Integration synch Job Runner**.-->
 
-## Synchronization Process  
-Each synchronization job queue entry uses a specific integration table mapping that specifies which [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[crm_md](includes/crm_md.md)] entity to synchronize. The table mappings also include some settings that control which records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[crm_md](includes/crm_md.md)] entity to synchronize.  
+## Proces synchronizace
+Každý záznam fronty synchronizační úlohy používá specifické mapování integrační tabulky, které určuje, která tabulka [!INCLUDE[d365fin](includes/d365fin_md.md)] a entita [!INCLUDE[crm_md](includes/crm_md.md)] se synchronizuje. Mapování tabulek také obsahuje některá nastavení, která řídí, které záznamy v tabulce [!INCLUDE[d365fin](includes/d365fin_md.md)] a entitě [!INCLUDE[crm_md](includes/crm_md.md)] se synchronizují.
 
-To synchronize data, [!INCLUDE[crm_md](includes/crm_md.md)] entity records must be coupled to [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For example, a [!INCLUDE[d365fin](includes/d365fin_md.md)] customer must be coupled to a [!INCLUDE[crm_md](includes/crm_md.md)] account. You can set up couplings manually, before running the synchronization jobs, or let the synchronization jobs set up couplings automatically. The following list describes how data is synchronized between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] when you are using the synchronization job queue entries. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md).
+Pro synchronizaci dat musí být záznamy entity [!INCLUDE[crm_md](includes/crm_md.md)] spojeny se záznamy [!INCLUDE[d365fin](includes/d365fin_md.md)]. Například zákazník [!INCLUDE[d365fin](includes/d365fin_md.md)] musí být spojen s účtem [!INCLUDE[crm_md](includes/crm_md.md)]. Spojky můžete nastavit ručně, před spuštěním synchronizačních úloh, nebo nechat synchronizační úlohy nastavit spojky automaticky. Následující seznam popisuje, jak jsou data synchronizována mezi [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)] , když používáte záznamy ve frontě synchronizačních úloh. Pro více informací navštivte [Manuální párování a synchronizace záznamů](admin-how-to-couple-and-synchronize-records-manually.md).
 
--   The **Sync. Only Coupled Records** check box controls whether new records are created when you synchronize. By default, the check box is selected, which means that only records that are coupled will be synchronized. In the integration table mapping, you can change the table mapping between a [!INCLUDE[crm_md](includes/crm_md.md)] entity and a [!INCLUDE[d365fin](includes/d365fin_md.md)] table so that the integration synchronization jobs will create new records in the destination database for each record in the source database that is not coupled. For more information, see [Creating New Records](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records). 
-    
-    **Example**
-    If you clear the **Sync. Only Coupled Records** check box, when you synchronize customers in [!INCLUDE[d365fin](includes/d365fin_md.md)] with accounts in [!INCLUDE[crm_md](includes/crm_md.md)], a new account is created for each customer in [!INCLUDE[d365fin](includes/d365fin_md.md)] and automatically coupled. Additionally, because the synchronization is bidirectional in this case, a new customer is created and coupled for each [!INCLUDE[crm_md](includes/crm_md.md)] account that is not already coupled.  
+- Zaškrtávací políčko **Synchronizovat  pouze spárované záznamy** určuje, zda se při synchronizaci vytvoří nové záznamy. Ve výchozím nastavení je políčko zaškrtnuto, což znamená, že budou synchronizovány pouze propojené záznamy. V mapování integrační tabulky můžete změnit mapování tabulky mezi entitou [!INCLUDE[crm_md](includes/crm_md.md)] a tabulkou [!INCLUDE[d365fin](includes/d365fin_md.md)] tak, aby integrační synchronizační úlohy vytvořili nové záznamy v cílové databázi pro každý záznam ve zdrojové databázi, který není spojen. Pro více informací navštivte [Vytvoření nových záznamů](admin-how-to-modify-table-mappings-for-synchronization.md).
 
-    > [!NOTE]  
-    > There are rules and filters that determine what data is synchronized. For more information, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
+   **Příklad**
+Pokud zrušíte zaškrtávací políčko **Synchronizovat  pouze spárované záznamy**, když synchronizujete zákazníky v [!INCLUDE[d365fin](includes/d365fin_md.md)] s účty v [!INCLUDE[crm_md](includes/crm_md.md)], vytvoří se nový účet pro každého zákazníka v [!INCLUDE[d365fin](includes/d365fin_md.md)] a je automaticky spojen. Navíc vzhledem k tomu, že synchronizace je v tomto případě obousměrná, je nový zákazník vytvořen a spojen pro každý účet [!INCLUDE[crm_md](includes/crm_md.md)], který ještě není spojen.
 
--   When new records are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], the records use the either the template that is defined for the integration table mapping or the default template that is available for the record type. Fields are populated with data from [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)] depending on the synchronization direction. For more information, see [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md).  
+   > [!NOTE]
+   > Existují pravidla a filtry, které určují, jaká data jsou synchronizována. Pro více informací navštivte [Synchronizační pravidla](admin-synchronizing-business-central-and-sales.md).
 
--   With subsequent synchronizations, only records that have been modified or added after the last successful synchronization job for the entity will be updated.  
+- Když jsou nové záznamy vytvořeny v [!INCLUDE[d365fin](includes/d365fin_md.md)], záznamy používají buď šablonu, která je definována pro mapování integrační tabulky, nebo výchozí šablonu, která je k dispozici pro typ záznamu. Pole jsou vyplněna údaji z [!INCLUDE[d365fin](includes/d365fin_md.md)] nebo [!INCLUDE[crm_md](includes/crm_md.md)] v závislosti na směru synchronizace. Pro více informací navštivte [Úprava mapování tabulek pro synchronizaci](admin-how-to-modify-table-mappings-for-synchronization.md).
 
-     New records in [!INCLUDE[crm_md](includes/crm_md.md)] are added in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If data in fields in [!INCLUDE[crm_md](includes/crm_md.md)] records has changed, the data is copied to the corresponding field in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- S následnou synchronizací budou aktualizovány pouze záznamy, které byly změněny nebo přidány po poslední úspěšné synchronizační úloze pro entitu.
 
--   With bidirectional synchronization, the job synchronizes from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)], and then from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+   Nové záznamy v [!INCLUDE[crm_md](includes/crm_md.md)] se přidají do [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pokud se data v polích v záznamech [!INCLUDE[crm_md](includes/crm_md.md)] změnila, data se zkopírují do odpovídajícího pole v [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-## Default Synchronization Job Queue Entries  
-The following table describes the default synchronization jobs.  
+- Při obousměrné synchronizaci se úloha synchronizuje z [!INCLUDE[d365fin](includes/d365fin_md.md)] na [!INCLUDE[crm_md](includes/crm_md.md)] a poté z [!INCLUDE[crm_md](includes/crm_md.md)] na [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Job Queue Entry|Description|Direction|Integration Table Mapping|Default Synchronization Frequency (mins)|Default inactivity sleep time (mins)|  
+## Výchozí položky fronty synchronizace úloh
+Následující tabulka popisuje výchozí synchronizační úlohy.
+
+| Položka fronty úloh | Popis | Směr | Mapování tabulky integrace | Výchozí synchronizační frekvence (min) | Výchozí doba nečinnosti (min) |
 |---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
-|CONTACT - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] contacts with [!INCLUDE[d365fin](includes/d365fin_md.md)] contacts.|Bidirectional|CONTACT|30|720 <br>(12 hours)| 
-|CURRENCY - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] transaction currencies with [!INCLUDE[d365fin](includes/d365fin_md.md)] currencies.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|CURRENCY|30|720 <br> (12 hrs)| 
-|CUSTOMER - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] accounts with [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.|Bidirectional|CUSTOMER|30|720<br> (12 hrs)|
-|CUSTPRCGRP-PRICE - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] sales price lists with [!INCLUDE[d365fin](includes/d365fin_md.md)] customer price groups.| |CUSTOMER PRICE GROUPS-SALES PRICE LISTS|30|1440<br> (24 hrs)|
-|ITEM - PRODUCT - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] products with [!INCLUDE[d365fin](includes/d365fin_md.md)] items.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|ITEM-PRODUCT|30|1440<br> (24 hrs)|
-|POSTEDSALESINV-INV - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] invoices with [!INCLUDE[d365fin](includes/d365fin_md.md)] posted sales invoices.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|INVOICES-POSTED SALES INVOICES|30|1440<br> (24 hrs)|
-|RESOURCE-PRODUCT - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] products with [!INCLUDE[d365fin](includes/d365fin_md.md)] resources.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|RESOURCE-PRODUCT|30|720<br> (12 hrs)|  
-|SALESPEOPLE - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[d365fin](includes/d365fin_md.md)] salespeople with [!INCLUDE[crm_md](includes/crm_md.md)] users.|From [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]|SALESPEOPLE|30|1440<br> (24 hrs)|
-|SALESPRC-PRODUCTPRICE - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] product prices with [!INCLUDE[d365fin](includes/d365fin_md.md)] sales prices.||PRODUCT PRICE-SALES PRICE|30|1440<br> (24 hrs)|
-|UNITOFMEASURE - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] unit groups with [!INCLUDE[d365fin](includes/d365fin_md.md)] units of measure.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|UNIT OF MEASURE|30|720<br> (12 hrs)|  
-|Customer Statistics - Dynamics 365 Sales synchronization|Updates [!INCLUDE[crm_md](includes/crm_md.md)] accounts with the latest [!INCLUDE[d365fin](includes/d365fin_md.md)] customer data. In [!INCLUDE[crm_md](includes/crm_md.md)], this information appears in **Business Central Account Statistics** quick view form of accounts that are coupled to [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.<br /><br /> This data can also be updated manually from each customer record. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Note:**  This job queue entry is relevant only if the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [About the Business Central Integration Solution](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Not applicable|Not applicable|30|Not applicable|   
+| Úloha synchronizace Kontakt - Dynamics 365 for Sales | Synchronizuje kontakty [!INCLUDE[crm_md](includes/crm_md.md)] s kontakty [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Obousměrný | Kontakt | 30 | 720 <br>(12 hodin) |
+| Úloha synchronizace Měny transakce - Dynamics 365 for Sales | Synchronizuje měny transakcí [!INCLUDE[crm_md](includes/crm_md.md)] s něnami [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Z [!INCLUDE[d365fin](includes/d365fin_md.md)] do [!INCLUDE[crm_md](includes/crm_md.md)] | Měna | 30 | 720 <br> (12 hodin) |
+| Úloha synchronizace Zákazník - Dynamics 365 for Sales | Synchronizuje účty [!INCLUDE[crm_md](includes/crm_md.md)] se zákazníky [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Obousměrný | Zákazník | 30 | 720<br> (12 hodin) |
+| Úloha synchronizace Cenové skupiny zákazníka - Dynamics 365 for Sales | Synchronizuje prodejní ceníky [!INCLUDE[crm_md](includes/crm_md.md)] s cenovými skupinami zákazníka [!INCLUDE[d365fin](includes/d365fin_md.md)]. |  | Cenové skupiny zákazníka-Prodejní ceníky | 30 | 1440<br> (24 hod.) |
+| Úloha synchronizace Zboží - Produkt - Dynamics 365 for Sales | Synchronizuje produkty [!INCLUDE[crm_md](includes/crm_md.md)] se zbožím [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Z [!INCLUDE[d365fin](includes/d365fin_md.md)] do [!INCLUDE[crm_md](includes/crm_md.md)] | Zboží-Produkt | 30 | 1440<br> (24 hod.) |
+| Úloha synchronizace Účtované prodejní faktury-Faktury - Dynamics 365 for Sales | Synchronizuje faktury [!INCLUDE[crm_md](includes/crm_md.md)] s účtovanými prodejními fakturami [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Z [!INCLUDE[d365fin](includes/d365fin_md.md)] do [!INCLUDE[crm_md](includes/crm_md.md)] | Faktury-Účtované prodejní faktury | 30 | 1440<br> (24 hod.) |
+| Úloha synchronizace Zdroj-produkt - Dynamics 365 for Sales | Synchronizuje produkty [!INCLUDE[crm_md](includes/crm_md.md)] se zdroji [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Z [!INCLUDE[d365fin](includes/d365fin_md.md)] do [!INCLUDE[crm_md](includes/crm_md.md)] | Zdroj-Produkt | 30 | 720<br> (12 hodin) |
+| Úloha synchronizace Prodejci - Dynamics 365 for Sales | Synchronizuje prodejce [!INCLUDE[d365fin](includes/d365fin_md.md)] s uživateli [!INCLUDE[crm_md](includes/crm_md.md)]. | Z [!INCLUDE[crm_md](includes/crm_md.md)] do [!INCLUDE[d365fin](includes/d365fin_md.md)] | Prodejci | 30 | 1440<br> (24 hod.) |
+| Úloha synchronizace Prodejní cena-Ceny produktu - Dynamics 365 for Sales | Synchronizuje ceny produktů [!INCLUDE[crm_md](includes/crm_md.md)] s prodejními cenami [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Ceny produktu-Prodejní cena | 30 | 1440<br> (24 hod.) |
+| Úloha synchronizace Měrná jednotka - Dynamics 365 for Sales | Synchronizuje skupiny jednotek [!INCLUDE[crm_md](includes/crm_md.md)] s měrnými jednotkami [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Z [!INCLUDE[d365fin](includes/d365fin_md.md)] do [!INCLUDE[crm_md](includes/crm_md.md)] | Měrná jednotka | 30 | 720<br> (12 hodin) |
+| Úloha synchronizace Statistika zákazníka - Dynamics 365 for Sales | Aktualizuje účty [!INCLUDE[crm_md](includes/crm_md.md)] s nejnovějšími [!INCLUDE[d365fin](includes/d365fin_md.md)] zákaznickými daty. V [!INCLUDE[crm_md](includes/crm_md.md)] se tato informace objeví ve **Statistice účtu Business Central** ve formě rychlého zobrazení účtů, které jsou propojeny se zákazníky [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /><br /> Tato data lze také ručně aktualizovat z každého záznamu zákazníka. Pro více informací navštivte [Manuální párování a synchronizace záznamů](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Note:**  Tato položka fronty úloh je relevantní pouze v případě, že [!INCLUDE[d365fin](includes/d365fin_md.md)] integrační řešení je nainstalováno v [!INCLUDE[crm_md](includes/crm_md.md)]. Pro více informací, navštivte [Integrační řešení Business Central](admin-prepare-dynamics-365-for-sales-for-integration.md). | Nelze použít | Nelze použít | 30 | Nelze použít |
 
-## About Inactivity Timeouts
-Some job queue entries, such as those that schedule synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], use the **Inactivity Timeout** field on the Job Queue Entry card to prevent the job queue entry from running unnecessarily.  
+## Časový limit nečinnosti
+Některé položky ve frontě úloh, například ty, které plánují synchronizaci mezi [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)], používají pole **Časový limit nečinnosti** na kartě Položka fronty úloh, aby zabránili zbytečnému spuštění fronty úloh.
 <br><br>
 
-> ![Flowchart for when job queue entries are put on hold due to inactivity.](media/on-hold-with-inactivity-timeout.png)
+> ![Vývojový diagram pro uložení položek fronty úloh v důsledku nečinnosti](media/on-hold-with-inactivity-timeout.png)
 
-When the value in this field is not zero, and the job queue did not find any changes during the last run, [!INCLUDE[d365fin](includes/d365fin_md.md)] puts the job queue entry on hold. When that happens, the **Status of Job Queue** field will show **On Hold Due to Inactivity**, and [!INCLUDE[d365fin](includes/d365fin_md.md)] will wait for the period of time specified in **Inactivity Timeout** field before it runs the job queue entry again. 
+Pokud hodnota v tomto poli není nula a fronta úloh nenalezla během posledního spuštění žádné změny, [!INCLUDE[d365fin](includes/d365fin_md.md)] pozastaví zadání fronty úloh. Když k tomu dojde, pole **Stav fronty úloh** zobrazí **Blokování z důvodu nečinnosti** a [!INCLUDE[d365fin](includes/d365fin_md.md)] bude čekat po dobu zadanou v poli **Časový limit nečinnosti** před tím, než znovu spustí záznam fronty úloh.
 
-For example, by default, the CURRENCY job queue entry, which synchronizes currencies in [!INCLUDE[crm_md](includes/crm_md.md)] with exchange rates in [!INCLUDE[d365fin](includes/d365fin_md.md)], will look for changes to exchange rates every 30 minutes. If no changes are found, [!INCLUDE[d365fin](includes/d365fin_md.md)] puts the CURRENCY job queue entry on hold for 720 minutes (six hours). If an exchange rate is changed in [!INCLUDE[d365fin](includes/d365fin_md.md)] while the job queue entry is on hold, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically reactivate the job queue entry and restart the job queue. 
+Například ve výchozím nastavení bude položka fronty úloh Měna, která synchronizuje měny v [!INCLUDE[crm_md](includes/crm_md.md)] s směnnými kurzy v [!INCLUDE[d365fin](includes/d365fin_md.md)], hledat změny směnných kurzů každých 30 minut. Pokud nejsou nalezeny žádné změny, [!INCLUDE[d365fin](includes/d365fin_md.md)] pozastaví zadání fronty úloh Měna na 720 minut (šest hodin). Pokud se změní kurz v [!INCLUDE[d365fin](includes/d365fin_md.md)] zatímco je položka fronty úloh pozastavena, [!INCLUDE[d365fin](includes/d365fin_md.md)] automaticky znovu aktivuje zadání fronty úloh a fronta úloh se restartujte.
 
 > [!Note]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically activate job queue entries that are on hold only when changes happen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Changes in [!INCLUDE[crm_md](includes/crm_md.md)] will not activate job queue entries.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] automaticky aktivuje položky fronty úloh, které jsou pozastaveny, pouze pokud dojde ke změnám v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Změny v [!INCLUDE[crm_md](includes/crm_md.md)] nebudou aktivovat položky fronty úloh.
 
-## To view the synchronization job log  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Synchronization Log**, and then choose the related link.
-2.  If one or more error occurred for a synchronization job, the number of errors appears in the **Failed** column. To view the errors for the job, choose the number.  
+## Zobrazení protokolu synchronizační úlohy
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Integrace synchronizační úlohy** a poté vyberte související odkaz.
+2. Pokud pro synchronizační úlohu došlo k jedné nebo více chybám, objeví se ve sloupci  **Chyba** počet chyb. Chcete-li zobrazit chyby úlohy, zvolte číslo.
 
-    > [!TIP]  
-    > You can view all synchronization job errors by opening the synchronization job error log directly.
+   > [!TIP]
+   > Všechny chyby synchronizační úlohy můžete zobrazit přímým otevřením protokolu chyb synchronizační úlohy.
 
-## To view the synchronization job log from the table mappings  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
-2.  In the **Integration Table Mappings** page, select an entry, and then choose **Integration Synch. Job Log**.  
+## Zobrazení protokolu synchronizace úloh z mapování tabulky
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Mapování tabulky integrace** a poté vyberte související odkaz.
+2. Na stránce **Mapování tabulky integrace** vyberte položku a pak zvolte **Protokol synchronizační  úlohy integrace**.
 
-## To view the synchronization error log  
-* Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Synchronization Errors**, and then choose the related link.
+## Zobrazení protokolu chyb synchronizace
+* Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Chyby synchronizace integrace** a poté vyberte související odkaz.
 
-## See Also  
-[Synchronizing Data in Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)  
-[Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)  
-[Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
-[About Integrating Dynamics 365 Business Central with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+## Viz také
+[Synchronizace dat v Business Central a Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)  
+[Ruční synchronizace mapování tabulek](admin-manual-synchronization-of-table-mappings.md)  
+[Plánování synchronizace mezi  Business Central a Dynamics 365 for Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+[Integrace Dynamics 365 Business Central s Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

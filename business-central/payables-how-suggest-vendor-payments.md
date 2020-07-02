@@ -15,41 +15,41 @@ ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
-# Suggest Vendor Payments
-On the **Payment Journal** page, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Lines for payments that are due soon or payments where a payment discount is available are suggested based on your settings.
+# Návrh platby dodavateli
+Na stránce **Deník plateb** můžete k navrhování platebních řádků použít dávkovou úlohu **Navrhnout platby dodavateli**. Řádky pro platby, které jsou brzy splatné nebo platby, kde je k dispozici platební skonto, jsou navrhovány na základě vašeho nastavení.
 
-To benefit fully from payment suggestions, you must first prioritize your vendors. For more information, see [Prioritize Vendors](purchasing-how-prioritize-vendors.md).  
+Chcete-li plně využít výhod návrhů plateb, musíte nejprve prioritizovat vaše dodavatele. Pro více informací navštivte [Prioritizace dodavatelů](purchasing-how-prioritize-vendors.md).
 
-> [!NOTE]  
-> Vendor ledger entries that are **On Hold** are not included in the batch job.  
+> [!NOTE]
+> Položky dodavatele, které jsou **přidrženy**, nejsou zahrnuty do dávkové úlohy.
 
-> [!IMPORTANT]  
->   If you want to take advantage of payment discounts, and have entered an available amount, the amount will be used for:  
-    * Prioritized overdue vendor entries first in order of priority.   
-    * Overdue vendor entries that are not prioritized.  
-    * Open vendor entries that qualify for payment discounts, arranged by vendor number.  
+> [!IMPORTANT]
+> Pokud chcete využít platebních slev a zadali jste dostupnou částku, bude částka použita pro:
+* Prioritizované položky dodavatele po lhůtě splatnosti první v pořadí podle priority.
+* Položky dodavatele po lhůtě splatnosti, které nejsou upřednostňovány.
+* Otevřené položky dodavatele, které splňují podmínky pro poskytnutí slev na platby, uspořádané podle čísla dodavatele.
 
-## To use the Suggest Vendor Payments function
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
-2. Open the relevant journal, and then choose the **Suggest Vendor Payments** action.  
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Choose the **OK** button.  
+## Použití funkce Navrhnout platby dodavatele
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte Mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Deníky plateb** a poté vyberte související odkaz.
+2. Otevřete příslušný deník a poté vyberte akci **Navrhnout platby dodavateli**.
+3. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Vyberte tlačítko **OK**.
 
-## To insert the due date as posting date on payment journal lines
-When you use the **Suggest Vendor Payments** batch job to create payment lines for your vendors, you can fill two special fields to make sure that the generated lines use the due date to calculate the posting date. These fields are **Calculate Posting Date from Applies-to-Doc Due Date** and **Applies-to-Doc Due Date Offset**.  
+## Vložení data splatnosti jako data účtování na řádky platebních deníků
+Při použití dávkové úlohy **Navrhnout platby dodavateli** k vytvoření platebních řádků pro vaše dodavatele můžete vyplnit dvě zvláštní pole a ujistit se, že vygenerované řádky používají datum splatnosti pro výpočet data zaúčtování. Tato pole jsou **Výpočet data zaúčtování z Data splatnosti vyrovnání dokladu** a **Posun data splatnosti vyrovnání dokladu**.
 
-> [!IMPORTANT]  
->   You cannot use the **Calculate Posting Date from Applies-to-Doc Due Date** field together with the **Find Payment Discounts** field or the **Summarize per Vendor** field. If the posting date is based on the due date, some payment discounts may not calculate correctly because the posting date is after the payment discount date.  
+> [!IMPORTANT]
+> Nelze použít pole **Výpočet data zaúčtování z data splatnosti vyrovnání dokladu** společně s polem **Vyhledat skonto** nebo **Dodavatel na jeden řádek**. Pokud je zúčtovací datum založen na datu splatnosti, nemusí být některá skonta správně vypočtena, protože zúčtovací datum je po datu skonta.
 
-Also, if the calculated posting date is in the past, then the posting date is moved up to the work date, and a warning is displayed.  
+Pokud je vypočtené datum zaúčtování v minulosti, pak se datum zaúčtování přesune na pracovní datum a zobrazí se varování.
 
-Alternatively, you can manually create payment lines using the due date to calculate the posting date. After you apply vendor ledger entries, you can use the **Calculate Posting Date** action to update the posting date on the journal line with the due date of the related purchase invoice. For more information, see [Apply Purchase Transactions Manually](payables-how-apply-purchase-transactions-manually.md).  
+Případně můžete manuálně vytvořit platební řádky pomocí data splatnosti pro výpočet data účtování. Poté, co použijete položky dodavatele, můžete pomocí akce **Vypočíst zúčtovací datum** aktualizovat datum zaúčtování na řádku deníku s datem splatnosti příslušné nákupní faktury. Pro více informací navštivte [Ruční vyrovnání nákupních transakcí](payables-how-apply-purchase-transactions-manually.md).
 
-> [!NOTE]  
->   If the purchase invoice is overdue, the posting date is set to the work date, and the font on the line becomes red.  
+> [!NOTE]
+> Je-li nákupní faktura zpožděna, je datum zaúčtování nastaven na pracovní datum a písmo na řádku bude červené.
 
-## See Also
-[Managing Payables](payables-manage-payables.md)  
-[Making Payments](payables-make-payments.md)  
-[Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## Viz také
+[Správa závazků](payables-manage-payables.md)  
+[Provádění plateb](payables-make-payments.md)  
+[Práce s finančním deníkem](ui-work-general-journals.md)  
+[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

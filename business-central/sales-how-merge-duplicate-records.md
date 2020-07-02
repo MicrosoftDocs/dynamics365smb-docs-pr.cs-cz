@@ -58,7 +58,7 @@ Následující postup je založen na kartě zákazníka. Kroky jsou podobné pro
 14. Na stránce **Sloučení duplicit** znovu vyberte akci **Sloučit** a poté v okně potvrzovací zprávy vyberte tlačítko **Ano**.
 
 > [!NOTE]
-> U kontaktů můžete pomocí funkce najít duplicitní kontakty před použitím stránky **Sloučení duplicit**. Pro více informací navštivte [Hledání duplicitních kontaktů](marketing-setup-contacts.md#searching-for-duplicate-contacts).
+> U kontaktů můžete pomocí funkce najít duplicitní kontakty před použitím stránky **Sloučení duplicit**. Pro více informací navštivte [Hledání duplicitních kontaktů](marketing-setup-contacts.md).
 
 ## Viz také
 [Prodej](sales-manage-sales.md)  
