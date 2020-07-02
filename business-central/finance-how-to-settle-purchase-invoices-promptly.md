@@ -13,21 +13,21 @@
     ms.author: bholtorf
 
 ---
-# Settle Purchase Invoices Promptly
-If you need to pay the vendor by cash or check, you can post the payment when you post the invoice.  
+# Okamžité vyrovnání nákupních faktur
+Pokud potřebujete zaplatit dodavateli v hotovosti nebo šekem, můžete platbu zaúčtovat při zaúčtování faktury.
 
-### To settle purchase invoices promptly  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
-2. Choose the **New** action.  
-3.  To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.  
+### Okamžité vyrovnání nákupních faktur
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte Mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nákupní faktury** a poté vyberte související odkaz.
+2. Vyberte akci **Nový**.
+3. Chcete-li platit buď v hotovosti nebo bankovním převodem, zadejte číslo pokladního účtu hlavní knihy nebo bankovního účtu v poli **Číslo   protiúčtu**.
 
-> [!IMPORTANT]  
->  The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header. In order to post the payment of an invoice, you must first insert them with the design facilities.  
+> [!IMPORTANT]
+> Pole **Typ  protiúčtu** a **Číslo  protiúčtu** nejsou zahrnuty ve standardním rozvržení záhlaví faktury. Chcete-li zaúčtovat platbu faktury, musíte ji nejprve vložit do konstrukčního zařízení.
 
-> [!NOTE]  
->  If you frequently pay purchase invoices in cash, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card. The balancing account number is inserted automatically on the invoice header every time you create a new invoice.  
+> [!NOTE]
+> Pokud často platíte nákupní faktury v hotovosti, je vhodné nastavit konkrétní způsob platby pomocí vyrovnávacího účtu a tento způsob zadat do pole **Způsob platby** na kartě dodavatele. Číslo vyrovnávacího účtu se automaticky vloží do záhlaví faktury při každém vytvoření nové faktury.
 
-## See Also  
-[Managing Payables](payables-manage-payables.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## Viz také
+[Správa závazků](payables-manage-payables.md)  
+[Nákup](purchasing-manage-purchasing.md)  
+Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

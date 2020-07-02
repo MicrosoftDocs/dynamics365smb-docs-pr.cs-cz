@@ -16,6 +16,7 @@ ms.author: sgroespe
 # <a name="set-up-bank-accounts"></a>Nastavení bankovních účtů
 Použití bankovní účtů v [!INCLUDE[d365fin](includes/d365fin_md.md)] slouží ke sledování vašich bankovních transakcí. Účty mohou být denominovány v místní měně nebo v cizí měně. Po nastavení bankovních účtů můžete použít také možnost kontroly tisku.
 
+
 ## <a name="to-set-up-bank-accounts"></a>Založení Bankovních účtů
 1. Vyberte ikonu žárovky ![, která otevře funkci Tell Me](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Bankovní účty** a poté vyberte související odkaz.
 2. Na stránce **Bankovní účty** vyberte akci **Nový**.

@@ -24,7 +24,7 @@ V poli **Typ** na stránce **Karta zboží** můžete vybrat, pro co je zboží 
 
 Typ **Zboží** zahrnuje úplné sledování množství a hodnoty zásob. Proto jsou podporovány všechny typy transakcí zboží a zboží typu Zásoby lze použít se všemi funkcemi zpracování zboží.
 
-Typy **Servis** a **Neskladované** nezahrnují sledování množství a hodnoty zásob. Proto jsou podporovány pouze vybrané typy a funkce transakcí zboží.
+Typy **Služba** a **Neskladované** nezahrnují sledování množství a hodnoty zásob. Proto jsou podporovány pouze vybrané typy a funkce transakcí zboží.
 
 Tři typy zboží podporují následující funkce.
 
@@ -35,7 +35,7 @@ Tři typy zboží podporují následující funkce.
 |Služba|Ano|Ano|Ano|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|
 
 > [!NOTE]
-> Zboží, které nabízíte svým zákazníkům, ale nechcete ve svém systému spravovat, dokud je nezačnete prodávat, lze nastavit jako zboží v katalogu. Zboží v katalogu se nesmí zaměňovat s běžným zbožím typu Neskladované. Pro více informací navštivte [Práce se katalogovým zbožím](inventory-how-work-nonstock-items.md).
+> Zboží, které nabízíte svým zákazníkům, ale nechcete ve svém systému spravovat, dokud je nezačnete prodávat, lze nastavit jako zboží v katalogu. Zboží v katalogu se nesmí zaměňovat s běžným zbožím typu Neskladované. Pro více informací navštivte [Práce s katalogovým zbožím](inventory-how-work-nonstock-items.md).
 
 > [!NOTE]
 > Zboží zákazníků, na kterých provádíte servis, například tiskárna, se nazývá předmět servisu. Předmět servisu nemá nic společné s běžným zbožím nebo zbožím v katalogu. Komponenty služeb však mohou být běžným zbožím. Pro více informací navštivte [Nastavení Předmětů servisu a Komponent předmětu servisu](service-how-setup-service-items.md).

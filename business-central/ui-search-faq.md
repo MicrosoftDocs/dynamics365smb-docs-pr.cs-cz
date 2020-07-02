@@ -13,12 +13,14 @@ ms.date: 01/13/2020
 ms.reviewer: v-zdbice
 ms.author: bholtorf
 ---
+
 # **Řekněte mi** - Otázky a odpovědi
 Toto téma odpovídá na otázky, na které se naši pokročilí uživatelé často ptají o funkci **Řekněte mi**.
 
 ## Otázky a odpovědi
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Jsou všechny akce z mé aktuální stránky zjistitelné v **Řekněte mi**?
+
 
 Ne. Akce v částech, jako je například část Prodejní řádky nebo Okna s fakty, se v **Řekněte mi** nezobrazí.
 

@@ -13,7 +13,7 @@ ms.search.keywords: null
 ms.date: 10/22/2018
 ms.author: jswymer
 ---
-# <a name="add-fields-to-a-word-report-layout"></a>Přidání pole do Word rozvržení sestavy
+# <a name="add-fields-to-a-word-report-layout"></a>Přidání pole do rozvržení sestavy aplikace Word
 Sada dat sestavy se může skládat z polí zobrazujících popisky, data a obrázky. Toto téma popisuje postup pro přidání polí sady dat sestavy do existujícího Word rozvržení sestavy pro sestavu. Pole přidáte pomocí vlastní části XML aplikace Word pro sestavu a přidáním ovládacích prvků obsahu, které se mapují do polí sady dat sestavy. Přidání polí vyžaduje určitou znalost sady dat sestavy, abyste mohli identifikovat pole, která chcete přidat do rozvržení.  
   
 > [!NOTE]  

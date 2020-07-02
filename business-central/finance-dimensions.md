@@ -24,7 +24,7 @@ Dalším příkladem je nastavení dimenze nazvané *Středisko* a její použit
 Čím více dimenzí používáte, tím podrobnější sestavy můžete vytvořit a pak na nich založit svá obchodní rozhodnutí. Jedna prodejní položka může například obsahovat více informací o dimenzích, například:
 
 * Účet, do kterého byl prodej zboží zaúčtován
-* Kde bylo zboží prodána
+* Kde bylo zboží prodáno
 * Kdo to prodal
 * Typ zákazníka, který ho koupil
 

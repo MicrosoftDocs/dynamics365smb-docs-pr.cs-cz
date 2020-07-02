@@ -14,7 +14,7 @@
 
 ---
 # Fakturace záloh
-Zálohy jsou platby, které jsou fakturovány a zaúčtovány na prodejní nebo nákupní objednávku zálohy před konečnou fakturací. Před výrobou zboží na objednávku můžete vyžadovat zálohu nebo můžete před odesláním zboží zákazníkovi požadovat platbu. Funkce záloha vám umožňuje fakturovat a vybírat vklady požadované od zákazníků nebo vyplácet vklady dodavatelům. Můžete tak zajistit, aby všechny platby byly zaúčtovány na fakturu.
+Zálohy jsou platby, které jsou fakturovány a zaúčtovány na prodejní nebo nákupní zálohovou fakturu před konečnou fakturací. Před výrobou zboží na objednávku můžete vyžadovat zálohu nebo můžete před odesláním zboží zákazníkovi požadovat platbu. Funkcionalita záloh vám umožňuje fakturovat a vybírat vklady požadované od zákazníků nebo vyplácet vklady dodavatelům. Můžete tak zajistit, aby všechny platby byly zaúčtovány na fakturu.
 
 Požadavky na zálohu lze definovat pro zákazníka nebo prodejce pro vybrané zboží nebo pro všechno zboží. Po dokončení požadovaného nastavení můžete generovat zálohové faktury z prodejních a nákupních objednávek pro vypočtenou částku zálohy. Částky na faktuře můžete podle potřeby změnit. Můžete například zadat celkovou částku pro celou objednávku. Další faktury se zálohou můžete také odeslat, pokud jsou například k objednávce přidány další položky. Množství můžete zvýšit nebo přidat nové řádky k objednávce po vystavení zálohy a pak můžete zaúčtovat další zálohovou fakturu. Pokud chcete odstranit řádek, pro který již byla záloha vyfakturována, musíte před smazáním řádku vydat dobropis zálohy.
 
