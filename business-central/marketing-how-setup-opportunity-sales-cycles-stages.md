@@ -18,7 +18,7 @@ Než začnete používat prodejní příležitosti, musíte nastavit prodejní c
 
 Implementace prodejních cyklů příležitostí zahrnuje nastavení prodejního cyklu, definování různých fází cyklu a následné přiřazení cyklu příležitostem. Součástí nastavení prodejního cyklu může být také přiřazení příslušné činnosti nebo úkolů příležitosti.
 
-Toto téma také popisuje, jak nastavit úkoly a aktivity a jak přiřadit úkoly k aktivitám. Pro více informací navštivte [Nastavení aktivit s úkoly](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
+Toto téma také popisuje, jak nastavit úkoly a aktivity a jak přiřadit úkoly k aktivitám. Pro více informací navštivte [Nastavení aktivit s úkoly](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## Nastavení kódů prodejního cyklu příležitosti
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní cykly** a poté vyberte související odkaz. Otevře se stránka **Prodejní cykly** a zobrazí se seznam všech existujících prodejních cyklů.

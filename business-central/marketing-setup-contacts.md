@@ -145,7 +145,7 @@ Dědičnost polí přepíše výchozí hodnoty, které jste nastavili. Pokud jst
 ## Synchronizace kontaktů se zákazníky, prodejci a bankovními účty
 Chcete-li synchronizovat kartu kontaktu s propojenou kartou zákazníka, dodavatele nebo bankovního účtu, musíte vyplnit příslušné pole v části **Kód obch. vztahu pro** na záložce **Interakce** na stránce **Nastavení marketingu**.
 
-Pro více informací navštivte [Synchronizace kontaktů se zákazníky, prodejci a bankovními účty](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Pro více informací navštivte [Synchronizace kontaktů se zákazníky, prodejci a bankovními účty](marketing-create-contact-companies.md).
 
 ## Hledání duplicitních kontaktů
 Můžete zvolit, aby aplikace automaticky vyhledávala duplicity při každém vytvoření kontaktů, nebo můžete zvolit ruční vyhledávání po vytvoření kontaktů. Můžete si také zvolit, aby aplikace aktualizovala vyhledávací řetězce automaticky pokaždé, když změníte kontaktní informace nebo vytvoříte kontakt. Můžete zvolit procento zásahů vyhledávání, to znamená procento identických řetězců, které musí mít dva kontakty, aby je aplikace mohla považovat za duplikáty. Toto nastavíte v záložce **Duplikáty** na stránce **Nastavení marketingu**.

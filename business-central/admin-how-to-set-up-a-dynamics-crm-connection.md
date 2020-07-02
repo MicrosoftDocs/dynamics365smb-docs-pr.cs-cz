@@ -14,106 +14,106 @@
 
 
 ---
-# Set Up a Connection to Dynamics 365 Sales
-This topic describes how to set up a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
-<br><br>  
+# Nastavení připojení k Dynamics 365 for Sales
+Toto téma popisuje, jak nastavit spojení mezi [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
-## Before You Start
-Before you create the connection, there are a few pieces of information to have ready:  
+## Než začnete
+Před vytvořením připojení je třeba připravit několik informací:
 
-* A URL for your [!INCLUDE[crm_md](includes/crm_md.md)] app. A fast way to get the URL is to open [!INCLUDE[crm_md](includes/crm_md.md)], copy the URL, and then paste it in the **Dynamics 365 Sales URL** field in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] will correct the formatting for you.  
-* A user name and password of a user account that is used only for the integration.  
-* The user name and password of the account that has administrator permissions.  
-
-> [!Note]
-> These steps describe the procedure for the online version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-## Set Up, Test, and Enable a Connection to [!INCLUDE[crm_md](includes/crm_md.md)]  
-For all authentication types other than Office 365 authentication, you set up your connection to Dynamics 365 Sales on the **Microsoft Dynamics 365 Sales Connection Setup** page. For Office 365 authentication, you can also use the **Set Up Dynamics 365 Sales Connection** assisted setup guide, which will help you provide the required information.
-
-### To use an assisted setup guide
-The **Set Up Dynamics 365 Sales Connection** assisted setup guide can help you set up the connection and specify whether to enable advanced features, such as coupling between records.
-
-1. Choose **Setup and Extensions**, and then choose **Assisted Setup**.
-2. Choose **Set Up Dynamics 365 Sales Connection** to start the assisted setup guide.
-3. Fill in the fields as necessary.
-4. Optionally, there are advanced settings that can enhance security and enable [!INCLUDE[crm_md](includes/crm_md.md)] additional capabilities, such as sales order processing and viewing inventory levels. The following table describes the advanced settings.  
-
-|Field|Description|
-|-----|-----|
-|**Import Dynamics 365 Sales Solution**|Enable this to install and configure the integration solution in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [About the Business Central Integration Solution](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|
-|**Publish Item Availability Web Service**|Enable people who are using [!INCLUDE[crm_md](includes/crm_md.md)] to view the availability of items (products) in inventory in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This requires that the [!INCLUDE[d365fin](includes/d365fin_md.md)] user account with a web services access key. Assigning the key is a two-step process. On the user account in [!INCLUDE[d365fin](includes/d365fin_md.md)] you must choose the **Change Web Service Key** action. In the Set Up Dynamics 365 Sales Connection assisted setup guide, you must specify the Dynamics 365 Business Central OData web service URL, and provide [!INCLUDE[d365fin](includes/d365fin_md.md)] user credentials for accessing the service. For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
-|**Dynamics 365 Business Central OData Web Service URL**|If you enable the Item Availability Web Service, the URL for the OData Web service is provided for you.|
-|**Dynamics 365 Business Central OData Web Service Username**|The name of the [!INCLUDE[d365fin](includes/d365fin_md.md)] user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to retrieve information about item availability in [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web Service.|
-|**Dynamics 365 Business Central OData Web Service Accesskey**|The access key for the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web Service. The key is assigned to the user chosen in the **Dynamics 365 Business Central OData Web Service Username** field. To get the key, choose the **Look up value** button next to the user name, choose the user, choose **Manage**, and then **Edit**. On the user card, choose **Actions**, **Authentication**, and then choose **Change Web Service Key**.|
-|**Enable Sales Order Integration**|When people create sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] and fullfill orders in [!INCLUDE[d365fin](includes/d365fin_md.md)], this integrates the process in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Enable sales order processing integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). This requires that you provide credentials for an administrator user account in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
-|**Enable Dynamics 365 for Sales Connection**|Enable the connection to [!INCLUDE[crm_md](includes/crm_md.md)].|
-|**Dynamics 365 SDK Version**|This is relevant only if you are integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)]. This is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)], and equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|
+* Adresa URL pro vaši aplikaci [!INCLUDE[crm_md](includes/crm_md.md)]. Rychlý způsob, jak získat adresu URL, je otevřít [!INCLUDE[crm_md](includes/crm_md.md)], kopírovat adresu URL a vložit ji do pole **Dynamics 365 for Sales URL** v [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] opraví formátování za vás.
+* Uživatelské jméno a heslo uživatelského účtu, které se používá pouze pro integraci.
+* Uživatelské jméno a heslo uživatelského účtu, které má oprávnění správce.
 
 > [!Note]
-> **Set Up Dynamics 365 Sales Connection** assisted setup guide automatically assigns **Integration Administrator** and **Integration User** security roles to the user account used for integration.
+> Tyto kroky popisují postup online verze [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-### To create or maintain the connection manually
-The following procedure describes how to fill in the fields on the **Microsoft Dynamics 365 Sales Connection Setup** page manually. This is also the page where you manage settings for the integration.
+## Nastavení, testování a povolení připojení k [!INCLUDE[crm_md](includes/crm_md.md)]
+Pro všechny typy ověřování jiné než ověřování Office 365 nastavíte připojení k Dynamics 365 for Sales na stránce **Nastavení připojení k Microsoft Dynamics 365 for Sales**. K ověření sady Office 365 můžete také použít průvodce asistovaným nastavením **Nastavení připojení Dynamics 365 for Sales**, který vám pomůže poskytnout požadované informace.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Connection Setup**, and then choose the related link.
-2. Enter the following information for the connection from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)].
+### Použití průvodce asistovaným nastavením
+Průvodce asistenčním nastavením **Nastavení připojení Dynamics 365 for Sales** vám může pomoci nastavit připojení a určit, zda povolit pokročilé funkce, například propojení mezi záznamy.
 
-|Field|Description|
+1. Vyberte **Nastavení a rozšíření** a poté zvolte **Asistované nastavení**.
+2. Vyberte **Nastavení připojení k Dynamics 365 for Sales** a spusťte průvodce asistovaným nastavením.
+3. Vyplňte pole podle potřeby.
+4. Volitelně existují pokročilá nastavení, která mohou zvýšit zabezpečení a umožnit [!INCLUDE[crm_md](includes/crm_md.md)] další funkce, jako je zpracování prodejních objednávek a zobrazení úrovní zásob. Následující tabulka popisuje pokročilá nastavení.
+
+| Pole | Popis |
 |-----|-----|
-|**Dynamics 365 Sales URL**|The URL for your instance of [!INCLUDE[crm_md](includes/crm_md.md)]. To get the URL, open [!INCLUDE[crm_md](includes/crm_md.md)], copy the URL from the address bar in your browser, and then paste the URL in the field. [!INCLUDE[d365fin](includes/d365fin_md.md)] will make sure that the format is correct.|
-|**User Name** and **Password**|The credentials of the user account that is dedicated for the integration. For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).|
-|**Enabled**|Start using the integration. If you do not enable the connection now, the connection settings will be saved but users will not be able to access [!INCLUDE[crm_md](includes/crm_md.md)] data from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can return to this page and enable the connection later.  |
-|**Dynamics 365 SDK Version**|If you are integrating with an on-premesis version of [!INCLUDE[crm_md](includes/crm_md.md)], this is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version that you select must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)]. This version equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|
+| **Importování řešení Dynamics 365 for Sales** | Povolte instalaci a konfiguraci integračního řešení v aplikaci [!INCLUDE[crm_md](includes/crm_md.md)]. Pro více informací, navštivte [Integrace řešení Business Central](admin-prepare-dynamics-365-for-sales-for-integration.md). |
+| **Publikace webové služby dostupnosti zboží** | Umožněte lidem, kteří používají [!INCLUDE[crm_md](includes/crm_md.md)], zobrazit dostupnost zboží (produktů) v inventáři v [!INCLUDE[d365fin](includes/d365fin_md.md)]. To vyžaduje uživatelský účet [!INCLUDE[d365fin](includes/d365fin_md.md)] s přístupovým klíčem webových služeb. Přiřazení klíče je proces sestávající ze dvou kroků. Na uživatelském účtu v [!INCLUDE[d365fin](includes/d365fin_md.md)] musíte zvolit akci **Změna klíče webové služby**. V průvodci asistovaného nastavení připojení Dynamics 365 for Sales musíte zadat adresu URL webové služby Dynamics 365 Business Central OData a poskytnout [!INCLUDE[d365fin](includes/d365fin_md.md)] uživatelské údaje pro přístup ke službě. Pro více informací navštivte [Webové služby OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
+| **Webová služba URL Dynamics 365 Business Central OData** | Pokud povolíte webovou službu dostupnosti zboží, bude adresa URL pro webovou službu OData poskytována za vás. |
+| **Název uživatele webové služby aplikace Dynamics 365 Business Central OData** | Název [!INCLUDE[d365fin](includes/d365fin_md.md)] uživatelský účet [!INCLUDE[crm_md](includes/crm_md.md)] používá k načtení informací o dostupnosti zboží v aplikaci [!INCLUDE[d365fin](includes/d365fin_md.md)] prostřednictvím webové služby OData. |
+| **Accesskey webové služby aplikace Dynamics 365 Business Central OData** | Přístupová klávesa pro uživatelský účet, který [!INCLUDE[crm_md](includes/crm_md.md)] používá k získání informací o dostupnosti zboží z [!INCLUDE[d365fin](includes/d365fin_md.md)] prostřednictvím webové služby OData. Klíč je přiřazen uživateli zvoleným v poli **Nazev uživatele webové služby aplikace Dynamics 365 Business Central OData**. Chcete-li klíč získat, klepněte na tlačítko **Vyhledat hodnotu** vedle uživatelského jména, zvolte uživatele, zvolte možnost **Spravovat** a pak **Upravit**. Na kartě uživatele zvolte **Akce**, **Ověření** a pak klepněte na **Změna klíče webových služeb**. |
+| **Povolit integraci s prodejní objednávkou** | Když uživatelé vytvářejí prodejní objednávky v aplikaci [!INCLUDE[crm_md](includes/crm_md.md)] a cílově objednávky v aplikaci [!INCLUDE[d365fin](includes/d365fin_md.md)], integruje proces v aplikaci [!INCLUDE[crm_md](includes/crm_md.md)]. Pro více informací navštivte [Možnost integrovat zpracování prodejních objednávek](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). To vyžaduje zadání pověření pro uživatelský účet správce v aplikaci [!INCLUDE[crm_md](includes/crm_md.md)]. Pro více informací navštivte [Zpracování údajů o prodejní objednávce](marketing-integrate-dynamicscrm.md). |
+| **Povolení připojení Dynamics 365 for Sales** | Povolit připojení k [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Verze Dynamics 365 SDK** | Tento význam je relevantní pouze v případě, že provádíte integraci s verzí aplikace [!INCLUDE[crm_md](includes/crm_md.md)]. Toto je sada pro vývoj softwaru Dynamics 365 (označované také jako XRM), kterou používáte pro připojení [!INCLUDE[d365fin](includes/d365fin_md.md)] do [!INCLUDE[crm_md](includes/crm_md.md)]. Verze musí být kompatibilní s verzí sady SDK používanou aplikací [!INCLUDE[crm_md](includes/crm_md.md)] a je rovno nebo novější než verze používaná službou [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 > [!Note]
-> If you are connecting an on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] and you want to configure a connection to a [!INCLUDE[crm_md](includes/crm_md.md)] instance with a specific authentication type, fill in the fields on the **Authentication Type Details** FastTab. For more information, see [Use connection strings in XRM tooling to connect to Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). This step is not required when connecting an online version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Sprievodca nastavením asistovaného nastavenia **Nastavení připojení k Dynamics 365 for Sales** automaticky priradí bezpečnostné role **Správce integrace** a **Uživatel integrace** k užívateľskému účtu použitému na integráciu.
 
-3. Enter the following information for the connection from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+### Postup vytvoření nebo udržování připojení ručně
+Následující postup popisuje ruční vyplnění polí na stránce **Nastavení připojení Microsoft Dynamics 365 for Sales**. Jedná se také o stránku, na které spravujete nastavení integrace.
 
-|Field|Description|
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení připojení k Microsoft Dynamics 365** a poté vyberte související odkaz.
+2. Zadejte následující informace pro připojení z [!INCLUDE[d365fin](includes/d365fin_md.md)] do [!INCLUDE[crm_md](includes/crm_md.md)].
+
+| Pole | Popis |
 |-----|-----|
-|**Dynamics 365 Business Central Web Client URL**|The URL of your [!INCLUDE[d365fin](includes/d365fin_md.md)] instance. This enables users in [!INCLUDE[crm_md](includes/crm_md.md)] to open corresponding records in [!INCLUDE[d365fin](includes/d365fin_md.md)] from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as an account or product. The [!INCLUDE[d365fin](includes/d365fin_md.md)] records open in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Set this field to the URL of the [!INCLUDE[d365fin](includes/d365fin_md.md)] instance to use.<br /><br /> To reset the field to the default URL for the [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Reset Web Client URL** action.<br /><br /> This field is relevant only if the [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration Solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)].|
-|**Item Availability Web Service Enabled**|Enable people who are using [!INCLUDE[crm_md](includes/crm_md.md)] to view the availability of items (products) in inventory in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you enable this, you must also provide a user name and an access key for the [!INCLUDE[crm_md](includes/crm_md.md)] to use to query OData Web Service for availablity of items (products). For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
-|**Dynamics 365 Business Central OData Web Service URL**|If you enable the Item Availability Web Service, the URL for the OData Web service is provided for you.|
-|**Dynamics 365 Business Central OData Web Service Username**|The name of the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web service.|
-|**Dynamics 365 Business Central OData Web Service Accesskey**|The access key for the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web service. The key is assigned to the user chosen in the **Dynamics 365 Business Central OData Web Service Username** field. To get the key, choose the **Look up value** button next to the user name, choose the user, choose **Manage**, and then **Edit**. On the user card, choose **Actions**, **Authentication**, and then choose **Change Web Service Key**.|
-
-4. Enter the following settings for [!INCLUDE[crm_md](includes/crm_md.md)].
-
-|Field|Description|
-|-----|-----|
-|**Sales Order Integration is Enabled**|Enable users to submit sales orders and activated quotes in [!INCLUDE[crm_md](includes/crm_md.md)] and then view and process them in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This integrates the process in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Enable sales order processing integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
-|**Automatically Create Sales Orders**|Create a sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)] when a user creates and submits one in [!INCLUDE[crm_md](includes/crm_md.md)].|
-|**Automatically Process Sales Quotes**|Process a sales quote in [!INCLUDE[d365fin](includes/d365fin_md.md)] when a user creates and activates one in [!INCLUDE[crm_md](includes/crm_md.md)].|
-
-5. Enter the following advanced settings.
-
-|Field|Description|
-|-----|-----|
-|**[!INCLUDE[d365fin](includes/d365fin_md.md)] Users Must Map to Dynamics 365 Sales Users**|Specify whether [!INCLUDE[d365fin](includes/d365fin_md.md)] user accounts must have a matching user accounts in [!INCLUDE[crm_md](includes/crm_md.md)]. The **Office 365 Authentication Email** of the [!INCLUDE[d365fin](includes/d365fin_md.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[d365fin](includes/d365fin_md.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[d365fin](includes/d365fin_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[d365fin](includes/d365fin_md.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[d365fin](includes/d365fin_md.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
-|**Current Business Central User is Mapped to a Dynamics 365 Sales User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)]|
-
-6. To test the connection settings, choose **Test Connection**.  
-
-    > [!NOTE]  
-    >  If data encryption is not enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked whether you want to enable it. To enable data encryption, choose **Yes** and provide the required information. Otherwise, choose **No**. You can enable data encryption later. For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in Developer and IT-Pro help.  
-
-7. If [!INCLUDE[crm_md](includes/crm_md.md)] synchronization is not already set up, you will be asked whether you want to use the default synchronization setup. Depending on whether you want to keep records aligned in [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Yes** or **No**.
+| **URL Dynamics 365 for Sales** | Adresa URL pro instanci aplikace [!INCLUDE[crm_md](includes/crm_md.md)]. Chcete-li získat adresu URL, otevřete okno [!INCLUDE[crm_md](includes/crm_md.md)], zkopírujte adresu URL z adresního řádku v prohlížeči a potom vložte adresu URL do pole. [!INCLUDE[d365fin](includes/d365fin_md.md)] ujistěte se, že je formát správný. |
+| **Uživatelské jméno** a **Heslo** | Přihlašovací údaje uživatelského účtu, který je vyhrazen pro integraci. Pro více informací navštivte [Nastavení užívatelských účtů pro integraci s Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md). |
+| **Povoleno** | Začněte s integrací. Pokud připojení nyní nepovolíte, bude nastavení připojení uloženo, ale uživatelé nebudou mít přístup k [!INCLUDE[crm_md](includes/crm_md.md)] datům z [!INCLUDE[d365fin](includes/d365fin_md.md)]. Můžete se vrátit na tuto stránku a povolit připojení později. |
+| **Verze Dynamics 365 SDK** | Pokud provádíte integraci s verzí [!INCLUDE[crm_md](includes/crm_md.md)], jedná se o soupravu pro vývoj softwaru Dynamics 365 (označovanou také jako Xrm), kterou používáte pro připojení [!INCLUDE[d365fin](includes/d365fin_md.md)] do [!INCLUDE[crm_md](includes/crm_md.md)]. Verze, kterou vyberete, musí být kompatibilní s verzí SDK, kterou používá [!INCLUDE[crm_md](includes/crm_md.md)]. Tato verze je stejná nebo novější než verze použitá v [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 > [!Note]
-> Connecting to Dynamics 365 Sales using the **Microsoft Dynamics 365 Sales Connection Setup** page may require that you assign the Integration Administrator and Integration User security roles to the account used for integration. For more information, see [Assign a security role to a user](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+> Pokud připojujete místní verzi [!INCLUDE[d365fin](includes/d365fin_md.md)] na [!INCLUDE[crm_md](includes/crm_md.md)] a chcete nakonfigurovat připojení k [!INCLUDE[crm_md](includes/crm_md.md)] s konkrétním typem autentizace, vyplňte pole na záložce **Detaily typu ověření**. Pro více informací navštivte [Použití připojovacích řetězců v nástrojích XRM pro připojení k Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). Tento krok není vyžadován při připojování online verze [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+3. Zadejte následující informace pro připojení z [!INCLUDE[crm_md](includes/crm_md.md)] do [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+| Pole | Popis |
+|-----|-----|
+| **Dynamics 365 Business Central Web Client URL** | Adresa URL vaší instance [!INCLUDE[d365fin](includes/d365fin_md.md)]. To umožňuje uživatelům v [!INCLUDE[crm_md](includes/crm_md.md)] otevírat odpovídající záznamy v [!INCLUDE[d365fin](includes/d365fin_md.md)] ze záznamů v [!INCLUDE[crm_md](includes/crm_md.md)], například účet nebo produkt. Záznamy [!INCLUDE[d365fin](includes/d365fin_md.md)] se otevírají v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Toto pole nastavte na adresu URL instance [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /><br /> Chcete-li obnovit pole na výchozí adresu URL pro [!INCLUDE[d365fin](includes/d365fin_md.md)], vyberte akci **Resetovat Web Client URL**.<br /><br /> Toto pole je relevantní pouze v případě, že [!INCLUDE[d365fin](includes/d365fin_md.md)] integrační řešení je nainstalováno v [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Povolení webové služky dostupnosti zboží** | Umožněte lidem, kteří používají [!INCLUDE[crm_md](includes/crm_md.md)], zobrazit dostupnost zboží (produktů) v inventáři v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pokud to povolíte, musíte také zadat uživatelské jméno a přístupový klíč pro [!INCLUDE[crm_md](includes/crm_md.md)] , který se použije k dotazování na webovou službu OData o dostupnosti zboží (produktů). Pro více informací navštivte [Webová služba OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md). |
+| **Webová služba URL Dynamics 365 Business Central OData** | Pokud povolíte webovou službu dostupnosti zboží, bude adresa URL pro webovou službu OData poskytována za vás. |
+| **Název uživatele webové služby aplikace Dynamics 365 Business Central OData** | Název uživatelského účtu, který používá [!INCLUDE[crm_md](includes/crm_md.md)] k získání informací o dostupnosti zboží z [!INCLUDE[d365fin](includes/d365fin_md.md)] prostřednictvím webové služby OData. |
+| **Accesskey webové služby aplikace Dynamics 365 Business Central OData** | Přístupový klíč pro uživatelský účet, který používá [!INCLUDE[crm_md](includes/crm_md.md)] k získání informací o dostupnosti zboží z [!INCLUDE[d365fin](includes/d365fin_md.md)] prostřednictvím webové služby OData. Klíč je přiřazen uživateli zvoleným v poli **Nazev uživatele webové služby aplikace Dynamics 365 Business Central OData**. Chcete-li klíč získat, klepněte na tlačítko **Vyhledat hodnotu** vedle uživatelského jména, zvolte uživatele, zvolte možnost **Spravovat** a pak **Upravit**. Na kartě uživatele zvolte **Akce**, **Ověření** a pak klepněte na **Změna klíče webových služeb**. |
+
+4. Zadejte následující nastavení pro [!INCLUDE[crm_md](includes/crm_md.md)].
+
+| Pole | Popis |
+|-----|-----|
+| **Povolení integrace prodejních objednávek** | Umožněte uživatelům zadávat prodejní objednávky a aktivované nabídky v [!INCLUDE[crm_md](includes/crm_md.md)] a poté je zobrazit a zpracovat v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tím se proces integruje do [!INCLUDE[crm_md](includes/crm_md.md)]. Pro více informací navštivte [Možnost integrovat zpracování prodejních objednávek](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
+| **Automatické vytváření prodejní objednávky** | Když uživatel vytvoří a odešle objednávku v [!INCLUDE[d365fin](includes/d365fin_md.md)], vytvořte prodejní objednávku v [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Automatické zpracování prodejní nabídky** | Když uživatel vytvoří a aktivuje nabídku v [!INCLUDE[d365fin](includes/d365fin_md.md)], zpracujte prodejní nabídku v [!INCLUDE[crm_md](includes/crm_md.md)]. |
+
+5. Zadejte následující pokročilá nastavení.
+
+| Pole | Popis |
+|-----|-----|
+| **[!INCLUDE[d365fin](includes/d365fin_md.md)] Uživatelé musí mapovat prodejní uživatele Dynamics 365 for Sales** | Určete, zda uživatelské účty [!INCLUDE[d365fin](includes/d365fin_md.md)] musí mít odpovídající uživatelské účty v [!INCLUDE[crm_md](includes/crm_md.md)]. **Ověřovací e-mail Office 365** uživatele [!INCLUDE[d365fin](includes/d365fin_md.md)] musí být stejný jako **Primární e-mail** uživatele [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Pokud nastavíte hodnotu na **Ano**, uživatelé [!INCLUDE[d365fin](includes/d365fin_md.md)], kteří nemají odpovídající uživatelský účet [!INCLUDE[crm_md](includes/crm_md.md)], nebudou mít v uživatelském rozhraní integrační schopnosti [!INCLUDE[d365fin](includes/d365fin_md.md)]. Přístup k [!INCLUDE[crm_md](includes/crm_md.md)] datům přímo z [!INCLUDE[d365fin](includes/d365fin_md.md)] se provádí jménem uživatelského účtu [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Pokud nastavíte hodnotu **Ne**, všichni uživatelé [!INCLUDE[d365fin](includes/d365fin_md.md)] budou mít [!INCLUDE[crm_md](includes/crm_md.md)] integrační schopnosti v uživatelském rozhraní. Přístup k datům [!INCLUDE[crm_md](includes/crm_md.md)] se provádí jménem uživatele [!INCLUDE[crm_md](includes/crm_md.md)] připojení (integrace). |
+| **Aktuální uživatel Business Central je namapován k uživateli Dynamics 365 for Sales** | Označuje, zda je váš uživatelský účet namapován na účet v [!INCLUDE[crm_md](includes/crm_md.md)] |
+
+6. Chcete-li otestovat nastavení připojení, vyberte **Testovat připojení**.
+
+   > [!NOTE]
+   > Pokud není povoleno šifrování v [!INCLUDE[d365fin](includes/d365fin_md.md)], zobrazí se dotaz, zda jej chcete povolit. Chcete-li aktivovat šifrování dat, vyberte **Ano** a zadejte požadované informace. Jinak zvolte **Ne**. Šifrování dat můžete povolit později. Pro více informací navštivte [Šifrování dat v Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) v nápovědě pro vývojáře a IT-Pro.
+
+7. Pokud synchronizace [!INCLUDE[crm_md](includes/crm_md.md)] ještě není nastavena, zobrazí se dotaz, zda chcete použít výchozí nastavení synchronizace. V závislosti na tom, zda chcete udržovat záznamy zarovnány v [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], vyberte **Ano** nebo **Ne**.
+
+> [!Note]
+> Připojení k Dynamics 365 Sales pomocí stránky **Nastavení připojení Microsoft Dynamics 365 Sales** může vyžadovat přiřazení role Správce integrace a Užívatel integrace k účtu použitému pro integraci. Pro více informací navštivte [Přiřazení role zabezpečení uživateli](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 
 > [!Note]
-> Connecting to Dynamics 365 Sales using **Microsoft Dynamics 365 Sales Connection Setup** page may require you to [assign  **Integration Administrator** and **Integration User** security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) to user account used for integration.
+> Připojení k Dynamics 365 for Sales pomocí stránky **Nastavení připojení Microsoft Dynamics 365 for Sales** může vyžadovat, abyste [přiřadili bezpečnostní role **Správce integrace** a **Uživatel integrace**](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) k uživatelskému účtu použitému pro integraci.
 
 
-### To disconnect from [!INCLUDE[crm_md](includes/crm_md.md)]  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Sales Connection Setup**, and then choose the related link.
-2. On the **Microsoft Dynamics 365 Sales Connection Setup** page, clear the **Enabled** check box.  
+### Odpojení od [!INCLUDE[crm_md](includes/crm_md.md)]
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení připojení k Microsoft Dynamics 365 for Sales** a poté vyberte související odkaz.
+2. Na stránce **Nastavení připojení k Microsoft Dynamics 365 for Sales** zrušte zaškrtnutí políčka **Povoleno**.
 
 <!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension?
@@ -160,5 +160,5 @@ For more information, see [System Requirements for Business Central](../deployme
 
 -->
 
-## See Also  
-[View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)  
+## Viz také
+[Zobrazení stavu synchronizace](admin-how-to-view-synchronization-status.md)

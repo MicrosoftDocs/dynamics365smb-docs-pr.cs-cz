@@ -36,7 +36,7 @@ Funkce je stejná pro oba typy, s tím rozdílem, že možnosti pro další info
 5. Podle potřeby vyplňte zbývající pole. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Vytvoření kontaktu z karty zákazníka, dodavatele nebo z bankovního účtu
-Pokud máte zákazníky, dodavatele a bankovní účty, pro které chcete vytvořit karty kontaktů, můžete pomocí dávkové úlohy **Vytvořit kontakty z** vytvořit kontakty na základě existujících dat. Když vytvoříte kontakt tímto způsobem, kontaktní informace budou následně synchronizovány se souvisejícími informacemi o zákazníkovi, dodavateli nebo bankovním účtu. Pro více informací navštivte [Synchronizace kontaktů se zákazníky, dodavateli a bankovními účty](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Pokud máte zákazníky, dodavatele a bankovní účty, pro které chcete vytvořit karty kontaktů, můžete pomocí dávkové úlohy **Vytvořit kontakty z** vytvořit kontakty na základě existujících dat. Když vytvoříte kontakt tímto způsobem, kontaktní informace budou následně synchronizovány se souvisejícími informacemi o zákazníkovi, dodavateli nebo bankovním účtu. Pro více informací navštivte [Synchronizace kontaktů se zákazníky, dodavateli a bankovními účty](marketing-create-contact-companies.md).
 
 > [!NOTE]
 > Než budete moci vytvořit kontakty na základě existujících dat, musíte zadat kód obchodního vztahu pro zákazníky, dodavatele nebo bankovní účty na záložce **Interakce** na stránce **Nastavení marketingu**. Pro více informací navštivte [Nastavení kontaktů](marketing-setup-contacts.md).
@@ -51,10 +51,10 @@ Pokud máte zákazníky, dodavatele a bankovní účty, pro které chcete vytvo�
 Novým kontaktům jsou přiřazena další čísla kontaktů v číselné řadě. Nově vytvořeným kontaktům jsou přiřazeny obchodní vztahy uvedené na stránce **Nastavení marketingu**.
 
 > [!TIP]
-> Můžete to udělat i naopak, a to vytvořením zákazníka, dodavatele nebo bankovního účtu z kontaktu. Pro více informací navštivte [Vytvoření kontaktu jako zákazníka, dodavatele nebo bankovního účtu](marketing-create-contact-companies.md#to-create-a-customer-vendor-or-bank-account-from-a-contact).
+> Můžete to udělat i naopak, a to vytvořením zákazníka, dodavatele nebo bankovního účtu z kontaktu. Pro více informací navštivte [Vytvoření kontaktu jako zákazníka, dodavatele nebo bankovního účtu](marketing-create-contact-companies.md).
 
 ## Vytvoření zákazníka, dodavatele nebo bankovního účtu z kontaktu
-Pokud máte zákazníka, dodavatele nebo bankovní účet pro společnost, pro kterou chcete vytvořit kontakt, můžete použít funkci **Vytvořit jako**. Když vytvoříte kontakt tímto způsobem, kontaktní informace budou následně synchronizovány se souvisejícími informacemi o zákazníkovi, dodavateli nebo bankovním účtu. Pro více informací navštivte [Synchronizace kontaktů se zákazníky, dodavateli a bankovními účty](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Pokud máte zákazníka, dodavatele nebo bankovní účet pro společnost, pro kterou chcete vytvořit kontakt, můžete použít funkci **Vytvořit jako**. Když vytvoříte kontakt tímto způsobem, kontaktní informace budou následně synchronizovány se souvisejícími informacemi o zákazníkovi, dodavateli nebo bankovním účtu. Pro více informací navštivte [Synchronizace kontaktů se zákazníky, dodavateli a bankovními účty](marketing-create-contact-companies.md).
 
 > [!NOTE]
 > Před vytvořením zákazníků, dodavatelů nebo bankovních účtů z kontaktů musíte na záložce **Interakce** na stránce **Nastavení marketingu** zadat obchodní vztah pro zákazníky, dodavatelé nebo bankovní účty. Pro více informací navštivte [Nastavení kontaktů](marketing-setup-contacts.md).
@@ -92,9 +92,9 @@ Při synchronizaci kontaktu se zákazníkem, dodavatelem nebo bankovním účtem
 
 Synchronizace běžných dat mezi kontakty a příbuznými zákazníky, dodavateli nebo bankovními účty je povolena třemi způsoby:
 
-* Při vytváření kontaktů ze zákazníků, dodavatelů nebo bankovních účtů. Viz [Vytvoření kontaktu ze zákazníka, dodavatele nebo bankovního účtu](marketing-create-contact-companies.md#to-create-a-contact-from-a-customer-vendor-or-bank-account).
-* Při vytváření zákazníků, dodavatelů nebo bankovních účtů z kontaktů. Viz [Vytvoření zákazníka, dodavatele nebo bankovního účtu z kontaktu](marketing-create-contact-companies.md#to-create-a-customer-vendor-or-bank-account-from-a-contact).
-* Když propojíte kontakty s existujícími zákazníky, dodavateli nebo bankovními účty z karty kontaktu. Viz [Propojení kontaktu s existujícím zákazníkem, dodavatelem nebo bankovním účtem](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-or-bank-account).
+* Při vytváření kontaktů ze zákazníků, dodavatelů nebo bankovních účtů. Viz [Vytvoření kontaktu ze zákazníka, dodavatele nebo bankovního účtu](marketing-create-contact-companies.md).
+* Při vytváření zákazníků, dodavatelů nebo bankovních účtů z kontaktů. Viz [Vytvoření zákazníka, dodavatele nebo bankovního účtu z kontaktu](marketing-create-contact-companies.md).
+* Když propojíte kontakty s existujícími zákazníky, dodavateli nebo bankovními účty z karty kontaktu. Viz [Propojení kontaktu s existujícím zákazníkem, dodavatelem nebo bankovním účtem](marketing-create-contact-companies.md).
 
 ## Zobrazení, se kterým zákazníkem, dodavatelem nebo bankovním účtem kontakt souvisí
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Kontakty** a poté vyberte související odkaz.
