@@ -15,103 +15,103 @@ ms.author: sgroespe
 
 ---
 # Použití funkce OCR k převedení souborů PDF a obrázkových souborů do elektronických dokumentů
-Ze souborů PDF nebo obrázkový souborů, které obdržíte od svých obchodních partnerů, můžete pomocí externí služby OCR (Optical Character Recognition) generovat elektronické dokumenty, které lze převést na záznamy dokumentů v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pokud například od dodavatele obdržíte fakturu ve formátu PDF, můžete ji odeslat do služby OCR ze stránky  **Došlé doklady**. Toto je popsáno v první proceduře.
+Ze souborů PDF nebo obrázkových souborů, které obdržíte od svých obchodních partnerů, můžete pomocí externí služby OCR (Optical Character Recognition) generovat elektronické dokumenty, které lze převést na záznamy dokumentů v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pokud například od dodavatele obdržíte fakturu ve formátu PDF, můžete ji odeslat do služby OCR ze stránky **Došlé doklady**. Toto je popsáno v první proceduře.
 
 Jako alternativu k odeslání souboru ze stránky **Příchozí dokumenty**, můžete odeslat soubor službě OCR e-mailem. Poté, když obdržíte elektronický dokument zpět, automaticky se vytvoří související záznam příchozího dokumentu. Toto je popsáno v druhé proceduře.
 
 Po několika sekundách obdržíte soubor zpět od služby OCR jako elektronickou fakturu, kterou lze převést na nákupní fakturu dodavatele. Toto je popsáno v třetí proceduře.
 
-Vzhledem k tomu, že OCR je založen na optickém rozpoznávání, je pravděpodobné, že služba OCR interpretuje znaky ve vašem souboru PDF nebo obrázkových souborů nesprávně, když například nejprve zpracuje dokumenty konkrétního dodavatele. It may not interpret the company logo as the vendor’s name or it may misinterpret the total amount on a receipt because of its layout. To avoid these errors going forward, you can correct the errors in a separate version of the **Incoming Document** page. Then you send the corrections back to the OCR service to train it to interpret the specific characters correctly next time it processes a PDF or image document for the same vendor. For more information, see [To train the OCR service to avoid errors](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
+Vzhledem k tomu, že OCR je založen na optickém rozpoznávání, je pravděpodobné, že služba OCR interpretuje znaky ve vašem souboru PDF nebo obrázkovém souborů nesprávně, když například nejprve zpracuje dokumenty konkrétního dodavatele. Nesmí se stát, že bude interpretovat logo společnosti jako jméno prodávajícího nebo nesprávně interpretovat celkovou částku na účtenku z důvodu jejího uspořádání. Chcete-li se těmto chybám vyhnout, můžete chyby opravit v samostatné verzi na stránce **Došlý doklad**. Poté odešlete opravy zpět do služby OCR, abyste ji naučili správně interpretovat konkrétní znaky při příštím zpracování PDF nebo obrazového dokumentu u stejného dodavatele. Další informace naleznete v [Zlepšení služby OCR k vyhnutím se chybám](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
 
-The traffic of files to and from the OCR service is processed by a dedicated job queue entry, which are created automatically when you enable the related service connection. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).
+Přenos souborů do a ze služby OCR je zpracována položka vyhrazená frontou úloh, která se automaticky vytvoří při povolení příslušného připojení služby. Pro více informací navštivte [Nastavení došlých dokladů](across-how-setup-income-documents.md).
 
-## To send a PDF or image file to the OCR service from the **Incoming Documents** page
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
-2. Create a new incoming document record and attach the file. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
-3. On the **Incoming Documents** page, select one or more lines, and then choose the **Send to Job Queue** action.
+## Odeslání souboru PDF nebo obrázku do služby OCR ze stránky **Došlé doklady**
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Došlé doklady** a poté vyberte související odkaz.
+2. Vytvořte nový záznam příchozího dokumentu a připojte soubor. Pro více informací navštivte [Vytvoření záznamu došlého dokladu](across-how-create-income-document-records.md).
+3. Na stránce **Došlé doklady**, vyberte jeden nebo více řádků a pak zvolte akci **Odeslat do fronty úloh**.
 
-   The value in the **OCR Status** field changes to **Ready**. The attached PDF or image file is sent to the OCR service by the job queue according to the schedule, provided that no errors exist.
-4. Alternatively, on the **Incoming Documents** page, select one or more lines, and then choose the **Send to OCR Service** action.
+   Hodnota v poli **Stav OCR** se změní na **Připraveno**. Přiložený soubor PDF nebo obrázkový soubor je odeslán do služby OCR frontou úloh podle plánu za předpokladu, že se nevyskytnou žádné chyby.
+4. Případně na stránce **Došlé doklady**, vyberte jeden nebo více řádků a poté zvolte akci **Send to OCR Service**.
 
-The value in the **OCR Status** field changes to **Sent**, provided that no errors exist.
+Hodnota v poli **Stav OCR** se změní na **Odesláno**, za předpokladu, že neexistují žádné chyby.
 
-## To send a PDF or image file to the OCR service by email
-From your email application, you can send an email to the OCR service provider with the PDF or image file attached. For information about the email address to send to, see the OCR service provider’s web site.
+## Odeslání souboru PDF nebo obrázku do služby OCR e-mailem
+Z vaší e-mailové aplikace můžete odeslat e-mailové zprávy poskytovateli služby OCR s připojeným souborem PDF nebo obrázkovým souborem. Informace o e-mailové adrese, na kterou chcete odeslat, naleznete na webu poskytovatele služeb OCR.
 
-Because no incoming document record exists for the file, a new record will be created automatically on the **Incoming Documents** page when you receive the resulting electronic document from the OCR service. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
-
-> [!NOTE]
-> If you work on a tablet or phone, you can send the file to the OCR service as soon as you have taken a photo of the document, or you can create an incoming document directly. For more information, see [To create an incoming document record by taking a photo](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
-
-## To receive the resulting electronic document from the OCR service.
-The electronic document that is created by the OCR service from the PDF or image file is automatically received into the **Incoming Documents** page by the job queue entry that is set up when you enable the OCR service.
-
-If you are not using a job queue, or you want to receive a finished OCR document sooner than per the job queue schedule, you can choose the **Receive from OCR Service** button. This will get any documents that are completed by the OCR service.
+Protože pro soubor neexistuje žádný záznam příchozího dokumentu, bude nový záznam vytvořen automaticky na stránce **Příchozí dokumenty** jakmile obdržíte výsledný elektronický dokument ze služby OCR. Pro více informací navštivte [Vytvoření záznamu došlého dokladu](across-how-create-income-document-records.md).
 
 > [!NOTE]
-> If the OCR service is set up to require manual verification of processed documents, then the **OCR Status** field will contain **Awaiting Verification**. In that case, perform the following steps to log in to the OCR service website to manually verify an OCR document.
+> Pokud pracujete s tabletem nebo telefonem, můžete soubor odeslat službě OCR, jakmile pořídíte fotografii dokumentu nebo tak, že vytvoříte přímo příchozí dokument. Další informace naleznete v části [Vytvoření záznamu příchozího dokumentu pořízením fotografie](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
 
-1. In the **OCR Status** field, choose the **Awaiting Verification** hyperlink.
-2. On the OCR service website, log in using the credentials of your OCR service account. These are the credentials you also used when setting up the service. For more information, see [To set up an OCR service](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
+## Získání výsledného elektronického dokumentu ze služby OCR.
+Elektronický dokument, který je vytvořen službou OCR ze souboru PDF nebo obrázkového souboru, je automaticky přijat na stránku **Příchozí dokumenty** položkou fronty úloh, která je nastavena při aktivaci služby OCR.
 
-   Information for the OCR document is displayed, showing both the source content of the PDF or image file and the resulting OCR field values.
-3. Review the various field values and manually edit or enter values in fields that the OCR service has tagged as uncertain.
-4. Zvolte tlačítko **OK**. The OCR process is completed and the resulting electronic document is sent to the **Incoming Documents** page in [!INCLUDE[d365fin](includes/d365fin_md.md)],  according to the job queue schedule.
-5. Repeat step 4 for any other OCR document to be verified.
-
-Now you can proceed to create document records for the received electronic documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], manually or automatically. For more information, see the next procedure. You can also connect the new incoming document record to existing posted or non-posted document so that the source file is easy to access from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Process Incoming Documents](across-process-income-documents.md).
-
-## To create a purchase invoice from an electronic document received from the OCR service
-The following procedure describes how to create a purchase invoice record from a vendor invoice received as an electronic document from the OCR service. The procedure is the same when you create, for example, a general journal line from an expense receipt or a sales return order from a customer.
+Pokud nepoužíváte frontu úloh nebo chcete přijmout dokončený dokument OCR dřív, než je v rozvrhu fronty úloh tlačítko **Přijmout ze služby OCR**. Tím získáte všechny dokumenty, které jsou vyplněny službou OCR.
 
 > [!NOTE]
-> The **Description** and **No.** fields on the created document lines will only be filled if you have first mapped text found on the OCR document to the two fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can do this mapping as item cross-references, for document lines of type Item. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md). You can also use the Text-to-Account Mapping function. For more information, see [To map text on an incoming document to a specific vendor, G/L, or bank account](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+> Pokud je služba OCR nastavena tak, aby vyžadovala manuální ověření zpracovávaných dokumentů, poté bude pole **Stav OCR** obsahovat **Čeká na ověření**. V takovém případě proveďte následující kroky pro přihlášení k webové stránce služby OCR, abyste ručně ověřili dokument OCR.
 
-1. Select the line for the incoming document, and then choose the **Create Document** action.
+1. Na poli **Stav OCR**, zvolte hypertextový odkaz **Čeká na ověření**.
+2. Na webu služby OCR se přihlaste pomocí přihlašovacích údajů vašeho účtu služby OCR. Toto jsou pověření, která jste použili při nastavení služby. Pro více informací navštivte [Nastavení služby OCR](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
 
-A purchase invoice will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the information in the electronic vendor document that you received from the OCR service. Information will be inserted in the new purchase invoice based on the mapping that you have defined as a cross-reference or as text-to-account mapping.
+   Zobrazí se informace o dokumentu OCR, které zobrazují zdrojový obsah souboru PDF nebo obrázkového souboru a výsledné hodnoty pole OCR.
+3. Zkontrolujte různé hodnoty polí a ručně upravte nebo zadejte hodnoty v polích, které služba OCR označila za nejisté.
+4. Zvolte tlačítko **OK**. Proces OCR je dokončen a výsledný elektronický dokument je odeslán na stránku **Došlé doklady** v [!INCLUDE[d365fin](includes/d365fin_md.md)], podle plánu fronty úloh.
+5. Opakujte krok 4 pro ověření jakéhokoliv jiného dokumentu OCR.
 
-Any validation errors, typically related to wrong or missing master data in [!INCLUDE[d365fin](includes/d365fin_md.md)], will be shown on the **Errors and Warnings** FastTab. For more information, see [To handle errors when receiving electronic documents](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
+Nyní můžete manuálně nebo automaticky vytvářet záznamy dokumentů pro přijaté elektronické dokumenty v [!INCLUDE[d365fin](includes/d365fin_md.md)], ručně nebo automaticky. Další informace naleznete v dalším postupu. Nový záznam příchozího dokumentu můžete také připojit k existujícímu zaúčtovanému či nezaúčtovanému dokumentu, takže zdrojový soubor je snadno přístupný z aplikace [!INCLUDE[d365fin](includes/d365fin_md.md)]. Další informace naleznete v části [Proces příchozích dokumentů](across-process-income-documents.md).
 
-### To map text on an incoming document to a specific vendor account
-For incoming documents, you typically use the **Map Text to Account** action to define that a certain text on a vendor invoice received from the OCR service is mapped to a certain vendor account. Going forward, any part of the incoming document description that exists as a mapping text means that the **No.** field on resulting document or journal lines of type G/L Account are filled with the vendor in question.
+## Vytvoření nákupní faktury z elektronického dokumentu obdrženého od služby OCR
+Následující postup popisuje, jak vytvořit záznam o nákupní faktuře z faktury dodavatele obdržené jako elektronický dokument od služby OCR. Postup je stejný, jako když vytvoříte například řádek finančního deníku z výdajů příjemky, nebo objednávku prodejní vratky od zákazníka.
 
-In addition to mapping to a vendor account or G/L accounts, you can also map to a bank account. This is practical, for example, for electronic documents for expenses that are already paid where you want to create a general journal line that is ready to post to a bank account.
+> [!NOTE]
+> Pole**Popis** a **Číslo** na vytvořených řádcích dokumentu budou vyplněny pouze tehdy, pokud jste poprvé namapovali text v dokumentu OCR na dvě pole v aplikaci [!INCLUDE[d365fin](includes/d365fin_md.md)]. Můžete to udělat buď jako křížové odkazy položky pro řádky dokumentů typu Zboží. Pro více informací navštivte [Křížové odkazy Sledované zboží](inventory-how-use-item-cross-refs.md). Můžete také použít funkci Mapování z účtu na účet. Další informace naleznete v části [Mapování textu příchozího dokladu na účet určitého dodavatele](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
-1. Select the relevant incoming document line, and then choose the **Map Text to Account** action. The **Text-to-Account Mapping** page opens.
-3. In the **Mapping Text** field, enter any text that occurs on vendor invoices that you want to create purchase documents or journal lines for. You can enter up to 50 characters.
-4. In the **Vendor No.** field, enter the vendor that the resulting purchase document or journal line will be created for.
-5. In the **Debit Acc. No.** field, enter the debit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.
-6. In the **Credit Acc. No.** field, enter the credit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.
+1. Vyberte řádek pro příchozí dokument a pak zvolte akci **Vytvořit doklad**.
+
+V [!INCLUDE[d365fin](includes/d365fin_md.md)] bude vytvořena nákupní faktura na základě informací v elektronickém dokumentu dodavatele, který jste obdrželi od služby OCR. Informace budou vloženy do nové nákupní faktury na základě mapování, které jste definovali jako křížový odkaz nebo jako mapování textu na účet.
+
+Jakékoliv chyby ověřování, které se typicky týkají nesprávných nebo chybějících hlavních dat v [!INCLUDE[d365fin](includes/d365fin_md.md)], se zobrazí v záložce s náhledem **Chyby a varování**. Další informace naleznete v části [Vypořádání se s chybami při přijímání elektronických dokumentů](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
+
+### Mapování textu příchozího dokladu na účet určitého dodavatele
+U příchozích dokumentů typicky použijete **Mapovat text na účet** abyste definovali, že určitý text na faktuře dodavatele je přijatý ze služby OCR a je mapován na určitý účet dodavatele. Jakákoliv část popisu příchozího dokumentu, která existuje jako mapovací text, znamená, že pole **Číslo** na výsledných dokumentech nebo řádcích finančního deníku je vyplněno dotyčným prodejcem.
+
+Kromě mapování na účet prodejce nebo na finanční účet můžete také mapovat na bankovní účet. To je praktické například u elektronických dokladů o výdajích, které jsou již zaplaceny, vytvořeny na řádcích finančního deníku a připraveny k zaúčtování na bankovní účet.
+
+1. Vyberte příslušný řádek příchozích dokumentů a poté vyberte akci **Mapování textu na účet**. Otevře se stránka **Textové mapování účtů**.
+3. Na poli **Text mapování**, zadejte jakýkoli text, který se objeví na dodavatelských fakturách, pro které chcete vytvořit nákupní dokumenty nebo řádky deníku. Můžete zadat až 50 znaků.
+4. Na poli **Číslo dodavatele**, zadejte dodavatele, pro který bude výsledný nákupní dokument nebo řádek deníku vytvořen.
+5. V poli **Č. účtu  MD**, zadejte účet debetního typu hlavní knihy, který bude vložen do výsledného dokladu o nákupu nebo do řádku deníku typu účet hlavní knihy.
+6. V poli **Č. účtu  Dal**, zadejte účet debetního typu hlavní knihy, který bude vložen do výsledného dokladu o nákupu nebo do řádku deníku typu účet hlavní knihy.
 
    > [!NOTE]
-   > Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are used for automatic payment reconciliation only. For more information, see [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+   > Nepoužívejte pole **Typ. zdroje protiúčtu** a pole **Číslo  zdroje protiúčtu** v souvislosti s příchozími dokumenty. Používají se pouze pro automatické odsouhlasení plateb. Další informace naleznete v [Namapovaný text o opakovaných platbách na účtech pro automatické odsouhlasení](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-7. Repeat steps 2 through 5 for all text on incoming documents that you want to automatically create documents for.
+7. Opakujte kroky 2 až 5 pro všechny texty, pro které chcete automaticky vytvářet dokumenty.
 
-## To handle errors when receiving electronic documents
-1. On the **Incoming Documents** page, select the line for an electronic document received from the OCR service with errors. This is indicated by the Error value in the **OCR Status** field.
-2. Choose the **Edit** action to open the **Incoming Document** page.
-3. On the **Errors and Warnings** FastTab, select the message, and then choose the **Open Related Record** action.
-4. The page that contains the wrong or missing data, such as a vendor card with a missing field value, opens.
-5. Correct the error or errors as described in each error message.
-6. Proceed to process the incoming electronic document by choosing the **Create Manually** action again.
-7. Repeat steps 5 and 6 for any remaining errors until the electronic document can be received successfully.
+## Řešení chyb při přijímání elektronických dokumentů
+1. Na stránce **Došlé doklady**, vyberte řádek elektronického dokumentu přijatého ze služby OCR s chybami. To je označeno hodnotou Chyba v poli **Stav OCR**.
+2. Zvolte akci **Upravit** a otevřete stránku **Došlý doklad**.
+3. Na záložce s náhledem **Chyby a varování**, vyberte zprávu a poté zvolte akci **Otevřít související záznamy**.
+4. Otevře se stránka, která obsahuje nesprávná nebo chybějící data, například kartu dodavatele s chybějící hodnotou pole.
+5. Opravte chybu nebo chyby popsané v každé chybové zprávě.
+6. Pokračujte ve zpracování příchozího elektronického dokumentu výběrem možnosti **Vytvořit ručně**.
+7. Opakujte kroky 5 a 6 pro všechny zbývající chyby, dokud nebude elektronický dokument úspěšně přijat.
 
-## To train the OCR service to avoid errors
-Because OCR is based on optical recognition, it is likely that the OCR service will interpret characters in your PDF or image files wrongly when it first processes documents from a certain vendor, for example. It may not interpret the company logo as the vendor’s name or it may misinterpret the total amount on an expense receipt because of its layout. To avoid such errors going forward, you can correct data received by the OCR service and then send the feedback to the service.
+## Zlepšení služby OCR, abyste předešli chybám
+Vzhledem k tomu, že OCR je založen na optickém rozpoznávání, je pravděpodobné, že služba OCR interpretuje znaky ve vašem souboru PDF nebo obrázkovém souboru nesprávně, když například nejprve zpracuje dokumenty konkrétního dodavatele. Nemusí správně interpretovat logo společnosti jako jméno prodejce nebo může nesprávně interpretovat celkovou částku na příjemce kvůli jejímu rozložení. Chcete-li zabránit takovým chybám, můžete opravit data přijatá službou OCR a poslat službě zpětnou vazbu.
 
-The **OCR Data Correction** page, which you open from the **Incoming Document** page, shows the fields from the **Financial Information** FastTab in two columns, one with the OCR data editable and one with the OCR data read-only. When you choose the **Send OCR Feedback** button, the content of the **OCR Data Correction** page is sent to the OCR service. Next time the service processes PDF or image files that contain the data in question, your corrections will be incorporated to avoid the same errors.
+Stránka **Opravy dat OCR**, kterou otevřete ze stránky **Příchozí dokument** zobrazuje pole ze záložky s náhledem **Finanční informace** ve dvou sloupcích, z nichž jedna může být upravitelná pomocí OCR a jedna pouze pro čtení. Pokud zvolíte tlačítko **Poslat zpětnou vazbu OCR** obsah stránky **Oprava dat OCR** je odeslán do služby OCR. Příště, vždy když služba zpracuje soubory PDF nebo obrázkové soubory, které obsahují dotyčná data, budou vaše opravy začleněny, aby se předešlo stejným chybám.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
-2. Open an incoming document record that contains data received from OCR service, which you want to correct.
-3. On the **Incoming Document** page, choose the **Correct OCR Data** action.
-4. On the **OCR Data Correction** page, overwrite the data in the editable column for each field that has an incorrect value.
-5. To undo corrections that you have made since you opened the **OCR Data Correction** page, choose the **Reset OCR Data** action.
-6. To send the corrections to the OCR service, choose the **Send OCR Feedback** action.
-7. To save the corrections, close the **OCR Data Correction** page.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Došlé doklady** a poté vyberte související odkaz.
+2. Otevřete záznam příchozího dokumentu, který obsahuje data přijatá službou OCR, které chcete opravit.
+3. Na stránce **Příchozí dokumenty**, zvolte akci **Opravit data OCR**.
+4. Na stránce **Oprava dat OCR**, přepište data v upravitelném sloupci pro každé pole, které má nesprávnou hodnotu.
+5. Zrušte opravy, které jste provedli od otevření stránky **Oprava dat OCR**, a zvolte akci **Resetovat data OCR**.
+6. Chcete-li opravy odeslat do služby OCR, zvolte akci **Odeslat zpětnou vazbu OCR**.
+7. Chcete-li uložit opravy, zavřete stránku **Oprava dat OCR**.
 
-The fields on the **Financial Information** FastTab on the **Incoming Document** page are updated with any new values that you entered in step 4.
+Pole záložky s náhledem **Finanční informace** na stránce **Příchozí dokumenty** jsou aktualizovány novými hodnotami, které jste zadali v kroku 4.
 
 ## Viz také
 [Zpracování došlých dokladů](across-process-income-documents.md)  
