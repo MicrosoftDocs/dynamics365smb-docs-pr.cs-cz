@@ -1,7 +1,7 @@
 ---
 title: Seznamte se s Microsoft Dynamics 365 Business Central
 description: Další informace o možnostech a pracovních scénářích v Business Central, řešení podnikového řízení pro malé a střední společnosti.
-author: ZdenekBicek
+author: v-pejano
 
 ms.service: dynamics365-business-central
 ms.topic: landing-page
@@ -25,6 +25,8 @@ ms.author: sgroespe
 |**Obsah pro vývojáře a IT**|-   [Nápověda pro vývojáře a IT pro [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Vývoj v AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL vývojové prostředí](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Pravidla a pokyny pro AL kód](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|
 |**Zdroje komunity**|-   [Microsoft Dynamics 365 Business Komunitní centrum](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central na blogu Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365 plány vydání](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Plán aplikace Microsoft Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(vyžaduje účet PartnerSource\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(vyžaduje členství v Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|
 
+## Související školení na [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+
 ## Viz také
 
 [Přizpůsobení [!INCLUDE[d365fin](includes/d365fin_md.md)] pomocí rozšíření](ui-extensions.md)  
@@ -37,6 +39,5 @@ ms.author: sgroespe
 [Katalog vzdělávání Business Central](readiness/readiness-learning-catalog.md)  
 [Dynamics 365 Business Central na Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
