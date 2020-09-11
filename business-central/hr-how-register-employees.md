@@ -15,7 +15,7 @@ ms.date: 10/01/2019
 ms.author: SorenGP
 
 ---
-#  Evidence zaměstnanců
+# Evidence zaměstnanců
 Chcete-li používat funkci správy lidských zdrojů, musíte nejprve zaregistrovat každého zaměstnance vytvořením karty se všemi základními a souvisejícími informacemi.
 
 Podrobnosti o zaměstnanci můžete kdykoli upravit. Udržování aktuálních záznamů o vašich zaměstnancích zjednodušuje personální úkoly. Pokud se například změní adresa zaměstnance, zaregistrujete ji na kartě zaměstnance.
@@ -41,7 +41,7 @@ Pokud máte obrázek zaměstnance ve formátu .bmp, můžete jej vložit na kart
 
 Obrázek je vložen do okna s fakty **Obrázek zaměstnance**.
 
-## Chcete-li zaregistrovat různé informace o zaměstnanci
+## Registrace různých informací o zaměstnanci
 Na kartě zaměstnance můžete nastavit informace, jako je členství v odborech, příbuzní a smlouvy pro zaměstnance. Následující text popisuje, jak nastavit alternativní adresu. Kroky jsou podobné pro všechny ostatní informace, které lze na kartě zaměstnance nastavit.
 
 Pomocí alternativních adres můžete sledovat polohu svých zaměstnanců, pokud jsou například v zahraničí, na dlouhé služební cestě nebo pobývají v letní rezidenci.
