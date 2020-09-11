@@ -284,7 +284,7 @@
 
 ### [Lidské zdroje](warehouse-setup-warehouse.md)
 
-### [Podrobnosti návrhu:](design-details-warehouse-overview.md)[ ](design-details-warehouse-overview.md)[Přehled skladu](design-details-warehouse-overview.md)
+### [Podrobnosti návrhu: Přehled skladu](design-details-warehouse-overview.md)
 
 ### [Nastavení typů přihrádek](warehouse-how-to-set-up-bin-types.md)
 
@@ -374,13 +374,13 @@
 
 #### [Lidské zdroje](setup-best-practices-supply-planning.md)
 
-#### [Doporučené postupy nastavení:](setup-best-practices-planning-parameters.md)[ ](setup-best-practices-planning-parameters.md)[Parametry plánování](setup-best-practices-planning-parameters.md)
+#### [Doporučené postupy nastavení: Parametry plánování](setup-best-practices-planning-parameters.md)
 
-#### [Doporučené postupy nastavení:](setup-best-practices-global-planning-setup.md)[ ](setup-best-practices-global-planning-setup.md)[Nastavení globálního plánování](setup-best-practices-global-planning-setup.md)
+#### [Doporučené postupy nastavení: Nastavení globálního plánování](setup-best-practices-global-planning-setup.md)
 
-#### [Doporučené postupy nastavení:](setup-best-practices-reordering-policies.md)[ ](setup-best-practices-reordering-policies.md)[Způsoby přiobjednání](setup-best-practices-reordering-policies.md)
+#### [Doporučené postupy nastavení: Způsoby přiobjednání](setup-best-practices-reordering-policies.md)
 
-### [Doporučené postupy nastavení:](setup-best-practices-costing-method.md)[ ](setup-best-practices-costing-method.md)[Metody ocenění](setup-best-practices-costing-method.md)
+### [Doporučené postupy nastavení: Metody ocenění](setup-best-practices-costing-method.md)
 
 ## Založení společnosti pomocí služeb RapidStart
 
@@ -416,7 +416,7 @@
 
 ### [Vytvoření vlastních konfiguračních balíčků společnosti](admin-how-to-create-custom-company-configuration-packages.md)
 
-### [Tipy a triky:](admin-tips-and-tricks-rapidstart-services.md)[ ](admin-tips-and-tricks-rapidstart-services.md)[Služby RapidStart](admin-tips-and-tricks-rapidstart-services.md)
+### [Tipy a triky: Služby RapidStart](admin-tips-and-tricks-rapidstart-services.md)
 
 ## Používání aplikace Outlook s aplikací Business Central
 
@@ -536,9 +536,9 @@
 
 #### [Export a import workflow](across-how-to-export-and-import-workflows.md)
 
-#### [Návod:](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)[ ](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)[Nastavení a použití workflow schvalování nákupů](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Návod: Nastavení a použití workflow schvalování nákupů](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 
-#### [Návod:](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)[ ](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)[Implementace nových událostí a odezev workflow](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
+#### [Návod: Implementace nových událostí a odezev workflow](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
 
 ### Použití workflow
 
@@ -880,7 +880,7 @@
 
 ### [O výpočtu standardních nákladů](finance-about-calculating-standard-cost.md)
 
-### [Podrobnosti návrhu:](design-details-inventory-costing.md)[ ](design-details-inventory-costing.md)[Ocenění zásob](design-details-inventory-costing.md)
+### [Podrobnosti návrhu: Ocenění zásob](design-details-inventory-costing.md)
 
 ### [Práce s obdobím zásob](finance-how-to-work-with-inventory-periods.md)
 
@@ -968,7 +968,7 @@
 
 ## [Analýza peněžních toků ve vaší společnosti](finance-analyze-cash-flow.md)
 
-## [Návod:](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)[ ](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)[Tvorba prognóz cashflow pomocí účetních schémat](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+## [Návod: Tvorba prognóz cashflow pomocí účetních schémat](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ## [Analýza finančních výkazů v aplikaci Excel](finance-analyze-excel.md)
 
