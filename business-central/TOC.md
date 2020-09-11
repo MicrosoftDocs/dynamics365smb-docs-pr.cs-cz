@@ -1305,7 +1305,7 @@
 #### [Daňové registry](LocalFunctionality/Russia/Tax-Registers.md)
 #### [Jak na: Vytvoření daňových registrů ](LocalFunctionality/Russia/How-to-Create-Tax-Registers.md)
 #### [Jak na: Vytvoření oddílů daňového registru](LocalFunctionality/Russia/How-to-Set-Up-Tax-Register-Sections.md) #### [Daňové rozdíly](LocalFunctionality/Russia/Tax-Differences.md)
-#### [Daňové rozdíly](LocalFunctionality/Russia/Tax-Differences.md)  
+#### [Tax Differences](LocalFunctionality/Russia/Tax-Differences.md)  
 #### [Zúčtování plateb za osobní daně z příjmu](LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md)
 #### [Nahrání KLADR](LocalFunctionality/Russia/Upload-KLADR.md)
 #### [Statutární sestavy](LocalFunctionality/Russia/Statutory-Reports.md)
@@ -1465,7 +1465,7 @@
 ### Obecné
 #### [Jak spravovat úvěrové informace zákazníka](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)
 #### [Tisk sestav - Poradce při potížích](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
-## [Odesílání regulačních upozornění](submit-regulatory-alerts.md)
+## [Odesílání regulačních výstrah](submit-regulatory-alerts.md)
 # Dodržování předpisů
 ## [Přehled](compliance/compliance-overview.md)
 ## [Dodržování předpisů - aplikace](compliance/compliance-application-compliance.md)
