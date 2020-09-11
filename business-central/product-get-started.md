@@ -1,15 +1,13 @@
 ---
 title: Začínáme | Microsoft Docs
-description: 'Zjistěte více o možnostech a pracovních scénářích v Business Central, řešení podnikového řízení pro malé a střední organizace.'
-author: ZdenekBicek
+description: Zjistěte více o možnostech a pracovních scénářích v Business Central, řešení podnikového řízení pro malé a střední organizace.
+author: v-pejano
+
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 01/06/2020
-ms.reviewer: v-zdbice
+ms.reviewer: v-pejano
 ms.author: edupont
 ---
 # Začínáme s [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -78,6 +76,8 @@ Pokaždé, když se během zkušebního období přihlásíte, oznámení v modr
 
 Přejděte na obsah dalších aplikací Dynamics 365 výběrem odkazu [Dynamics 365](https://docs.microsoft.com/dynamics365) na modrém proužku v horní části této stránky. Více se toho  můžete dozvědět na webové stránce [Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
+## Související školení na [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
+
 ## Viz také
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Nastavení [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
@@ -92,5 +92,3 @@ Přejděte na obsah dalších aplikací Dynamics 365 výběrem odkazu [Dynamics 
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-
-## [!INCLUDE[d365fin](includes/training_link_md.md)] 
