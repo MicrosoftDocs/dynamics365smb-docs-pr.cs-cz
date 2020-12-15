@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Zápočty (Extension)
+# Zápočty (rozšíření)
 
 Funkcionalita Zápočty pomáhá společnostem vzájemně započítávat pohledávky a závazky. Vzájemné zápočty se používají v případě, kdy zákazník společnosti je zároveň jejím dodavatelem.
 
