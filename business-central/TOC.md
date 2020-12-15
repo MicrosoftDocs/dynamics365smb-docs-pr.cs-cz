@@ -929,13 +929,13 @@
 #### Závazky a pohledávky
 ##### [Závazky a pohledávky](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Zápočty pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-compensation-localization-cz.md)
+##### [Zápočty pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Zásoby
 ##### [Zásoby](LocalFunctionality/Czech/inventory.md)
 #### Obecné
 ##### [Rozšířená uživatelská kontrola](LocalFunctionality/Czech/general.md)
 ##### [Osvědčené postupy](LocalFunctionality/Czech/best-practices.md)
-##### [Core Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+##### [Základní lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Dánsko
 #### [Lokální funkcionalita v dánské verzi](LocalFunctionality/Denmark/denmark-local-functionality.md)
