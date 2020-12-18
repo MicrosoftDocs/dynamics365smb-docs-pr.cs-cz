@@ -18,9 +18,9 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
 ## Dostupnost funkcí
 
 * Finance
-  * Account Schedule feature **2021 release wave 1**
+  * Account Schedule feature **Červenec 2021**
   * Accounting Output Documents **Nyní k dispozici**
-  * Corrections Posting (red storno) **Nyní k dispozici**
+  * Corrections Posting (red storno) **Leden 2021**
   * [Úprava směnných kurzů](how-to-update-exchange-rate.md) **Nyní k dispozici**
   * Internal Financial Documents **Nyní k dispozici**
   * Intrastat Engine Setup **2021 release wave 1**
@@ -45,7 +45,7 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
   * [VIES - CZ Export](how-to-use-vies-cz-export.md) **Nyní k dispozici**
 
 * Bankovnictví a platby
-  * [Elektronická evidence tržeb (EET)](eet.md) **Nyní k dispozici**
+  * [Elektronická evidence tržeb (EET)](eet.md) **Leden 2021**
   * Local Banking Feature - symbols and payments **Nyní k dispozici**
 
 * Závazky a pohledávky
@@ -74,4 +74,4 @@ Inventory Operations Document
 ## Viz také  
 
 [Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](finance.md)
