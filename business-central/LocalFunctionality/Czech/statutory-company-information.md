@@ -4,9 +4,9 @@ description: This feature allows users to define company officials and designate
 author: v-makune
 
 ms-service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 10/01/2020
+ms.date: 12/01/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
