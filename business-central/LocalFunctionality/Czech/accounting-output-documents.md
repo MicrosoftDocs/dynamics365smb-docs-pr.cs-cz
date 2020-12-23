@@ -33,6 +33,6 @@ Pro splnění nároků na výstupy odpovídající legislativním požadavkům a
 
 ## Viz Také
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)
+[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
 [České lokální funkcionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  
