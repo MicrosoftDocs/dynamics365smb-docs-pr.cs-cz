@@ -22,4 +22,4 @@ Pro jednu z nejvíce používaných oblastí aplikace pro analýzu a reporting v
 ## Viz Také
 
 [České lokální funkcionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  
