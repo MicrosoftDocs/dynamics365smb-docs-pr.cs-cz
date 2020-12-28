@@ -1,12 +1,12 @@
 ---
-title: VAT Control Report | Microsoft Docs
+title: VAT Control Report
 description: Czech companies registered for VAT in the Czech Republic (with assigned CZ VAT ID number) have the obligation to submit the VAT Control Report.
 author: v-pejano
 
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, local, Finance, VAT, Control Report
-ms.date: 12/30/2019
+ms.date: 12/01/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -21,7 +21,8 @@ Funkcionalita [!INCLUDE[d365fin](../../includes/d365fin_md.md)] byla rozšířen
 - Možnost exportu hlášení - funkce **Export** exportuje hlášení do souboru.
 - Uzavření řádků - funkčnost **Uzavření řádků**  vyplní pole **Uzavřeno dokladem číslo** v řádcích kontrolního hlášení.
 
-## Viz také  
+## Viz také
 
+[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
 [Česká lokální funkcionalita](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  
