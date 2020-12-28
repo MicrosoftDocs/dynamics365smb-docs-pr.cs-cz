@@ -60,7 +60,7 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
   - [Export hlášení Intrastat do formátu CSV](intrastat.md) **2021 release wave 1**
 
 - **Zásoby**
-  - [Odsouhlasení zásob proti účetnictví](how-to-use-reconciliation-enhancements.md) **2021 release wave 1**
+  - [Odsouhlasení zásob proti účetnictví](how-to-use-inventory-gl-reconciliation-enhancements.md) **2021 release wave 1**
   - [Rozšíření přípravy fyzické inventury](advanced-features-physical-inventory.md) **Nyní k dispozici**
   - [Skladové účetní doklady](how-to-use-inventory-operations-document.md) **Nyní k dispozici**
   - [Doklady fyzické inventury](inventory-counting-document.md) **Nyní k dispozici**
