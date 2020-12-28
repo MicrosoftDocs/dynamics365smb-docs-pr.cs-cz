@@ -38,7 +38,7 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
   - [Směnný kurz pro DPH](how-to-setup-vat-exchange-rate.md) **Nyní k dispozici**
   - [Režim přenesení daňové povinnosti](how-to-setup-and-post-reverse-charge.md) **Nyní k dispozici**
   - [Kontrolní hlášení DPH](how-to-create-vat-control-report.md) **Nyní k dispozici**
-  - [Sestavy DPH](czech-vat-reports.md) **Nyní k dispozici**
+  - [Sestavy DPH](vat-reports-cz.md) **Nyní k dispozici**
   - [Korekce DPH v lokální měně](how-to-setup-vat-correction-local-currency.md) **2021 release wave 1**
 
 - **Bankovnictví a platby**
