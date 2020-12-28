@@ -1,6 +1,6 @@
 ---
 title: Compensations Localization for Czech (Extension) 
-description: The application provides functionality that allows customers to set off receivables and payables in Business Central for the Czech Republic.
+description: The application provides functionality for offsetting receivables and payables in Business Central for the Czech Republic.
 author: v-pejano
 
 ms.service: dynamics365-business-central
@@ -13,7 +13,9 @@ ms.author: v-pejano
 
 # Zápočty (rozšíření)
 
-Funkcionalita Zápočty pomáhá společnostem vzájemně započítávat pohledávky a závazky. Vzájemné zápočty se používají v případě, kdy zákazník společnosti je zároveň jejím dodavatelem.
+Funkcionalita Zápočty pomáhá společnostem vzájemně započítávat pohledávky a závazky. Vzájemné zápočty se používají v případě, kdy zákazník společnosti je zároveň jejím dodavatelem.  
+Položky k započítání lze vkládat ručně nebo automaticky z Karty zápočtu funkcí Navrhni řádky zápočtu.  Dále jsou k dispozici funkce pro označení položek k započítání a přepočtení salda.  
+K dispozici je pak i tisk Dohody o vzájemném zápočtu pohledávek a závazků dle České legislativy.  
 
 ## Hlavní funkcionality Zápočtů
 
@@ -21,14 +23,10 @@ Funkcionalita Zápočty pomáhá společnostem vzájemně započítávat pohled�
 - **Nastavení zápočtů** – Číselná řada, Protiúčet zápočtu, atd.,
 - **Karta zápočtu** – řádky k započtení,  
 - Funkce – **Navrhni řádky zápočtu**, Vydání,
-- **Dohoda o vzájemném zápočtu pohledávek a závazků**,
+- Tisk dokumentu **Dohoda o vzájemném zápočtu pohledávek a závazků**,
 - **Účtování zápočtu** – je vytvořen Účtovaný zápočet a provedeno vyrovnání položek.
 
-Položky k započítání lze vkládat ručně nebo automaticky z Karty zápočtu funkcí Navrhni řádky zápočtu.  Dále jsou k dispozici funkce pro označení položek k započítání a přepočtení salda.
-
-K dispozici je pak i tisk Dohody o vzájemném zápočtu pohledávek a závazků dle České legislativy.
-
-## See Also
+## Viz také
 
 [České lokální funkcionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  
