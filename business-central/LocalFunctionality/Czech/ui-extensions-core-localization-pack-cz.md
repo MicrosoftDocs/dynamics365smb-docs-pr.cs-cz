@@ -70,7 +70,7 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
   - [Skupiny finančních účtů – více okruhové účetnictví](how-to-use-multi-circuit-accounting.md) **Nyní k dispozici**
   - [Kontrola změn účto skupin – pro zákazníka, dodavatele, zboží a bankovní účet](check-of-posting-group-changing.md) **Nyní k dispozici**
   - [Kontrola výdejů v zásobách – časová posloupnost](check-output-inventory-time-sequence.md) **2021 release wave 1**
-  - [Šablony pohybů zásob](warehouse-net-change-templates.md) **Nyní k dispozici**
+  - [Šablony pohybů zásob](inventory-movement-templates.md) **Nyní k dispozici**
   - [Šablony skladových jednotek](stockkeeping-unit-templates.md) **Nyní k dispozici**
 
 ## Viz také  
