@@ -13,7 +13,9 @@ ms.author: v-pejano
 
 # Kontrolní hlášení DPH
 
-Funkcionalita [!INCLUDE[d365fin](../../includes/d365fin_md.md)] byla rozšířena o **Kontrolní hlášení DPH**. Základním formulářem je **Karta kontrolní hlášení DPH**. Položky DPH jsou pro zvolené datum DPH a datum zaúčtování (podle nastavení hlavní knihy) načítány do formuláře podle zvoleného období.  Základní nastavení, tj. rozdělení kombinací DPH účto skupin do jednotlivých sekcí kontrolní sestavy, je stanoveno ve výkazu DPH. Ke zpracování kontrolního hlášení je nutné nastavit sekce kontrolního hlášení DPH, čísla sazebníku, výkaz DPH, nastavení  stat. vykazování a rozšířené nastavení účtování DPH.
+Funkcionalita [!INCLUDE[d365fin](../../includes/d365fin_md.md)] byla rozšířena o **Kontrolní hlášení DPH**. Základním formulářem je **Karta kontrolní hlášení DPH**. Položky DPH jsou pro zvolené datum DPH a datum zaúčtování (podle nastavení hlavní knihy) načítány do formuláře podle zvoleného období.  Základní nastavení, tj. rozdělení kombinací DPH účto skupin do jednotlivých sekcí kontrolní sestavy, je stanoveno ve výkazu DPH.
+
+Ke zpracování kontrolního hlášení je nutné nastavit sekce kontrolního hlášení DPH, čísla sazebníku, výkaz DPH, nastavení  stat. vykazování a rozšířené nastavení účtování DPH.
 
 ## Klíčové funkcionality
 
