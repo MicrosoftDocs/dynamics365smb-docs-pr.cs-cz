@@ -1,12 +1,12 @@
 ---
-title: Czech Local Functionality - Year closing operations| Microsoft Docs
+title: Czech Local Functionality - Year closing operations
 description: This section describes local functionality Year closing operations
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, finance, CZ, closing operations
-ms.date: 12/30/2019
+ms.date: 12/01/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -26,5 +26,6 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 
 ## Viz také  
 
+[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
 [Česká lokální funkcionalita](czech-local-functionality.md)  
-[Finance](finance.md)
+[Finance](finance.md)  
