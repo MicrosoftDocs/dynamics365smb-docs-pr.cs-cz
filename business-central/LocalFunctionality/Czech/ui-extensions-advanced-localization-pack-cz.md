@@ -31,7 +31,7 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
   - [Default Business Posting Group in Assembly Orders](how-to-setup-default-bus-post-group-assembly-orders.md) **Nyní k dispozici**
   - [Automatic creation and update of dimensions](how-to-automatic-creation-and-update-dimensions.md) **Červenec 2021**
   - [Additional fields on item ledger entries and value entries](how-to-use-add-fields-item-entries.md) **Nyní k dispozici**
-  - [Gen.Prod.Posting Group from SKU](x.md) **Nyní k dispozici**
+  - [Gen.Prod.Posting Group from SKU](how-to-setup-gen-prod-posting-group-from-sku.md) **Nyní k dispozici**
   - [Skip Update SKU on Posting](how-to-setup-skip-update-sku-on-posting.md) **Nyní k dispozici**
   - [Nonstock Item Numbering](how-to-setup-nonstock-item-numbering.md) **Nyní k dispozici**
 
