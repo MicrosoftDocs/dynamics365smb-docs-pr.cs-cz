@@ -15,20 +15,20 @@
 ---
 # Vyskladnění zboží
 
-Aktivita skladu vyskladnění zboží před jeho dodáním nebo spotřebou se provádí různými způsoby v závislosti na konfiguraci funkcí správy skladu. Složitost se může řadit od žádných funkcí skladu, přes základní konfigurace skladu pro zpracování podle objednávek pouze v jedné nebo více aktivitách, až po pokročilé konfigurace, kde musí být všechny aktivity skladu prováděny v řízeném pracovním postupu. Pro více informací navštivte [Nastavení správy skladu](warehouse-setup-warehouse.md).
+Aktivita skladu vyskladnění zboží před jeho dodáním nebo spotřebou se provádí různými způsoby v závislosti na konfiguraci funkcí správy skladu. Složitost se může řadit od žádných funkcí skladu, přes základní konfigurace skladu pro zpracování podle objednávek pouze v jedné nebo více aktivitách, až po pokročilé konfigurace, kde musí být všechny aktivity skladu prováděny v řízeném workflow. Pro více informací navštivte [Nastavení správy skladu](warehouse-setup-warehouse.md).
 
-Pokud se rozhodnete uspořádat a zaznamenat svou aktivitu vyskladnění pomocí dokladů skladu, zaškrtnete políčko **Vyžadovat vyskladnění** na kartě kolace. To naznačuje, že když máte pzboží, které je třeba vyskladnit pro odchozí zdrojový doklad, chcete, aby vyskladnění tohoto zboží bylo řízené systémem. Výstupním ¨původním dokladem může být prodejní objednávka, objednávka nákupní vratky, výstupní objednávka transferu, servisní zakázka nebo výrobní zakázka, jejíž komponenty by měly být vyskladněny.
+Pokud se rozhodnete uspořádat a zaznamenat svou aktivitu vyskladnění pomocí dokladů skladu, zaškrtnete políčko **Vyžadovat vyskladnění** na kartě lokace. To naznačuje, že když máte zboží, které je třeba vyskladnit pro odchozí zdrojový doklad, chcete, aby vyskladnění tohoto zboží bylo řízené systémem. Výstupním původním dokladem může být prodejní objednávka, objednávka nákupní vratky, výstupní objednávka transferu, servisní zakázka nebo výrobní zakázka, jejíž komponenty by měly být vyskladněny.
 
 > [!NOTE]
 > I když se toto nastavení nazývá **Vyžadovat vyskladnění**, stále můžete odesílat zásilky přímo z původního obchodního dokladu na místo, kde toto políčko zaškrtnete.
 
 Pokud je vaša lokace nastavena tak, aby vyžadovala zpracování vyskladnění, ale nikoli zpracování zásilky, můžete pomocí stránky **Vyskladnění zásob** uspořádat informace o vyskladnění, vytisknout informace o vyskladnění, zadat výsledek vyskladnění a odeslat informace o vyskladnění, pomocí kterých následně zaúčtujete zásilku zboží. V případě vyskladnění komponent pro výrobní zakázku zaúčtování vyskladnění také zaúčtuje spotřebu.
 
-Pokud je vaše lokace nastavena tak, aby vyžadovala zpracování vyskladnění i dodávky, takže jste na kartě lokace zaškrtli pole **Vyžadovat vyskladnění** a **Vyžadovat dodání**, ke zpracování vyskladnění použijete stránku **Vyskladnění**. Vyskladnění funguje podobně jako vyskladnění zásob, kromě toho, že místo zaúčtování informací o vyskladnění vyskladnění zaregistrujete. Tento proces registrace nezaúčtuje dodávku, ale pouze zpřístupní zboží k dodávce. Jako správce skladu můžete pomocí pracovních listů pro výběr uspořádat informace o vyskladnění před vytvořením jednotlivých pokynů pro vyskladnění skladu.
+Pokud je vaše lokace nastavena tak, aby vyžadovala zpracování vyskladnění i dodávky, takže jste na kartě lokace zaškrtli pole **Vyžadovat vyskladnění** a **Vyžadovat dodání**, ke zpracování vyskladnění použijete stránku **Vyskladnění**. Vyskladnění funguje podobně jako vyskladnění zásob, kromě toho, že místo zaúčtování informací o vyskladnění vyskladnění i zaregistrujete. Tento proces registrace nezaúčtuje dodávku, ale pouze zpřístupní zboží k dodávce. Jako správce skladu můžete pomocí pracovních listů pro výběr uspořádat informace o vyskladnění před vytvořením jednotlivých pokynů pro vyskladnění skladu.
 
 Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.
 
-| **Viz ** | **také** |
+| **Viz** | **také** |
 |------------|-------------|  
 | Zaúčtovat dodávku zboží přímo do výstupního dokladu objednávky, protože neexistují žádné prvky skladu. (Totéž platí pro prodejní objednávky, výstupní objednávky transferu a dodávky vratky.) | [Dodání zboží](warehouse-how-ship-items.md) |
 | Vyberte zboží po objednávkách a zaúčtujte zásilku ve stejné aktivitě, v základní konfiguraci skladu. | [Vyskladnění zboží pomocí Vyskladnění zásob](warehouse-how-to-pick-items-with-inventory-picks.md) |

@@ -26,9 +26,9 @@ Přesunutí zboží do jiných lokací ovlivní položky zboží, a proto musí 
 
 Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.
 
-| **Viz ** | **také** |
+| **Viz** | **také** |
 |------------|-------------|  
-| Move items between bins in basic warehouse configurations at any time and without source documents. | [Přesun zboží v základních konfiguracích skladu](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) |
+| Přesouvaní zboží mezi přihrádkami v základních konfiguracích skladu kdykoli a bez původních dokladů. | [Přesun zboží v základních konfiguracích skladu](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) |
 | Sešit přesunu skladu se používá k přesunu zboží v pokročilých konfiguracích skladu, a to jak pro původní doklady, tak pro Ad Hoc. | [Přesun zboží v pokročilých konfiguracích skladu](warehouse-how-to-move-items-in-advanced-warehousing.md) |
 | Přineste komponenty zboží do interních operací v základních konfiguracích skladu, jak je požadováno původním dokladem pro tyto operace. | [Přesuňte komponenty do provozní oblasti v základních konfiguracích skladu](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md) |
 | Naplánujte, které přihrádky se mají naplnit nebo vyprázdnit, aby se zachoval efektivní tok, například vyprázdnění velkokapacitního skladovacího prostoru před velkým příjmem. | [Naplánujte pohyby skladu v sešitech](warehouse-how-to-plan-warehouse-movements-in-worksheets.md) |
