@@ -936,7 +936,7 @@
 ##### [Rozšířená uživatelská kontrola](LocalFunctionality/Czech/general.md)
 ##### [Osvědčené postupy](LocalFunctionality/Czech/best-practices.md)
 ##### [Základní lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
-#### [Rozšířený lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
+##### [Rozšířený lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 
 ### Dánsko
 #### [Lokální funkcionalita v dánské verzi](LocalFunctionality/Denmark/denmark-local-functionality.md)
