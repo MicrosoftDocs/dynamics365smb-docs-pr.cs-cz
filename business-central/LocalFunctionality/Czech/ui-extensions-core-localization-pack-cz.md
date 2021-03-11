@@ -42,7 +42,7 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
   - [Korekce DPH v lokální měně](how-to-setup-vat-correction-local-currency.md) **2021 release wave 1**
 
 - **Bankovnictví a platby**
-  - [Elektronická evidence tržeb (EET)](eet.md) **Únor 2021**
+  - [Elektronická evidence tržeb (EET)](eet.md) **Nyní k dispozici**
   - Tuzemské bankovnictví - symboly a platby  **2021 release wave 1**
 
 - **Závazky a pohledávky**

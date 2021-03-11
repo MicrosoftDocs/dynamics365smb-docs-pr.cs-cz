@@ -18,8 +18,8 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
 ## Dostupnost funkcí
 
 - **Finance**
-  - [WIP Extended Posting](wip-extended-posting.md) **Červenec 2021**
-  - [General Ledger Entries Application](general-ledger-entries-application.md) **Červen 2021**
+  - [Rozšířené účtování nedokončené výroby](wip-extended-posting.md) **Červenec 2021**
+  - [Vyrovnání věcných položek](general-ledger-entries-application.md) **Červen 2021**
 
 - **Inventory**
   - [Posting groups in transfer orders](how-to-use-posting-groups-in-transfer-orders.md) **2021 release wave 1**

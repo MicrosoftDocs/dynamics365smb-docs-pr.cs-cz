@@ -23,7 +23,7 @@ Funkcionalita pokladen a pokladních dokladů umožňuje definovat pokladní ú�
 - Příjmové a výdajové doklady a jejich účtování
 - Pokladní případy používané jako šablony obvyklých účetních případů
 - Vyrovnání plateb s položkami zákazníků a dodavatelů
-- Vyrovnání plateb se zálohovými fakturami **(2021 release wave 1)**
+- Vyrovnání plateb se zálohovými fakturami
 - Inventarizace pokladny
 - Výstupní doklady (Příjmový pokladní doklad, Výdajový pokladní doklad)
 - Sestavy (Pokladní kniha, Kniha pokladního účtu a Předání pokladny)
