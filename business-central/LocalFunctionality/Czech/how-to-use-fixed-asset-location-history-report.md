@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Sestavy umístění dlouhodobého majetku a Historie majetku
+# Sestavy umístění dlouhodobého majetku a historie majetku
 
 Tato funkce umožňuje rozšířené sledování změn v umístění dlouhodobého majetku včetně odpovědných osob.
 Přidáním této funkce mohou uživatelé ovládat historii polohy dlouhodobého majetku a historii odpovědných osob za dlouhodobý majetek.

@@ -17,14 +17,14 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
 
 ## Seznam hlavních funkcionalit
 
-- [Fixed Assets Tax Depreciation](how-to-use-tax-depreciation-for-fixed-assets.md) **2021 release wave 1**
-- [Calculation of depreciation basis in Fixed Assets](how-to-calculate-depreciation-basis.md) **2021 release wave 1**
-- [Fixed Assets Depreciation Holidays](how-to-depreciate-holidays-for-fixed-assets.md) **2021 release wave 1**
-- [Two steps Fixed Asset acquisition](how-to-use-two-steps-fixed-asset-acquisition.md) **2021 release wave 1**
-- [Fixed Asset Posting of Disposal](how-to-post-disposal-of-fixed-asset.md) **2021 release wave 1**
-- [Fixed Assets Clasification - Clasification codes](how-to-use-clasification-code-for-fixed-assets.md) **2021 release wave 1**
-- [Fixed Asset location/responsible history report](how-to-use-fixed-asset-location-history-report.md) **2021 release wave 1**
-- [Fixed Assets Reporting](how-to-use-fixed-assets-reporting.md) **2021 release wave 1**
+- [Daňové odpisy dlouhodobého majetku](how-to-use-tax-depreciation-for-fixed-assets.md) **2021 release wave 1**
+- [Výpočet odpisů dlouhodobého majetku](how-to-calculate-depreciation-basis.md) **2021 release wave 1**
+- [Přerušení odepisování](how-to-depreciate-holidays-for-fixed-assets.md) **2021 release wave 1**
+- [Dvou-krokové pořízení dlouhodobého majetku](how-to-use-two-steps-fixed-asset-acquisition.md) **2021 release wave 1**
+- [Účtování o vyřazení majetku](how-to-post-disposal-of-fixed-asset.md) **2021 release wave 1**
+- [Kódy klasifikace](how-to-use-clasification-code-for-fixed-assets.md) **2021 release wave 1**
+- [Sestavy umístění dlouhodobého majetku a historie majetku](how-to-use-fixed-asset-location-history-report.md) **2021 release wave 1**
+- [Sestavy dlouhodobého majetku](how-to-use-fixed-assets-reporting.md) **2021 release wave 1**
 
 ## Viz také
 
