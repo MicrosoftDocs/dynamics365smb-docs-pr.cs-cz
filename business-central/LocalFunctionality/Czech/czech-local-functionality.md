@@ -17,9 +17,10 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
 
 ## Dostupnost funkcí
 
+* [Základní lokalizační balíček pro Česko (rozšíření)](ui-extensions-core-localization-pack-cz.md) **Nyní k dispozici**
+* [Rozšířený lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md) **2021 release wave 1**
+
 * Obecné
-  * [Základní lokalizační balíček pro Česko (rozšíření)](ui-extensions-core-localization-pack-cz.md) **Nyní k dispozici**
-  * [Rozšířený lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md) **2021 release wave 1**
   * [Obecné](general.md) **Nyní k dispozici**
   * [Osvědčené postupy](best-practices.md) **Nyní k dispozici**
 
