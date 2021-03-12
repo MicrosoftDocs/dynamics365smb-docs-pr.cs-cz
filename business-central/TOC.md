@@ -910,6 +910,9 @@
 
 ### Česká republika
 #### [Lokální funkcionalita v české verzi](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Základní lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Rozšířený lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
+
 #### Základ financí  
 ##### [Finance](LocalFunctionality/Czech/finance.md)
 ##### [Uzávěrkové operace](LocalFunctionality/Czech/year-close-operations.md)
@@ -920,6 +923,7 @@
 ##### [Kontrolní hlášení DPH](LocalFunctionality/Czech/vat-control-report.md)
 #### Dlouhodobý majetek
 ##### [Dlouhodobý majetek](LocalFunctionality/Czech/fixed-assets.md)
+##### [Dlouhodobý majetek pro Česko (rozšíření)](ui-extensions-fixed-asset-localization-cz.md)
 #### Bankovnictví a platby
 ##### [Bankovnictví](LocalFunctionality/Czech/bank-feature.md)
 ##### [Správa pokladen](LocalFunctionality/Czech/cash-desk-management.md)
@@ -935,8 +939,6 @@
 #### Obecné
 ##### [Rozšířená uživatelská kontrola](LocalFunctionality/Czech/general.md)
 ##### [Osvědčené postupy](LocalFunctionality/Czech/best-practices.md)
-##### [Základní lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
-##### [Rozšířený lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 
 ### Dánsko
 #### [Lokální funkcionalita v dánské verzi](LocalFunctionality/Denmark/denmark-local-functionality.md)
