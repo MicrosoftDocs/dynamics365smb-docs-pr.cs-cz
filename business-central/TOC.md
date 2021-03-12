@@ -923,7 +923,7 @@
 ##### [Kontrolní hlášení DPH](LocalFunctionality/Czech/vat-control-report.md)
 #### Dlouhodobý majetek
 ##### [Dlouhodobý majetek](LocalFunctionality/Czech/fixed-assets.md)
-##### [Dlouhodobý majetek pro Česko (rozšíření)](ui-extensions-fixed-asset-localization-cz.md)
+##### [Dlouhodobý majetek pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankovnictví a platby
 ##### [Bankovnictví](LocalFunctionality/Czech/bank-feature.md)
 ##### [Správa pokladen](LocalFunctionality/Czech/cash-desk-management.md)
