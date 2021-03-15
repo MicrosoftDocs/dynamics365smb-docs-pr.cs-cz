@@ -19,4 +19,4 @@ Byly provedeny změny ve výpočtu odpisované částky pomocí metody zrychlen�
 ## Viz Také
 
 [Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
+[Česká lokální funkcionalita](czech-local-functionality.md)  

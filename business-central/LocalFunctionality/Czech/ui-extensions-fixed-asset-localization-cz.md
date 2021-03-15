@@ -28,4 +28,4 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
 
 ## Viz také
 
-[České lokální funkcionality](czech-local-functionality.md)  
+[Česká lokální funkcionalita](czech-local-functionality.md)  

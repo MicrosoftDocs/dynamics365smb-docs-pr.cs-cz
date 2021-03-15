@@ -17,4 +17,4 @@ Pomocí této funkčnosti v Nastavení katalogu zboží lze změnit číslován�
 ## Viz Také
 
 [Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)
+[Česká lokální funkcionalita](czech-local-functionality.md)  

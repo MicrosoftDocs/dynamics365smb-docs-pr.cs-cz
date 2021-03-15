@@ -42,4 +42,4 @@ Při vytváření Objednávky transferu jsou nastavené účto skupiny automatic
 ## Viz Také
 
 [Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)
+[Česká lokální funkcionalita](czech-local-functionality.md)  

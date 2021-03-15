@@ -25,4 +25,4 @@ Uživatel může otevřít knihu odpisů DM a vyplnit pole **Přerušit odpisov�
 ## Viz Také
 
 [Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
+[Česká lokální funkcionalita](czech-local-functionality.md)  

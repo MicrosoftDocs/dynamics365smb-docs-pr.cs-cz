@@ -25,4 +25,4 @@ Tato nastavení jsou automaticky kopírována do řádku deníku zboží na zák
 ## Viz také
 
 [Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+[Česká lokální funkcionalita](czech-local-functionality.md)  

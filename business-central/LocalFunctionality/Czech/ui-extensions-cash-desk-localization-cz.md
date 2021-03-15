@@ -36,5 +36,5 @@ Z řádků pokladního dokladu lze spustit funkci Vyrovnat položky, která umo�
 
 ## Viz také
 
-[České lokální funkcionality](czech-local-functionality.md)  
+[Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](../../finance.md)
