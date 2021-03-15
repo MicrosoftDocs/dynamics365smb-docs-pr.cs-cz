@@ -21,5 +21,5 @@ V knize odpisů zaškrtněte políčko **Odpovídající věcné položky při v
 
 ## Viz Také
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)
-[Czech Local Functionality](czech-local-functionality.md)
+[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

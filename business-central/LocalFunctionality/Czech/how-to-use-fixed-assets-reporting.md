@@ -35,5 +35,5 @@ Pro Českou republiku byly upraveny následující standardní sestavy (nové so
 
 ## Viz Také
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)
-[Czech Local Functionality](czech-local-functionality.md)
+[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

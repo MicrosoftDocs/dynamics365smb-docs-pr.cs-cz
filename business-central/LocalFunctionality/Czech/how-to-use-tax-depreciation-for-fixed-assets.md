@@ -26,5 +26,5 @@ Každý dlouhodobý majetek je zařazen do určité odpisové skupiny. Tyto skup
 
 ## Viz Také
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)
-[Czech Local Functionality](czech-local-functionality.md)
+[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

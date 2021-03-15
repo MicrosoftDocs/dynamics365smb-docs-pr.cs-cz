@@ -20,5 +20,5 @@ Hodnota "Custom 2" je v Češtině přejmenovaná z "Vlastní 2" na "Pořízení
 
 ## Viz Také
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)
-[Czech Local Functionality](czech-local-functionality.md)
+[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
