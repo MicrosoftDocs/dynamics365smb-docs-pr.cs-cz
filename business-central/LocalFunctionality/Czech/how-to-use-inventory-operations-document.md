@@ -23,4 +23,4 @@ Z výše uvedených důvodů tato funkce poskytuje následující sestavy:
 ## Viz také
 
 [Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
+[Česká lokální funkcionalita](czech-local-functionality.md)  

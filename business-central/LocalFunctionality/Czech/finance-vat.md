@@ -104,4 +104,4 @@ Pro splnění nároků na tiskové výstupy odpovídající legislativním poža
 
 ## Viz také
 
-[Česká lokální funkcionalita](czech-local-functionality.md)
+[Česká lokální funkcionalita](czech-local-functionality.md)  

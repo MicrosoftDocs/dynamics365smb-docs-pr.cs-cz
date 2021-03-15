@@ -42,7 +42,7 @@ Kromě standardních způsobů vytváření zaskladnění skladů, které jsou p
    - První řádek s hodnotou **Vzít** v poli **Typ akce** označuje, kde je zboží umístěno v přijímací oblasti. Na tomto řádku nemůžete změnit zónu a pole přihrádky.
    - Další řádek s hodnotou **Vložit** v poli **Typ akce** ukazuje, kam je nutné umístit zboží do skladu. Pokud sklad obdržel velký počet zboží na jednom řádku příjemky, může se stát, že bude muset být zaskladněno v několika přihrádkách, takže pro každou přihrádku bude existovat řádek Vložit.
 
-      Pokud řádky Vzít a Vložit pro každý řádek příjemky na sebe bezprostředně nenasledují a chcete, aby to tak bylo, můžete řádky seřadit výběrem hodnoty **Zboží** v poli **Způsob třídění** na záložce **Obecné**.
+      Pokud řádky Vzít a Vložit pro každý řádek příjemky na sebe bezprostředně nenavazují a chcete, aby to tak bylo, můžete řádky seřadit výběrem hodnoty **Zboží** v poli **Způsob třídění** na záložce **Obecné**.
 
       Pokud fyzické rozložení skladu odráží pořadí přihrádek, můžete použít metodu třídění **Pořadí přihrádky** k přípravě kola zaskladnění, které minimalizuje vaše kroky ve skladu.
 
@@ -61,7 +61,7 @@ Pokud vaše lokace používá zpracování zaskladnění i zpracování příjmu
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Účtované příjemky  na sklad** a poté vyberte související odkaz.
 2. Vyberte zaúčtovanou příjemku, kterou bude pravděpodobně třeba zaskladnit.
-3. Vyberte akci **Carta**.
+3. Vyberte akci **Karta**.
 
    Pokud je pole **Stav dokladu** prázdné, příjemka nebyla vůbec zaskladněna. Jinak pole označuje, že účtenka je částečně nebo zcela zaskladněna.
 

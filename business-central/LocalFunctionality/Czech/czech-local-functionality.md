@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 12/01/2020
+ms.date: 03/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -17,8 +17,10 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
 
 ## Dostupnost funkcí
 
+* [Základní lokalizační balíček pro Česko (rozšíření)](ui-extensions-core-localization-pack-cz.md) **Nyní k dispozici**
+* [Rozšířený lokalizační balíček pro Česko (rozšíření)](ui-extensions-advanced-localization-pack-cz.md) **2021 release wave 1**
+
 * Obecné
-  * [Základní lokalizační balíček pro Česko (rozšíření)](ui-extensions-core-localization-pack-cz.md) **Nyní k dispozici**
   * [Obecné](general.md) **Nyní k dispozici**
   * [Osvědčené postupy](best-practices.md) **Nyní k dispozici**
 
@@ -34,6 +36,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
 
 * Dlouhodobý majetek
   * [Dlouhodobý majetek](fixed-assets.md) **Nyní k dispozici**
+  * [Dlouhodobý majetek pro Česko (rozšíření)](ui-extensions-fixed-asset-localization-cz.md) **2021 release wave 1**
 
 * Bankovnictví a platby
   * [Bankovnictví](bank-feature.md) **Nyní k dispozici**

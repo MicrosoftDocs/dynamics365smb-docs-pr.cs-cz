@@ -28,13 +28,13 @@ Tento návod ilustruje následující úkoly:
 - Zaúčtování NV do věcných položek.
 - Vratné účtování NV.
 
-Každý krok procesu vypočítá hodnotu a přesune transakce projektu do general ledger. Kroky výpočtu a zaúčtování jsou odděleny, aby vám pomohly zkontrolovat vaše data a provést úpravy před zaúčtováním do věcných položek. Proto byste se měli ujistit, že jsou všechny informace správné po spuštění dávkových úloh výpočtu a před spuštěním dávkových úloh účtování.
+Každý krok procesu vypočítá hodnotu a přesune transakce projektu do věcných položek. Kroky výpočtu a zaúčtování jsou odděleny, aby vám pomohly zkontrolovat vaše data a provést úpravy před zaúčtováním do věcných položek. Proto byste se měli ujistit, že jsou všechny informace správné po spuštění dávkových úloh výpočtu a před spuštěním dávkových úloh účtování.
 
 ## Role
 Tento návod používá jako osobu člena projektového týmu (Tricia).
 
 ## Předpoklady
-Než budete moci provést úkoly v tomto návodu, musí být ve vašem počítači nainstalována [!INCLUDE[prod_short](includes/prod_short.md)].
+Než budete moci provést úkoly v tomto návodu, musí být ve vašem počítači nainstalován [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Příběh
 Tento návod se zaměřuje na CRONUS International Ltd., projekční a poradenskou firmu, která navrhuje a upravuje nové infrastruktury, jako jsou konferenční sály a kanceláře s nábytkem, doplňky a skladovací jednotky. Většina práce v CRONUS je zaměřena na projekt a Tricia, členka projektového týmu, používá úlohy k získání přehledu o každém probíhajícím projektu, který CRONUS zahájil, a také o dokončených projektech. Některé z těchto prací mohou být velmi zdlouhavé a mohou trvat měsíce. Tricia může použít účet NV k zaznamenání nedokončené výroby a ke sledování nákladů v rámci projektu.
@@ -52,11 +52,11 @@ Následující tabulka popisuje tři možnosti.
 | **Celkem** | Definuje rozsah nebo skupinu úkolů, které jsou zahrnuty do výpočtu NV a deaktivace. Ve skupině bude jakýkoli úkol projektu s **Typ úlohy projektu** nastavený na **Účtování** zahrnut do Celkem NV, pokud není pole **Celkem NV** nastaveno na **Kromě**. |
 | **Kromě** | Platí pouze pro úkol s  **Typem úlohy projektu** **Účtování**. Úkol není zahrnut při výpočtu nedokončené výroby a deaktivaci. |
 
-V následujícím návodu Tricia použije metodu Value Hodnota nákladů, její firemní standard, k výpočtu nedokončené výroby. Určuje, která část projektu bude zahrnuta do výpočtu NV přiřazením hodnot Celkem NV různým řádkům projektu.
+V následujícím návodu Tricia použije metodu Hodnota nákladů, její firemní standard, k výpočtu nedokončené výroby. Určuje, která část projektu bude zahrnuta do výpočtu NV přiřazením hodnot Celkem NV různým řádkům projektu.
 
 ### Výpočet NV
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Projekty**a poté vyberte související odkaz.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Projekty** a poté vyberte související odkaz.
 2. V seznamu **Projekty** vyberte projekt **Domov** a poté vyberte akci **Upravit**. Tím se karta projektu otevře v režimu úprav.
 
    NV lze vypočítat na základě hodnoty nákladů, hodnoty prodeje, nákladů na prodej, procenta dokončení nebo dokončené smlouvy. V tomto příkladu používá CRONUS metodu Hodnota nákladů.
@@ -106,10 +106,10 @@ Po skončení účetního období musí Tricia přepočítat NV, aby do tohoto b
 > [!NOTE]  
 > Nedokončená výroba a Deaktivace se pouze počítá. Není zaúčtováno do věcných položek. Chcete-li tak učinit, musíte po výpočtu Nedokončené výroby a Deaktivace spustit dávkovou úlohu **Zaúčtovat NV**.
 
-## Zaúčtování NV do věcných položek.
+## Zaúčtování NV do věcných položek
 Nyní, když Tricia pro tuto práci vypočítala NV, může ji zaúčtovat do věcných položek.
 
-### Zaúčtování NV do věcných položek.
+### Zaúčtování NV do věcných položek
 
 1. Ze seznamu **Projekty** vyberte projekt **Domov**.
 2. Vyberte akci **NV** a poté vyberte akci **Zaúčtovat NV**.
@@ -129,7 +129,7 @@ Nyní, když Tricia pro tuto práci vypočítala NV, může ji zaúčtovat do v�
 10. Na záložce **NV a deaktivace** si všimněte, že ve sloupci **Účtováno** je nyní pole **Uzn.  fin. částka nákladů** vyplňeno, což znamená, že NV byla úspěšně zaúčtována do věcných položek.
 11. Kartu zavřete kliknutím na tlačítko **OK**.
 
-## Vratné účtování NV.
+## Vratné účtování NV
 Tricia určuje, že projektoví úkoly, které byly vyloučeny z výpočtu NV, měly být vypočítány v NV. Může stornovat nesprávné účtování, aniž by musela účtovat nová účtování nedokončené výroby.
 
 ### Vratné účtování NV

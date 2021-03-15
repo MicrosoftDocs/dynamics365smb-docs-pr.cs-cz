@@ -23,7 +23,7 @@ Funkcionalita pokladen a pokladních dokladů umožňuje definovat pokladní ú�
 - Příjmové a výdajové doklady a jejich účtování
 - Pokladní případy používané jako šablony obvyklých účetních případů
 - Vyrovnání plateb s položkami zákazníků a dodavatelů
-- Vyrovnání plateb se zálohovými fakturami **(2021 release wave 1)**
+- Vyrovnání plateb se zálohovými fakturami
 - Inventarizace pokladny
 - Výstupní doklady (Příjmový pokladní doklad, Výdajový pokladní doklad)
 - Sestavy (Pokladní kniha, Kniha pokladního účtu a Předání pokladny)
@@ -34,10 +34,7 @@ Pokladní doklady jsou příjmové nebo výdejové a mohou být v různých měn
 
 Z řádků pokladního dokladu lze spustit funkci Vyrovnat položky, která umožňuje vybrat k vyrovnání položky zákazníků nebo dodavatelů. Obdobně jsou k dispozici funkce pro vyrovnání se zálohovými fakturami.
 
-> [!NOTE]
-> Aplikace Pokladny (rozšíření) v aktuální verzi nepodporuje Elektronickou evidenci tržeb (EET) a Zálohové platby. V případě potřeby je nutné využít stávající aplikaci Pokladen (Base Application).
-
 ## Viz také
 
-[České lokální funkcionality](czech-local-functionality.md)  
+[Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](../../finance.md)

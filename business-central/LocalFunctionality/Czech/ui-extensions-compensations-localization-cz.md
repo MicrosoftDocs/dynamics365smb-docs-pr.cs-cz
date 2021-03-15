@@ -28,5 +28,5 @@ K dispozici je pak i tisk Dohody o vzájemném zápočtu pohledávek a závazků
 
 ## Viz také
 
-[České lokální funkcionality](czech-local-functionality.md)  
+[Česká lokální funkcionalita](czech-local-functionality.md)  
 [Finance](../../finance.md)  
