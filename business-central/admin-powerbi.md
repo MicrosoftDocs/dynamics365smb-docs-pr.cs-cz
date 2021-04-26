@@ -1,6 +1,6 @@
 ---
-title: Introduction to Business Central and Power BI| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
+title: Business Central a balíčky obsahu Power BI | Microsoft Docs
+description: 'Získávání přehledu, business intelligence, a indikátorů KPI z vašich Business Central dat je snadné s Power BI a s balíčky obsahu Business Central.'
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article

@@ -1,6 +1,6 @@
 ---
-    title: Setup Best Practices - Supply Planning | Microsoft Docs
-    description: Supply planning is a critical business area. When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
+    title: Nastavení osvědčených postupů - Plánování dodávek | Microsoft Docs
+    description: 'Plánování dodávek je pro oblast podnikání klíčové. Pokud je vše v pořádku nastaveno a použito, pomáhá plánovač dodávek společnosti, aby zboží bylo vždy skladem a snižuje jak náklady na objednání tak i náklady na zásoby.'
     author: SorenGP
 
     ms.service: dynamics365-business-central

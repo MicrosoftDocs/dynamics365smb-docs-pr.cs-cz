@@ -1,6 +1,6 @@
 ---
 title: Intelligent Cloud Base | Microsoft Docs
-description: Use the Intelligent Cloud Base extension to connect your on-premises solution with Business Central online.
+description: 'Pomocí rozšíření Intelligent Cloud vytvořte cloudovou kopii svých dat, abyste byli připojeni k inteligentnímu cloudu.'
 author: edupont04
 manager: edupont
 

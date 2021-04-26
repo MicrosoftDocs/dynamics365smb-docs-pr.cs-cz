@@ -1,6 +1,6 @@
 ---
-    title: Assembly Management | Microsoft Docs
-    description: Support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality but with features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.
+    title: Správa montáže | Microsoft Docs
+    description: 'Podporujte společnosti, které dodávají produkty svým zákazníkům, kombinováním komponent v jednoduchých procesech bez nutnosti výrobní funkčnosti, ale s funkcemi pro sestavení zboží, které jsou integrovány s existujícími funkcemi, jako například prodej, plánování, rezervace a skladování.'
     author: SorenGP
 
     ms.service: dynamics365-business-central

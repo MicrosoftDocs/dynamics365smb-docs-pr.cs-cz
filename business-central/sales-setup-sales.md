@@ -1,6 +1,6 @@
 ---
-title: Overview of Tasks to Configure Sales Processes | Microsoft Docs
-description: Outlines tasks to set up rules and values to define your sales policies and processes.
+title: Přehled úkolů pro konfiguraci prodejních procesů | Microsoft Docs
+description: Nastiňuje úkoly k nastavení pravidel a hodnot pro definování vašich prodejních zásad a procesů.
 author: SorenGP
 
 ms.service: dynamics365-business-central

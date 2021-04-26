@@ -1,6 +1,6 @@
 ---
-    title: Design Details | Microsoft Docs
-    description: This content contains detailed technical information about complex application features in Business Central.
+    title: Detaily návrhu | Microsoft Docs
+    description: Tento obsah obsahuje podrobné technické informace o funkcích komplexních aplikací v aplikaci Business Central.
     author: SorenGP
     documentationcenter: ''
 

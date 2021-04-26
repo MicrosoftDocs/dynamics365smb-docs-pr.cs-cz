@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Shipping Agents | Microsoft Docs
-    description: You can set up a code for each of your shipping agents and enter information about them.
+    title: Jak nastavit přepravce | Microsoft Docs
+    description: Můžete nastavit kód pro každého z vašich přepravců a zadat o nich informace.
     author: SorenGP
 
     ms.service: dynamics365-business-central

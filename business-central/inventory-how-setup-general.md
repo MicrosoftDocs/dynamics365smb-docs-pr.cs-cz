@@ -1,6 +1,6 @@
 ---
-title: Define the General Inventory Setup
-description: Describes how to define the general inventory setup so that you can manage your warehouse and stock.
+title: Definice hlavního nastavení zásob
+description: 'Popisuje, jak definovat hlavní nastavení zásob, například číselné řady a lokace, takže můžete například spravovat sklad a zásoby.'
 author: bholtorf
 
 ms.service: dynamics365-business-central

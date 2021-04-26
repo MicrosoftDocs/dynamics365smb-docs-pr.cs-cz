@@ -1,6 +1,6 @@
 ---
-title: Business Central Intelligent Cloud Extensions for Cloud Migration | Microsoft Docs
-description: Use the cloud migration extensions to migrate your on-premises data to Business Central online. These extensions move your on-premises data to the cloud so you can use Business Central online with your existing data.
+title: Rozšíření Intelligent Cloud Extensions pro Business Central | Microsoft Docs
+description: 'Toto rozšíření k replikaci dat použijte k vytvoření cloudové kopie dat, abyste byli připojeni k inteligentnímu cloudu.'
 author: jenolson
 
 ms.service: dynamics365-business-central

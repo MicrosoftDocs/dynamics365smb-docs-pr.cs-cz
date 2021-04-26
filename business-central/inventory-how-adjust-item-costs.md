@@ -1,6 +1,6 @@
 ---
-title: Manually Adjust the Costs of Items| Microsoft Docs
-description: You can adjust the inventory valuation of an item using the FIFO or Average costing methods, for example, when item costs change for reasons other than transactions.
+title: Ruční úprava nákladů zboží| Microsoft Docs
+description: 'Ocenění zboží můžete upravit pomocí metod FIFO nebo průměrné kalkulace, například když se náklady zboží změní z jiných důvodů, než jsou transakce.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
