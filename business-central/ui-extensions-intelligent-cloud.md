@@ -1,23 +1,31 @@
 ---
 title: Intelligent Cloud Base | Microsoft Docs
-description: 'Pomocí rozšíření Intelligent Cloud vytvořte cloudovou kopii svých dat, abyste byli připojeni k inteligentnímu cloudu.'
+description: Use the Intelligent Cloud Base extension to connect your on-premises solution with Business Central online.
 author: edupont04
 manager: edupont
+
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: 'app, add-in, manifest, customize, import, implement'
-ms.date: 10/01/2018
+ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms.date: 12/04/2020
 ms.author: edupont
+
 ---
 
-# <a name="intelligent-cloud-base-extension"></a>Základní rozšíření Intelligent Cloud
+# Základní rozšíření Intelligent Cloud
 
-Toto rozšíření vás provede procesem konfigurace a správy prostředí Inteligentní Cloud. Jakmile je vaše prostředí  Intelligent Cloud nakonfigurováno, budete moci spravovat replikace dat z místního řešení do vašeho [!INCLUDE[prodshort](includes/prodshort.md)] cloudového klienta. Toto rozšíření bude fungovat ve spojení s rozšířením replikace dat, které je k dispozici pro vaše konkrétní místní řešení. Pro více informací navštivte [Váš přístup k Intelligent Cloud](about-intelligent-cloud.md).  
+Toto rozšíření vás provede procesem konfigurace připojení mezi místním řešením a vaším online prostředím [!INCLUDE [prod_short](includes/prod_short.md)], ať už proto, že migrujete do cloudu, nebo proto, že se připojujete do inteligentního cloudu z vašeho on-premises řešení. 
 
-## <a name="see-also"></a>Viz také
+Po konfiguraci připojení můžete migrovat data nebo spravovat replikace dat z on-premises řešení do svého [! ZAHRNOUT[prod_short](includes/prod_short.md)] cloudového tenanta. Toto rozšíření bude fungovat ve spojení s rozšířením pro replikaci dat, které je k dispozici pro vaše konkrétní on-premises řešení. Další informace naleznete v tématu [Spuštění Nástroje pro migraci do cloudu](/dynamics365/business-central/dev-itpro/administration/migration-tool).
 
-[Váš přístup k Intelligent Cloud](about-intelligent-cloud.md)  
-[Rozšíření Intelligent Cloud Extensions pro Business Central](ui-extensions-data-replication.md)  
+## Viz také
+
+[Inteligentní přehledy](about-intelligent-cloud.md)  
+[Spuštění Nástroje pro migraci do cloudu](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[Rozšíření Intelligent Cloud pro migraci do cloudu](ui-extensions-data-replication.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
