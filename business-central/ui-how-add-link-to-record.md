@@ -1,51 +1,95 @@
 ---
-title: Jak propojit záznamy s externími informacemi nebo programy | Microsoft Docs
-description: 'Připojte hypertextový odkaz k dokumentu nebo webové stránce ke konkrétnímu záznamu, jako je zákazník nebo dokument.'
-author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 10/01/2018
-ms.author: jswymer
+    title: Add Attachments, Links, and Notes on Records| Microsoft Docs
+    description: Attach a hyperlink to a document or website to a specific record, such as a customer or document.
+    author: SorenGP
+
+    ms.service: dynamics365-business-central
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 04/27/2020
+    ms.author: sgroespe
 ---
-# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Přidání odkazů na webové stránky, doklady nebo programy v záznamech
-Do konkrétního záznamu, například zákazníka, dokladu nebo prodejní objednávky, můžete přidat odkaz na externí dokument, web nebo program. Nebo můžete chtít odkaz, který otevře nový prázdný e-mail určitému příjemci, když jej vyberete. Stránka karty pro některé záznamy, například karty zákazníků a prodejců, obsahuje pole **Domovská stránka**, kde můžete zadat internetovou adresu (URL). Chcete-li zahrnout další odkazy, můžete použít metodu popsanou v tomto článku.
+# Správa příloh, odkazů a poznámek ke kartám a dokladům
 
-Dalším příkladem může být, když obdržíte tištěné faktury od dodavatelů. Můžete je naskenovat a uložit jako soubory PDF na webu služby SharePoint. Poté můžete vytvořit odkaz z nákupní faktury v [!INCLUDE[d365fin_md](includes/d365fin_md.md)] na odpovídající fakturu na SharePoint. Nebo můžete vytvořit odkaz z karty zboží na odpovídající stránku v online katalogu dodavatele.
+Ve FactBoxu na většině karet a dokladů můžete připojit soubory, přidávat odkazy a psát poznámky. V případě odkazů a poznámek to můžete udělat také na stránce přehledu tak, že nejprve vyberete příslušný řádek.
 
-## <a name="to-add-a-link-on-a-record"></a>Přidání odkazu do záznamu   
+Chcete-li zobrazit nebo změnit některý z těchto připojených informací, musíte nejprve otevřít kartu **Přílohy** ve FactBoxu. Číslo za názvem karty udává, kolik připojených souborů, odkazů nebo poznámek existuje pro kartu nebo doklad.
 
-1.  Otevřete záznam, ke kterému chcete připojit odkaz, například zákaznickou kartu nebo prodejní objednávku. Pokud chcete připojit odkaz na konkrétní řádek, například řádek deníku, vyberte řádek.  
+Přílohy, odkazy a poznámky zůstávají připojeny, protože karta nebo doklad je zpracován do jiných oblastí systému, například z probíhající prodejní objednávky na zaúčtovanou prodejní fakturu. Žádný z typů příloh však není výstupem ze systému, například při tisku nebo při ukládání do souboru.
 
-2.  Výběrem akce **Odkazy** otevřete stránku **Odkazy**, která zobrazí všechny aktuální odkazy přidané do záznamu.
+> [!NOTE]
+> Pokud částečně dodáte a vyfakturujete prodejní objednávku nebo objednávku, bude příloha připojena pouze ke konečné faktuře dané objednávky. Podobně při fakturaci pomocí funkce Časové rozlišení je příloha připojena pouze k položkám finančního účtu za vybraný doklad, ale ne pro položky časově rozlišených položek.
 
-3. Chcete-li přidat nový odkaz, zvolte **+nový**.
+## Připojení souboru k nákupní faktuře
+Ke kartě nebo dokladu můžete připojit libovolný typ souboru obsahujícího text, obrázek nebo video. To je užitečné například v případě, že chcete uložit fakturu dodavatele jako soubor PDF na související nákupní faktuře v [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-4.  Do pole **Adresa odkazu** zadejte
+> [!NOTE]
+> Soubory připojené k funkci Došlé doklady nejsou zahrnuty na kartě  **Přílohy**. Další informace naleznete v části [Došlé doklady](across-income-documents.md).
 
-    -   Chcete-li vytvořit odkaz na soubor v počítači nebo síti, zadejte úplnou cestu a název souboru, například **C:My Documentsinvoice1.doc**.
-    -   Chcete-li odkazovat na web, zadejte internetovou adresu (URL), například **www.microsoft.com**.
-    -   Chcete-li odkazovat na web, zadejte internetovou adresu (URL), například **www.microsoft.com**.
-    -   Chcete-li připojit program, zadejte konkrétní řetězec pro otevření programu. Chcete-li například otevřít OneNote s konkrétní stránkou, zadejte **onenote:/// C:MyDocumentstest.one**. Nebo pokud chcete otevřít aplikaci Outlook s novým prázdným e-mailem na konkrétní alias, zadejte **mailto:testalias**.  
+Následující postup je založen na nákupní faktuře. Kroky jsou podobné pro všechny ostatní podporované doklady a karty.
 
-5.  Do pole **Popis** zadejte informace o odkazu.  
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte Mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nákupní faktury** a poté vyberte související odkaz.
+2. Otevřete prodejní objednávku, ke které chcete připojit soubor.
+3. Ve FactBoxu, otevřete **Přílohy**.
+4. Vyberte hodnotu za polem **Dokumenty** například "0".
+5. Na stránce **Připojené dokumenty** v poli **Příloha** vyberte **Vybrat soubor**.
+5. Vyberte soubor z libovolného umístění a pak zvolte tlačítko **Otevřít**.
 
-6.  Zvolte tlačítko **Uložit**.  
+Soubor je nyní připojen k nákupní faktuře.
 
-## <a name="to-delete-a-link-from-a-record"></a>Odstranění odkazu ze záznamu  
+## Zobrazení připojeného souboru
+1. Ve FactBoxu, otevřete **Přílohy**.
+2. Vyberte hodnotu za polem **Dokumenty** například "1".
+3. Na stránce **Připojené dokumenty** vyberte akci **Zobrazit**.
+4. Otevřete stažený soubor.
 
-Chcete-li odstranit odkaz, můžete na stránce **Odkazy** vybrat **...** a poté **Odstranit**.
+## Uložení doklad jako přílohy PDF
+Kdykoli potřebujete uložit doklad jako soubor, můžete použít akci **Připojit jako PDF** k uložení aktuálního obsahu dokladu jako souboru PDF připojeného ve FactBoxu dokladu. To je užitečné například tehdy, když doklady sledují několik kroků v procesu, například prodejní proces nebo workflow schvalování, a chcete odkazovat na tisk předchozího kroku.
 
-Pokud odstraníte jeden záznam, například řádek prodejní objednávky, prodejní objednávku nebo zákazníka, budou odstraněny všechny odkazy připojené k záznamu. Pokud však odstraníte záznamy pomocí dávkové úlohy, jako je například dávková úloha **Odstranit fakturované prodejní objednávky**, zůstanou odkazy v databázi stále uloženy. Chcete-li odstranit odkazy z databáze, spusťte proceduru **Odstranit osamocené odkazy na záznamy**. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Odstranit osamocené odkazy na záznamy** a poté vyberte související odkaz.   
+Následující postup je založen na prodejní objednávce. Kroky jsou podobné pro všechny podporované dokumenty.
 
-<!-- ### To run delete orphaned record links  
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png " Řekněte mi, co chcete dělat") zadejte **Prodejní objednávky** související odkaz.
+2. Vyberte prodejní objednávku a pak zvolte **Připojit jako PDF**.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
+Soubor PDF s aktuálním obsahem prodejní objednávky je přidán do FactBoxu **Přílohy**.
 
-2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+## Přidání odkazu z karty zboží
+Můžete přidat odkaz z karty nebo dokladu na libovolnou URL adresu nebo cestu. To je užitečné například tehdy, když chcete propojit kartu zboží s katalogem zboží dodavatele.
 
-## <a name="see-also"></a>Viz také  
+Následující postup je založen na kartě zboží. Postup je podobný pro všechny ostatní podporované karty a doklady.
+
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat") zadejte **Zboží** a vyberte související odkaz.
+2. Vyberte položku, ze které chcete přidat odkaz, a poté vyberte ** Přílohy** ve FactBoxu.
+3. V **Řádích**, klikněte na ikonu **+**.
+4. Do políčka **Adresa odkazu** vložte daný odkaz.
+
+   Odkaz musí být platná internetová nebo intranetová URL adresa.
+
+5. Do pílička **Popis** vložte informaci o odkazu.
+6. Vyberte tlačítko **OK**.
+
+Odkaz je nyní připojen k kartě zboží.
+
+## Poznámka na prodejní objednávce
+Můžete napsat poznámku na dokument nebo kartu, například sdělit zvláštní pokyny ostatním uživatelům dokladu nebo karty. Do poznámek můžete zahrnout odkazy na soubory a adresy URL.
+
+> [!NOTE]
+> Poznámky v kartě **Přílohy** nesouvisejí s funkcí interních poznámek, která se používá hlavně ke komunikaci mezi uživateli. Pro více informací navštivte [Nastavení upozornění Workflow](across-setting-up-workflow-notifications.md).
+
+Následující postup je založen na prodejní objednávce. Kroky jsou podobné pro všechny ostatní podporované doklady a karty.
+
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png " Řekněte mi, co chcete dělat") zadejte **Prodejní objednávky** související odkaz.
+2. Vyberte prodejní objednávku, ke které chcete napsat poznámku, a pak zvolte záložku **Přílohy** ve FactBoxu.
+3. V poli **Poznámky** vyberte ikonu **+**.
+4. V poli **Poznámka** napište libovolný text, například „Toto je urgentní objednávka“.
+5. Vyberte tlačítko **OK**.
+
+Poznámka je nyní připojena k prodejní objednávce.
+
+## Viz také
 [Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Došlé doklady](across-income-documents.md)  
+[Nastavení upozornění Workflow](across-setting-up-workflow-notifications.md)
