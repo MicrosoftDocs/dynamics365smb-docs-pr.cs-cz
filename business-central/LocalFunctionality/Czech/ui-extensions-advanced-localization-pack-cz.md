@@ -18,12 +18,10 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
 ## Dostupnost funkcí
 
 - **Finance**
-  - [Rozšířené účtování nedokončené výroby](wip-extended-posting.md) **Červenec 2021**
   - [Vyrovnání věcných položek](general-ledger-entries-application.md) **Červen 2021**
 
 - **Zásoby**
   - [Účto skupiny v objednávkách transferu](how-to-use-posting-groups-in-transfer-orders.md) **2021 release wave 1**
-  - [Účtování zaokrouhlení v zásobách](how-to-setup-round-account-in-inventory.md) **Červenec 2021**
 
 - **Drobné legislativní funkce a osvědčené postupy**
   - [Povinné vrácení přesných nákladů ve výrobě](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Červen 2021**

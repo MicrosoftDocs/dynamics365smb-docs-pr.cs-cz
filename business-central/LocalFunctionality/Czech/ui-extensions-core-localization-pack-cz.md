@@ -25,8 +25,8 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
   - [Účetní schémata - rozšíření](how-to-use-accounting-schedule-feature.md) **Červenec 2021**
   - [Statutární výkazy](statutory-statements.md) **Nyní k dispozici**
   - [Uzávěrkové operace](year-close-operations.md) **Nyní k dispozici**
-  - [Vyrovnání věcných položek](general-ledger-entries-application.md) **2021 release wave 1**
   - [Aktualizace směnného kurzu](how-to-update-exchange-rate.md) **Nyní k dispozici**
+  - [Rozšířené účtování nedokončené výroby](wip-extended-posting.md) **Červenec 2021**
   
 - **DPH**
   - [Datum DPH](how-to-setup-vat-date.md) **Nyní k dispozici**
@@ -60,6 +60,7 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
   - [Export hlášení Intrastat do formátu CSV](intrastat.md) **2021 release wave 1**
 
 - **Zásoby**
+  - [Účtování zaokrouhlení v zásobách](how-to-setup-round-account-in-inventory.md) **Červenec 2021**
   - [Odsouhlasení zásob proti účetnictví](how-to-use-inventory-gl-reconciliation-enhancements.md) **2021 release wave 1**
   - [Rozšíření přípravy fyzické inventury](advanced-features-physical-inventory.md) **Nyní k dispozici**
   - [Skladové účetní doklady](how-to-use-inventory-operations-document.md) **Nyní k dispozici**
