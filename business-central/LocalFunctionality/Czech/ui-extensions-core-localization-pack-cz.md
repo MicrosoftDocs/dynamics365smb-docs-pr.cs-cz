@@ -20,7 +20,7 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
 - **Finance**
   - [Opravné účtování (červené storno)](how-to-use-corrections-posting.md) **2021 release wave 1**
   - [Statutární informace o společnosti](statutory-company-information.md) **Nyní k dispozici**
-  - [Interní účetní doklady](internal-financial-documents) **Nyní k dispozici**
+  - [Interní účetní doklady](internal-financial-documents.md) **Nyní k dispozici**
   - [Účetní tiskové doklady](accounting-output-documents.md) **Nyní k dispozici**
   - [Účetní schémata - rozšíření](how-to-use-accounting-schedule-feature.md) **Červenec 2021**
   - [Statutární výkazy](statutory-statements.md) **Nyní k dispozici**
@@ -47,7 +47,7 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
 
 - **Závazky a pohledávky**
   - [Úprava směnných kurzů (Přepočet pohledávek a závazků)](how-to-use-exchange-rates-adjustment-feature.md) **2021 release wave 1**
-  - [Více účtů pohledávek a závazků](how-to-use-multiple-payables-receivables-accounts) **2021 release wave 1**
+  - [Více účtů pohledávek a závazků](how-to-use-multiple-payables-receivables-accounts.md) **2021 release wave 1**
   - [Odsouhlasení pohledávek a závazků](customers-vendors-reconciliations.md) **Nyní k dispozici**
   - [Opravné prodejní doklady](sales-correcting-documents.md) **Nyní k dispozici**
   - [Aktualizace kontaktů z ARES](how-to-update-contacts-from-ares.md) **Nyní k dispozici**
