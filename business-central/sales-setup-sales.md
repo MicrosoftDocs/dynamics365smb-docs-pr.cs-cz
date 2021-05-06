@@ -1,19 +1,19 @@
 ---
 title: Přehled úkolů pro konfiguraci prodejních procesů | Microsoft Docs
 description: Nastiňuje úkoly k nastavení pravidel a hodnot pro definování vašich prodejních zásad a procesů.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
+
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'trade, sell, configure'
-ms.date: 10/01/2018
-ms.author: sgroespe
+ms.search.keywords: trade, sell, configure
+ms.date: 10/01/2020
+ms.author: edupont
+
 ---
-# <a name="setting-up-sales"></a>Nastavení Prodeje
+# Nastavení Prodeje
 Než budete moci spravovat prodejní procesy, musíte nakonfigurovat pravidla a hodnoty, které definují prodejní zásady společnosti.
 
 Musíte definovat obecné nastavení, například jaké prodejní doklady jsou požadovány a jak jsou účtovány jejich hodnoty. Toto obecné nastavení se obvykle provádí jednou během počáteční implementace.
@@ -24,15 +24,22 @@ Nastavení prodeje, které souvisí s finančními prostředky, jako jsou plateb
 
 | Viz | také |
 | --- | --- |
-| Vytvořte zákaznickou kartu pro každého zákazníka, kterému prodáváte. |[Registrace nového zákazníka](sales-how-register-new-customers.md) |
-| Umožněte zákazníkům platit prostřednictvím služby PayPal výběrem loga PayPal v prodejních dokladech. |[Povolte platby zákazníkům prostřednictvím služby PayPal](sales-how-enable-payment-service-extensions.md) |
-| Zadejte různé slevy a speciální ceny, které poskytujete zákazníkům v závislosti na zboží, množství a/nebo datu. |[Zaznamenejte prodejní cenu, slevu a platební smlouvy](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Nastavte prodejce, abyste je mohli přiřadit k zákaznickým kontaktům nebo měřit výkon prodejců jako základ pro výpočet prodejní provize nebo bonusu. |[Nastavení prodejců](sales-how-setup-salespeople.md) |
-| Určete pro jednotlivé zákazníky nebo pro všechny zákazníky, jak budou ve výchozím nastavení odeslány prodejní doklady, když vyberete akci **Účtovat a Odeslat**. |[Nastavení profilů odesílání dokumentů](sales-how-setup-document-send-profiles.md) |
-| Nastavte svůj e-mail tak, aby obsahoval souhrn informací v odesílaném prodejním dokladu. |[Odesílání dokladů e-mailem](ui-how-send-documents-email.md). |
-|Ověření daňového identifikační číslo (DPH) zákazníka pomocí webové služby EU.|[Ověření daňového identifikační čísla (DPH)](finance-setup-vat.md)|
-|Zadejte informace o různých dodavatelích přepravy, které používáte, včetně odkazu na jejich službu sledování zásilek.|[Nastavení přepravců](sales-how-to-set-up-shipping-agents.md)|
+| Vytvořte zákaznickou kartu pro každého zákazníka, kterému prodáváte. | [Registrace nového zákazníka](sales-how-register-new-customers.md) |
+| Umožněte zákazníkům platit prostřednictvím služby PayPal výběrem loga PayPal v prodejních dokladech. | [Povolení platby zákazníkům prostřednictvím služby PayPal](sales-how-enable-payment-service-extensions.md) |
+| Zadejte různé slevy a speciální ceny, které poskytujete zákazníkům v závislosti na zboží, množství a/nebo datu. | [Zaznamenenání prodejní ceny, slevy a platební smlouvy](sales-how-record-sales-price-discount-payment-agreements.md) |
+| Nastavte prodejce, abyste je mohli přiřadit k zákaznickým kontaktům nebo měřit výkon prodejců jako základ pro výpočet prodejní provize nebo bonusu. | [Nastavení prodejců](sales-how-setup-salespeople.md) |
+| Určete pro jednotlivé zákazníky nebo pro všechny zákazníky, jak budou ve výchozím nastavení odeslány prodejní doklady, když vyberete akci **Účtovat a Odeslat**. | [Nastavení profilů odesílání dokumentů](sales-how-setup-document-send-profiles.md) |
+| Nastavte svůj e-mail tak, aby obsahoval souhrn informací v odesílaném prodejním dokladu. | [Odesílání dokladů e-mailem](ui-how-send-documents-email.md). |
+| Ověření daňového identifikační číslo (DPH) zákazníka pomocí webové služby EU. | [Ověření daňového identifikačního čísla (DPH)](finance-setup-vat.md) |
+| Zadejte informace o různých dodavatelích přepravy, které používáte, včetně odkazu na jejich službu sledování zásilek. | [Nastavení způsobu dodávky](sales-how-set-up-shipment-methods.md) |
+| Zadejte informace o různých dodavatelích přepravy, které používáte, včetně odkazu na jejich službu sledování zásilek. | [Nastavení přepravců](sales-how-to-set-up-shipping-agents.md) |
+| Zadejte výchozí sestavy, které se mají použít pro různé typy dokladů. | [Výběr sestavy v Business Central](across-report-selections.md) |
 
-## <a name="see-also"></a>Viz také
-[Prodej](sales-manage-sales.md)  
-[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## Zobrazit související školení na webu [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+
+## Viz také
+[Prodej](sales-manage-sales.md)    
+[Práce s [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
