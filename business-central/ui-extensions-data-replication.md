@@ -1,29 +1,47 @@
 ---
 title: Rozšíření Intelligent Cloud Extensions pro Business Central | Microsoft Docs
 description: 'Toto rozšíření k replikaci dat použijte k vytvoření cloudové kopie dat, abyste byli připojeni k inteligentnímu cloudu.'
-author: edupont04
-manager: edupont
+author: jenolson
+
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: 'app, add-in, manifest, customize, import, implement'
-ms.date: 10/17/2018
+ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms.reviewer: edupont
+ms.date: 10/01/2020
 ms.author: edupont
+
 ---
 
-# <a name="business-central-intelligent-cloud-extensions"></a>Rozšíření Intelligent Cloud Extensions pro Business Central
+# Inteligentní Cloud
 
-Pokud používáte některý z podporovaných místních produktů, můžete nakonfigurovat své inteligentní cloudové prostředí na základě specifického rozšíření pro daný produkt. Jakmile je vaše inteligentní cloudové prostředí nakonfigurováno, budete moci replikovat data z vašeho místního řešení do vašeho [!INCLUDE[prodshort](includes/prodshort.md)] cloudového klienta. To vám umožní plně využít toho, co cloud nabízí vaší firmě, jako je například lepší přehled o vaší firmě, umělá inteligence, přístup k více zařízením a možnost přístupu kdykoli a kdekoli.  
+V závislosti na vašem on-premises řešení musíte použít různá rozšíření pro připojení vašich dat s [!INCLUDE[prod_short](includes/prod_short.md)] za účelem migrace vašeho řešení do cloudu.
 
-## <a name="business-central-on-premises"></a>Business Central on-premises
-Pokud používáte on-premises [!INCLUDE[prodshort](includes/prodshort.md)], získejte rozšíření **Intelligent Cloud Base** a ** Business Central Intelligent Cloud** a postupujte dle pokynů uvedených v obou.  
+Pokud používáte některý z podporovaných on-premises produktů, můžete nakonfigurovat své inteligentní cloudové prostředí na základě specifického rozšíření pro daný produkt. Jakmile je vaše inteligentní cloudové prostředí nakonfigurováno, budete moci replikovat data z vašeho on-premises řešení do vašeho [!INCLUDE[prod_short](includes/prod_short.md)]. To vám umožní plně využít toho, co cloud nabízí vaší firmě, jako je například lepší přehled o vaší firmě, umělá inteligence, přístup k více zařízením a možnost přístupu kdykoli a kdekoli.
 
-## <a name="dynamics-gp"></a>Dynamics GP
-Pokud používáte aplikaci Dynamics GP, získejte rozšíření **Intelligent Cloud Base Extension**, rozšíření ** Migration Data Dynamics GP** a **Dynamics GP Intelligent Cloud**, a postupujte podle pokynů uvedených ve všech třech.  
+Pro více informací navštivte [Migrace on-premises dat do Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) v obsahu správy pro [! INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Viz také
+## Business Central on-premises
 
-[Váš přístup k Intelligent Cloud](about-intelligent-cloud.md)  
-[Základní rozšíření Intelligent Cloud ](ui-extensions-intelligent-cloud.md)  
+Pokud používáte on-premises nasazení [! INCLUDE[prod_short](includes/prod_short.md)], získejte rozšíření **Intelligent Cloud Base** a **Business Central Intelligent Cloud** a poté spusťte průvodce nastavením **Nastavení migrace do cloudu**.
+
+## Dynamics GP
+
+Pokud používáte Dynamics GP, získejte rozšíření **Intelligent Cloud Base** a **Dynamics GP Intelligent Cloud** a poté spusťte průvodce nastavením **Nastavení migrace do cloudu**.
+
+> [!IMPORTANT]
+> Migrace z Dynamics GP pomocí průvodce asistovaným nastavením **Nastavení migrace do cloudu** je aktuálně podporována pouze pro následující trhy: USA, Kanada, Spojené království.
+
+## Dynamics SL
+
+Pokud používáte Dynamics SL, získejte rozšíření **Intelligent Cloud Base**, **Microsoft Dynamics SL Intelligent Cloud** a **Microsoft Dynamics SL History SmartLists** a poté spusťte průvodce nastavením **Nastavení migrace do cloudu**.
+
+## Viz také
+
+[Inteligentní přehledy](about-intelligent-cloud.md)    
+[Rozšíření Intelligent Cloud Base](ui-extensions-intelligent-cloud.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
