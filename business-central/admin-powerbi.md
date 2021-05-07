@@ -1,166 +1,75 @@
 ---
 title: Business Central a balíčky obsahu Power BI | Microsoft Docs
 description: 'Získávání přehledu, business intelligence, a indikátorů KPI z vašich Business Central dat je snadné s Power BI a s balíčky obsahu Business Central.'
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
-ms.date: 10/01/2018
-ms.author: edupont
+ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.reviewer: edupont
+ms.date: 10/01/2020
+ms.author: jswymer
+
 ---
-# <a name="enabling-your-business-data-for-power-bi"></a>Povolení obchodních dat pro Power BI
-Získávání přehledů o vašich [!INCLUDE[d365fin](includes/d365fin_md.md)] datech je snadné díky Power BI a balíčkům obsahu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI načte vaše data a poté sestaví řídící panel a přehledy vycházející z těchto dat.  
+# [!INCLUDE[prod_short](includes/prod_short.md)] a Power BI
 
-Musíte mít platný účet v Dynamics 365 a ve službě Power BI. Pokud si chcete vytvořit vlastní sestavy Power BI, musíte si také stáhnout [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Balíčky obsahu Power BI vyžadují oprávnění k tabulkám, ze kterých se získávají data. Další podrobnosti o požadavcích jsou popsány níže.  
+Získání přehledu o vašich datech [!INCLUDE[prod_short](includes/prod_short.md)] je snadné pomocí [Power BI](https://powerbi.microsoft.com) - systému vizualizace dat od společnosti Microsoft. Power BI načte data [!INCLUDE[prod_short](includes/prod_short.md)], která vám umožní vytvářet řídicí panely a sestavy na základě těchto dat. Power BI poskytuje flexibilní alternativu k sestavám zabudované v [!INCLUDE[prod_short](includes/prod_short.md)], což vám umožní přejít k podrobnostem a přizpůsobit vizualizaci a dokonce sloučit data z různých společností v [!INCLUDE[prod_short](includes/prod_short.md)]. Některé sestavy Power BI lze také vložit do Business Central a zobrazit bez opuštění systému. Složitější řídicí panely je lépe spouštět z webu Power BI.
 
-Microsoft publikoval následující balíčky obsahu:
-
-| Aplikace | Popis |
-| --- | --- |
-| Microsoft Business Central | Poskytuje řídicí panel s klíčovými finančními údaji v průběhu času, jako jsou příjmy versus náklady, provozní marže a hotovostní cyklus.|
-| Microsoft Business Central - CRM | Poskytuje řídicí panel s klíčovými údaji o prodejních příležitostech a kontaktech.  |
-| Microsoft Business Central - Prodej | Poskytuje řídicí panel s klíčovými údaji o prodejích a zásobách. |
-
-## <a name="using-the-dashboards"></a>Používání řídicích panelů
-Každá sada obsahu obsahuje sestavy, které můžete procházet:
-
-* Vyberte jakýkoli vizuální prvek na řídícím panelu a nadneste jednu ze základních sestav  
-* Filtrování sestavy nebo přidání polí, které chcete sledovat.  
-* Připojte toto přizpůsobené zobrazení k řídícímu panelu a pokračujte ve sledování.  
-  Data můžete aktualizovat ručně, a můžete nastavit plán aktualizace. Pro více informací navštivte [Konfigurace naplánované aktualizace](https://powerbi.microsoft.com/en-us/documentation/powerbi-refresh-scheduled-refresh/).  
-
-Balíčky obsahu jsou překonfigurovány pro práci s daty z demonstrační společnosti, které získáte když se zaregistrujete do [!INCLUDE[d365fin](includes/d365fin_md.md)]. Při instalaci aplikací v Power BI a připojení k vlastním datům nemusí některé sestavy fungovat, protože se spoléhají na data, která vaše společnost nemá. V těchto případech můžete tuto sestavu jednoduše odstranit z řídicího panelu.  
-
-> [!NOTE]  
->   Na základě vašich [!INCLUDE[d365fin](includes/d365fin_md.md)] dat si také můžete v Power BI vytvořit vlastní sestavy a řídící panely. Pro více informací navštivte [Připojení obchodních dat k Power BI](across-how-use-financials-data-source-powerbi.md).  
-
-## <a name="how-to-connect"></a>Jak se připojit
-1. V dolní části levého navigačního podokna vyberte možnost **Získat data**.  
-![Navigace k získání dat](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
-
-Můžete také začít přímo z Dynamics 365 Business Edition. Z centra rolí přejděte do části **Výběr sestavy** v části Centrum rolí Power BI. Z pásu karet vyberte buď **Služba** nebo **Moje organizace**. Pokud je vybrána některá z těchto akcí, budete přesměrováni do Galerie organizace v Power BI nebo do knihovny služeb v Power BI, která bude také filtrována, aby zobrazovala pouze balíčky obsahu související s [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
-
-2. V poli **Služby** vyberte **Získat**. Otevře se stránka s **AppSource** a **Aplikacemi pro Power BI**.  
-![Vyberte si balíčky obsahu z online služeb](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
-3. Vyberte kartu **Aplikace** na kartě **Aplikace pro Power BI**, vyberte balíček obsahu **Microsoft Dynamics 365 Business Central**, který chcete použít, a poté vyberte **Získat nyní**.  
-![Zvolte Dynamics 365 Business Central a vyberte Získat nyní.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
-4. Po zobrazení výzvy zadejte název *vaší společnosti* v [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Toto není zobrazovaný název. Název společnosti naleznete na stránce „Společnosti“ ve vaší instanci [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)].  
-![Zvolte Dynamics 365 Business Central a vyberte Získat nyní.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
-5. Po připojení se do pracovního prostoru Power BI automaticky načte řídicí panel, sestava a datová sada. Po dokončení se dlaždice aktualizují údaji z vaší [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] společnosti.
-![Zvolte Dynamics 365 Business Central a vyberte Získat nyní.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
-
-## <a name="what-now"></a>Co teď ?
-
-- Zkuste [Zadání dotazu v poli Q&A](https://docs.microsoft.com/en-us/power-bi/service-q-and-a-tips) v horní části řídicího panelu.
-- [Změna dlaždic](https://docs.microsoft.com/en-us/power-bi/service-dashboard-edit-tile) v řídicím panelu.  
-- [Vyberte dlaždici](https://docs.microsoft.com/en-us/power-bi/service-dashboard-tiles) pro otevření zdrojové sestavy.  
-- I když bude vaše datová sada denně aktualizována, můžete plán aktualizace aktualizovat nebo zkusit aktualizovat na požádání, pomocí funkce **Aktualizovat hned**.
-
-## <a name="system-requirements"></a>Systémové požadavky
-Chcete-li importovat svá [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data do Power BI, musíte mít oprávnění k webovým službám používaným pro získávání dat. Webové služby vyžadované pro každý balíček obsahu zahrnují:
-
-## <a name="role-center-reports"></a>Sestavy Centra rolí
-
-**Microsoft Dynamics 365 Business Central – CRM**
-- Prodejní příležitosti
-- Excel šablona Zobrazit společnost
-- Popisky sestavy Power BI
-
-**Microsoft Dynamics 365 Business Central – Finance**
-- PowerBIFinance
-- Excel šablona Zobrazit společnost
-- Popisky sestavy Power BI
-
-**Microsoft Dynamics 365 Business Central – Projekty**
-- Přehled projektů
-- Řádky plánování projektu
-- Řádky úlohy projektu
-- Popisky sestavy Power BI
-- Excel šablona Zobrazit společnost
-
-**Microsoft Dynamics 365 Business Central - Prodej**
-- Řídicí panel prodeje
-- Excel šablona Zobrazit společnost
-- Popisky sestavy Power BI
-
-## <a name="list-page-reports"></a>Sestavy Stránky seznamu
-
-**Microsoft Dynamics 365 Business Central – Seznam zákazníků**
-- Prodej zboží podle Zákazníka
-- Seznam zboží nákupu Power BI
-- Seznam prodávaného zboží Power BI
-- Řídicí panel prodeje
-- Seznam zákazníků Power BI
-- ExcelŠablonaZobrazitSpolečnost
-- Popisky sestavy Power BI
-
-**Microsoft Dynamics 365 Business Central – Seznam věcných položek**
-- Seznam částek Power BI
-- Power BI částka finančního rozpočtu
-- ExcelŠablonaZobrazitSpolečnost
-- Popisky sestavy Power BI
-
-**Microsoft Dynamics 365 Business Central – Seznam Zboží**
-- Prodej zboží podle Zákazníka
-- Seznam zboží nákupu Power BI
-- Seznam prodávaného zboží Power BI
-- Řídicí panel prodeje
-- ExcelŠablonaZobrazitSpolečnost
-- Popisky sestavy Power BI
-
-**Microsoft Dynamics 365 Business Central - Seznam projektů**
-- Seznam projektů Power BI
-- ExcelŠablonaZobrazitSpolečnost
-- Popisky sestavy Power BI
-
-**Microsoft Dynamics 365 Business Central - Seznam nákupních fakturr**
-- Nákupní seznam Power BI
-- ExcelŠablonaZobrazitSpolečnost
-- Popisky sestavy Power BI
-
-**Microsoft Dynamics 365 Business Central - Seznam prodejních objednávek**
-- Prodejní seznam Power BI
-- ExcelŠablonaZobrazitSpolečnost
-- Popisky sestavy Power BI
+![Power BI a Business Central](media/power-bi-intro.png)
 
 
-**Microsoft Dynamics 365 Business Central - Seznam dodavatelů**
-- Seznam zboží nákupu Power BI
-- Seznam prodávaného zboží Power BI
-- Seznam dodavatelů Power BI
-- ExcelŠablonaZobrazitSpolečnost
-- Popisky sestavy Power BI
+## Co můžete dělat s Power BI a [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## <a name="web-services"></a>Webové služby
-Snadným způsobem, jak najít webové služby, je vyhledávání webových služeb v [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. V seznamu zkontrolujte, zda je u výše uvedených webových služeb zaškrtnuto políčko Publikovat.
+Existují různé funkce pro práci s [!INCLUDE[prod_short](includes/prod_short.md)] a Power BI. Některé věci můžete dělat z Power BI, zatímco jiné se dělají z [!INCLUDE[prod_short](includes/prod_short.md)]. Některé funkce jsou k dispozici pouze s [!INCLUDE[prod_short](includes/prod_short.md)] online, nikoli on-premises. V následující tabulce je uveden přehled.
 
-## <a name="troubleshooting"></a>Odstraňování problémů
-Řídicí panel Power BI se spoléhá na publikované webové služby, které jsou uvedeny výše, a bude zobrazovat data z demonstrační společnosti nebo vaší vlastní firmy, pokud importujete data z vašeho aktuálního finančního řešení. Pokud se však něco pokazí, tato část poskytuje řešení pro nejtypičtějších problémy.
+| Funkce | Popis | Online | On-premises | Více informací |
+|-------|-----------|--------------|-----------|----------------|
+| Zobrazit data [!INCLUDE[prod_short](includes/prod_short.md)] v Power BI | Data si můžete prohlédnout z [!INCLUDE[prod_short](includes/prod_short.md)] v sestavách v Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online zahrnuje některé předdefinované sestavy Power BI. Nebo vám vaše organizace zpřístupní některé vlastní sestavy. | ![Funguje online](media/check.png) | ![Funguje v on-premises prostředí](media/check.png) | [Viz...](across-working-with-business-central-in-powerbi.md) |
+| Zobrazit sestavy Power BI v klientovi [!INCLUDE[prod_short](includes/prod_short.md)]. | Sestavy Power BI, které zobrazují data [!INCLUDE[prod_short](includes/prod_short.md)], mohou být vloženy přímo do částí stránek [!INCLUDE[prod_short](includes/prod_short.md)]. Přepnutím součásti zobrazíte libovolnou sestavu, která je vám k dispozici. | ![Funguje online](media/check.png) | ![Funguje v on-premises prostředí](media/check.png)<sup>[*](#onprem)</sup> | [Viz...](across-working-with-powerbi.md). |
+| Vytvářet sestavy a řídicí panely v Power BI, které zobrazují [!INCLUDE[prod_short](includes/prod_short.md)]. | Pomocí Power BI Desktop můžete vytvářet vlastní sestavy a řídicí panely. Sestavy můžete publikovat do své vlastní služby Power BI nebo je sdílet s ostatními ve vaší organizaci. | ![Funguje online](media/check.png) | ![Funguje v on-premises prostředí](media/check.png) | [Viz...](across-how-use-financials-data-source-powerbi.md) |
+| [!INCLUDE[prod_short](includes/prod_short.md)] aplikace v Power BI | [!INCLUDE[prod_short](includes/prod_short.md)] publikuje tři aplikace pro Power BI na Microsoft AppSource. Tyto aplikace vytvářejí podrobné sestavy a řídicí panely ve službě Power BI pro prohlížení dat [!INCLUDE[prod_short](includes/prod_short.md)]. Mezi dostupné aplikace patří: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul> | ![Funguje online](media/check.png) | [Viz...](across-powerbi-business-central-apps.md) |
 
-### <a name="incorrect-company-name"></a>Nesprávný název společnosti  
-Častou chybou je, že místo názvu společnosti zadáte zobrazovaný název společnosti. Chcete-li najít název společnosti, hledejte **Společnosti**. Při zadávání názvu společnosti použijte pole **Název**.
+<a name="onprem"><sup>*</sup></a> Tato funkce vyžaduje registrovanou aplikaci pro Business Central v Microsoft Azure. Pro více informací navštivte [Registrace Business Central On-Premises ve službě Azure AD pro integraci s jinými službami](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-### <a name="incorrect-user-name-and-password"></a>Nesprávné uživatelské jméno a heslo  
-Uživatelské jméno a heslo použité pro připojení bude stejné jako to, které se používá pro připojení k vašemu účtu Microsoft Office 365.  
+## Připravte se na používání Power BI
 
-Balíčky obsahu také vyžadují, abyste měli účet Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Jakmile zadáte své přihlašovací údaje, automaticky zjistíme všechny klienty Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], ke kterým máte přístup. Pokud nemáte licencovaný nebo zkušební účet Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], zobrazí se chybová zpráva.
+Než začnete používat Power BI s [!INCLUDE[prod_short](includes/prod_short.md)], je třeba provést několik úkolů. Některé úlohy obvykle provádí pouze správci nebo speciální uživatelé.
 
-### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Klíč neodpovídal žádným řádkům v tabulce
-Pokud během procesu připojení zadáte neplatný název společnosti, může se zobrazit chybová zpráva „Klíč neodpovídá žádným řádkům v tabulce“. Zadejte správný název společnosti a zkuste se znovu připojit.
+1. Pokud používáte [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, ujistěte se, že vaše nasazení splňuje požadavky uvedené v [Nastavení [!INCLUDE[prod_short](includes/prod_short.md)] on-premises pro integraci Power BI](admin-powerbi-setup.md#setup). Tento úkol je obvykle administrativní.
 
-## <a name="see-also"></a>Viz také
-[Začínáme s Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
-[Power BI - Základní pojmy](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
-[Business Intelligence](bi.md)  
-[Začínáme](product-get-started.md)  
-[Import obchodních dat z jiných finančních systémů.](across-import-data-configuration-packages.md)  
-[Nastavení [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Import obchodních dat z jiných finančních systémů.](across-import-data-configuration-packages.md)  
-[Použití [!INCLUDE[d365fin](includes/d365fin_md.md)] jako zdroje dat Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Použití [!INCLUDE[d365fin](includes/d365fin_md.md)] jako zdroje dat PowerApps](across-how-use-financials-data-source-powerapps.md)  
-[Použití [!INCLUDE[d365fin](includes/d365fin_md.md)] v Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+2. Publikujte data jako webové služby.
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+   Codeunits, stránky a dotazy, které chcete použít jako zdroj dat v sestavách Power BI, musí být publikovány jako webové služby. Ve výchozím nastavení je publikováno mnoho webových služeb. Snadný způsob, jak najít webové služby, je vyhledat *webové služby* v [!INCLUDE[prod_short](includes/prod_short.md)].
+
+   Pro více informací o publikování webových služeb navštivte [Publikování webové služby](across-how-publish-web-service.md).
+
+3. Získejte účet Power BI.
+
+   Chcete-li s Power BI a [!INCLUDE[prod_short](includes/prod_short.md)] dělat cokoli, ať už jste administrátor nebo jen běžný uživatel, budete potřebovat účet služby Power BI. Účet získáte na [https://powerbi.microsoft.com](https://powerbi.microsoft.com). K přihlášení k účtu použijte svou pracovní e-mailovou adresu a heslo. Registrace vyžaduje, abyste měli licenci, ale ve většině případů byste již měli mít licenci zdarma. Pro více informací navštivte [Licencování Power BI](admin-powerbi-setup.md#license).
+
+4. Pokud chcete vytvořit vlastní sestavy Power BI, získejte Power BI Desktop.
+
+   Můžete si stáhnout [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Pro více informací navštivte [Získat Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
+
+## Zobrazit související školení na webu [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+
+## Viz také
+
+[Power BI pro uživatelé](/power-bi/consumer/end-user-consumer)    
+[„Nový vzhled“ služby Power BI](/power-bi/service-new-look)    
+[Rychlý start: Připojení k datům v Power BI Desktopu](/power-bi/desktop-quickstart-connect-to-data)    
+[Dokumentace Power BI](/power-bi/)    
+[Business Intelligence](bi.md)    
+[Začínáme](product-get-started.md)    
+[Import obchodních dat z jiných finančních systémů](across-import-data-configuration-packages.md)    
+[Nastavení [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)    
+[Použití [!INCLUDE[prod_short](includes/prod_short.md)] jako zdroje dat Power BI](across-how-use-financials-data-source-powerbi.md)    
+[Použití [! INCLUDE[prod_short](includes/prod_short.md)] jako zdroje dat Power Apps](napříč- jak- použít-finanční-data-zdroj-powerapps.md)    
+[Použití [!INCLUDE[prod_short](includes/prod_short.md)] v Power Automate](across-how-use-financials-data-source-flow.md)
+
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
