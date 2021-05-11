@@ -94,7 +94,7 @@ Připravte lokaci BÍLÝ pro zpracování montáže pomocí následujících kro
 
    Zadáním tohoto nevybraného kódu přihrádky jsou všechny řádky montážní objednávky připraveny přijímat své komponenty do přihrádky.
 
-4. Do pole **kód přihrádky z montáže** zadejte **W-01-0001**.
+4. Do pole **Kód přihrádky z montáže** zadejte **W-01-0001**.
 
    Zadáním tohoto kódu přihrádky vyskladnění se do přihrádky vyvede hotové zboží montáže.
 
@@ -172,7 +172,7 @@ Když je prodejní objednávka později zaúčtována jako plně fakturovaná, p
    | **Způsob přiobjednání** | Dávka-pro-dávku |
 
    > [!NOTE]  
-   > Sada A se obvykle dodána pomocí montáže na sklad, a proto má způsob přiobjednání na to, aby se stala součástí obecného plánování zásobování.
+   > Sada A je obvykle dodána pomocí montáže na sklad, a proto má způsob přiobjednání na to, aby se stala součástí obecného plánování zásobování.
 
 4. Vyberte akci **Montáž** a poté vyberte **Kusovník montáže**.
 5. Definujte kusovník montáže pro sadu A s následujícími informacemi.
@@ -318,7 +318,7 @@ Když je prodejní objednávka později zaúčtována jako plně fakturovaná, p
    Pokračujte kontrolou příslušné objednávky montáže.
 
 9. Vyberte řádek dodávky pro tři jednotky sady B.
-10. Na záložce **Řádky** zvolte **Řádek** a pak zvolte**Montáž na objednávku**. Otevře se stránka **Montážní zakázka**.
+10. Na záložce **Řádky** zvolte **Řádek** a pak zvolte **Montáž na objednávku**. Otevře se stránka **Montážní zakázka**.
 
    Všimněte si, že několik polí v montážní zakázce není k dispozici, protože zakázka je propojena s prodejní objednávkou.
 
@@ -347,7 +347,7 @@ Když je prodejní objednávka později zaúčtována jako plně fakturovaná, p
    > [!NOTE]  
    > V této části je montážní pracovník zodpovědný za zaznamenávání dokončených montážních prací MNO na řádku dodávky ze skladu. K tomuto pracovnímu postupu může dojít v prostředích, kde jsou montážní práce prováděny v samostatném montážním oddělení a montážní pracovníci jsou oprávněni změnit řádek dodávky ze skladu.
 
-2. Otevřete montážní zakázku MNO pro pět jednotek Ksady A.
+2. Otevřete montážní zakázku MNO pro pět jednotek sady A.
 
    Všimněte si, že pole **Množství k montáži** a **Množství ke spotřebě** jsou prázdná, protože zatím není zaznamenána žádná práce.
 
