@@ -25,7 +25,7 @@ Po přiřazení služby přepravce k řádku prodejní objednávky bude doba dod
 
 ## Nastavení přepravce
 1. Vyberte ikonu ![Žárovku, která otevře funkci Řeknete mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Přepravci** a poté vyberte související odkaz.
-2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vyberte akci **Služby přepravce**.
 4. Na stránce **Služby přepravce**, vyplňte pole podle potřeby.
 

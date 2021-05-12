@@ -17,15 +17,15 @@ ms.author: edupont
 
 # Inteligentní Cloud
 
-V závislosti na vašem on-premises řešení musíte použít různá rozšíření pro připojení vašich dat s [!INCLUDE[prod_short](includes/prod_short.md)] za účelem migrace vašeho řešení do cloudu.
+V závislosti na vašem on-premises řešení musíte použít různá rozšíření pro připojení vašich dat k [!INCLUDE[prod_short](includes/prod_short.md)] za účelem migrace vašeho řešení do cloudu.
 
 Pokud používáte některý z podporovaných on-premises produktů, můžete nakonfigurovat své inteligentní cloudové prostředí na základě specifického rozšíření pro daný produkt. Jakmile je vaše inteligentní cloudové prostředí nakonfigurováno, budete moci replikovat data z vašeho on-premises řešení do vašeho [!INCLUDE[prod_short](includes/prod_short.md)]. To vám umožní plně využít toho, co cloud nabízí vaší firmě, jako je například lepší přehled o vaší firmě, umělá inteligence, přístup k více zařízením a možnost přístupu kdykoli a kdekoli.
 
-Pro více informací navštivte [Migrace on-premises dat do Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) v obsahu správy pro [! INCLUDE[prod_short](includes/prod_short.md)].
+Pro více informací navštivte [Migrace on-premises dat do Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) v obsahu správy pro [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Business Central on-premises
 
-Pokud používáte on-premises nasazení [! INCLUDE[prod_short](includes/prod_short.md)], získejte rozšíření **Intelligent Cloud Base** a **Business Central Intelligent Cloud** a poté spusťte průvodce nastavením **Nastavení migrace do cloudu**.
+Pokud používáte on-premises nasazení [!INCLUDE[prod_short](includes/prod_short.md)], získejte rozšíření **Intelligent Cloud Base** a **Business Central Intelligent Cloud** a poté spusťte průvodce nastavením **Nastavení migrace do cloudu**.
 
 ## Dynamics GP
 

@@ -47,11 +47,11 @@ Tento návod ukazuje úkoly, které jsou prováděny následujícími uživatels
 K dokončení tohoto návodu budete potřebovat:
 
 - Společnost [!INCLUDE[prod_short](includes/prod_short.md)].
-- Chcete-li vytvořit nové zboží a několik obchodních transakcí, postupujte podle [Příprava ukázkových dat](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data)..
+- Chcete-li vytvořit nové zboží a několik obchodních transakcí, postupujte podle [Příprava ukázkových dat](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).
 
 ## Příběh
 
-Ricardo, kontrolor kvality, jedná o návratnost prodeje položky 1002, Závodní kolo. Zákazník, společnost Selangorian Ltd., si stěžoval, že rám kola je prasklý. Kontrolor kvality potvrdil, že závodní rám vráceného kola je vadný. Kontrolor kvality musí nyní určit:
+Ricardo, kontrolor kvality, jedná o návratnost prodeje položky 1002, Závodní kolo. Zákazník, společnost J V v.o.s., si stěžoval, že rám kola je prasklý. Kontrolor kvality potvrdil, že závodní rám vráceného kola je vadný. Kontrolor kvality musí nyní určit:
 
 - Které závodní rámy byly vadné.
 - Na kterou nákupní objednávku byla chybná šarže přijata.
@@ -85,7 +85,7 @@ Pak musíte vytvořit různé nákupní, výrobní a prodejní transakce, které
    > Chcete-li zadat základní měrnou jednotku, zvolte tlačítko **Nový** a poté na stránce **Měrné jednotky zboží** vyberte **KS**.
 
 4. Všechna ostatní pole mají přijatelná výchozí data nebo nemusí být vyplněna.
-5. Zvolte tlačítko **OK** a vytvořte první novou kartu položky, 2000..
+5. Zvolte tlačítko **OK** a vytvořte první novou kartu položky, 2000.
 6. Vyberte **Nový**.
 7. Do pole **Číslo** zadejte **1002** a poté vyplňte následující pole.
 
@@ -123,7 +123,7 @@ Pak musíte vytvořit různé nákupní, výrobní a prodejní transakce, které
 6. Do pole **Číslo faktury dodavatele** zadejte libovolnou hodnotu.
 7. Zvolte akci **Účtovat**, vyberte možnost **Příjem a fakturace** a poté klikněte na tlačítko **OK**.
 
-   Dále si zakupte závodní rámy od Coolwood Technologies.
+   Dále si zakupte závodní rámy od Mach a spol. v.o.s..
 8. Vyberte ![Žárovku, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete delat"), zadejte **Nákupní objednávky**a pak zvolte související odkaz.
 9. Vyberte akci **Nový**.
 10. Vytvořte nákupní objednávku pro dodavatele Coolwood Technologies vyplněním následujících řádkových polí.
@@ -173,7 +173,6 @@ Pak musíte vytvořit různé nákupní, výrobní a prodejní transakce, které
 
 14. Vyberte akci **Aktualizace výrobní zakázky** a vyplňte řádek.
 15. Chcete-li zadat sériová čísla, vyberte akci **Řádky sledování zboží** a poté čísla na dvou řádcích v poli **Sériové číslo** na stránce **Řádky sledování zboží**.
-
    Dále zaúčtujte větší spotřebu závodních rámů ze ŠARŽE1.
 16. Na stránce **Vydaná výrobní zakázka** vyberte akci **Deník výroby**.
 17. Na stránce **Deník výroby** vyberte řádek spotřeby pro zboží 2000 a zvolte akci **Řádky sledování zboží**.

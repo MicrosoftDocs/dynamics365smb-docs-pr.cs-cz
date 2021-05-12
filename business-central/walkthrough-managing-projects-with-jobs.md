@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -25,7 +25,7 @@ Tento návod zahrnuje nastavení nového projektu kromě některých běžných 
 Tento návod ukazuje následující úkoly:
 
 ### Nastavení projektů
-Se strukturou rozpočtu nastavenou pro pracovní místa je vytváření pracovních míst jednoduché. Tento návod zahrnuje následující postupy:
+Se strukturou rozpočtu nastavenou pro projekty je jejich vytváření jednoduché. Tento návod zahrnuje následující postupy:
 
 - Nastavení řádků úkolů a plánování.
 - Vytváření konkrétních cen pro zboží, zdroje a účty hlavní knihy.
@@ -49,7 +49,7 @@ Když velký, drahý projekt trvá dlouhou dobu, zákazníci se často dohodnou 
 
 - Vytváření plateb na splátky za projekt.
 - Fakturace plateb zákazníkům.
-- Účtování o využití v projekte nastaveném pro platbu na splátky.
+- Účtování o využití v projektu nastaveném pro platbu na splátky.
 
 ## Role
 Tento návod obsahuje úkoly pro následující role:
@@ -60,11 +60,11 @@ Tento návod obsahuje úkoly pro následující role:
 ## Předpoklady
 Před provedením úkolů v návodu je nutné provést následující kroky:
 
-- Instalace CRONUS International Ltd. demonstrační databáze.
-- Vytvořte ukázková data pomocí kroků v následující části.
+- Instalace CRONUS CZ s.r.o. demonstrační databáze.
+- Vytvoření ukázkových dat pomocí kroků v následující části.
 
 ## Příběh
-Tento návod se zaměřuje na CRONUS International Ltd., projekční a poradenskou firmu, která navrhuje a upravuje nové infrastruktury, jako jsou konferenční sály a kanceláře s nábytkem, doplňky a skladovací jednotky. Většina jeho práce je zaměřena na projekt. Prakash je projektový manažer ve společnosti CRONUS. Projekty mu poskytují přehled o každé probíhající úloze, kterou CRONUS zahájil, a také o dokončených úlohách. Obvykle je to ten, kdo uzavírá dohody se zákazníky a vstupuje do jádra úlohy, kterou jsou kromě cen také úkoly a plánování, do [!INCLUDE[prod_short](includes/prod_short.md)]. Zjistil, že vytváření, udržování a kontrola informací je jednoduchá. Prakash má také rád způsob, jakým [!INCLUDE[prod_short](includes/prod_short.md)] umožňuje kopírování úloh a platby na splátky.
+Tento návod se zaměřuje na CRONUS CZ s.r.o., projekční a poradenskou firmu, která navrhuje a upravuje nové infrastruktury, jako jsou konferenční sály a kanceláře s nábytkem, doplňky a skladovací jednotky. Většina jeho práce je zaměřena na projekt. Prakash je projektový manažer ve společnosti CRONUS. Projekty mu poskytují přehled o každé probíhající úloze, kterou CRONUS zahájil, a také o dokončených úlohách. Obvykle je to ten, kdo uzavírá dohody se zákazníky a vstupuje do jádra úlohy, kterou jsou kromě cen také úkoly a plánování, do [!INCLUDE[prod_short](includes/prod_short.md)]. Zjistil, že vytváření, udržování a kontrola informací je jednoduchá. Prakash má také rád způsob, jakým [!INCLUDE[prod_short](includes/prod_short.md)] umožňuje kopírování úloh a platby na splátky.
 
 Tricia, členka projektového týmu, která se hlásí k Prakashovi, je odpovědná za každodenní sledování práce. Kromě práce techniků na každém úkolu vykonává i svou vlastní práci. Zaznamenává zboží, které použili, a náklady, které jim vznikly.
 
@@ -81,7 +81,7 @@ Chcete-li se na tento návod připravit, musíte přidat Tricii jako nový zdroj
    - **Jméno**: **Tricia**
    - **Typ**: **Osoba**
 
-4. Vyberte pole **Základní měrná jednotka** a kliknutím na akci **Nový** a otevřete stránku **Měrná jednotka zdroje**. V poli **Kód** vyberte **hodina**.
+4. Vyberte pole **Základní měrná jednotka** a kliknutím na akci **Nový** otevřete stránku **Měrná jednotka zdroje**. V poli **Kód** vyberte **hodina**.
 5. Na záložce **Fakturace** zadejte následující informace:
 
    - **Nákupní cena**: **5**
@@ -94,7 +94,7 @@ Chcete-li se na tento návod připravit, musíte přidat Tricii jako nový zdroj
 
 V dalším postupu vytvoříte list deníku projektu pro Tricii, abyste mohli zaúčtovat její použití.
 
-### Vytvoření iistu deníku projektů
+### Vytvoření listu deníku projektů
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Deníky projektů** a poté vyberte související odkaz.
 2. Na stránce **Deníky projektů** vyberte pole **Název listu**. Otevře se stránka **Listy deníku projektů**.
@@ -155,9 +155,9 @@ Ceny pro zákazníky můžete přizpůsobit podle jednotlivých pracovních mís
 
 Posledními kroky při nastavování projektu jsou přidání úkolů projektu a řádků plánování, které jsou součástí každého úkolu. Řádky plánování určují, co je fakturováno zákazníkovi.
 
-### Přidání úloh projektu
+### Přidání úkolů projektu
 
-1. Na kartě **Projekt** zvolte pro novou úlohu akci **Řádky úlohy projektu**.
+1. Na kartě **Projekt** zvolte pro nový úkol akci **Řádky úlohy projektu**.
 2. Následující tabulka popisuje informace, které byste měli zadat do polí.
 
    | Číslo úlohy projektu | Popis | Typ úlohy projektu |
@@ -171,7 +171,7 @@ Posledními kroky při nastavování projektu jsou přidání úkolů projektu a
 
 Řádek plánování může být jedním z následujících typů:
 
-- **Plán**: Přidáno do plánu, ale není fakturováno.
+- **Rozpočet**: Přidáno do plánu, ale není fakturováno.
 - **Fakturovatelné**: Fakturováno, ale není přidáno do plánu.
 - **Plán i Fakturovatelné**: Fakturováno a přidáno do plánu.
 
@@ -179,56 +179,28 @@ V tomto návodu používá projektový manažer možnost **Plán i Fakturovateln
 
 ### Vytvoření řádků plánování
 
-1. Vyberte řádek 1010 a poté vyberte akci **Řádky plánování projektu**. Zadejte následující informace:
+1. Vyberte řádek 1010 a poté vyberte akci **Řádky plánování projektu**.
 
-   **Řádek 1**
+2. Vytvořte řádek plánování s následujícími informacemi:
 
-   - **Typ řádku**: **Plán i Fakturovatelné**
-   - **Datum plánování**: **(dnešní datum)**
-   - **Typ**: **Zdroj**
-   - **Číslo**: **Tricia**
-   - **Množství**: **40**
+   | Řádek | Typ řádku | Datum plánování | Typ | Číslo | Množství | Jednotková cena |
+   |------|-----------|----------------|-------------|-------|----------|------------|
+   | 1 | Rozpočet i fakturovatelné | (dnešní datum) | Zdroj | Tricia | 40 |     |
+   | 2 | Rozpočet i fakturovatelné | (dnešní datum) | Zdroj | Timothy | 40 |     |
+   | 3 | Rozpočet i fakturovatelné | (dnešní datum) | Finanční účet | 8430 (cestování) | 2 | 400 |
 
-   **Řádek 2**
-
-   - **Typ řádku**: **Plán i Fakturovatelné**
-   - **Datum plánování**: **(dnešní datum)**
-   - **Typ**: **Zdroj**
-   - **Číslo**: **Timothy**
-   - **Množství**: **40**
-
-   **Řádek 3**
-
-   - **Typ řádku**: **Plán i Fakturovatelné**
-   - **Datum plánování**: **(dnešní datum)**
-   - **Typ**: **Finanční účet**
-   - **Číslo**: **8430 (Cestování)**
-   - **Množství**: **2**
-   - **Pořizovací cena**: **400**
-
-2. Zavřete stránku. Součty se aktualizují na stránce **Řádky úlohy projektu**.
+   Zavřete stránku. Součty se aktualizují na stránce **Řádky úlohy projektu**.
 3. Vyberte řádek 1020 a poté vyberte akci **Řádky plánování projektu**. Zadejte následující informace:
 
-   **Řádek 1**
-
-   - **Typ řádku**: **Plán i Fakturovatelné**
-   - **Datum plánování**: **(dnešní datum)**
-   - **Typ**: **Zdroj**
-   - **Číslo**: **Tricia**
-   - **Množství**: **80**
-
-   **Řádek 2**
-
-   - **Typ řádku**: **Plán i Fakturovatelné**
-   - **Datum plánování**: **(dnešní datum)**
-   - **Typ**: **Zboží**
-   - **Číslo**: **80201 (grafický program)**
-   - **Množství**: **1**
+   | Řádek | Typ řádku | Datum plánování | Typ | Číslo | Množství | Jednotková cena |
+   |------|-----------|----------------|-------------|-------|----------|------------|
+   | 1 | Rozpočet i fakturovatelné | (dnešní datum) | Zdroj | Tricia | 80 |     |
+   | 2 | Rozpočet i fakturovatelné | (dnešní datum) | Zboží | 80201 (grafický program) | 1 |     |
 
 4. Zavřete stránku. Součty se aktualizují na stránce **Řádky úlohy projektu**.
 
 ## Výpočet zbývajícího využití
-Tricia, členka týmového projektu, na této práci nějakou dobu pracuje a chce si v ní zaregistrovat své hodiny a využití. Nepracovala více hodin, než bylo předem dohodnuto se zákazníkem. K výpočtu zbývajícího využití projektu v deníku projektů používá dávkovou úlohu **Výpočet zbývajícího použití**. Dávková úloha pro každý úkol vypočítá rozdíl mezi plánovanou spotřebu zboží, zdrojů a částku výdajů v hlavní knize a skutečnou spotřebu zaúčtovanou v položkách projektu. Zbývající využití se poté zobrazí v deníku projektu, odkud jej můžete zaúčtovat.
+Tricia, členka týmového projektu, na této práci nějakou dobu pracuje a chce si v ní zaregistrovat své hodiny a využití. Nepracovala více hodin, než bylo předem dohodnuto se zákazníkem. K výpočtu zbývajícího využití projektu v deníku projektů používá dávkovou úlohu **Výpočet zbývajícího použití**. Dávková úloha pro každý úkol vypočítá rozdíl mezi plánovanou spotřebou zboží, zdrojů a částkou výdajů v hlavní knize a skutečnou spotřebou zaúčtovanou v položkách projektu. Zbývající využití se poté zobrazí v deníku projektu, odkud jej můžete zaúčtovat.
 
 ### Výpočet zbývajícího využití
 
@@ -283,22 +255,20 @@ CRONUS má smlouvu na zřizování konferenčních místností. Jako projektový
 ### Správa pevných cen v projektech
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Projekty** a poté vyberte související odkaz.
-2. Vyberte číslo projektu **Guildford** a poté vyberte akci **Jobs Řádky úlohy projektu**.
-3. Vyberte řádek 1120 a v poli **Plán (náklady celkem)** klikněte pravým tlačítkem na částku a vyberte **Přejít k podrobnostem**.
+2. Vyberte číslo projektu **AB** a poté vyberte akci **Řádky úlohy projektu**.
+3. Vyberte řádek 1120 a v poli **Rozpočet (Náklady celkem)** klikněte pravým tlačítkem na částku a vyberte **Přejít k podrobnostem**.
 
    Přezkoumáním řádků plánování práce Prakash určí, že bude také potřebovat Tricii po dobu 30 hodin pro tuto fázi projektu. Se zákazníkem se dohodne na pevné ceně.
 
-4. Na stránce **Řádky úlohy projektu** vyberte řádek 1120 a poté vyberte akci **Řádky plánování projektu**.
-5. Zvolte **Nový** a vytvořte nový řádek s následujícími informacemi:
+4. Na stránce **Řádky úlohy projektu** vyberte řádek 1120 a poté vyberte akci **Řádky plánování projektu**. Vytvořte řádek plánování s následujícími informacemi:
 
-   - **Typ řádku**: **Plán i Fakturovatelné**
-   - **Typ**: **Zdroj**
-   - **Číslo**: **Tricia**
-   - **Množství**: **30**
+   | Řádek | Typ řádku | Typ | Číslo | Množství |
+   |------|-----------|-------------|-------|----------|
+   | 1 | Rozpočet i fakturovatelné | Zdroj | Tricia | 30 |
 
-7. Zavřete stránku.
-8. V poli **Plán (náklady celkem)** na toto pole pravým tlačítkem myši a na stránce **Řádky úlohy projektu** znovu zvolte **Přejít k podrobnostem**. Zobrazit změny v plánu. Vidíte, že do plánu bylo přidáno 30 hodin.
-9. Zavřete stránku.
+   Zavřete stránku.
+5. V poli **Rozpočet (Náklady celkem)** klikněte na toto pole pravým tlačítkem myši a na stránce **Řádky úlohy projektu** znovu zvolte **Přejít k podrobnostem**. Zobrazí se změny v plánu. Vidíte, že do plánu bylo přidáno 30 hodin.
+6. Zavřete stránku.
 
 Poté, co byla Tricia přidána do plánu pro tento řádek úkolu, pracuje v práci 25 hodin. Zadává tyto hodiny do deníku práce.
 
@@ -310,7 +280,7 @@ Poté, co byla Tricia přidána do plánu pro tento řádek úkolu, pracuje v pr
    - **Typ řádku**: **(prázdný)**
    - **Zúčtovací datum**: **(dnešní datum)**
    - **Číslo dokladu**: **J00002**
-   - **Číslo projektu**: **Guildford**
+   - **Číslo projektu**: **AB**
    - **Číslo úlohy projektu**: **1120**
    - **Typ**: **Zdroj**
    - **Číslo**: **Tricia**
@@ -326,9 +296,9 @@ Poté, co byla Tricia přidána do plánu pro tento řádek úkolu, pracuje v pr
    - **Číslo dokladu**: **J00003**
    - **Zúčtovací datum**: **(dnešní datum)**
 
-6. Na záložce **Úloha projektu** adejte následující informace:
+6. Na záložce **Úloha projektu** zadejte následující informace:
 
-   - **Číslo projektu**: **Guildford**
+   - **Číslo projektu**: **AB**
    - **Číslo úlohy projektu**: **1120**
 
 7. Výpočet spustíte kliknutím na tlačítko **OK**.
@@ -337,31 +307,31 @@ Poté, co byla Tricia přidána do plánu pro tento řádek úkolu, pracuje v pr
 
 8. V **Deníku projektů** vytvořte nový řádek s následujícími informacemi. Ujistěte se, že obě čísla projektů jsou sekvenční s čísly, která jste již použili:
 
-   - **Typ řádku**: **Plán**
-   - **Číslo projektu**: **Guildford**
+   - **Typ řádku**: **Rozpočet**
+   - **Číslo projektu**: **AB**
    - **Číslo úlohy projektu**: **1120**
    - **Typ**: **Zdroj**
    - **Číslo**: **Tricia**
    - **Množství**: **5**
 
-   Použitím typu řádku **Plán** existují aktualizace plánovaných nákladů a cen, ale žádné aktualizace smluvních nákladů a cen, které jsou fakturovány zákazníkovi.
+   Použitím typu řádku **Rozpočet** existují aktualizace plánovaných nákladů a cen, ale žádné aktualizace smluvních nákladů a cen, které jsou fakturovány zákazníkovi.
 
 9. Vyberte akci **Zaúčtovat**. Stránku zavřete kliknutím na tlačítko **OK**.
 10. Otevřete seznam **Projektů**.
-11. Vyberte projekt GUILDFORD a poté vyberte akci **Řádky úlohy projektu**.
-12. Vyberte řádek 1120 a v poli **Plán (náklady celkem)** klikněte pravým tlačítkem na částku. Chcete-li zobrazit informace, zvolte **Přejít k podrobnostem**.
+11. Vyberte projekt AB a potom v části **Řádky úlohy projektu** vyberte řádek 1120 a v poli **Rozpočet (celkové náklady)** klikněte pravým tlačítkem na částku. Chcete-li zobrazit informace, zvolte **Přejít k podrobnostem**.
 
    Změny se automaticky zadávají na řádku pro projekt č. 1120. V celkových nákladech na plánovanou práci bylo do plánu přidáno dalších pět hodin práce Tricie.
 
-13. Stránku zavřete kliknutím na tlačítko **Zavřít**.
-14. Klikněte pravým tlačítkem na částku v poli **Smlouva (náklady celkem)** a vyberte **Přejít k podrobnostem** pro zobrazení informací.
+12. Stránku zavřete kliknutím na tlačítko **Zavřít**.
+13. Klikněte pravým tlačítkem na částku v poli **Smlouva (náklady celkem)** a vyberte **Přejít k podrobnostem** pro zobrazení informací.
 
 Do celkové ceny za smlouvu je zahrnuto pouze původních nasmlouvaných 30 hodin, protože to bylo to, co bylo dohodnuto se zákazníkem.
 
 ## Kopírování projektu
-Společnost Prakash dosáhla dohody se zákazníkem, společností Selagorian Ltd, o zřízení 10 konferenčních místností. Dohoda se podobá dřívějšímu projektu. Proto ušetříte čas na zkopíroví dřívějšího projektu.
 
-Na stránce **Kopírovat projekt** můžete vybrat řádky úloh a úkolů, které chcete kopírovat. Můžete také zvolit zkopírování položek zdrojového projektu, která vytváří řádky plánování na základě skutečného využití, nebo můžete zkopírovat řádky plánování zdrojového projektu, které zkopírují původní řádky plánování do nového projektu. Poté můžete zvolit, jaký typ řádku plánování nebo řádku položky chcete zahrnout, a vybrat pouze to, co je relevantní pro tento nový projekt. Nakonec můžete vybrat projekt, do které chcete kopírovat, a definovat, zda mají být zkopírovány také ceny a množství.
+Prakash dosáhl dohody se zákazníkem, společností Selagorian Ltd, o zřízení 10 konferenčních místností. Dohoda se podobá dřívějšímu projektu. Proto ušetříte čas na zkopíroví dřívějšího projektu.
+
+Na stránce **Kopírovat projekt** můžete vybrat řádky úloh a úkoly, které chcete kopírovat. Můžete také zvolit zkopírování položek zdrojového projektu, která vytváří řádky plánování na základě skutečného využití, nebo můžete zkopírovat řádky plánování zdrojového projektu, které zkopírují původní řádky plánování do nového projektu. Poté můžete zvolit, jaký typ řádku plánování nebo řádku položky chcete zahrnout, a vybrat pouze to, co je relevantní pro tento nový projekt. Nakonec můžete vybrat projekt, do kterého chcete kopírovat, a definovat, zda mají být zkopírovány také ceny a množství.
 
 ### Kopírování projektu
 
@@ -374,11 +344,11 @@ Na stránce **Kopírovat projekt** můžete vybrat řádky úloh a úkolů, kter
 3. Vyberte akci **Kopírovat úlohy projektu z**.
 4. Na stránce **Kopírovat úlohy projektu** zadejte následující:
 
-   - **Číslo projektu**: **Guildford**
+   - **Číslo projektu**: **AB**
    - **Od čísla úlohy  projektu**: **1000**
    - **Zdroj**: **Řádky plánování projektu**
-   - **Zahrnout  typ řádku plánování**: **Plán + Smlouva**
-   - **Projekt č.**: **Guildford Nastavení 10 konferenčních místností**
+   - **Zahrnout  Typ řádku plánování**: **Rozpočet + Fakturovatelné**
+   - **Projekt č.**: **AB Nastavení 10 konferenčních místností**
    - Vyberte pole **Kopie dimenzí** a **Kopírovat množství**.
 
 5. Kliknutím na tlačítko **OK** zkopírujete projekt a kliknutím na tlačítko **OK** zavřete stránku s potvrzením.
@@ -386,6 +356,7 @@ Na stránce **Kopírovat projekt** můžete vybrat řádky úloh a úkolů, kter
 Porovnáním cen, řádků úkolů a řádků plánování úloh pro dva projekty můžete vidět, že informace byla úspěšně zkopírována.
 
 ## Provádění plateb podle splátek
+
 CRONUS právě dokončil velký projekt, který bude trvat rok. Vzhledem k tomu, že vyžaduje přidělení mnoha zdrojů, projektový manažer nastaví smlouvu tak, aby zákazník zaplatil část ceny předem, část po dokončení poloviny projektu a konečnou platbu po dokončení celého projektu.
 
 ### Nastavení nového účtu
@@ -394,13 +365,13 @@ CRONUS právě dokončil velký projekt, který bude trvat rok. Vzhledem k tomu,
 2. Na stránce **Účetní osnova** vyberte akci **Nový** a vytvořte novou kartu.
 3. Na kartě **Nový finanční účet** zadejte následující informace:
 
-   - **Číslo**: **6630**
+   - **Číslo**: **40255**
    - **Název**: **Platba za projekt**
 
-4. Na záložce **Účtování** v poli **Obecná  účto  skupina zboží** vyberte **RŮZNÉ**. Zavřete stránku.
-5. Na stránce **Účetní osnova** vyberte **Platba za projekt č. 6630** a poté vyberte akci **Odsadit účetní osnovu**. Potvrďte výběrem **Ano**.
+4. Na záložce **Účtování** v poli **Obecná  účto  skupina zboží** vyberte **Služby**. Zavřete stránku.
+5. Na stránce **Účetní osnova** vyberte **Platba za projekt č. 40255** a poté vyberte akci **Odsadit účetní osnovu**. Potvrďte výběrem **Ano**.
 
-Následující postupy ukazují, jak vytvořit novou úlohu, nastavit ceny a pak nastavit platbu podle splátky. V řádcích úloh projektu můžete vytvořit konkrétní řádky věnované platbě ve splátkách. Veškerá práce dokončená na projektu, která je přidána do plánu, bude zadána na řádcích použití. Pro každý řádek platebního úkolu na plánovacích řádcích je typem řádku Smlouva, což znamená, že zákazníkovi bude fakturována. Zadejte nový řádek pro zálohu. Na řádku úkolu použití můžete zadat informace o zboží a zdrojích, které byly použity v tomto projektu, což zvýší plán, například hodiny zaměstnanců a zboží použité v projektu.
+Následující postupy ukazují, jak vytvořit novou úlohu, nastavit ceny a pak nastavit platbu podle splátky. V řádcích úloh projektu můžete vytvořit konkrétní řádky věnované platbě ve splátkách. Veškerá práce dokončená na projektu, která je přidána do plánu, bude zadána na řádcích použití. Pro každý řádek platebního úkolu na plánovacích řádcích je typem řádku **Fakturovatelné**, což znamená, že zákazníkovi bude fakturována. Zadejte nový řádek pro zálohu. Na řádku úkolu použití můžete zadat informace o zboží a zdrojích, které byly použity v tomto projektu, což zvýší plán, například hodiny zaměstnanců a zboží použité v projektu.
 
 ### Provádění plateb podle splátek
 
@@ -412,60 +383,54 @@ Následující postupy ukazují, jak vytvořit novou úlohu, nastavit ceny a pak
    - **Účto skupina projektu**: **Nastavení**
    - **Metoda NV**: **Hodnota nákladů**
 
-3. Na kartě projektu vyberte akci **Zdroj**. Zadejte následující informace:
+3. Na kartě úlohy vyberte akci **Ceny** a poté zvolte akci **Zdroj**. Zadejte následující informace:
 
    - **Kód**: **Tricia**
    - **Jednotková cena**: **10**
 
    Zavřete stránku.
 
-4. Na kart **Projekt** zvolte akci **Řádky úlohy projektu**.
-
-   Následující tabulka popisuje řádky, které vytvoříte.
+4. Na kartě **Projekt** v části **Úlohy** přidejte řádky úloh, jak je popsáno v následující tabulce:
 
    | Řádek | Číslo úlohy projektu | Popis | Typ úlohy projektu |
-   |----------|------------------|---------------------------------------|-------------------|  
+   |------|--------------|----------------------|---------------|
    | 1 | 1000 | Platba zálohy | Účtování |
    | 2 | 2000 | Použití | Účtování |
    | 3 | 3000 | Platba - v polovině projektu | Účtování |
    | 4 | 4000 | Platba – dokončení | Účtování |
 
-5. Na stránce **Řádky úlohy projektu** vyberte úkol 1000 a poté vyberte akci **Řádky plánování projektu**.
+5. Vyberte úkol 1000 a poté vyberte akci **Řádky plánování projektu**.
+
 6. Vytvořte řádek plánování s následujícími informacemi:
 
-   - **Typ řádku**: **Smlouva**
-   - **Datum plánování**: **(dnešní datum)**
-   - **Typ**: **Finanční účet**
-   - **Číslo**: **6630**
-   - **Množství**: **1**
-   - **Jednotková cena**: **5000**
+   | Řádek | Typ řádku | Datum plánování | Typ | Číslo | Množství | jednotková cena |
+   |------|-----------|----------------|-------------|-------|----------|------------|
+   | 1 | Fakturovatelné | (dnešní datum) | Finanční účet | 40255 | 1 | 5000 |
 
    Zavřete stránku.
 
-7. Na stránce **Řádky úlohy projektu** vyberte **úkol 2000** a otevřete jeho **Řádky plánování projektu**.
+7. Vyberte úkol 2000 a poté vyberte akci **Řádky plánování projektu**.
 
-   Následující tabulka popisuje řádky plánování, které vytvoříte.
+8. Vytvořte řádek plánování s následujícími informacemi:
 
    | Řádek | Typ řádku | Datum plánování | Typ | Číslo | Množství |
-   |----------|---------------|-------------------|----------|---------|--------------|  
-   | 1 | Plán | (dnešní datum) | Zdroj | Tricia | 120 |
-   | 2 | Plán | (dnešní datum) | Zboží | 70104 | 10 |
+   |------|-----------|----------------|----------|--------|----------|
+   | 1 | Rozpočet | (dnešní datum) | Zdroj | Tricia | 120 |
+   | 2 | Rozpočet | (dnešní datum) | Zboží | 70104 | 10 |
 
    Zavřete stránku. Na stránce **Řádky úlohy projektu** můžete vidět, že částky plánu byly aktualizovány.
 
-8. Na stránce **Řádky úlohy projektu** vyberte **úkol 3000**.
-9. Vytvořte řádek plánování s následujícími informacemi:
+9. Vyberte úkol 32000 a poté vyberte akci **Řádky plánování projektu**.
 
-   - **Typ řádku**: **Smlouva**
-   - **Datum plánování**: **budoucí datum**
-   - **Typ**: **Finanční účet**
-   - **Číslo**: **6630**
-   - **Množství**: **1**
-   - **Jednotková cena**: **5000**
+10. Vytvořte řádek plánování s následujícími informacemi:
+
+   | Řádek | Typ řádku | Datum plánování | Typ | Číslo | Množství | jednotková cena |
+   |------|-----------|-----------------|-------------|-------|----------|------------|
+   | 1 | Fakturovatelné | (budoucí datum) | Finanční účet | 40255 | 1 | 5000 |
 
    Zavřete stránku.
 
-10. Vytvořte podobnou položku řádku plánování pro úkol projektu 4000.
+11. Vytvořte podobnou položku řádku plánování pro úkol projektu 4000.
 
 Nyní, když byly zadány řádky úkolu a plánování, Prakash vytvoří fakturu pro první platbu. Udělá to z řádků úkolu projektu, aby se ujistil, že faktura obsahuje pouze řádky pro první platbu. Objednávku odběratele můžete otevřít z plánovacích řádků nebo řádků úkolů.
 
@@ -479,6 +444,7 @@ Nyní, když byly zadány řádky úkolu a plánování, Prakash vytvoří faktu
 Tento návod vás provedl některými základními kroky práce s projekty v [!INCLUDE[prod_short](includes/prod_short.md)]. Naučili jste se, jak vytvořit novou práci, jak kopírovat úlohu a jak zacházet s platbami. Také jste viděli ukázku, jak sledovat hodiny a vytvářet faktury.
 
 ## Viz také
+
 [Návody obchodních procesů](walkthrough-business-process-walkthroughs.md)     
 [Nastavení projektů](projects-setup-projects.md)     
 [Použití zdrojů pro projekty](projects-how-use-resources.md)     

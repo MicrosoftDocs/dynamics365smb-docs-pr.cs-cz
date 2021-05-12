@@ -14,9 +14,9 @@
 
 ---
 # Doporučené postupy nastavení: Plánování dodávek
-Plánování dodávek je pro oblast podnikání klíčové. Pokud je vše v pořádku nastaveno a použito, pomáhá plánovač dodávek společnosti, aby zboží bylo vždy skladem a snižuje jak náklady na objednání tak i náklady na zásoby.
+Plánování dodávek je pro oblast podnikání klíčové. Pokud je vše v pořádku nastaveno a použito, pomáhá plánování dodávek společnosti, aby bylo zboží vždy skladem a snižovalo jak náklady na objednání tak i náklady na zásoby.
 
-Není možné předepsat jedno optimální nastavení všech oblastí plánování, protože, kvůli podnikovým proměnným, jako je situace na trhu a obchodní strategie, je každá společnost jiná. Existují však osvědčené postupy pro výběr možností v položkách karty a pole globálního nastavení, které pomohou společnosti začít s včasnými a nákladově efektivními toky zásob.
+Není možné předepsat jedno optimální nastavení všech oblastí plánování, protože, kvůli podnikovým proměnným, jako je situace na trhu a obchodní strategie, je každá společnost jiná. Existují však osvědčené postupy pro výběr možností na kartách zboží a pole globálního nastavení, které pomohou společnosti začít s včasnými a nákladově efektivními toky zásob.
 
 Následující témata poskytují informace o osvědčených postupech, jak nastavit vybraná pole plánování, která jsou klíčová pro plánování zásob a zásobování.
 
@@ -24,7 +24,7 @@ Následující témata poskytují informace o osvědčených postupech, jak nast
 |------------|-------------|  
 | Naučte se osvědčené postupy pro výběr nejlepšího způsobu přiobjednání, který chcete efektivně a ekonomicky naplánovat pro zboží podle nákladových a poptávkových vzorců. | [Doporučené postupy nastavení: Způsoby přiobjednání](setup-best-practices-reordering-policies.md) |
 | Naučte se osvědčené postupy pro specifikaci vybraných parametrů plánování v rámci definovaného Parametru plánování, abyste mohli naplánovat účinně a ekonomicky zboží podle kritických prvků, jako je dodací lhůta, účetní náklady a sezónnost. | [Doporučené postupy nastavení: Parametry](setup-best-practices-planning-parameters.md) |
-| Naučte se osvědčené postupy pro aplikaci obecné strategie dodávek na všechny karty zboží, jako je například vždy přijímání položek jeden den před tím, než jsou potřeba, nebo tlumení reakce systému na malé výkyvy poptávky. | [Doporučené postupy nastavení: Nastavení globálního plánování](setup-best-practices-global-planning-setup.md) |
+| Naučte se osvědčené postupy pro aplikaci obecné strategie dodávek na všechny karty zboží, jako je například přijímání zboží vždy jeden den před tím, než je zboží spotřebováno, nebo tlumení reakce systému na malé výkyvy poptávky. | [Doporučené postupy nastavení: Nastavení globálního plánování](setup-best-practices-global-planning-setup.md) |
 
 ## Viz také
 [Detaily návrhu: Plánování dodávek](design-details-supply-planning.md)     
