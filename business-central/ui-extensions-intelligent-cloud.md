@@ -17,9 +17,9 @@ ms.author: edupont
 
 # Základní rozšíření Intelligent Cloud
 
-Toto rozšíření vás provede procesem konfigurace připojení mezi místním řešením a vaším online prostředím [!INCLUDE [prod_short](includes/prod_short.md)], ať už proto, že migrujete do cloudu, nebo proto, že se připojujete do inteligentního cloudu z vašeho on-premises řešení. 
+Toto rozšíření vás provede procesem konfigurace připojení mezi místním řešením a vaším online prostředím [!INCLUDE [prod_short](includes/prod_short.md)], ať už proto, že migrujete do cloudu, nebo proto, že se připojujete do inteligentního cloudu z vašeho on-premises řešení.
 
-Po konfiguraci připojení můžete migrovat data nebo spravovat replikace dat z on-premises řešení do svého [! ZAHRNOUT[prod_short](includes/prod_short.md)] cloudového tenanta. Toto rozšíření bude fungovat ve spojení s rozšířením pro replikaci dat, které je k dispozici pro vaše konkrétní on-premises řešení. Další informace naleznete v tématu [Spuštění Nástroje pro migraci do cloudu](/dynamics365/business-central/dev-itpro/administration/migration-tool).
+Po konfiguraci připojení můžete migrovat data nebo spravovat replikace dat z on-premises řešení do svého [!INCLUDE [prod_short](includes/prod_short.md)] cloudového tenanta. Toto rozšíření bude fungovat ve spojení s rozšířením pro replikaci dat, které je k dispozici pro vaše konkrétní on-premises řešení. Další informace naleznete v tématu [Spuštění Nástroje pro migraci do cloudu](/dynamics365/business-central/dev-itpro/administration/migration-tool).
 
 ## Viz také
 

@@ -21,61 +21,61 @@ Následující tabulka ukazuje vztah mezi různými typy položek hodnot zásob 
 
 | **Typ položky zboží** | **Typ položky ocenění** | **Typ odchylky** | **Očekáváné náklady** | **Účet** | **Protiúčet** |
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
-| Nákup | Přímé náklady | Ano | Zásoby (dočasné) | Účet adjustace zboží (Dočasné) |
-| Nákup | Přímé náklady | Ne | Zásoby | Použité přímé náklady |
-| Nákup | Nepřímé náklady | Ne | Zásoby | Vyrvonaná režie |
+| Nákup | Přímé náklady | | Ano | Zásoby (dočasné) | Účet adjustace zboží (Dočasné) |
+| Nákup | Přímé náklady | | Ne | Zásoby | Použité přímé náklady |
+| Nákup | Nepřímé náklady | | Ne | Zásoby | Použitá režie |
 | Nákup | Odchylka | Nákup | Ne | Zásoby | Odchylka nákupu |
-| Nákup | Přecenění | Ne | Zásoby | Oprava zásob |
-| Nákup | Zaokrouhlení | Ne | Zásoby | Oprava zásob |
-| Prodej | Přímé náklady | Ano | Zásoby (dočasné) | COGS (Interim) |
-| Prodej | Přímé náklady | Ne | Zásoby | COGS |
-| Prodej | Přecenění | Ne | Zásoby | Oprava zásob |
-| Prodej | Zaokrouhlení | Ne | Zásoby | Oprava zásob |
-| Příjem, Výdej, Transfer | Přímé náklady | Ne | Zásoby | Oprava zásob |
-| Příjem, Výdej, Transfer | Přecenění | Ne | Zásoby | Oprava zásob |
-| Příjem, Výdej, Transfer | Zaokrouhlení | Ne | Zásoby | Oprava zásob |
-| Spotřeba (Výroby) | Přímé náklady | Ne | Zásoby | Nedokončená výroba |
-| Spotřeba (Výroby) | Přecenění | Ne | Zásoby | Oprava zásob |
-| Spotřeba (Výroby) | Zaokrouhlení | Ne | Zásoby | Oprava zásob |
-| Spotřeba montáže | Přímé náklady | Ne | Zásoby | Oprava zásob |
-| Spotřeba montáže | Přímé náklady | Ne | Použité přímé náklady | Oprava zásob |
-| Spotřeba montáže | Nepřímé náklady | Ne | Vyrvonaná režie | Oprava zásob |
-| Výstup (Výroby) | Přímé náklady | Ano | Zásoby (dočasné) | Nedokončená výroba |
-| Výstup (Výroby) | Přímé náklady | Ne | Zásoby | Nedokončená výroba |
-| Výstup (Výroby) | Nepřímé náklady | Ne | Zásoby | Vyrvonaná režie |
+| Nákup | Přecenění | | Ne | Zásoby | Oprava zásob |
+| Nákup | Zaokrouhlení | | Ne | Zásoby | Oprava zásob |
+| Prodej | Přímé náklady | | Ano | Zásoby (dočasné) | Nákl. na prod. zboží (dočasné) |
+| Prodej | Přímé náklady | | Ne | Zásoby | Nákl. na prod. zboží |
+| Prodej | Přecenění | | Ne | Zásoby | Oprava zásob |
+| Prodej | Zaokrouhlení | | Ne | Zásoby | Oprava zásob |
+| Příjem, Výdej, Transfer | Přímé náklady | | Ne | Zásoby | Oprava zásob |
+| Příjem, Výdej, Transfer | Přecenění | | Ne | Zásoby | Oprava zásob |
+| Příjem, Výdej, Transfer | Zaokrouhlení | | Ne | Zásoby | Oprava zásob |
+| Spotřeba (Výroby) | Přímé náklady | | Ne | Zásoby | Nedokončená výroba |
+| Spotřeba (Výroby) | Přecenění | | Ne | Zásoby | Oprava zásob |
+| Spotřeba (Výroby) | Zaokrouhlení | | Ne | Zásoby | Oprava zásob |
+| Spotřeba montáže | Přímé náklady | | Ne | Zásoby | Oprava zásob |
+| Spotřeba montáže | Přímé náklady | | Ne | Použité přímé náklady | Oprava zásob |
+| Spotřeba montáže | Nepřímé náklady | | Ne | Použitá režie | Oprava zásob |
+| Výstup (Výroby) | Přímé náklady | | Ano | Zásoby (dočasné) | Nedokončená výroba |
+| Výstup (Výroby) | Přímé náklady | | Ne | Zásoby | Nedokončená výroba |
+| Výstup (Výroby) | Nepřímé náklady | | Ne | Zásoby | Použitá režie |
 | Výstup (Výroby) | Odchylka | Materiál | Ne | Zásoby | Material Variance |
 | Výstup (Výroby) | Odchylka | Kapacita | Ne | Zásoby | Odchylka kapacit |
 | Výstup (Výroby) | Odchylka | Subdodávky | Ne | Zásoby | Odchylka subdodávky |
 | Výstup (Výroby) | Odchylka | Režie kapacit | Ne | Zásoby | Odchylka režie kapacity |
 | Výstup (Výroby) | Odchylka | Režie výroby | Ne | Zásoby | Odchylka režie výroby |
-| Výstup (Výroby) | Přecenění | Ne | Zásoby | Oprava zásob |
-| Výstup (Výroby) | Zaokrouhlení | Ne | Zásoby | Oprava zásob |
-| Výstup montáže | Přímé náklady | Ne | Zásoby | Oprava zásob |
-| Výstup montáže | Přecenění | Ne | Zásoby | Oprava zásob |
-| Výstup montáže | Nepřímé náklady | Ne | Zásoby | Vyrvonaná režie |
+| Výstup (Výroby) | Přecenění | | Ne | Zásoby | Oprava zásob |
+| Výstup (Výroby) | Zaokrouhlení | | Ne | Zásoby | Oprava zásob |
+| Výstup montáže | Přímé náklady | | Ne | Zásoby | Oprava zásob |
+| Výstup montáže | Přecenění | | Ne | Zásoby | Oprava zásob |
+| Výstup montáže | Nepřímé náklady | | Ne | Zásoby | Použitá režie |
 | Výstup montáže | Odchylka | Materiál | Ne | Zásoby | Material Variance |
 | Výstup montáže | Odchylka | Kapacita | Ne | Zásoby | Odchylka kapacit |
 | Výstup montáže | Odchylka | Režie kapacit | Ne | Zásoby | Odchylka režie kapacity |
 | Výstup montáže | Odchylka | Režie výroby | Ne | Zásoby | Odchylka režie výroby |
-| Výstup montáže | Zaokrouhlení | Ne | Zásoby | Oprava zásob |
+| Výstup montáže | Zaokrouhlení | | Ne | Zásoby | Oprava zásob |
 
 ## Z položek kapacity
-Následující tabulka ukazuje vztah mezi různými typy položek ocenění kapacity, účtů a protiúčtů v hlavní knize. Položky kapacity představují pracovní dobu spotřebovou při montážních nebo výrobě.
+Následující tabulka ukazuje vztah mezi různými typy položek ocenění kapacity, účtů a protiúčtů v hlavní knize. Položky kapacity představují pracovní dobu spotřebovou při montáži nebo výrobě.
 
 | **Typ práce** | **Typ položky kapacity** | **Typ položky ocenení** | **Účet** | **Protiúčet** |
 |-------------------|------------------------------------|--------------------------|-----------------|---------------------------|  
 | Montáž | Zdroj | Přímé náklady | Použité přímé náklady | Oprava zásob |
-| Montáž | Zdroj | Nepřímé náklady | Vyrvonaná režie | Oprava zásob |
+| Montáž | Zdroj | Nepřímé náklady | Použitá režie | Oprava zásob |
 | Výroba | Strojní centra/Pracovní centra | Přímé náklady | Účet nedokončené výroby | Použité přímé náklady |
-| Výroba | Strojní centra/Pracovní centra | Nepřímé náklady | Účet nedokončené výroby | Vyrvonaná režie |
+| Výroba | Strojní centra/Pracovní centra | Nepřímé náklady | Účet nedokončené výroby | Použitá režie |
 
 ## Náklady na montáž jsou vždy skutečné
-Jak je uvedeno ve výše uvedené tabulce, účtování montáže není v průběžných účtech reprezentováno. Důvodem je, že koncept nedokončené výroby (NV) se na účtování výstupu montáže nevztahuje, na rozdíl od účtování výstupu výroby. Náklady na motnáž jsou zaúčtovány pouze jako skutečné náklady, nikdy jako očekávané náklady.
+Jak je uvedeno v tabulce výše, účtování montáže není v průběžných účtech reprezentováno. Důvodem je, že koncept nedokončené výroby (NV) se na účtování výstupu montáže nevztahuje, na rozdíl od účtování výstupu výroby. Náklady na motnáž jsou zaúčtovány pouze jako skutečné náklady, nikdy jako očekávané náklady.
 
 Pro více informací navštivte [Detaily návrhu: Účtování montážní zakázky](design-details-assembly-order-posting.md).
 
 ## Výpočet částky zaúčtované do hlavní finanční knihy
-Následující pole v tabulce **Položky ocenení** se používají k výpočtu částky očekávané ceny, která se zaúčtuje do hlavní knihy:
+Následující pole v tabulce **Položky ocenení** se používají k výpočtu částky nákladů, která se zaúčtuje do hlavní knihy:
 
 - Částka nákladů (skutečná)
 - Náklady zaúčtované do Hlavní finančí knihy

@@ -24,7 +24,7 @@ Fráze jako "plánování spustění" a "spustit MRP" odkazují na výpočet hla
 
 Algoritmy plánování používané pro MPS i MRP jsou identické. Algoritmy plánování používají síťování, opětovné použití stávajících objednávek dodávek a zprávy akcí. Proces plánovacího systému zkoumá, co je potřeba nebo bude potřeba (poptávka) a co je dostupné nebo očekávané (nabídka). Když jsou tyto veličiny vzájemně propojeny, zobrazí se v plánovacím listu zprávy o akci. Zprávy o akci jsou návrhy na vytvoření nové objednávky, změnu objednávky (množství nebo datum) nebo zrušení stávající objednávky. Objednávky dodávek mohou být výrobní zakázky, nákupní objednávky a objednávky transferu. Pro více informací navštivte [Detaily návrhu: Plánování dodávek](design-details-supply-planning.md).
 
-Výsledek plánování se vypočítá částečně ze sad poptávky a nabídky v databázi a částečně z nastavení karet skladových jednotek nebo karet zboží, výrobních kusovníků a tng postupu.
+Výsledek plánování se vypočítá částečně ze sad poptávky a nabídky v databázi a částečně z nastavení karet skladových jednotek nebo karet zboží, výrobních kusovníků a TNG postupů.
 
 ## Návod
 Tento návod ukazuje, jak pomocí systému plánování dodávek automaticky plánovat všechny nákupní a výrobní objednávky potřebné k výrobě 15 cestovních jízdních kol požadovaných na různých prodejních objednávkách. Chcete-li poskytnout jasný a realistický návod, je počet řádků plánování vymezen odfiltrováním všech ostatních sad poptávky a nabídky v demonstrační společnosti CRONUS s výjimkou prodejní poptávky v lokaci EAST.
@@ -44,22 +44,22 @@ Tento návod ilustruje následující úkoly:
 ## Předpoklady
 K dokončení tohoto návodu budete potřebovat:
 
-- Demonstrační společnost CRONUS International Ltd.  
+- Demonstrační společnost CRONUS CZ s.r.o.  
 - Chcete-li změnit různé hodnoty nastavení položky, postupujte podle kroků v části „Příprava ukázkových dat“, dále v tomto návodu.
 
 ## Příběh
-Zákazník, společnost Cannon Group PLC, si objedná pět cestovních kol k odeslání dne 02-05-2021 (5. února).
+Zákazník, společnost BYT-KOMPLET s.r.o., si objedná pět cestovních kol k odeslání dne 02-05-2021 (5. února).
 
 Eduardo, plánovač výroby, provádí rutinní plánování dodávek pro první únorový týden 2021. Filtruje na své vlastní lokaci, EAST, a před výpočtem počátečního plánu dodávek zadá plánovací interval pracovního data (01-23-2021) do 02-07-2021.
 
-Jediným požadavkem v tomto týdnu je objednávka odběratele Cannon Group. Eduardo vidí, že žádný z řádků plánování nemá varování, a pokračuje ve vytváření objednávek dodávek beze změn pro navrhované řádky plánování.
+Jediným požadavkem v tomto týdnu je objednávka odběratele BYT-KOMPLET. Eduardo vidí, že žádný z řádků plánování nemá varování, a pokračuje ve vytváření objednávek dodávek beze změn pro navrhované řádky plánování.
 
 Následujícího dne, před zahájením nebo odesláním některé z počátečních objednávek na dodávku, je Eduardo upozorněn, že jiný zákazník si objednal deset cestovních kol k odeslání 02-12-2021. Přepočítá, aby upravil plán dodávek podle změny poptávky. Přepočet vám poskytne plán čistých změn, který navrhuje změny času i množství některých objednávek dodávek vytvořených při prvním spuštění.
 
 Během různých plánovacích kroků Eduardo vyhledává zahrnuté objednávky a pomocí funkce Sledování objednávek sleduje, která poptávka je pokryta kterou nabídkou.
 
 ## Příprava ukázkových dat
-Vytvořte skladové jednotky (SKU) pro cestovní kolo a výběr jeho komponentů, čísla položek 1001 až 1300. (Některé komponenty jsou kvůli zjednodušení postupů vyloučeny.) Upravte parametry plánování vybraných komponent, abyste získali transparentnější výsledek plánování.
+Vytvořte skladové jednotky (SKJ) pro cestovní kolo a výběr jeho komponentů, čísla položek 1001 až 1300. (Některé komponenty jsou kvůli zjednodušení postupů vyloučeny.) Upravte parametry plánování vybraných komponent, abyste získali transparentnější výsledek plánování.
 
 ### Vytváření skladových jednotek
 
@@ -78,7 +78,7 @@ Vytvořte skladové jednotky (SKU) pro cestovní kolo a výběr jeho komponentů
    |-------------------------------------------|-----------------------------------------------|-------------------------------------------------|---------------------------------------------|  
    | Dávka-pro-dávku | Prázdné | 2W | 2W |
 
-4. Opakujte kroky 2 a 3 pro všechny SKU v rozsahu čísel od 1100 do 1300.
+4. Opakujte kroky 2 a 3 pro všechny SKJ v rozsahu čísel od 1100 do 1300.
 
 Tím je dokončena příprava ukázkových dat pro návod.
 
@@ -93,7 +93,7 @@ V reakci na novou prodejní objednávku na pět turistických kol zahajuje Ricar
 
    | Zákazník-název | Datum odeslání | Číslo zboží | Lokace | Množství |
    |----------------------------|-------------------|--------------|--------------|--------------|  
-   | BYT-KOMPLET | 02-05-2014 | 1001 | VÝCHOD | 5 |
+   | BYT-KOMPLET | 02-05-2014 | 1001 | EAST | 5 |
 
 4. Přijměte varování o dostupnosti a kliknutím na tlačítko **Ano** zaznamenejte nové množství poptávky.
 
@@ -114,7 +114,7 @@ V reakci na novou prodejní objednávku na pět turistických kol zahajuje Ricar
    Dále ověřte, zda se tento řádek plánování vztahuje k prodejní objednávce BYT-KOMPLET použitím **Sledování zakázky**, která dynamicky propojuje poptávku s plánovanou nabídkou.
 
 5. Vyberte nový řádek plánování a pak zvolte akci **Sledování zakázky**.
-6. Na stránce **Sledování zakázky**yberte akci **Zobrazit**.
+6. Na stránce **Sledování zakázky** vyberte akci **Zobrazit**.
 
    Je zobrazena prodejní objednávka na pět turistických kol odeslaných na číslo zákazníka 10 000 dne 02-05-2021.
 
@@ -137,9 +137,9 @@ V reakci na novou prodejní objednávku na pět turistických kol zahajuje Ricar
 ## Analýza výsledku plánování
 Chcete-li analyzovat navrhovaná množství, Eduardo rozbalí vybrané řádky plánování a zobrazí položky sledování objednávek a parametry plánování.
 
-Na stránce **Plánovací sešit** si ve sloupci **Datum vyřízení** všimněte, že navrhované objednávky dodávek jsou naplánovány zpětně od data splatnosti prodejní objednávky, 02-05-2021. Časová osa začíná na horním řádku plánování s výrobní zakázkou na výrobu hotových cestovních kol. Časová osa končí na spodním řádku plánování nákupní objednávky pro jednu z položek na nejnižší úrovni, 1255, Socket Back, splatná 01-30-2021. Stejně jako plánovací řádek pro položku 1251, Axle Back Wheel, představuje tento řádek nákupní objednávku pro komponenty, které jsou splatné k datu zahájení jeho vyrobené nadřazené položky podsestavy 1250, což je splatné 02-03-2014. V celém listu můžete vidět, že všechny podkladové položky jsou splatné k počátečnímu datu jejich rodičů.
+Na stránce **Plánovací sešit** si ve sloupci **Datum vyřízení** všimněte, že navrhované objednávky dodávek jsou naplánovány zpětně od data splatnosti prodejní objednávky, 02-05-2021. Časová osa začíná na horním řádku plánování s výrobní zakázkou na výrobu hotových cestovních kol. Časová osa končí na spodním řádku plánování nákupní objednávky pro jednu z položek na nejnižší úrovni, 1255, Zadní lůžko, splatná 01-30-2021. Stejně jako plánovací řádek pro položku 1251, Oska zadního kola, představuje tento řádek nákupní objednávku pro komponenty, které jsou splatné k datu zahájení jeho vyrobené nadřazené položky podsestavy 1250, což je splatné 02-03-2014. V celém listu můžete vidět, že všechny podkladové položky jsou splatné k počátečnímu datu jejich rodičů.
 
-Řádek plánování položky 1300, Chain Assy, navrhuje deset kusů. To se liší od pěti kusů, které podle nás potřebují ke splnění prodejní objednávky. Pokračujte zobrazením záznamů sledování objednávky.
+Řádek plánování položky 1300, Soustava převodů, navrhuje deset kusů. To se liší od pěti kusů, které podle nás potřebují ke splnění prodejní objednávky. Pokračujte zobrazením záznamů sledování objednávky.
 
 ### Zobrazení položek sledování objednávek pro zboží 1300
 
@@ -154,7 +154,7 @@ Na stránce **Plánovací sešit** si ve sloupci **Datum vyřízení** všimnět
 ### Kontrola parametru plánování
 
 1. Na stránce **Nesledované prvky plánování** vyberte řádek sledování objednávky pro položku 1300.
-2. Vyberte pole **Číslo zboží**a poté vyberte akci **Rozšíření**.
+2. Vyberte pole **Číslo zboží** a poté vyberte akci **Rozšíření**.
 3. Na stránce **Přehled zboží** vyberte akci **Skladové jednotky**.
 4. Na stránce **Přehled skladových jednotek** otevřete kartu EAST jednotky skladu.
 5. Na záložce **Plánování** si všimněte, že pole **Minimální obj.množství** obsahuje 10.
@@ -198,7 +198,7 @@ Poté Eduardo převede navrhované řádky plánování na dodávání objednáv
 4. Klepnutím na tlačítko **OK** automaticky vytvoříte všechny navrhované objednávky spotřebního materiálu.
 5. Zavřete prázdnou stránku **Plánovací sešit**.
 
-Tím se dokončí počáteční výpočet, analýza a vytvoření plánu dodávek poptávky v lokalitě EAST v prvním únorovém týdnu. V následující části si další zákazník objedná deset turistických kol a Eduardo musí znovu nastoupit.
+Tím se dokončí počáteční výpočet, analýza a vytvoření plánu dodávek poptávky v lokaci EAST v prvním únorovém týdnu. V následující části si další zákazník objedná deset turistických kol a Eduardo musí znovu nastoupit.
 
 ## Vytvoření plánovaného pohybu
 Následujícího dne, před spuštěním nebo zaúčtováním jakýchkoli objednávek na dodávky, dorazí nová prodejní objednávka od společnosti Libros S.A. pro odeslání deseti turistických kol 02-12-2021. Eduardo je informován o nové poptávce a pokračuje v přeplánování, aby upravil aktuální plán dodávek. Eduardo používá funkci Vypočítat plánovaný pohyb k výpočtu pouze změn provedených v poptávce nebo nabídce od posledního běhu plánování. Kromě toho rozšiřuje plánovací období na 02-14-2021 tak, aby zahrnovalo novou prodejní poptávku na období 02-12-2014.
@@ -212,9 +212,9 @@ Systém plánování vypočítává nejlepší způsob, jak pokrýt poptávku po
 
    | Zákazník-název | Datum odeslání | Číslo zboží | Lokace | Množství |
    |----------------------------|-------------------|--------------|--------------|--------------|  
-   | Libros S.A. | 02-12-2021 | 1001 | VÝCHOD | 10 |
+   | Libros S.A. | 02-12-2021 | 1001 | EAST | 10 |
 
-3. Přijměte varování o dostupnosti a kliknutím na tlačítko **Yes** zaznamenejte množství poptávky.
+3. Přijměte varování o dostupnosti a kliknutím na tlačítko **Ano** zaznamenejte množství poptávky.
 4. Pokračujte v přeplánování a upravte aktuální plán dodávek.
 5. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat<"), zvolte **Plánovací sešit** a poté vyberte související odkaz.
 6. Vyberte akci **Vypočítat plánovaný pohyb**.
@@ -254,7 +254,7 @@ Několik řádků plánování je jednoduše vynásobeno třemi, aby bylo možn�
 ### Zobrazení existující objednávky
 
 1. V řádku plánování zboží 1250 zvolte pole **Číslo  ref.zakázky**.
-2. Na stránce **Pevně plánovaná výr. zakázky** pro Zadní náboj. Otevře se stávající objednávka deseti kusů, kterou jste vytvořili při prvním plánování.
+2. Přejděte na stránku **Pevně plánovaná výr. zakázky** pro Zadní náboj. Otevře se stávající objednávka deseti kusů, kterou jste vytvořili při prvním plánování.
 3. Zavřete pevně plánovanou výrobní zakázku.
 
 Tím je dokončen návod, jak se plánovací systém používá k automatické detekci poptávky, výpočtu příslušných objednávek dodávek podle parametrů poptávky a plánování a následnému automatickému vytvoření různých typů objednávek dodávek s příslušnými daty a množstvími.
