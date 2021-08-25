@@ -17,8 +17,8 @@ Na konci období uživatelé provádějí fyzickou inventuru, aby sladili skute�
 
 Z výše uvedených důvodů tato funkce poskytuje následující sestavy:
 
-- Seznam fyzické inventury - používá se k tisku dokumentů z deníku fyzické inventury (stávající sestava byla vylepšena).
-- Doklad o fyzické inventuře - používá se k tisku zaúčtované fyzické inventury.  
+- **Seznam fyzické inventury** - používá se k tisku dokumentů z deníku fyzické inventury (stávající sestava byla vylepšena).
+- **Doklad o fyzické inventuře** - používá se k tisku zaúčtované fyzické inventury.  
 
 ## Viz také
 
