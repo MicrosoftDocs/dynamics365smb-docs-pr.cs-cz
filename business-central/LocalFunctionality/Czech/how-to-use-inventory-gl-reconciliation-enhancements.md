@@ -21,7 +21,7 @@ Tyto úpravy byly provedeny v uživatelském rozhraní společně se změnami po
 3. Klikněte na funkci **Zobrazit matici**.
 4. Na zobrazeném pohledu můžete vidět přidané účty.
 
-![Inventory - G/L Reconciliation](media/inventory_GL_reconciliation.png)
+![Inventory - G/L Reconciliation](Media/inventory_GL_reconciliation.png)
 
 
 ## Viz také
