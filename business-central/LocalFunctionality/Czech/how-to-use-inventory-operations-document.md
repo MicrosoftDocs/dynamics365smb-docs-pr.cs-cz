@@ -14,11 +14,11 @@ ms.author: v-pejano
 # Skladové účetní doklady  
 
 Uživatelé provádějí výdeje, příjmy, převody a přecenění zásob. Musí mít pro tyto operace možnost tisknout doklady, které splňují zákonné požadavky.
-Uživatelé také chtějí tisknout doklady pro již zúčtované operace zásob.  
+Uživatelé také chtějí tisknout doklady pro již zaúčtované operace zásob.  
 
 Z výše uvedených důvodů tato funkce poskytuje následující sestavy:  
-- Sestava Pohyb zásob se používá k tisku dokumentů z deníků zboží.
-- Sestava Zaúčtovaný doklad zásob se používá k tisku zaúčtovaných operací zásob.  
+- **Pohyb zásob** - používá se k tisku dokumentů z deníků zboží.
+- **Zaúčtovaný doklad zásob** - používá se k tisku zaúčtovaných operací zásob.  
 
 ## Viz také
 
