@@ -25,7 +25,7 @@ Díky nastavení výchozích šablon skladového pohybu pro tyto pohyby zásob v
 2. Na stránce **Nastavení zásob** na záložke Fyzická inventúra vyplňte pole **Výchozí šablona pro příjem fyzické inventury** a **Výchozí šablona pro výdej fyzické inventury**.
 3. Poté můžete stránku zavřít.
 
-![Physical inventory - advances features](/media/advances_features_physical_inventury.png)
+![Physical inventory - advances features](media/advances_features_physical_inventury.png)
  
 ## Použití
 ### Šablona v deníku fyzické inventury
