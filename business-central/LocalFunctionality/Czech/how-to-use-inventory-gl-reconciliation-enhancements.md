@@ -13,8 +13,16 @@ ms.author: v-pejano
 
 # Odsouhlasení zásob proti účetnictví
 
-Vzhledem k tomu, že česká lokalizovaná aplikace obsahuje úpravy v účtování zásob, musí být matice **Odsouhlasení zásob proti účetnictví** doplněna o speciální účty - účet zaokrouhlení zásob a účty změny stavu zásob nedokončené výroby.  
+Vzhledem k tomu, že česká lokalizovaná aplikace obsahuje úpravy v účtování zásob, musí být matice **Odsouhlasení zásoby - finance** doplněna o speciální účty - účet zaokrouhlení zásob a účty změny stavu zásob nedokončené výroby.  
 Tyto úpravy byly provedeny v uživatelském rozhraní společně se změnami postupu výpočtu.
+
+1. Pomocí vyhledávací funkce ![Žárovky, která otevře funkci Řekněte mi, co chcete dělat (Alt + Q)](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat (Alt + Q)") vyhledejte **Odsouhlasení zásoby - finance**.
+2. Na stránce **Odsouhlasení zásoby - finance** zadejte potřebné filtry.
+3. Klikněte na funkci **Zobrazit matici**.
+4. Na zobrazeném pohledu můžete vidět přidané účty.
+
+![Inventory - G/L Reconciliation](Media/inventory_GL_reconciliation.png)
+
 
 ## Viz také
 
