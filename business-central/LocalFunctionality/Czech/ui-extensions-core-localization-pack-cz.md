@@ -18,15 +18,15 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
 ## Dostupnost funkcí
 
 - **Finance**
-  - [Opravné účtování (červené storno)](how-to-use-corrections-posting.md) **2021 release wave 1**
+  - [Opravné účtování (červené storno)](how-to-use-corrections-posting.md) **Nyní k dispozici**
   - [Statutární informace o společnosti](statutory-company-information.md) **Nyní k dispozici**
-  - [Interní účetní doklady](internal-financial-documents.md) **Nyní k dispozici**
+  - [Interní účetní doklady](internal-financial-documents) **Nyní k dispozici**
   - [Účetní tiskové doklady](accounting-output-documents.md) **Nyní k dispozici**
-  - [Účetní schémata - rozšíření](how-to-use-accounting-schedule-feature.md) **Červenec 2021**
+  - [Účetní schémata - rozšíření](how-to-use-accounting-schedule-feature.md) **Nyní k dispozici**
   - [Statutární výkazy](statutory-statements.md) **Nyní k dispozici**
   - [Uzávěrkové operace](year-close-operations.md) **Nyní k dispozici**
+  - [Vyrovnání věcných položek](general-ledger-entries-application.md) **Nyní k dispozici**
   - [Aktualizace směnného kurzu](how-to-update-exchange-rate.md) **Nyní k dispozici**
-  - [Rozšířené účtování nedokončené výroby](wip-extended-posting.md) **Červenec 2021**
   
 - **DPH**
   - [Datum DPH](how-to-setup-vat-date.md) **Nyní k dispozici**
@@ -39,38 +39,37 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
   - [Režim přenesení daňové povinnosti](how-to-setup-and-post-reverse-charge.md) **Nyní k dispozici**
   - [Kontrolní hlášení DPH](vat-control-report.md) **Nyní k dispozici**
   - [Sestavy DPH](vat-reports-cz.md) **Nyní k dispozici**
-  - [Korekce DPH v lokální měně](how-to-setup-vat-correction-local-currency.md) **2021 release wave 1**
+  - [Korekce DPH v lokální měně](how-to-setup-vat-correction-local-currency.md) **Nyní k dispozici**
 
 - **Bankovnictví a platby**
   - [Elektronická evidence tržeb (EET)](eet.md) **Nyní k dispozici**
-  - Tuzemské bankovnictví - symboly a platby  **2021 release wave 1**
+  - Tuzemské bankovnictví - symboly a platby  **Nyní k dispozici**
 
 - **Závazky a pohledávky**
-  - [Úprava směnných kurzů (Přepočet pohledávek a závazků)](how-to-use-exchange-rates-adjustment-feature.md) **2021 release wave 1**
-  - [Více účtů pohledávek a závazků](how-to-use-multiple-payables-receivables-accounts.md) **2021 release wave 1**
+  - [Úprava směnných kurzů (Přepočet pohledávek a závazků)](how-to-use-exchange-rates-adjustment-feature.md) **Nyní k dispozici**
+  - [Více účtů pohledávek a závazků](how-to-use-multiple-payables-receivables-accounts) **Nyní k dispozici**
   - [Odsouhlasení pohledávek a závazků](customers-vendors-reconciliations.md) **Nyní k dispozici**
   - [Opravné prodejní doklady](sales-correcting-documents.md) **Nyní k dispozici**
   - [Aktualizace kontaktů z ARES](how-to-update-contacts-from-ares.md) **Nyní k dispozici**
   - [Nový design výstupních dokladů](new-design-of-output-documents.md) **Nyní k dispozici**
 
 - **Intrastat**
-  - [Nastavení modulu Intrastat](intrastat.md) **2021 release wave 1**
-  - [Účtování transakcí pro Intrastat](intrastat.md) **2021 release wave 1**
-  - [Příprava deníku Intrastat](intrastat.md) **2021 release wave 1**
-  - [Export hlášení Intrastat do formátu CSV](intrastat.md) **2021 release wave 1**
+  - [Nastavení modulu Intrastat](intrastat.md) **Nyní k dispozici**
+  - [Účtování transakcí pro Intrastat](intrastat.md) **Nyní k dispozici**
+  - [Příprava deníku Intrastat](intrastat.md) **Nyní k dispozici**
+  - [Export hlášení Intrastat do formátu CSV](intrastat.md) **Nyní k dispozici**
 
 - **Zásoby**
-  - [Účtování zaokrouhlení v zásobách](how-to-setup-round-account-in-inventory.md) **Červenec 2021**
-  - [Odsouhlasení zásob proti účetnictví](how-to-use-inventory-gl-reconciliation-enhancements.md) **2021 release wave 1**
+  - [Odsouhlasení zásob proti účetnictví](how-to-use-inventory-gl-reconciliation-enhancements.md) **Nyní k dispozici**
   - [Rozšíření přípravy fyzické inventury](advanced-features-physical-inventory.md) **Nyní k dispozici**
   - [Skladové účetní doklady](how-to-use-inventory-operations-document.md) **Nyní k dispozici**
   - [Doklady fyzické inventury](how-to-use-inventory-counting-documents.md) **Nyní k dispozici**
 
 - **Obecné**
-  - [Rozšířené uživatelské kontroly](how-to-setup-extended-user-control.md) **2021 release wave 1**
+  - [Rozšířené uživatelské kontroly](how-to-setup-extended-user-control.md) **Nyní k dispozici**
   - [Skupiny finančních účtů – více okruhové účetnictví](how-to-use-multi-circuit-accounting.md) **Nyní k dispozici**
   - [Kontrola změn účto skupin – pro zákazníka, dodavatele, zboží a bankovní účet](check-of-posting-group-changing.md) **Nyní k dispozici**
-  - [Kontrola výdejů v zásobách – časová posloupnost](check-output-inventory-time-sequence.md) **2021 release wave 1**
+  - [Kontrola výdejů v zásobách – časová posloupnost](check-output-inventory-time-sequence.md) **Nyní k dispozici**
   - [Šablony pohybů zásob](inventory-movement-templates.md) **Nyní k dispozici**
   - [Šablony skladových jednotek](stockkeeping-unit-templates.md) **Nyní k dispozici**
 

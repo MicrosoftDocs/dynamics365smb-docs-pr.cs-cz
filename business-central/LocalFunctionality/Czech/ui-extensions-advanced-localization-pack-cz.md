@@ -18,20 +18,22 @@ Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md
 ## Dostupnost funkcí
 
 - **Finance**
-  - [Vyrovnání věcných položek](general-ledger-entries-application.md) **Červen 2021**
+  - [Rozšířené účtování nedokončené výroby](wip-extended-posting.md) **Nyní k dispozici**
+  - [Vyrovnání věcných položek](general-ledger-entries-application.md) **Nyní k dispozici**
 
 - **Zásoby**
-  - [Účto skupiny v objednávkách transferu](how-to-use-posting-groups-in-transfer-orders.md) **2021 release wave 1**
+  - [Účto skupiny v objednávkách transferu](how-to-use-posting-groups-in-transfer-orders.md) **Nyní k dispozici**
+  - [Účtování zaokrouhlení v zásobách](how-to-setup-round-account-in-inventory.md) Nyní k dispozici
 
 - **Drobné legislativní funkce a osvědčené postupy**
-  - [Povinné vrácení přesných nákladů ve výrobě](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Červen 2021**
-  - [Výchozí Obecná obchodní účto skupina ve výrobě](how-to-setup-default-bus-post-group-manufacturing.md) **2021 release wave 1**
-  - [Výchozí Obchodní účto skupina v Montážních zakázkách](how-to-setup-default-bus-post-group-assembly-orders.md) **2021 release wave 1**
-  - [Automatické vytváření a aktualizace dimenzí](how-to-setup-automatic-creation-and-update-dimensions.md) **Červenec 2021**
-  - [Doplněná pole v položkách zboží a položkách ocenění](how-to-use-add-fields-item-entries.md) **2021 release wave 1**
-  - [Obecná účto skupina zboží ze skladové jednotky](how-to-setup-gen-prod-posting-group-from-sku.md) **2021 release wave 1**
-  - [Vypnutí aktualizace skl. jednotek při účtování](how-to-setup-skip-update-sku-on-posting.md) **2021 release wave 1**
-  - [Číslování neskladovaného zboží](how-to-setup-nonstock-item-numbering.md) **2021 release wave 1**
+  - [Povinné vrácení přesných nákladů ve výrobě](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Nyní k dispozici**
+  - [Výchozí Obecná obchodní účto skupina ve výrobě](how-to-setup-default-bus-post-group-manufacturing.md) **Nyní k dispozici**
+  - [Výchozí Obchodní účto skupina v Montážních zakázkách](how-to-setup-default-bus-post-group-assembly-orders.md) **Nyní k dispozici**
+  - [Automatické vytváření a aktualizace dimenzí](how-to-setup-automatic-creation-and-update-dimensions.md) **Nyní k dispozici**
+  - [Doplněná pole v položkách zboží a položkách ocenění](how-to-use-add-fields-item-entries.md) **Nyní k dispozici**
+  - [Obecná účto skupina zboží ze skladové jednotky](how-to-setup-gen-prod-posting-group-from-sku.md) **Nyní k dispozici**
+  - [Vypnutí aktualizace skl. jednotek při účtování](how-to-setup-skip-update-sku-on-posting.md) **Nyní k dispozici**
+  - [Číslování neskladovaného zboží](how-to-setup-nonstock-item-numbering.md) **Nyní k dispozici**
 
 ## Viz také
 
