@@ -36,7 +36,6 @@ Příklad možností naleznete níže:
 |**Povolit účtování do uzavřeného období** | Umožňuje účtovat do již uzavřeného období. |
 |**Povolit dokončení projektu** | Umožňuje dokončit projekty. |
 |**Povolit storno vyrovnání zboží** | Umožňuje storno při vyrovnávání zboží. |
-|**Nastavení datových schránek**| Nastavení správy a použití datových schránek. |
 
 ## Nastavení kontrol (Kontrola účtování příjmu na vybrané lokaci)
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení uživatelů** a poté vyberte související odkaz.
