@@ -15,11 +15,12 @@ ms.author: v-pejano
 
 Standardní funkcionalita byla doplněna o kontroly v případě požadavku na změnu účtoskupin u karet zákazníků, dodavatelů, zboží a bankovních účtů.
 
-- Na Kartě zákazníka lze změnit účto skupinu zákazníka v případě, že neexistují otevřené položky zákazníka.
-- Na Kartě dodavatele lze změnit účto skupinu dodavatele v případě, že neexistují otevřené položky dodavatele.
-- Na Kartě zboží lze změnit účto skupinu zboží v případě, že neexistují otevřené položky zboží a zároveň neexistují nevyfakturované uzavřené položky zboží.
-- Na Kartě bankovního účtu lze změnit účto skupinu bankovního účtu v případě, že je Saldo nebo Saldo (LM) nenulové.
-
+|Karta|Popis|
+|-|-|
+|Karta zákazníka|Na Kartě zákazníka změnit účto skupinu zákazníka. Pokud neexistují otevřené položky zákazníka, Účto skupinu zákazníka lze změnit. Pokud existují otevřené položky zákazníka, pak Účto skupinu zákazníka nelze  změnit.|
+|Karta dodavatele| Na Kartě dodavatele změnit účto skupinu dodavatele. Pokud neexistují otevřené položky dodavatele, pak Účto skupinu dodavatele lze změnit. Pokud existují otevřené položky dodavatele, pak Účto skupinu dodavatele nelze změnit.|
+|Karta zboží|Na Kartě zboží změnit účto skupinu zboží. Pokud existují otevřené položky zboží, pak Účto skupinu zboží nelze změnit. Pokud neexistují otevřené položky zboží a zároveň pokud existují nevyfakturované uzavřené položky, pak Účto skupinu zboží nelze změnit. Pokud neexistují otevřené položky zboží a zároveň neexistují nevyfakturované uzavřené položky zboží, pak lze účto skupinu změnit.|
+|Karta bankovního účtu|Na Kartě bankovního účtu změnit účto skupinu bankovního účtu. Pokud je Saldo nebo Saldo (LM) nenulové, pak nelze změnit účto skupinu bankovního účtu.|
 ## Viz také
 
 [Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
