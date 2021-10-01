@@ -22,6 +22,7 @@ Při účtování skladové jednotky standardní funkčnost aktualizuje pole **P
 3. Po zapnutí tohoto pole se přestanou aktualizovat ceny na kartě skladové jednotky.
 4. Po nastavení můžete Nastavení zásob zavřít.
 
+![Přeskočení aktualizace skladových jednotek při účtování](Media/skip-update-sku-on-posting.png)
 ## Viz také
 
 [Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  

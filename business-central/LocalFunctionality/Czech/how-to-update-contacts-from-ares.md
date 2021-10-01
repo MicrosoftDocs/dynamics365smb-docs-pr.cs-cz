@@ -26,6 +26,7 @@ ARES je zkratka pro Access to Register of Economic Subjects. ARES je informačn�
   
 Aktualizaci z ARES můžete spustit z karty kontaktu, dodavatele nebo zákazníka. Můžete vyhledávat společnosti a rozhodnout, která pole v [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)] zaktualizujete (název, adresa, město, PSČ, DIČ).
 
+![Aktualizace IČ](Media/ares.png)
 ### Aktualizace dat na kartě zákazníka
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zákazníci** a poté vyberte související odkaz.
 2. Vyberte vybraného zákazníka, u kterého chcete aktualizovat data.

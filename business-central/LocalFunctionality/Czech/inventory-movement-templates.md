@@ -22,6 +22,8 @@ V rámci šablony je možné nastavit typ skladového pohybu (výdej, příjem, 
 Tato nastavení jsou automaticky kopírována do řádku deníku zboží na základě zvolené šablony pohybu zásob.
 Šablony skladového pohybu je možné využít především při účtování pohybů v deníku zboží a deníku projektů. Další využití mají při účtování rozdílů fyzické inventury zboží.
 
+![Šablony skladových pohybů](Media/inventory-movement-templates.png)
+
 Pro vytvoření nové šablony:
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony pohybu zásob** a poté vyberte související odkaz.
 2. Na přehledu Šablon pohybu zásob použijte funkci **Nový**.
