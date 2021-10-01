@@ -23,6 +23,7 @@ Tato funkcionalita umožňuje nastavit kód Obecné účto-skupiny zboží na sk
 4. V záložce Obecné vyberte pole **Obecná účto skupina zboží** a zadejte vybranou účtoskupinu.
 5. Po vybrání kartu zavřete.
 
+![Obecná účto skupina zboží na kartě skladové jednotky](Media/prod-group-from-sku.png)
 
 ## Povolení použití Obecné účtokupiny zboží ze skladové jednotky
 

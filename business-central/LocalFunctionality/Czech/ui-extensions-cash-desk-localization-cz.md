@@ -76,6 +76,7 @@ Nejdříve je nutné vydefinovat, jaké bankovky a mince používáte v různýc
     - Dále na stránce vyplňte tabulku **Nominální hodnoty**, tedy počty jednotlivých bankovek a mincí.
 3. Po nastavení filtrů použijte tlačíko **Náhled a zavřít**. Poté se Vám zobrazí stránka, kde uvidíte stav vybrané pokladny.
 
+![Inventarizace pokladny](Media/cash-desk-inven.png)
 ## Vyrovnání položek zákazníka nebo dodavatele
 
 Z řádků pokladního dokladu lze spustit funkci Vyrovnat položky, která umožňuje vybrat k vyrovnání položky zákazníků nebo dodavatelů. Obdobně jsou k dispozici funkce pro vyrovnání se zálohovými fakturami.
