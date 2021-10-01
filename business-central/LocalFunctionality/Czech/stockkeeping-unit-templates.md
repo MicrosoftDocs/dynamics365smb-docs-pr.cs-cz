@@ -32,6 +32,7 @@ Pro správné nastavení detailů karty skladové jednotky, například pro vybr
 6. V řádích vyberte typ **Pole** dále ve sloupečku **Název pole** vyberte pole z tabulky skladové jednotky, které chcete nastavovat. Do pole **Výchozí hodnota** zadejte, co má pole obsahovat.
 7. Po nastavená vybraných polí, bude systém dopňovat předdefinované hodnoty do karty skladové jednotky během využití šablony při vytváření skladové jednotky z šablony.
 
+![Skladové jednotky](Media/stockkeeping-unit.png)
 ### Vytvoření šablony skladové jednotky
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony skladových jednotek** a poté vyberte související odkaz.
@@ -53,7 +54,7 @@ Pro správné nastavení detailů karty skladové jednotky, například pro vybr
 ## Použití šablon skladových jednotek na vybraném zboží
 ### Vytvoření šablony konfugirace pro šablonu skladové jednotky pro vybrané zboží
 
-Pro správné nastavení detailů karty skladové jednotky, například pro vybranou lokaci, je možné nutné nastavit obecné informace jako je Způsob přionjednání, Systém přiobjednání a další. 
+Pro správné nastavení detailů karty skladové jednotky, například pro vybranou lokaci, je možné nutné nastavit obecné informace jako je Způsob přiobjednání, Systém přiobjednání a další. 
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Konfigurační šablony** a poté vyberte související odkaz.
 2. V panelu funkcí vyberte **Nový**.

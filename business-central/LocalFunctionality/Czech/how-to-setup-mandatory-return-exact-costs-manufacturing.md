@@ -20,6 +20,7 @@ Povinné vrácení přesných nákladů ve výrobě slouží k vyrovnání sprá
 2. Na kartě **Nastavení výroby**, v záložce vyberte pole **Nutné přesné vrácení přesných nákladů**.
 3. Po nastavení kartu můžete vypnout.
 
+![Vrácení přesných nákladů ve výrobě](Media/return-exact-cost.png)
 ## Viz Také
 
 [Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  

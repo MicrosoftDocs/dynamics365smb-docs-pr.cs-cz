@@ -13,7 +13,7 @@ ms.author: v-makune
 
 # Výchozí Obecná obchodní účto skupina ve výrobě 
 
-Funkcionalita usnadňuje práci s výrobními zakázkami. V Nastavení výroby je přidáno pole **Výchozí obecná obchodní účto skupina**, jehož hodnota se následně doplňuje do všech nově vytvořených výrobních zakázek (plánovaných, simulovaných atd.) automaticky, není třeba je zadávat manuálně v každé zakázce. Parametrizace tohoto pole ovlivňuje účtování o výrobní zakázce.
+Usnadňuje práci s výrobními zakázkami. V Nastavení výroby je přidáno pole **Výchozí obecná obchodní účto skupina**, jehož hodnota se následně doplňuje do všech nově vytvořených výrobních zakázek (plánovaných, simulovaných atd.) automaticky, není třeba je zadávat manuálně v každé zakázce. Parametrizace tohoto pole ovlivňuje účtování o výrobní zakázce.
 
 ## Nastavení Výchozí obchodní účtoskupiny zboží
 
@@ -22,6 +22,7 @@ Funkcionalita usnadňuje práci s výrobními zakázkami. V Nastavení výroby j
 3. Po zapnutí tohoto pole se následně doplňuje účto skupina do všech nově vytvořených výrobních zakázek.
 4. Po nastavení můžete Nastavení výroby zavřít.
 
+![Výchozí obecná obchodní účto skupina](Media/default-bus-post-group-manufacturing.png)
 ## Viz Také
 
 [Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  
