@@ -15,6 +15,7 @@ ms.author: v-pejano
 
 Standardní funkcionalita [!INCLUDE[d365fin](../../includes/d365fin_md.md)] byla doplněna o kontrolu časové návaznosti skladových operací. Po aktivaci kontroly je zabezpečeno, aby nebyl možný výdej zboží se zúčtovacím datem předcházejícím zúčtovacímu datu jeho příjmu.
 
+![Aktivace časové souslednosti pohybů](Media/time-sequence.png)
 ## Aktivace kontroly výdeje v zásobách
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení zásob** a poté vyberte související odkaz.
