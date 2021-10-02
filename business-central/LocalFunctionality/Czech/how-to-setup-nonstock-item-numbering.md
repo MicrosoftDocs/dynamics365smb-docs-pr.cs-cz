@@ -20,6 +20,7 @@ Pomocí této funkčnosti lze změnit číslování karet zboží, které jsou v
 2. Na kartě **Nastavení katalogu zboží** v záložce **Obecné** vyberte v poli **Formát čísla** hodnotu **Číselná řada zboží**.
 3. Po nastavení můžete kartu zavřít.
 
+![Nastavení číslování neskladovaného zboží](Media/nonstock-item-numbering.png)
 ## Viz Také
 
 [Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  

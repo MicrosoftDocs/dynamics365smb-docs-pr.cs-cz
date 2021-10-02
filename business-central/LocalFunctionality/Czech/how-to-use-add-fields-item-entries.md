@@ -21,6 +21,7 @@ Pro snazší identifikaci položek zboží a ocenění byla do obou evidencí p�
 
 Každému deníku zboží je možné přiřadit "Kód příčiny", který se rovněž propisuje do zaúčtovaných položek.
 
+![Přidaná pole v položkách zboží](Media/add-fields-item-entries.png)
 ## Viz Také
 
 [Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  
