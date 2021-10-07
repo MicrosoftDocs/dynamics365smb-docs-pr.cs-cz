@@ -18,7 +18,7 @@ Ty byly vylepšeny o možnost automaticky aktualizovat směnné kurzy měn z ČN
 Uživatel si může v nastavení služby směnného kurzu definovat http adresu služby a další parametry aktualizace směnných kurzů.
 
 ![Aktualizace směnného kurzu](Media/update-exchange-rates.png)
-## Spuštění služby aktualizace směnného kurzu pomocí ČNB
+## Spuštění a použití služby aktualizace směnného kurzu pomocí ČNB
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Služby směnného kurzu** a poté vyberte související odkaz.
 2. V seznamu Služeb směnného kurzu vyberte **CNB-EXCHANGE-RATES - Nastavení směnných kurzů České národní banky**.
 3. Na kartě služby směnného kurzu vyberte políčko **Povoleno** pro zapnutí služby.
