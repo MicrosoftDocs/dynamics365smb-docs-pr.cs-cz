@@ -926,10 +926,12 @@
 ##### [Dlouhodobý majetek pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankovnictví a platby
 ##### [Bankovnictví](LocalFunctionality/Czech/bank-feature.md)
+##### [Bankovní doklady pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Správa pokladen](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Pokladny pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Elektronická Evidence Tržeb (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Zálohy](LocalFunctionality/Czech/advances.md)
+##### [Zálohové platby pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Závazky a pohledávky
 ##### [Závazky a pohledávky](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
