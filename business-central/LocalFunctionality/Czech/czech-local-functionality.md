@@ -49,10 +49,12 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
 
 * **Bankovnictví a platby**
   * [Bankovnictví](bank-feature.md) **Nyní k dispozici**
+  * [Bankovní doklady pro Česko (rozšíření)](ui-extensions-banking-documents-localization-cz.md) **Nyní k dispozici**
   * [Řízení hotovosti](cash-desk-management.md) **Nyní k dispozici**
   * [Pokladny (rozšíření)](ui-extensions-cash-desk-localization-cz.md) **Nyní k dispozici**
   * [Elektronická Evidence Tržeb](eet.md) **Nyní k dispozici**
   * [Zálohy](advances.md) **Nyní k dispozici**
+  * [Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md) **Nyní k dispozici**
 
 * **Závazky a pohledávky**
   * [Úprava směnných kurzů (Přepočet pohledávek a závazků)](how-to-use-exchange-rates-adjustment-feature.md) **Nyní k dispozici**
@@ -87,7 +89,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
   * [Šablony skladových jednotek](stockkeeping-unit-templates.md) **Nyní k dispozici**
 
 - **Drobné legislativní funkce a osvědčené postupy**
-  * [Povinné vrácení přesných nákladů ve výrobě](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Červen 2021**
+  * [Povinné vrácení přesných nákladů ve výrobě](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Nyní k dispozici**
   * [Výchozí Obecná obchodní účto skupina ve výrobě](how-to-setup-default-bus-post-group-manufacturing.md) **Nyní k dispozici**
   * [Výchozí Obchodní účto skupina v Montážních zakázkách](how-to-setup-default-bus-post-group-assembly-orders.md) **Nyní k dispozici**
   * [Automatické vytváření a aktualizace dimenzí](how-to-setup-automatic-creation-and-update-dimensions.md) **Nyní k dispozici**
