@@ -6,7 +6,7 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 09/01/2021
+ms.date: 10/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -19,9 +19,9 @@ Funkcionalita Zálohové platby umožňuje přijímat zálohové faktury od doda
 
 **Součástí modulu jsou:**  
 
-- prodejní a nákupní zálohové faktury
-- zálohové platby přijaté i vydané
-- daňové doklady a daňový dobropisy k přijatým či vydaným zálohovým platbám  
+- Prodejní a nákupní zálohové faktury
+- Zálohové platby přijaté i vydané
+- Daňové doklady a daňový dobropisy k přijatým či vydaným zálohovým platbám  
 
 **Hlavní funkce modulu:**  
 
@@ -36,6 +36,32 @@ Funkcionalita Zálohové platby umožňuje přijímat zálohové faktury od doda
 - Možnost zrušení přiřazení platby zálohové faktury nebo dodatečné propojení
 - Možnost zrušení propojení konečné faktury se zálohou nebo dodatečné propojení
 - Reporty pro rekapitulaci úhrad a čerpání záloh, reporty pro rekapitulaci DPH ze záloh  
+
+**Omezení aplikace:**  
+
+- Použití jedné měny v rámci jednoho obchodního případu
+- Vytváření zálohových faktur z dokladů ani dodatečné přiřazení volných zálohových faktur k dokladu nezohledňuje fakturační nebo skonto slevy
+- Zálohy nelze použít na dobropisech a objednávkách vratky (řeší se odpojením zálohy od zaúčtované faktury a dobropisováním faktury bez záloh)
+- Se zálohami nespolupracuje modul servis
+- V zálohách není řešena přídavná měna
+- Aplikace nezahrnuje podporu pro změnu sazeb DPH  
+
+Následující tabulka popisuje seznam úloh s odkazy na témata, které je popisují.
+
+| Funkce | Odkaz |
+| --- | --- |
+|Aktivace funkcionality Zálohové platby a upgrade stávajících dat.|[Aktivace a upgrade zálohových plateb](adv-payments-how-to-activate-advance-payments.md)|
+|Porozumění základním principům aplikace Zálohových plateb, životní cyklus zálohy. |[Základní principy účtování a použití zálohových plateb](adv-payments-principles.md)|
+|Nastavení šablon záloh, účtování DPH a výkazu DPH.|[Nastavení zálohových plateb](adv-payments-how-to-setup-advance-payments.md)|
+|Založení zálohové faktury a tisk.|[Vytvoření zálohové faktury](adv-payments-how-to-create-advance-invoice.md)|
+|Vytvoření zálohy z objednávky.|[Vytvoření zálohy z objednávky](adv-payments-how-to-create-advance-invoice-from-order.md)|
+|Úhrada zálohy finančním deníkem nebo pokladnou.|[Úhrada zálohy](adv-payments-how-to-pay-advance-payment.md)|
+|Vytvoření daňového dokladu k záloze, korekce DPH u nákupní zálohy, tisk dokladu.|[Vytvoření daňového dokladu k záloze](adv-payments-how-to-create-tax-document.md)|
+|Vytvoření konečné faktury, její propojení se zálohou a zaúčtování.|[Propojení zálohy s konečnou fakturou](adv-payments-how-to-link-invoice.md)|
+|Uzavření nevyčerpané zálohy.|[Uzavření zálohy](adv-payments-how-to-close-advance-payment.md)|
+|Cizí měny a zálohové faktury.|[Zálohy v cizí měně](adv-payments-foreign-currency.md)|
+|Storno zálohového daňového dokladu, odpojení chybné platby od zálohy, dodatečné připojení platby k záloze, připojení zálohy do již zaúčtované faktury, odpojení zálohy od zaúčtované faktury.|[Doplňkové funkce](adv-payments-additional-functions.md)|
+|Přehled zálohových faktur, DPH ze zálohových faktur, rekapitulace zálohových faktur.|[Kontrolní sestavy záloh](adv-payments-check-reports.md)|
 
 ## Viz také
 
