@@ -25,7 +25,6 @@ Pokud zvolíte možnost **Navrhnout podle řádku**, vytvoří se záloha 1:1 po
 Z přehledu **Prodejní zálohové faktury** (v případě nákupu Nákupní zálohové faktury) je možné pomocí funkce **Propojené doklady** zobrazit doklad (objednávku), se kterým je záloha propojena.
 
 
-
 ## Viz také
 
 [Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md)  

@@ -57,7 +57,6 @@ Položka **DPH použití** vzniká se stejným datem a číslem dokladu jako pro
 - Objednávku je možné dodat i fakturovat i v okamžiku, kdy záloha není k zúčtovacímu datu objednávky zaplacená. Uživatel je na tuto skutečnost upozorněn a může se rozhodnout, zda doklad zaúčtovat či ne.
 - Pokud záloha vytvořená z objednávky není zaplacená a objednávka bude zaúčtována a vyfakturována, automaticky bude zrušeno propojení mezi objednávkou a zálohou a zálohu tak bude možné (po zaplacení) využít pro jinou konečnou fakturu.
 
-
 ## Viz také
 
 [Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md)  

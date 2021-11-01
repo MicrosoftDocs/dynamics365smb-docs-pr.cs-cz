@@ -116,6 +116,7 @@ Pro připojení zálohy do zaúčtované faktury postupujte následujícím způ
 9. Záloha se propojila s fakturou. V položkách zálohy vznikly položky, které mají **Typ dokladu = Použití**, příp. **Použití DPH**. Položky mají odraz v účetnictví (věcné položky), příp. v položce DPH. Vznikly nové položky dodavatele, resp. zákazníka pro přeúčtování položky mezi účtem salda a účtem záloh.
 
 
+
 ## Viz také
 
 [Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md)  

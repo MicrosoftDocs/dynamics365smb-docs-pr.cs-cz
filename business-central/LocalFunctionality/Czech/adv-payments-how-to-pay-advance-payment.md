@@ -37,7 +37,6 @@ Vyberte zálohovou fakturu, kterou chcete uhradit, výběr potvrďte v řádku p
 
 
 
-
 ## Viz také
 
 [Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md)  
