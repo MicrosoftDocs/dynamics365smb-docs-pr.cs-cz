@@ -25,6 +25,15 @@ Tato funkce zajišťuje vyšší efektivitu a zabraňuje uživatelům dělat chy
 - Překlopení bankovního výpisu do platebního deníku
 - Párování záznamů v platebním deníku a zaúčtování
 
+| Funkce | Odkaz |
+| --- | --- |
+|Nastavení bankovní aplikace|banking-documents-how-to-setup-banking-documents.md|
+|Vytvoření, import a vystavení bankovního výpisu|banking-documents-how-to-create-payment-order.md|
+|Vytvoření, vystavení a export platebního příkazu|banking-documents-how-to-create-bank-statement.md|
+
+
+ 
+
 ## Viz také
 
 [České lokální funkcionality](czech-local-functionality.md)  
