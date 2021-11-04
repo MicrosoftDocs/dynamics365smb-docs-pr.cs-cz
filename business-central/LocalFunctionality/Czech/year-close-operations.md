@@ -24,6 +24,58 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 - Uzavření rozvahy – byla přidána sestava Uzavření rozvahy. Tato sestava je tvořena řádky ve finančním deníku. Tyto řádky obsahují uzávěrková účtování vůči Konečnému účtu rozvážnému.
 - Otevření rozvahy – byla přidána sestava Otevření rozvahy. Tato sestava je tvořena řádky ve finančním deníku. Tyto řádky obsahují uzávěrková účtování vůči Počátečnímu účtu rozvážnému.  
 
+![Uzávěrkové operace - otevření rozvahy](Media/year-close-operation.png)
+## Uzavření období
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Účetní období** a poté vyberte související odkaz.
+2. Vyberte řádek s rokem, který chcete uzavřít a použijte funkci **Uzavřít rok**
+3. Zavřete přehled účetních období. 
+## Uzavření výsledovky
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uzavření výsledovky** a poté vyberte související odkaz.
+2. Na stránce **Uzavření výsledovky** je nutné nastavit několik polí, aby proběhlo uzaření výsledovky dobře.
+3. Pole **Poslední datum fis. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
+4. Je nutné vyplnit pole **Šablona finančního deniků** a **List finančního deníku**, pro navržení řádků s uzavíranými účty.
+5. Do pole **Číslo dokladu** zadejte číslo, se kterým budou uzávěrkové operace zaúčtovány.
+6. Dále do pole **Účet dosažených zisků** zadejte účet, kterým budou uzavřený řádky s uzavírajícími účty.
+7. Do pole **Text položky** zadejte text pro výchozí text pro popis řádků.
+8. V sekci **Uzavřít dle** můžete kliknout na AssisEdit (tři tečky) vedle pole **Dimenze**, kde můžete vybrat dimenze, prodle kterých má uzavření proběhnout.
+9. Sekci **Skupina finančního účtu** nevyplňujte, nechte prázdný.
+10. Sestavu spusťtě pomocí tlačítka OK.
+11. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Finanční deníky** a poté vyberte související odkaz.
+12. Otevřete vybraný **finanční deník a jeho list** nastavený v předešlém kroku.
+13. Deník je nyní vyplňen řádky se zadaným číslem dokladu, datem, popisem nastaveným v předešlém kroku. Dále, uzavření dle dimenzí – pro každý účet vznikne tolik řádků v deníku, kolik je kombinací dimenzí pro daném účtu. V řádcích finančního deníku jsou pouze finanční účty, které mají nastaveno pole Skupina finančního účtu = prázdné 
+
+## Uzavření rozvahy
+
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Účetní období** a poté vyberte související odkaz.
+2. Vyberte řádek s rokem, který chcete uzavřít a použijte funkci **Uzavřít rok**
+3. Zavřete přehled účetních období. 
+## Uzavření rozvahy
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uzavření rozvahy** a poté vyberte související odkaz.
+2. Na stránce **Uzavření rozvahy** je nutné nastavit několik polí, aby proběhlo uzaření rozvahy dobře.
+3. Pole **Poslední datum fis. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
+4. Je nutné vyplnit pole **Šablona finančního deniků** a **List finančního deníku**, pro navržení řádků s uzavíranými účty.
+5. Do pole **Číslo dokladu** zadejte číslo, se kterým budou uzávěrkové operace zaúčtovány.
+6. Dále do pole **Konečný účet rozvážný** zadejte účet, kterým budou uzavřeny řádky s uzavírajícími účty  řádky s uzavírajícími účty.
+7. Do pole **Text položky** zadejte text pro výchozí text pro popis řádků.
+8. V sekci **Uzavřít dle** můžete kliknout na AssisEdit (tři tečky) vedle pole **Dimenze**, kde můžete vybrat dimenze, prodle kterých má uzavření proběhnout.
+9. Sekci **Skupina finančního účtu** nevyplňujte, nechte prázdný.
+10. Sestavu spusťtě pomocí tlačítka OK.
+11. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Finanční deníky** a poté vyberte související odkaz.
+12. Otevřete vybraný **finanční deník a jeho list** nastavený v předešlém kroku.
+13. Deník je nyní vyplňen řádky se zadaným číslem dokladu, datem, popisem nastaveným v předešlém kroku. Dále, uzavření dle dimenzí – pro každý účet vznikne tolik řádků v deníku, kolik je kombinací dimenzí pro daném účtu. V řádcích finančního deníku jsou pouze finanční účty, které mají nastaveno pole Skupina finančního účtu = prázdné 
+
+## Otevření rozvahy
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Otevření rozvahy** a poté vyberte související odkaz.
+2. Na stránce **Otevření rozvahy** je nutné nastavit několik polí, aby proběhlo otevření rozvahy dobře.
+3. Pole **Poslední datum fisk. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
+4. Je nutné vyplnit pole **Šablona finančního deniků** a **List finančního deníku**, pro navržení řádků s uzavíranými účty. 
+5. Do pole **Číslo dokladu** zadejte číslo, se kterým budou uzávěrkové operace zaúčtovány.
+6. V poli **Počáteční účet rozvážný** vyberte účet.
+7. V poli **Text položky** zadejte text pro výchozí text pro popis řádků.
+8. Pole **Otevřít dle** klepněte na tlačítko AssitEdit (tři tečky) vedle pole **Dimenze** a vyberte dimenze, podle kterých má otevření proběhnout.
+9. Sekci **Skupina finančního účtu** nevyplňujte, nechte prázdný.
+10. Sestavu spusťtě pomocí tlačítka OK.
+
 ## Viz také  
 
 [Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
