@@ -52,7 +52,7 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 5. Do pole **Číslo dokladu** zadejte číslo, se kterým budou uzávěrkové operace zaúčtovány.
 6. Dále do pole **Konečný účet rozvažný** zadejte účet, kterým budou uzavřeny řádky s uzavíranými účty.
 7. Do pole **Text položky** zadejte text pro výchozí text pro popis řádků.
-8. V sekci **Uzavřít dle** můžete kliknout na AssisEdit (tři tečky) vedle pole **Dimenze**, kde můžete vybrat dimenze, podle kterých má uzavření proběhnout.
+8. V sekci **Uzavřít dle** můžete kliknout na AssistEdit (tři tečky) vedle pole **Dimenze**, kde můžete vybrat dimenze, podle kterých má uzavření proběhnout.
 9. Sekci **Skupina finančního účtu** nevyplňujte, nechte prázdnou.
 10. Sestavu spusťte pomocí tlačítka OK.
 11. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Finanční deníky** a poté vyberte související odkaz.
@@ -70,6 +70,9 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 8. Pole **Otevřít dle** klepněte na tlačítko AssistEdit (tři tečky) vedle pole **Dimenze** a vyberte dimenze, podle kterých má otevření proběhnout.
 9. Sekci **Skupina finančního účtu** nevyplňujte, nechte prázdnou.
 10. Sestavu spusťte pomocí tlačítka OK.
+11. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Finanční deníky** a poté vyberte související odkaz.
+12. Otevřete vybraný **finanční deník a jeho list** nastavený v předešlém kroku.
+13. Deník je nyní vyplněn řádky se zadaným číslem dokladu, datem, popisem nastaveným v předešlém kroku. Dále, uzavření dle dimenzí – pro každý účet vznikne tolik řádků v deníku, kolik je kombinací dimenzí na daném účtu. V řádcích finančního deníku jsou pouze finanční účty, které mají nastaveno pole Skupina finančního účtu = prázdné. 
 
 ## Viz také  
 
