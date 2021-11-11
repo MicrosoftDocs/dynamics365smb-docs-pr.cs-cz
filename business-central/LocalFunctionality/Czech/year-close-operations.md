@@ -21,7 +21,7 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 ## Tato funkce obsahuje následující změny
 
 - Uzavření výsledovky – standardní sestava uzavření výsledovky byla vylepšena.
-- Uzavření rozvahy – byla přidána sestava Uzavření rozvahy. Tato sestava je tvořena řádky ve finančním deníku. Tyto řádky obsahují uzávěrková účtování vůči Konečnému účtu rozvážnému.
+- Uzavření rozvahy – byla přidána sestava Uzavření rozvahy. Tato sestava je tvořena řádky ve finančním deníku. Tyto řádky obsahují uzávěrková účtování vůči Konečnému účtu rozvažnému.
 - Otevření rozvahy – byla přidána sestava Otevření rozvahy. Tato sestava je tvořena řádky ve finančním deníku. Tyto řádky obsahují uzávěrková účtování vůči Počátečnímu účtu rozvažnému.  
 
 ![Uzávěrkové operace - otevření rozvahy](Media/year-close-operation.png)
