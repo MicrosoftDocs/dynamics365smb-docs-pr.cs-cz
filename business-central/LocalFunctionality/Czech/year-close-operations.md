@@ -31,9 +31,9 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 3. Zavřete přehled účetních období. 
 ## Uzavření výsledovky
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uzavření výsledovky** a poté vyberte související odkaz.
-2. Na stránce **Uzavření výsledovky** je nutné nastavit několik polí, aby proběhlo uzavření výsledovky dobře.
+2. Na stránce **Uzavření výsledovky** je nutné nastavit několik polí, aby proběhlo uzavření výsledovky správně.
 3. Pole **Poslední datum fis. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
-4. Je nutné vyplnit pole **Šablona finančního deniku** a **List finančního deníku**, pro navržení řádků s uzavíranými účty.
+4. Je nutné vyplnit pole **Šablona finančního deníku** a **List finančního deníku**, pro navržení řádků s uzavíranými účty.
 5. Do pole **Číslo dokladu** zadejte číslo, se kterým budou uzávěrkové operace zaúčtovány.
 6. Dále do pole **Účet dosažených zisků** zadejte účet, kterým budou uzavřeny řádky s uzavíranými účty.
 7. Do pole **Text položky** zadejte text pro výchozí text pro popis řádků.
