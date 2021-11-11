@@ -32,12 +32,12 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 ## Uzavření výsledovky
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uzavření výsledovky** a poté vyberte související odkaz.
 2. Na stránce **Uzavření výsledovky** je nutné nastavit několik polí, aby proběhlo uzavření výsledovky správně.
-3. Pole **Poslední datum fis. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
+3. Pole **Poslední datum fisk. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
 4. Je nutné vyplnit pole **Šablona finančního deníku** a **List finančního deníku**, pro navržení řádků s uzavíranými účty.
 5. Do pole **Číslo dokladu** zadejte číslo, se kterým budou uzávěrkové operace zaúčtovány.
 6. Dále do pole **Účet dosažených zisků** zadejte účet, kterým budou uzavřeny řádky s uzavíranými účty.
 7. Do pole **Text položky** zadejte text pro výchozí text pro popis řádků.
-8. V sekci **Uzavřít dle** můžete kliknout na AssisEdit (tři tečky) vedle pole **Dimenze**, kde můžete vybrat dimenze, prodle kterých má uzavření proběhnout.
+8. V sekci **Uzavřít dle** můžete kliknout na AssisEdit (tři tečky) vedle pole **Dimenze**, kde můžete vybrat dimenze, podle kterých má uzavření proběhnout.
 9. Sekci **Skupina finančního účtu** nevyplňujte, nechte prázdnou.
 10. Sestavu spusťte pomocí tlačítka OK.
 11. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Finanční deníky** a poté vyberte související odkaz.
@@ -47,8 +47,8 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 ## Uzavření rozvahy
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uzavření rozvahy** a poté vyberte související odkaz.
 2. Na stránce **Uzavření rozvahy** je nutné nastavit několik polí, aby proběhlo uzavření rozvahy správně.
-3. Pole **Poslední datum fis. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
-4. Je nutné vyplnit pole **Šablona finančního deniku** a **List finančního deníku**, pro navržení řádků s uzavíranými účty.
+3. Pole **Poslední datum fisk. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
+4. Je nutné vyplnit pole **Šablona finančního deníku** a **List finančního deníku**, pro navržení řádků s uzavíranými účty.
 5. Do pole **Číslo dokladu** zadejte číslo, se kterým budou uzávěrkové operace zaúčtovány.
 6. Dále do pole **Konečný účet rozvažný** zadejte účet, kterým budou uzavřeny řádky s uzavíranými účty.
 7. Do pole **Text položky** zadejte text pro výchozí text pro popis řádků.
@@ -63,11 +63,11 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Otevření rozvahy** a poté vyberte související odkaz.
 2. Na stránce **Otevření rozvahy** je nutné nastavit několik polí, aby proběhlo otevření rozvahy dobře.
 3. Pole **Poslední datum fisk. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
-4. Je nutné vyplnit pole **Šablona finančního deniku** a **List finančního deníku**, pro navržení řádků s uzavíranými účty. 
+4. Je nutné vyplnit pole **Šablona finančního deníku** a **List finančního deníku**, pro navržení řádků s uzavíranými účty. 
 5. Do pole **Číslo dokladu** zadejte číslo, se kterým budou uzávěrkové operace zaúčtovány.
 6. V poli **Počáteční účet rozvažný** vyberte účet.
 7. V poli **Text položky** zadejte text pro výchozí text pro popis řádků.
-8. Pole **Otevřít dle** klepněte na tlačítko AssitEdit (tři tečky) vedle pole **Dimenze** a vyberte dimenze, podle kterých má otevření proběhnout.
+8. Pole **Otevřít dle** klepněte na tlačítko AssistEdit (tři tečky) vedle pole **Dimenze** a vyberte dimenze, podle kterých má otevření proběhnout.
 9. Sekci **Skupina finančního účtu** nevyplňujte, nechte prázdnou.
 10. Sestavu spusťte pomocí tlačítka OK.
 
