@@ -24,7 +24,7 @@ Uživatel si může v nastavení služby směnného kurzu definovat http adresu 
 3. Na kartě služby směnného kurzu vyberte políčko **Povoleno** pro zapnutí služby.
 4. Po zapnutí služby systém na pozadí založí položku fronty úloh: **Procedura ∙ 1281 ∙ Update Currency Exchange Rates**, zároveň se Vás systém zeptá, jestli chcete otevřít okno položky fronty úloh a zda chcete tuto položku nastavit.
 5. V případě potvrzení se Vám otevře položka fronty úloh, kterou můžete nastavit dle Vašich potřeb. Můžete zde například nastavit periodu a čas, kdy se mají směnné kurzy aktualizovat.
-6. Po nastavení položky fronty úloh nastavte stav na **Připraveno**. Jakmile nastane okamžik aktualizace dle nastavení, procedura se spustí a aktualizuje měny.
+6. Po nastavení položky fronty úloh nastavte stav na **Připraveno**. Jakmile nastane okamžik aktualizace dle nastavení, procedura se spustí a aktualizuje směnné kurzy měn.
 7. Kartu položky fronty úloh můžete zavřít.
 
 
