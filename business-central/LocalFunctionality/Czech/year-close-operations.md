@@ -27,7 +27,7 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 ![Uzávěrkové operace - otevření rozvahy](Media/year-close-operation.png)
 ## Uzavření období
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Účetní období** a poté vyberte související odkaz.
-2. Vyberte řádek s rokem, který chcete uzavřít a použijte funkci **Uzavřít rok**.
+2. Vyberte řádek s rokem, který chcete uzavřít, a použijte funkci **Uzavřít rok**.
 3. Zavřete přehled účetních období. 
 ## Uzavření výsledovky
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uzavření výsledovky** a poté vyberte související odkaz.
