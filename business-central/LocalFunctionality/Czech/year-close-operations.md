@@ -61,7 +61,7 @@ V souladu s účetními předpisy (zákon o účetnictví č. 563/1991 § 17) mu
 
 ## Otevření rozvahy
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Otevření rozvahy** a poté vyberte související odkaz.
-2. Na stránce **Otevření rozvahy** je nutné nastavit několik polí, aby proběhlo otevření rozvahy dobře.
+2. Na stránce **Otevření rozvahy** je nutné nastavit několik polí, aby proběhlo otevření rozvahy správně.
 3. Pole **Poslední datum fisk. roku** se automaticky vyplní posledním datem posledního uzavřeného fiskálního roku.  
 4. Je nutné vyplnit pole **Šablona finančního deníku** a **List finančního deníku**, pro navržení řádků s uzavíranými účty. 
 5. Do pole **Číslo dokladu** zadejte číslo, se kterým budou uzávěrkové operace zaúčtovány.
