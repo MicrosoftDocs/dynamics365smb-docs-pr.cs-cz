@@ -22,7 +22,7 @@ Správa příkazů k úhradě umožňuje ruční i automatickou tvorbu příkazu
 3. Po potvrzení účtu se otevře stránka **Platební příkazy**, která zobrazuje nevydané platební příkazy daného bankovního účtu. 
 4. Nový platební příkaz vytvoříte kliknutím na akci **Nový**. Otevře se stránka karty nově vytvořeného platebního příkazu.
 5. V hlavičce dokladu se nacházejí následující pole, které je potřeba vyplnit:
-    - Do pole **Číslo** systém automaticky doplní číslo z číselné řady. Pokud je u dané řady povoleno ruční číslování může uživatel zadat číslo bankovního příkazu ručně.
+    - Do pole **Číslo** systém automaticky doplní číslo z číselné řady. Pokud je u dané řady povoleno ruční číslování, může uživatel zadat číslo bankovního příkazu ručně.
     - Pole **Číslo bankovního účtu**, **Název bankovního účt**u a **Číslo účtu** se doplní automaticky z nastavení karty bankovního účtu. 
     - V poli **Kód měny** je doplněna měna, ve které je veden bankovní účet. V poli Kód měny příkazu lze zadat kód měny, ve které bude příkaz vystaven (program ve výchozím stavu doplní měnu z karty bankovního účtu).
     - Pole **Zahraniční platební příkaz** se používá pro řízení tiskové podoby příkazu a formátu exportu plateb.
@@ -36,15 +36,15 @@ Správa příkazů k úhradě umožňuje ruční i automatickou tvorbu příkazu
     - V závislosti na předchozí volbě se v poli **Číslo** vybere číslo zákazníka, dodavatele, bankovního účtu, nebo zaměstnance, kterého se bude týkat daný řádek příkazu.
     - **Kód banky Zákazníka/dodavatele** – pokud je u zákazníka/dodavatele v systému evidován bankovní účet a nastaven na kartě do pole Kód preferovaného bankovního účtu, tak systém zde do řádků příkazu doplní jeho kód a bankovní účet se propíše do pole Číslo účtu.
     - Do pole **Popis** je možno doplnit popis daného řádku.
-    - Na základě předchozích voleb je možné v poli **Vyrov. pol. Zák/Dod/Zam číslo** vybrat konkrétní položku zákazníka, dodavatele nebo zaměstnance a v návaznosti na informacích které tato položka obsahuje doplní systém data do řádku příkazu, jako například **Variabilní symbol, Číslo účtu**.
+    - Na základě předchozích voleb je možné v poli **Vyrov. pol. Zák/Dod/Zam číslo** vybrat konkrétní položku zákazníka, dodavatele nebo zaměstnance a v návaznosti na informacích, které tato položka obsahuje, doplní systém data do řádku příkazu, jako například **Variabilní symbol, Číslo účtu**.
     - Do pole **Částka** se navrhne obsah pole **Zůstatek** položky zmenšený o částku zbývajícího možného skonta, pokud datum splatnosti příkazu je menší než datum skonta na položce dodavatele nebo zákazníka. Částku lze v řádku příkazu změnit.
     ![Bankovní příkaz](Media/banks_bank_order_bank_card.png)
 7. Po vyplnění řádků dokladu je možné **Vydat** platební příkaz.
 
-## Vytvoření platebního příkazu - Automatické navržení řádku platebního příkazu 
+## Vytvoření platebního příkazu - Automatické navržení řádků platebního příkazu 
 Funkce automatického vygenerování řádků prochází doklady v systému, které mají zůstatek a nejsou zablokovány pro použití pro návrh příkazu (nemají vyplněn kód v poli Vyčkat) a vkládá je do řádků bankovního příkazu.
 
-1. Postup vytvoření platebního příkazu je stejný jako u ručního, jen je v kroku **č.6** (viz předchozí postup) je nutné použít v pásu karet v části Proces volbu **Navrhni platby**.
+1. Postup vytvoření platebního příkazu je stejný jako u ručního, jen je v kroku **č.6** (viz předchozí postup) nutné použít v pásu karet v části Proces volbu **Navrhni platby**.
     ![Bankovní příkaz - Návrh plateb](Media/banks_bank_order_suggest.png)
 2. Dále vyplňte následující pole pro definici parametrů návrhu plateb: 
     - **Poslední datum splatnosti** – doplňte datum splatnosti, do kterého chcete řádky navrhnout. Systém bude procházet pouze položky s datem splatnosti před zde zadaným datem (včetně tohoto data)
@@ -54,15 +54,15 @@ Funkce automatického vygenerování řádků prochází doklady v systému, kte
     - **Pouze položky stejné banky** – aktivací tohoto pole určíte, že funkce bude do řádků navrhovat pouze položky, které mají stejný kód bankovního účtu jako má bankovní účet v hlavičce příkazu
     Upravit nepracovní dny – pole lze aktivovat jen v případě, že pole **Kód základního kalendáře** je na kartě bankovního účtu vyplněné. Kalendář specifikuje pracovní a nepracovní dny. Aktivací tohoto pole určujete, aby systém nenavrhoval datum splatnosti řádků platebního příkazu na nepracovní dny.
     - **Platby dodavatelům** – vyberte, zda chcete do platebního příkazu navrhnout dodavatelské položky. V případě volby **Pouze splatné saldo** systém navrhne položky dodavatele k úhradě pouze v případě, že celkové saldo dodavatele je splatné. Vybráním volby **Pouze závazky** určujete, že systém navrhne položky dodavatele k úhradě i v případě, kdy celkové saldo dodavatele není splatné. Při volbě Všechny položky, systém navrhne všechny položky dodavatele. Pokud si nepřejete navrhovat položky dodavatele, tak v poli vyberte volbu **Nenavrhovat**.
-    - **Zálohy dodavatele** – Pole aktivujte v případě, že chcete do automatického návrhu plateb zahrnou také nákupní zálohové doklady .
+    - **Zálohy dodavatele** – Pole aktivujte v případě, že chcete do automatického návrhu plateb zahrnout také nákupní zálohové doklady .
     - **Filtr čísla dodavatele** – v tomto poli můžete zadat filtr na vybrané dodavatele, jejichž doklady mají být zahrnuty do automatického návrhu plateb.
-    - **Platby zákazníkům** – vyberte, zda chcete do platebního příkazu navrhnout zákaznické položky. V případě volby **Pouze splatné saldo** systém navrhne položky zákazníka k úhradě pouze v případě, že celkové saldo zákazníka je splatné. Vybráním volby **Pouze závazky** určujete, že systém navrhne položky zákazníka k úhradě i v případě, kdy celkové saldo zákazníka není splatné. Při volbě **Všechny položky**, systém navrhne všechny položky zákazníka. Pokud si nepřejete navrhovat položky zákazníka, tak v poli vyberte volbu **Nenavrhovat**.
+    - **Platby zákazníkům** – vyberte, zda chcete do platebního příkazu navrhnout zákaznické položky. V případě volby **Pouze splatné saldo** systém navrhne položky zákazníka k úhradě pouze v případě, že celkové saldo zákazníka je splatné. Vybráním volby **Pouze závazky** určujete, že systém navrhne položky zákazníka k úhradě i v případě, kdy celkové saldo zákazníka není splatné. Při volbě **Všechny položky** systém navrhne všechny položky zákazníka. Pokud si nepřejete navrhovat položky zákazníka, tak v poli vyberte volbu **Nenavrhovat**.
     - **Filtr č. zákazníka** – v tomto poli můžete zadat filtr na vybrané zákazníky, jejichž doklady mají být zahrnuty do automatického návrhu plateb.
     - **Platby zaměstnancům** – vyberte, zda chcete do platebního příkazu navrhnout položky zaměstnanců. Při volbě Všechny položky, systém navrhne všechny položky zaměstnance. Pokud si nepřejete navrhovat položky zaměstnanců, tak v poli vyberte volbu **Nenavrhovat**.
     - **Filtr čísla zaměstnance** – v tomto poli můžete zadat filtr na vybrané zaměstnance, jejichž doklady mají být zahrnuty do automatického návrhu plateb.
     - **Přeskočit uzavřené záznamy** – aktivace pole určuje, že položky uzavřených záznamů budou přeskočeny. Tedy pokud má dodavatel na kartě v poli Uzavřeno vybráno Platba, nebo Vše, tak položky tohoto dodavatele budou z automatického návrhu plateb vyjmuty. Obdobně tak v případě uzavřeného zákazníka a také v případě zaměstnance (zde uzavření určuje pole **Uzavřeno-ochrana soukromí**).
 3. Po stisknutí tlačítka **OK** proběhne automatické navržení řádků platebního příkazu dle nastavených podmínek.
-4. Po kontrole vygenerovaných řádků platebního příkazu, je možné případně **smazat řádky**, které nechcete zahrnout do tohoto příkazu, nebo naopak **přidávat další řádky** a lze měnit částky, které mají být hrazeny.
+4. Po kontrole vygenerovaných řádků platebního příkazu je možné případně **smazat řádky**, které nechcete zahrnout do tohoto příkazu, nebo naopak **přidávat další řádky** a lze měnit i částky, které mají být hrazeny.
 
 ## Vydání platebního příkazu
 
