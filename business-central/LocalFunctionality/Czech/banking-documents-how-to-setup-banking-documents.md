@@ -82,7 +82,7 @@ V nastavení exportu/importu banky se nastavují reporty, codeunity, xml porty a
 ## Nastavení konstantních symbolů
 V číselníku **Konstantní symboly** se zakládají veškeré používané konstantní symboly při bankovním styku.  
 
-Pro definování toho číselníku postupujte následujícím způsobem:
+Pro definování tohoto číselníku postupujte následujícím způsobem:
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Konstantní symboly** a poté vyberte související odkaz.
 2. V číselníku konstatních symbolů vyplňte do řádku **Kód** konstatního symbolu a jeho **Popis**.
 3. Po vyplnění všech konstatních symbolů můžete přehled zavřít.
