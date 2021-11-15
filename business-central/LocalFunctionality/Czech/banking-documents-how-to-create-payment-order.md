@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Vytvoření, vydání a export platebního příkazu
+# Správa příkazů
 
 Správa příkazů k úhradě umožňuje ruční i automatickou tvorbu příkazu k úhradě na základě dat v databázi. Vytvořené příkazy je možné vytisknout nebo exportovat ze systému do souboru, který je možno předat bance.
 
