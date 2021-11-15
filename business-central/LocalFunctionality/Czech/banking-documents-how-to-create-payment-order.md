@@ -66,17 +66,17 @@ Funkce automatického vygenerování řádků prochází doklady v systému, kte
 
 ## Vydání platebního příkazu
 
-Před vydáním platebního příkazu je možné provést kontrolu spolehlivosti plátce DPH spuštěním akce **Kontrola nespolehlivosti plátce DPH** v pasu karet dokladu platebního příkazu.
+Před vydáním platebního příkazu je možné provést kontrolu spolehlivosti plátce DPH spuštěním akce **Kontrola nespolehlivosti plátce DPH** v pásu karet dokladu platebního příkazu.
 
-Pro vydýní platebního příkazu postupujte následujícím způsobem:
+Pro vydání platebního příkazu postupujte následujícím způsobem:
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Platební příkazy** a poté vyberte související odkaz.
-2. Otevře se stránka s přehledem bankovních účtů, ve které se zobrazí všechny založené bankovní účty. Zde označte bankovní účet, pro který budete vytvářen platební příkaz a potvrďte kliknutím na tlačítko **OK**.
+2. Otevře se stránka s přehledem bankovních účtů, ve které se zobrazí všechny založené bankovní účty. Zde označte bankovní účet, pro který budete vytvářet platební příkaz a potvrďte kliknutím na tlačítko **OK**.
 3. Po potvrzení účtu se otevře stránka **Platební příkazy**, která zobrazuje nevydané platební příkazy daného bankovního účtu. 
 4. Vyberte příkaz, který chcete vydat a otevřete ho.
-5. Vydání platebního příkazu provede pomocí akce **Vydaní** v pásu karet. Lze zvolit, zda bude platební příkaz vydán nebo vydán a rovnou exportován do souboru.
+5. Vydání platebního příkazu proveďte pomocí akce **Vydání** v pásu karet. Lze zvolit, zda bude platební příkaz vydán nebo vydán a rovnou exportován do souboru.
     ![Platební příkaz - Vydání](Media/banks_bank_order_release.png)
-6. Po vydání se platební příkaz přesune do archivu do **Vydaných platebních příkazů**. Vydaný platební příkaz je needitovatelný. V tomto okamžiku před vlastním vytištěním příkazu nebo jeho exportem, lze pouze stornovat řádky pro tisk nebo export.
-6. **Storno řádků** se provede kliknutím na tlačítko Řádek, Storno. Stornované řádky jsou potom označené hodnotou Stornováno v poli Stav na řádku vydaného příkazu. Zároveň jsou odpovídající položky dodavatele nebo zákazníka nebo zaměstnance uvolněny pro další práci v systému. 
+6. Po vydání se platební příkaz přesune do archivu do **Vydaných platebních příkazů**. Vydaný platební příkaz je needitovatelný. V tomto okamžiku před vlastním vytištěním příkazu nebo jeho exportem lze pouze stornovat řádky pro tisk nebo export.
+6. **Storno řádků** se provede kliknutím na tlačítko Řádek, Storno. Stornované řádky jsou potom označené hodnotou Stornováno v poli Stav na řádku vydaného příkazu. Zároveň jsou odpovídající položky dodavatele, zákazníka nebo zaměstnance uvolněny pro další práci v systému. 
 
 
 ## Viz také
