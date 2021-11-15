@@ -15,7 +15,7 @@ ms.author: v-pejano
 
 Správa příkazů k úhradě umožňuje ruční i automatickou tvorbu příkazů k úhradě na základě dat v databázi. Vytvořené příkazy je možné vytisknout nebo exportovat ze systému do souboru, který je možno předat bance.
 
-## Vytvoření platebního příkazu - Ruční navržení řádků platebního příkazu
+## Vytvoření platebního příkazu - Ruční zadání řádků platebního příkazu
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Platební příkazy** a poté vyberte související odkaz.
 2. Otevře se stránka s přehledem bankovních účtů, ve které se zobrazí všechny založené bankovní účty. Zde označte bankovní účet, pro který budete vytvářet platební příkaz a potvrďte kliknutím na tlačítko **OK**.
     ![Výběr banky](Media/banks_bank_order_bank.png)
