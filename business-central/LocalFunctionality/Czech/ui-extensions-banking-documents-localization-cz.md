@@ -34,9 +34,9 @@ Pro každý bankovní účet lze předdefinovat vlastní pravidla hledání, na 
 
 | Funkce | Odkaz |
 | --- | --- |
-|Zpracování bankovních výpisů a platební příkazů|[Nastavení bankovní aplikace](banking-documents-how-to-setup-banking-documents.md)|
-|Vytvoření, import a vystavení bankovního výpisu|[Správa bankovních výpisů ](banking-documents-how-to-create-payment-order.md)|
-|Vytvoření, vystavení a export platebního příkazu|[Správa příkazů](banking-documents-how-to-create-bank-statement.md)|
+|Základní nastavení bankovní aplikace|[Nastavení bankovní aplikace](banking-documents-how-to-setup-banking-documents.md)|
+|Vytvoření, import a vystavení bankovního výpisu|[Správa bankovních výpisů ](banking-documents-how-to-create-bank-statement.md)|
+|Vytvoření, vystavení a export platebního příkazu|[Správa příkazů](banking-documents-how-to-create-payment-order.md)|
 
 
  
