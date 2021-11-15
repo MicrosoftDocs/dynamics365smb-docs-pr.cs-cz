@@ -19,7 +19,7 @@ Aby bylo možno zpracovávat bankovní výpisy a platební příkazy, je potřeb
 Bankovní účty společnosti zobrazíte vyhledáním stránky **Bankovní účty**. Údaje o bankovním účtu se spravují na **kartě bankovního účtu**.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Bankovní účty** a poté vyberte související odkaz.
-2. V přehledu bankovních účtu vyberte bankovní účet který chcete nastavit.
+2. V přehledu bankovních účtu vyberte bankovní účet, který chcete nastavit.
 3. Na kartě bankovního účtu nastavte **následující části**:
     - **Záložka obecné**:  
         Povinné pole **Číslo** (jednoznačná identifikace vytvářené karty bankovního účtu) lze, dle nastavení, zadat ručně nebo nechat přiřadit číslo automaticky z číselné řady. Dále je zde možné zadat **Název** bankovního účtu, a především **Číslo bankovního účtu.**
@@ -44,15 +44,15 @@ Bankovní účty společnosti zobrazíte vyhledáním stránky **Bankovní účt
 
     - **Záložka Deník plateb**:  
         Zde se nachází pole týkající se nastavení automatického vyrovnání položek bankovního výpisu při překlopení do deníku plateb.  
-        Aktivováním polí **Variabilní s. do popisu**, **Variabilní s. do variabilního symbolu** a **Variabilní s. do externího čísla dokladu** je určeno, do kterých polí se má propisovat variabilní symbol z řádku vydaného bankovního výpisu. Pokud je aktivováno pole **Dimenze z párované položky**, jsou do řádků deníku před vyplňovány dimenze z položek, s kterými jsou platby vyrovnány. Pokud je aktivováno pole **Účtovat po řádcích**, je do každého vytvořeného řádku deníku vložen i protiúčet (bankovní účet). V opačném případě je deník vyrovnán jedním řádkem se souhrnnou částkou pro záporné položky a jednou pro kladné.
+        Aktivováním polí **Variabilní s. do popisu**, **Variabilní s. do variabilního symbolu** a **Variabilní s. do externího čísla dokladu** je určeno, do kterých polí se má propisovat variabilní symbol z řádku vydaného bankovního výpisu. Pokud je aktivováno pole **Dimenze z párované položky**, jsou do řádků deníku vyplňovány dimenze z položek, se kterými jsou platby vyrovnány. Pokud je aktivováno pole **Účtovat po řádcích**, je do každého vytvořeného řádku deníku vložen i protiúčet (bankovní účet). V opačném případě je deník vyrovnán jedním řádkem se souhrnnou částkou pro záporné položky a jednou pro kladné.
 
         Do pole **Účet nepřiřazených plateb** musí být vyplněn finanční účet, který bude použit ve funkci automatického párování bankovního výpisu v případě, že nebude možné přiřadit platbu ke konkrétní položce.
 
     - **Záložka Platební příkazy**:  
-        Do polí T**uzemský platební příkaz** a **Zahraniční platební příkaz** se vyplňuje číslo tiskové sestavy, která bude použita pro tisk tuzemského/zahraničního platebního příkazu.
+        Do polí **Tuzemský platební příkaz** a **Zahraniční platební příkaz** se vyplňuje číslo tiskové sestavy, která bude použita pro tisk tuzemského/zahraničního platebního příkazu.
 
         V poli **Kód základního kalendáře** lze bankovnímu účtům přiřadit konkrétní nadefinovaný kalendář. Kalendář specifikuje pracovní a nepracovní dny. Definici kalendáře můžete použít ve funkci pro návrh řádků platebního příkazu, tak aby systém nenavrhoval datum splatnosti platebního příkazu na nepracovní dny. 
-        Do polí **Výchozí konstantní symbol** a **Výchozí specifický symbol** se vyplňují hodnoty, které budou použity jako výchozí v řádcích platebního příkazu. Do pole **Popis řádku platebního příkazu** se vyplňuje výchozí popis řádku platebního příkazu, při použití funkce **Navrhni platby**. Pokud je aktivováno pole **Částečný návrh** plateb budou navrhovány i položky, které již byly částečně uhrazeny (částečně navrženy k úhradě).
+        Do polí **Výchozí konstantní symbol** a **Výchozí specifický symbol** se vyplňují hodnoty, které budou použity jako výchozí v řádcích platebního příkazu. Do pole **Popis řádku platebního příkazu** se vyplňuje výchozí popis řádku platebního příkazu při použití funkce **Navrhni platby**. Pokud je aktivováno pole **Částečný návrh** plateb, budou navrhovány i položky, které již byly částečně uhrazeny (částečně navrženy k úhradě).
 
         Aktivací pole **Zahraniční platební příkazy** určujete, že při vytváření platebního příkazu bude hodnota pole Zahraniční bankovní příkaz nastavena také na Ano (nastavení je důležité při exportu platebních příkazů).
         Pokud je aktivováno pole **Kontrolovat český formát účtu při vydání**, tak se kontroluje při vydání dokladu platebního příkazu, zda formát zadaného čísla bankovního účtu v řádcích příkazu odpovídá obvyklému formátu, jaký se používá v ČR. 
@@ -60,7 +60,7 @@ Bankovní účty společnosti zobrazíte vyhledáním stránky **Bankovní účt
     - **Záložka Bankovní výpisy**:  
         V polích **Název šablony deníku plateb** a **Název listu deníku plateb** je nutné zadat, do které šablony a listu deníku plateb budou převedeny položky bankovního výpisu pro zaúčtování.
 
-        Aktivací pole **Kontrola ext. čísla v aktuálním roce** definujete, že systém bude při vydání bankovního výpisu kontrolovat, zda se mezi vydanými bankovními výpisy již nenachází výpis se stejným číslem externího dokladu v rámci daného kalendářního roku. Pozn. do pole Číslo externího dokladu v dokladu bankovního výpisu se zadává číslo výpisu přiřazené bankou.
+        Aktivací pole **Kontrola ext. čísla v aktuálním roce** definujete, že systém bude při vydání bankovního výpisu kontrolovat, zda se mezi vydanými bankovními výpisy již nenachází výpis se stejným číslem externího dokladu v rámci daného kalendářního roku. Pozn.: Do pole Číslo externího dokladu v dokladu bankovního výpisu se zadává číslo výpisu přiřazené bankou.
 
     - **Záložka Číslování**:
         Zde se nachází pole pro zadání číselných řad souvisejících s bankou. Pro nastavení způsobu číslování je nutné zadat kódy číselných řad do polí **Čísla příkazů**, **Čísla vydaných příkazů,** **Čísla výpisů** a **Čísla vydaných výpisů**.
@@ -79,10 +79,10 @@ V nastavení exportu/importu banky se nastavují reporty, codeunity, xml porty a
      - V polích **ID sestavy zpracování** a **Název sestavy zpracování** jsou uvedeny reporty pro import a export.
      - V poli **Výchozí typ souboru** lze uvádět výchozí typ souboru, ve kterém bude soubor importován/exportován.
 3. Po nastavení můžete přehled zavřít.
-## Nastavení konstatních symbolů
+## Nastavení konstantních symbolů
 V číselníku **Konstantní symboly** se zakládají veškeré používané konstantní symboly při bankovním styku.  
 
-Pro definování toho čísleníku postupujte následujícím způsobem:
+Pro definování toho číselníku postupujte následujícím způsobem:
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Konstantní symboly** a poté vyberte související odkaz.
 2. V číselníku konstatních symbolů vyplňte do řádku **Kód** konstatního symbolu a jeho **Popis**.
 3. Po vyplnění všech konstatních symbolů můžete přehled zavřít.
@@ -90,38 +90,38 @@ Pro definování toho čísleníku postupujte následujícím způsobem:
 
 ## Nastavení účto skupin bankovního účtu
 
-Pro definování toho čísleníku postupujte následujícím způsobem:
+Pro definování tohoto číselníku postupujte následujícím způsobem:
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Účto skupiny bankovního účtu** a poté vyberte související odkaz.
 2. V číselníku Účto skupiny bankovního účtu vyplňte do řádku **Kód** pro jednoznačnou identifikaci dané účto skupiny a **Číslo účtu** z účetní osnovy, na které budou účtovány pohyby na bankovním účtu v této účto skupině.
-3. Po vyplnění všech konstatních symbolů můžete přehled zavřít.
+3. Po vyplnění všech účto skupin bankovních účtů můžete přehled zavřít.
 ![Banky - Účto skupiny bankovního účtu](Media/banks_posting_groupes.png)
-## Nastavení pravidel pro párovaní bankovních výpisů
+## Nastavení pravidel pro párování bankovních výpisů
 
-Pravidla hledání slouží pro automatické vyrovnávání položek bankovního výpisu při vytvoření deníku plateb z daného bankovního výpisu. Mohou podstatně zrychlit práci při zpracování bankovního výpisu v systému a usnadnit uživatelům identifikaci jednotlivých plateb.
+Pravidla párování slouží pro automatické vyrovnávání položek bankovního výpisu při vytvoření deníku plateb z daného bankovního výpisu. Mohou podstatně zrychlit práci při zpracování bankovního výpisu v systému a usnadnit uživatelům identifikaci jednotlivých plateb.
 
-Vlastní pravidla vyrovnání plateb nastavíte v číselníku **Pravidla hledání**. Souběžně může být v číselníku nastaveno několik různých pravidel. Můžete nastavit vlastní pravidla pro bankovní účty nebo například pro různé typy bankovních výpisů.
+Vlastní pravidla vyrovnání plateb nastavíte v číselníku **Pravidla vyrovnání**. Souběžně může být v číselníku nastaveno několik různých pravidel. Můžete nastavit vlastní pravidla pro bankovní účty nebo například pro různé typy bankovních výpisů.
 
 ![Banky - Nastavení pravidel pro párování](Media/banks_rules.png)
-### Definice pravidla hledání
-Pravidla hledání slouží pro automatické vyrovnávání položek bankovního výpisu při vytvoření deníku plateb z daného bankovního výpisu. Mohou podstatně zrychlit práci při zpracování bankovního výpisu v systému a usnadnit uživatelům identifikaci jednotlivých plateb.
+### Definice pravidla vyrovnání
+Pravidla vyrovnání slouží pro automatické vyrovnávání položek bankovního výpisu při vytvoření deníku plateb z daného bankovního výpisu. Mohou podstatně zrychlit práci při zpracování bankovního výpisu v systému a usnadnit uživatelům identifikaci jednotlivých plateb.
 
-Vlastní pravidla vyrovnání plateb nastavíte v číselníku **Pravidla hledání**. Souběžně může být v číselníku nastaveno několik různých pravidel. Můžete nastavit vlastní pravidla pro bankovní účty nebo například pro různé typy bankovních výpisů.
+Vlastní pravidla vyrovnání plateb nastavíte v číselníku **Pravidla vyrovnání**. Souběžně může být v číselníku nastaveno několik různých pravidel. Můžete nastavit vlastní pravidla pro bankovní účty nebo například pro různé typy bankovních výpisů.
 
 
 Pro definici **Pravidel hledání** postupujte následujícím způsobem:
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Pravidla hledání** a poté vyberte související odkaz.
-2. Na přehledu kliněte na funkci **Nový**, následně se Vám otevře karta pravidla hledání.
-3. Do pole **Kód** zadáte jednoznačnou identifikaci pravidla a do pole **Popis** můžete popsat dané pravidlo hledání. Aktivací pole **Výchozí** můžete jedno z pravidel označit jako výchozí. V poli je kontrola, že v rámci záznamů v tabulce může být označen jako výchozí (hodnota Ano) pouze jeden záznam. **Výchozí pravidlo** systém doplní do bankovních výpisů v případě, že na daném bankovním účtu nebude definováno jiné pravidlo hledání.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Pravidla vyrovnání** a poté vyberte související odkaz.
+2. Na přehledu kliněte na funkci **Nový**, následně se Vám otevře karta pravidla vyrovnání.
+3. Do pole **Kód** zadáte jednoznačnou identifikaci pravidla a do pole **Popis** můžete popsat dané pravidlo vyrovnání. Aktivací pole **Výchozí** můžete jedno z pravidel označit jako výchozí. V poli je kontrola, že v rámci záznamů v tabulce může být označen jako výchozí (hodnota Ano) pouze jeden záznam. **Výchozí pravidlo** systém doplní do bankovních výpisů v případě, že na daném bankovním účtu nebude definováno jiné pravidlo vyrovnání.
 4. Každé pravidlo by mělo obsahovat alespoň jeden řádek. Na **pořadí řádků pravidel** záleží, mělo by se postupovat od největší shody k obecnějším pravidlům. Pořadí řádků tedy určuje prioritu, s jakou se systém pokusí dané pravidlo aplikovat. Upravit pořadí řádků lze pomocí tlačítek nad řádky. **Posunout nahoru a Posunout dolů** umožní změnit pořadí řádků pro vyhledávání.
 
-Řádky pravidla je možné vytvořit ručně, dle potřeby uživatelů nebo je možné vygenerovat předdefinovaná pravidla pomocí funkce **Vytvořit výchozí řádky**.
+Řádky pravidla je možné vytvořit ručně dle potřeby uživatelů nebo je možné vygenerovat předdefinovaná pravidla pomocí funkce **Vytvořit výchozí řádky**.
 
 ![Banky - pravidla párování](Media/banks_rules_create_default_lines.png)
 
 **Jeden řádek vyhledávacího pravidla má tři logické celky**:
 
 - **Identifikační**
-- **Vyhledávací** (hledání v položkách zákazníka, dodavatele, zaměstnance, „starých“ zálohách Base aplikace). Pozn. aplikace nových CZ záloh (Advance Payments Localization for Czech) ještě doplňuje hledání v „nových“ nákupních a prodejních zálohách
+- **Vyhledávací** (hledání v položkách zákazníka, dodavatele, zaměstnance, „starých“ zálohách Base aplikace). Pozn.: aplikace nových CZ záloh (Advance Payments Localization for Czech) ještě doplňuje hledání v „nových“ nákupních a prodejních zálohách
 - **Filtrovací** (na základě nastavené masky se přímo určí, jak navrhnout řádek do deníku plateb)
 Na jednom řádku může být buď definice vyhledávání nebo definice filtrování. Nelze je v rámci jednoho řádku kombinovat.
 
@@ -139,41 +139,41 @@ Na jednom řádku může být buď definice vyhledávání nebo definice filtrov
 **Vyhledávací část pravidla**
 
 Určuje pravidla pro vyhledávání položky k vyrovnání v určeném rozsahu (v položkách zákazníka, dodavatele, zaměstnance a zálohách).  
-Pole v této části je možné parametrizovat pouze pokud na daném řádku vyhledávacího pravidla je v poli **Obor hledání** hodnota jiná než **Mapování účtů**.  
+Pole v této části je možné parametrizovat pouze tehdy, pokud na daném řádku vyhledávacího pravidla je v poli **Obor hledání** hodnota jiná než **Mapování účtů**.  
 Pozn.: pokud bude vyhledávací část pravidla obsahovat více voleb současně, tak mezi jednotlivými volbami bude vždy vztah konjunkce (tj. a současně).
 
- - **Číslo bankovního účtu** – pokud bude pole zatrženo, tak systém bude v daném rozsahu (položka zákazníka, dodavatele, zaměstnance) hledat podle čísla bankovní účtu. Vždy se pro daný řádek bankovního výpisu vyhledává v bankovních účtech zákazníka / dodavatele a bankovní účet v tabulce zaměstnanec. Pokud je nalezen právě jeden účet zákazníka či dodavatele či zaměstnance, automaticky se k daným filtrům navíc nasazuje filtr na číslo zákazníka / dodavatele / zaměstnance v položkách.  
+ - **Číslo bankovního účtu** – pokud bude pole zatrženo, tak systém bude v daném rozsahu (položka zákazníka, dodavatele, zaměstnance) hledat podle čísla bankovního účtu. Vždy se pro daný řádek bankovního výpisu vyhledává v bankovních účtech zákazníka / dodavatele a bankovní účet v tabulce zaměstnanec. Pokud je nalezen právě jeden účet zákazníka či dodavatele či zaměstnance, automaticky se k daným filtrům navíc nasazuje filtr na číslo zákazníka / dodavatele / zaměstnance v položkách.  
 - **Částka** – v případě, že pole bude zatrženo, tak systém bude vyhledávat podle částky s kódem měny v daném rozsahu (položka zákazníka, dodavatele, zaměstnance, zálohy). Systém bude pracovat s tolerancí shody plateb definovanou na kartě daného bankovního účtu (pole Typ tolerance párování a Hodnota tolerance párování).  
 - **Variabilní symbol** – pokud bude pole aktivováno, tak systém bude v daném rozsahu (položka zákazníka, dodavatele, zaměstnance, zálohy) hledat podle variabilního symbolu.  
 - **Konstantní symbol** – analogicky jako u pole Variabilní symbol.  
 - **Specifický symbol** – analogicky jako u pole Variabilní symbol.  
-- **Vícenásobný výslede**k – pole určí jakou položku má systém navrhnout k vyrovnání v případě, že zadaným kritériím vyhledávacího pravidla vyhovuje více než jedna položka. Možné hodnoty pole jsou:
+- **Vícenásobný výsledek** – pole určí, jakou položku má systém navrhnout k vyrovnání v případě, že zadaným kritériím vyhledávacího pravidla vyhovuje více než jedna položka. Možné hodnoty pole jsou:
     - **První vytvořená položka** - Systém vybere nejstarší položku
     - **Naposledy vytvořená položka** - Systém vybere nejnovější položku
-    - **Nejbližší datum splatnosti** - Systém vybere tu z položek, která má nejstarší datum splatnosti. Při shodě hodnot data splatnosti, vybere z nich první položku
-    - **Poslední datum splatnost**i - Systém vybere tu z položek, která má nejmladší datum splatnosti. Při shodě hodnot data splatnosti, vybere z nich první položku
-    - **Nejbližší zúčtovací datum** - Systém vybere tu z položek, která má nejstarší zúčtovací datum. Při shodě hodnot data, vybere z nich první položku
-    - **Poslední zúčtovací datum** - Systém vybere tu z položek, která má nejmladší zúčtovací datum. Při shodě hodnot data, vybere z nich první položku
-    - **Nejmenší zbývající částka** - Systém vybere tu z položek, která má nejmenší hodnotu v poli Zůstatek (LM). Při shodě hodnot částky zůstatku, vybere z nich první položku
-    - **Největší zbývající částka** - Systém vybere tu z položek, která má největší hodnotu v poli Zůstatek (LM). Při shodě hodnot částky zůstatku, vybere z nich první položku
+    - **Nejbližší datum splatnosti** - Systém vybere tu z položek, která má nejstarší datum splatnosti. Při shodě hodnot data splatnosti z nich vybere první položku
+    - **Poslední datum splatnost**i - Systém vybere tu z položek, která má nejmladší datum splatnosti. Při shodě hodnot data splatnosti z nich vybere první položku
+    - **Nejbližší zúčtovací datum** - Systém vybere tu z položek, která má nejstarší zúčtovací datum. Při shodě hodnot data z nich vybere první položku
+    - **Poslední zúčtovací datum** - Systém vybere tu z položek, která má nejmladší zúčtovací datum. Při shodě hodnot data z nich vybere první položku
+    - **Nejmenší zbývající částka** - Systém vybere tu z položek, která má nejmenší hodnotu v poli Zůstatek (LM). Při shodě hodnot částky zůstatku z nich vybere první položku
+    - **Největší zbývající částka** - Systém vybere tu z položek, která má největší hodnotu v poli Zůstatek (LM). Při shodě hodnot částky zůstatku z nich vybere první položku
     - **Pokračovat** - Při této volbě systém nevybere žádnou položku a v rámci párování pokračuje dalším vyhledávacím pravidlem
 
 **Filtrační část pravidla**
 
 Určuje pravidla (specifikaci filtrů) pro vyhledání účtu, který se má použít k zaúčtování řádku bankovního výpisu.
 Pole v této části bude možné parametrizovat pouze pokud na daném řádku vyhledávacího pravidla bude v poli **Obor hledání hodnota = Mapování účtů**. Tzn. systém nebude hledat položku k vyrovnání na saldech.
-Pozn. pokud se ve filtrační části nastavení použije více voleb najednou, tak mezi jednotlivými volbami je vždy konjunkce (tj. a současně).
+Pozn.: pokud se ve filtrační části nastavení použije více voleb najednou, tak mezi jednotlivými volbami je vždy konjunkce (tj. a současně).
 - **Filtr popisu** – do pole je možné zapsat filtr popisu transakce řádku z bankovního výpisu. Je možné použít standardní řídící znaky používané v systému Business Central. Např.: při zadání filtru @*poplatek* se bude testovat, zda popis transakce obsahuje slovo poplatek bez ohledu na velikost písmen a diakritiku na libovolné pozici v textu.
 - **Filtr variabilního symbolu** – funguje obdobně, jako Filtr popisu, ale nad polem Variabilní symbol v řádku bankovního výpisu. Např. pokud bude zadáno ??32*, pak se testuje, zda variabilní symbol má libovolné dvě číslice na prvních dvou pozicích, na třetí pozici číslici 3 a čtvrté číslici 2, na zbývajících pozicích mohou být libovolné číslice. Pokud bude zadáno 308|0308 - testuje se, zda symbol nabývá hodnoty 308 nebo 0308.
-- **Filtr konstantního symbolu** – platí totéž, jako pro pole Filtr variabilního symbolu.
-- **Filtr specifického symbolu** – platí totéž, jako pro pole Filtr variabilního symbolu. 
+- **Filtr konstantního symbolu** – platí totéž jako pro pole Filtr variabilního symbolu.
+- **Filtr specifického symbolu** – platí totéž jako pro pole Filtr variabilního symbolu. 
 - Pokud systém v řádku bankovního výpisu na základě zadaných filtrů najde shodu, pak se do řádku finančního deníku zapíše typ účtu a číslo účtu, které jsou uvedeny v polích **Typ účtu**, **Číslo účtu**.
 
 ![Karta pravidla hledání](Media/banks_rules_created_default_lines.png)
 ### Pravidla při vyhledávání a párování
 - Jakmile je nalezen řádek bankovního výpisu, který odpovídá vyhledávacímu pravidlu nebo nastavenému filtru, tj. je nalezena právě jedna položka, automaticky zastavuje vyhodnocování a pokračuje se dalším řádkem na bankovním výpisu.
 - Pokud systém podle definovaných vyhledávacích pravidel nenalezne žádný záznam, který by vyhovoval, pak přiřadí řádku výpisu účet neidentifikované platby, který je definován pro daný bankovní účet na kartě bankovního účtu v poli **Účet nepřiřazených plateb**.
-- Pokud se řádek vyhledávacího pravidla vyhodnotí jako pozitivní bude jeho identifikace propsána do řádku deníku plateb do polí **Kód pravidla hledání** a **Kód řádku pravidla hledání**.
+- Pokud se řádek vyhledávacího pravidla vyhodnotí jako pozitivní, bude jeho identifikace propsána do řádku deníku plateb do polí **Kód pravidla hledání** a **Kód řádku pravidla hledání**.
 
 ## Viz také
 [Bankovní doklady pro Česko (rozšíření)](ui-extensions-banking-documents-localization-cz.md)  
