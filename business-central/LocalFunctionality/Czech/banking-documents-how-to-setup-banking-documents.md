@@ -60,7 +60,7 @@ Bankovní účty společnosti zobrazíte vyhledáním stránky **Bankovní účt
     - **Záložka Bankovní výpisy**:  
         V polích **Název šablony deníku plateb** a **Název listu deníku plateb** je nutné zadat, do které šablony a listu deníku plateb budou převedeny položky bankovního výpisu pro zaúčtování.
 
-        Aktivací pole **Kontrola ext. čísla v aktuálním roce** definujete, že systém bude při vydání bankovního výpisu kontrolovat, zda se mezi vydanými bankovními výpisy již nenachází výpis se stejným číslem externího dokladu v rámci daného kalendářního roku. Pozn.: Do pole Číslo externího dokladu v dokladu bankovního výpisu se zadává číslo výpisu přiřazené bankou.
+        Aktivací pole **Kontrola ext. čísla v aktuálním roce** definujete, že systém bude při vydání bankovního výpisu kontrolovat, zda se mezi vydanými bankovními výpisy již nenachází výpis se stejným číslem externího dokladu v rámci daného kalendářního roku. Pozn.: do pole Číslo externího dokladu v dokladu bankovního výpisu se zadává číslo výpisu přiřazené bankou.
 
     - **Záložka Číslování**:
         Zde se nachází pole pro zadání číselných řad souvisejících s bankou. Pro nastavení způsobu číslování je nutné zadat kódy číselných řad do polí **Čísla příkazů**, **Čísla vydaných příkazů,** **Čísla výpisů** a **Čísla vydaných výpisů**.
