@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Vytvoření, import a vystavení bankovního výpisu
+# Správa bankovních výpisů
 Správa bankovních výpisů umožňuje ruční i automatickou tvorbu a zpracování bankovních výpisů. 
 
 ## Vytvoření bankovního výpisu
