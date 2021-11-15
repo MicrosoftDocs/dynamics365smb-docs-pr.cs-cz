@@ -26,7 +26,7 @@ Bankovní účty společnosti zobrazíte vyhledáním stránky **Bankovní účt
 
         Prostřednictvím polí **Typ tolerance párování** a **Hodnota tolerance párování** lze nastavit povolenou odchylku plateb dle procent či částky. Zde zadanou odchylku použije funkce automatického vyrovnání plateb pro pravidlo hledání shody dle částky k dohledání možných položek k vyrovnání.
 
-        Je zde zobrazeno aktuální **Saldo** bankovního účtu. Pole **Saldo (LM)** pak znázorňuje zůstatek bankovního účtu přepočtený dle platného kurzu do lokální (účetní) měny. Položky bankovního účtu, ze kterých je tvořeno aktuální zaúčtované saldo, lze zobrazit rozkliknutím částek v těchto polích.
+        Je zde zobrazeno aktuální **Saldo** bankovního účtu. Pole **Saldo (LM)** pak znázorňuje zůstatek bankovního účtu přepočtený dle platného kurzu konkrétního dokladu do lokální (účetní) měny. Položky bankovního účtu, ze kterých je tvořeno aktuální zaúčtované saldo, lze zobrazit rozkliknutím částek v těchto polích.
         Bankovní účet lze uzavřít pro používání aktivováním pole **Uzavřeno**.
         ![Karta bankovního účtu](Media/banks_bank_card.png)
 
