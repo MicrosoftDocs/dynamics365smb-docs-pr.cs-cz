@@ -58,9 +58,9 @@ Funkce automatického vygenerování řádků prochází doklady v systému, kte
     - **Filtr čísla dodavatele** – v tomto poli můžete zadat filtr na vybrané dodavatele, jejichž doklady mají být zahrnuty do automatického návrhu plateb.
     - **Platby zákazníkům** – vyberte, zda chcete do platebního příkazu navrhnout zákaznické položky. V případě volby **Pouze splatné saldo** systém navrhne položky zákazníka k úhradě pouze v případě, že celkové saldo zákazníka je splatné. Vybráním volby **Pouze závazky** určujete, že systém navrhne položky zákazníka k úhradě i v případě, kdy celkové saldo zákazníka není splatné. Při volbě **Všechny položky** systém navrhne všechny položky zákazníka. Pokud si nepřejete navrhovat položky zákazníka, tak v poli vyberte volbu **Nenavrhovat**.
     - **Filtr č. zákazníka** – v tomto poli můžete zadat filtr na vybrané zákazníky, jejichž doklady mají být zahrnuty do automatického návrhu plateb.
-    - **Platby zaměstnancům** – vyberte, zda chcete do platebního příkazu navrhnout položky zaměstnanců. Při volbě Všechny položky, systém navrhne všechny položky zaměstnance. Pokud si nepřejete navrhovat položky zaměstnanců, tak v poli vyberte volbu **Nenavrhovat**.
+    - **Platby zaměstnancům** – vyberte, zda chcete do platebního příkazu navrhnout položky zaměstnanců. Při volbě Všechny položky systém navrhne všechny položky zaměstnance. Pokud si nepřejete navrhovat položky zaměstnanců, tak v poli vyberte volbu **Nenavrhovat**.
     - **Filtr čísla zaměstnance** – v tomto poli můžete zadat filtr na vybrané zaměstnance, jejichž doklady mají být zahrnuty do automatického návrhu plateb.
-    - **Přeskočit uzavřené záznamy** – aktivace pole určuje, že položky uzavřených záznamů budou přeskočeny. Tedy pokud má dodavatel na kartě v poli Uzavřeno vybráno Platba, nebo Vše, tak položky tohoto dodavatele budou z automatického návrhu plateb vyjmuty. Obdobně tak v případě uzavřeného zákazníka a také v případě zaměstnance (zde uzavření určuje pole **Uzavřeno-ochrana soukromí**).
+    - **Přeskočit uzavřené záznamy** – aktivace pole určuje, že položky uzavřených záznamů budou přeskočeny. Tedy pokud má dodavatel na kartě v poli Uzavřeno vybráno Platba, nebo Vše, tak položky tohoto dodavatele budou z automatického návrhu plateb vyjmuty. Obdobně v případě uzavřeného zákazníka a také v případě zaměstnance (zde uzavření určuje pole **Uzavřeno-ochrana soukromí**).
 3. Po stisknutí tlačítka **OK** proběhne automatické navržení řádků platebního příkazu dle nastavených podmínek.
 4. Po kontrole vygenerovaných řádků platebního příkazu je možné případně **smazat řádky**, které nechcete zahrnout do tohoto příkazu, nebo naopak **přidávat další řádky** a lze měnit i částky, které mají být hrazeny.
 
@@ -70,7 +70,7 @@ Před vydáním platebního příkazu je možné provést kontrolu spolehlivosti
 
 Pro vydání platebního příkazu postupujte následujícím způsobem:
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Platební příkazy** a poté vyberte související odkaz.
-2. Otevře se stránka s přehledem bankovních účtů, ve které se zobrazí všechny založené bankovní účty. Zde označte bankovní účet, pro který budete vytvářet platební příkaz a potvrďte kliknutím na tlačítko **OK**.
+2. Otevře se stránka s přehledem bankovních účtů, ve které se zobrazí všechny založené bankovní účty. Zde označte bankovní účet, pro který budete vydávat platební příkaz a potvrďte kliknutím na tlačítko **OK**.
 3. Po potvrzení účtu se otevře stránka **Platební příkazy**, která zobrazuje nevydané platební příkazy daného bankovního účtu. 
 4. Vyberte příkaz, který chcete vydat a otevřete ho.
 5. Vydání platebního příkazu proveďte pomocí akce **Vydání** v pásu karet. Lze zvolit, zda bude platební příkaz vydán nebo vydán a rovnou exportován do souboru.
