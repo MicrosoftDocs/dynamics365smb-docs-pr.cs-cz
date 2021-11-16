@@ -19,7 +19,7 @@ Aby bylo možno zpracovávat bankovní výpisy a platební příkazy, je potřeb
 Bankovní účty společnosti zobrazíte vyhledáním stránky **Bankovní účty**. Údaje o bankovním účtu se spravují na **kartě bankovního účtu**.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Bankovní účty** a poté vyberte související odkaz.
-2. V přehledu bankovních účtu vyberte bankovní účet, který chcete nastavit.
+2. V přehledu bankovních účtů vyberte bankovní účet, který chcete nastavit.
 3. Na kartě bankovního účtu nastavte **následující části**:
     - **Záložka obecné**:  
         Povinné pole **Číslo** (jednoznačná identifikace vytvářené karty bankovního účtu) lze, dle nastavení, zadat ručně nebo nechat přiřadit číslo automaticky z číselné řady. Dále je zde možné zadat **Název** bankovního účtu, a především **Číslo bankovního účtu.**
