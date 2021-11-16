@@ -51,7 +51,7 @@ Bankovní účty společnosti zobrazíte vyhledáním stránky **Bankovní účt
     - **Záložka Platební příkazy**:  
         Do polí **Tuzemský platební příkaz** a **Zahraniční platební příkaz** se vyplňuje číslo tiskové sestavy, která bude použita pro tisk tuzemského/zahraničního platebního příkazu.
 
-        V poli **Kód základního kalendáře** lze bankovnímu účtům přiřadit konkrétní nadefinovaný kalendář. Kalendář specifikuje pracovní a nepracovní dny. Definici kalendáře můžete použít ve funkci pro návrh řádků platebního příkazu, tak aby systém nenavrhoval datum splatnosti platebního příkazu na nepracovní dny. 
+        V poli **Kód základního kalendáře** lze bankovnímu účtu přiřadit konkrétní nadefinovaný kalendář. Kalendář specifikuje pracovní a nepracovní dny. Definici kalendáře můžete použít ve funkci pro návrh řádků platebního příkazu, tak aby systém nenavrhoval datum splatnosti platebního příkazu na nepracovní dny. 
         Do polí **Výchozí konstantní symbol** a **Výchozí specifický symbol** se vyplňují hodnoty, které budou použity jako výchozí v řádcích platebního příkazu. Do pole **Popis řádku platebního příkazu** se vyplňuje výchozí popis řádku platebního příkazu při použití funkce **Navrhni platby**. Pokud je aktivováno pole **Částečný návrh** plateb, budou navrhovány i položky, které již byly částečně uhrazeny (částečně navrženy k úhradě).
 
         Aktivací pole **Zahraniční platební příkazy** určujete, že při vytváření platebního příkazu bude hodnota pole Zahraniční bankovní příkaz nastavena také na Ano (nastavení je důležité při exportu platebních příkazů).
