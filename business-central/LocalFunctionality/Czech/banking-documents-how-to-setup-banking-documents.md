@@ -122,7 +122,7 @@ Pro definici **Pravidel hledání** postupujte následujícím způsobem:
 
 - **Identifikační**
 - **Vyhledávací** (hledání v položkách zákazníka, dodavatele, zaměstnance, „starých“ zálohách Base aplikace). Pozn.: aplikace nových CZ záloh (Advance Payments Localization for Czech) ještě doplňuje hledání v „nových“ nákupních a prodejních zálohách
-- **Filtrovací** (na základě nastavené masky se přímo určí, jak navrhnout řádek do deníku plateb)
+- **Filtrovací** (na základě nastavené masky se přímo určí, jak navrhnout řádek do deníku plateb).
 Na jednom řádku může být buď definice vyhledávání nebo definice filtrování. Nelze je v rámci jednoho řádku kombinovat.
 
 **Identifikační část pravidla**
