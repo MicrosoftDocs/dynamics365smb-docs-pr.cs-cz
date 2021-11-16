@@ -97,21 +97,21 @@ Pro definování tohoto číselníku postupujte následujícím způsobem:
 ![Banky - Účto skupiny bankovního účtu](Media/banks_posting_groupes.png)
 ## Nastavení pravidel pro párování bankovních výpisů
 
-Pravidla párování slouží pro automatické vyrovnávání položek bankovního výpisu při vytvoření deníku plateb z daného bankovního výpisu. Mohou podstatně zrychlit práci při zpracování bankovního výpisu v systému a usnadnit uživatelům identifikaci jednotlivých plateb.
+Pravidla hledání slouží pro automatické vyrovnávání položek bankovního výpisu při vytvoření deníku plateb z daného bankovního výpisu. Mohou podstatně zrychlit práci při zpracování bankovního výpisu v systému a usnadnit uživatelům identifikaci jednotlivých plateb.
 
-Vlastní pravidla vyrovnání plateb nastavíte v číselníku **Pravidla vyrovnání**. Souběžně může být v číselníku nastaveno několik různých pravidel. Můžete nastavit vlastní pravidla pro bankovní účty nebo například pro různé typy bankovních výpisů.
+Vlastní pravidla vyrovnání plateb nastavíte v číselníku **Pravidla hledání**. Souběžně může být v číselníku nastaveno několik různých pravidel. Můžete nastavit vlastní pravidla pro bankovní účty nebo například pro různé typy bankovních výpisů.
 
 ![Banky - Nastavení pravidel pro párování](Media/banks_rules.png)
-### Definice pravidla vyrovnání
-Pravidla vyrovnání slouží pro automatické vyrovnávání položek bankovního výpisu při vytvoření deníku plateb z daného bankovního výpisu. Mohou podstatně zrychlit práci při zpracování bankovního výpisu v systému a usnadnit uživatelům identifikaci jednotlivých plateb.
+### Definice pravidla hledání
+Pravidla hledání slouží pro automatické vyrovnávání položek bankovního výpisu při vytvoření deníku plateb z daného bankovního výpisu. Mohou podstatně zrychlit práci při zpracování bankovního výpisu v systému a usnadnit uživatelům identifikaci jednotlivých plateb.
 
-Vlastní pravidla vyrovnání plateb nastavíte v číselníku **Pravidla vyrovnání**. Souběžně může být v číselníku nastaveno několik různých pravidel. Můžete nastavit vlastní pravidla pro bankovní účty nebo například pro různé typy bankovních výpisů.
+Vlastní pravidla vyrovnání plateb nastavíte v číselníku **Pravidla hledání**. Souběžně může být v číselníku nastaveno několik různých pravidel. Můžete nastavit vlastní pravidla pro bankovní účty nebo například pro různé typy bankovních výpisů.
 
 
 Pro definici **Pravidel hledání** postupujte následujícím způsobem:
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Pravidla vyrovnání** a poté vyberte související odkaz.
-2. Na přehledu kliněte na funkci **Nový**, následně se Vám otevře karta pravidla vyrovnání.
-3. Do pole **Kód** zadáte jednoznačnou identifikaci pravidla a do pole **Popis** můžete popsat dané pravidlo vyrovnání. Aktivací pole **Výchozí** můžete jedno z pravidel označit jako výchozí. V poli je kontrola, že v rámci záznamů v tabulce může být označen jako výchozí (hodnota Ano) pouze jeden záznam. **Výchozí pravidlo** systém doplní do bankovních výpisů v případě, že na daném bankovním účtu nebude definováno jiné pravidlo vyrovnání.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Pravidla hledání** a poté vyberte související odkaz.
+2. Na přehledu kliněte na funkci **Nový**, následně se Vám otevře karta pravidla hledání.
+3. Do pole **Kód** zadáte jednoznačnou identifikaci pravidla a do pole **Popis** můžete popsat dané pravidlo hledání. Aktivací pole **Výchozí** můžete jedno z pravidel označit jako výchozí. V poli je kontrola, že v rámci záznamů v tabulce může být označen jako výchozí (hodnota Ano) pouze jeden záznam. **Výchozí pravidlo** systém doplní do bankovních výpisů v případě, že na daném bankovním účtu nebude definováno jiné pravidlo hledání.
 4. Každé pravidlo by mělo obsahovat alespoň jeden řádek. Na **pořadí řádků pravidel** záleží, mělo by se postupovat od největší shody k obecnějším pravidlům. Pořadí řádků tedy určuje prioritu, s jakou se systém pokusí dané pravidlo aplikovat. Upravit pořadí řádků lze pomocí tlačítek nad řádky. **Posunout nahoru a Posunout dolů** umožní změnit pořadí řádků pro vyhledávání.
 
 Řádky pravidla je možné vytvořit ručně dle potřeby uživatelů nebo je možné vygenerovat předdefinovaná pravidla pomocí funkce **Vytvořit výchozí řádky**.
