@@ -25,7 +25,7 @@ Pro vytvoření nového bankovního výpisu postupujte následujícím způsobem
 3. Po potvrzení účtu se otevře stránka **Bankovní výpisy**, která zobrazuje nevydané bankovní výpisy daného bankovního účtu. 
 4. Nový výpis vytvoříte kliknutím na akci **Nový**. Otevře se stránka karta nově vytvořeného bankovního výpisu.
 5. Hlavička obsahuje obecné informace bankovního výpisu. Tyto informace je potřeba vyplnit v následujících polích:
-    -  Do pole **Číslo** systém automaticky doplní číslo z číselné řady. Pokud je u dané řady povoleno ruční číslování může uživatel zadat číslo výpisu ručně.
+    -  Do pole **Číslo** systém automaticky doplní číslo z číselné řady. Pokud je u dané řady povoleno ruční číslování, může uživatel zadat číslo výpisu ručně.
     - Pole **Číslo bankovního účtu**, **Název bankovního účtu** a **Číslo účtu** se doplní automaticky z nastavení karty bankovního účtu. 
     - V poli **Kód měny** je doplněna měna, ve které je veden bankovní účet. V poli **Kód měny** výpisu lze zadat kód měny, ve které bude výpis zpracován (program ve výchozím stavu doplní měnu z karty bankovního účtu).
     - Do pole **Datum dokladu** zadejte datum bankovního výpisu.
@@ -42,16 +42,16 @@ Pro vytvoření nového bankovního výpisu postupujte následujícím způsobem
     - Do pole **Popis** je možno doplnit popis daného řádku.
     - Do pole **Částka** se zadá částka transakce s příslušným znaménkem. 
         ![Karta Výpisu](Media/banks_bank_statement_card.png)
-7. Po vyplnění řádků dokladu je možné **Vydat** platební výpis nebo **Vydat a Vydat a vytvořit deník**.
+7. Po vyplnění řádků dokladu je možné **Vydat** platební výpis nebo **Vydat a vytvořit deník**.
 
 
 ###  Vytvoření bankovního výpisu - Vytvoření řádků výpisu kopií vydaného platebního příkazu
 Systém umožňuje vytvořit řádky bankovního výpisu přímou kopií vydaného platebního příkazu. 
 
-1. Postup vytvoření platebního výpisu je stejný jako u ručního, jen je v kroku **č.6** (viz předchozí postup) je nutné použít v pásu karet v části Akce funkci **Kopie platebního příkazu**.
-2. Systém otevře stránku požadavků **Kopie příkazu do výpisu**. Zde vybere, který vydaný platební příkaz chcete kopírovat. Řádky příkazu se poté zkopírují do řádků výpisu. 
+1. Postup vytvoření platebního výpisu je stejný jako u ručního, jen je v kroku **č.6** (viz předchozí postup) nutné použít v pásu karet v části Akce funkci **Kopie platebního příkazu**.
+2. Systém otevře stránku požadavků **Kopie příkazu do výpisu**. Zde vyberete, který vydaný platební příkaz chcete kopírovat. Řádky příkazu se poté zkopírují do řádků výpisu. 
 3. Další provedené operace (bankovní poplatky, úroky, přijaté platby) je možné do řádků bankovního výpisu doplnit ručně. Před vydáním bankovního výpisu lze řádky upravit nebo vymazat.
-4. Po vyplnění řádků dokladu je možné **Vydat** platební výpis nebo **Vydat a Vydat a vytvořit deník**.
+4. Po vyplnění řádků dokladu je možné **Vydat** platební výpis nebo **Vydat a vytvořit deník**.
 
 
 ## Import bankovního výpisu
@@ -83,13 +83,13 @@ V případě, že byly na základě pravidel hledání nalezeny položky pro pá
 Pokud byly na základě pravidel hledání typu **Textové mapování** nalezeny položky např. bankovních poplatků nebo úroků, jsou doplněna čísla finančních účtů, na které mají být částky zaúčtovány.
 V poli **Typ protiúčtu** a **Číslo protiúčtu** je potom uveden bankovní účet výpisu. 
 V poli **Popis** jsou podrobnější údaje o položce z bankovního výpisu.
-Pravidlo hledání podle, kterého byl řádek automaticky vyrovnán, je zaznamenáno v polích **Kód pravidla hledání** a **Kód řádku pravidla hledání**. Kliknutím na hodnotu v poli **Kód řádku pravidla hledání** lze pak zobrazit detailní informace o nastavení pravidla, které bylo pro vyhledání položky k vyrovnání aplikováno.
+Pravidlo hledání, podle kterého byl řádek automaticky vyrovnán, je zaznamenáno v polích **Kód pravidla hledání** a **Kód řádku pravidla hledání**. Kliknutím na hodnotu v poli **Kód řádku pravidla hledání** lze pak zobrazit detailní informace o nastavení pravidla, které bylo pro vyhledání položky k vyrovnání aplikováno.
 
 V případě, že pro transakci na výpisu nebyla nalezena odpovídající položka zákazníka, zaměstnance, nebo dodavatele, bude v poli **Typ účtu** hodnota **Finanční účet** a v poli **Číslo účtu** číslo účtu nastaveného na kartě bankovního účtu v poli **Účet nepřiřazených plateb**. Uživatel v tom případě musí řádky finančního deníku ručně upravit.
 
-V případě že nedošlo k automatickému vyrovnání položek, je možné položky vyrovnat ručně vyplněním předmětných polí.
+V případě, že nedošlo k automatickému vyrovnání položek, je možné položky vyrovnat ručně vyplněním předmětných polí.
 
-## Zpracování výpisu v deníku plateb, nebo do deníku odsouhlasení plateb
+## Zpracování výpisu v deníku plateb, nebo v deníku odsouhlasení plateb
 
 Primární způsob zpracovávání vydaného bankovního výpisu je s využitím vlastního párovacího mechanismu **Pravidel hledání** do **Deníku plateb**.
 Bankovní výpis je však možné zpracovat také přes standardní párovací mechanismus **Pravidla vyrovnání plateb** do **Deníku odsouhlasení plateb**. Zde však již bez specifických úprav párování dle rozšiřujících identifikátorů bankovní transakce (**Variabilní symbol**, **Specifický symbol** a **Konstantní symbol**) a bez párování na zálohové doklady.
