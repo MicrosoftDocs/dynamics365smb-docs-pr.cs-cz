@@ -18,8 +18,31 @@ Uživatelé provádějí účetní operace a musí mít možnost tisknout takov�
 
 Z výše uvedených důvodů tato funkce poskytuje následující sestavy:
 
-- **Finanční deník** – test – sestava se používá pro tisk dokumentů z finančního deníku.
-- **Obecný účetní doklad** - sestava se používá k tisku zaúčtovaných účetních operací.
+## Finanční deník - Test
+Report, který slouží pro kontrolu zadaného interního dokladu před zaúčtováním z Finančního deníku.  
+### Supštění sestavy Finanční deník - Test
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony finančního děníku** a poté vyberte související odkaz.
+2. Vyberte šablonu finančního deníku a vyplňte v poli **ID sestavy 11722 - Finanční deník - Test**.
+3. Přehled šablon finančního deníku můžete zavřít.
+4. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Finanční deníky** a poté vyberte související odkaz.
+5. Vyberte šablonu deníku.
+6. Vyplňte řádky deníku interními transakcemi a poté spusťtě sestavu Finanční deník - Test pomocí tlačítka **Testovací sestava** a zkontrolujte výstup reportu.
+
+## Obecný účetní doklad
+Report, který slouží ke kontrole a tisku zaúčtované účetní operace. Report je možné tisknout včetně dimenzí. 
+
+### Spuštění sestavy Obecný účetní doklad
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony finančního děníku** a poté vyberte související odkaz.
+2. Vyberte šablonu finančního deníku a vyplňte v poli **ID účtovací sestavy 11766 - Obecný účetní doklad**.
+3. Přehled šablon finančního deníku můžete zavřít.
+4. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Finanční deníky** a poté vyberte související odkaz.
+5. Vyberte šablonu deníku.
+6. Vyplňte řádky deníku interními transakcemi.
+7. **Pro spuštění při účtování** použijte funkci **Účtovat a vytisknout** a zkontrolujte výstup reportu.
+8. **Pro ruční spuštění** postupujte následovně:
+    - Spustit a zkontrolovat výstup reportu Obecný účetní doklad s parametrem včetně dimenzí.
+    - Spustit a zkontrolovat výstup reportu Obecný účetní doklad podle čísla věcné položky.
+    - Spustit a zkontrolovat výstup reportu Obecný účetní doklad podle čísla dokladu.
 
 ## Viz Také
 
