@@ -59,20 +59,20 @@ Nad tímto požadavkem nemáme kontrolu. Tento požadavek je nastaven pomocí Po
 <!-- 7 -->
 ### Funguje konektor se stránkami rozhraní API?
 
-Ano. Starting in June 2021, the new Power BI connector supports both Business Central web services and API pages. Pro více informací navštivte [Povolení práce s rozhraními API Business Central pomocí konektoru Power BI, nikoli pouze s webovými službami](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Ano. Od června 2021 však bude nový konektor Power BI podporovat webové služby Business Central i stránky rozhraní API. Pro více informací navštivte [Povolení práce s rozhraními API Business Central pomocí konektoru Power BI, nikoli pouze s webovými službami](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
-### Can I build a Power BI report using the Sales Invoice Lines or Journal Lines APIs?
+### Můžu sestavu Power BI vytvořit pomocí Řádků prodejní faktury nebo rozhraní API řádků deníku?
 
-The most commonly used line records are available in the [Business Central APIs v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). So you can use them to build reports in Power BI by selecting them in the **Dynamics 365 Business Central** connector. However, the **Lines** APIs are designed to be used only with some very specific filters, and might not work in your scenario. You might get an error similar to "You must specify an Id or a Document Id to get the lines". To fix this problem, do the following steps when getting data from Business Central for the report in Power BI Desktop:
+Nejčastěji používané řádkové záznamy jsou k dispozici v [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). Můžete je tedy použít k vytváření sestav v Power BI tak, že je vyberete v konektoru **Dynamics 365 Business Central**. Rozhraní **Lines** API jsou však navržena pro použití pouze s některými velmi specifickými filtry a ve vašem scénáři nemusí fungovat. Může se zobrazit chyba podobná chybě "Chcete-li získat řádky, musíte zadat ID nebo ID dokumentu". Pokud chcete tento problém vyřešit, proveďte následující kroky při získávání dat z Business Central pro sestavu v Power BI Desktopu:
 
-1. Instead of including the data source for the lines entity, add the parent data source. For example, add **Sales Invoice** instead of **Sales Invoice Lines**.
-2. Select **Transform Data** in the Power BI Desktop action bar.
-3. Select the query you just added, for example **Sales Invoices**.
-4. Apply any needed filtering on the records to reduce the amount of records loaded in your report.
-5. Scroll to the right until you find a column named as the lines, for example **SalesInvoiceLines**.
-6. Select the expand button in the header of the column, next to the column name.
+1. Místo zahrnutí zdroje dat pro entitu řádků přidejte nadřazený zdroj dat. Například přidejte **Prodejní fakturu** namísto **Řádků prodejní faktury**.
+2. Na panelu akcí Power BI Desktopu vyberte **Transformovat data**.
+3. Vyberte dotaz, který jste právě přidali, například **Prodejní faktury**.
+4. Použijte na záznamy jakékoli potřebné filtrování, abyste snížili množství záznamů načtených ve vaší sestavě.
+5. Posouvejte se doprava, dokud nenajdete sloupec pojmenovaný jako řádky, například **Řádky prodejní faktury**.
+6. Vyberte tlačítko Rozbalit v záhlaví sloupce vedle názvu sloupce.
 
-   :::image type="content" source="media/saleinvoicelines.png" alt-text="Shows the SalesInvoiceLines column in Power BI Desktop.":::
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Zobrazuje sloupec Řádky prodejní faktury v Power BI Desktopu.":::
 <!-- 11 -->
 ### Je možné zvolit, ze kterého prostředí Business Central chcete získat data pro Power BI, například sandbox nebo produkční prostředí?
 
@@ -105,7 +105,7 @@ Tady jsou další stránky, které obsahují větší část **Sestav Power BI**
 | 1156 | Podrobnosti o společnosti |
 | 4013 | Intelligent Cloud Insights |
 | 9006 | Centrum rolí Zpracovatel objednávek |
-| 9008 | Whse. rolí Skladník |
+| 9008 | Deník rolí Skladník |
 | 9010 | Centrum rolí Výrobní plánovač |
 | 9015 | Centrum rolí Vedoucí projektuC |
 | 9016 | Centrum rolí Správce servisu |
@@ -137,23 +137,23 @@ Pokud jde o webové služby, publikované dotazy jsou obvykle rychlejší než e
 Až bude nový konektor k dispozici v červnu 2021, doporučujeme používat stránky rozhraní API na dotazy publikované jako webové služby.
 
 <!-- 13 -->
-### Existuje způsob, jak může koncový uživatel vytvořit webovou službu se sloupcem, který je v tabulce Business Central, ale ne na stránce? Or will the developer have to create a custom query?
+### Existuje způsob, jak může koncový uživatel vytvořit webovou službu se sloupcem, který je v tabulce Business Central, ale ne na stránce? Nebo bude muset vývojář vytvořit vlastní dotaz?
 
-Ano. With the release of the new connector in June 2021, a developer can create a new API page to meet this requirement.
+Ano. S vydáním nového konektoru v červnu 2021 může vývojář vytvořit novou stránku rozhraní API, která tento požadavek splní.
 
 <!-- 28 -->
 ### Můžu Power BI připojit k databázi Business Central online jen pro čtení?
 
 Ne.  Ale tuto funkci máme v našem dlouhodobém plánu.
 
-### <a name="perms"></a>How do I change or clear the user account I'm currently using to connect to Business Central from Power BI Desktop?
+### <a name="perms"></a>Jak změním nebo vymažu uživatelský účet, který aktuálně používám pro připojení k Business Central z Power BI Desktopu?
 
-In Power BI Desktop, do the following steps:
+V Power BI Desktopu proveďte následující kroky:
 
-1. In the File menu, select **Options and settings** > **Data source settings**.
-2. Select **Dynamics Business Central** from the list, then select **Clear permissions** > **Delete**.
+1. V nabídce Soubor vyberte **Možnosti a nastavení** > **Nastavení zdroje dat**.
+2. Ze seznamu vyberte **Dynamics Business Central** a poté vyberte **Vymazat oprávnění** > **Odstranit**.
 
-Then next time you connect to Business Central to get data, you'll be asked to sign in.
+Až se příště připojíte k Business Central, abyste získali data, budete vyzváni k přihlášení.
 
 ## [Výkon](#tab/performance)
 
@@ -203,7 +203,7 @@ Prověřujeme tuto funkci. Power BI nabízí bohatá rozhraní API pro řízení
 
 ### Vyzkoušel jsem náhled nového konektoru, který bude v červnu 2021. Při připojování k rozhraní API v2.0 se zobrazí některé hodnoty jako "_x0020_". Co znamenají tyto hodnoty?
 
-Nadcházející verze konektoru Power BI umožňuje připojení k stránkám rozhraní Business Central API, včetně rozhraní API v2.0. yto stránky obsahují několik polí založených na objektech [AL Enum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Pole založená na objektech AL Enum musí mít názvy, které jsou konzistentní a vždy stejné, aby filtry v sestavě vždy fungovaly bez ohledu na jazyk nebo operační systém, který používáte. Z tohoto důvodu nejsou pole založená na AL Enums přeložena a jsou kódována, aby se zabránilo jakémukoli speciálnímu znaku, včetně mezery. Zejména vždy, když je v objektu AL Enum prázdná možnost, je zakódována na "_x0020_". Transformaci dat v Power BI můžete použít vždy, pokud chcete pro tato pole zobrazit jinou hodnotu, například "Prázdná".
+Nadcházející verze konektoru Power BI umožňuje připojení k stránkám rozhraní Business Central API, včetně rozhraní API v2.0. Tyto stránky obsahují několik polí založených na objektech [AL Enum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Pole založená na objektech AL Enum musí mít názvy, které jsou konzistentní a vždy stejné, aby filtry v sestavě vždy fungovaly bez ohledu na jazyk nebo operační systém, který používáte. Z tohoto důvodu nejsou pole založená na AL Enums přeložena a jsou kódována, aby se zabránilo jakémukoli speciálnímu znaku, včetně mezery. Zejména vždy, když je v objektu AL Enum prázdná možnost, je zakódována na "_x0020_". Transformaci dat v Power BI můžete použít vždy, pokud chcete pro tato pole zobrazit jinou hodnotu, například "Prázdná".
 
 
 ---
