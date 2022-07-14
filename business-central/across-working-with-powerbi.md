@@ -21,7 +21,7 @@ Sestavy Power BI vám poskytnou přehled ve vašem [!INCLUDE[prod_short](include
 
 [!INCLUDE [prod_short](includes/prod_short.md)] funguje společně se službou Power BI. Sestavy pro zobrazení v [!INCLUDE [prod_short](includes/prod_short.md)] jsou uloženy ve službě Power BI. V [!INCLUDE [prod_short](includes/prod_short.md)] můžete přepnout sestavu zobrazenou v části Power BI na libovolnou sestavu Power BI dostupnou ve vaší službě Power BI. Po prvním přihlášení do [!INCLUDE [prod_short](includes/prod_short.md)] a dokud se nepřipojíte ke službě Power BI, části budou prázdné, jak je znázorněno zde:
 
-![Power BI part in Business Central.](./media/power-bi-part.png)
+![Část Power BI v Business Central.](./media/power-bi-part.png)
 
 ## Začínáme
 
@@ -72,7 +72,7 @@ Informace o vytváření sestav pro stránky seznamů najdete v tématu [Vytvá�
 
 Součást Power BI na stránce může zobrazovat všechny sestavy Power BI, které máte k dispozici. Chcete-li přepnout a zobrazit jinou sestavu, zvolte akci **Vybrat sestavu** z rozevíracího seznamu příkazů v horní části.
 
-Stránka **Výběr sestav Power BI** zobrazuje seznam všech sestav Power BI, ke kterým máte přístup. This list is retrieved from any of your own workspaces or workspaces that have been shared with you in the Power BI service. Zaškrtněte políčko **Povolit** pro každou sestavu, kterou chcete zobrazit na stránce, a pak zvolte **OK**. Když se vrátíte na stránku, zobrazí se poslední povolená sestava. Pomocí rozevírací nabídky použijte příkazy **Předchozí** a **Další** k navigaci mezi sestavami.
+Stránka **Výběr sestav Power BI** zobrazuje seznam všech sestav Power BI, ke kterým máte přístup. Tento seznam se načte z vašich vlastních pracovních prostorů nebo pracovních prostorů, které s vámi byly sdíleny ve službě Power BI. Zaškrtněte políčko **Povolit** pro každou sestavu, kterou chcete zobrazit na stránce, a pak zvolte **OK**. Když se vrátíte na stránku, zobrazí se poslední povolená sestava. Pomocí rozevírací nabídky použijte příkazy **Předchozí** a **Další** k navigaci mezi sestavami.
 
 ### Získání dalších sestav
 
