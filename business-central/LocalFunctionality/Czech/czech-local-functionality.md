@@ -30,12 +30,13 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
   * [Uzávěrkové operace](year-close-operations.md) **Nyní k dispozici**
   * [Vyrovnání věcných položek](general-ledger-entries-application.md) **Nyní k dispozici**
   * [Aktualizace směnného kurzu](exchange-rate-update.md) **Nyní k dispozici**
+  * [Skupiny finančních účtů – více okruhové účetnictví](how-to-use-multi-circuit-accounting.md) **Nyní k dispozici**
 
 * **DPH**
   * [Datum DPH](how-to-setup-vat-date.md) **Nyní k dispozici**
   * [Výkaz DPH](vat-statement.md) **Nyní k dispozici**
   * [Dodatečná hlášení DPH](supplementary-vat-statement.md) **Nyní k dispozici**
-  * [Souhrnné hlášení](vies-cz.md) **Nyní k dispozici**
+  * [Souhrnné hlášení (VIES CZ)](vies-cz.md) **Nyní k dispozici**
   * [VIES - CZ Export](how-to-use-vies-cz-export.md) **Nyní k dispozici**
   * [Institut nespolehlivého plátce](unreliable-payer.md) **Nyní k dispozici**
   * [Směnný kurz pro DPH](how-to-setup-vat-exchange-rate.md) **Nyní k dispozici**
@@ -43,6 +44,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
   * [Kontrolní hlášení DPH](vat-control-report.md) **Nyní k dispozici**
   * [Sestavy DPH](vat-reports-cz.md) **Nyní k dispozici**
   * [Korekce DPH v lokální měně](how-to-setup-vat-correction-local-currency.md) **Nyní k dispozici**
+  * [Intrastat CZ](intrastat.md) **Nyní k dispozici**
 
 * **Dlouhodobý majetek**
   * [Dlouhodobý majetek pro Česko (rozšíření)](ui-extensions-fixed-asset-localization-cz.md) **Nyní k dispozici**
@@ -50,7 +52,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
 * **Bankovnictví a platby**
   * [Bankovní doklady pro Česko (rozšíření)](ui-extensions-banking-documents-localization-cz.md) **Nyní k dispozici**
   * [Pokladny (rozšíření)](ui-extensions-cash-desk-localization-cz.md) **Nyní k dispozici**
-  * [Elektronická Evidence Tržeb](eet.md) **Nyní k dispozici**
+  * [Elektronická Evidence Tržeb (EET)](eet.md) **Nyní k dispozici**
   * [Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md) **Nyní k dispozici**
 
 * **Závazky a pohledávky**
@@ -60,14 +62,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
   * [Opravné prodejní doklady](sales-correcting-documents.md) **Nyní k dispozici**
   * [Aktualizace kontaktů z ARES](how-to-update-contacts-from-ares.md) **Nyní k dispozici**
   * [Nový design výstupních dokladů](new-design-of-output-documents.md) **Nyní k dispozici**
-  * [Pohledávky a závazky](receivables-payables.md) **Nyní k dispozici**
   * [Zápočty (rozšíření)](ui-extensions-compensations-localization-cz.md) **Nyní k dispozici**
-
-- **Intrastat**
-  * [Nastavení modulu Intrastat](intrastat.md) **Nyní k dispozici**
-  * [Účtování transakcí pro Intrastat](intrastat.md) **Nyní k dispozici**
-  * [Příprava deníku Intrastat](intrastat.md) **Nyní k dispozici**
-  * [Export hlášení Intrastat do formátu CSV](intrastat.md) **Nyní k dispozici**
 
 * **Zásoby**
   * [Účtování zaokrouhlení v zásobách](how-to-setup-round-account-in-inventory.md) **Nyní k dispozici**
@@ -79,13 +74,10 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
 
 * **Obecné**
   * [Rozšířené uživatelské kontroly](how-to-setup-extended-user-control.md) **Nyní k dispozici**
-  * [Skupiny finančních účtů – více okruhové účetnictví](how-to-use-multi-circuit-accounting.md) **Nyní k dispozici**
   * [Kontrola změn účto skupin – pro zákazníka, dodavatele, zboží a bankovní účet](check-of-posting-group-changing.md) **Nyní k dispozici**
   * [Kontrola výdejů v zásobách – časová posloupnost](check-output-inventory-time-sequence.md) **Nyní k dispozici**
   * [Šablony pohybů zásob](inventory-movement-templates.md) **Nyní k dispozici**
   * [Šablony skladových jednotek](stockkeeping-unit-templates.md) **Nyní k dispozici**
-
-- **Drobné legislativní funkce a osvědčené postupy**
   * [Povinné vrácení přesných nákladů ve výrobě](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Nyní k dispozici**
   * [Výchozí Obecná obchodní účto skupina ve výrobě](how-to-setup-default-bus-post-group-manufacturing.md) **Nyní k dispozici**
   * [Výchozí Obchodní účto skupina v Montážních zakázkách](how-to-setup-default-bus-post-group-assembly-orders.md) **Nyní k dispozici**
@@ -97,6 +89,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
 
 ## Viz také
 
-[Práce s [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+[Práce s [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Dostupnost pro jednotlivé země/regiony a podporované jazyky](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
