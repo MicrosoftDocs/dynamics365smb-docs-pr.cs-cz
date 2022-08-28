@@ -68,8 +68,8 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
   * [Účtování zaokrouhlení v zásobách](how-to-setup-round-account-in-inventory.md) **Nyní k dispozici**
   * [Odsouhlasení zásob proti účetnictví](how-to-use-inventory-gl-reconciliation-enhancements.md) **Nyní k dispozici**
   * [Rozšíření přípravy fyzické inventury](advanced-features-physical-inventory.md) **Nyní k dispozici**
-  * [Skladové účetní doklady](how-to-use-inventory-operations-document.md) **Nyní k dispozici**
   * [Doklady fyzické inventury](how-to-use-inventory-counting-documents.md) **Nyní k dispozici**
+  * [Skladové účetní doklady](how-to-use-inventory-operations-document.md) **Nyní k dispozici**
   * [Účto skupiny v objednávkách transferu](how-to-use-posting-groups-in-transfer-orders.md) **Nyní k dispozici**
 
 * **Obecné**
