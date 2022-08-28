@@ -955,8 +955,8 @@
 ##### [Účtování zaokrouhlení v zásobách](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
 ##### [Odsouhlasení zásob proti účetnictví](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
 ##### [Rozšíření přípravy fyzické inventury](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
-##### [Skladové účetní doklady](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
 ##### [Doklady fyzické inventury](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
+##### [Skladové účetní doklady](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
 ##### [Účto skupiny v Objednávkách transferu](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
 #### Obecné
 ##### [Rozšířená uživatelská kontrola](LocalFunctionality/Czech/how-to-setup-extended-user-control.md)
