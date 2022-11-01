@@ -82,7 +82,7 @@ Při vytváření profilu můžete zaškrtnout různá políčka, která definuj
    - **Zobrazit v Průzkumníku Role** určuje, jestli se akce s obchodními funkcemi zahrnutými v profilu zobrazí v rozšířeném zobrazení Průzkumníka rolí, což je přehled funkcí. Pro více informací navštivte [Vyhledávání stránek pomocí Průzkůmníka rolí](ui-role-explorer.md).
 
 ## Export profilů
-Profily můžete exportovat z [!INCLUDE[prod_short](includes/prod_short.md)], například pro opětovné použití v jiném tenantovi. Profily jsou exportovány do souboru ZIP obsahujícího soubory AL, které lze znovu použít k vývoji rozšíření. For more information, see [Use the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Profily můžete exportovat z [!INCLUDE[prod_short](includes/prod_short.md)], například pro opětovné použití v jiném tenantovi. Profily jsou exportovány do souboru ZIP obsahujícího soubory AL, které lze znovu použít k vývoji rozšíření. Pro více informací navštivte [Použití klienta k vytváření přizpůsobení profilů a stránek](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Na stránce **Profily (role)** vyberte akci **Export profilů**.
 
