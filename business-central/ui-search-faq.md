@@ -1,59 +1,65 @@
 ---
-title: Často kladené otázky o Řekněte mi | Microsoft Docs
-description: 'Tento článek poskytuje odpovědi na otázky, které naši partneři a zákazníky často kladou na Řekněte mi.'
-author: ZdenekBicek
+title: Frequently Asked Questions about Tell Me
+description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
+author: brentholtorf
 
-ms.service: dynamics365-business-central
-ms.topic: article
+
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 01/13/2020
-ms.reviewer: v-zdbice
+ms.search.form: TellMe
+ms.date: 05/23/2022
 ms.author: bholtorf
+
 ---
+# Nejčastšjčí otázky k funkci Řekněte mi
+Tento článek odpovídá na otázky, které pokročilí uživatelé často kladou ohledně funkce Řekněte mi.
 
-# **Řekněte mi** - Otázky a odpovědi
-Toto téma odpovídá na otázky, na které se naši pokročilí uživatelé často ptají o funkci **Řekněte mi**.
+### Jsou všechny akce z mé aktuální stránky zjistitelné v Řekněte mi?
 
-## Otázky a odpovědi
+Ne. Akce v částech, jako je například část Prodejní řádky nebo Okna s fakty, se v Řekněte mi nezobrazí.
 
-### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Jsou všechny akce z mé aktuální stránky zjistitelné v **Řekněte mi**?
+### Jsou výsledky v Řekněte mi filtrovány podle oprávnění?
 
+Pokud uživatel nemá oprávnění, akce se nezobrazí. Nicméně, stránky a sestavy se objeví ve výsledcích, ale vyžadují, aby k nim měl uživatel přístup. Pokud uživatel nemá oprávnění k prohlížení objektu, zobrazí se zpráva.
 
-Ne. Akce v částech, jako je například část Prodejní řádky nebo Okna s fakty, se v **Řekněte mi** nezobrazí.
+### Zobrazuje funkce Řekněte mi obsah z mých vlastních nastavení nebo nainstalovaných rozšíření třetích stran?
 
-### <a name="are-the-results-in-tell-me-filtered-by-permissions"></a>Jsou výsledky v **Řekněte mi** filtrovány podle oprávnění?
+Akce, stránky a sestavy, které pocházejí z rozšíření, zobrazuje funkce Řekněte mi. Technické informace o tom, jak učinit vlastní stránky a sestavy zjistitelnými, naleznete v části [Přidávání Stránek a Sestav do Vyhledávání](/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality).
 
-Pokud uživatel nemá oprávnění, akce se nezobrazí. Nicméně, stránky a sestavy se ve výsledcích objeví, ale vyžadují, aby k nim měl uživatel přístup. Pokud uživatel nemá oprávnění k prohlížení objektu, zobrazí se zpráva.
+### Čím se to liší od toho, co bylo dříve známe jako Vyhledávání?
 
-### <a name="does-tell-me-display-content-from-my-customizations-or-installed-third-party-extensions"></a>Zobrazuje funkce **Řekněte mi** obsah z mých vlastních přizpůsobení nebo nainstalovaných rozšíření třetích stran?
+Vyhledávání na se vyvinulo v Řekněte mi, aby vám pomohlo rychle dokončit práci. Vyhledávání na stránce vám může pomoci pouze při přechodu na stránky nebo sestavy. Na technické úrovni již Řekněte mi není založen na starém konceptu MenuSuite.
 
-Akce, stránky a sestavy, které pocházejí z rozšíření se funkcí **Řekněte mi** zobrazí, ale vlastní dokumentace nápovědy ne. Technické informace o tom, jak učinit vlastní stránky a sestavy zjistitelnými, naleznete v části [Přidávání stránek a sestav do vyhledávání](/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality).
+### Používám on-premise [!INCLUDE[prod_short](includes/prod_short.md)]. Zahrnuje to Řekněte mi?
 
-### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Čím se to liší od toho, co bylo dříve známé jako Hledat stránku nebo sestavu?
+Řekněte mi v místním webovém klientovi můžete použít k vyhledání akcí, stránek a sestav, ale ne aplikací a konzultačních služeb na AppSource.
 
-**Hledat stránku nebo sestavu** se vyvinulo do **Řekněte mi**, aby vám pomohlo rychle dokončit práci. **Hledat stránku nebo sestavu** vám může pomoci pouze při vyhledávání stránky nebo sestavy. Na technické úrovni již Řekněte mi není založen na starém konceptu MenuSuite.
+### Je funkce Řekněte mi k dispozici pro všechna provedení?
 
-### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Využívám [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises. Zahrnuje to funkci **Řekněte mi**?
+Řekněte mi je k dispozici pouze ve Webovém klientovi nebo desktopové aplikaci pro Windows.
 
-Můžete používat funkci **Řekněte mi** v on-premises  webovém klientovi pro vyhledání akce, stránky a zprávy, ale nikoli však dokumentace nebo aplikace a poradenských služeb na AppSource.
+<!-- removed in v20 because of Help pane
+### Are the documentation results available in any language?
+The help articles display in the language you have specified in **My Settings**, if help is available in that language.
+-->
 
-### <a name="is-tell-me-available-for-all-form-factors"></a>Je funkce **Řekněte mi** k dispozici pro všechna typy klientů?
+### Poskytuje mi Řekněte mi nápovědu k používání stránek, sestav a dalších věcí?
 
-**Řekněte mi** je k dispozici pouze ve webovém klientovi nebo v aplikaci pro Windows.
+Ne, ale tyto informace můžete snadno získat z podokna Nápověda. Stačí vybrat položku nabídky **Nápověda** (otazník v pravém horním rohu) nebo stisknout Ctrl+F1 na klávesnici. Další informace naleznete v části [Panel nápovědy](product-help-and-support.md#help-pane).
 
-### <a name="are-the-documentation-results-available-in-any-language"></a>Jsou výsledky dokumentace k dispozici v jakémkoli jazyce?
+### Proč se mi u výsledků vyhledávání nezobrazuje ikona záložky?
 
-Články nápovědy se zobrazují v jazyce, který jste si zvolili v **Moje nastavení**, pokud je v tomto jazyce nápověda k dispozici.
+Ikona záložky se nezobrazí v okně Řekněte mi, pokud je pro roli uživatele zakázáno přizpůsobení.
 
-### Proč se u výsledků vyhledávání nezobrazuje ikona záložek?
-
-Ikona záložky se nezobrazí v okně **Řekněte mi**, pokud je zakázáno přizpůsobení role uživatele.
 
 ## Viz také
+[Uložení a přizpůsobení zobrazení seznamu](ui-views.md)  
+[Vyhledání funkcí a informací pomocí Řekněte mi](ui-search.md)  
+[Vyhledávání stránek pomocí prohlížeče profilů](ui-role-explorer.md)  
+[Přidání stránky nebo sestavy do záložek v Centru rolí](ui-bookmarks.md)
 
-[Ukládaní a přizpůsobení zobrazení seznamů](ui-views.md)  
-[Použití funkce Řekněte mi k nalezení funkcí a informací](ui-search.md)  
-[Hledání stránek pomocí Průzkumníka rolí](ui-role-explorer.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
