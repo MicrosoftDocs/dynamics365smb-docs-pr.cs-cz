@@ -1,69 +1,72 @@
 ---
-title: Správa přizpůsobení jako správce v Business Central | Microsoft Docs
-description: 'Naučte se, jak přizpůsobit uživatelské rozhraní tak, aby vyhovovalo vašemu způsobu práce.'
-services: project-madeira
-documentationcenter: ''
-author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields'
-ms.date: 10/01/2018
-ms.author: jswymer
+title: Customizing Pages for Roles
+description: Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
+author: SorenGP
+
+
+ms.topic: conceptual
+ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
+ms.search.form: 9171
+ms.date: 04/01/2021
+ms.author: edupont
+
 ---
+# Přizpůsobení stránek a profilů
+Uživatelé si mohou přizpůsobit svůj pracovní prostor podle svých vlastních preferencí. Pro více informací navštivte [Přizpůsobení Vašeho pracovního prostoru](ui-personalization-user.md).
 
-# <a name="managing-personalization-as-an-administrator"> </a>Správa přizpůsobení jako správce
+Správci mohou přizpůsobit stránky pro profil, například podle související obchodní role nebo oddělení, aby všichni uživatelé, kterým je přiřazen profil, viděli přizpůsobené rozložení stránky. Správce přizpůsobuje stránky pomocí stejných funkcí jako uživatelé.
 
-<!--NAV in the Web client-->
+> [!NOTE]
+> Typickým využitím obchondího profilu je role. Profil se proto v uživatelském rozhraní nazývá *Profil (Role)*.
 
-Uživatelé si mohou přizpůsobit svůj pracovní prostor podle svých vlastních preferencí. Jako správce můžete ovládat a spravovat přizpůsobení tím, že zakážete uživatelům možnost přizpůsobit stránky a vymažete všechna přizpůsobení stránek, která uživatelé měli.
+Přizpůsobení stránky začíná na stránce **Profily (Role)**, která je výchozím bodem správce pro správu profilů uživatelů na jednotlivých kartách profilů. Kromě přizpůsobení rozložení stránky můžete řídit různá další nastavení profilů na stránce **Profil (Role)** pro každý profil. Pro více informací navštivte [Správa profilů](admin-users-profiles-roles.md).
 
-## <a name="disable-personalization-for-a-profile"> </a>Zakázání přizpůsobení profilu
+## Přizpůsobení stránek a profilů
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Profily (role)** a poté vyberte související odkaz.
+2. Vyberte řádek pro profil, pro který chcete přizpůsobit stránky, a pak zvolte akci **Upravit**.
+3. Zvolte akci **Přizpůsobit stránky**.
 
-Můžete zabránit všem uživatelům, kteří patří k určitému profilu, možnost přizpůsobení svých stránek.
+   [!INCLUDE[prod_short](includes/prod_short.md)] se otevře na nové kartě prohlížeče pro vybraný profil s aktivovaným bannerem **Přizpůsobení**. Banner **Přizpůsobení** nabízí stejné funkce jako banner **Přizpůsobení**, který je k dispozici uživatelům.
 
-1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Přehled profilů** a poté zvolte související odkaz.
-2. Vyberte profil ze seznamu, který chcete upravit.
-3. Zaškrtněte políčko **Zakázat přizpůsobení** a poté klepněte na tlačítko **OK**.
+4. Přizpůsobte stránky podle potřeb dané role nebo oddělení stejným způsobem, jako by to udělal uživatel při personalizaci. Pro více informací navštivte [Přizpůsobení Vašeho pracovního prostoru](ui-personalization-user.md).
 
-## <a name="clear-user-personalizations"> </a>Vymazání přizpůsobení uživatelů
+   > Chcete-li se během personalizace pohybovat, použijte klávesovou zkratku Ctrl + klikněte na akci, pokud je zvýrazněna šipkou.
 
-Vymazání přizpůsobení stránky změní stránku zpět na původní rozvržení před provedením jakéhokoli přizpůsobení. Existují dva způsoby, jak vymazat přizpůsobení, která uživatelé na stránkách provedli: pomocí stránky **Odstranit přizpůsobení uživatelem** a pomocí stránky **Karta přizpůsobení uživateli**.
+5. Po dokončení změn rozvržení na jedné nebo více stránkách klikněte na tlačítko **Hotovo** v banneru **Přizpůsobení**.
+6. Zavřete kartu prohlížeče.
 
-### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"> </a>Vymazání přizpůsobení uživatele pomocí stránky Odstranit přizpůsobení uživatelem
+Přizpůsobení stránek je nyní evidováno pro profil.
 
-Stránka **Odstranit přizpůsobení uživatelem** umožňuje vymazat jednotlivá přizpůsobení na stránce pro každého uživatele zvlášť.
+## Zobrazení všech přizpůsobených stránek profilu
 
-1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Odstranit přizpůsobení uživatelem** a poté vyberte související odkaz.
-   
-   Na stránce jsou uvedeny všechny stránky, které byly přizpůsobeny a uživatel, k němuž patří.
-   
-   > [!NOTE]
-   > Zaškrtnutí ve sloupcích **Starší verze přizpůsobení** označuje, že přizpůsobení bylo provedeno ve starší verzi [!INCLUDE[d365fin](includes/d365fin_md.md)], která zpracovávala přizpůsobení jinak, než se to dělá teď. Uživatelé, kteří se pokoušejí přizpůsobit tyto stránky, jsou uzamčeni, pokud se rozhodnou stránku odemknout. Pro více informací, navštivte [Proč je stránka uzamčena před přizpůsobením](ui-personalization-locked.md).
+Můžete získat přehled o tom, které stránky jsou přizpůsobeny pro profil, například naplánovat, které chcete dále přizpůsobit nebo odstranit.
 
-2. Vyberte položku, kterou chcete odstranit, a poté vyberte akci **Odstranit**.
-   
-    Uživatel uvidí změny při příštím přihlášení.
+- Na stránce **Profil (role)** zvolte akci **Spravovat přizpůsobené stránky**.
 
-### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"> </a>Vymazání přizpůsobení uživatele pomocí stránky Karta přizpůsobení uživateli
+Na stránce **Přizpůsobené stránky** můžete odstranit vlastní nastavení a můžete je řešit vyhledáním potenciálních problémů.
 
-Stránka **Karta přizpůsobení uživateli** umožňuje vymazat přizpůsobení na všech stránkách konkrétního uživatele. To vyžaduje oprávnění k zápisu do Tabulky 2000000072 **Profil**.
+## Odstranění všech vlastních nastavení profilu
+Můžete zrušit všechna vlastní nastavení, která jste pro profil provedli. Vlastní nastavení zavedená s rozšířením a přizpůsobení provedená uživatelem nebudou odstraněna. Všechna přizpůsobení můžete odstranit jinou akcí. Pro více infortmací navštivte [Odstranění všech individuálních nastavení provedených uživatelem](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
-1. Vyberte ikonu ![Žárovka, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zvolte **Přizpůsobení uživatelem** a poté vyberte související odkaz.
-   
-   Na stránce **Přizpůsobení uživatelem** jsou uvedeny všichni uživatelé, kteří mají potenciálně přizpůsobené stránky. Pokud nemůžete najít uživatele v seznamu, znamená to, že nemá žádné přizpůsobené stránky.
+- Na stránce **Profil (role)** pro přizpůsobený profil vyberte akci **Vymazat přizpůsobené stránky**.
 
-2. Vyberte uživatele ze seznamu a poté zvolte akci **Upravit**.
+Rozložení na stránkách profilu se obnoví na výchozí rozložení.
 
-3. Na záložce **Akce** zvolte **Vymazat přizpůsobené stránky**.
-   
-   Uživatel uvidí změny při příštím přihlášení.
+## Odstranění vlastního nastavení pro určité stránky profilu
+Můžete odstranit jednotlivá přizpůsobení stránky, která jste provedli pro profil. Vlastní nastavení zavedená s rozšířením a přizpůsobení provedená uživatelem nebudou odstraněna. Konkrétní přizpůsobení stránky můžete odstranit jinou akcí. Pro více infortmací navštivte [Odstranění individuálních nastavení pro konkrétní stránky](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-## <a name="see-also"> </a>Viz také
+1. Na stránce **Profil (role)** zvolte akci **Spravovat přizpůsobené stránky**.
+2. Na stránce **Přizpůsobené stránky** vyberte jeden nebo více řádků pro přizpůsobení stránky, které chcete odstranit, a pak zvolte akci **Odstranit**.
 
-[Přizpůsobení Vašeho Pracovního prostoru](ui-personalization-user.md)  
-[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Změna základního nastavení](ui-change-basic-settings.md)  
+Rozvržení na vybraných stránkách se přizpůsobí provedeným změnám.
+
+## Viz také
+
+[Přizpůsobte si svůj pracovní prostor](ui-personalization-user.md)  
+[Správa profilů](admin-users-profiles-roles.md)  
+[Změnit základní nastavení](ui-change-basic-settings.md)  
 [Změna zobrazovaných funkcí](ui-experiences.md)  
+[Práce s [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,93 +1,153 @@
 ---
-title: Naplánování spouštění sestavy k určitému datu a času | Microsoft Docs
-description: 'Zjistěte, jak zadat sestavu do fronty úloh a naplánovat její zpracování ke konkrétnímu datu a času.'
-services: project-madeira
-documentationcenter: ''
+title: Run and Print Reports
+description: Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+
+
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'task, process, report'
-ms.date: 10/01/2018
+ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
+ms.search.form:
+ms.date: 03/24/2022
 ms.author: jswymer
----
-# <a name="working-with-reports-and-batch-jobs"></a>Práce se sestavami a dávkovými úlohami
-Sestava shromažďuje informace na základě zadaného souboru kritérií a organizuje a prezentuje je ve snadno čitelném a tisknutelném formátu. Existuje mnoho sestav, ke kterým máte v rámci aplikace přístup. Tyto sestavy obvykle obsahují informace týkající se kontextu stránky, na které se právě nacházíte. Například stránka **Zákazníci** obsahuje sestavy pro 10 nejlepších zákazníků, statistiky prodeje a další.
 
-Dávkové úlohy dělají víceméně to samé jako sestavy, ale za účelem provedení procesu. Například dávková úloha **Vytvořit upomínky** vytvoří upomínkové dokumenty pro zákazníky s opožděnými platbami.  
+---
+# Spouštění a tisk sestav
+
+Sestava shromažďuje informace na základě zadané sady kritérií. Informace jsou uspořádány a prezentovány ve snadno čitelném formátu, který lze vytisknout nebo uložit jako soubor. Existuje mnoho sestav, ke kterým máte v rámci aplikace přístup. Tyto sestavy obvykle obsahují informace týkající se kontextu stránky, na které se právě nacházíte. Například stránka **Zákazníci** obsahuje sestavy pro 10 nejlepších zákazníků, statistiky prodeje a další.
+
+Dávkové úlohy a XMLporty fungují víceméně stejně jako sestavy, ale používají se více pro zpracování nebo export dat. Například dávková úloha **Vytvořit upomínky** vytvoří upomínky pro zákazníky s opožděnými platbami.
 
 > [!NOTE]
 > Toto téma se týká převážně „sestavy“, ale podobné informace platí i pro dávkové úlohy.
 
+## Začínáme
+
 Sestavy můžete najít v záložce **Sestavy** na vybraných stránkách, nebo můžete použít ![vyhledávací žárovku, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete udělat"), abyste našli sestavy podle jména.
 
+Když otevřete sestavu, dávkovou úlohu nebo XMLport, obvykle se zobrazí stránka požadavku, kde nastavíte různé možnosti a filtry, které určují, co se má do sestavy zahrnout. Následující části vysvětlují, jak používat stránku požadavku k vytvoření, náhledu a tisku sestavy.
 
-## <a name="specifying-the-data-to-include-in-the-report"></a>Specifikace údajů, které mají být zahrnuty do sestavy
-Když otevřete sestavu, obvykle se zobrazí stránka, na které nastavíte různé možnosti a filtry, které určují, co se má do sestavy zahrnout. Tato stránka se nazývá dialog sestavy. Stránka dialogu sestavy například umožňuje vytvořit sestavu pro konkrétního zákazníka, určité časové období, nebo uspořádat pořadí informací v sestavě. Zde je příklad stránky dialogu sestavy:
+## <a name="SavedSettings"></a>Použití výchozích hodnot – předdefinovaná nastavení
 
-![Možnosti sestavy](media/report_options.png "Možnosti sestavy")
+Většina stránek požadavků obsahuje pole **Použít výchozí hodnoty z**. Toto pole umožňuje vybrat předdefinovaná nastavení pro sestavu, která automaticky nastaví možnosti a filtry pro sestavu. Vyberte položku ze seznamu a uvidíte, že možnosti a filtry na stránce požadavku se odpovídajícím způsobem změní.
 
-> [!Caution]
-> Oddíl **Zobrazit výsledky** na stránce dialogu poskytuje obecnou možnost filtrování sestav. Tyto filtry jsou volitelné.<br /><br /> Některé sestavy budou ignorovat všechny takové filtry, což znamená, že bez ohledu na to, jaký filtr je nastaven v části **Zobrazit výsledky**, je výstup sestavy stejný. Není možné poskytnout seznam obsahující informace o tom, která pole jsou ignorována v kterých sestavách, takže při jejich užívání s nimi budete muset experimentovat.<br /><br />
-**Příklad**: Při použití dávkové úlohy **Vytvořit upomínky** bude filtr pro **Položky zákazníka** v poli **Úrovně poslední vydané upomínky** ignorován, protože filtry jsou pro danou dávkovou úlohu pevně stanoveny.
+Položka s názvem **Naposledy použité možnosti a filtry** je vždy k dispozici. Tato položka nastaví sestavu tak, aby používala možnosti a filtry, které byly použity při posledním spuštění sestavy.
 
-### <a name="SavedSettings"></a>Použití uloženého nastavení
-U některých sestav, podle toho, jak jsou navrženy, může stránka sestavy zahrnovat sekci **Uložená nastavení**, která obsahuje jeden nebo více záznamů v poli **Použít výchozí hodnoty z**. Položky v tomto poli se nazývají *uložená nastavení*. Uložené nastavení je v podstatě předdefinovaná skupina možností a filtrů, které můžete použít pro sestavu před zobrazením náhledu nebo jejím odesláním do souboru. Uložená položka nastavení s názvem **Naposledy použité možnosti a filtry** je vždy k dispozici. Tato položka nastaví sestavu tak, aby použila možnosti a filtry, které byly použity při posledním prohlížení sestavy.
+Pole **Použít výchozí hodnoty z** poskytuje rychlý a spolehlivý způsob konzistentního generování sestav obsahujících správná data. Po výběru položky můžete před zobrazením náhledu nebo tiskem sestavy změnit kteroukoli z možností a filtrů. Změny, které provedete, se neuloží do položky předdefinovaných nastavení, kterou jste vybrali, ale uloží se do položky **Naposledy použité možnosti a filtry**.
 
-Použití uložených nastavení je rychlý a spolehlivý způsob, jak důsledně generovat sestavy obsahující správná data. Po nastavení pole **Použít výchozí hodnoty z** v položce uloženého nastavení můžete před zobrazením náhledu nebo uložením sestavy změnit libovolné možnosti a filtry. Provedené změny nebudou uloženy do vybrané položky uložených nastavení, ale do **Naposledy použitých možností a filtrů**.
+> [!NOTE]
+> Předdefinovaná nastavení obvykle nastavuje a spravuje správce. Pokud se chcete dozvědět více, přečtěte si [Správa uložených nastavení pro sestavy a dávkové úlohy](reports-saving-reusing-settings.md).
 
->[!NOTE]
->Pokud jste administrátor, můžete vytvořit a spravovat uložená nastavení sestav pro všechny uživatele. Pro více informací se podívejte na [ Správa uložených nastavení sestav](reports-saving-reusing-settings.md).
+## Určení dat, která mají být zahrnuta do sestavy
 
-### <a name="setting-options-and-filters"></a>Nastavení možností a filtrů
-Pokud chcete dále omezit nebo přesně určit data, která jsou obsažena v sestavě, můžete nastavit další možnosti a filtry.
+Pomocí polí v části **Možnosti** a **Filtry** můžete změnit omezení požadovaných informací v sestavě. Filtry v sestavě nastavujete víceméně stejným způsobem jako filtry v seznamech. Další informace naleznete v tématu [Filtrování](ui-enter-criteria-filters.md#filtering).
 
-Filtry umožňují zobrazit data na základě konkrétních kritérií. Filtry jsou seskupeny podle celku, do kterého patří, jako je například **Zákazník** na obrázku výše. Filtr definujete nastavením pole **Kde** v poli, na kterém chcete filtrovat, a přidáním kritérií do pole **je:**. Například na obrázku výše je jediný filtr, který vytvoří sestavu pro zákazníka, jehož **Číslo** je **01121212**.
+> [!CAUTION]
+> Sekce **Filtrovat dle** na stránce požadavku poskytuje obecnou možnost filtrování sestavy. Tyto filtry jsou volitelné.
+>
+> Některé sestavy budou ignorovat všechny takové filtry, což znamená, že bez ohledu na to, jaký filtr je nastaven v části **Zobrazit výsledky**, je výstup sestavy stejný. Není možné poskytnout seznam obsahující informace o tom, která pole jsou ignorována v kterých sestavách, takže při jejich užívání s nimi budete muset experimentovat.
+>
+> **Příklad**: Při použití dávkové úlohy **Vytvořit upomínky** bude filtr pro pole **Položky zákazníka** **Úrovně poslední vydané upomínky** ignorován, protože filtry jsou pro danou dávkovou úlohu pevně stanoveny..
 
-Další filtry můžete přidat nastavením polí **Přidat**. Pokud máte více než jeden filtr, budou do přehledu zahrnuty pouze výsledky, které splňují kritéria pro všechny filtry.
+## Náhled sestavy
 
-V závislosti na typu pole, které filtrujete, můžete určit kritéria filtru, která budou hledat přesnou shodu, částečnou shodu, rozsah hodnot a další. Další informace o nastavení filtrů naleznete v části:
--   [Filtrování](ui-enter-criteria-filters.md#FilterCriteria)
--   [Práce s kalendářními daty a časy](ui-enter-date-ranges.md)
+Náhled sestavy vám umožní zjistit, jak bude sestava vypadat, ještě před jejím vytištěním. Náhled není založen na tiskárně vybrané v poli **Tiskárna** na stránce požadavku. Je řízen prohlížečem. Po zobrazení náhledu se můžete vrátit na stránku požadavku a podle potřeby provést změny možností a filtrů.
 
-## <a name="previewing-a-report"></a>Náhled sestavy
-Chcete-li zobrazit sestavu v internetovém prohlížeči, zvolte **Náhled**. Chcete-li zobrazit řádek nabídek, najeďte myší na sestavu.  
+Chcete-li zobrazit náhled sestavy, zvolte tlačítko **Náhled** nebo **Náhled a zavřít** na stránce požadavku sestavy. Tlačítko, které se zobrazí, závisí na sestavě, takže některé sestavy mají tlačítko **Náhled**, zatímco jiné mají tlačítko **Náhled a zavřít**. Obě tlačítka otevřou náhled sestavy. Rozdíl je v tom, že **Náhled** udržuje stránku požadavku otevřenou, takže se k ní můžete vrátit, provést změny, znovu zobrazit náhled nebo vytisknout. Pomocí **Náhled a zavřít**se stránka požadavku zavře, takže budete muset zprávu znovu otevřít, abyste mohli provést změny nebo vytisknout.
 
-![Panel nástrojů náhledu sestavy](media/report_viewer.png "Panel nástrojů náhledu sestavy")
+> Pokud používáte verzi Business Central 2020, wave 1 nebo starší, je k dispozici pouze tlačítko **Náhled**, které zavře stránku požadavku při náhledu, jak je popsáno u **Náhled a zavřít**.
 
-Pomocí řádku nabídek můžete:
+### Práce s náhledem
 
--   Procházet stránkami
--   Přiblížit a oddálit
--   Změnit velikost, aby se obsah vešel na stránku
--   Označit text
+V náhledu použijte panel nabídek na náhledu sestavy, abyste:
 
-    Můžete zkopírovat text ze sestavy a poté ho vložit někam jinam, například do stránky v [!INCLUDE[d365fin](includes/d365fin_md.md)] nebo do aplikace Microsoft Word.  Pomocí myši stiskněte a přidržte místo, kde chcete začít, a potom pohybem myši vyberete jedno nebo více slov, vět nebo odstavců. Poté můžete stisknout pravé tlačítko myši a vybrat **Kopírovat**. Vybraný text můžete vložit kamkoli budete chtít.
--   Posun dokumentu
+- Procházeli stránkami
+- Přibližovali a oddalovali
+- Měnili velikost stránky
+- Vybírali text
 
-    Viditelnou část sestavy můžete přesunout libovolným směrem, abyste si mohli prohlédnout jiné oblasti nebo sestavu. To je užitečné, pokud jste přiblížili zobrazení, aby jste viděli podrobnosti.  Pomocí myši stiskněte a podržte tlačítko myši kdekoli v náhledu zprávy a poté pohněte myší.
+   Můžete zkopírovat text ze sestavy a pak ho vložit někam jinam, například na stránku do [! INCLUDE[prod_short](includes/prod_short.md)] nebo Microsoft Word.  Například pomocí myši stisknete a podržíte tlačítko v místě, kde chcete začít. Pak pohybem myši vyberte jedno nebo více slov, vět nebo odstavců. Stiskněte pravé tlačítko myši a vyberte **Kopírovat**. Potom vložte vybraný text na požadované místo.
+- Posun dokumentu
 
--   Stahujte do souboru PDF v počítači nebo síti.
--   Tisk
+   Viditelnou část sestavy můžete přesunout libovolným směrem, abyste si mohli prohlédnout jiné oblasti nebo sestavu. To je užitečné, pokud jste přiblížili zobrazení, aby jste viděli podrobnosti.  Pomocí myši stiskněte a podržte tlačítko myši kdekoli v náhledu zprávy a poté pohněte myší.
 
+- Stáhnutí PDF souboru do počítače nebo po síti.
+- Tisk
 
-## <a name="saving-a-report"></a>Uložení sestavy
-Sestavu můžete uložit do dokumentu PDF, dokumentu Microsoft Word nebo dokumentu Microsoft Excel tak, že vyberete možnost **Odeslat do**  a poté provedete výběr.
+## Uložení sestavy do souboru
 
-## <a name="ScheduleReport"></a> Plánování spuštění sestavy
-Můžete naplánovat spuštění sestavy v konkrétní datu a čase. Naplánované sestavy se zadávají do fronty úloh a zpracovávají se v naplánovaném čase, podobně jako u jiných úloh. Můžete si vybrat, zda chcete sestavu pouze zpracovat, nebo zpracovanou sestavu uložit do souboru, jako Excel, Word nebo PDF, případně ji vytisknout na vybranou tiskárnu. Pokud se rozhodnete uložit sestavu do souboru, bude zpracovaná sestava odeslána do **Schránky sestav** ve vašem Centru rolí, kde si ji můžete prohlédnout.
+Sestavu můžete uložit do dokumentu PDF, dokumentu Microsoft Word nebo dokumentu Microsoft Excel tak, že vyberete možnost **Odeslat do** a poté provedete výběr.
 
-Můžete naplánovat sestavu při jejím otevření. Zvolíte akci **Plánovat** a poté zadáte informace, jako tiskárna, čas a datum. Sestava je následně přidána do fronty úloh a bude spuštěna ve specifikovaném čase. Po zpracování sestavy bude položka odstraněna z fronty úloh. Pokud jste zpracovanou sestavu uložili do souboru, bude k dispozici v oblasti **Schránka sestav**.
+> [!TIP]
+> Možnosti **Dokument Microsoft Excel (pouze data)** a **Dokument XML** slouží většinou pro pokročilé účely. Tyto možnosti byste obvykle použili pro podrobnou analýzu dat. Další informace naleznete v části [Analýza dat sestav pomocí Excelu a XML](report-analyze-excel.md).
+>
+> Můžete také použít **Dokument aplikace Microsoft Excel (pouze data)** k vytvoření nových rozvržení aplikace Excel pro danou sestavu. Další informace naleznete v tématu  [Práce s rozvržením aplikace Excel](ui-excel-report-layouts.md).
+
+<!--
+### About sending to Word
+
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
+
+> [!NOTE]
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
+
+-->
+
+## <a name="ScheduleReport"></a> Plánování pozdějšího spuštění sestavy
+
+Můžete naplánovat sestavu nebo dávkovou úlohu tak, aby se spouštěla k určitému datu a času. Naplánované sestavy a dávkové úlohy se zadávají do fronty úloh a zpracovávají se v naplánovaném čase, podobně jako u jiných úloh. Po klepnutí na tlačítko **Odeslat do** zvolíte možnost **Plán** a poté zadáte informace, jako je tiskárna, čas a datum. Sestava je poté přidána do fronty úloh a bude spuštěna ve specifikovaném čase. Po zpracování sestavy bude položka odstraněna z fronty úloh. Pro více informací navštivte [Použití fronty úloh na plánování úloh](admin-job-queues-schedule-tasks.md).
+
+Když naplánujete spuštění sestavy, můžete určit, že se musí spouštět každý čtvrtek, například nastavením pole **Vzorec data dalšího spuštění** na *D4*. Pro více informací navštivte *Použití vzorců dat*.
+
+Sestavu můžete uložit do souboru (například do Excelu, Wordu nebo PDF), vytisknout nebo sestavu pouze vygenerovat. Pokud se rozhodnete uložit sestavu do souboru, bude zpracovaná sestava odeslána do **Schránky sestav** ve vašem Centru rolí, kde si ji můžete prohlédnout.
 
 ## <a name="PrintReport"></a>Tisk sestavy
-Sestavu můžete vytisknout tlačítkem **Tisk** na stránce možností, která se zobrazí při otevření sestavy, nebo z řádku nabídek v Náhledu.
 
-## <a name="changing-the-layout-and-look-of-a-report"></a>Změna rozložení a vzhledu sestavy
-Rozložení sestavy řídí, co se v sestavě zobrazí, jak je uspořádána a jak je stylizována. Pokud chcete přepnout na jiné rozložení, navštivte [Změna aktuálně používaného rozložení sestavy](ui-how-change-layout-currently-used-report.md). Pokud si chcete přizpůsobit své vlastní rozložení sestavy, navštivte [Vytvoření a úprava vlastního rozložení sestavy](ui-how-create-custom-report-layout.md).
+Chcete-li zobrazit náhled sestavy, zvolte tlačítko **Náhled** nebo **Náhled** na stránce požadavku sestavy.
 
-## <a name="see-also"></a>Viz také
-[Určete výběr tiskárny pro sestavy](ui-specify-printer-selection-reports.md)  
-[Správa rozvržení sestav a dokumentů](ui-manage-report-layouts.md)  
-[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+Pokud sestava používá rozložení aplikace Excel, neuvidíte pole **Tiskárna**, tlačítko **Tisk** ani tlačítko **Náhled**. Místo toho je zde tlačítko **Stáhnout**. Pokud chcete tisknout, vyberte **Stáhnout**, otevřete stažený soubor v Excelu a vytiskněte odtud.
+
+### <a name="Printer"></a>Tiskárna
+
+Pole **Tiskárna** na stránce požadavku zobrazuje název tiskárny, do které bude sestava odeslána. Chcete-li změnit tiskárnu, stačí vybrat tiskárnu ze seznamu.
+
+> [!NOTE]
+> **(Zpracovává prohlížeč)** znamená, že pro sestavu není určena žádná tiskárna. V takovém případě prohlížeč zpracuje výtisk a zobrazí standardní prostředí, kde si můžete vybrat místní tiskárnu připojenou k vašemu zařízení. **(Zpracováno prohlížečem)** není k dispozici v [!INCLUDE[prod_short](includes/prod_short.md)] mobilní aplikaci nebo aplikaci pro Microsoft Teams.
+
+> [!TIP]
+> Tiskárna, která je pro vás ve výchozím nastavení vybrána, se nastavuje na stránce **Výběry tiskáren**. Informace o změně výchozí tiskárny naleznete v tématu [Postup při výběru tiskáren, které tisknou sestavy](ui-specify-printer-selection-reports.md#default).
+
+### Tisk sestav v thajštině
+
+Speciálně pro thajskou verzi [!INCLUDE[prod_short](includes/prod_short.md)], tlačítko **Tisk** nemůže správně vytisknout sestavy kvůli omezením ve službě, která generuje soubor PDF pro tisk. Místo toho můžete sestavu otevřít v aplikaci Word a uložit ji jako tisknutelný soubor PDF.
+
+Nebo můžete požádat správce, aby pro nejpoužívanější sestavy vytvořil rozvržení sestavy aplikace Word. Další informace naleznete v tématu [Správa rozvržení sestav a dokladů](ui-manage-report-layouts.md).
+
+## Přepínání rozložení sestav
+
+Rozložení sestavy určuje, co se v sestavě zobrazuje, jak je uspořádaná a jak je stylizovaná. Chcete-li přepnout na jiné rozložení, přečtěte si téma [Nastavení rozložení pro sestavu](ui-set-report-layout.md). Nebo pokud chcete přizpůsobit vlastní rozložení sestavy, přečtěte si téma [Začínáme s vytvářením rozložení](ui-get-started-layouts.md).
+
+## Pokročilé možnosti
+
+Pole v části **Upřesnit** nastavují omezení generované sestavy pro řízení prostředků tiskárny. Tato nastavení obvykle nebudete muset měnit, pokud nemáte velký přehled. Pokud sestava při pokusu o náhled nebo tisk překročí tato omezení, zobrazí se zpráva s informací, které omezení bylo překročeno. Poté můžete změnit nastavení tak, aby vyhovovalo vašemu přehledu. Každé pole má maximální hodnotu, kterou byste měli znát:
+
+| Pole | Maximální hodnota |
+|-----|-------------|
+| Maximální doba vykreslování | 12:00:00 |
+| Maximální počet řádků | 1000000 |
+| Maximální počet dokumentů | 500 |
+
+> [!NOTE]
+> Maximální hodnoty mohou být pro rozdílně pro [!INCLUDE[prod_short](includes/prod_short.md)] on-premises a správce je může změnit. Další informace naleznete v části [Konfigurace Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) Pro přehled omezení přehledů [!INCLUDE[prod_short](includes/prod_short.md)] online běžte na [Provozní limity](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+
+## Viz také
+
+[Nastavení tiskáren](ui-specify-printer-selection-reports.md)  
+[Práce s kalendářními daty a časy](ui-enter-date-ranges.md)  
+[Správa sestav a rozložení sestav](ui-manage-report-layouts.md)  
+[Práce s [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

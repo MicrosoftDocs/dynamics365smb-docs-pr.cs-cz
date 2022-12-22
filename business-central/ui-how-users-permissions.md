@@ -1,178 +1,161 @@
 ---
-title: Přiřazení nebo úprava uživatelských oprávnění | Microsoft Docs
-description: 'Popisuje, jak přidat uživatele Office 365 do Business Central a poté přiřadit oprávnění, přístupová práva a nastavení zabezpečení.'
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
+title: Create Users According to Licenses
+description: Describes how to add users to Business Central online or on-premises based on licenses.
+author: edupont04
+
+ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: 'access, right, security'
-ms.date: 03/01/2019
-ms.author: sgroespe
+ms.search.keywords: access, right, security
+ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
+ms.date: 05/09/2022
+ms.author: edupont
+
 ---
-# <a name="managing-users-and-permissions"></a>Správa uživatelů a práv
-Chcete-li přidat uživatele do [!INCLUDE[d365fin](includes/d365fin_md.md)], musí správce vaší společnosti Office 365 nejprve vytvořit uživatele v Admin Center Office 365. Pro více informací navštivte [Přidejte uživatele k Office 365 pro firmy](https://aka.ms/CreateOffice365Users).
+# Vytváření uživatelů podle licencí
 
-Po vytvoření uživatelů v sadě Office 365 je lze importovat na stránku **Uživatelů** v [!INCLUDE[d365fin](includes/d365fin_md.md)]. Uživatelům jsou přiřazeny sady oprávnění v závislosti na plánu přiřazeném uživateli v Office 365. Podrobné informace o licencích naleznete v [Licenčním průvodci Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
+Tento článek popisuje, jak administrátoři vytvářejí uživatele a definují, kdo se může přihlásit k [!INCLUDE[prod_short](includes/prod_short.md)]. Tento článek také popisuje, jak přiřadit oprávnění různým typům uživatelů podle licencí produktu.
 
-Poté můžete přistoupit k přiřazení sad oprávnění uživatelům, k definování, které databázové objekty a ke kterým prvkům uživatelského rozhraní, mají uživatelé přístup a ve kterých společnostech. Můžete přidat uživatele do skupin uživatelů. To usnadňuje přiřazení stejných sad oprávnění více uživatelům.
+Když vytvoříte uživatele v [!INCLUDE[prod_short](includes/prod_short.md)], můžete jim přiřadit oprávnění prostřednictvím sad oprávnění a organizovat uživatele do skupin uživatelů. Skupiny uživatelů usnadňují správu oprávnění pro více uživatelů současně. Další informace o oprávněních naleznete v tématu [Přiřazení práv uživatelům a uživatelským skupinám](ui-define-granular-permissions.md).
 
-Sada oprávnění je souhrn oprávnění pro konkrétní objekty v databázi. Všichni uživatelé musí mít před přístupem [!INCLUDE[d365fin](includes/d365fin_md.md)] přidělenu jednu nebo více sad oprávnění.
+Pro další informace o různých typech licencí a o tom, jak funguje licencování v [!INCLUDE[prod_short](includes/prod_short.md)], [si stáhněte Průvodce licencí v Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-Na stránce **Karty uživatele** můžete otevřít stránku **Platná oprávnění** a zjistit, jaká oprávnění má uživatel a skrze které sady oprávnění jsou udělována. Zde můžete také změnit podrobnosti oprávnění pro sady oprávnění **uživatelsky definovaného** typu. Pro více informací navštivte [Získání přehledu oprávnění uživatele](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
+> [!NOTE]
+> Proces správy uživatelů a licencí se liší v závislosti na tom, zda je [!INCLUDE[prod_short](includes/prod_short.md)] nasazen online nebo on-premises (lokálně). Pro [!INCLUDE [prod_short](includes/prod_short.md)] online, musíte přidat uživatele z Microsoftu 365. V on-premimses (lokálních) nasazeních můžete vytvářet, upravovat a odstraňovat uživatele přímo.
 
-Správci mohou pomocí stránky **Nastavení uživatele** definovat časové intervaly, během nichž jsou určití uživatelé schopni účtovat, a také určit systémové protokoly množství času, po který jsou uživatelé přihlášeni.
+## Správa uživatelů a licencí v online tenantech
 
-Další systém, který definuje, k čemu mají uživatelé přístup, je Nastavení skušenosti. Pro další informace navštivte [Změnu zobrazování funkcí](ui-experiences.md).
+Vaše předplatné [!INCLUDE[prod_short](includes/prod_short.md)] online definuje počet uživatelů, který máte povolený. Uživatelé jsou přidáváni do vašeho tenanta v Microsoft Partner Center, obvykle vaším partnerem Microsoftu. Pro více informací, navštivte [Správa Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-## <a name="to-add-a-user-in-business-central"></a>Přidání uživatele v Business Central
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
-2. Vyberte akci **Získat uživatele z Office 365**.
+Licence na produkty přidělujete uživatelům podle práce, kterou každý uživatel bude dělat v [!INCLUDE[prod_short](includes/prod_short.md)]. Licence můžete přiřadit několika způsoby:
 
-Na stránce **Uživatelé** bude přidán každý nový uživatel, který byl vytvořen pro vaše předplatné Office 365.
+- Správce Microsoftu 365 vaší společnosti to může udělat v [Centru pro správu Microsoft 365](https://admin.microsoft.com). Pro více informací navštivte [Jednotlivé nebo hromadné přidání uživatelů do Microsoft 365](/microsoft-365/admin/add-users/add-users).
+- Partner společnosti Microsoft může přidělovat licence v Microsoft 365 Admin Center nebo v Microsoft Partner Center. Pro více informací navštivte [Úkoly správy uživatelů pro účty zákazníků](/partner-center/assign-licenses-to-users) v nápovědě Microsoft Partner Center.
 
-## <a name="to-group-users-in-user-groups"></a>Seskupení uživatelů do skupin uživatelů
-Můžete nastavit skupiny uživatelů, které vám pomohou spravovat sady oprávnění pro skupiny uživatelů ve vaší společnosti.
+Pro více informací, navštivte [Správa Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) v nápovědě pro správu.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Skupiny uživatelů** a poté vyberte související odkaz.
-2. Případně na stránce **Uživatelé** vyberte akci **Skupiny uživatelů**.
-3. Na stránce **Uživatelé** vyberte akci **Členové skupiny uživatelů**.
-4. Na stránce **Členové skupiny uživatelů** vyberte akci **Přidat uživatele**.
+> [!NOTE]
+> Po přidání uživatelů v Centru pro správu Microsoft 365 vám doporučujeme co nejdříve aktualizovat informace o uživatelích v [!INCLUDE[prod_short](includes/prod_short.md)]. Udržování informací o uživatelích v aktuálním stavu je snadné a pomáhá zajistit, aby se uživatelé mohli vždy přihlásit. Více informací naleznete v [Přidání uživatelů nebo aktualizace informací o uživatelích a přiřazení licencí v Business Central](#adduser).<br>
+>
+> Aktualizace informací o uživateli je obzvláště důležitá, pokud jste přizpůsobili sady oprávnění pro licenci. Pokud se nový uživatel pokusí přihlásit k [!INCLUDE[prod_short](includes/prod_short.md)] předtím, než je přidáte, nemusí se mu to podařit. Pro více informací navštivte [Konfigurace oprávnění na základě licencí](#licensespermissions).
+>
+> Uživatelé, kteří se s tímto problémem setkají, však nejsou ve skutečnosti blokováni. Mohou buď použít akci **Vrátit se domů** nebo se jednoduše znovu přihlásit a problém tím vyřešit.
 
-Při vytváření uživatelů nebo skupin uživatelů musíte každému z nich přiřadit sady oprávnění, abyste mohli definovat, ke kterému objektu má uživatel přístup. Nejprve musíte uspořádat příslušná oprávnění do sad oprávnění. Pro více informací navštivte [Získání přehledu oprávnění uživatele](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
-## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Kopírování skupiny uživatelů a všech jejích sad oprávnění
-Chcete-li rychle definovat novou skupinu uživatelů, můžete zkopírovat všechny sady oprávnění z existující skupiny uživatelů do nové skupiny uživatelů.
+Pro více informací navštivte [Delegovaný administrátorský přístup k Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).
 
-Členové skupiny uživatelů nejsou zkopírováni do nové skupiny uživatelů. Poté je musíte přidat ručně.
+### <a name="licensespermissions"></a>Konfigurace oprávnění na základě licencí
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Skupiny uživatelů** a poté vyberte související odkaz.
-2. Vyberte skupinu uživatelů, kterou chcete kopírovat, a poté vyberte akci **Kopírovat skupinu uživatelů**.
-3. Do pole **Kód nové skupiny uživatelů** zadejte název skupiny a poté stiskněte tlačítko **OK**.
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
-Nová skupina uživatelů se přidá na stránku **Skupiny uživatelů**. Pokračujte v přidávání uživatelů. Pro více informací navštivte [Seskupení uživatelů do skupin uživatelů](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
+Správci mohou konfigurovat sady oprávnění a skupiny uživatelů na základě různých typů licencí.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->
 
-## <a name="to-set-up-user-time-constraints"></a>Nastavení uživatelských časových omezení
-Správci mohou definovat časové období, během kterého jsou určití uživatelé schopni účtovat a také určit systémové protokoly množství času, po který jsou uživatelé přihlášeni. Administrátoři mohou také uživatelům přiřadit centra odpovědnosti. Pro více informací navštivte [Práce s Centry zodpovědnosti](inventory-responsibility-centers.md).
+Například běžně používaná licence *Dynamics 365 Business Central Team Member* obsahuje skupiny uživatelů *D365 Team Member* a *Excel Export Action* plus následující nastavení oprávnění ve výchozím nastavení:
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Skupiny uživatelů** a poté vyberte související odkaz.
-2. Na stránce **Nastavení uživatelů** vyberte akci **Nový**.
-3. Do pole **ID uživatele** zadejte ID uživatele nebo vyberte pole pro zobrazení všech aktuálních uživatelů systému Windows v systému.
-4. Vyplňte pole podle potřeby.
+- D365 READ
+- D365 TEAM MEMBER
+- EDIT IN EXCEL - VIEW
+- EXPORT REPORT EXCEL
+- LOCAL
 
-## <a name="to-create-or-modify-a-permission-set"></a>Vytvoření nebo úprava sady oprávnění
-Sady oprávnění fungují jako kontejnery oprávnění, takže můžete snadno spravovat více oprávnění v jednom záznamu. Po vytvoření sady oprávnění musíte přidat konkrétní oprávnění. Pro více informací navštivte [Ruční vytvoření nebo úprava oprávnění](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
+Pokud tato výchozí konfigurace není pro konkrétního tenanta vhodná, může ji správce změnit. Přizpůsobená oprávnění však ovlivní pouze nové uživatele, kterým je tato licence přiřazena. Oprávnění pro stávající uživatele, kterým je přiřazena licence, nebudou ovlivněna.
 
-> [!NOTE]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] Řešení obvykle obsahuje řadu předdefinovaných sad oprávnění přidaných společností Microsoft nebo poskytovatelem softwaru. Tyto sady oprávnění jsou **Systémového** typu nebo typu **Rozšíření**. Tyto typy sad oprávnění nebo oprávnění bez těchto typů nelze vytvářet ani upravovat. Můžete je však zkopírovat a definovat v nich vlastní sady a oprávnění. <br /><br />
-Sady oprávnění, které uživatelé vytvářejí, z nových nebo jako kopie, jsou typu  **Definováno uživatelem** a lze je upravovat.
+1. Přihlaste se k [!INCLUDE[prod_short](includes/prod_short.md)] pomocí účtu správce.
+2. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi ](media/ui-search/search_small.png "Řekněte mi, co chcete dělat") zadejte **Konfigurace licence** a vyberte související odkaz.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Sady oprávnění** a poté vyberte související odkaz.
-2. Chcete-li vytvořit novou sadu oprávnění, vyberte akci **Nový**.
-3. Na novém řádku vyplňte pole dle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+   Případně, pokud už jste na stránce **Uživatelé** můžete spustit průvodce **Aktualizovat uživatele z Microsoftu 365** a pak na první stránce průvodce zvolit odkaz **Konfigurovat oprávnění pro jednotlivé licence**.
+3. Na stránce **Konfigurace licence** vyberte licenci, kterou chcete přizpůsobit, a poté vyberte akci **Konfigurovat**.
+4. Výběrem pole **Přizpůsobit oprávnění** zapněte přizpůsobení a poté proveďte příslušné změny.
 
-### <a name="to-copy-a-permission-set"></a>Kopírování sady oprávnění
-Při vytváření nových sad oprávnění můžete pomocí funkce kopírování rychle přenést všechna oprávnění jiného oprávnění nastaveného na novou sadu oprávnění.
+   V našem příkladu chce správce odebrat oprávnění k úpravám v aplikaci Excel, takže odebere skupinu uživatelů *Excel Export*  z licence Team Member. Do budoucna noví uživatelé, kterým je přiřazena licence Team Member, nebudou mít možnost exportovat data do aplikace Excel. Pokud organizace změní názor na toto téma, může se jednoduše vrátit na stránku **Konfigurace licence** a vypnout přizpůsobení pro daný typ licence.
 
-> [!NOTE]  
-> Pokud se změní systémová oprávnění, kterou jste zkopírovali, budete upozorněni (v závislosti na vašem výběru), abyste mohli zvážit, zda jsou změny relevantní pro kopírování nebo zápis do vaší uživatelem definované sady oprávnění.
+> [!IMPORTANT]
+> Toto přizpůsobení oprávnění se projeví pouze u nových uživatelů, kterým přiřadíte příslušnou licenci. Stávající uživatelé nejsou aktualizováni. Doporučujeme přizpůsobit oprávnění před zahájením přiřazování uživatelských licencí v Centru pro správu Microsoft 365.
 
-1. Na stránce **Sady oprávnění** vyberte řádek sady oprávnění, kterou chcete zkopírovat, a poté vyberte akci **Kopírovat sadu oprávnění**.
-2. Na stránce **Kopírovat sadu oprávnění** zadejte název nové sady oprávnění a poté klepněte na tlačítko **OK**.
-3. Pokud chcete zachovat propojení mezi originálem a zkopírovanou sadou oprávnění, zaškrtněte políčko **Upozornit na změněné oprávnění**. Odkaz se potom použije k upozornění, pokud se název nebo obsah původní sady oprávnění změní v budoucí verzi, na kterou bude řešení upgradováno.
+### <a name="adduser"></a>Přidání uživatelů nebo aktualizace informací o uživatelích a přiřazení licencí v Business Central
 
-Nová sada oprávnění obsahující všechna oprávnění zkopírované sady oprávnění je přidána jako nový řádek na stránce **Nastavení oprávnění**. Řádky jsou řazeny abecedně v rámci každého typu.
+Po přidání uživatelů nebo změně informací o uživatelích v Centru pro správu Microsoft 365 můžete informace o uživateli rychle importovat do [!INCLUDE[prod_short](includes/prod_short.md)]. Import zahrnuje přiřazení licencí.
 
-## <a name="to-create-or-modify-permissions-manually"></a>Ruční vytvoření nebo úprava oprávnění
-Tento postup vysvětluje, jak ručně přidat nebo upravit oprávnění. V uživatelském rozhraní můžete také nechat generovat sady oprávnění automaticky z vašich akcí. Pro více informací navštivte [Vytvoření nebo úprava sady oprávnění zaznamenáním své akce](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
+1. Přihlaste se k [!INCLUDE[prod_short](includes/prod_short.md)] pomocí účtu správce.
+2. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi.](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
+3. Zvolte **Aktualizovat uživatele z Microsoftu 365**.
 
-1. Na stránce **Sady oprávnění** vyberte řádek sady oprávnění, a poté vyberte akci **Oprávnění**.
-2. Na stránce **Oprávnění** vytvořte nový řádek nebo upravte pole na existujícím řádku.
+Pro nové uživatele je dalším krokem přiřazení skupin uživatelů a oprávnění. Další informace o oprávněních naleznete v tématu [Přiřazení práv uživatelům a uživatelským skupinám](ui-define-granular-permissions.md). Pokud aktualizujete informace o uživateli a aktualizace zahrnuje změnu licence, uživatelé jsou přiřazeni k příslušné skupině uživatelů a jejich sady oprávnění se aktualizují. Pro více informací navštivte [Správa oprávnění prostřednictvím skupin uživatelů](ui-define-granular-permissions.md).
 
-V každém z pěti polí typu přístupu, **Právo čtení**, **Právo vložit**, **Právo změnit**, **Právo odstranit** a **Právo spustit**, můžete vybrat jednu z následujících tří možností oprávnění:
+> [!NOTE]
+> Všichni uživatelé v prostředí musí mít přiřazenu stejnou licenci, buď Essential, nebo Premium. Podrobné informace o licencích naleznete v příručce Microsoft Dynamics 365 Business Central Licensing Guide. Příručka je k dispozici ke stažení na webu [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
-|Možnost|Popis|Hodnocení|
-|------|-----------|
-|**Ano**|Uživatel může provést akci s dotyčným objektem.|Nejvyšší|
-|**Nepřímé**|Uživatel může provést akci na dotyčném objektu, ale pouze prostřednictvím jiného souvisejícího objektu, ke kterému má uživatel plný přístup.|Druhý nejvyšší|
-|**Prázdné**|Uživatel nemůže provést akci s dotyčným objektem.|Nejnižší|
+Další informace o synchronizaci informací uživatelů s Microsoft 365 najdete v části [Synchronizace s Microsoftem 365](#m365) .
 
-### <a name="example---indirect-permission"></a>Příklad - nepřímé povolení
-Můžete použít nepřímé oprávnění k použití objektu pouze prostřednictvím jiného objektu.
-Například uživatel může mít oprávnění ke spuštění procedury 80, Účtovaná dodávka. Procedura účtové dodávky vykonává mnoho úkolů, včetně úpravy tabulky 37, Prodejní řádek. Když uživatel zaúčtuje prodejní doklad, procedura účtové dodávky,  [!INCLUDE[d365fin](includes/d365fin_md.md)] zkontroluje, zda má uživatel oprávnění upravovat tabulku Prodejních řádků. Pokud ne, procedura nemůže dokončit své úkoly a uživatel obdrží chybovou zprávu. Pokud ano, procedura se spustí úspěšně.
+> [!NOTE]
+> Pokud pro správu účetnictví a finančního výkaznictví používáte externího účetního, můžete ho pozvat do služby Business Central, aby s vámi mohl pracovat na vašich fiskálních údajích. ro více informací navštivte [Pozvání externího účetního do Business Cental](finance-accounting.md#inviteaccountant).
 
-Uživatel však nemusí mít plný přístup k tabulce Prodejní řádek, aby mohl spustit proceduru. Pokud má uživatel nepřímé povolení pro tabulku Prodejní řádek, pak se  procedura Účtové dodávky úspěšně spustí. Pokud má uživatel nepřímé oprávnění, může tento uživatel upravit pouze tabulku Prodejní řádek spuštěním procedury Účtové dodávky nebo jiného objektu, který má oprávnění k úpravě tabulky Prodejní řádek. Uživatel může upravit tabulku Prodejní řádek pouze v případě, že tak činí z podporovaných oblastí aplikace. Uživatel nemůže tuto funkci spustit neúmyslně nebo škodlivě jinými metodami.
+### Odebrání přístupu uživatele do systému
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Omezení přístupu uživatele ke konkrétním záznamům v tabulce
-Pro zabezpečení na úrovni záznamu v [!INCLUDE[d365fin](includes/d365fin_md.md)], použijte filtry zabezpečení k omezení přístupu uživatele k datům v tabulce. Vytvořte filtry zabezpečení na data tabulky. Filtr zabezpečení popisuje sadu záznamů v tabulce, ke kterým má uživatel oprávnění. Můžete například určit, že uživatel může číst pouze záznamy, které obsahují informace o konkrétním zákazníkovi. To znamená, že uživatel nemá přístup k záznamům, které obsahují informace o jiných zákaznících. Pro více informací navštivte [Používání bezpečnostních filtrů](/dynamics365/business-central/dev-itpro/security/security-filters) v nápovědě pro vývojáře a IT-Pro.
+Můžete odebrat přístup uživatele k [!INCLUDE[prod_short](includes/prod_short.md)] online. Všechny odkazy na uživatele se zachovají. Uživatel se však nemůže přihlásit a aktivní relace pro uživatele jsou zastaveny.
 
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi.](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
+2. Otevřete stránku **Karta uživatele** pro příslušného uživatele a poté v poli **Stav** vyberte možnost **Zakázáný**.
+3. Chcete-li uživateli znovu udělit přístup, nastavte pole **Stav** na hodnotu **Povolený**.
 
-## <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Vytvoření nebo úprava sady oprávnění zaznamenáním své akce
-1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Sady oprávnění** a poté vyberte související odkaz.
-2.  Případně na stránce **Uživatelé** vyberte akci **Sady oprávnění**.
-3.  Na stránce **Nastavení uživatelů** vyberte akci **Nový**.
-4.  Na novém řádku vyplňte pole dle potřeby.
-5.  Zvolte akci **Oprávnění**.
-6.  Na stránce **Oprávnění** vyberte akci **Zaznamenat oprávnění** a poté vyberte akci **Spustit**.
+Licenci můžete také odebrat uživateli v Centru pro správu Microsoft 365. Uživatel se pak nemůže přihlásit. Pro více informací navštivte [Odebrání licencí uživatelům](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-    Tím se spustí proces nahrávání, který zachytí všechny vaše akce v uživatelském rozhraní.
-7.  Přejděte na různé stránky a aktivity v [!INCLUDE[d365fin](includes/d365fin_md.md)] že chcete, aby uživatelé s tímto oprávněním měli přístup. Musíte provést úkoly, pro které chcete zaznamenat oprávnění.
-8.  Pokud chcete nahrávání dokončit, vraťte se na stránku **Oprávnění** a poté vyberte akci **Zastavit**.
-9.  Klepnutím na tlačítko **Ano** přidáte zaznamenaná oprávnění do nové sady oprávnění.
-10. U každého objektu v zaznamenaném seznamu určete, zda uživatelé mohou do zaznamenaných tabulek vkládat, upravovat nebo mazat záznamy.
+### <a name="m365"></a>Synchronizace s Microsoft 365
 
-> [!NOTE]  
-> Když upravíte oprávnění a tím související sadu oprávnění, změny se budou vztahovat také na ostatní uživatele, kteří mají přiřazenou tuto sadu oprávnění.
+Když přiřadíte licenci pro [!INCLUDE[prod_short](includes/prod_short.md)] pro uživatele v Microsoftu 365, existují dva způsoby, jak vytvořit uživatele v [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="to-assign-permission-sets-to-users-or-user-groups"></a>Přiřazení sad oprávnění uživatelům nebo skupinám uživatelů
-Oprávnění můžete uživatelům přiřadit dvěma způsoby:
-- Definujte sady oprávnění na uživatelské kartě uživatele.
-- Zaškrtněte políčko pro uživatele, ve sloupci, pro související sadu oprávnění, na řádku, na stránce **Sada oprávnění dle uživatele**.
-    Pomocí této metody můžete také přiřadit sady oprávnění skupinám uživatelů.
+- Správce může přidat uživatele výběrem akce **Aktualizovat uživatele z Microsoft 365** na stránce **Uživatelé**, jak je popsáno v části [Přidání uživatele nebo aktualizace informací o uživateli v Business Central](#adduser) 
+- Informace o licenci se aktualizují automaticky při prvním přihlášení uživatele.
 
-### <a name="to-assign-a-permission-set-on-a-user-card"></a>Přiřazení sady oprávnění na kartě uživatele
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
-2. Vyberte uživatele, kterému chcete přiřadit oprávnění.
-Všechny sady oprávnění, které jsou již uživateli přiřazeny, jsou zobrazeny v záložce **Sad oprávnění**.
-3. Zvolte akci **Upravit** a otevřete stránku **Karta uživatele**.
-4. Na záložce s náhledem **Sady oprávnění uživatele**, na novém řádku vyplňte pole podle potřeby. Pro více informací navštivte [Vytvoření nebo úprava sady oprávnění](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
+V obou případech se automaticky provede několik nastavení. Tato nastavení jsou uvedena ve druhém a třetím sloupci v následující tabulce.
 
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Přiřazení sady oprávnění na stránce **Sada oprávnění dle uživatele**  
-Následující postup vysvětluje, jak přiřadit sady oprávnění uživateli na stránce **Sada oprávnění dle uživatele**. Kroky jsou podobné na stránce **Sada oprávnění dle skupiny uživatelů**.
+Pokud změníte informace o uživateli v Microsoftu 365, můžete aktualizovat [!INCLUDE[prod_short](includes/prod_short.md)], aby odrážely změnu. V závislosti na tom, co chcete aktualizovat, použijte jednu z akcí na stránce **Uživatelé**. Akce jsou popsány v posledních třech sloupcích v následující tabulce.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
-2. Na stránce **Uživatelů** vyberte příslušného uživatele a poté vyberte akci **Sada oprávnění dle uživatele**.
-3. Na stránce **Sada oprávnění dle uživatele** zaškrtněte políčko **[Název uživatele]** na řádku pro příslušnou sadu oprávnění.
-4. Zaškrtněte políčko **Všichni uživatelé** a přiřaďte sadu oprávnění všem uživatelům.
+> Akce popsané v následující tabulce jsou přesné, ale jedinou, kterou potřebujete, je **Aktualizovat uživatele z Microsoft 365**, která byla přidána za účelem zjednodušení procesu. Ostatní akce budou odstraněny v budoucí verzi [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="to-get-an-overview-of-a-users-permissions"></a>Získání přehledu oprávnění uživatele
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
-2. Otevřete kartu příslušného uživatele.
-3. Zvolte akci **Efektivní oprávnění**.
+|Co se stane, když:|První uživatel, první přihlášení|Získání uživatelů z Microsoft 365|Aktualizace uživatelů z Microsoft 365|Obnovení výchozích skupin uživatelů|Obnovení skupin uživatelů|Aktualizace informací o uživatelích z Microsoft 365|
+|-|-|-|-|-|-|-|
+|Rozsah:|Aktuální uživatel|Noví uživatelé v Microsoft 365|Více vybraných uživatelů|Jeden vybraný uživatel (kromě aktuálního)|Více vybraných uživatelů|Více vybraných uživatelů|
+|Vytvořte nového uživatele a přidělte mu SUPER sadu oprávnění.<br /><br /><!--Platform-->|**X**||**X** | | | |
+|Aktualizujte uživatele na základě informací v Microsoft 365: stav, celé jméno, kontaktní e-mail, ověřovací e-mail.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
+|Synchronizujte uživatelské plány (licence) s licencemi a rolemi přiřazenými v Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
+|Přidat uživatele do skupin uživatelů podle aktuálních uživatelských plánů. Odeberte sadu oprávnění SUPER pro všechny uživatele kromě prvního přihlášeného uživatele a [správců](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Je vyžadován alespoň jeden SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Odstraní ručně přiřazené skupiny uživatelů a oprávnění.|**X**<br /><br />Aktualizovat přiřazení skupin uživatelů.||
 
-    Část **Oprávnění** obsahuje seznam všech databázových objektů, ke kterým má uživatel přístup. Tuto sekci nelze upravit.
+<!--
+## The Device License
+This section has been moved to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
+-->
 
-    Část **Podle sady oprávnění** zobrazuje přiřazené sady oprávnění, prostřednictvím kterých jsou oprávnění udělena uživateli, zdroj a typ sady oprávnění a pro které jsou povoleny různé typy přístupu.
+## Správa uživatelů a licencí v on-premise nasazeních
 
-    Pro každý řádek, který vyberete v části **Oprávnění**, část **Podle sady oprávnění** zobrazuje sadu nebo sady oprávnění, prostřednictvím kterých je oprávnění udělováno. V této části můžete upravit hodnotu v každém z pěti polí typu přístupu, **Právo čtení**, **Právo vložit**, **Právo změnit**, **Právo odstranit** a **Právo spustit**.   
+Pro on-premises nasazení je počet uživatelských licencí uveden v licenčním souboru (.flf). Když správce nebo partner Microsoftu nahraje licenční soubor, může určit, kteří uživatelé se mohou přihlásit k [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    > [!NOTE]  
-    > Lze upravovat pouze sady oprávnění typu **Definováno uživatelem**.<br /><br />
-    > Řádky zdrojového oprávnění pocházejí z plánu předplatného. Hodnoty oprávnění hodnot zrušení nároku nadřazují hodnoty v jiných sadách oprávnění, pokud mají vyšší hodnocení. Hodnota v sadě oprávnění bez nároku, která má vyšší hodnocení než související hodnota v nároku, bude ohraničena závorkami, což znamená, že není účinná, protože je potlačena nárokem. Pro více informací navštivte [Ruční vytvoření nebo úprava oprávnění](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
+U on-premises nasazení správce vytváří, upravuje a odstraňuje uživatele přímo ze stránky **Uživatelé**.
 
-4. Chcete-li upravit sadu oprávnění, v části **Podle sady oprávnění** na řádku pro příslušnou sadu oprávnění typu **Definováno uživatelem** vyberte jedno z pěti polí typu přístupu a vyberte jinou hodnotu.
+### Úprava nebo odstranění uživatele v on-premises nasazení
 
-5. Chcete-li upravit jednotlivá oprávnění v rámci sady oprávnění, vyberte hodnotu v poli **Sada oprávnění** a otevřete stránku **Oprávnění**. Postupujte podle pokynů v části [Vytvoření nebo úprava oprávnění](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi.](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Uživatelé** a poté vyberte související odkaz.
+2. Vyberte uživatele, kterého chcete upravit, a pak zvolte akci **Upravit**.
+3. Na stránce **Karta uživatele** změňte informace podle potřeby.
+4. Chcete-li odstranit uživatele, vyberte uživatele, kterého chcete odstranit, a pak zvolte akci **Odstranit**.
 
-> [!NOTE]  
-> Při úpravě sady oprávnění se změny projeví také u ostatních uživatelů, kterým byla sada oprávnění přiřazena.
+> [!NOTE]
+> U on-premises nasazení může správce určit způsob ověřování uživatelských ověření v nástroji [!INCLUDE[server](includes/server.md)] instance. Při vytváření uživatele zadáte typ ověření, který používáte.
+>
+> Pro více informací navštivte [Typy ověřování a pověření](/dynamics365/business-central/dev-itpro/administration/users-credential-types) v nápovědě pro správu pro [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Viz také
-[Zabezpečení a ochrana v Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Porozumění uživatelům, profilům a centrům rolí](admin-users-profiles-roles.md)  
-[Příprava na podnikání](ui-get-ready-business.md)  
+## Viz také
+
+[Přiřazení oprávnění uživatelům a skupinám](ui-define-granular-permissions.md)  
+[Správa profilů](admin-users-profiles-roles.md)  
 [Změna zobrazovaných funkcí](ui-experiences.md)  
+[Přizpůsobení [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
+[Příprava na podnikání](ui-get-ready-business.md)  
 [Správa](admin-setup-and-administration.md)  
-[Přidávaní uživatele k Office 365 pro podnikání](https://aka.ms/CreateOffice365Users)  
-[Průvodce licencí Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)
+[Licencování v Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing)  
+[Přidání uživatelů do Microsoft 365 pro firmy](/microsoft-365/admin/add-users/add-users)  
+[Zabezpečení a ochrana v Business Central (obsah pro správu)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+[Přiřazení ID telemetrie uživatelům](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights#assign-a-telemetry-id-to-users)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

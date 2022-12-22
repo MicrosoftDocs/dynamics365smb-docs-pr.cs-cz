@@ -3,14 +3,14 @@
     description: Attach a note to any record in the application. For example, if you have extra information about a sales order that does not fit in any of the fields on the sales order, you can write a note.
     author: jswymer
 
-    ms.service: dynamics365-business-central
-    ms.topic: article
+    
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ROBOTS: NOINDEX,NOFOLLOW
-    ms.date: 04/01/2020
+    ms.date: 04/01/2021
     ms.author: jswymer
 
 ---
@@ -18,7 +18,7 @@
 Můžete <!--OnPrem and your colleagues -->přidávat oznámení k záznamům v aplikaci. Mnoho stránek, zejména ty, které zobrazují seznam záznamů, jako například stránka **Prodejní objednávky**, která obsahuje tlačtíko **Oznámení** v informačním okně **Oznámení**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
 > [!NOTE]  
-> Tato funkce není v současné době k dispozici..
+> Tato funkce není v současné době k dispozici.
 
 <!--OnPrem
 > [!NOTE]  
@@ -44,4 +44,7 @@ Můžete <!--OnPrem and your colleagues -->přidávat oznámení k záznamům v 
 <!--OnPrem
 3.  Choose the **OK** button.  -->
 ## Viz také
-[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Práce s [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

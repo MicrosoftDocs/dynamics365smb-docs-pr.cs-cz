@@ -1,37 +1,44 @@
 ---
-title: Add Comments to Cards and Documents| Microsoft Docs
+title: Add Comments to Cards and Documents
 description: Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.
 author: SorenGP
 
-ms.service: dynamics365-business-central
-ms.topic: article
+
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 04/01/2019
-ms.author: sgroespe
+ms.search.form: 124, 30
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Přidávání poznámek ke kartám a dokladům
-K účtům účetní osnovy, kartám zákazníka nebo prodejním objednávkám můžete přidat další informace, abyste mohli ostatním uživatelům sdělit výjimky nebo zvláštní dohody.
-Prakticky všechny karty a dokumenty mají tlačítko **Poznámky**, které otevře stránku **List poznámek**, kde můžete psát nebo číst poznámky. Na dokladech můžete také přidávat poznámky k jednotlivým řádkům.
 
-Poznámky na otevřených dokumentech se převedou do souvisejícího zaúčtovaného dokladu. Například, poznámka k prodejní objednávce je převedena do výsledné zaúčtované prodejní dodávky.
+K účtům hlavní knihy, zákaznickým kartám nebo prodejním objednávkám můžete přidat další informace, abyste mohli informovat o výjimkách nebo dohodách s ostatními uživateli.
+Prakticky všechny karty a doklady mají akci **Poznámky**, která otevře stránku **List poznámek**, kde můžete psát nebo číst poznámek. V dokladech můžete také přidávat poznámky k jednotlivým řádkům.
 
-Kromě toho můžete určit, zda chcete, aby se poznámky přenášely z jednoho typu dokumentu na jiný výsledný typ dokumentu, například z prodejní objednávky na prodejní fakturu. To provedete na stránkách **Nastavení Prodeje a pohledávek** a **Nastavení nákupu a závazků**.
+Poznámky k probíhajícím dokladům jsou převedeny do souvisejícího zaúčtovaného dokladu. Například poznámka k prodejní objednávce je převeden na výslednou zaúčtovanou prodejní dodávku.
+
+Kromě toho můžete určit, zda chcete, aby byly komentáře přeneseny z jednoho typu dokladu do jiného výsledného typu dokladu, například z prodejní objednávky do prodejní faktury. Provedete to na stránkách **Prodeje a pohledávky** a **Nákupy a závazky**.
 
 > [!NOTE]
-> Poznámky se netisknou a neexportují do sestav nebo externích dokumentů.
+> Poznámky se netisknou ani nevytvářejí do tiskových sestav nebo externích dokumentů.
 
-Následující část popisuje, jak přidat poznámku na kartu zboží. Postup je podobný jako u všech ostatních karet a dokumentů, s výjimkou řádků dokladů, kde tlačítko **poznámky** je umístěno do nabídky nad řádky.
+Následující text popisuje, jak přidat poznámku na kartu zboží. Kroky jsou podobné pro všechny ostatní karty a doklady, kromě řádků dokladů je akce **Poznámky** umístěna v nabídce akcí řádků.
 
-## Přidání poznámek na kartu zboží
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zboží** a poté vyberte související odkaz.
+## Přidání poznámky na kartu zboží
+
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat") zadejte **Zboží** a poté vyberte související odkaz.
 2. Otevřete příslušnou kartu zboží.
-3. Vyberte tlačítko **Poznámky**.
-4. Na stránce **List poznámek** zadejte libovolný text a poté zvolte tlačítko **OK**.
+3. Vyberte akci **Poznámky**.
+4. Na stránce **List poznámek** zadejte libovolný text a klikněte na tlačítko **OK**.
 
 ## Viz také
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-[Obecné obchodní funkce](ui-across-business-areas.md)
+
+[Práce s [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Obecné obchodní funkcionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

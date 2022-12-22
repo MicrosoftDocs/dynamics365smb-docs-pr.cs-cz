@@ -1,48 +1,59 @@
 ---
-title: Porozumění typům zboží | Microsoft Docs
-description: 'Ocenění zboží můžete upravit pomocí metod FIFO nebo průměrné kalkulace, například když se náklady zboží změní z jiných důvodů, než jsou transakce.'
-services: project-madeira
+title: Understanding Item Types
+description: You can adjust the inventory valuation of an item using the FIFO or Average costing methods when item costs change for reasons other than transactions.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+
+
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: null
-ms.date: 11/18/2018
-ms.author: sgroespe
+ms.search.keywords:
+ms.search.form: 9297, 5845, 30, 
+ms.date: 06/16/2021
+ms.author: edupont
+
+
 ---
-# <a name="about-item-types"></a>O typech zboží
-V poli **Typ** na stránce **Karta zboží** můžete vybrat, pro co je zboží ve vaší firmě použito a jak je v systému spravováno.  Existují tři možnosti:
+# O typech zboží
+V poli **Typ** na stránce **Karta zboží** můžete vybrat, k čemu se položka používá ve vaší firmě, což ovlivňuje míru, do jaké můžete spravovat položku ve skladu. V následující tabulce jsou uvedeny a popsány tři typy položek, které jsou k dispozici.
 
-|Možnost|Typický účel|
+| Možnost | Typický účel |
 |------|-----------|
-|Zásoby|Fyzická jednotka, například kolo, pro plnou podporu podnikání.|
-|Neskladované|Fyzická jednotka, například šroub, pro omezenou podporu podnikání, například proto, že se položka používá pouze interně a má nízké náklady.|
-|Služba|Jednotka pracovní doby, například poradenská hodina, pro omezenou podporu podnikání.|
+| Zásoby | Fyzické věci, jako jsou jízdní kola, telefony a stoly, pro které chcete mít možnost používat všechny inventarizační procesy. To může také zahrnovat nefyzické položky, jako jsou softwarové licence a předplatné, pokud mají položky identifikační čísla, jako jsou sériová čísla. Můžete plně sledovat hodnoty položek a dostupnost ve skladu. |
+| Neskladové položky | Položky, které nejsou zásobami, jsou obvykle fyzické věci, jako jsou šrouby nebo pera, které podnik spotřebovává, ale nechce je plně sledovat v zásobách. Například proto, že se jedná o nízkonákladové položky a používají se pouze interně. |
+| Služby | Jednotka pracovní doby, například poradenská hodina, pro omezenou podporu podnikání. |
 
-Typ **Zboží** zahrnuje úplné sledování množství a hodnoty zásob. Proto jsou podporovány všechny typy transakcí zboží a zboží typu Zásoby lze použít se všemi funkcemi zpracování zboží.
+> [!NOTE]
+> Typy **Služba** a **Neskladové položky** nepodporují sledování množství a hodnot zásob. Podporovány jsou pouze vybrané typy transakcí a funkce položek.
 
-Typy **Služba** a **Neskladované** nezahrnují sledování množství a hodnoty zásob. Proto jsou podporovány pouze vybrané typy a funkce transakcí zboží.
+V následující tabulce jsou uvedeny funkce, které tyto tři typy položek podporují.
 
-Tři typy zboží podporují následující funkce.
-
-|Typ zboží|Prodej|Nakupování|Spotřeba práce|Spotřeba servisu|Spotřeba montáže|Spotřeba výroby|Výstup montáže|Výstup výroby|Lokace transferu|Fyzické počítání|Přecenění zásob|Zásoby a ocenění|Sledování zboží|Rezervace|Skladování|Plánování|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Typ zboží|Prodej|Nakupování|Spotřeba projektu|Spotřeba služeb|Spotřeba montáže|Spotřeba výroby|Montážní výstup|Výrobní výstup|Přesun místa|Fyzické počítání|Přecenění zásob|Zásoby a ocenění|Sledování zboží|Rezervace|Skladování|Plánování|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Zásoby|Ano|Ano|Ano|Ano|Ano|Ano|Ano|Ano|Ano|Ano|Ano|Ano|Ano|Ano|Ano|Ano|
-|Neskladované|Ano|Ano|Ano|Ano|Ano|Ano|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|
-|Služba|Ano|Ano|Ano|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|
+|Neskladové položky|Ano|Ano|Ano|Ano|Ano|Ano|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|
+|Služby|Ano|Ano|Ano|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|Ne|
 
-> [!NOTE]
-> Zboží, které nabízíte svým zákazníkům, ale nechcete ve svém systému spravovat, dokud je nezačnete prodávat, lze nastavit jako zboží v katalogu. Zboží v katalogu se nesmí zaměňovat s běžným zbožím typu Neskladované. Pro více informací navštivte [Práce s katalogovým zbožím](inventory-how-work-nonstock-items.md).
+## Metody kalkulace nákladů pro typy zboží
+Při zaúčtování skladových transakcí jsou změny množství a hodnoty zásob zaznamenány v položkách zboží a položky ocenění.
 
-> [!NOTE]
-> Zboží zákazníků, na kterých provádíte servis, například tiskárna, se nazývá předmět servisu. Předmět servisu nemá nic společné s běžným zbožím nebo zbožím v katalogu. Komponenty služeb však mohou být běžným zbožím. Pro více informací navštivte [Nastavení Předmětů servisu a Komponent předmětu servisu](service-how-setup-service-items.md).
+U skladových položek jsou náklady zaznamenány v poli **Částka nákladů (skutečná)** na stránce **Položky ocenění** a při odsouhlasení s hlavní knihou se náklady zobrazí v poli **Náklady zaúčtované do Věcných položek**. Další informace naleznete v tématu [Podrobnosti návrhu: Kalkulace nákladů na zásoby](design-details-inventory-costing.md).
 
-## <a name="see-also"></a>Viz také
-[Zaevidujte nové zboží](inventory-how-register-new-items.md)  
-[Nastavení zásob](inventory-setup-inventory.md)  
-[Správa nákladů zásob](finance-manage-inventory-costs.md)  
-[Zásoby](inventory-manage-inventory.md)  
-[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+U neskladových a servisních položek se náklady zaznamenávají do pole **Částka nákladů (Neskladové)** na stránce **Položky hodnoty**. U neskladových a servisních položek jsou náklady uvedeny v prodejních, montážních a výrobních dokladech a denících. Výchozí náklady lze zadat v poli **Jednotkové náklady** na stránkách **Karta zboží** a **Skladová jednotka**. Náklady na tyto typy zboží nejsou odsouhlaseny s Věcnými položkami.
+
+## Katalog a předměty servisu
+Zboží, které nabízíte svým zákazníkům, ale nechcete je spravovat ve svém systému, dokud je nezačnete prodávat, lze nastavit jako položky katalogu. Položky katalogu nesmí být zaměňovány s běžnými položkami typu Neskladové. Pro více informací navštivte [Práce se katalogovým zbožím](inventory-how-work-nonstock-items.md).
+
+Položky zákazníků, na kterých provádíte servis, jako je tiskárna, se nazývají servisní položky. Servisní položky nemají nic společného s běžnými nebo katalogovými položkami. Servisní komponenty však mohou být běžné položky. Pro více informací navštivte [Nastavení Předmětů servisu a Komponent předmětu servisu](service-how-setup-service-items.md).
+
+## Viz také
+[Evidence nového zboží](inventory-how-register-new-items.md)    
+[Nastavení zásob](inventory-setup-inventory.md)    
+[Řízení nákladů na zásoby](finance-manage-inventory-costs.md)    
+[Zásoby](inventory-manage-inventory.md)    
+[Pracovat s [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

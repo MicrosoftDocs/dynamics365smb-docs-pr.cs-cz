@@ -1,45 +1,64 @@
 ---
-title: Porozumění způsobu účtování nákupních dokladů | Microsoft Docs
-description: Zjistěte více o různých funkcích účtování pro účtování nákupních dokladů.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
-ms.topic: article
+title: Post Purchase Documents
+description: Learn about the different posting functions to post purchase documents, and how to update posted documents.
+author: SorenGP
+
+
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
-ms.author: solsen
+ms.reviewer: edupont
+ms.search.form: 
+ms.date: 06/24/2021
+ms.author: edupont
+
 ---
-# <a name="posting-purchases"></a>Účtování nákupů
-V **Účtování** na dokladu o nákupu si můžete vybrat z následujících funkcí účtování:
+# Účtování nákupů
+Na nákupním dokladu si můžete vybrat mezi následujícími akcemi účtování:
 
 * **Účtovat**
-* **Náhled Účtování**
-* **Účtovat a Vytisknout**
-* **Testovací Sestava**
-* **Dávkové Účtování**
+* **Náhled účtování**
+* **Post and Print**
+* **Testovací sestava**
+* **Dávkové účtování**
 
-Když vyplníte všechny řádky a zadáte všechny informace o nákupní objednávce, můžete ji zaúčtovat, tj. vytvořit příjemku a fakturu.
+Při zaúčtování nákupního dokladu se aktualizuje účet dodavatele, věcné položky, položky zboží a položky zdrojů.
 
-Po zaúčtování nákupní objednávky se aktualizuje účet dodavatele, hlavní kniha a položky zboží.
+Pro každý nákupní doklad se vytvoří nákupní záznam v tabulce **Věcná položka**. Položka se také vytvoří na účtu dodavatele v tabulce **Položka dodavatele** a věcná položka se vytvoří na příslušném účtu závazků. Kromě toho může zaúčtování nákupu vést k položce DPH a věcné položce pro částku slevy. Zveřejnění záznamu o slevě závisí na obsahu pole **Účtování slevy** na stránce **Nastavení nákupu a závazků**.
 
-Pro každou nákupní objednávku se vytvoří nákupní položka v tabulce **Věcná položka**. Položka se také vytvoří na účtu dodavatele v tabulce **Položka dodavatele** a věcná položka se vytvoří na příslušném účtu závazků. Kromě toho může naúčtování objednávky vést k DPH položce a věcné položce pro částku slevy. To jestli je položka slevy naúčtovaná, záleží na obsahu pole **Účtování slevy** na stránce **Nastavení nákupu a závazků**.
+Pro každý řádek nákupu budou vytvořeny následující položky:
+- Položka v tabulce **Položky zboží** pokud je řádek nákupu typu **zboží**.
+- Položka v tabulce **Věcná položka** pokud jsou nákupní řádky typu **Finanční účet**
+- Položka v tabulce **Položky zdrojů** pokud je řádek nákupu typu **zdroj**.
 
-Pro každý řádek nákupní objednávky se vytvoří položka zboží v tabulce **Položka zboží** (pokud nákupní řádky obsahují čísla položek) nebo bude vytvořená věcná položka v tabulce **Věcná položka** (pokud nákupní řádky obsahují finanční účet). Kromě toho jsou nákupní objednávky vždy zaznamenány v tabulkách **Hlavička Nák. Příjemky** a **Hlavička Nák. Faktury**.
+Kromě toho jsou nákupní doklady vždy zaznamenány v **Hlavičce Nák. Příjemky** a **Hlavičce Nák. Faktury**.
 
 Než začnete účtovat, můžete si vytisknout testovací sestavu, která obsahuje všechny informace o nákupní objednávce a naznačuje případné chyby. Chcete-li sestavu vytisknout, zvolte **Účtování**, a poté zvolte **Testovací sestava**.
 
 > [!IMPORTANT]  
->   Když zaúčtujete objednávku, můžete vytvořit zároveň příjemku i fakturu. To lze provést současně nebo nezávisle. Můžete také před účtováním vytvořit částečnou příjemku a částečnou fakturu vyplněním polí **K příjmu** a **K fakturaci** na jednotlivých řádcích nákupních objednávek. Upozorňujeme, že nemůžete vytvořit fakturu za něco, co nebylo přijato. To znamená, že dříve, než budete moci fakturovat, musíte zaznamenat příjemku nebo se musíte rozhodnout přijmout a fakturovat současně.
+> Když zaúčtujete objednávku na zboží, můžete vytvořit příjemku i fakturu. To lze provést současně nebo nezávisle. Můžete také vytvořit částečný příjem a částečnou fakturu vyplněním **Množství k příjmu** a **Množství k fakturaci** na jednotlivých řádcích nákupní objednávky před zaúčtováním. Všimněte si, že nelze vytvořit fakturu za něco, co nebylo přijato. To znamená, že před fakturací musíte mít zaznamenanou příjemku, nebo se musíte rozhodnout zda přijímat a fakturovat současně.
 
-Můžete buď účtovat, nebo účtovat a vytisknout. Pokud se rozhodnete účtovat a vytisknout, po zaúčtování objednávky se vytiskne sestava. Můžete také zvolit funkci **Dávkové účtování**, která vám umožní zaúčtovat několik objednávek současně.
+Můžete buď účtovat, nebo účtovat a odeslat. Pokud se rozhodnete účtovat a vytisknout, po zaúčtování objednávky se vytiskne sestava. Můžete také zvolit funkci **Dávkové účtování**, která vám umožní zaúčtovat několik objednávek současně. Další informace naleznete v tématu [Dávkové účtování dokladů](ui-batch-posting.md).
 
-Po dokončení účtování budou zaúčtované nákupní řádky z objednávky odstraněny. Po dokončení účtování se zobrazí zpráva. Poté budete moci zobrazit zaúčtované položky na různých stránkách, které obsahují zaúčtované položky, jako jsou stránky **Položky dodavatele**, **Věcné položky**, **Položky zboží**, **Nákupní příjemky** a **Účtované nákupní faktury**.
+## Zobrazení položek
+Po dokončení účtování budou zaúčtované nákupní řádky z objednávky odstraněny. Po dokončení účtování se zobrazí zpráva. Poté budete moci zobrazit zaúčtované položky na různých stránkách, které obsahují účtované položky, jako jsou stránky**Položky dodavatele**, **Věcné položky**, **Položky zboží**, **Položky zdrojů**, **Nákupní příjemky** a **Účtované nákupní faktury**.
 
-## <a name="see-also"></a>Viz také
-[Nakupování](purchasing-manage-purchasing.md)  
+Ve většině případů můžete otevřít věcné položky z dané karty nebo dokumentu. Například na stránce **Karta dodavatele** vyberte akci **Položky dodavatele**.
+
+## Úprava položek
+Můžete upravit některá pole na zaúčtovaných nákupních dokladech, jako je pole **Platební reference**. Další informace naleznete v tématu [Úprava účtovaných dokladů](across-edit-posted-document.md). U kritičtějších polí, která ovlivňují audit, je třeba účtování vrátit nebo zrušit. Další informace naleznete v tématu [Zpětné účtování deníku a Vrácení příjemek/dodávek zpět](finance-how-reverse-journal-posting.md).
+
+## Podívejte se na související školení na webu [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
+
+## Viz také
+[Úprava účtovaných dokladů](across-edit-posted-document.md)  
+[Dávkové účtování dokladů](ui-batch-posting.md)  
+[Nákup](purchasing-manage-purchasing.md)  
 [Účtování dokladů a deníků](ui-post-documents-journals.md)  
-[Práce s [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Úprava nebo zrušení nezaplacených nákupních faktur](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Vyhledávání stránek a informací pomocí Řekněte mi](ui-search.md)  
+[Práce s [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
