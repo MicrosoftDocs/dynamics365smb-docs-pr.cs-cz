@@ -63,7 +63,7 @@ Přejděte na stránku **Webové služby** a ujistěte se, že následující ob
 > [!NOTE]
 > Hodnota **Název služby** musí být přesně taková, jaká je uvedena v tabulce. Neměňte ani nepřekládejte název služby.
 
-Pro více informací o publikování webových služeb navštivte <g6>Publikování webové služby</g6>.
+Pro více informací o publikování webových služeb navštivte [Publikování webové služby](across-how-publish-web-service.md).
 
 ## Viz také
 
