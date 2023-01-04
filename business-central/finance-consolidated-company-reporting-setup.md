@@ -32,7 +32,7 @@ V závislosti na složitosti vašeho podnikání existují dva způsoby, jak nas
 Pokud je vaše konsolidace přímočará, například proto, že jste úplným vlastníkem účetních jednotek určených ke konsolidaci, průvodce nastavením s asistencí **Konsolidace společnosti** vám pomůže projít následujícími kroky:
 
 * Zvolte, zda chcete vytvořit novou konsolidovanou společnost nebo zda chcete konsolidovat data ve společnosti, kterou jste již vytvořili pro konsolidaci. Společnost by neměla obsahovat transakce.
-* Zobrazte náhled výsledků. [! INCLUDE[prod_short](includes/prod_short.md)] ověřuje, že kmenová data a transakce mohou být úspěšně převedeny do konsolidované společnosti.
+* Zobrazte náhled výsledků. [!INCLUDE[prod_short](includes/prod_short.md)] ověřuje, že kmenová data a transakce mohou být úspěšně převedeny do konsolidované společnosti.
 
 Chcete-li použít průvodce asistovaným nastavením, postupujte takto:
 
@@ -69,7 +69,7 @@ Následující seznam znázorňuje klíčové aspekty konsolidované společnost
 
 ### <a name="busunit"></a> Přidání účetních jednotek
 
-[! INCLUDE[prod_short](includes/prod_short.md)] umožňuje nastavit seznam účetních jednotek ke konsolidaci, ověřit účetní data před jejich konsolidací, importovat soubory a generovat konsolidační sestavy.
+[!INCLUDE[prod_short](includes/prod_short.md)] umožňuje nastavit seznam účetních jednotek ke konsolidaci, ověřit účetní data před jejich konsolidací, importovat soubory a generovat konsolidační sestavy.
 
 1. Přihlaste se ke konsolidované společnosti.
 2. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi.](media/ui-search/search_small.png "Řekněte mi, co chcete udělat"), zadejte **Účetní jednotky** a poté vyberte související odkaz.

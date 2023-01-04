@@ -79,7 +79,7 @@ Podrobné pokyny k nastavení naleznete v tématu [Začínáme: Nastavení Unive
 
    Způsob přiřazení licence závisí na tom, zda integrujete s Business Central online nebo on-premises.
 
-   - S [! INCLUDE[prod_short](includes/prod_short.md)] online přiřadíte licence pomocí Centra pro správu Microsoft 365.
+   - S [!INCLUDE[prod_short](includes/prod_short.md)] online přiřadíte licence pomocí Centra pro správu Microsoft 365.
 
       Pro více informací navštivte [Microsoft Admin Center Help - Přiřazení licencí uživatelům](/microsoft-365/admin/manage/assign-licenses-to-users).
 
