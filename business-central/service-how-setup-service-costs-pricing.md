@@ -1,64 +1,67 @@
 ---
-title: Nastavení cen a nákladů za Servis | Microsoft Docs
-description: 'Naučte se, jak nastavit ceny a další náklady za servis.'
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'service, cost, service order'
-ms.date: 10/01/2018
-ms.author: sgroespe
+    title: Set Up Pricing and Costs for Services
+    description: Learn how to use pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs and orders.
+    author: SorenGP
+
+    
+    ms.topic: conceptual
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords: service, cost, service order
+    ms.date: 06/25/2021
+    ms.author: edupont
+
 ---
 
-# <a name="set-up-pricing-and-additional-costs-for-services"></a>Nastavení cen a dodatečných nákladů za servis
-Pomocí funkcí stanovení ceny [!INCLUDE[d365fin](includes/d365fin_md.md)] můžete nastavit a přizpůsobit svou aplikaci tak, abyste mohli aplikovat a upravovat ceny za předměty servisu, servisní opravy a servisní zakázky. Tato cenová rozhodnutí jsou poté snadno předána do fakturačního procesu.  
-  
-Jak vyžaduje implementace, můžete nastavit cenové skupiny a namapovat je na konkrétní časová období, zákazníky nebo měnu. Můžete nastavit pevné, minimální, nebo maximální ceny, podle toho, jaké servisní smlouvy máte uzavřené se zákazníky. Nakonec, jak upravujete své ceny, můžete si prohlížet a schvalovat změny před jejich odevzdáním do hlavní knihy.  
+# Nastavení Ceny a Dodatečných nákladů za servis
+K nastavení a přizpůsobení aplikace můžete použít cenové funkce [!INCLUDE[prod_short](includes/prod_short.md)], abyste mohli aplikovat a upravovat ceny na servisu, oprav a objednávek. Taty ceny se pak snadno přenášejí do procesu fakturace.
 
-## <a name="to-set-up-a-service-price-group"></a>Nastavení cenové skupiny servisu
-Můžete nastavit skupiny obsahující předměty servisu, které chcete dostávat za stejné speciální ceny servisu. Předmětům servisu na řádcích předmětů servisu přiřazujete cenové skupiny servisu. Skupinám předmětů servisu můžete také přiřadit cenové skupiny servisu.  
+Podle potřeby implementace můžete nastavit cenové skupiny a namapovat je na konkrétní časová období, zákazníky nebo měnu. V závislosti na smlouvách o poskytování služeb uzavřených se zákazníky můžete nastavit pevné, minimální nebo maximální ceny. Nakonec můžete při úpravě cen zobrazit a schválit změny před jejich zaúčtováním do hlavní knihy.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Cenové skupiny servisu** a poté vyberte související odkaz.  
-2. Vytvořit novou cenovou skupiny servisu.  
-3. Vyplňte pole **Kód** a **Popis**.  
-4. Zvolte akci **Nastavení**.  
-2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## Nastavení Cenových skupin servisu
+Můžete nastavit skupiny obsahující položky služeb, na které se mají vztahovat stejné speciální ceny služeb. Skupiny cen služeb přiřadíte k předmětům servisu na řádcích servisu. Cenové skupiny servisu můžete také přiřadit ke skupinám předmětu servisu.
 
- > [!Tip]
- > Pole **Typ úpravy** a **Částka** společně určují, zda se úprava týká pevné částky, nebo se použije pouze v případě, kdy celková cena servisu překročí nebo je nižší než částka v poli **Částka**.  
-
-## <a name="to-set-up-a-service-price-adjustment-group"></a>Nastavení skupiny úpravy ceny servisu  
-Můžete nastavit skupiny úpravy ceny pro úpravu cen servisu u předmětů servisu. Můžete například nastavit skupiny úpravy ceny, které upravují cenu přepravného nebo náhradních dílů.  
-  
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Skupiny úprav ceny servisu** a poté vyberte související odkaz.  
-2. Vytvoření nové skupiny úpravy ceny servisu  
-3. Vyplňte pole **Kód** a **Popis**.  
-4. Do pole **Typ** zadejte typ záznamu, který chcete upravit.  
-  
-    * Chcete-li upravit pouze jeden konkrétní záznam, zadejte číslo tohoto záznamu do pole **Číslo** . Pokud toto pole ponecháte prázdné, vaše skupina úpravy ceny upraví všechny položky typu definovaného v poli **Typ**.  
-    * Chcete-li upravit ceny služeb vztahující se pouze k jedné konkrétní službě, vyplňte pole **Typ práce**. Pokud toto pole necháte prázdné, bude ignorováno.  
-  
-5. Do pole **Popis** zadejte krátký popis úpravy ceny servisu.  
-6. Chcete-li upravit ceny servisu vztahující se pouze na jednu konkrétní obecnou účto skupinu zboží, vyplňte pole **Obecná účto skupina zboží**.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat<"), zvolte **Cenové skupiny servisu** a poté vyberte související odkaz.
+2. Vytvoření Cenové skupiny servisu
+3. Vyplňte pole **Kód** a **Popis**.
+4. Zvolte akci **Nastavení**.
+2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
-> Chcete-li přidat další informace o skupině úprav ceny, můžete vybrat **Podrobnosti**. Můžete například určit, které zboží patří do skupiny úpravy ceny servisu a zda se jedná o zboží, zdroj, skupinu zdrojů nebo poplatek za servis.  
+> Pole **Typ úpravy** a **Částka** spolupracují a určují, zda se úprava týká pevné částky, nebo se použije pouze v případě, že celková cena služby překročí nebo je nižší než částka v poli **Částka**.
 
-## <a name="to-set-up-additional-costs-for-services"></a>Stanovení dodatečných nákladů za servis
-Při práci s předměty servisu a servisními zakázkami budete možná muset zaregistrovat další náklady, například cestovní náklady do konkrétních zón servisu, nebo počáteční poplatky. Když vytvoříte servisní zakázku, můžete vložit tyto náklady, a do objednávky bude přidán řádek  **Náklady**. Alternativně, pokud chcete použít náklady na všechny servisní zakázky, můžete nastavit výchozí náklad. Pokud například chcete vždy použít počáteční poplatek.
-  
-### <a name="to-set-up-service-costs"></a>Nastavení Servisních nákladů
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Náklady na servis** a poté vyberte související odkaz. 
-2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## Nastavení skupin úprav cen servisu
+Můžete nastavit skupiny pro úpravu cen, abyste mohli upravit ceny předmětů servisu. Můžete například nastavit skupiny úprav cen, které upraví cenu dopravného nebo náhradních dílů.
 
-### <a name="to-specify-a-default-cost-for-service-orders"></a>Nastavení výchozích nákladů na servisní zakázky
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení servisu** a poté vyberte související odkaz. 
-2. V poli **Počáteční poplatek servisní zakázky** vyberte příslušné servisní náklady.
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat<"), zvolte **Skupina úpravy ceny servisu** a poté vyberte související odkaz.
+2. Vytvořte novou skupinu úpravy ceny servisu
+3. Vyplňte pole **Kód** a **Popis**.
+4. Do pole **Typ** zadejte typ položky, kterou chcete upravit.
 
-## <a name="see-also"></a>Viz také
-[Nastavení Správy servisu](service-setup-service.md)  
-[Správa servisu](service-service.md)  
+   * Chcete-li upravit pouze jednu konkrétní položku, zadejte číslo této položky do pole **Číslo**. Když toto pole necháte prázdné, vaše skupina úprav upraví všechny položky typu definovaného v poli **Typ**.
+   * Chcete-li upravit ceny služeb související pouze s jednou konkrétní službou, vyplňte pole **Typ práce** Když toto pole necháte prázdné, bude ignorováno.
+
+5. Do pole **Popis** zadejte krátký popis úpravy ceny servisu.
+6. Chcete-li upravit ceny servisu související pouze s jednou konkrétní obecnou skupinou účtování produktů, vyplňte **Obecná účto  skupina zboží.** field.
+
+> [!Tip]
+> Můžete zvolit **Podrobnosti** a přidat další informace o skupině úprav. Můžete například určit, která položka patří do skupiny úpravy ceny služby a zda se jedná o položku, zdroj, skupinu zdrojů nebo poplatek za servis.
+
+## Nastavení dodatečných nákladů na servis
+Při práci se předměty servisu a servisními zakázkami může být nutné evidovat další náklady, například náklady na cesty do jednotlivých servisních zón nebo startovné. Při vytváření servisní zakázky můžete tyto náklady vložit a do zakázky se přidá řádek typu **náklady**. Pokud chcete náklady použít na všechny servisní zakázky, můžete nastavit výchozí náklady. Například pokud chcete vždy uplatnit počáteční poplatek.
+
+### Nastavení servisních nákladů
+1. Vyberte ikonu ![Žárovky, která otevře ikonu Řekněte mi](media/ui-search/search_small.png "Řeknete mi, co chcete dělat"), zadejte **Náklady na servis** a poté vyberte související odkaz.
+2. Vyplňte pole podle potřeby. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### To specify a default cost for service orders
+1. Vyberte ikonu ![Žárovky, která otevře ikonu Řekněte mi](media/ui-search/search_small.png "Řeknete mi, co chcete dělat"), zadejte **Nastavení servisu** a poté vyberte související odkaz.
+2. V poli **Počáteční poplatek za servisní zakázku** vyberte příslušné náklady na služby.
+
+## Viz také
+[Nastavení správy servisu](service-setup-service.md)  
+[Správa servisu](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

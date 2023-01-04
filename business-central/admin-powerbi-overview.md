@@ -41,15 +41,15 @@ Následující tabulka popisuje dostupné funkce.
 
 ## Architektura
 
-[!INCLUDE[prod_short](includes/prod_short.md)] se integruje s Power BI prostřednictvím konektoru pomocí OData. The data source for Power BI reports is exposed as API pages and OData web services.
+[!INCLUDE[prod_short](includes/prod_short.md)] se integruje s Power BI prostřednictvím konektoru pomocí OData. Zdroj dat pro sestavy Power BI je vystaven jako stránky API a webové služby OData.
 
-![Power BI architecture for integration with Business Central.](./media/power-bi-architecture.png)
+![Architektura Power BI pro integraci s Business Central.](./media/power-bi-architecture.png)
 
 ## Obecný tok
 
 Následující diagram znázorňuje základní workflow pro uživatele při připojování [!INCLUDE[prod_short](includes/prod_short.md)] do Power BI.
 
-![Power BI workflow  for integration with Business Central.](./media/power-bi-flow.png)
+![Workflow Power BI pro integraci s Business Central.](./media/power-bi-flow.png)
 
 1. Uživatel se zaregistruje k účtu Power BI.
 2. Uživatel se připojuje k Power BI z [!INCLUDE[prod_short](includes/prod_short.md)].

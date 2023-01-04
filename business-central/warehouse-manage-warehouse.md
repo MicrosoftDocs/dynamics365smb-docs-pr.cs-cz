@@ -1,45 +1,50 @@
 ---
-title: Skladové aktivity | Microsoft Docs
-description: 'Po přijetí zboží a před odesláním zboží probíhá řada interních činností skladu, aby byl zajištěn efektivní tok zboží přes sklad a aby byla organizována a udržována inventura společnosti.'
-services: project-madeira
-documentationcenter: ''
+title: Manage Warehouse Activities
+description: After goods are received and before goods are shipped, a series of internal warehouse activities take place to ensure an effective flow through the warehouse.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+
+
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: null
-ms.date: 10/01/2018
-ms.author: sgroespe
+ms.search.form: 5774, 5776, 5777, 5785, 5793, 5797, 7318, 7364, 7401, 8909, 9000, 9008, 9009, 9050, 9053, 9056
+ms.date: 06/25/2021
+ms.author: edupont
+
 ---
-# <a name="warehouse-management"></a>Správa skladů
-Po přijetí zboží a před odesláním zboží probíhá řada interních činností skladu, aby byl zajištěn efektivní tok zboží přes sklad a aby byla organizována a udržována inventura společnosti.
+# Správa skladu
 
-Typické skladové aktivity zahrnují zaskladnění zboží, přesouvání zboží uvnitř nebo mezi sklady a vyskladnění zboží pro montáž, výrobu nebo dodávku. Montáž zboží za účelem prodeje nebo inventarizace lze rovněž považovat za aktivity skladu, ale tyto položky jsou zahrnuty jinde. Pro více informací navštivte [Správa montáže](assembly-assemble-items.md).  
+Po přijetí zboží a před jeho odesláním probíhá řada interních skladových činností, jejichž cílem je zajistit efektivní tok ve skladu a organizovat a udržovat zásoby společnosti.
 
-Ve velkých skladech lze tyto různé úlohy zpracování oddělit podle oddělení a integrace spravované řízeným pracovním postupem. V jednodušších instalacích je tok méně formální a aktivity skladu jsou prováděny pomocí takzvaných zaskladnění zásob a vyskladnění zásob. Další informace o základních a pokročilých konfiguracích skladu najdete v [Podrobnosti návrhu: Přehled skladů](design-details-warehouse-overview.md).
+Typické skladové činnosti zahrnují zaskladnění zboží, přesuny zboží uvnitř skladu nebo mezi sklady a vychystávání zboží pro montáž, výrobu nebo expedici. Montáž zboží k prodeji nebo inventarizace může být také považována za skladovou činnost, ale ty jsou zahrnuty jinde. Pro více informací navštivte [Správa montáže](assembly-assemble-items.md).
 
-Před provedením aktivit skladu je nutné nastavit systém pro příslušnou složitost zpracování ve skladu. Pro více informací navštivte [Nastavení správy skladu](warehouse-setup-warehouse.md).
+Ve velkých skladech lze tyto různé manipulační úkoly oddělit podle oddělení a integraci řídit pomocí řízeného pracovního postupu. V jednodušších zařízeních je tok méně formalizovaný a skladové činnosti se provádějí pomocí tzv. vyskladňování a zaskladňování zboží. Další informace o základních a pokročilých konfiguracích skladu naleznete v části [Detaily návrhu: Přehled skladu](design-details-warehouse-overview.md).
 
-Úlohy související se zásobami pro počítání, úpravy a přeřazení zboží mohou zahrnovat úlohy skladu, které musí být provedeny v položkách skladu předtím, než je lze synchronizovat se souvisejícími položkami zboží. Pro více informací navštivte [Počítání, adjustace a přeřazení zboží](inventory-how-count-adjust-reclassify.md).
+Než budete moci provádět činnosti skladu, musíte nastavit systém pro příslušnou složitost zpracování skladu. Pro více informací navštivte [Nastavení správy skladu](warehouse-setup-warehouse.md).
 
- Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.   
+Úkoly inventury, úpravy a přeřazení zboží související se skladem mohou zahrnovat skladové úkoly, které musí být provedeny u položek skladu před jejich synchronizací se souvisejícími položkami zboží. Pro více informací navštivte [Výpočet, úprava a přeřazení zásob](inventory-how-count-adjust-reclassify.md).
 
-|**Viz**|**také**|  
+Následující tabulka popisuje sekvenci úloh s odkazy na témata, které je popisují.
+
+| **Viz** | **také** |
 |------------|-------------|  
-|Zaznamenání příjmu zboží do skladových lokací, a to buď pouze s nákupní objednávkou, v jednoduchém nastavení skladů nebo s příjmem na sklad v případě polonebo plně automatizovaného zpracování skladu v lokaci.|[Příjem zboží](warehouse-how-receive-items.md)|
-|Vynechání procesů zaskladnění a vyskladnění za účelem urychlení  příjmu zboží  přímo z objednávky nebo z výroby do expedice|[Položky přeložení](warehouse-how-to-cross-dock-items.md)|    
-|Zaskladnění zboží přijatého z nákupů, prodejních vratek, transferů nebo výstupu výroby podle nakonfigurovaného procesu skladu|[Zaskladnění zboží](warehouse-put-away-items.md)|
-|Přesun zboží mezi přihrádkami ve skladu|[Přesouvání zboží](warehouse-move-items.md)|
-|Vyskladnění zboží, které má být dodáno, převedeno nebo spotřebováno v montáži nebo výrobě, podle konfigurovaného procesu skladu|[Vyskladnění zboží](warehouse-pick-items.md)|
-|Poznamenejte si dodávku zboží ze skladových lokací, a to buď pouze s prodejní objednávkou, v jednoduchém nastavení skladu, nebo s dodávkou ze skladu, v případě polotovarů nebo plně automatizovaných skladových procesů v lokaci.|[Odeslání položek](warehouse-how-ship-items.md)|  
+| Evidence příjmu (včetně převzetí) zboží na lokacích, a to buď pouze pomocí nákupního příkazu v případě jednoduchého nastavení skladu, nebo pomocí skladové příjemky v případě poloautomatizovaného nebo plně automatizovaného skladového zpracování na místě. | [Příjem zboží](warehouse-how-receive-items.md) |
+| Obejití procesů vyskladnění a zaskladnění, abyste urychlili položku přímo z příjmu nebo výroby do expedice. | [Přeožení zboží](warehouse-how-to-cross-dock-items.md) |
+| Zaskladnění zboží z nákupů, vrácených prodejů, převodů nebo výstupů z výroby podle nakonfigurovaného skladového procesu. | [Zaskladnění zboží](warehouse-put-away-items.md) |
+| Přesouvání zboží mezi přihrádkami | [Přesouvání zboží](warehouse-move-items.md) |
+| Vychystávání položek, které mají být odeslány, přeneseny nebo spotřebovány při montáži či výrobě, podle nakonfigurovaného skladového procesu. | [Vyskladňování zboží](warehouse-pick-items.md) |
+| Evidence expedice zboží ze skladových míst, a to buď pouze s prodejní objednávkou v případě jednoduchého nastavení skladu, nebo se skladovou dodávkou v případě poloautomatizovaných nebo plně automatizovaných skladových procesů na místě. | [Dodání zboží](warehouse-how-ship-items.md) |
 
-## <a name="see-also"></a>Viz také  
+## Viz také
+
 [Zásoby](inventory-manage-inventory.md)  
-[Nastavení správy skladů](warehouse-setup-warehouse.md)     
-[Správa montáže](assembly-assemble-items.md)    
-[Podporbnosti návrhu: Správa skladu](design-details-warehouse-management.md)  
-[Práce s[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Nastavení správy skladu](warehouse-setup-warehouse.md)  
+[Správa montáže](assembly-assemble-items.md)  
+[Detaily návrhu: Správa skladu](design-details-warehouse-management.md)    
+[Práce s [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
