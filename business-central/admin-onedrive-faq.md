@@ -57,7 +57,7 @@ Integrace předpokládá, že názvy společností jsou v prostředích [!INCLUD
 
 [!INCLUDE[prod_short](includes/prod_short.md)] automaticky nemigruje soubory, které jste otevřeli dříve na OneDrivu, do nové složky. Po přejmenování vaší společnosti akce Otevřít na OneDrivu zkopíruje soubory do složky s novým názvem společnosti.
 
-## Při připojování souborů k [! INCLUDE[prod_short](includes/prod_short.md)], jak vyberu soubor z OneDrivu?
+## Při připojování souborů k [!INCLUDE[prod_short](includes/prod_short.md)], jak vyberu soubor z OneDrivu?
 [!INCLUDE[prod_short](includes/prod_short.md)] neposkytuje výběr cloudového souboru. Soubor si musíte stáhnout z OneDrivu do svého zařízení a pak ho nahrát do [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Chci místo toho otevřít soubory ve službě SharePoint. Jak to mám udělat?

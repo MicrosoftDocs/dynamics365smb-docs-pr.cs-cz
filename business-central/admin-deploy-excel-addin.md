@@ -14,7 +14,7 @@ ms.author: jswymer
 ---
 # Získejte doplněk Business Central pro Excel
 
-[! INCLUDE[prod_short](includes/prod_short.md)] obsahuje doplněk pro excel, který umožňuje uživatelům vybrat akci **Upravit v excelu** na určitých stránkách a otevřít tak data v excelovém listu. Tato akce se liší od akce **Otevřít v aplikaci Excel**, protože umožňuje uživatelům provádět změny v aplikaci Excel a poté publikovat změny zpět do [! INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)] obsahuje doplněk pro excel, který umožňuje uživatelům vybrat akci **Upravit v excelu** na určitých stránkách a otevřít tak data v excelovém listu. Tato akce se liší od akce **Otevřít v aplikaci Excel**, protože umožňuje uživatelům provádět změny v aplikaci Excel a poté publikovat změny zpět do [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## Přehled
 
@@ -45,11 +45,11 @@ Tento stav je způsoben skutečností, že každému souboru aplikace Excel je p
 
 ## Příprava (pouze on-premise)
 
-[! INCLUDE[prod_short](includes/prod_short.md)] v místním prostředí vyžaduje, aby vaše prostředí bylo nakonfigurované pro doplněk. Pokud ne, akce **Upravit v Excelu** nebude uživatelům k dispozici. Další informace naleznete v části [Nastavení doplňku aplikace Excel pro úpravu dat Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) v nápovědě pro vývojáře a IT profesionály.
+[!INCLUDE[prod_short](includes/prod_short.md)] v místním prostředí vyžaduje, aby vaše prostředí bylo nakonfigurované pro doplněk. Pokud ne, akce **Upravit v Excelu** nebude uživatelům k dispozici. Další informace naleznete v části [Nastavení doplňku aplikace Excel pro úpravu dat Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) v nápovědě pro vývojáře a IT profesionály.
 
 ## Nasazení doplňku pomocí centralizovaného nasazení
 
-Centralizované nasazení je funkce v Centru pro správu Microsoft 365, kterou používáte k automatické instalaci doplňků do aplikací Office, jako je Excel. Abychom vám pomohli s centralizovaným nasazením, [! INCLUDE[prod_short](includes/prod_short.md)] zahrnuje asistovanou instalaci **centralizovaného nasazení doplňku aplikace Excel**.
+Centralizované nasazení je funkce v Centru pro správu Microsoft 365, kterou používáte k automatické instalaci doplňků do aplikací Office, jako je Excel. Abychom vám pomohli s centralizovaným nasazením, [!INCLUDE[prod_short](includes/prod_short.md)] zahrnuje asistovanou instalaci **centralizovaného nasazení doplňku aplikace Excel**.
 
 ### Než začnete
 
@@ -58,13 +58,13 @@ Centralizované nasazení je funkce v Centru pro správu Microsoft 365, kterou p
 - Pokud přecházíte z individuální akvizice, přečtěte si téma [Přechod z individuální akvizice na centralizované nasazení.](#switch)
 
 > [!NOTE]
-> Povolení centralizovaného nasazení ovlivní funkce, které používají doplněk aplikace Excel, jako je například akce **Upravit v aplikaci Excel**. Nemá žádný vliv na jiné funkce související s aplikací Excel a nebo oprávnění přiřazená uživatelům v [! INCLUDE[prod_short](includes/prod_short.md)]
+> Povolení centralizovaného nasazení ovlivní funkce, které používají doplněk aplikace Excel, jako je například akce **Upravit v aplikaci Excel**. Nemá žádný vliv na jiné funkce související s aplikací Excel a nebo oprávnění přiřazená uživatelům v [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### Nastavení centralizovaného nasazení doplňku
 
 Budete pracovat v [!INCLUDE[prod_short](includes/prod_short.md)] i v centru pro správu Microsoft 365.
 
-1. V [! INCLUDE[prod_short](includes/prod_short.md)], vyberte ![žárovku, která otevře funkci Řekněte mi.](media/ui-search/search_small.png " Řekněte mi, co chcete udělat"), zadejte **Centralizované nasazení doplňku Excelu** a pak vyberte související odkaz.
+1. V [!INCLUDE[prod_short](includes/prod_short.md)], vyberte ![žárovku, která otevře funkci Řekněte mi.](media/ui-search/search_small.png " Řekněte mi, co chcete udělat"), zadejte **Centralizované nasazení doplňku Excelu** a pak vyberte související odkaz.
 2. Přečtěte si informace na stránce **Nastavení doplňku Business Central Excel** a zvolte **Další**.
 3. Přihlaste se k [Centru pro správu Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967) a přejděte na **Integrované aplikace**<!--**Add-ins**-->.
 

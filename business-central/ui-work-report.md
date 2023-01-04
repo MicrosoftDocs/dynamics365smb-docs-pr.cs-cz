@@ -68,7 +68,7 @@ V náhledu použijte panel nabídek na náhledu sestavy, abyste:
 - Měnili velikost stránky
 - Vybírali text
 
-   Můžete zkopírovat text ze sestavy a pak ho vložit někam jinam, například na stránku do [! INCLUDE[prod_short](includes/prod_short.md)] nebo Microsoft Word.  Například pomocí myši stisknete a podržíte tlačítko v místě, kde chcete začít. Pak pohybem myši vyberte jedno nebo více slov, vět nebo odstavců. Stiskněte pravé tlačítko myši a vyberte **Kopírovat**. Potom vložte vybraný text na požadované místo.
+   Můžete zkopírovat text ze sestavy a pak ho vložit někam jinam, například na stránku do [!INCLUDE[prod_short](includes/prod_short.md)] nebo Microsoft Word.  Například pomocí myši stisknete a podržíte tlačítko v místě, kde chcete začít. Pak pohybem myši vyberte jedno nebo více slov, vět nebo odstavců. Stiskněte pravé tlačítko myši a vyberte **Kopírovat**. Potom vložte vybraný text na požadované místo.
 - Posun dokumentu
 
    Viditelnou část sestavy můžete přesunout libovolným směrem, abyste si mohli prohlédnout jiné oblasti nebo sestavu. To je užitečné, pokud jste přiblížili zobrazení, aby jste viděli podrobnosti.  Pomocí myši stiskněte a podržte tlačítko myši kdekoli v náhledu zprávy a poté pohněte myší.

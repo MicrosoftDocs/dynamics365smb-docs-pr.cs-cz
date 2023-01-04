@@ -24,7 +24,7 @@ I když to není požadavek, společnosti zákazníka a dodavatele jsou obvykle 
 ## Než začnete
 Před konsolidací zůstatků zadejte na stránce **Nastavení marketingu** několik nastavení.
 
-* Na záložce **Interakce** je nutné zadat kódy obchodních vztahů v polích **Zákazníci** a **Dodavatelé**. [! INCLUDE[prod_short](includes/prod_short.md)] používá tyto informace k určení typu relace, která se má zobrazit pro kontakty.
+* Na záložce **Interakce** je nutné zadat kódy obchodních vztahů v polích **Zákazníci** a **Dodavatelé**. [!INCLUDE[prod_short](includes/prod_short.md)] používá tyto informace k určení typu relace, která se má zobrazit pro kontakty.
 * Volitelné: Na záložce **Duplikáty** zapněte nebo vypněte duplicitní vyhledávání. Ve výchozím nastavení je duplicitní vyhledávání zapnuto. Další informace naleznete v tématu [Zpracování duplicit](#handling-duplicates).
 
 ## Propojte stávajícího zákazníka a dodavatelskou společnost prostřednictvím kontaktu

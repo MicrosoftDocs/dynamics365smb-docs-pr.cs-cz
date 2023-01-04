@@ -140,7 +140,7 @@ Můžete také odstranit jednotlivá přizpůsobení stránky pro profil. Pro v�
 
 Jako správce [!INCLUDE[prod_short](includes/prod_short.md)] online, můžete spravovat uživatelské relace v centru pro správu. Pro více informací navštivte [Správa relací](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) v obsahu správy.
 
-Pro [! INCLUDE[prod_short](includes/prod_short.md)] v místním prostředí, můžete spravovat relace například pomocí SQL Server Management Studio. Pro více informací navštivte [SQL Server technická dokumentace](/sql/sql-server).
+Pro [!INCLUDE[prod_short](includes/prod_short.md)] v místním prostředí, můžete spravovat relace například pomocí SQL Server Management Studio. Pro více informací navštivte [SQL Server technická dokumentace](/sql/sql-server).
 
 ## Viz také
 [Přiřazení oprávnění uživatelům a skupině](ui-define-granular-permissions.md)  
