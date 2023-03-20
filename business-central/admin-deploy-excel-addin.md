@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/07/2021
+ms.date: 01/03/2023
 ms.author: jswymer
 
 ---
@@ -165,8 +165,8 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 
 ## Viz také
 
-[Analýza účetní uzávěrky v aplikaci Microsoft Excel](finance-analyze-excel.md)    
-[Práce s Business Central](ui-work-product.md)    
+[Analýza účetní uzávěrky v aplikaci Microsoft Excel](finance-analyze-excel.md)  
+[Práce s Business Central](ui-work-product.md)  
 [Vylepšení integrace Excelu ve druhé vlně vydání 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 
