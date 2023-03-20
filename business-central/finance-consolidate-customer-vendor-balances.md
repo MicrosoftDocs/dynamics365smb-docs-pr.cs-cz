@@ -26,7 +26,7 @@ I když to není požadavek, společnosti zákazníka a dodavatele jsou obvykle 
 Před konsolidací zůstatků zadejte na stránce **Nastavení marketingu** několik nastavení.
 
 * Na záložce **Interakce** je nutné zadat kódy obchodních vztahů v polích **Zákazníci** a **Dodavatelé**. [!INCLUDE[prod_short](includes/prod_short.md)] používá tyto informace k určení typu relace, která se má zobrazit pro kontakty.
-* Volitelné: Na záložce **Duplikáty** zapněte nebo vypněte duplicitní vyhledávání. Ve výchozím nastavení je duplicitní vyhledávání zapnuto. Další informace naleznete v tématu [Zpracování duplicit](finance-consolidate-customer-vendor-balances.md#Zpracování duplicit).
+* Volitelné: Na záložce **Duplikáty** zapněte nebo vypněte duplicitní vyhledávání. Ve výchozím nastavení je duplicitní vyhledávání zapnuto. Další informace naleznete v tématu [Zpracování duplicit](finance-consolidate-customer-vendor-balances.md#handling-duplicates).
 
 ## Propojte stávajícího zákazníka a dodavatelskou společnost prostřednictvím kontaktu
 
@@ -56,7 +56,7 @@ Na stránce **Deník plateb** použijte akci **Čisté zůstatky zákazníků/do
 > [!NOTE]
 > Pokud zůstatky zákazníka nebo dodavatele obsahují částky, které jsou v různých měnách, vytvoří se řádek pro částku v každé měně.
 
-## Zpracování duplicit
+## <a name="handling-duplicates"></a>Zpracování duplicit
 
 Pokud zapnete duplicitní vyhledávání na záložce **Duplikáty** na stránce **Nastavení marketingu**, zobrazí se upozornění při změně hodnot polí, která jsou součástí nastavení duplicitních vyhledávacích řetězců. Když je nalezen duplikát, můžete provést následující akce:
 
