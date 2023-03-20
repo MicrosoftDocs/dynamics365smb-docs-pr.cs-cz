@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
-ms.date: 05/19/2021
+ms.date: 03/20/2023
 ms.author: bholtorf
 ---
 # Nejčastější dotazy k OneDrive pro firmy
@@ -58,6 +58,7 @@ Integrace předpokládá, že názvy společností jsou v prostředích [!INCLUD
 [!INCLUDE[prod_short](includes/prod_short.md)] automaticky nemigruje soubory, které jste otevřeli dříve na OneDrivu, do nové složky. Po přejmenování vaší společnosti akce Otevřít na OneDrivu zkopíruje soubory do složky s novým názvem společnosti.
 
 ## Při připojování souborů k [!INCLUDE[prod_short](includes/prod_short.md)], jak vyberu soubor z OneDrivu?
+
 [!INCLUDE[prod_short](includes/prod_short.md)] neposkytuje výběr cloudového souboru. Soubor si musíte stáhnout z OneDrivu do svého zařízení a pak ho nahrát do [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Chci místo toho otevřít soubory ve službě SharePoint. Jak to mám udělat?
@@ -96,6 +97,7 @@ Když se zobrazí tato zpráva "Nelze určit umístění vašeho OneDrivu pro fi
 
 
 ## Viz také
+
 [Integrace Business Central a OneDrive](across-onedrive-overview.md)  
 [Správa integrace OneDrive s Business Central](admin-onedrive-integration.md)  
 [Otevírání souborů Business Central na OneDrive](across-share-onedrive.md)
