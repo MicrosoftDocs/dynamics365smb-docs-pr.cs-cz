@@ -10,7 +10,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Czech Intrastat
+# České hlášení Intrastatu
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
@@ -25,34 +25,29 @@ Dynamics 365 Business Central poskytuje funkce, které umožňují shromažďova
 - Vytvoření a odeslání souboru výkazu pro Intrastat
 - Odeslání výkazu Intrastat v souladu s požadavky ČR.
 
-## Rozšíření nastavení
+## Rozšíření nastavení pro Intrastat CZ
 
-### Statistický údaj
+- **Statistický údaj** - číselník je doplněn do řádků Hlášení Intrastat a do exportu výkazu.
+- **Dodací skupiny Intrastat** - číselník je doplněn do Způsobů dodávky, řádků hlášení Intrastat a do exportu výkazu.
+- **Poplatky za zboží** - doplněno pole **Zahrnout do částky Intrastat** umožňující uživateli stanovit, které poplatky mají být zahrnuty do částky Intrastat. Použití či nepoužítí částky poplatku pro Intrastat je možno ovlivnit zpětně i pro již zaúčtované položky.
+- **Karta zboží** je pro účely Intrastatu doplněna o pole **Specifický pohyb** a **Statistický údaj**.
 
-Číselník je doplněn do řádků Hlášení Intrastat a do exportu výkazu.
-
-### Dodací skupiny Intrastat
-
-Číselník je doplněn do Způsobů dodávky, řádků Hlášení Intrastat a do exportu výkazu.
-
-### Poplatky za zboží
-
-Doplněno pole **Zahrnout do částky Intrastat** umožňující uživateli stanovit, které poplatky mají být zahrnuty do částky Intrastat. Použití či nepoužítí částky poplatku pro Intrastat je možno ovlivnit zpětně i pro již zaúčtované položky.
-
-### Nastavení hlášení Intrastat
+## Nastavení hlášení Intrastat
 
 Nastavení hlášení Intrastat bylo doplněno o tato pole:
 
 - **Typ zaokrouhlení intrastat** - určuje typ zaokrouhlování pro výpočet částek při vytváření hlášení Intrastat a umožňuje nastavit zaokrouhlení Nahoru, Dolu nebo Nejbližší.
-- **Výchozí fyz. pohyb - Vratka** - Určuje výchozí hodnotu pole Fyzický pohyb pro prodejní a servisní vratky a vratky nákupu.
-- **Typ transakce je povinný**
-- **Spec. transakce je povinná**
-- **Typ přepravy je povinný**
-- **Způsob dodávky je povinný**
+- **Výchozí fyz. pohyb - Vratka** - Určuje výchozí hodnotu pole Fyzický pohyb pro prodejní a servisní vratky a vratky nákupu.  
+- **Typ transakce je povinný** - kontroluje vyplnění hodnoty při účtování dokladů
+- **Spec. transakce je povinná** - kontroluje vyplnění hodnoty při účtování dokladů
+- **Typ přepravy je povinný** - kontroluje vyplnění hodnoty při účtování dokladů
+- **Způsob dodávky je povinný** - kontroluje vyplnění hodnoty při účtování dokladů
 
-## Export výkazu
+## Použití Hlášení Intrastat
 
-Export výkazu nové funkcionality využívá nastavení **Definice výměny dat**. Pro nový CZ Intrastat byla vytvořena nová definice, která dodržuje současnou podobu výkazu CZ Intrastatu.
+- Funkce **Získat řádky hlášení Intrastat** naplní řádky hlášení Intrastatu se zohledněním použití či nepoužítí částky poplatků za zboží a způsobu zaokrouhlení částek.
+- **Kontrolní sestava** provede standardní kontroly hlášení Intrastatu včetně doplněných kontrol na povinná pole Typ transakce, Spec. transakce, Typ přepravy a Způsob dodávky.
+- **Vytvořit soubor** vyexportuje hlášení Intrastat. Export výkazu využívá nastavení **Definice výměny dat**, která dodržuje současnou podobu výkazu CZ Intrastatu. Definice výměny dat umožňuje export dat uživatelsky upravovat.
 
 ## Viz také
 
