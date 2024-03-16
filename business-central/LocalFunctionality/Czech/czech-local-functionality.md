@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 09/01/2022
+ms.date: 09/01/2024
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -45,6 +45,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
   * [Sestavy DPH](vat-reports-cz.md) **Nyní k dispozici**
   * [Korekce DPH v lokální měně](how-to-setup-vat-correction-local-currency.md) **Nyní k dispozici**
   * [Intrastat CZ](intrastat.md) **Nyní k dispozici**
+  * [Intrastat pro Česko (rozšíření)](ui-extensions-intrastat-localization-cz.md) **Nyní k dispozici**
 
 * **Dlouhodobý majetek**
   * [Dlouhodobý majetek pro Česko (rozšíření)](ui-extensions-fixed-asset-localization-cz.md) **Nyní k dispozici**
