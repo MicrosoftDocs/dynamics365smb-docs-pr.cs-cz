@@ -9,7 +9,7 @@ ms.service: dynamics-365-business-central
 ## [Přehled Obchodních Funkcionalit](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Vzdělávání
-### [Katalog vzdělávání Business Central](readiness/readiness-learning-catalog.md)
+### [Zdroje pro uživatele](resources-for-users.md)
 ### [Business Central školení](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Návody obchodních procesů
 #### [Dostupné návody](walkthrough-business-process-walkthroughs.md)
@@ -122,8 +122,8 @@ ms.service: dynamics-365-business-central
 ### [Řešení problémů s automatickým přihlašováním](ui-troubleshoot-self-signup.md)
 ### [Rozšiřte svou skušební verzi](admin-extend-trial.md)
 ### [Zrušení předplatního anebo zrušení Business Central](admin-cancel.md)
-## Nákup
-### [Začátek předplatního](trial-signup.md#get-started-with-a-subscription)
+## Koupit
+### [Začátek předplatného](trial-signup.md)
 ### [Příprava pro podnikání](ui-get-ready-business.md)
 
 ## Rychlý start
@@ -138,7 +138,7 @@ ms.service: dynamics-365-business-central
 <!--use-->
 ## Buďte produktivní v Business Central
 ### [Přehled základních funkcionalit](ui-work-product.md)
-### [Šablony vhodné pro tisk](ui-work-product.md#cheatsheet)
+### [Přehledný tahák pro tisk](ui-work-product.md)
 ### [Vyhledávání stránek a informací pomocí aplikace Řekni mi](ui-search.md)
 ### [Často klazené otázky ohledně funkce Řekni mi](ui-search-faq.md)
 ### [Hledání Specifických Dat](ui-search-data.md)
@@ -280,7 +280,7 @@ ms.service: dynamics-365-business-central
 ##### [Použití OCR k přeměně souborů PDF a obrázků na elektronické dokumenty](across-how-use-ocr-pdf-images-files.md)
 ##### [Příjem a konverze elektronických dokumentů](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ##### [Nastavení služby Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
-##### [Export plateb do bankovního souboru](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+##### [Export plateb do bankovního souboru](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Provádění plateb pomocí rozšíření AMC Banking 365 Fundamentals nebo SEPA úhrady](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Inkaso plateb pomocí přímého inkasa SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [Mapování polí při importu souborů SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -405,7 +405,6 @@ ms.service: dynamics-365-business-central
 #### [Zaúčtování závěrečného záznamu na konci roku](year-how-post-year-end-close-entry.md)
 
 ### Práce s účetní osnovou a hlavní knihou
-účetní knihy
 #### [Porozumění účetní knize a účtové osnově](finance-general-ledger.md)
 #### [Kontrola účtů](finance-review-accounts.md)
 #### [Přímé zaúčtování transakcí do účetní knihy](finance-how-post-transactions-directly.md)
@@ -610,13 +609,13 @@ ms.service: dynamics-365-business-central
 ### [O funkci plánování](production-about-planning-functionality.md)
 ### [Plánováni s lokací a bez lokací](production-planning-with-without-locations.md)
 ### [Tvorba prognóz](production-how-to-create-a-forecast.md)
-### [Tvorba výrobních objednávek z prodejních objednávek](production-how-to-create-production-orders-from-sales-orders.md)
-### [Plán nové poptávky Objednávka po objednávce](production-how-to-plan-for-new-demand.md)
+### [Tvorba výrobních zakázek z prodejních objednávek](production-how-to-create-production-orders-from-sales-orders.md)
+### [Plánování nové poptávky po jednotlivých objednávkách](production-how-to-plan-for-new-demand.md)
 ### [Spustit úplné plánování, MPS nebo MRP](production-how-to-run-mps-and-mrp.md)
 ### [Přímé plánování nebo aktualizace výrobních zakázek](production-how-to-replan-refresh-production-orders.md)
 ### [Sledování vztahů mezi poptávkou a nabídkou](production-how-track-demand-supply.md)
-### [Požadavkový list](production-about-planning-functionality.md#requisition-worksheet)
-### [Hlášení o akcích](production-how-to-run-mps-and-mrp.md#action-messages)
+### [Sešit požadavků](production-about-planning-functionality.md)
+### [Hlášení akcí](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -1793,30 +1792,30 @@ ms.service: dynamics-365-business-central
 #### [Zobrazení dostupnosti zboží](inventory-how-availability-overview.md)
 #### [Práce se sériovými čisly a čísly šarží](inventory-how-work-item-tracking.md)
 #### [Sledování zboží - Sledované zboží](inventory-how-to-trace-item-tracked-items.md)
-#### [Audit odsouhlasení mezi knihou zásob a hlavní knihou](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Zobrazení křížově dokládaného zboží v listu dodávky nebo vyskladnění](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+#### [Audit odsouhlasení mezi knihou zásob a hlavní knihou](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### [Zobrazení křížově dokládaného zboží v listu dodávky nebo vyskladnění](warehouse-how-to-cross-dock-items.md)
 
 ### Projekty
 #### [Sestavy projetků](project-reports.md)
-#### [Zobrazit odhady využití úloh](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Zobrazit odhady využití úloh](projects-how-record-job-usage.md)
 #### [Sledování průběhu a výkonu projektu](projects-how-monitor-progress-performance.md)
 
 ### Dlouhodobý majetek
 #### [Sestavy dlouhodobého majetku](fa-reports.md)
 #### [Monitorování nákladů na údržbu](fa-how-maintain.md#to-monitor-maintenance-costs)
 #### [Sledování pojistného krytí](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Zobrazení změněných účetních hodnot odpisů](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Zobrazení záznamů v knize likvidace](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Zobrazení předpokládané hodnoty likvidace](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Zobrazení změněných účetních hodnot odpisů](fa-how-trans-split-combine.md)
+#### [Zobrazení záznamů v knize likvidace](fa-how-dispose-retire.md)
+#### [Zobrazení předpokládané hodnoty likvidace](fa-how-manage-budgets.md)
 
 ### Správa montáže
 #### [Správa sestav montáže](assembly-reports.md)
-#### [Zobrazení struktury kusovníku (BOM)](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+#### [Zobrazení struktury kusovníku (BOM)](assembly-how-work-assembly-boms.md)
 
 ### Výroba
 #### [Sestavy o výrobě](production-reports.md)
 #### [Zobrazení zatížení v pracovních a strojních centrech](production-how-to-view-the-load-on-work-centers.md)
-#### [Zobrazení záznamů v účetní osnově pracovního střediska](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+#### [Zobrazení záznamů v účetní osnově pracovního střediska](production-how-to-post-capacities.md)
 
 ### Správa servisu
 #### [Zobrazení statistiky servisu](service-service-statistics.md)
