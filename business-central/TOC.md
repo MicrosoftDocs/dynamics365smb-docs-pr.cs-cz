@@ -5,7 +5,7 @@ ms.service: dynamics-365-business-central
 # [Business Central Dokumentace](index.yml)
 # [Vítejte v Business Central](welcome.md)
 # [Novinky a plánované novinky](product-news.md)
-# Get Started
+# Začínáme
 ## [Přehled Obchodních Funkcionalit](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Vzdělávání
@@ -1880,7 +1880,7 @@ ms.service: dynamics-365-business-central
 ### [Certifikace](compliance/compliance-certifications.md)
 ## [Přehled služeb](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 ## [Zkušební funkce, které se připojují k dalším službám společnosti Microsoft](privacy-connected-services.md)
-# vývoj a správa
+# Vývoj a správa
 ## [Začínáme s dokumentací vývoje a správy](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Úkoly správy v Business Central
 ### [Úkoly správy](admin-setup-and-administration.md)
