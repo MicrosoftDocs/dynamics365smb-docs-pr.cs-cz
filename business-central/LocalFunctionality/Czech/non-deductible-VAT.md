@@ -205,6 +205,6 @@ Pokud se koeficienty v ukončeném období liší, je možné pomocí dávkové 
 
 [Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
 [České lokální funkcionality](czech-local-functionality.md)  
-[Kontrolní hlášení DPH](how-to-create-vat-control-report.md)  
+[Kontrolní hlášení DPH](vat-control-report.md)  
 [Datum DPH](how-to-setup-vat-date.md)  
 [Finance](../../finance.md)  
