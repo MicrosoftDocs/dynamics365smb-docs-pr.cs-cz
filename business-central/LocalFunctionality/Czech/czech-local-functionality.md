@@ -44,6 +44,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
   * [Kontrolní hlášení DPH](vat-control-report.md) **Nyní k dispozici**
   * [Sestavy DPH](vat-reports-cz.md) **Nyní k dispozici**
   * [Korekce DPH v lokální měně](how-to-setup-vat-correction-local-currency.md) **Nyní k dispozici**
+  * [Neodčitatelná DPH](non-deductible-VAT.md) **Nyní k dispozici**
   * [Intrastat CZ](intrastat.md) **Nyní k dispozici**
   * [Intrastat pro Česko (rozšíření)](ui-extensions-intrastat-localization-cz.md) **Nyní k dispozici**
 
