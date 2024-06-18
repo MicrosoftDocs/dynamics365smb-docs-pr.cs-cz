@@ -871,7 +871,7 @@ ms.service: dynamics-365-business-central
 ##### [Kontrolní hlášení DPH](LocalFunctionality/Czech/vat-control-report.md)
 ##### [Sestavy DPH](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [Korekce DPH v lokální měně](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
-##### [Neodčitatelná DPH](non-deductible-VAT.md)
+##### [Neodčitatelná DPH](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Dlouhodobý majetek
