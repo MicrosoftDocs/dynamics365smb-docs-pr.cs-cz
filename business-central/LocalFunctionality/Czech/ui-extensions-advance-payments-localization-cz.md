@@ -3,10 +3,10 @@ title: Advance Payments Localization for Czech (Extension)
 description: This section describes Advance Payments Localization for Czech extension functionality.
 author: v-pejano
 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 10/01/2021
+ms.date: 06/01/2024
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -35,6 +35,7 @@ Funkcionalita Zálohové platby umožňuje přijímat zálohové faktury od doda
 - Práce s cizí měnou, kurzovými rozdíly mezi zálohovou platbou a fakturou
 - Možnost zrušení přiřazení platby zálohové faktury nebo dodatečné propojení
 - Možnost zrušení propojení konečné faktury se zálohou nebo dodatečné propojení
+- Podpora Center odpovědnosti k dokladům záloh tak, aby se zobrazovaly pouze doklady relevantní pro konkrétního uživatele
 - Reporty pro rekapitulaci úhrad a čerpání záloh, reporty pro rekapitulaci DPH ze záloh  
 
 **Omezení aplikace:**  
