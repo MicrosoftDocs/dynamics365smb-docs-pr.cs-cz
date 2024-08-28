@@ -3,10 +3,10 @@ title: Czech Local Functionality
 description: The following articles describe the local functionality in the Czech version of Business Central.
 author: v-pejano
 
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: article
-ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 09/01/2024
+ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance, Cash, Cash Desk, Functional Currency
+ms.date: 08/28/2024
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -31,6 +31,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
   * [Vyrovnání věcných položek](general-ledger-entries-application.md) **Nyní k dispozici**
   * [Aktualizace směnného kurzu](exchange-rate-update.md) **Nyní k dispozici**
   * [Skupiny finančních účtů – více okruhové účetnictví](how-to-use-multi-circuit-accounting.md) **Nyní k dispozici**
+  * [Funkční měna pro Česko](functional-currency.md) **Nyní k dispozici**
 
 * **DPH**
   * [Datum DPH](how-to-setup-vat-date.md) **Nyní k dispozici**
@@ -45,7 +46,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
   * [Sestavy DPH](vat-reports-cz.md) **Nyní k dispozici**
   * [Korekce DPH v lokální měně](how-to-setup-vat-correction-local-currency.md) **Nyní k dispozici**
   * [Neodčitatelná DPH](non-deductible-VAT.md) **Nyní k dispozici**
-  * [Intrastat CZ](intrastat.md) **Nyní k dispozici**
+  <!-- * [Intrastat CZ](intrastat.md) **Nyní k dispozici** -->
   * [Intrastat pro Česko (rozšíření)](ui-extensions-intrastat-localization-cz.md) **Nyní k dispozici**
 
 * **Dlouhodobý majetek**
@@ -54,7 +55,7 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
 * **Bankovnictví a platby**
   * [Bankovní doklady pro Česko (rozšíření)](ui-extensions-banking-documents-localization-cz.md) **Nyní k dispozici**
   * [Pokladny (rozšíření)](ui-extensions-cash-desk-localization-cz.md) **Nyní k dispozici**
-  * [Elektronická Evidence Tržeb (EET)](eet.md) **Nyní k dispozici**
+  <!--  * [Elektronická Evidence Tržeb (EET)](eet.md) **Nyní k dispozici** -->
   * [Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md) **Nyní k dispozici**
 
 * **Závazky a pohledávky**
@@ -95,3 +96,5 @@ Následující témata popisují lokální funkcionalitu české verze [!INCLUDE
 [Dostupnost pro jednotlivé země/regiony a podporované jazyky](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
